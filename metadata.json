@@ -1,0 +1,6 @@
+{
+  "name": "Khmer Heritage",
+  "description": "Digital encyclopedia and cultural discovery platform exploring Khmer heritage, history, architecture, arts, and traditions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
