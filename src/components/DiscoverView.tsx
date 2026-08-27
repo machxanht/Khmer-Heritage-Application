@@ -70,32 +70,35 @@ export function DiscoverView({
           title={dict.home.pillarsTitle}
         />
         <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
-          {categories.map((c) => (
-            <button
-              key={c.id}
-              onClick={() => onSelectCategory(tData(c.title))}
-              className="kbach-frame group flex flex-col justify-between gap-4 p-4 text-left transition-colors hover:bg-secondary/50 cursor-pointer"
-            >
-              <div>
-                <h3
-                  className={`text-base leading-snug text-foreground font-medium ${
-                    locale === "km" ? "font-khmer" : ""
-                  }`}
-                >
-                  {tData(c.title)}
-                </h3>
-                <p className="text-[11px] text-muted-foreground mt-1 line-clamp-1">
-                  {tData(c.blurb)}
-                </p>
-              </div>
-              <div>
-                <div className="gold-rule mb-2" />
-                <p className="text-[11px] text-muted-foreground">
-                  {tNum(c.count)} {dict.home.entries}
-                </p>
-              </div>
-            </button>
-          ))}
+          {categories.map((c) => {
+            const count = entries.filter((e) => e.categoryId === c.id || e.categoryId === c.slug).length;
+            return (
+              <button
+                key={c.id}
+                onClick={() => onSelectCategory(tData(c.title))}
+                className="kbach-frame group flex flex-col justify-between gap-4 p-4 text-left transition-colors hover:bg-secondary/50 cursor-pointer"
+              >
+                <div>
+                  <h3
+                    className={`text-base leading-snug text-foreground font-medium ${
+                      locale === "km" ? "font-khmer" : ""
+                    }`}
+                  >
+                    {tData(c.title)}
+                  </h3>
+                  <p className="text-[11px] text-muted-foreground mt-1 line-clamp-1">
+                    {tData(c.blurb)}
+                  </p>
+                </div>
+                <div>
+                  <div className="gold-rule mb-2" />
+                  <p className="text-[11px] text-muted-foreground">
+                    {tNum(count)} {dict.home.entries}
+                  </p>
+                </div>
+              </button>
+            );
+          })}
         </div>
 
         {/* Chronology / Era Ribbon */}

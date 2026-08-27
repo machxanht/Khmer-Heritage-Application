@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { Bookmark, Compass, Globe, Landmark, Map, Music4, Search, Sparkles } from "lucide-react";
+import { Bookmark, Compass, Database, Globe, Landmark, Map, Music4, Search } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext.tsx";
 import { useBookmarks } from "../context/BookmarksContext.tsx";
 
@@ -17,13 +17,13 @@ export function AppShell({
   const { locale, setLocale, toggleLocale, tNum, dict } = useLanguage();
   const { savedSlugs } = useBookmarks();
 
-  const navItems = [
+  // Public main navigation items (Scraper separated into pipeline/admin tool)
+  const publicNavItems = [
     { id: "discover" as NavTab, label: dict.nav.discover, icon: Compass },
     { id: "map" as NavTab, label: dict.nav.map, icon: Map },
     { id: "music" as NavTab, label: dict.nav.sound, icon: Music4 },
     { id: "search" as NavTab, label: dict.nav.search, icon: Search },
     { id: "saved" as NavTab, label: dict.nav.saved, icon: Bookmark },
-    { id: "scraper" as NavTab, label: dict.nav.scraper, icon: Sparkles },
   ];
 
   return (
@@ -33,17 +33,20 @@ export function AppShell({
         <Brand appName={dict.common.appName} onClick={() => onTabChange("discover")} />
 
         {/* Language Switcher Bar on Sidebar */}
-        <div className="flex items-center justify-between bg-secondary/70 border border-border/80 rounded-xl p-2">
-          <span className="text-[11px] text-muted-foreground flex items-center gap-1.5 pl-1">
-            <Globe className="size-3.5 text-primary" />
-            <span className="font-medium text-foreground">{dict.common.language}</span>
-          </span>
-          <div className="flex items-center gap-1 bg-background/80 border border-border rounded-lg p-0.5">
+        <div className="flex flex-col gap-2 bg-secondary/70 border border-border/80 rounded-xl p-2.5">
+          <div className="flex items-center justify-between">
+            <span className="text-[11px] text-muted-foreground flex items-center gap-1.5 pl-1">
+              <Globe className="size-3.5 text-primary" />
+              <span className="font-medium text-foreground">{dict.common.language}</span>
+            </span>
+          </div>
+          <div className="grid grid-cols-4 gap-1 bg-background/80 border border-border rounded-lg p-0.5">
             <button
               onClick={() => setLocale("km")}
-              className={`px-2 py-0.5 text-xs font-semibold rounded transition cursor-pointer ${
+              title="Khmer"
+              className={`px-1.5 py-1 text-[11px] font-semibold rounded text-center transition cursor-pointer ${
                 locale === "km"
-                  ? "bg-primary text-primary-foreground shadow-sm"
+                  ? "bg-primary text-primary-foreground shadow-sm font-khmer"
                   : "text-muted-foreground hover:text-foreground"
               }`}
             >
@@ -51,7 +54,8 @@ export function AppShell({
             </button>
             <button
               onClick={() => setLocale("en")}
-              className={`px-2 py-0.5 text-xs font-semibold rounded transition cursor-pointer ${
+              title="English"
+              className={`px-1.5 py-1 text-[11px] font-semibold rounded text-center transition cursor-pointer ${
                 locale === "en"
                   ? "bg-primary text-primary-foreground shadow-sm"
                   : "text-muted-foreground hover:text-foreground"
@@ -59,12 +63,34 @@ export function AppShell({
             >
               EN
             </button>
+            <button
+              onClick={() => setLocale("vi")}
+              title="Tiếng Việt"
+              className={`px-1.5 py-1 text-[11px] font-semibold rounded text-center transition cursor-pointer ${
+                locale === "vi"
+                  ? "bg-primary text-primary-foreground shadow-sm"
+                  : "text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              VI
+            </button>
+            <button
+              onClick={() => setLocale("th")}
+              title="ภาษาไทย"
+              className={`px-1.5 py-1 text-[11px] font-semibold rounded text-center transition cursor-pointer ${
+                locale === "th"
+                  ? "bg-primary text-primary-foreground shadow-sm"
+                  : "text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              TH
+            </button>
           </div>
         </div>
 
-        {/* Navigation items */}
+        {/* Public Navigation items */}
         <nav className="flex flex-col gap-1.5">
-          {navItems.map((item) => {
+          {publicNavItems.map((item) => {
             const isActive = currentTab === item.id;
             return (
               <button
@@ -88,8 +114,23 @@ export function AppShell({
           })}
         </nav>
 
-        <div className="mt-auto text-[11px] leading-relaxed text-muted-foreground border-t border-border/40 pt-4">
-          {dict.common.archiveNote}
+        {/* Sidebar Footer with Archive Note and Ingestion Pipeline Utility Link */}
+        <div className="mt-auto flex flex-col gap-3 border-t border-border/40 pt-4">
+          <button
+            onClick={() => onTabChange("scraper")}
+            className={`flex items-center gap-2 rounded-lg px-2.5 py-1.5 text-[11px] font-medium transition cursor-pointer ${
+              currentTab === "scraper"
+                ? "bg-primary/15 text-primary border border-primary/30"
+                : "text-muted-foreground/70 hover:text-foreground hover:bg-secondary/40"
+            }`}
+          >
+            <Database className="size-3.5 shrink-0" />
+            <span className="truncate">Content Ingestion Pipeline</span>
+          </button>
+
+          <div className="text-[11px] leading-relaxed text-muted-foreground">
+            {dict.common.archiveNote}
+          </div>
         </div>
       </aside>
 
@@ -115,7 +156,9 @@ export function AppShell({
               className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold border border-primary/40 rounded-full bg-primary/10 text-primary hover:bg-primary/20 transition cursor-pointer shadow-sm"
             >
               <Globe className="size-3.5" />
-              <span>{locale === "km" ? "ខ្មែរ" : "EN"}</span>
+              <span>
+                {locale === "km" ? "ខ្មែរ" : locale === "vi" ? "VI (Tiếng Việt)" : locale === "th" ? "TH (ไทย)" : "EN"}
+              </span>
             </button>
 
             {/* Saved Shortcut */}
@@ -155,10 +198,10 @@ export function AppShell({
         {/* Dynamic Route/View Body */}
         <main className="flex-1 pb-28 lg:pb-16">{children}</main>
 
-        {/* Mobile Bottom Navigation */}
+        {/* Mobile Bottom Navigation: Clean 5-tab public grid */}
         <nav className="fixed bottom-0 inset-x-0 z-40 border-t border-border/70 bg-background/95 backdrop-blur-xl lg:hidden">
-          <div className="grid grid-cols-6">
-            {navItems.map((item) => {
+          <div className="grid grid-cols-5">
+            {publicNavItems.map((item) => {
               const isActive = currentTab === item.id;
               return (
                 <button

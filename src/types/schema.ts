@@ -1,13 +1,16 @@
 /**
  * Khmer Heritage Core Schema Definitions
- * Shared type contracts across Android, iOS, and Web platforms.
+ * Standardized type contracts aligned with docs/CONTENT_SCHEMA.md and docs/DATA_ARCHITECTURE.md.
+ * Shared across Android, iOS, and Web platforms.
  */
 
-export type LocaleCode = 'km' | 'en';
+export type LocaleCode = 'km' | 'en' | 'vi' | 'th';
 
 export type LocalizedString = {
   km: string;
   en: string;
+  vi?: string;
+  th?: string;
 };
 
 export type LicenseTier =
@@ -17,6 +20,15 @@ export type LicenseTier =
   | 'cc_by_sa'
   | 'in_house_original'
   | 'direct_permission';
+
+export const LICENSE_LABEL: Record<LicenseTier, string> = {
+  public_domain: 'Public Domain',
+  cc0: 'CC0 / No Rights Reserved',
+  cc_by: 'CC BY 4.0',
+  cc_by_sa: 'CC BY-SA 4.0',
+  in_house_original: 'Khmer Heritage Original',
+  direct_permission: 'Direct Museum Permission',
+};
 
 export interface MediaAsset {
   id: string;
@@ -52,9 +64,11 @@ export interface Category {
   id: string;
   slug: string;
   title: LocalizedString;
-  description: LocalizedString;
-  iconName: string;
-  sortOrder: number;
+  description?: LocalizedString;
+  blurb?: LocalizedString;
+  iconName?: string;
+  sortOrder?: number;
+  count?: number;
 }
 
 export interface GeoCoordinates {
@@ -69,25 +83,68 @@ export interface EntrySummary {
   categoryId: string;
   title: LocalizedString;
   summary: LocalizedString;
-  era?: string;
-  coverMedia?: MediaAsset;
-  updatedAt: string;
+  era: LocalizedString;
+  coverMedia: MediaAsset;
+  updatedAt?: string;
+}
+
+export interface EntrySection {
+  id: string;
+  heading: LocalizedString;
+  body: LocalizedString;
 }
 
 export interface EntryDetail extends EntrySummary {
   content: {
-    sections: Array<{
-      id: string;
-      heading: LocalizedString;
-      body: LocalizedString;
-    }>;
+    sections: EntrySection[];
   };
   coordinates?: GeoCoordinates;
   gallery: MediaAsset[];
   relatedEntryIds: string[];
   citations: Citation[];
-  version: number;
-  createdAt: string;
+  version?: number;
+  createdAt?: string;
+}
+
+export interface Era {
+  id: string;
+  label: LocalizedString;
+  range: LocalizedString;
+  note: LocalizedString;
+  sortOrder?: number;
+}
+
+export type EraBand = Era;
+
+export interface Trail {
+  id: string;
+  title: LocalizedString;
+  blurb: LocalizedString;
+  coverUrl: string;
+  stops: number;
+  entrySlugs?: string[];
+}
+
+export interface HeritageSite {
+  id: string;
+  name: LocalizedString;
+  province: LocalizedString;
+  coordinates: GeoCoordinates;
+  era: string;
+  style: LocalizedString;
+  unesco: boolean;
+  condition: 'excellent' | 'stable' | 'at_risk';
+  entrySlug: string;
+}
+
+export interface Instrument {
+  id: string;
+  name: LocalizedString;
+  family: LocalizedString;
+  ensemble: 'Pinpeat' | 'Mohori' | 'Ayai' | 'Kar' | string;
+  origin: LocalizedString;
+  toneHz: number[];
+  audioUrl?: string;
 }
 
 export interface DataManifest {

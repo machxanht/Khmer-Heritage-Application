@@ -28,7 +28,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>(() => {
     if (typeof window !== "undefined") {
       const saved = localStorage.getItem(LOCALE_STORAGE_KEY) as Locale;
-      if (saved === "km" || saved === "en") return saved;
+      if (saved === "km" || saved === "en" || saved === "vi" || saved === "th") return saved;
     }
     return "en";
   });
@@ -44,16 +44,20 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   };
 
   const toggleLocale = () => {
-    setLocale(locale === "en" ? "km" : "en");
+    const sequence: Locale[] = ["en", "km", "vi", "th"];
+    const nextIndex = (sequence.indexOf(locale) + 1) % sequence.length;
+    setLocale(sequence[nextIndex]);
   };
 
-  const dict = translations[locale];
+  const dict = translations[locale] || translations.en;
 
   const tData = (localized?: LocalizedString, fallback: string = ""): string => {
     if (!localized) return fallback;
+    if (locale === "vi" && localized.vi) return localized.vi;
+    if (locale === "th" && localized.th) return localized.th;
     if (locale === "km" && localized.km) return localized.km;
     if (localized.en) return localized.en;
-    return localized.km || fallback;
+    return localized.km || localized.vi || localized.th || fallback;
   };
 
   const tNum = (n: number | string): string => {

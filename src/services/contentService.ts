@@ -1,16 +1,38 @@
 /**
  * Content Service Interface (Foundation Provider)
- * Prepared for Cloudflare R2 / Static JSON Manifest consumption.
+ * Standard async content provider designed for seamless migration to Cloudflare R2 static JSON CDN.
  */
 
-import { FOUNDATION_CATEGORIES, PROJECT_INFO } from '../core/constants.ts';
-import { Category, DataManifest, EntryDetail, EntrySummary } from '../types/schema.ts';
+import { PROJECT_INFO } from '../core/constants.ts';
+import {
+  Category,
+  DataManifest,
+  EntryDetail,
+  EntrySummary,
+  Era,
+  HeritageSite,
+  Instrument,
+  Trail,
+} from '../types/schema.ts';
+import {
+  categories as defaultCategories,
+  entries as defaultEntries,
+  eras as defaultEras,
+  instruments as defaultInstruments,
+  sites as defaultSites,
+  trails as defaultTrails,
+} from '../data/heritage.ts';
 
 export interface IContentService {
   getManifest(): Promise<DataManifest>;
   getCategories(): Promise<Category[]>;
+  getEntries(): Promise<EntryDetail[]>;
   getEntriesByCategory(categoryId: string): Promise<EntrySummary[]>;
   getEntryDetail(slugOrId: string): Promise<EntryDetail | null>;
+  getSites(): Promise<HeritageSite[]>;
+  getEras(): Promise<Era[]>;
+  getTrails(): Promise<Trail[]>;
+  getInstruments(): Promise<Instrument[]>;
 }
 
 export class FoundationContentService implements IContentService {
@@ -19,22 +41,47 @@ export class FoundationContentService implements IContentService {
       version: PROJECT_INFO.version,
       schemaVersion: 1,
       lastUpdated: new Date().toISOString(),
-      categoriesCount: FOUNDATION_CATEGORIES.length,
-      entriesCount: 0,
+      categoriesCount: defaultCategories.length,
+      entriesCount: defaultEntries.length,
       cdnBaseUrl: 'https://r2.khmer-heritage.internal/v1',
     };
   }
 
   async getCategories(): Promise<Category[]> {
-    return FOUNDATION_CATEGORIES;
+    return defaultCategories;
   }
 
-  async getEntriesByCategory(_categoryId: string): Promise<EntrySummary[]> {
-    return [];
+  async getEntries(): Promise<EntryDetail[]> {
+    return defaultEntries;
   }
 
-  async getEntryDetail(_slugOrId: string): Promise<EntryDetail | null> {
-    return null;
+  async getEntriesByCategory(categoryId: string): Promise<EntrySummary[]> {
+    return defaultEntries.filter(
+      (e) => e.categoryId === categoryId || e.categoryId === categoryId.toLowerCase()
+    );
+  }
+
+  async getEntryDetail(slugOrId: string): Promise<EntryDetail | null> {
+    const found = defaultEntries.find(
+      (e) => e.slug === slugOrId || e.id === slugOrId
+    );
+    return found || null;
+  }
+
+  async getSites(): Promise<HeritageSite[]> {
+    return defaultSites;
+  }
+
+  async getEras(): Promise<Era[]> {
+    return defaultEras;
+  }
+
+  async getTrails(): Promise<Trail[]> {
+    return defaultTrails;
+  }
+
+  async getInstruments(): Promise<Instrument[]> {
+    return defaultInstruments;
   }
 }
 
