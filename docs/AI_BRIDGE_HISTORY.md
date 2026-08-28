@@ -71,6 +71,22 @@
   - Validated and audited full corpus via `npm run content:test` with 0 errors and benchmark throughput of 23,753 entries/sec.
   - Published comprehensive report in `docs/AI_BRIDGE_REPORT_009.md`.
 
+## Task KH-010: Production Content Bundle Foundation
+- **Date**: 2026-08-28
+- **Assigned By**: ChatGPT / PM
+- **Implemented By**: Studio AI (Developer)
+- **Status**: SUCCESS
+- **Summary**:
+  - Transitioned canonical 16-entry Khmer Heritage corpus to deterministic, versioned JSON production bundle (`content/v1/`).
+  - Created reusable export pipeline (`src/pipeline/exporter.ts`, `src/pipeline/exportBundle.ts`, `npm run content:export`) with cryptographic SHA-256 content hashing (`sha256-4b7ea1555b7f9f0d3ff99fa44cd5321bc5886389687dfc64a39b38422f8057ed`).
+  - Generated `content/v1/manifest.json`, `content/v1/categories.json` (12 categories), `content/v1/entries/index.json` (16 summaries), and 16 individual entry detail files `content/v1/entries/*.json`.
+  - Implemented JSON bundle validation (`src/pipeline/validateBundle.ts`) integrated into `npm run content:validate` and `npm run content:test`.
+  - Upgraded schema contracts, eliminating duplicate `EntrySummary` declarations and enriching `DataManifest`.
+  - Maintained complete backwards compatibility for `IContentProvider`, `StaticContentProvider`, and `FoundationContentService`.
+  - Renamed package in `package.json` to `khmer-heritage` (v0.1.0).
+  - Maintained `docs/AI_BRIDGE_PROGRESS_010.md` and published completion report in `docs/AI_BRIDGE_REPORT_010.md`.
+
+
 
 
 
