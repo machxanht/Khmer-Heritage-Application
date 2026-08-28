@@ -30,11 +30,17 @@ export class StaticContentProvider implements IContentProvider {
   async getManifest(): Promise<DataManifest> {
     return {
       version: PROJECT_INFO.version,
+      contentVersion: '1.0.0',
       schemaVersion: 1,
-      lastUpdated: new Date().toISOString(),
+      generatedAt: '2026-08-28T00:00:00.000Z',
+      lastUpdated: '2026-08-28T00:00:00.000Z',
       categoriesCount: defaultCategories.length,
       entriesCount: defaultEntries.length,
+      contentHash: 'local-static-bundled-v1',
       cdnBaseUrl: 'https://r2.khmer-heritage.internal/v1',
+      entryIndexUrl: '/content/v1/entries/index.json',
+      categoriesUrl: '/content/v1/categories.json',
+      entryIds: defaultEntries.map((e) => e.id),
     };
   }
 
@@ -44,6 +50,22 @@ export class StaticContentProvider implements IContentProvider {
 
   async getEntries(): Promise<EntryDetail[]> {
     return defaultEntries;
+  }
+
+  async getEntrySummaries(): Promise<EntrySummary[]> {
+    return defaultEntries.map((e) => ({
+      id: e.id,
+      slug: e.slug,
+      categoryId: e.categoryId,
+      category: e.category,
+      title: e.title,
+      summary: e.summary,
+      era: e.era,
+      coverMedia: e.coverMedia,
+      updatedAt: e.updatedAt,
+      reviewStatus: e.reviewStatus,
+      coordinates: e.coordinates || e.location?.coordinates,
+    }));
   }
 
   async getEntriesByCategory(categoryId: string): Promise<EntrySummary[]> {

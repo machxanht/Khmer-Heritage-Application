@@ -135,17 +135,6 @@ export interface GeoCoordinates {
   altitude?: number;
 }
 
-export interface EntrySummary {
-  id: string;
-  slug: string;
-  categoryId: string;
-  title: LocalizedString;
-  summary: LocalizedString;
-  era: LocalizedString;
-  coverMedia: MediaAsset;
-  updatedAt?: string;
-}
-
 export interface KeyFactItem {
   key: string;
   label: LocalizedString;
@@ -202,6 +191,8 @@ export interface EntrySummary {
   era: LocalizedString;
   coverMedia: MediaAsset;
   updatedAt?: string;
+  reviewStatus?: ReviewStatus;
+  coordinates?: GeoCoordinates;
 }
 
 export interface EntryDetail extends EntrySummary {
@@ -272,8 +263,14 @@ export interface Instrument {
 export interface DataManifest {
   version: string;
   schemaVersion: number;
+  contentVersion?: string;
+  generatedAt?: string;
   lastUpdated: string;
   categoriesCount: number;
   entriesCount: number;
+  contentHash: string;
   cdnBaseUrl: string;
+  entryIndexUrl?: string;
+  categoriesUrl?: string;
+  entryIds?: string[];
 }

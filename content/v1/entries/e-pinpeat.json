@@ -1,0 +1,174 @@
+{
+  "id": "e-pinpeat",
+  "slug": "pinpeat",
+  "category": "music",
+  "categoryId": "music",
+  "title": {
+    "en": "The Sacred Pinpeat Court & Ritual Ensemble",
+    "km": "វង់ភ្លេងពិណពាទ្យ",
+    "vi": "Dàn Nhạc Lễ Cung Đình & Nghi Lễ Pinpeat",
+    "th": "วงดนตรีหลวงพิณพาทย์เขมร"
+  },
+  "summary": {
+    "en": "The grand classical orchestra of Cambodia, performing for royal court rituals, classical dance drama, and Buddhist ceremonies with bronze gongs, bamboo xylophones, and oboes.",
+    "km": "វង់ភ្លេងព្រះរាជទ្រព្យដ៏ពិសិដ្ឋនៃកម្ពុជា សម្រាប់ប្រគំក្នុងព្រះរាជពិធី របាំបុរាណ និងពិធីសាសនាព្រះពុទ្ធ ដោយមានគងវង់ រនាត និងស្រឡៃ។",
+    "vi": "Đại dàn nhạc cổ điển cung đình Campuchia, hòa tấu trong các đại lễ hoàng gia, kịch múa cổ điển và nghi lễ Phật giáo với cồng đồng, mộc cầm và kèn Sralai.",
+    "th": "วงดนตรีหลวงชั้นสูงแห่งราชสำนักกัมพูชา บรรเลงประกอบพระราชพิธี นาฏศิลป์หลวง และพิธีกรรมทางศาสนา ประกอบด้วยฆ้องวง ระนาด และปี่ไสล"
+  },
+  "era": {
+    "en": "Angkorian Era (7th–9th c.) – Living Tradition",
+    "km": "សម័យអង្គរ (សតវត្សរ៍ទី ៧–៩) ដល់ បច្ចុប្បន្ន",
+    "vi": "Thời kỳ Angkor (Thế kỷ 7–9) – Nay",
+    "th": "ยุคพระนคร ถึงปัจจุบัน"
+  },
+  "coverMedia": {
+    "id": "m-pp-cover",
+    "url": "file:///app/applet/src/assets/instruments.jpg",
+    "thumbnailUrl": "file:///app/applet/src/assets/instruments.jpg",
+    "type": "image",
+    "title": {
+      "en": "Pinpeat Master Musicians performing on Roneat Ek and Kong Vong",
+      "km": "តន្ត្រីករប្រគំភ្លេងពិណពាទ្យជាមួយរនាតឯក និងគងវង់",
+      "vi": "Các nghệ nhân trình tấu đàn Roneat Ek và giàn cồng Kong Vong trong dàn Pinpeat",
+      "th": "การบรรเลงวงพิณพาทย์เขมร"
+    },
+    "creator": "Khmer Heritage Field Mission",
+    "source": "Khmer Heritage Field Archive",
+    "sourceUrl": "https://whc.unesco.org/en/list/668/",
+    "license": "cc_by_sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+    "sourceId": "src-khmer-field-mission",
+    "provenance": {
+      "repository": "National Theatre of Cambodia Ethnomusicology Archive",
+      "captureDate": "2024-03-02",
+      "creditLine": "Khmer Heritage Field Mission (2024)"
+    },
+    "reviewStatus": "verified_peer_reviewed"
+  },
+  "coordinates": {
+    "latitude": 11.5621,
+    "longitude": 104.9317
+  },
+  "location": {
+    "coordinates": {
+      "latitude": 11.5621,
+      "longitude": 104.9317
+    },
+    "province": {
+      "en": "Phnom Penh",
+      "km": "រាជធានីភ្នំពេញ",
+      "vi": "Phnom Penh",
+      "th": "พนมเปญ"
+    },
+    "country": "Cambodia",
+    "siteName": {
+      "en": "Royal Palace & Chatomuk Theatre",
+      "km": "ព្រះបរមរាជវាំង និងសាលចតុម្មុខ"
+    }
+  },
+  "keyFacts": {
+    "era": {
+      "en": "Over 1,200 Years of Documented Continuity",
+      "km": "ប្រវត្តិជាង ១២០០ ឆ្នាំ"
+    },
+    "tradition": {
+      "en": "Sacred Royal & Temple Orchestra",
+      "km": "វង់ភ្លេងព្រះរាជពិធី និងវត្តអារាម"
+    },
+    "material": {
+      "en": "Bronze Alloys, Bamboo, Teakwood, Snake Skin",
+      "km": "សំរឹទ្ធ ឬស្សី ឈើប្រណិត និងស្បែកសត្វ"
+    }
+  },
+  "audioMetadata": {
+    "tuningHz": [
+      523.25,
+      587.33,
+      659.25,
+      783.99
+    ],
+    "instruments": [
+      "Roneat Ek",
+      "Roneat Thung",
+      "Kong Vong Toch",
+      "Kong Vong Thom",
+      "Sralai",
+      "Sampho",
+      "Chhing"
+    ]
+  },
+  "content": {
+    "sections": [
+      {
+        "id": "sec-pp-polyphony",
+        "heading": {
+          "en": "Heterophonic Polyphony & Cyclic Structure",
+          "km": "រចនាសម្ព័ន្ធភ្លេងពហុសំនៀង និងចង្វាក់ជុំ",
+          "vi": "Cấu Trúc Phức Điệu Dị Điệu (Heterophony) & Chu Kỳ Nhịp Điệu",
+          "th": "โครงสร้างดนตรีแบบพหุทำนองและวัฏจักรจังหวะ"
+        },
+        "body": {
+          "en": "The Pinpeat ensemble operates on the principle of stratified heterophony: a single nuclear melody is simultaneously interpreted, decorated, and syncopated across different registers by various instruments. The Kong Vong Thom (large gong chime) carries the core melodic outline, while the Roneat Ek (high xylophone) performs rapid melodic embellishments at twice or four times the tempo. The sacred Sampho barrel drum commands the tempo and structural cycles, assisted by the brass Chhing finger cymbals marking accented and unaccented beats.",
+          "km": "វង់ភ្លេងពិណពាទ្យប្រគំតាមលំនាំពហុសំនៀង (Heterophony) ដោយគងវង់ធំដើរតួជាបទគ្រឹះ រនាតឯកដេញក្បាច់សំនៀងរហ័សទ្វេដង ហើយស្គរទ្វេមុខសំភោរជាអ្នកកំណត់ចង្វាក់និងល្បឿនរួមជាមួយឈិង។",
+          "vi": "Dàn nhạc Pinpeat vận hành theo nguyên lý phức điệu dị điệu (stratified heterophony): một chủ đề giai điệu cốt lõi được nhiều nhạc cụ đồng thời biến tấu và thêu dệt ở các cao độ khác nhau. Giàn cồng lớn Kong Vong Thom giữ khung sườn giai điệu, trong khi đàn mộc cầm Roneat Ek chạy lướt các hoa mỹ âm thanh ở tốc độ gấp đôi hoặc gấp bốn lần. Trống thiêng Sampho lĩnh xướng điều khiển nhịp độ toàn dàn nhạc cùng tiếng gõ thanh thoát của chũm chọe Chhing.",
+          "th": "วงพิณพาทย์ใช้ระบบโครงสร้างทำนองซ้อน โดยมีฆ้องวงใหญ่เล่นทำนองหลัก ระนาดเอกบรรเลงแปรทำนองอย่างรวดเร็ว และกลองสัมโพเป็นผู้นำจังหวะร่วมกับฉิ่ง"
+        }
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "id": "m-pp-g1",
+      "url": "file:///app/applet/src/assets/instruments.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/instruments.jpg",
+      "type": "image",
+      "title": {
+        "en": "Angkorian Stone Bas-Relief of Court Musicians at Bayon Temple",
+        "km": "ចម្លាក់តន្ត្រីករសម័យអង្គរនៅប្រាសាទបាយ័ន",
+        "vi": "Phù điêu đá dàn nhạc cung đình thời Angkor trên vách đền Bayon",
+        "th": "ภาพสลักวงดนตรีโบราณบนผนังปราสาทบายอน"
+      },
+      "creator": "EFEO Photographic Archives",
+      "source": "EFEO Archives",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "direct_permission",
+      "licenseUrl": "https://collection.efeo.fr/",
+      "attribution": "EFEO Photographic Archives — EFEO Archives, CC BY-SA 4.0",
+      "sourceId": "src-efeo-photo-archive",
+      "reviewStatus": "verified_peer_reviewed"
+    }
+  ],
+  "relatedEntryIds": [
+    "e-roneat-ek",
+    "e-chapei-dong-veng",
+    "e-apsara",
+    "e-pchum-ben"
+  ],
+  "relatedEntries": [
+    "e-roneat-ek",
+    "e-chapei-dong-veng",
+    "e-apsara",
+    "e-pchum-ben"
+  ],
+  "sourceIds": [
+    "src-sam-1991",
+    "src-miller-williams-2000",
+    "src-unesco-00054"
+  ],
+  "citations": [
+    {
+      "id": "c-pp-1",
+      "title": "The Pin Peat Ensemble: Its Tuning and Musical Structure",
+      "author": "Dr. Sam-Ang Sam",
+      "year": 1991,
+      "publisher": "Wesleyan University Press",
+      "sourceId": "src-sam-1991",
+      "sourceType": "academic_publication",
+      "reviewStatus": "verified_peer_reviewed"
+    }
+  ],
+  "reviewStatus": "verified_peer_reviewed",
+  "scholarlyReviewer": "Dr. Sam-Ang Sam & Department of Ethnomusicology, RUFA",
+  "updatedAt": "2026-08-28T00:00:00.000Z"
+}

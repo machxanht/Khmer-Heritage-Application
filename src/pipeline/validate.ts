@@ -6,9 +6,10 @@
  */
 
 import { sampleEntries } from '../data/sampleEntries.ts';
-import { entries as masterEntries } from '../data/heritage.ts';
-import { sourcesRegistry } from '../data/sources.ts';
+import { defaultSourcesRegistry, sourcesRegistry } from '../data/sources.ts';
 import { validateHeritageCorpus } from './validator.ts';
+import { exportContentBundle } from './exporter.ts';
+import { validateContentBundle } from './validateBundle.ts';
 import { CorpusValidationReport } from './types.ts';
 import { HeritageEntry } from '../types/schema.ts';
 
@@ -107,21 +108,46 @@ function main(): void {
 
   console.log('\n🔍 Initiating Khmer Heritage Content Pipeline Validation...\n');
 
-  // 1. Validate Verified Sample Corpus
-  const sampleReport = validateHeritageCorpus(sampleEntries as HeritageEntry[], { sourcesRegistry });
-  printReport('Sample Corpus (Verified Peer-Reviewed)', sampleReport);
+  // 1. Validate TypeScript Master Corpus
+  const sampleReport = validateHeritageCorpus(sampleEntries as HeritageEntry[], {
+    sourcesRegistry: defaultSourcesRegistry || sourcesRegistry,
+  });
+  printReport('Canonical TypeScript Corpus', sampleReport);
+
+  if (sampleReport.totalErrors > 0) {
+    console.error('❌ Validation FAILED with errors in TypeScript corpus.');
+    process.exit(1);
+  }
+
+  // 2. Export Canonical JSON Bundle
+  console.log('📦 Exporting Canonical Content Bundle (content/v1/)...');
+  const exportResult = exportContentBundle();
+  console.log(`   ✓ Exported ${exportResult.exportedFiles.length} files with hash ${exportResult.contentHash}`);
+
+  // 3. Validate Generated JSON Bundle
+  console.log('\n🛡️  Auditing Exported JSON Content Bundle Integrity...');
+  const bundleReport = validateContentBundle({ bundleDir: exportResult.outputDir });
+
+  console.log(`   • Manifest Valid:           ${bundleReport.manifestValid ? '✅ PASS' : '❌ FAIL'}`);
+  console.log(`   • Categories Valid:         ${bundleReport.categoriesValid ? '✅ PASS' : '❌ FAIL'}`);
+  console.log(`   • Index Valid:              ${bundleReport.indexValid ? '✅ PASS' : '❌ FAIL'}`);
+  console.log(`   • Entry Files Valid:        ${bundleReport.entriesValidCount}/${bundleReport.entriesAuditedCount}`);
+  console.log(`   • Content Hash Match:       ${bundleReport.hashMatches ? '✅ PASS' : '❌ FAIL'} (${bundleReport.manifestContentHash})`);
+  console.log(`   • Bundle Validation Errors: ${bundleReport.totalErrors}`);
+  console.log(`   • Bundle Warnings:          ${bundleReport.totalWarnings}`);
+
+  if (bundleReport.totalErrors > 0) {
+    console.error('\n❌ Bundle Validation Errors:');
+    bundleReport.errors.forEach((err) => {
+      console.error(`   - [${err.code}] ${err.field}: ${err.message}`);
+    });
+    process.exit(1);
+  }
 
   const durationMs = Date.now() - startTime;
-  console.log(`⏱️  Total Execution Time: ${durationMs}ms`);
-
-  const hasErrors = sampleReport.totalErrors > 0;
-  if (hasErrors) {
-    console.error('❌ Validation FAILED with errors.');
-    process.exit(1);
-  } else {
-    console.log('🎉 All content and sources validated successfully! Pipeline is GREEN.\n');
-    process.exit(0);
-  }
+  console.log(`\n⏱️  Total Execution Time: ${durationMs}ms`);
+  console.log('🎉 All TypeScript content and exported JSON bundles validated successfully! Pipeline is GREEN.\n');
+  process.exit(0);
 }
 
 main();

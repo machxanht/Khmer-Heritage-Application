@@ -1,0 +1,198 @@
+{
+  "id": "e-banteay-srei",
+  "slug": "banteay-srei",
+  "category": "temples",
+  "categoryId": "temples",
+  "title": {
+    "en": "Banteay Srei",
+    "km": "ប្រាសាទបន្ទាយស្រី",
+    "vi": "Đền Banteay Srei",
+    "th": "ปราสาทบันทายศรี"
+  },
+  "summary": {
+    "en": "The jewel of Khmer art, built of fine-grained rose-pink sandstone in 967 CE by Brahmin scholar Yajnavaraha, renowned for miniature scale and exquisite three-dimensional pediment carvings.",
+    "km": "ត្បូងពេជ្រនៃសិល្បៈខ្មែរ សាងពីថ្មភក់ពណ៌ផ្កាឈូកក្នុងឆ្នាំ ៩៦៧ ដោយព្រាហ្មណ៍បណ្ឌិតយជ្ញវរាហៈ ល្បីល្បាញដោយក្បាច់ចម្លាក់លម្អិតឥតខ្ចោះ និងទំហំតូចច្រឡឹង។",
+    "vi": "Viên ngọc quý của nghệ thuật điêu khắc Khmer, tạc bằng sa thạch hồng tinh mịn vào năm 967 CN bởi học giả Bà La Môn Yajnavaraha, nổi tiếng với kích thước tinh tế và phù điêu 3D tinh xảo tột bậc.",
+    "th": "อัญมณีแห่งศิลปะเขมร สร้างด้วยหินทรายสีชมพูในปี ค.ศ. 967 โดยพราหมณ์ยัชญวราหะ โดดเด่นด้วยลวดลายแกะสลักอันประณีตและวิจิตรบรรจง"
+  },
+  "era": {
+    "en": "10th Century CE (Consecrated 967 CE)",
+    "km": "សតវត្សរ៍ទី ១០ នៃ គ.ស. (សម្ពោធ ឆ្នាំ ៩៦៧)",
+    "vi": "Thế kỷ 10 CN (Khánh thành năm 967 CN)",
+    "th": "ศตวรรษที่ 10 (สร้างเสร็จ ค.ศ. 967)"
+  },
+  "coverMedia": {
+    "id": "m-bs-cover",
+    "url": "file:///app/applet/src/assets/banteay-srei.jpg",
+    "thumbnailUrl": "file:///app/applet/src/assets/banteay-srei.jpg",
+    "type": "image",
+    "title": {
+      "en": "Intricately Carved Rose Sandstone Sanctuary of Banteay Srei",
+      "km": "ប្រាង្គថ្មភក់ពណ៌ផ្កាឈូកនៃប្រាសាទបន្ទាយស្រី",
+      "vi": "Thánh điện sa thạch hồng với đường nét chạm khắc tinh xảo tại Banteay Srei",
+      "th": "ปราสาทหินทรายสีชมพูบันทายศรี"
+    },
+    "creator": "Khmer Heritage Field Mission",
+    "source": "Khmer Heritage Field Archive",
+    "sourceUrl": "https://whc.unesco.org/en/list/668/",
+    "license": "cc_by_sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+    "sourceId": "src-khmer-field-mission",
+    "provenance": {
+      "repository": "Khmer Heritage Photographic Repository",
+      "collection": "Angkor Archaeological Park Survey",
+      "captureDate": "2024-02-17",
+      "creditLine": "Khmer Heritage Field Mission (2024)"
+    },
+    "reviewStatus": "verified_peer_reviewed"
+  },
+  "coordinates": {
+    "latitude": 13.5987,
+    "longitude": 103.9633
+  },
+  "location": {
+    "coordinates": {
+      "latitude": 13.5987,
+      "longitude": 103.9633
+    },
+    "province": {
+      "en": "Siem Reap",
+      "km": "សៀមរាប",
+      "vi": "Siem Reap",
+      "th": "เสียมราฐ"
+    },
+    "country": "Cambodia",
+    "siteName": {
+      "en": "Banteay Srei Historic Complex",
+      "km": "រមណីយដ្ឋានបន្ទាយស្រី"
+    }
+  },
+  "keyFacts": {
+    "era": {
+      "en": "Consecrated April 22, 967 CE",
+      "km": "សម្ពោធ ថ្ងៃទី ២២ មេសា ឆ្នាំ ៩៦៧"
+    },
+    "builder": {
+      "en": "Yajnavaraha (Royal Guru & Brahmin Scholar)",
+      "km": "ព្រះគ្រូ យជ្ញវរាហៈ",
+      "vi": "Yajnavaraha (Hoàng sư Bà La Môn)",
+      "th": "ยัชญวราหะ (ราชครูพราหมณ์)"
+    },
+    "ruler": {
+      "en": "King Rajendravarman II & Jayavarman V",
+      "km": "ព្រះបាទរាជេន្ទ្រវរ្ម័នទី ២ និង ជ័យវរ្ម័នទី ៥"
+    },
+    "religion": {
+      "en": "Shaivism (Tribhuvanamahesvara)",
+      "km": "ព្រហ្មញ្ញសាសនា (និកាយសិវៈ)"
+    },
+    "architecturalStyle": {
+      "en": "Banteay Srei Style",
+      "km": "រចនាប័ទ្មបន្ទាយស្រី"
+    },
+    "material": {
+      "en": "Rose-pink Arkose Sandstone",
+      "km": "ថ្មភក់ពណ៌ផ្កាឈូក"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "id": "sec-bs-craft",
+        "heading": {
+          "en": "Rose Sandstone Mastery & Non-Royal Brahmin Consecration",
+          "km": "សិល្បៈថ្មភក់ពណ៌ផ្កាឈូក និងការស្ថាបនាដោយព្រាហ្មណ៍បណ្ឌិត",
+          "vi": "Nghệ Thuật Sa Thạch Hồng & Dấu Ấn Kiến Trúc Phi Hoàng Tộc",
+          "th": "ศิลปะหินทรายสีชมพูและการสถาปนาโดยปราชญ์พราหมณ์"
+        },
+        "body": {
+          "en": "Originally named Tribhuvanamahesvara ('Great Lord of the Threefold World'), Banteay Srei is unique among major Angkorian temples as it was commissioned not by a reigning monarch, but by a Brahmin scholar, Yajnavaraha, who served as preceptor to King Jayavarman V. The temple was carved from a hard, fine-grained rose-red arkosic sandstone that allowed sculptors to achieve woodcarving-like depth and crisp filigree detail that has resisted weathering for over a millennium.",
+          "km": "ដើមឡើយមានឈ្មោះថា ត្រីភុវនមហេស្វរ ប្រាសាទបន្ទាយស្រីជាប្រាសាទពិសេសដែលសាងឡើងដោយព្រាហ្មណ៍បណ្ឌិតយជ្ញវរាហៈ មិនមែនដោយព្រះមហាក្សត្រឡើយ។ ថ្មភក់ពណ៌ផ្កាឈូកមានសាច់រឹងមាំ អនុញ្ញាតឲ្យវិចិត្រករឆ្លាក់ក្បាច់យ៉ាងល្អិតល្អន់ដូចឆ្លាក់លើឈើ។",
+          "vi": "Tên nguyên thủy là Tribhuvanamahesvara ('Đại Tự Chúa Tể Tam Giới'), Banteay Srei là ngôi đền duy nhất trong các kiệt tác Angkor được xây dựng bởi một học giả Bà La Môn — Yajnavaraha, hoàng sư của vua Jayavarman V — chứ không phải bởi quốc vương. Đền được tạc từ loại sa thạch hồng hạt mịn có độ cứng cao, cho phép các nghệ nhân chạm lộng những đường gờ, hoa văn dây leo và phù điêu sâu như khắc trên gỗ quý.",
+          "th": "ปราสาทบันทายศรีเดิมชื่อว่า ตรีภูวนมเหศวร เป็นปราสาทที่สร้างโดยพราหมณ์ยัชญวราหะ ผู้เป็นพระอาจารย์ของพระเจ้าชัยวรมันที่ 5 หินทรายสีชมพูเนื้อละเอียดช่วยให้แกะสลักลวดลายได้คมชัดเสมือนงานแกะสลักไม้"
+        }
+      },
+      {
+        "id": "sec-bs-pediments",
+        "heading": {
+          "en": "Narrative Pediments & Devata Niches",
+          "km": "ហោជាងរឿងទេវកថា និងចម្លាក់ទេវតា",
+          "vi": "Trán Cửa Kể Chuyện Sử Thi & Tượng Nữ Thần Devata",
+          "th": "หน้าบันเล่าเรื่องมหากาพย์และรูปสลักนางเทวตา"
+        },
+        "body": {
+          "en": "Banteay Srei pioneered the narrative triangular pediment in Khmer architecture. Prominent scenes include Ravana shaking Mount Kailasa, Shiva and Parvati enthroned, the burning of the Khandava forest from the Mahabharata, and the duel between monkey kings Vali and Sugriva from the Ramayana. The devata (celestial nymph) figures standing in niches hold lotus stems and display delicate folded sampot garments that French author André Malraux famously attempted to plunder in 1923.",
+          "km": "ហោជាងបន្ទាយស្រីបង្ហាញពីឈុតឆាករឿងរាមកេរ្តិ៍ និងមហាភារតៈ រួមមានយក្សក្រុងរាពណ៍អង្រួនភ្នំកៃលាស ព្រះសិវៈនិងនាងបវ៌តី និងចម្បាំងពាលីនិងសុគ្រីព។ ចម្លាក់ទេវតាក្នុងប្រាង្គនីមួយៗមានសម្រស់ស្រស់ស្អាតឥតខ្ចោះ។",
+          "vi": "Banteay Srei mở đầu cho phong cách chạm trổ trán cửa hình tam giác kể chuyện sử thi trong kiến trúc Khmer. Các tích kinh điển gồm có: Quỷ vương Ravana rung chuyển núi tuyết Kailasa, thần Shiva và Parvati an tọa, thần Krishna đốt rừng Khandava, và trận quyết đấu giữa hai vua khỉ Vali và Sugriva. Các bức tượng nữ thần Devata đứng trong vòm hốc đá mang nét duyên dáng thanh tao và trang phục xếp nếp tinh xảo.",
+          "th": "หน้าบันของบันทายศรีแสดงเรื่องราวมหากาพย์อย่างมีชีวิตชีวา เช่น ภาพทศกัณฐ์เขย่าเขาไกรลาส พระศิวะและพระอุมา และการต่อสู้ระหว่างพาลีกับสุครีพ รูปสลักนางเทวตามีความอ่อนช้อยงดงามอย่างยิ่ง"
+        }
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "id": "m-bs-g1",
+      "url": "file:///app/applet/src/assets/banteay-srei.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/banteay-srei.jpg",
+      "type": "image",
+      "title": {
+        "en": "Ravana Shaking Mount Kailasa Pediment Relief",
+        "km": "ចម្លាក់ហោជាងក្រុងរាពណ៍អង្រួនភ្នំកៃលាស",
+        "vi": "Phù điêu trán cửa tích Quỷ vương Ravana rung chuyển núi Kailasa",
+        "th": "ภาพสลักหน้าบันทศกัณฐ์เขย่าเขาไกรลาส"
+      },
+      "creator": "EFEO Photographic Archives",
+      "source": "EFEO Archives",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "direct_permission",
+      "licenseUrl": "https://collection.efeo.fr/",
+      "attribution": "EFEO Photographic Archives — EFEO Archives, CC BY-SA 4.0",
+      "sourceId": "src-efeo-photo-archive",
+      "reviewStatus": "verified_peer_reviewed"
+    }
+  ],
+  "relatedEntryIds": [
+    "e-angkor-wat",
+    "e-bayon",
+    "e-reamker",
+    "e-apsara"
+  ],
+  "relatedEntries": [
+    "e-angkor-wat",
+    "e-bayon",
+    "e-reamker",
+    "e-apsara"
+  ],
+  "sourceIds": [
+    "src-finot-parmentier-1926",
+    "src-dagens-1995",
+    "src-unesco-668",
+    "src-marchal-1955"
+  ],
+  "citations": [
+    {
+      "id": "c-bs-1",
+      "title": "Le temple d'Icvarapura (Banteay Srei, Cambodge)",
+      "author": "Louis Finot, Henri Parmentier, Victor Goloubew",
+      "year": 1926,
+      "publisher": "G. Van Oest / EFEO Mémoires archéologiques I",
+      "sourceId": "src-finot-parmentier-1926",
+      "sourceType": "academic_publication",
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    {
+      "id": "c-bs-2",
+      "title": "Angkor: Heart of an Asian Empire",
+      "author": "Bruno Dagens",
+      "year": 1995,
+      "publisher": "Thames & Hudson",
+      "sourceId": "src-dagens-1995",
+      "sourceType": "academic_publication",
+      "reviewStatus": "verified_peer_reviewed"
+    }
+  ],
+  "reviewStatus": "verified_peer_reviewed",
+  "scholarlyReviewer": "EFEO & APSARA Scientific Directorate",
+  "updatedAt": "2026-08-28T00:00:00.000Z"
+}

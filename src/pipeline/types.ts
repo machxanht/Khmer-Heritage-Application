@@ -132,3 +132,29 @@ export interface ValidationOptions {
   requireCoordinatesForSites?: boolean;
   sourcesRegistry?: Record<string, SourceRecord>;
 }
+
+export interface BundleExportResult {
+  outputDir: string;
+  manifest: import('../types/schema.ts').DataManifest;
+  exportedEntriesCount: number;
+  exportedCategoriesCount: number;
+  exportedFiles: string[];
+  contentHash: string;
+}
+
+export interface BundleValidationReport {
+  timestamp: string;
+  bundleDir: string;
+  manifestValid: boolean;
+  categoriesValid: boolean;
+  indexValid: boolean;
+  entriesAuditedCount: number;
+  entriesValidCount: number;
+  totalErrors: number;
+  totalWarnings: number;
+  errors: ValidationIssue[];
+  warnings: ValidationIssue[];
+  computedContentHash: string;
+  manifestContentHash: string;
+  hashMatches: boolean;
+}

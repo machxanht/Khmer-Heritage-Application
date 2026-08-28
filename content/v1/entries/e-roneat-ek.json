@@ -1,0 +1,167 @@
+{
+  "id": "e-roneat-ek",
+  "slug": "roneat-ek",
+  "category": "music",
+  "categoryId": "music",
+  "title": {
+    "en": "Roneat Ek (High-Pitched Bamboo Xylophone)",
+    "km": "រនាតឯក",
+    "vi": "Đàn Roneat Ek (Mộc Cầm Tre Khơ-me Lĩnh Xướng)",
+    "th": "ระนาดเอกเขมร"
+  },
+  "summary": {
+    "en": "The primary melodic leader of the Pinpeat and Mohori orchestras, featuring 21 tuned bamboo or rosewood bars suspended over a boat-shaped resonator producing crystalline acoustic harmonics.",
+    "km": "ឧបករណ៍ភ្លេងដឹកនាំសំនៀងចម្បងក្នុងវង់ពិណពាទ្យ និងមហោរី មានផ្លែ ២១ ធ្វើពីឬស្សី ឬឈើបេង តម្រៀបលើស្នូករាងទូក បន្លឺសំនៀងស្រួយស្រទន់។",
+    "vi": "Nhạc cụ lĩnh xướng giai điệu chủ chốt trong dàn nhạc Pinpeat và Mohori, gồm 21 thanh phím bằng tre già hoặc gỗ trắc quý treo trên thùng cộng hưởng hình mũi thuyền uốn lượn.",
+    "th": "เครื่องดนตรีบรรเลงนำที่มีบทบาทสำคัญที่สุดในวงพิณพาทย์และมโหรี มีลูกระนาด 21 ลูกทำด้วยไม้ไผ่หรือไม้เนื้อแข็ง วางบนรางรูปเรือ"
+  },
+  "era": {
+    "en": "Classical Angkorian to Modern Era",
+    "km": "សម័យអង្គរ ដល់ បច្ចុប្បន្ន",
+    "vi": "Thời kỳ Cổ điển Angkor đến Nay",
+    "th": "ยุคพระนคร ถึงปัจจุบัน"
+  },
+  "coverMedia": {
+    "id": "m-re-cover",
+    "url": "file:///app/applet/src/assets/instruments.jpg",
+    "thumbnailUrl": "file:///app/applet/src/assets/instruments.jpg",
+    "type": "image",
+    "title": {
+      "en": "Roneat Ek Bamboo Resonator Soundbox and 21 Tuned Key Bars",
+      "km": "ស្នូករនាតឯករាងទូក និងផ្លែរនាត ២១ ផ្លែ",
+      "vi": "Thùng đàn hình thuyền và 21 thanh phím định âm của đàn Roneat Ek",
+      "th": "รางระนาดเอกรูปเรือและลูกระนาด 21 ลูก"
+    },
+    "creator": "Khmer Heritage Field Mission",
+    "source": "Khmer Heritage Field Archive",
+    "sourceUrl": "https://whc.unesco.org/en/list/668/",
+    "license": "cc_by_sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+    "sourceId": "src-khmer-field-mission",
+    "provenance": {
+      "repository": "Khmer Heritage Organology Collection",
+      "captureDate": "2024-03-02",
+      "creditLine": "Khmer Heritage Field Mission (2024)"
+    },
+    "reviewStatus": "verified_peer_reviewed"
+  },
+  "coordinates": {
+    "latitude": 11.5621,
+    "longitude": 104.9317
+  },
+  "location": {
+    "coordinates": {
+      "latitude": 11.5621,
+      "longitude": 104.9317
+    },
+    "province": {
+      "en": "Phnom Penh",
+      "km": "រាជធានីភ្នំពេញ",
+      "vi": "Phnom Penh",
+      "th": "พนมเปญ"
+    },
+    "country": "Cambodia",
+    "siteName": {
+      "en": "National Museum of Cambodia",
+      "km": "សារមន្ទីរជាតិកម្ពុជា"
+    }
+  },
+  "keyFacts": {
+    "era": {
+      "en": "Living Classical Tradition",
+      "km": "ប្រពៃណីតន្ត្រីបុរាណរស់រវើក"
+    },
+    "tradition": {
+      "en": "Leading Melodic Instrument (Pinpeat/Mohori)",
+      "km": "ឧបករណ៍ដឹកនាំសំនៀង"
+    },
+    "material": {
+      "en": "Mai Phai bamboo / Neang Nuon rosewood, beeswax tuning paste",
+      "km": "ឬស្សីព្រៃ ឈើនាងនួន ក្រមួនលាយសំណ"
+    }
+  },
+  "audioMetadata": {
+    "tuningHz": [
+      523.25,
+      587.33,
+      659.25,
+      783.99
+    ],
+    "acousticNotes": {
+      "en": "Equitempered heptatonic scale tuning tuned with lead-wax paste underneath each key bar.",
+      "km": "ការដំឡើងសំនៀង ៧ កម្រិតស្មើគ្នា ដោយប្រើក្រមួនលាយម្សៅសំណបិទពីក្រោមផ្លែ។"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "id": "sec-re-organology",
+        "heading": {
+          "en": "Organology, Boat-Shaped Soundbox & Acoustic Acoustics",
+          "km": "កាយវិភាគវិទ្យាឧបករណ៍ ស្នូករាងទូក និងសំនៀងវិទ្យា",
+          "vi": "Đặc Trưng Khí Cụ Học, Thùng Đàn Hình Thuyền & Âm Học Định Âm",
+          "th": "ลักษณะทางกายวิภาคศาสตร์ รางรูปเรือ และระบบเสียง"
+        },
+        "body": {
+          "en": "The Roneat Ek consists of 21 rectangular bars made from aged Mai Phai bamboo or prized rosewood (Dalbergia oliveri). The bars are suspended on two parallel cords across a boat-shaped carved soundbox (snuok) that acts as a natural acoustic amplifier. The master musician plays with two mallets: hard wooden mallets (me-bat reung) for rapid, bright percussive passages in outdoor ceremonies, or padded soft mallets (me-bat tun) for sweet, intimate indoors royal recitals.",
+          "km": "រនាតឯកមានផ្លែ ២១ ធ្វើពីឬស្សីចាស់ ឬឈើនាងនួន ព្យួរលើខ្សែពីរតាមបណ្តោយស្នូករាងទូក។ អ្នកលេងប្រើមេបាត់ពីរ៖ មេបាត់រឹងសម្រាប់ភ្លេងពិណពាទ្យ និងមេបាត់ទន់សម្រាប់ភ្លេងមហោរី។",
+          "vi": "Roneat Ek gồm 21 thanh phím hình chữ nhật làm bằng tre rừng già hong khô hoặc gỗ trắc (Neang Nuon). Các thanh phím được xâu trên hai sợi dây song song treo lơ lửng trên thùng đàn uốn cong như một chiếc thuyền độc mộc đóng vai trò hộp cộng hưởng khuếch đại âm sắc. Nghệ nhân dùng hai dùi gõ: dùi bọc sáp cứng cho âm vang giòn giã ngoài trời hoặc dùi bọc nỉ mềm cho tiếng đàn êm dịu thanh nhã trong cung điện.",
+          "th": "ระนาดเอกประกอบด้วยลูกระนาด 21 ลูกทำจากไม้ไผ่หรือไม้ประดู่ แขวนบนรางรูปเรือที่ช่วยสะท้อนเสียง ใช้ไม้ตีสองชนิดคือ ไม้แข็งสำหรับเสียงดังกระจ่าง และไม้นวมสำหรับเสียงนุ่มนวลไพเราะ"
+        }
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "id": "m-re-g1",
+      "url": "file:///app/applet/src/assets/instruments.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/instruments.jpg",
+      "type": "image",
+      "title": {
+        "en": "Master Tuning the Underneath Wax Paste of Roneat Ek Bars",
+        "km": "ការដំឡើងសំនៀងផ្លែរនាតដោយបិទក្រមួន",
+        "vi": "Nghệ nhân dán sáp chì định âm dưới mặt phím đàn Roneat Ek",
+        "th": "การติดขี้ผึ้งถ่วงเสียงใต้ลูกระนาด"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "reviewStatus": "verified_peer_reviewed"
+    }
+  ],
+  "relatedEntryIds": [
+    "e-pinpeat",
+    "e-chapei-dong-veng",
+    "e-apsara"
+  ],
+  "relatedEntries": [
+    "e-pinpeat",
+    "e-chapei-dong-veng",
+    "e-apsara"
+  ],
+  "sourceIds": [
+    "src-sam-1991",
+    "src-miller-williams-2000",
+    "src-pou-1992"
+  ],
+  "citations": [
+    {
+      "id": "c-re-1",
+      "title": "The Garland Encyclopedia of World Music: Southeast Asia (Cambodian Instruments)",
+      "author": "Terry E. Miller & Sean Williams",
+      "year": 1998,
+      "publisher": "Routledge",
+      "sourceId": "src-miller-williams-2000",
+      "sourceType": "academic_publication",
+      "reviewStatus": "verified_peer_reviewed"
+    }
+  ],
+  "reviewStatus": "verified_peer_reviewed",
+  "scholarlyReviewer": "Dr. Sam-Ang Sam & National Conservatory of Music",
+  "updatedAt": "2026-08-28T00:00:00.000Z"
+}

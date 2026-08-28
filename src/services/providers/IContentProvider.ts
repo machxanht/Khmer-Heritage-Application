@@ -36,6 +36,11 @@ export interface IContentProvider {
   getEntries(): Promise<EntryDetail[]>;
 
   /**
+   * Fetches lightweight entry summaries (discovery / catalog index).
+   */
+  getEntrySummaries?(): Promise<EntrySummary[]>;
+
+  /**
    * Fetches entry summaries filtered by category identifier.
    */
   getEntriesByCategory(categoryId: string): Promise<EntrySummary[]>;

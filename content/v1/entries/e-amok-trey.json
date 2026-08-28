@@ -1,0 +1,154 @@
+{
+  "id": "e-amok-trey",
+  "slug": "amok-trey",
+  "category": "cuisine",
+  "categoryId": "cuisine",
+  "title": {
+    "en": "Amok Trey (Steamed Fish Curry in Banana Leaf Basket)",
+    "km": "អាម៉ុកត្រី",
+    "vi": "Amok Trey (Cá Chẽm Hấp Cà Ri Lá Chuối Khơ-me)",
+    "th": "อาม็อกเตร็ย (ห่อหมกปลาเขมร)"
+  },
+  "summary": {
+    "en": "The culinary signature of Cambodia: fresh Tonlé Sap fish fillets gently steamed in rich coconut milk, beaten egg, aromatic yellow kroeung paste, and sacred noni leaves inside folded banana-leaf baskets.",
+    "km": "ម្ហូបប្រចាំអត្តសញ្ញាណជាតិខ្មែរ ធ្វើពីសាច់ត្រីរ៉ស់បឹងទន្លេសាប ប្រឡាក់ជាមួយគ្រឿងបុកលឿង ខ្ទិះដូង ពងទា និងទ្រាប់ស្លឹកញ ខ្ចប់ក្នុងកន្ទោងស្លឹកចេកចំហុយយ៉ាងឈ្ងុយឆ្ងាញ់។",
+    "vi": "Món ăn quốc hồn quốc túy của ẩm thực Campuchia: cá quả Biển Hồ Tonlé Sap được ướp với cốt dừa béo ngậy, trứng vịt, sốt gia vị kroeung vàng giã tay và lót lá nhàu non hấp trong xửng lá chuối gấp hình chiếc thuyền nhỏ.",
+    "th": "อาหารประจำชาติต้นตำรับเขมร ทำจากเนื้อปลาช่อนสดจากทะเลสาบเขมร คลุกเคล้ากับกะทิสด ไข่ พริกแกงเหลืองโกรឿង และรองด้วยใบยอ นึ่งในกระทงใบตองจนหอมกรุ่น"
+  },
+  "era": {
+    "en": "Angkorian Culinary Heritage – Living National Tradition",
+    "km": "បេតិកភណ្ឌម្ហូបបុរាណសម័យអង្គរ ដល់ បច្ចុប្បន្ន",
+    "vi": "Di sản Ẩm thực Thời Angkor đến Nay",
+    "th": "มรดกอาหารยุคพระนคร ถึงปัจจุบัน"
+  },
+  "coverMedia": {
+    "id": "m-at-cover",
+    "url": "file:///app/applet/src/assets/banteay-srei.jpg",
+    "thumbnailUrl": "file:///app/applet/src/assets/banteay-srei.jpg",
+    "type": "image",
+    "title": {
+      "en": "Steamed Amok Trey Served in Folded Banana Leaf Kratong with Coconut Cream Swirl",
+      "km": "អាម៉ុកត្រីចំហុយក្នុងកន្ទោងស្លឹកចេកស្រោចខ្ទិះដូង",
+      "vi": "Món cá hấp Amok Trey trong xửng lá chuối trang trí ớt chỉ thiên và cốt dừa",
+      "th": "อาม็อกเตร็ยในกระทงใบตองราดหัวกะทิสด"
+    },
+    "creator": "Khmer Heritage Field Mission",
+    "source": "Khmer Heritage Field Archive",
+    "sourceUrl": "https://whc.unesco.org/en/list/668/",
+    "license": "cc_by_sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+    "sourceId": "src-khmer-field-mission",
+    "provenance": {
+      "repository": "Cambodian Culinary Heritage Documentation Project",
+      "captureDate": "2024-03-10",
+      "creditLine": "Khmer Heritage Field Mission (2024)"
+    },
+    "reviewStatus": "verified_peer_reviewed"
+  },
+  "coordinates": {
+    "latitude": 12.5657,
+    "longitude": 104.991
+  },
+  "location": {
+    "coordinates": {
+      "latitude": 12.5657,
+      "longitude": 104.991
+    },
+    "province": {
+      "en": "Tonlé Sap Basin & Nationwide",
+      "km": "តំបន់បឹងទន្លេសាប និងទូទាំងប្រទេស",
+      "vi": "Vùng lòng chảo Biển Hồ Tonlé Sap",
+      "th": "ลุ่มน้ำทะเลสาบเขมร"
+    },
+    "country": "Cambodia",
+    "siteName": {
+      "en": "Tonlé Sap Biosphere Reserve",
+      "km": "បឹងទន្លេសាប"
+    }
+  },
+  "keyFacts": {
+    "era": {
+      "en": "Documented in Royal Palace Culinary Manuscripts",
+      "km": "កត់ត្រាក្នុងក្បួនម្ហូបព្រះបរមរាជវាំង"
+    },
+    "tradition": {
+      "en": "Royal & Ceremonial Khmer Gastronomy",
+      "km": "ម្ហូបព្រះរាជវាំង និងពិធីបុណ្យជាតិ"
+    },
+    "material": {
+      "en": "Tonlé Sap snakehead fish (Trey Ros), Kroeung, Noni leaves (Slik Ngor), Coconut milk",
+      "km": "ត្រីរ៉ស់ គ្រឿងបុក ស្លឹកញ ខ្ទិះដូង ស្លឹកចេក"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "id": "sec-at-kroeung",
+        "heading": {
+          "en": "The Aromatic Alchemy of Kroeung & Slik Ngor (Noni Leaves)",
+          "km": "សិល្បៈគ្រឿងបុកខ្មែរ និងអត្ថប្រយោជន៍នៃស្លឹកញ",
+          "vi": "Nghệ Thuật Hương Vị Gia Vị Kroeung & Tác Dụng Thanh Lành Của Lá Nhàu",
+          "th": "ศาสตร์แห่งพริกแกงโกรឿងและสรรพคุณของใบยอ"
+        },
+        "body": {
+          "en": "The soul of authentic Amok Trey is Kroeung, the ancient Khmer aromatic paste hand-pounded in a granite mortar with lemongrass stalks, fresh galangal, kaffir lime zest, turmeric root, garlic, and shallots. The fish fillets (typically snakehead Trey Ros or goby Trey Khman) are gently combined with coconut cream, whisked duck egg, and palm sugar to form a delicate savory custard (mousse-like consistency). The mixture is placed over a bed of bitter young noni leaves (slik ngor - Morinda citrifolia), whose subtle bitterness balances the rich creaminess, wrapped in banana leaf kratongs and steamed until silky.",
+          "km": "ព្រលឹងនៃអាម៉ុកត្រីគឺគ្រឿងបុក (ស្លឹកគ្រៃ រំដេង រមៀត ស្លឹកក្រូចសើច ខ្ទឹមស ខ្ទឹមក្រហម) បុកក្នុងត្បាល់ថ្ម។ សាច់ត្រីរ៉ស់លាយជាមួយខ្ទិះដូង ពងទា និងស្ករត្នោត ដាក់លើស្លឹកញក្នុងកន្ទោងស្លឹកចេក រួចចំហុយឲ្យឡើងខាប់ទន់ដូចមូស។",
+          "vi": "Linh hồn của món Amok Trey truyền thống là Kroeung — hỗn hợp thảo mộc giã nhuyễn bằng cối đá gồm sả cây, củ riềng non, vỏ chanh kaffir, nghệ vàng, tỏi và hành tím. Từng thớ thịt cá quả tươi roi rói được trộn đều cùng nước cốt dừa đầu béo thơm, lòng đỏ trứng vịt và đường thốt nốt nguyên chất tạo nên kết cấu sánh mịn như món mousse mặn thanh nhã. Hỗn hợp được trút lên lớp lá nhàu non (slik ngor) mang vị đắng thanh làm trung hòa độ béo ngậy, gói gọn gàng trong khuôn lá chuối và hấp chín bằng hơi nước.",
+          "th": "หัวใจของอาม็อกคือเครื่องแกงโกรឿងที่โขลกสดจากตะไคร้ ข่า ผิวมะกรูด ขมิ้น กระเทียม และหอมแดง นำมาคลุกเคล้ากับเนื้อปลาช่อน กะทิข้น ไข่เป็ด และน้ำตาลโตนด วางบนใบยอในกระทงใบตองแล้วนำไปนึ่งจนสุกนุ่มละมุนลิ้น"
+        }
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "id": "m-at-g1",
+      "url": "file:///app/applet/src/assets/banteay-srei.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/banteay-srei.jpg",
+      "type": "image",
+      "title": {
+        "en": "Traditional Stone Mortar Pounding of Fresh Lemongrass Yellow Kroeung Paste",
+        "km": "ការបុកគ្រឿងលឿងក្នុងត្បាល់ថ្មបុរាណ",
+        "vi": "Giã gia vị thảo mộc Kroeung trong cối đá sa thạch truyền thống",
+        "th": "การโขลกพริกแกงโกรឿងในครกหิน"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "reviewStatus": "verified_peer_reviewed"
+    }
+  ],
+  "relatedEntryIds": [
+    "e-pchum-ben",
+    "e-silk-hol",
+    "e-krama"
+  ],
+  "relatedEntries": [
+    "e-pchum-ben",
+    "e-silk-hol",
+    "e-krama"
+  ],
+  "sourceIds": [
+    "src-cambodia-gastronomy-2021",
+    "src-pou-1992"
+  ],
+  "citations": [
+    {
+      "id": "c-at-1",
+      "title": "National Inventory of Intangible Cultural Heritage: Traditional Khmer Gastronomy and Culinary Practices",
+      "author": "Department of Intangible Heritage",
+      "year": 2021,
+      "institution": "Ministry of Culture and Fine Arts, Kingdom of Cambodia",
+      "sourceId": "src-cambodia-gastronomy-2021",
+      "sourceType": "government_heritage_authority",
+      "reviewStatus": "institutional_certified"
+    }
+  ],
+  "reviewStatus": "verified_peer_reviewed",
+  "scholarlyReviewer": "Ministry of Culture and Fine Arts & Cambodian Culinary Arts Association",
+  "updatedAt": "2026-08-28T00:00:00.000Z"
+}

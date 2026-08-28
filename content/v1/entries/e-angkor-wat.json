@@ -1,0 +1,219 @@
+{
+  "id": "e-angkor-wat",
+  "slug": "angkor-wat",
+  "category": "temples",
+  "categoryId": "temples",
+  "title": {
+    "en": "Angkor Wat",
+    "km": "ប្រាសាទអង្គរវត្ត",
+    "vi": "Đền Angkor Wat",
+    "th": "ปราสาทนครวัด"
+  },
+  "summary": {
+    "en": "The grandest religious monument in human history, raised by King Suryavarman II in the early 12th century as a terrestrial cosmogram of Mount Meru and Vishnu's celestial abode.",
+    "km": "សំណង់សាសនាធំបំផុតលើពិភពលោក សាងឡើងដោយព្រះបាទសូរ្យវរ្ម័នទី ២ នៅដើមសតវត្សរ៍ទី ១២ ជាគំរូនៃភ្នំព្រះសុមេរុ និងឋានសួគ៌នៃព្រះវិស្ណុ។",
+    "vi": "Quần thể đền đài tôn giáo đồ sộ nhất thế giới, được vua Suryavarman II xây dựng vào đầu thế kỷ 12 như một tiểu vũ trụ trần thế của núi thiêng Meru và cõi ngự của thần Vishnu.",
+    "th": "ศาสนสถานที่ใหญ่ที่สุดในโลก สร้างขึ้นโดยพระเจ้าสูรยวรมันที่ 2 ในช่วงต้นศตวรรษที่ 12 เพื่อเป็นแบบจำลองของเขาพระสุเมรุและวิมานของพระวิษณุ"
+  },
+  "era": {
+    "en": "Early 12th Century CE (c. 1113–1150 CE)",
+    "km": "ដើមសតវត្សរ៍ទី ១២ នៃ គ.ស. (ប្រមាណ ឆ្នាំ ១១១៣–១១៥០)",
+    "vi": "Đầu thế kỷ 12 CN (khoảng 1113–1150 CN)",
+    "th": "ต้นศตวรรษที่ 12 (ราว ค.ศ. 1113–1150)"
+  },
+  "coverMedia": {
+    "id": "m-aw-cover",
+    "url": "file:///app/applet/src/assets/angkor-wat.jpg",
+    "thumbnailUrl": "file:///app/applet/src/assets/angkor-wat.jpg",
+    "type": "image",
+    "title": {
+      "en": "Angkor Wat Western Causeway and Central Towers at Sunrise",
+      "km": "អង្គរវត្តពេលព្រឹកព្រាងឆ្លុះផ្ទៃទឹក",
+      "vi": "Cầu đá phía Tây và năm ngọn tháp Angkor Wat lúc bình minh",
+      "th": "ทัศนียภาพนครวัดยามเช้าตรู่เหนือน้ำ"
+    },
+    "creator": "Khmer Heritage Field Mission",
+    "source": "Khmer Heritage Field Archive",
+    "sourceUrl": "https://whc.unesco.org/en/list/668/",
+    "license": "cc_by_sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+    "sourceId": "src-khmer-field-mission",
+    "provenance": {
+      "repository": "Khmer Heritage Photographic Repository",
+      "collection": "Angkor Archaeological Park Survey",
+      "captureDate": "2024-02-15",
+      "creditLine": "Khmer Heritage Field Mission (2024)"
+    },
+    "reviewStatus": "verified_peer_reviewed"
+  },
+  "coordinates": {
+    "latitude": 13.4125,
+    "longitude": 103.867
+  },
+  "location": {
+    "coordinates": {
+      "latitude": 13.4125,
+      "longitude": 103.867
+    },
+    "province": {
+      "en": "Siem Reap",
+      "km": "សៀមរាប",
+      "vi": "Siem Reap",
+      "th": "เสียมราฐ"
+    },
+    "country": "Cambodia",
+    "siteName": {
+      "en": "Angkor Archaeological Park",
+      "km": "រមណីយដ្ឋានអង្គរ"
+    }
+  },
+  "keyFacts": {
+    "era": {
+      "en": "c. 1113–1150 CE",
+      "km": "គ.ស. ១១១៣–១១៥០"
+    },
+    "builder": {
+      "en": "King Suryavarman II",
+      "km": "ព្រះបាទសូរ្យវរ្ម័នទី ២",
+      "vi": "Vua Suryavarman II",
+      "th": "พระเจ้าสูรยวรมันที่ 2"
+    },
+    "religion": {
+      "en": "Hinduism (Vaishnavism) · later Theravada Buddhism",
+      "km": "ព្រហ្មញ្ញសាសនា (និកាយវិស្ណុ) · ក្រោយមកពុទ្ធសាសនាថេរវាទ"
+    },
+    "architecturalStyle": {
+      "en": "Classical Angkor Wat Style",
+      "km": "រចនាប័ទ្មអង្គរវត្ត"
+    },
+    "unescoStatus": {
+      "en": "World Heritage Site (1992, Ref: 668)",
+      "km": "បេតិកភណ្ឌពិភពលោក (១៩៩២)"
+    },
+    "material": {
+      "en": "Sandstone & Laterite",
+      "km": "ថ្មភក់ និងថ្មបាយក្រៀម"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "id": "sec-aw-cosmology",
+        "heading": {
+          "en": "Sacred Cosmogram, Orientation & Astronomical Alignment",
+          "km": "ប្លង់ស្ថាបត្យកម្ម ចក្រវាឡវិទ្យា និងតារាសាស្ត្រ",
+          "vi": "Tiểu Vũ Trụ Học, Định Hướng Tây & Căn Chỉnh Thiên Văn",
+          "th": "จักรวาลวิทยาทางสถาปัตยกรรมและการปรับแนวทางดาราศาสตร์"
+        },
+        "body": {
+          "en": "Angkor Wat is a monumental cosmogram materialized in sandstone and laterite. The central quincunx of five towers symbolizes the peaks of Mount Meru, the concentric galleried enclosures correspond to cosmic mountain ranges, and the 190-meter-wide moat represents the primordial cosmic ocean (Ocean of Milk). Unlike the vast majority of Angkorian temples that face East toward the rising sun, Angkor Wat faces strictly West — the cardinal direction associated with Lord Vishnu and the setting sun, signifying its dual role as a state temple and Suryavarman II's funerary mausoleum. On the spring equinox, the sun rises directly over the pinnacle of the central tower when viewed from the western causeway, demonstrating sophisticated Khmer archaeoastronomical engineering.",
+          "km": "ប្រាសាទនេះជាគំរូនៃភ្នំព្រះសុមេរុលើផែនដី ធ្វើពីថ្មភក់ និងថ្មបាយក្រៀម មានប្រាង្គកំពូល ៥ និងកសិណទឹកទទឹង ១៩០ ម៉ែត្រព័ទ្ធជុំវិញ តំណាងឲ្យមហាសមុទ្រចក្រវាឡ។ ប្រាសាទបែរមុខទៅទិសខាងលិច ដែលជាទិសនៃព្រះវិស្ណុ។ នៅថ្ងៃសមរាត្រី (Equinox) ព្រះអាទិត្យរះចំកណ្តាលកំពូលប្រាង្គកណ្តាលយ៉ាងអស្ចារ្យ។",
+          "vi": "Angkor Wat là một tiểu vũ trụ đồ sộ tạc bằng sa thạch và đá ong. Năm ngọn tháp hình búp sen tượng trưng cho các đỉnh núi thiêng Meru, các dãy hành lang đồng tâm tượng trưng cho các rặng núi bao quanh, và hào nước rộng 190m tượng trưng cho đại dương vũ trụ. Độc đáo ở chỗ, đền quay mặt về hướng Tây — hướng của thần Vishnu và hướng mặt trời lặn — khẳng định vai trò là ngôi đền lăng mộ của vua Suryavarman II. Vào ngày xuân phân, mặt trời mọc thẳng tắp ngay trên đỉnh tháp trung tâm khi nhìn từ trục đường đắp phía Tây.",
+          "th": "นครวัดคือแบบจำลองจักรวาลอันยิ่งใหญ่ สร้างด้วยหินทรายและศิลาแลง ยอดปรางค์ 5 ยอดเปรียบเสมือนยอดเขาพระสุเมรุ ระเบียงคดคือทิวเขา และคูน้ำกว้าง 190 เมตรคือมหาสมุทรจักรวาล ในวันศารทวิษุวัต พระอาทิตย์จะขึ้นตรงยอดปรางค์ประธานพอดี"
+        }
+      },
+      {
+        "id": "sec-aw-reliefs",
+        "heading": {
+          "en": "The Epic Bas-Relief Galleries & The Churning of the Ocean of Milk",
+          "km": "វិចិត្រសាលចម្លាក់ក្រឡោតទាប និងរឿងកូរសមុទ្រទឹកដោះ",
+          "vi": "Các Dãy Hành Lang Phù Điêu Sử Thi & Huyền Thoại Khuấy Biển Sữa",
+          "th": "ภาพสลักนูนต่ำมหากาพย์และการกวนเกษียรสมุทร"
+        },
+        "body": {
+          "en": "Nearly 600 continuous meters of narrative bas-reliefs wrap the outer third enclosure gallery. The southern gallery features King Suryavarman II seated under royal parasols and commanding his armies. The eastern gallery contains the celebrated Churning of the Ocean of Milk (Samudra Manthan), where 88 asuras and 92 devas pull the serpent king Vasuki wrapped around Mount Mandara for a thousand years to extract amrita (nectar of immortality). The western gallery depicts the catastrophic climax of the Battle of Kurukshetra from the Mahabharata and the Battle of Lanka from the Ramayana.",
+          "km": "ចម្លាក់ក្រឡោតទាបប្រវែងជិត ៦០០ ម៉ែត្រព័ទ្ធជុំវិញថែវទី ៣ បង្ហាញពីព្រះរាជពិធីរបស់ព្រះបាទសូរ្យវរ្ម័នទី ២ រឿងកូរសមុទ្រទឹកដោះ (យក្ស ៨៨ និងទេវតា ៩២ ទាញនាគវាសុកី) និងសមរភូមិកុរុក្សេត្រក្នុងរឿងមហាភារតៈ។",
+          "vi": "Gần 600 mét phù điêu chạm khắc liên tục bao bọc tầng hành lang thứ ba. Dãy hành lang phía Nam khắc họa vua Suryavarman II cùng đoàn quân hoàng gia. Hành lang phía Đông ghi dấu trường đoạn huyền thoại Khuấy Biển Sữa (Samudra Manthan) với 88 vị thần Asura và 92 Deva cùng kéo rắn thần Vasuki quanh núi Mandara. Hành lang phía Tây tái hiện các trận chiến bi tráng trong sử thi Mahabharata và Ramayana.",
+          "th": "ภาพสลักนูนต่ำความยาวเกือบ 600 เมตรรอบระเบียงคดชั้นนอก แสดงภาพพระเจ้าสูรยวรมันที่ 2 ภาพการกวนเกษียรสมุทร และฉากสงครามจากมหากาพย์มหาภารตะและรามายณะ"
+        }
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "id": "m-aw-g1",
+      "url": "file:///app/applet/src/assets/angkor-wat.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/angkor-wat.jpg",
+      "type": "image",
+      "title": {
+        "en": "Angkor Wat Central Sanctuary Lotus Towers",
+        "km": "ប្រាង្គកណ្តាលអង្គរវត្ត",
+        "vi": "Cụm tháp trung tâm hình búp sen Angkor Wat",
+        "th": "ยอดปรางค์ประธานนครวัด"
+      },
+      "creator": "EFEO Photographic Archives",
+      "source": "EFEO Archives",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "direct_permission",
+      "licenseUrl": "https://collection.efeo.fr/",
+      "attribution": "EFEO Photographic Archives — EFEO Archives, CC BY-SA 4.0",
+      "sourceId": "src-efeo-photo-archive",
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    {
+      "id": "m-aw-g2",
+      "url": "file:///app/applet/src/assets/bayon.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/bayon.jpg",
+      "type": "image",
+      "title": {
+        "en": "Churning of the Ocean of Milk Bas-Relief Detail",
+        "km": "ចម្លាក់កូរសមុទ្រទឹកដោះ",
+        "vi": "Chi tiết phù điêu Khuấy Biển Sữa tại hành lang phía Đông",
+        "th": "ภาพสลักการกวนเกษียรสมุทร"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "reviewStatus": "verified_peer_reviewed"
+    }
+  ],
+  "relatedEntryIds": [
+    "e-bayon",
+    "e-angkor-thom",
+    "e-banteay-srei",
+    "e-apsara"
+  ],
+  "relatedEntries": [
+    "e-bayon",
+    "e-angkor-thom",
+    "e-banteay-srei",
+    "e-apsara"
+  ],
+  "sourceIds": [
+    "src-coe-2003",
+    "src-coedes-1937",
+    "src-unesco-668",
+    "src-groslier-1956"
+  ],
+  "citations": [
+    {
+      "id": "c-aw-1",
+      "title": "Angkor and the Khmer Civilization",
+      "author": "Michael D. Coe",
+      "year": 2003,
+      "publisher": "Thames & Hudson",
+      "sourceId": "src-coe-2003",
+      "sourceType": "academic_publication",
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    {
+      "id": "c-aw-2",
+      "title": "World Heritage List Inscription Dossier No. 668 (Angkor)",
+      "author": "UNESCO World Heritage Centre",
+      "year": 1992,
+      "institution": "UNESCO",
+      "url": "https://whc.unesco.org/en/list/668/",
+      "sourceId": "src-unesco-668",
+      "sourceType": "unesco_institutional",
+      "reviewStatus": "institutional_certified"
+    }
+  ],
+  "reviewStatus": "verified_peer_reviewed",
+  "scholarlyReviewer": "Dr. George Cœdès & EFEO Heritage Working Group",
+  "updatedAt": "2026-08-28T00:00:00.000Z"
+}

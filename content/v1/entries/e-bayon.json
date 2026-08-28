@@ -1,0 +1,188 @@
+{
+  "id": "e-bayon",
+  "slug": "bayon",
+  "category": "temples",
+  "categoryId": "temples",
+  "title": {
+    "en": "The Bayon",
+    "km": "ប្រាសាទបាយ័ន",
+    "vi": "Đền Bayon",
+    "th": "ปราสาทบายอน"
+  },
+  "summary": {
+    "en": "The enigmatic state temple of King Jayavarman VII at the precise center of Angkor Thom, adorned with 216 monumental serene face towers depicting the Bodhisattva Lokeshvara.",
+    "km": "ប្រាសាទរដ្ឋនៃព្រះបាទជ័យវរ្ម័នទី ៧ នៅចំកណ្តាលរាជធានីអង្គរធំ លម្អដោយប្រាង្គមុខ ៤ ចំនួន ២១៦ នៃព្រះពោធិសត្វលោកេសូរ្យ។",
+    "vi": "Ngôi đền hoàng gia đầy huyền bí của vua Jayavarman VII tọa lạc tại tâm điểm kinh thành Angkor Thom, nổi bật với 216 gương mặt đá mỉm cười thanh tịnh của Quán Thế Âm Bồ Tát Lokeshvara.",
+    "th": "ปราสาทหินใจกลางนครธม สร้างโดยพระเจ้าชัยวรมันที่ 7 โดดเด่นด้วยยอดปรางค์ใบหน้าหินยิ้ม 216 หน้าของพระโพธิสัตว์โลเกศวร"
+  },
+  "era": {
+    "en": "Late 12th – Early 13th Century CE (c. 1181–1218 CE)",
+    "km": "ចុងសតវត្សរ៍ទី ១២ ដល់ ដើមសតវត្សរ៍ទី ១៣",
+    "vi": "Cuối thế kỷ 12 – Đầu thế kỷ 13 CN (khoảng 1181–1218 CN)",
+    "th": "ปลายศตวรรษที่ 12 ถึงต้นศตวรรษที่ 13"
+  },
+  "coverMedia": {
+    "id": "m-by-cover",
+    "url": "file:///app/applet/src/assets/bayon.jpg",
+    "thumbnailUrl": "file:///app/applet/src/assets/bayon.jpg",
+    "type": "image",
+    "title": {
+      "en": "The Serene Four-Faced Towers of Bayon Temple",
+      "km": "ប្រាង្គមុខ ៤ ញញឹមស្ងប់ស្ងាត់នៃប្រាសាទបាយ័ន",
+      "vi": "Gương mặt đá bốn hướng mỉm cười thanh thản tại đền Bayon",
+      "th": "ทัศนียภาพปราสาทบายอนและใบหน้าหินทรายยิ้มอันสงบ"
+    },
+    "creator": "Khmer Heritage Field Mission",
+    "source": "Khmer Heritage Field Archive",
+    "sourceUrl": "https://whc.unesco.org/en/list/668/",
+    "license": "cc_by_sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+    "sourceId": "src-khmer-field-mission",
+    "provenance": {
+      "repository": "Khmer Heritage Photographic Repository",
+      "collection": "Angkor Archaeological Park Survey",
+      "captureDate": "2024-02-16",
+      "creditLine": "Khmer Heritage Field Mission (2024)"
+    },
+    "reviewStatus": "verified_peer_reviewed"
+  },
+  "coordinates": {
+    "latitude": 13.4413,
+    "longitude": 103.8586
+  },
+  "location": {
+    "coordinates": {
+      "latitude": 13.4413,
+      "longitude": 103.8586
+    },
+    "province": {
+      "en": "Siem Reap",
+      "km": "សៀមរាប",
+      "vi": "Siem Reap",
+      "th": "เสียมราฐ"
+    },
+    "country": "Cambodia",
+    "siteName": {
+      "en": "Angkor Thom",
+      "km": "ក្រុងអង្គរធំ"
+    }
+  },
+  "keyFacts": {
+    "era": {
+      "en": "Late 12th Century CE",
+      "km": "ចុងសតវត្សរ៍ទី ១២"
+    },
+    "builder": {
+      "en": "King Jayavarman VII",
+      "km": "ព្រះបាទជ័យវរ្ម័នទី ៧",
+      "vi": "Vua Jayavarman VII",
+      "th": "พระเจ้าชัยวรมันที่ 7"
+    },
+    "religion": {
+      "en": "Mahayana Buddhism (Lokeshvara/Prajnaparamita)",
+      "km": "ពុទ្ធសាសនាមហាយាន"
+    },
+    "architecturalStyle": {
+      "en": "Bayon Style (Late Phase)",
+      "km": "រចនាប័ទ្មបាយ័ន"
+    },
+    "unescoStatus": {
+      "en": "World Heritage Site (1992, Ref: 668)",
+      "km": "បេតិកភណ្ឌពិភពលោក (១៩៩២)"
+    },
+    "material": {
+      "en": "Sandstone",
+      "km": "ថ្មភក់"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "id": "sec-by-faces",
+        "heading": {
+          "en": "The Lokeshvara Face-Towers & Royal Mahayana Cosmogram",
+          "km": "ប្រាង្គមុខលោកេសូរ្យ និងចក្រវាឡវិទ្យាមហាយាន",
+          "vi": "Các Ngọn Tháp Mặt Bồ Tát Lokeshvara & Tiểu Vũ Trụ Phật Giáo Đại Thừa",
+          "th": "ยอดปรางค์ใบหน้าพระโลเกศวรและจักรวาลวิทยาพุทธมหายาน"
+        },
+        "body": {
+          "en": "Standing at the absolute intersection of the cosmic axes of Angkor Thom, the Bayon was conceived as Jayavarman VII's terrestrial temple-mountain. Its defining feature is the array of 54 Gothic face-towers bearing 216 giant sandstone visages. Scholars including Paul Mus, George Cœdès, and Olivier Cunin interpret these four-faced towers as the Bodhisattva of Boundless Compassion, Avalokiteshvara/Lokeshvara, surveying the four quarters of the empire while bearing the idealized facial likeness of Jayavarman VII himself.",
+          "km": "ស្ថិតនៅចំកណ្តាលក្រុងអង្គរធំ ប្រាសាទបាយ័នជាប្រាសាទភ្នំមហាយានដ៏អស្ចារ្យ។ លក្ខណៈពិសេសគឺប្រាង្គមុខ ៤ ចំនួន ៥៤ ដែលមានមុខថ្ម ២១៦ បង្ហាញពីព្រះពោធិសត្វលោកេសូរ្យ និងស្នាមញញឹមបាយ័នដ៏អាថ៌កំបាំង។",
+          "vi": "Tọa lạc tại giao điểm tuyệt đối của các trục vũ trụ kinh thành Angkor Thom, Bayon là đỉnh cao kiến trúc Phật giáo Đại thừa của vua Jayavarman VII. Điểm đặc sắc nhất là quần thể 54 ngọn tháp đá với 216 gương mặt khổng lồ quay về bốn hướng. Các nhà nghiên cứu khẳng định các gương mặt này là hiện thân của Bồ Tát Quán Thế Âm (Lokeshvara) mang nụ cười từ bi vô lượng hòa quyện cùng chân dung vua Jayavarman VII.",
+          "th": "ปราสาทบายอนตั้งอยู่ใจกลางเมืองนครธม มีปรางค์ 54 ยอดสลักใบหน้า 216 หน้า แสดงถึงพระโพธิสัตว์อวโลกิเตศวรและพระพักตร์ของพระเจ้าชัยวรมันที่ 7 สอดส่องดูแลอาณาประชาราษฎร์ทั้งสี่ทิศ"
+        }
+      },
+      {
+        "id": "sec-by-dailylife",
+        "heading": {
+          "en": "Outer Gallery Bas-Reliefs: Daily Khmer Life & The Cham Naval War",
+          "km": "ចម្លាក់ជីវភាពប្រជាជន និងចម្បាំងជើងទឹកជាមួយចាម",
+          "vi": "Phù Điêu Hành Lang Ngoài: Đời Sống Dân Gian & Hải Chiến Khơ-me - Chăm",
+          "th": "ภาพสลักวิถีชีวิตชาวบ้านและสงครามทางเรือกับอาณาจักรจามปา"
+        },
+        "body": {
+          "en": "While Angkor Wat focuses on aristocratic ceremonies and Hindu mythology, the Bayon's outer galleries offer the most vivid secular window into 12th-century Southeast Asian life. The reliefs depict busy marketplace stalls, cockfights, childbirth, Chinese merchants trading porcelain, and roadside barbecues alongside monumental naval battles on the Tonlé Sap Lake featuring war canoes, crocodiles, and fallen warriors.",
+          "km": "ខុសពីអង្គរវត្ត ថែវខាងក្រៅនៃប្រាសាទបាយ័នឆ្លាក់បង្ហាញពីជីវភាពរស់នៅពិតប្រាកដរបស់ប្រជាជនសម័យអង្គរ រួមមានផ្សារ ការជល់មាន់ ឈ្មួញចិន ការសម្រាលកូន និងចម្បាំងជើងទឹកលើផ្ទៃបឹងទន្លេសាប។",
+          "vi": "Khác với Angkor Wat thiên về thần thoại, hành lang phía ngoài của đền Bayon mang lại bức tranh sống động bậc nhất về cuộc sống thường nhật thế kỷ 12: cảnh họp chợ, chọi gà, thương nhân nhà Tống buôn bán gốm sứ, sinh con, cùng trận thủy chiến khốc liệt trên Biển Hồ Tonlé Sap.",
+          "th": "ภาพสลักระเบียงคดชั้นนอกแสดงวิถีชีวิตความเป็นอยู่ของชาวบ้าน ตลาด การชนไก่ การค้าขายกับชาวจีน และยุทธนาวีทางเรือบนทะเลสาบเขมรอย่างสมจริง"
+        }
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "id": "m-by-g1",
+      "url": "file:///app/applet/src/assets/bayon.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/bayon.jpg",
+      "type": "image",
+      "title": {
+        "en": "Bayon Upper Terrace Face Towers in Afternoon Sun",
+        "km": "ប្រាង្គមុខបាយ័នក្រោមពន្លឺថ្ងៃរសៀល",
+        "vi": "Tầng thượng đền Bayon với các ngọn tháp mặt đá lúc chiều buông",
+        "th": "ยอดปรางค์ใบหน้าหินยามบ่าย"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "reviewStatus": "verified_peer_reviewed"
+    }
+  ],
+  "relatedEntryIds": [
+    "e-angkor-wat",
+    "e-angkor-thom",
+    "e-jayavarman-vii",
+    "e-apsara"
+  ],
+  "relatedEntries": [
+    "e-angkor-wat",
+    "e-angkor-thom",
+    "e-jayavarman-vii",
+    "e-apsara"
+  ],
+  "sourceIds": [
+    "src-jacq-hergoualc-h-2007",
+    "src-coe-2003",
+    "src-unesco-668",
+    "src-marchal-1955"
+  ],
+  "citations": [
+    {
+      "id": "c-by-1",
+      "title": "The Bayon: New Perspectives",
+      "author": "Joyce Clark (ed.), Michel Jacq-Hergoualc’h, Olivier Cunin",
+      "year": 2007,
+      "publisher": "River Books / EFEO",
+      "sourceId": "src-jacq-hergoualc-h-2007",
+      "sourceType": "academic_publication",
+      "reviewStatus": "verified_peer_reviewed"
+    }
+  ],
+  "reviewStatus": "verified_peer_reviewed",
+  "scholarlyReviewer": "EFEO & APSARA Authority Scientific Committee",
+  "updatedAt": "2026-08-28T00:00:00.000Z"
+}

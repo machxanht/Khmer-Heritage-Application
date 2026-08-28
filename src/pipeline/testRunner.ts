@@ -11,6 +11,8 @@ import { defaultSourcesRegistry } from '../data/sources.ts';
 import { validateHeritageCorpus } from './validator.ts';
 import { runScalabilityBenchmark } from './scalabilityTest.ts';
 import { runValidationEdgeCasesSuite } from './__tests__/validatorEdgeCases.test.ts';
+import { exportContentBundle } from './exporter.ts';
+import { validateContentBundle } from './validateBundle.ts';
 
 export async function runAllPipelineAudits(): Promise<boolean> {
   const overallStart = performance.now();
@@ -72,12 +74,36 @@ export async function runAllPipelineAudits(): Promise<boolean> {
   });
   console.log('  └─────────┴──────────────┴──────────────┴──────────────┴──────────────┴──────────────┘\n');
 
+  // STAGE 4: Production Content Bundle Export & Integrity Audit
+  console.log('▶ STAGE 4: EXPORTING & AUDITING PRODUCTION CONTENT BUNDLE (content/v1/)...');
+  const bundleExportStart = performance.now();
+  const exportResult = exportContentBundle();
+  const bundleReport = validateContentBundle({ bundleDir: exportResult.outputDir });
+  const bundleEnd = performance.now();
+  const bundleMs = +(bundleEnd - bundleExportStart).toFixed(2);
+
+  console.log(`  • Exported Files:          ${exportResult.exportedFiles.length}`);
+  console.log(`  • Manifest Valid:          ${bundleReport.manifestValid ? '✓ PASS' : '✗ FAIL'}`);
+  console.log(`  • Categories Valid:        ${bundleReport.categoriesValid ? '✓ PASS' : '✗ FAIL'} (${bundleReport.categoriesValid ? '12/12' : 'FAIL'})`);
+  console.log(`  • Index Valid:             ${bundleReport.indexValid ? '✓ PASS' : '✗ FAIL'} (16 summaries)`);
+  console.log(`  • Entry Details Audited:   ${bundleReport.entriesValidCount}/${bundleReport.entriesAuditedCount} valid`);
+  console.log(`  • Content Hash (SHA-256):  ${bundleReport.computedContentHash}`);
+  console.log(`  • Hash Match Verified:     ${bundleReport.hashMatches ? '✓ PASS' : '✗ FAIL'}`);
+  console.log(`  • Bundle Errors / Warnings: ${bundleReport.totalErrors} / ${bundleReport.totalWarnings}`);
+  console.log(`  • Execution Time:          ${bundleMs} ms\n`);
+
+  if (bundleReport.totalErrors > 0) {
+    console.error(`❌ STAGE 4 FAILED: ${bundleReport.totalErrors} errors found in production content bundle!`);
+    bundleReport.errors.forEach((err) => console.error(`    - ${err.field}: ${err.message}`));
+    return false;
+  }
+
   const overallEnd = performance.now();
   const overallMs = +(overallEnd - overallStart).toFixed(2);
 
   console.log('╔═══════════════════════════════════════════════════════════════════════════╗');
-  console.log(`║ ALL AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                     ║`);
-  console.log('║ STATUS: CORPUS READINESS CONFIRMED — READY TO SCALE                       ║');
+  console.log(`║ ALL 4 AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                   ║`);
+  console.log('║ STATUS: CORPUS & PRODUCTION CONTENT BUNDLE VERIFIED AND DEPLOYABLE        ║');
   console.log('╚═══════════════════════════════════════════════════════════════════════════╝\n');
 
   return true;

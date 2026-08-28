@@ -1,0 +1,174 @@
+{
+  "id": "e-chapei-dong-veng",
+  "slug": "chapei-dong-veng",
+  "category": "music",
+  "categoryId": "music",
+  "title": {
+    "en": "Chapei Dang Veng (Khmer Long-Necked Lute & Sung Poetry)",
+    "km": "ចាប៉ីដងវែង",
+    "vi": "Đàn Chapei Dang Veng (Đàn Đáy Cần Dài & Hát Thơ Khơ-me)",
+    "th": "จะเปยดองเวง (พิณคอยาวเขมร)"
+  },
+  "summary": {
+    "en": "The ancient two-stringed fretted long-necked lute accompanying improvised sung poetry, moral fables, and epic tales; inscribed on UNESCO's Urgent Safeguarding List in 2016.",
+    "km": "ឧបករណ៍ខ្សែដេញដងវែងបុរាណមានខ្សែពីរ សម្រាប់ដេញបន្ទរចម្រៀងកំណាព្យ អប់រំទូន្មាន និងរឿងនិទាន ចុះបញ្ជីបេតិកភណ្ឌអរូបីត្រូវការការសង្គ្រោះបន្ទាន់របស់ UNESCO ឆ្នាំ ២០១៦។",
+    "vi": "Cây đàn hai dây cần dài có phím bấm cổ truyền đệm cho những bài thơ ứng tác, chuyện ngụ ngôn đạo lý và trường ca dân gian; được UNESCO ghi danh vào Danh sách Cần bảo vệ Khẩn cấp năm 2016.",
+    "th": "พิณคอยาวโบราณสองสาย มีเฟรต ใช้บรรเลงประกอบการขับลำนำ กลอนสด และนิทานคติธรรม ได้รับการขึ้นทะเบียนในบัญชีมรดกที่ต้องได้รับการสงวนรักษาอย่างเร่งด่วนของยูเนสโกในปี 2016"
+  },
+  "era": {
+    "en": "Angkorian Period (7th c. bas-reliefs) – UNESCO Inscribed 2016",
+    "km": "សម័យអង្គរ ដល់ បច្ចុប្បន្ន (ចុះបញ្ជី UNESCO ឆ្នាំ ២០១៦)",
+    "vi": "Thời Angkor (thế kỷ 7) – Ghi danh UNESCO 2016",
+    "th": "ยุคพระนคร ถึงปัจจุบัน (ขึ้นทะเบียนยูเนสโก ค.ศ. 2016)"
+  },
+  "coverMedia": {
+    "id": "m-cdv-cover",
+    "url": "file:///app/applet/src/assets/instruments.jpg",
+    "thumbnailUrl": "file:///app/applet/src/assets/instruments.jpg",
+    "type": "image",
+    "title": {
+      "en": "Grand Master Kong Nay Performing with the Sacred Chapei Dang Veng Lute",
+      "km": "ព្រឹទ្ធាចារ្យ គង់ ណៃ កំពុងដេញចាប៉ីដងវែង",
+      "vi": "Đại nghệ nhân Kong Nay trình tấu cây đàn Chapei Dang Veng huyền thoại",
+      "th": "บรมครูกง ไน บรรเลงพิณจะเปยดองเวง"
+    },
+    "creator": "Khmer Heritage Field Mission",
+    "source": "Khmer Heritage Field Archive",
+    "sourceUrl": "https://whc.unesco.org/en/list/668/",
+    "license": "cc_by_sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+    "sourceId": "src-khmer-field-mission",
+    "provenance": {
+      "repository": "UNESCO Phnom Penh Intangible Cultural Heritage Archive",
+      "captureDate": "2024-03-05",
+      "creditLine": "Khmer Heritage Field Mission (2024)"
+    },
+    "reviewStatus": "verified_peer_reviewed"
+  },
+  "coordinates": {
+    "latitude": 10.6104,
+    "longitude": 104.1815
+  },
+  "location": {
+    "coordinates": {
+      "latitude": 10.6104,
+      "longitude": 104.1815
+    },
+    "province": {
+      "en": "Kampot",
+      "km": "កំពត",
+      "vi": "Kampot",
+      "th": "กัมปอต"
+    },
+    "country": "Cambodia",
+    "siteName": {
+      "en": "Chapei Master Living Heritage Community",
+      "km": "សហគមន៍មរតកចាប៉ីដងវែង"
+    }
+  },
+  "keyFacts": {
+    "era": {
+      "en": "Over 1,300 Years (Depicted at Angkor & Sambor Prei Kuk)",
+      "km": "ប្រវត្តិជាង ១៣០០ ឆ្នាំ"
+    },
+    "tradition": {
+      "en": "Ayai Musical Storytelling & Epic Poetry",
+      "km": "ចម្រៀងអាយ៉ៃ និងកំណាព្យបុរាណ"
+    },
+    "unescoStatus": {
+      "en": "UNESCO Urgent Safeguarding List (2016, Ref: 01165)",
+      "km": "បេតិកភណ្ឌអរូបីសង្គ្រោះបន្ទាន់ (២០១៦)"
+    },
+    "material": {
+      "en": "Kranhung hardwood, Kra-nhok wood soundbox, nylon/silk strings",
+      "km": "ឈើក្រញូង ឈើស្រឡៅ ខ្សែសូត្រ"
+    }
+  },
+  "audioMetadata": {
+    "tuningHz": [
+      146.83,
+      196,
+      220,
+      293.66
+    ],
+    "acousticNotes": {
+      "en": "Two-course string tuning (low fundamental D3 - high fourth G3) allowing melodic slides along the 12 raised wooden frets.",
+      "km": "ការដំឡើងខ្សែពីរបន្ទរគ្នាជាមួយខ្ទង់ឈើ ១២ ខ្ទង់ អនុញ្ញាតឲ្យរំអិលម្រាមដៃយ៉ាងរលូន។"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "id": "sec-cdv-storytelling",
+        "heading": {
+          "en": "The Bardic Tradition of Improvised Satire, Wisdom & History",
+          "km": "ប្រពៃណីចម្រៀងកាព្យឃ្លោង អប់រំទូន្មាន និងកំប្លែងស្ងួត",
+          "vi": "Truyền Thống Hát Kể Sử Thi, Ứng Khẩu Thơ Ca & Triết Lý Dân Gian",
+          "th": "ประเพณีการขับลำนำสด นิทานคติธรรม และวรรณกรรมมุขปาฐะ"
+        },
+        "body": {
+          "en": "The Chapei Dang Veng is inseparable from the art of improvised spoken and sung poetry. A master bard (Lok Kru Chapei) performs solo, plucking the strings with a horn plectrum while delivering rapid rhyming verses addressing moral ethics, Buddhist dharma, social commentary, historical chronicles, and humorous banter. The instrument's long neck (often over 1.5 meters) features 12 raised frets glued with natural resin, allowing the performer to produce expressive microtonal vocal inflections.",
+          "km": "ចាប៉ីដងវែងមិនអាចកាត់ផ្តាច់ពីសិល្បៈតែងកំណាព្យភ្លាមៗនោះទេ។ ព្រឹទ្ធាចារ្យចាប៉ីដេញខ្សែបណ្តើរ ច្រៀងរៀបរាប់ពីធម៌វិន័យ សីលធម៌សង្គម ប្រវត្តិសាស្ត្រ និងរឿងកំប្លែងប្រកបដោយប្រាជ្ញាឈ្លាសវៃ។ ដងវែងជាង ១,៥ ម៉ែត្រមានខ្ទង់ ១២ ជួយបង្កើតសំនៀងរំអិលតាមសំឡេងច្រៀង។",
+          "vi": "Đàn Chapei Dang Veng gắn liền mật thiết với nghệ thuật hát thơ ứng tác độc tấu. Đại nghệ nhân Chapei vừa gảy những khúc dạo biến tấu bằng phím sừng trâu, vừa xuất khẩu thành thơ bằng các thể thơ truyền thống kể về Phật pháp, đạo lý làm người, thế sự nhân gian và cả những khúc cười trào lộng sâu sắc. Cần đàn dài hơn 1,5 mét với 12 phím bấm dán bằng sáp cây rừng cho phép vuốt những cao độ vi mô trùng khớp với thanh điệu tiếng nói Khmer.",
+          "th": "จะเปยดองเวงผูกพันอย่างยิ่งกับการขับกลอนสด บรมครูผู้เล่นจะดีดพิณพร้อมขับขานบทกวีสอนใจ ธรรมะ ประวัติศาสตร์ และเรื่องตลกขบขัน คอพิณที่ยาวกว่า 1.5 เมตรมี 12 เฟรต ช่วยให้เอื้อนเสียงตามสำเนียงพูดได้อย่างไพเราะจับใจ"
+        }
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "id": "m-cdv-g1",
+      "url": "file:///app/applet/src/assets/instruments.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/instruments.jpg",
+      "type": "image",
+      "title": {
+        "en": "Angkorian Relief of Lute Player at Sambor Prei Kuk (7th Century CE)",
+        "km": "ចម្លាក់អ្នកដេញពិណសម័យសំបូរព្រៃគុក (សតវត្សរ៍ទី ៧)",
+        "vi": "Phù điêu nghệ sĩ gảy đàn cần dài thế kỷ thứ 7 tại Sambor Prei Kuk",
+        "th": "ภาพสลักนักดนตรีดีดพิณคอยาวศตวรรษที่ 7"
+      },
+      "creator": "EFEO Photographic Archives",
+      "source": "EFEO Archives",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "direct_permission",
+      "licenseUrl": "https://collection.efeo.fr/",
+      "attribution": "EFEO Photographic Archives — EFEO Archives, CC BY-SA 4.0",
+      "sourceId": "src-efeo-photo-archive",
+      "reviewStatus": "verified_peer_reviewed"
+    }
+  ],
+  "relatedEntryIds": [
+    "e-pinpeat",
+    "e-roneat-ek",
+    "e-reamker",
+    "e-pchum-ben"
+  ],
+  "relatedEntries": [
+    "e-pinpeat",
+    "e-roneat-ek",
+    "e-reamker",
+    "e-pchum-ben"
+  ],
+  "sourceIds": [
+    "src-unesco-01165",
+    "src-miller-williams-2000",
+    "src-sam-1991"
+  ],
+  "citations": [
+    {
+      "id": "c-cdv-1",
+      "title": "Chapei Dang Veng (Inscribed 2016 on the List of Intangible Cultural Heritage in Need of Urgent Safeguarding)",
+      "author": "UNESCO Intangible Cultural Heritage Section",
+      "year": 2016,
+      "institution": "UNESCO",
+      "url": "https://ich.unesco.org/en/USL/chapei-dang-veng-01165",
+      "sourceId": "src-unesco-01165",
+      "sourceType": "unesco_institutional",
+      "reviewStatus": "institutional_certified"
+    }
+  ],
+  "reviewStatus": "verified_peer_reviewed",
+  "scholarlyReviewer": "Cambodian Living Arts & UNESCO Intangible Cultural Heritage Committee",
+  "updatedAt": "2026-08-28T00:00:00.000Z"
+}

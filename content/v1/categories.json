@@ -1,0 +1,302 @@
+[
+  {
+    "id": "temples",
+    "slug": "temples",
+    "title": {
+      "en": "Temples & Architecture",
+      "km": "ប្រាសាទ និងស្ថាបត្យកម្ម",
+      "vi": "Đền tháp & Kiến trúc",
+      "th": "ปราสาทและสถาปัตยกรรม"
+    },
+    "blurb": {
+      "en": "Angkor Wat · Bayon · Banteay Srei · Temple-mountains",
+      "km": "អង្គរវត្ត បាយ័ន បន្ទាយស្រី ប្រាសាទភ្នំ",
+      "vi": "Angkor Wat · Bayon · Banteay Srei · Kiến trúc đền núi",
+      "th": "นครวัด บายอน บันทายศรี ปราสาททรงภูเขา"
+    },
+    "description": {
+      "en": "Sacred stone sanctuaries, hydraulic barays, moats, and monumental cosmograms raised across the Angkorian Empire.",
+      "km": "សំណង់ប្រាសាទថ្មសក្ការៈ បារាយណ៍ទឹក និងគំរូចក្រវាឡវិទ្យាដែលបានស្ថាបនាក្នុងចក្រភពអង្គរ។",
+      "vi": "Những thánh địa đá linh thiêng, hệ thống hồ baray thủy lợi và mô hình tiểu vũ trụ học của đế chế Angkor.",
+      "th": "ปราสาทหินศักดิ์สิทธิ์ บาราย และแบบจำลองจักรวาลวิทยาของจักรวรรดิเขมร"
+    },
+    "iconName": "Landmark",
+    "sortOrder": 1,
+    "count": 128
+  },
+  {
+    "id": "history",
+    "slug": "history",
+    "title": {
+      "en": "History & Dynasties",
+      "km": "សម័យកាលប្រវត្តិសាស្ត្រ",
+      "vi": "Lịch sử & Vương triều",
+      "th": "ประวัติศาสตร์และราชวงศ์"
+    },
+    "blurb": {
+      "en": "Funan · Chenla · Angkor Empire · Post-Angkorian",
+      "km": "ហ្វូណន ចេនឡា ចក្រភពអង្គរ ក្រោយសម័យអង្គរ",
+      "vi": "Phù Nam · Chân Lạp · Đế chế Angkor · Thời kỳ Hậu Angkor",
+      "th": "ฟูนัน เจนละ จักรวรรดิเขมร ยุคหลังพระนคร"
+    },
+    "description": {
+      "en": "Chronological evolution of Khmer civilization from prehistoric bronze culture through the mighty Angkorian hegemony.",
+      "km": "ការវិវត្តនៃអរិយធម៌ខ្មែរតាមសម័យកាល ចាប់ពីយុគសំរិទ្ធរហូតដល់សម័យមហានគរដ៏រុងរឿង។",
+      "vi": "Tiến trình phát triển văn minh Khmer từ văn hóa đồng thau sơ sử đến thời kỳ cực thịnh của đế quốc Angkor.",
+      "th": "วิวัฒนาการทางประวัติศาสตร์ของอารยธรรมเขมรตั้งแต่ยุคก่อนประวัติศาสตร์จนถึงยุคทอง"
+    },
+    "iconName": "History",
+    "sortOrder": 2,
+    "count": 42
+  },
+  {
+    "id": "arts",
+    "slug": "arts",
+    "title": {
+      "en": "Arts & Sculpture",
+      "km": "សិល្បៈ និងចម្លាក់",
+      "vi": "Nghệ thuật & Điêu khắc",
+      "th": "ศิลปะและประติมากรรม"
+    },
+    "blurb": {
+      "en": "Apsara dancers · Bas-reliefs · Kbach ornamentation · Bronzes",
+      "km": "របាំអប្សរា ចម្លាក់ក្រឡោតទាប ក្បាច់រចនា សំរិទ្ធ",
+      "vi": "Vũ nữ Apsara · Phù điêu nổi · Hoa văn Kbach · Đúc đồng",
+      "th": "นางอัปสรา ภาพสลักนูนต่ำ ลวดลายกบัด สำริด"
+    },
+    "description": {
+      "en": "Iconic stone bas-reliefs, bronze deity castings, and the courtly gestures preserved in Classical Royal Ballet.",
+      "km": "ចម្លាក់ថ្មក្រឡោតទាប រូបបដិមាសំរិទ្ធ និងកាយវិការនៃរបាំព្រះរាជទ្រព្យបុរាណ។",
+      "vi": "Các bức phù điêu sa thạch, tượng đồng thần thánh và nghệ thuật múa Cung đình Hoàng gia.",
+      "th": "ภาพสลักนูนต่ำ ประติมากรรมสำริด และระบำหลวงโบราณ"
+    },
+    "iconName": "Palette",
+    "sortOrder": 3,
+    "count": 87
+  },
+  {
+    "id": "music",
+    "slug": "music",
+    "title": {
+      "en": "Music & Instruments",
+      "km": "តន្ត្រី និងឧបករណ៍បុរាណ",
+      "vi": "Nhạc cụ & Âm nhạc",
+      "th": "ดนตรีและเครื่องดนตรี"
+    },
+    "blurb": {
+      "en": "Pinpeat · Mohori · Chapei Dang Veng · Roneat Ek",
+      "km": "ពិណពាទ្យ មហោរី ចាប៉ីដងវែង រនាតឯក",
+      "vi": "Dàn nhạc Pinpeat · Mohori · Đàn Chapei · Roneat Ek",
+      "th": "วงพิณพาทย์ มโหรี จะเข้จะเปย ระนาดเอก"
+    },
+    "description": {
+      "en": "Sacred temple orchestras, colotomic gong cycles, oral epic bards, and ancient acoustic resonance systems.",
+      "km": "វង់តន្ត្រីសក្ការៈបុរាណ ចង្វាក់គងវង់ និងចម្រៀងកំណាព្យចាប៉ីដងវែង។",
+      "vi": "Dàn nhạc nghi lễ hoàng gia, cấu trúc cồng chiêng chu kỳ, hát kể sử thi và hệ thống âm luật cổ truyền.",
+      "th": "วงดนตรีหลวงโบราณ พิณพาทย์ มโหรี และการขับลำนำโบราณ"
+    },
+    "iconName": "Music4",
+    "sortOrder": 4,
+    "count": 34
+  },
+  {
+    "id": "rituals",
+    "slug": "rituals",
+    "title": {
+      "en": "Festivals & Rituals",
+      "km": "ពិធីបុណ្យ និងទំនៀមទម្លាប់",
+      "vi": "Lễ hội & Nghi lễ",
+      "th": "เทศกาลและพิธีกรรม"
+    },
+    "blurb": {
+      "en": "Pchum Ben · Khmer New Year · Bon Om Touk · Royal Ploughing",
+      "km": "ភ្ជុំបិណ្ឌ ចូលឆ្នាំខ្មែរ បុណ្យអុំទូក ច្រត់ព្រះនង្គ័ល",
+      "vi": "Pchum Ben · Tết Choul Chnam Thmey · Bon Om Touk · Lễ cày Tịch điền",
+      "th": "แซนโดนตา สงกรานต์ ลอยกระทงเขมร พิธีแรกนาขวัญ"
+    },
+    "description": {
+      "en": "Sacred seasonal transitions, ancestor commemoration ceremonies, and royal agrarian invocations.",
+      "km": "ពិធីបុណ្យតាមរដូវកាល ការឧទ្ទិសកុសលដល់បុព្វការីជន និងព្រះរាជពិធីប្រពៃណីជាតិ។",
+      "vi": "Các nghi lễ chu kỳ nông nghiệp, tưởng niệm tổ tiên linh thiêng và lễ hội cộng đồng truyền thống.",
+      "th": "ประเพณีตามฤดูกาล การบูชาบรรพบุรุษ และพระราชพิธีโบราណ"
+    },
+    "iconName": "Sparkles",
+    "sortOrder": 5,
+    "count": 29
+  },
+  {
+    "id": "script",
+    "slug": "script",
+    "title": {
+      "en": "Script & Language",
+      "km": "អក្សរសាស្ត្រ និងសិលាចារឹក",
+      "vi": "Chữ viết & Ngôn ngữ",
+      "th": "อักษรศาสตร์และจารึก"
+    },
+    "blurb": {
+      "en": "Ancient epigraphy · Aksar Mul · Palm-leaf manuscripts · Reamker",
+      "km": "សិលាចារឹកបុរាណ អក្សរមូល សាស្ត្រាស្លឹករឹត រាមកេរ្តិ៍",
+      "vi": "Bia ký sa thạch · Chữ Aksar Mul · Bản thảo lá buông · Sử thi Reamker",
+      "th": "จารึกขอมโบราณ อักษรมูล คัมภีร์ใบลาน รามเกียรติ์"
+    },
+    "description": {
+      "en": "The ancient Brahmi-derived Khmer script, Sanskrit-Khmer bilingual inscriptions, and monastic palm-leaf codices.",
+      "km": "ប្រព័ន្ធអក្សរខ្មែរបុរាណពីពុម្ពព្រាហ្មី សិលាចារឹកសំស្ក្រឹត-ខ្មែរ និងគម្ពីរស្លឹករឹត។",
+      "vi": "Hệ thống chữ Khmer nguồn gốc Brahmi, bi ký đá song ngữ Phạn-Khmer và di sản thư tịch lá buông.",
+      "th": "ระบบอักษรขอมโบราณ จารึกภาษาสันสกฤตและเขมรโบราណ"
+    },
+    "iconName": "BookOpen",
+    "sortOrder": 6,
+    "count": 45
+  },
+  {
+    "id": "costumes",
+    "slug": "costumes",
+    "title": {
+      "en": "Costumes & Textiles",
+      "km": "សម្លៀកបំពាក់ និងគ្រឿងអលង្ការ",
+      "vi": "Trang phục & Dệt may",
+      "th": "เครื่องแต่งกายและผ้าทอ"
+    },
+    "blurb": {
+      "en": "Sampot Hol · Golden silk ikat · Krama · Court regalia",
+      "km": "សំពត់ហូល សូត្រមាស ក្រមា គ្រឿងរាជកកុធភណ្ឌ",
+      "vi": "Váy Sampot Hol · Lụa tơ vàng ikat · Khăn rằn Krama · Phục sức cung đình",
+      "th": "ผ้ามัดหมี่โฮล ผ้าไหมทอง ผ้าขาวม้ากรามา เครื่องราชกกุธภัณฑ์"
+    },
+    "description": {
+      "en": "Intricate weft-ikat silk weaving, universal krama utilitarian textiles, and ceremonial court attire.",
+      "km": "សិល្បៈតម្បាញសូត្រហូលចងកៀវ ក្រមាប្រពៃណី និងគ្រឿងសម្លៀកបំពាក់រាជវាំង។",
+      "vi": "Kỹ thuật dệt ikat nhuộm màu sợi tinh xảo, khăn rằn Krama đa dụng và phục trang hoàng tộc.",
+      "th": "ผ้าไหมมัดหมี่โบราณ ผ้าขาวม้ากรามา และเครื่องทรงโบราណ"
+    },
+    "iconName": "Shirt",
+    "sortOrder": 7,
+    "count": 51
+  },
+  {
+    "id": "cuisine",
+    "slug": "cuisine",
+    "title": {
+      "en": "Cuisine & Gastronomy",
+      "km": "ម្ហូបអាហារ និងកសិកម្ម",
+      "vi": "Ẩm thực truyền thống",
+      "th": "อาหารและภูมิปัญญาครัว"
+    },
+    "blurb": {
+      "en": "Amok Trey · Prahok fermentation · Kroeung paste · Tonle Sap bounty",
+      "km": "អាម៉ុកត្រី ប្រហុក គ្រឿងបុក ផលមច្ឆាទន្លេសាប",
+      "vi": "Amok Trey hấp lá chuối · Mắm Prahok · Gia vị Kroeung · Thủy sản Biển Hồ",
+      "th": "ห่อหมกปลาอาม็อก ปลาร้าปรอฮก เครื่องแกงเกรือน ผลผลิตโตนเลสาบ"
+    },
+    "description": {
+      "en": "Millennia-old freshwater fish preservation, aromatic kroeung spice blends, and ancestral foraging wisdom.",
+      "km": "បច្ចេកទេសកែច្នៃត្រីទឹកសាបរាប់ពាន់ឆ្នាំ គ្រឿងបុកស្លឹកគ្រៃ និងម្ហូបបុរាណ។",
+      "vi": "Nghệ thuật lên men cá nước ngọt ngàn năm, củ quả thảo mộc Kroeung và văn hóa ẩm thực Biển Hồ.",
+      "th": "วัฒนธรรมอาหารจากโตนเลสาบ ปลาร้าปรอฮก และเครื่องเทศสมุนไพร"
+    },
+    "iconName": "Utensils",
+    "sortOrder": 8,
+    "count": 38
+  },
+  {
+    "id": "crafts",
+    "slug": "crafts",
+    "title": {
+      "en": "Crafts & Artisan Traditions",
+      "km": "សិប្បកម្ម និងវិចិត្រសិល្បៈ",
+      "vi": "Nghề thủ công truyền thống",
+      "th": "หัตถกรรมและภูมิปัญญาช่าง"
+    },
+    "blurb": {
+      "en": "Stone masonry · Silverware repoussé · Lacquerware · Pottery",
+      "km": "ចម្លាក់ថ្ម គ្រឿងប្រាក់ទំពក់ ម្រ័ក្សណ៍ ភាជន៍ដីដុត",
+      "vi": "Chế tác đá sa thạch · Chạm bạc gò nổi · Đồ sơn mài · Gốm cổ",
+      "th": "งานสลักหิน เครื่องเงินดุนลาย เครื่องเขิน เครื่องปั้นดินเผา"
+    },
+    "description": {
+      "en": "Master artisan guilds passing down stone chiseling, repoussé silver smithing, and ceramic kilns.",
+      "km": "ជំនាញជាងស្មិតឆ្លាក់ថ្មភក់ ជាងទងប្រាក់ និងឡដុតភាជន៍បុរាណ។",
+      "vi": "Những phường thợ thủ công lưu truyền kỹ thuật đục đá, gò bạc và nung gốm truyền thống.",
+      "th": "ภูมิปัญญาช่างสลักหิน ช่างเงิน และเตาเผาเครื่องเคลือบโบราណ"
+    },
+    "iconName": "Hammer",
+    "sortOrder": 9,
+    "count": 48
+  },
+  {
+    "id": "landmarks",
+    "slug": "landmarks",
+    "title": {
+      "en": "Landmarks & Geography",
+      "km": "ភូមិសាស្ត្រ និងទីតាំងប្រវត្តិសាស្ត្រ",
+      "vi": "Địa danh & Thánh địa",
+      "th": "ภูมิศาสตร์และโบราณสถาน"
+    },
+    "blurb": {
+      "en": "Phnom Kulen · Tonle Sap · Preah Vihear · Sambor Prei Kuk",
+      "km": "ភ្នំគូលេន ទន្លេសាប ព្រះវិហារ សំបូរព្រៃគុក",
+      "vi": "Phnom Kulen · Biển Hồ Tonle Sap · Đền Preah Vihear · Sambor Prei Kuk",
+      "th": "พนมกุเลน โตนเลสาบ ปราสาทพระวิหาร สมโบร์ไพรกุก"
+    },
+    "description": {
+      "en": "Sacred mountain ranges, freshwater biodiversity ecosystems, and sprawling archeological complexes.",
+      "km": "ជួរភ្នំសក្ការៈ បឹងទន្លេសាប និងបណ្តាញបុរាណវិទ្យាដ៏ធំធេង។",
+      "vi": "Các rặng núi thiêng liêng, hệ sinh thái đầm lầy Biển Hồ và các quần thể khảo cổ học rộng lớn.",
+      "th": "ภูเขาศักดิ์สิทธิ์ ทะเลสาบโตนเลสาบ และแหล่งโบราณคดีสำคัญ"
+    },
+    "iconName": "MapPin",
+    "sortOrder": 10,
+    "count": 56
+  },
+  {
+    "id": "figures",
+    "slug": "figures",
+    "title": {
+      "en": "Historical Figures & Kings",
+      "km": "ឥស្សរជន និងព្រះមហាក្សត្រ",
+      "vi": "Nhân vật & Vương triều",
+      "th": "บุคคลสำคัญและพระมหากษัตริย์"
+    },
+    "blurb": {
+      "en": "Jayavarman VII · Suryavarman II · Queen Indradevi · King Norodom Sihanouk",
+      "km": "ព្រះបាទជ័យវរ្ម័នទី ៧ សូរ្យវរ្ម័នទី ២ ព្រះនាងឥន្ទ្រទេវី",
+      "vi": "Jayavarman VII · Suryavarman II · Hoàng hậu Indradevi · Học giả Cœdès",
+      "th": "พระเจ้าชัยวรมันที่ 7 พระเจ้าสูรยวรมันที่ 2 พระนางอินทรเทวี"
+    },
+    "description": {
+      "en": "Visionary empire builders, royal philosopher queens, patron scholars, and cultural revivalists.",
+      "km": "ព្រះមហាក្សត្រកសាងចក្រភព ព្រះអគ្គមហេសីអ្នកប្រាជ្ញ និងអ្នកអភិរក្សវប្បធម៌។",
+      "vi": "Những vị vua kiến tạo đế chế vĩ đại, các bậc hoàng hậu hiền triết và những nhà bảo tồn di sản.",
+      "th": "กษัตริย์ผู้สร้างมหาปราสาท ราชินีนักปราชญ์ และผู้พิทักษ์มรดก"
+    },
+    "iconName": "Crown",
+    "sortOrder": 11,
+    "count": 32
+  },
+  {
+    "id": "mythology",
+    "slug": "mythology",
+    "title": {
+      "en": "Mythology & Beliefs",
+      "km": "ទេវកថា និងជំនឿសាសនា",
+      "vi": "Thần thoại & Tín ngưỡng",
+      "th": "เทวตำนานและความเชื่อ"
+    },
+    "blurb": {
+      "en": "Naga & Garuda · Devaraja cult · Churning of Ocean of Milk · Neak Ta",
+      "km": "នាគ និងគ្រុឌ លទ្ធិទេវរាជ កូរសមុទ្រទឹកដោះ អ្នកតា",
+      "vi": "Thần Rắn Naga & Chim Thần Garuda · Tín ngưỡng Thần Vương · Thần Neak Ta",
+      "th": "พญานาคและครุฑ ลัทธิเทวราชา กวนเกษียรสมุทร ผีเนียะตา"
+    },
+    "description": {
+      "en": "Syncretic fusion of Vedic Hinduism, Mahayana Buddhism, Theravada tradition, and ancestral spirit worship.",
+      "km": "ការសំយោគរវាងព្រហ្មញ្ញសាសនា ព្រះពុទ្ធសាសនាមហាយាន ថេរវាទ និងជំនឿអ្នកតា។",
+      "vi": "Sự hòa quyện giữa Ấn Độ giáo, Phật giáo Đại thừa, Phật giáo Nam truyền và tín ngưỡng bản địa Neak Ta.",
+      "th": "การผสมผสานระหว่างศาสนาฮินดู พุทธมหายาน เถรวาท และความเชื่อดั้งเดิม"
+    },
+    "iconName": "Flame",
+    "sortOrder": 12,
+    "count": 64
+  }
+]

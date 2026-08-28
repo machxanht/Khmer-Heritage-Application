@@ -25,6 +25,7 @@ export interface IContentService {
   getManifest(): Promise<DataManifest>;
   getCategories(): Promise<Category[]>;
   getEntries(): Promise<EntryDetail[]>;
+  getEntrySummaries(): Promise<EntrySummary[]>;
   getEntriesByCategory(categoryId: string): Promise<EntrySummary[]>;
   getEntryDetail(slugOrId: string): Promise<EntryDetail | null>;
   getSites(): Promise<HeritageSite[]>;
@@ -61,6 +62,26 @@ export class FoundationContentService implements IContentService {
 
   async getEntries(): Promise<EntryDetail[]> {
     return this.provider.getEntries();
+  }
+
+  async getEntrySummaries(): Promise<EntrySummary[]> {
+    if (this.provider.getEntrySummaries) {
+      return this.provider.getEntrySummaries();
+    }
+    const full = await this.provider.getEntries();
+    return full.map((e) => ({
+      id: e.id,
+      slug: e.slug,
+      categoryId: e.categoryId,
+      category: e.category,
+      title: e.title,
+      summary: e.summary,
+      era: e.era,
+      coverMedia: e.coverMedia,
+      updatedAt: e.updatedAt,
+      reviewStatus: e.reviewStatus,
+      coordinates: e.coordinates || e.location?.coordinates,
+    }));
   }
 
   async getEntriesByCategory(categoryId: string): Promise<EntrySummary[]> {

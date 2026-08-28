@@ -1,0 +1,893 @@
+[
+  {
+    "id": "e-angkor-wat",
+    "slug": "angkor-wat",
+    "categoryId": "temples",
+    "category": "temples",
+    "title": {
+      "en": "Angkor Wat",
+      "km": "ប្រាសាទអង្គរវត្ត",
+      "vi": "Đền Angkor Wat",
+      "th": "ปราสาทนครวัด"
+    },
+    "summary": {
+      "en": "The grandest religious monument in human history, raised by King Suryavarman II in the early 12th century as a terrestrial cosmogram of Mount Meru and Vishnu's celestial abode.",
+      "km": "សំណង់សាសនាធំបំផុតលើពិភពលោក សាងឡើងដោយព្រះបាទសូរ្យវរ្ម័នទី ២ នៅដើមសតវត្សរ៍ទី ១២ ជាគំរូនៃភ្នំព្រះសុមេរុ និងឋានសួគ៌នៃព្រះវិស្ណុ។",
+      "vi": "Quần thể đền đài tôn giáo đồ sộ nhất thế giới, được vua Suryavarman II xây dựng vào đầu thế kỷ 12 như một tiểu vũ trụ trần thế của núi thiêng Meru và cõi ngự của thần Vishnu.",
+      "th": "ศาสนสถานที่ใหญ่ที่สุดในโลก สร้างขึ้นโดยพระเจ้าสูรยวรมันที่ 2 ในช่วงต้นศตวรรษที่ 12 เพื่อเป็นแบบจำลองของเขาพระสุเมรุและวิมานของพระวิษณุ"
+    },
+    "era": {
+      "en": "Early 12th Century CE (c. 1113–1150 CE)",
+      "km": "ដើមសតវត្សរ៍ទី ១២ នៃ គ.ស. (ប្រមាណ ឆ្នាំ ១១១៣–១១៥០)",
+      "vi": "Đầu thế kỷ 12 CN (khoảng 1113–1150 CN)",
+      "th": "ต้นศตวรรษที่ 12 (ราว ค.ศ. 1113–1150)"
+    },
+    "coverMedia": {
+      "id": "m-aw-cover",
+      "url": "file:///app/applet/src/assets/angkor-wat.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/angkor-wat.jpg",
+      "type": "image",
+      "title": {
+        "en": "Angkor Wat Western Causeway and Central Towers at Sunrise",
+        "km": "អង្គរវត្តពេលព្រឹកព្រាងឆ្លុះផ្ទៃទឹក",
+        "vi": "Cầu đá phía Tây và năm ngọn tháp Angkor Wat lúc bình minh",
+        "th": "ทัศนียภาพนครวัดยามเช้าตรู่เหนือน้ำ"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "provenance": {
+        "repository": "Khmer Heritage Photographic Repository",
+        "collection": "Angkor Archaeological Park Survey",
+        "captureDate": "2024-02-15",
+        "creditLine": "Khmer Heritage Field Mission (2024)"
+      },
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    "updatedAt": "2026-08-28T00:00:00.000Z",
+    "reviewStatus": "verified_peer_reviewed",
+    "coordinates": {
+      "latitude": 13.4125,
+      "longitude": 103.867
+    }
+  },
+  {
+    "id": "e-bayon",
+    "slug": "bayon",
+    "categoryId": "temples",
+    "category": "temples",
+    "title": {
+      "en": "The Bayon",
+      "km": "ប្រាសាទបាយ័ន",
+      "vi": "Đền Bayon",
+      "th": "ปราสาทบายอน"
+    },
+    "summary": {
+      "en": "The enigmatic state temple of King Jayavarman VII at the precise center of Angkor Thom, adorned with 216 monumental serene face towers depicting the Bodhisattva Lokeshvara.",
+      "km": "ប្រាសាទរដ្ឋនៃព្រះបាទជ័យវរ្ម័នទី ៧ នៅចំកណ្តាលរាជធានីអង្គរធំ លម្អដោយប្រាង្គមុខ ៤ ចំនួន ២១៦ នៃព្រះពោធិសត្វលោកេសូរ្យ។",
+      "vi": "Ngôi đền hoàng gia đầy huyền bí của vua Jayavarman VII tọa lạc tại tâm điểm kinh thành Angkor Thom, nổi bật với 216 gương mặt đá mỉm cười thanh tịnh của Quán Thế Âm Bồ Tát Lokeshvara.",
+      "th": "ปราสาทหินใจกลางนครธม สร้างโดยพระเจ้าชัยวรมันที่ 7 โดดเด่นด้วยยอดปรางค์ใบหน้าหินยิ้ม 216 หน้าของพระโพธิสัตว์โลเกศวร"
+    },
+    "era": {
+      "en": "Late 12th – Early 13th Century CE (c. 1181–1218 CE)",
+      "km": "ចុងសតវត្សរ៍ទី ១២ ដល់ ដើមសតវត្សរ៍ទី ១៣",
+      "vi": "Cuối thế kỷ 12 – Đầu thế kỷ 13 CN (khoảng 1181–1218 CN)",
+      "th": "ปลายศตวรรษที่ 12 ถึงต้นศตวรรษที่ 13"
+    },
+    "coverMedia": {
+      "id": "m-by-cover",
+      "url": "file:///app/applet/src/assets/bayon.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/bayon.jpg",
+      "type": "image",
+      "title": {
+        "en": "The Serene Four-Faced Towers of Bayon Temple",
+        "km": "ប្រាង្គមុខ ៤ ញញឹមស្ងប់ស្ងាត់នៃប្រាសាទបាយ័ន",
+        "vi": "Gương mặt đá bốn hướng mỉm cười thanh thản tại đền Bayon",
+        "th": "ทัศนียภาพปราสาทบายอนและใบหน้าหินทรายยิ้มอันสงบ"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "provenance": {
+        "repository": "Khmer Heritage Photographic Repository",
+        "collection": "Angkor Archaeological Park Survey",
+        "captureDate": "2024-02-16",
+        "creditLine": "Khmer Heritage Field Mission (2024)"
+      },
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    "updatedAt": "2026-08-28T00:00:00.000Z",
+    "reviewStatus": "verified_peer_reviewed",
+    "coordinates": {
+      "latitude": 13.4413,
+      "longitude": 103.8586
+    }
+  },
+  {
+    "id": "e-banteay-srei",
+    "slug": "banteay-srei",
+    "categoryId": "temples",
+    "category": "temples",
+    "title": {
+      "en": "Banteay Srei",
+      "km": "ប្រាសាទបន្ទាយស្រី",
+      "vi": "Đền Banteay Srei",
+      "th": "ปราสาทบันทายศรี"
+    },
+    "summary": {
+      "en": "The jewel of Khmer art, built of fine-grained rose-pink sandstone in 967 CE by Brahmin scholar Yajnavaraha, renowned for miniature scale and exquisite three-dimensional pediment carvings.",
+      "km": "ត្បូងពេជ្រនៃសិល្បៈខ្មែរ សាងពីថ្មភក់ពណ៌ផ្កាឈូកក្នុងឆ្នាំ ៩៦៧ ដោយព្រាហ្មណ៍បណ្ឌិតយជ្ញវរាហៈ ល្បីល្បាញដោយក្បាច់ចម្លាក់លម្អិតឥតខ្ចោះ និងទំហំតូចច្រឡឹង។",
+      "vi": "Viên ngọc quý của nghệ thuật điêu khắc Khmer, tạc bằng sa thạch hồng tinh mịn vào năm 967 CN bởi học giả Bà La Môn Yajnavaraha, nổi tiếng với kích thước tinh tế và phù điêu 3D tinh xảo tột bậc.",
+      "th": "อัญมณีแห่งศิลปะเขมร สร้างด้วยหินทรายสีชมพูในปี ค.ศ. 967 โดยพราหมณ์ยัชญวราหะ โดดเด่นด้วยลวดลายแกะสลักอันประณีตและวิจิตรบรรจง"
+    },
+    "era": {
+      "en": "10th Century CE (Consecrated 967 CE)",
+      "km": "សតវត្សរ៍ទី ១០ នៃ គ.ស. (សម្ពោធ ឆ្នាំ ៩៦៧)",
+      "vi": "Thế kỷ 10 CN (Khánh thành năm 967 CN)",
+      "th": "ศตวรรษที่ 10 (สร้างเสร็จ ค.ศ. 967)"
+    },
+    "coverMedia": {
+      "id": "m-bs-cover",
+      "url": "file:///app/applet/src/assets/banteay-srei.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/banteay-srei.jpg",
+      "type": "image",
+      "title": {
+        "en": "Intricately Carved Rose Sandstone Sanctuary of Banteay Srei",
+        "km": "ប្រាង្គថ្មភក់ពណ៌ផ្កាឈូកនៃប្រាសាទបន្ទាយស្រី",
+        "vi": "Thánh điện sa thạch hồng với đường nét chạm khắc tinh xảo tại Banteay Srei",
+        "th": "ปราสาทหินทรายสีชมพูบันทายศรี"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "provenance": {
+        "repository": "Khmer Heritage Photographic Repository",
+        "collection": "Angkor Archaeological Park Survey",
+        "captureDate": "2024-02-17",
+        "creditLine": "Khmer Heritage Field Mission (2024)"
+      },
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    "updatedAt": "2026-08-28T00:00:00.000Z",
+    "reviewStatus": "verified_peer_reviewed",
+    "coordinates": {
+      "latitude": 13.5987,
+      "longitude": 103.9633
+    }
+  },
+  {
+    "id": "e-phnom-kulen",
+    "slug": "phnom-kulen",
+    "categoryId": "history",
+    "category": "history",
+    "title": {
+      "en": "Phnom Kulen Holy Plateau & Foundation of the Khmer Empire",
+      "km": "រមណីយដ្ឋានភ្នំគូលេន និងការបង្កើតចក្រភពអង្គរ",
+      "vi": "Thánh Địa Núi Thiêng Phnom Kulen & Sự Khởi Lập Đế Chế Angkor",
+      "th": "เทือกเขาศักดิ์สิทธิ์พนมกุเลนและการสถาปนาจักรวรรดิเขมร"
+    },
+    "summary": {
+      "en": "The sacred sandstone plateau (ancient Mahendraparvata) where King Jayavarman II consecrated the Devaraja ritual in 802 CE, featuring the sacred riverbeds of Kbal Spean and a Thousand Lingas.",
+      "km": "ខ្ពង់រាបភ្នំថ្មភក់សក្ការៈ (មហេន្ទ្របព៌តបុរាណ) ជាទីតាំងដែលព្រះបាទជ័យវរ្ម័នទី ២ ប្រកាសឯករាជ្យ និងប្រារព្ធពិធីទេវរាជក្នុងឆ្នាំ ៨០២ ព្រមទាំងមានស្ទឹងលិង្គ ១០០០។",
+      "vi": "Cao nguyên sa thạch thiêng liêng (cố đô Mahendraparvata) nơi vua Jayavarman II cử hành đại lễ Thần Vương (Devaraja) năm 802 CN khai sinh đế chế Angkor, nổi tiếng với Dòng Sông Ngàn Linga.",
+      "th": "ที่ราบสูงหินทรายศักดิ์สิทธิ์ (มเหนทรบรรพต) สถานที่สถาปนาลัทธิเทวราชาในปี ค.ศ. 802 โดยพระเจ้าชัยวรมันที่ 2 และสายน้ำศิวลึงค์ 1,000 องค์"
+    },
+    "era": {
+      "en": "802 CE – Present (Foundation of the Angkorian Era)",
+      "km": "ឆ្នាំ ៨០២ នៃ គ.ស. – បច្ចុប្បន្ន",
+      "vi": "Năm 802 CN – Nay (Thời kỳ Khởi nguyên Angkor)",
+      "th": "ค.ศ. 802 ถึงปัจจุบัน (ยุคเริ่มต้นอาณาจักรพระนคร)"
+    },
+    "coverMedia": {
+      "id": "m-pk-cover",
+      "url": "file:///app/applet/src/assets/banteay-srei.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/banteay-srei.jpg",
+      "type": "image",
+      "title": {
+        "en": "The Carved Riverbed of a Thousand Lingas at Kbal Spean, Phnom Kulen",
+        "km": "ស្ទឹងលិង្គមួយពាន់ និងចម្លាក់ព្រះវិស្ណុនៅភ្នំគូលេន",
+        "vi": "Lòng suối chạm khắc ngàn Linga và phù điêu thần Vishnu tại Phnom Kulen",
+        "th": "แม่น้ำศิวลึงค์ 1,000 องค์บนเทือกเขาพนมกุเลน"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "provenance": {
+        "repository": "Khmer Heritage Photographic Repository",
+        "collection": "Phnom Kulen Archaeological Survey",
+        "captureDate": "2024-02-18",
+        "creditLine": "Khmer Heritage Field Mission (2024)"
+      },
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    "updatedAt": "2026-08-28T00:00:00.000Z",
+    "reviewStatus": "verified_peer_reviewed",
+    "coordinates": {
+      "latitude": 13.5786,
+      "longitude": 104.1103
+    }
+  },
+  {
+    "id": "e-apsara",
+    "slug": "apsara",
+    "categoryId": "arts",
+    "category": "arts",
+    "title": {
+      "en": "Royal Ballet of Cambodia & The Apsara Dance",
+      "km": "របាំព្រះរាជទ្រព្យ និងរបាំអប្សរា",
+      "vi": "Vũ Điệu Hoàng Gia Campuchia & Điệu Múa Apsara",
+      "th": "ระบำหลวงกัมพูชาและระบำอัปสรา"
+    },
+    "summary": {
+      "en": "The sacred classical dance drama of the Royal Court of Cambodia, inscribed by UNESCO as Intangible Cultural Heritage of Humanity in 2003, carrying ancient gestural cosmology from stone carvings to living ritual.",
+      "km": "សិល្បៈរបាំបុរាណសក្ការៈនៃព្រះបរមរាជវាំងកម្ពុជា ចុះបញ្ជីបេតិកភណ្ឌអរូបីនៃមនុស្សជាតិ UNESCO ក្នុងឆ្នាំ ២០០៣ ដែលរក្សាបាននូវកាយវិការចក្រវាឡវិទ្យាពីចម្លាក់ថ្មដល់ជីវិតរស់រវើក។",
+      "vi": "Nghệ thuật kịch múa cổ điển thiêng liêng của Hoàng gia Campuchia, được UNESCO vinh danh là Di sản Văn hóa Phi vật thể của Nhân loại năm 2003, lưu giữ hệ thống cử chỉ vũ đạo vũ trụ học từ các bức phù điêu đá nghìn năm.",
+      "th": "นาฏศิลป์ชั้นสูงอันศักดิ์สิทธิ์แห่งราชสำนักกัมพูชา ได้รับการขึ้นทะเบียนเป็นมรดกทางวัฒนธรรมที่จับต้องไม่ได้ของยูเนสโกในปี ค.ศ. 2003"
+    },
+    "era": {
+      "en": "Angkorian Period (9th c.) – Living Tradition",
+      "km": "សម័យអង្គរ (សតវត្សរ៍ទី ៩) ដល់ បច្ចុប្បន្ន",
+      "vi": "Thời kỳ Angkor (Thế kỷ 9) – Truyền thống Sống",
+      "th": "ยุคพระนคร (ศตวรรษที่ 9) ถึงปัจจุบัน"
+    },
+    "coverMedia": {
+      "id": "m-ap-cover",
+      "url": "file:///app/applet/src/assets/apsara.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/apsara.jpg",
+      "type": "image",
+      "title": {
+        "en": "Royal Ballet Dancer in Golden Mokot Headdress performing Robam Apsara",
+        "km": "នាដការីរបាំព្រះរាជទ្រព្យគ្រងម្កុដមាសសម្តែងរបាំអប្សរា",
+        "vi": "Nữ nghệ sĩ múa Cung đình trong vương miện Mokot vàng trình diễn điệu múa Apsara",
+        "th": "นางรำระบำหลวงสวมชฎามงกุฎทองคำแสดงระบำอัปสรา"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "provenance": {
+        "repository": "Khmer Heritage Performance Archive",
+        "collection": "National Theatre of Cambodia Classical Repertory",
+        "captureDate": "2024-03-01",
+        "creditLine": "Khmer Heritage Field Mission (2024)"
+      },
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    "updatedAt": "2026-08-28T00:00:00.000Z",
+    "reviewStatus": "verified_peer_reviewed",
+    "coordinates": {
+      "latitude": 11.5621,
+      "longitude": 104.9317
+    }
+  },
+  {
+    "id": "e-pinpeat",
+    "slug": "pinpeat",
+    "categoryId": "music",
+    "category": "music",
+    "title": {
+      "en": "The Sacred Pinpeat Court & Ritual Ensemble",
+      "km": "វង់ភ្លេងពិណពាទ្យ",
+      "vi": "Dàn Nhạc Lễ Cung Đình & Nghi Lễ Pinpeat",
+      "th": "วงดนตรีหลวงพิณพาทย์เขมร"
+    },
+    "summary": {
+      "en": "The grand classical orchestra of Cambodia, performing for royal court rituals, classical dance drama, and Buddhist ceremonies with bronze gongs, bamboo xylophones, and oboes.",
+      "km": "វង់ភ្លេងព្រះរាជទ្រព្យដ៏ពិសិដ្ឋនៃកម្ពុជា សម្រាប់ប្រគំក្នុងព្រះរាជពិធី របាំបុរាណ និងពិធីសាសនាព្រះពុទ្ធ ដោយមានគងវង់ រនាត និងស្រឡៃ។",
+      "vi": "Đại dàn nhạc cổ điển cung đình Campuchia, hòa tấu trong các đại lễ hoàng gia, kịch múa cổ điển và nghi lễ Phật giáo với cồng đồng, mộc cầm và kèn Sralai.",
+      "th": "วงดนตรีหลวงชั้นสูงแห่งราชสำนักกัมพูชา บรรเลงประกอบพระราชพิธี นาฏศิลป์หลวง และพิธีกรรมทางศาสนา ประกอบด้วยฆ้องวง ระนาด และปี่ไสล"
+    },
+    "era": {
+      "en": "Angkorian Era (7th–9th c.) – Living Tradition",
+      "km": "សម័យអង្គរ (សតវត្សរ៍ទី ៧–៩) ដល់ បច្ចុប្បន្ន",
+      "vi": "Thời kỳ Angkor (Thế kỷ 7–9) – Nay",
+      "th": "ยุคพระนคร ถึงปัจจุบัน"
+    },
+    "coverMedia": {
+      "id": "m-pp-cover",
+      "url": "file:///app/applet/src/assets/instruments.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/instruments.jpg",
+      "type": "image",
+      "title": {
+        "en": "Pinpeat Master Musicians performing on Roneat Ek and Kong Vong",
+        "km": "តន្ត្រីករប្រគំភ្លេងពិណពាទ្យជាមួយរនាតឯក និងគងវង់",
+        "vi": "Các nghệ nhân trình tấu đàn Roneat Ek và giàn cồng Kong Vong trong dàn Pinpeat",
+        "th": "การบรรเลงวงพิณพาทย์เขมร"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "provenance": {
+        "repository": "National Theatre of Cambodia Ethnomusicology Archive",
+        "captureDate": "2024-03-02",
+        "creditLine": "Khmer Heritage Field Mission (2024)"
+      },
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    "updatedAt": "2026-08-28T00:00:00.000Z",
+    "reviewStatus": "verified_peer_reviewed",
+    "coordinates": {
+      "latitude": 11.5621,
+      "longitude": 104.9317
+    }
+  },
+  {
+    "id": "e-roneat-ek",
+    "slug": "roneat-ek",
+    "categoryId": "music",
+    "category": "music",
+    "title": {
+      "en": "Roneat Ek (High-Pitched Bamboo Xylophone)",
+      "km": "រនាតឯក",
+      "vi": "Đàn Roneat Ek (Mộc Cầm Tre Khơ-me Lĩnh Xướng)",
+      "th": "ระนาดเอกเขมร"
+    },
+    "summary": {
+      "en": "The primary melodic leader of the Pinpeat and Mohori orchestras, featuring 21 tuned bamboo or rosewood bars suspended over a boat-shaped resonator producing crystalline acoustic harmonics.",
+      "km": "ឧបករណ៍ភ្លេងដឹកនាំសំនៀងចម្បងក្នុងវង់ពិណពាទ្យ និងមហោរី មានផ្លែ ២១ ធ្វើពីឬស្សី ឬឈើបេង តម្រៀបលើស្នូករាងទូក បន្លឺសំនៀងស្រួយស្រទន់។",
+      "vi": "Nhạc cụ lĩnh xướng giai điệu chủ chốt trong dàn nhạc Pinpeat và Mohori, gồm 21 thanh phím bằng tre già hoặc gỗ trắc quý treo trên thùng cộng hưởng hình mũi thuyền uốn lượn.",
+      "th": "เครื่องดนตรีบรรเลงนำที่มีบทบาทสำคัญที่สุดในวงพิณพาทย์และมโหรี มีลูกระนาด 21 ลูกทำด้วยไม้ไผ่หรือไม้เนื้อแข็ง วางบนรางรูปเรือ"
+    },
+    "era": {
+      "en": "Classical Angkorian to Modern Era",
+      "km": "សម័យអង្គរ ដល់ បច្ចុប្បន្ន",
+      "vi": "Thời kỳ Cổ điển Angkor đến Nay",
+      "th": "ยุคพระนคร ถึงปัจจุบัน"
+    },
+    "coverMedia": {
+      "id": "m-re-cover",
+      "url": "file:///app/applet/src/assets/instruments.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/instruments.jpg",
+      "type": "image",
+      "title": {
+        "en": "Roneat Ek Bamboo Resonator Soundbox and 21 Tuned Key Bars",
+        "km": "ស្នូករនាតឯករាងទូក និងផ្លែរនាត ២១ ផ្លែ",
+        "vi": "Thùng đàn hình thuyền và 21 thanh phím định âm của đàn Roneat Ek",
+        "th": "รางระนาดเอกรูปเรือและลูกระนาด 21 ลูก"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "provenance": {
+        "repository": "Khmer Heritage Organology Collection",
+        "captureDate": "2024-03-02",
+        "creditLine": "Khmer Heritage Field Mission (2024)"
+      },
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    "updatedAt": "2026-08-28T00:00:00.000Z",
+    "reviewStatus": "verified_peer_reviewed",
+    "coordinates": {
+      "latitude": 11.5621,
+      "longitude": 104.9317
+    }
+  },
+  {
+    "id": "e-chapei-dong-veng",
+    "slug": "chapei-dong-veng",
+    "categoryId": "music",
+    "category": "music",
+    "title": {
+      "en": "Chapei Dang Veng (Khmer Long-Necked Lute & Sung Poetry)",
+      "km": "ចាប៉ីដងវែង",
+      "vi": "Đàn Chapei Dang Veng (Đàn Đáy Cần Dài & Hát Thơ Khơ-me)",
+      "th": "จะเปยดองเวง (พิณคอยาวเขมร)"
+    },
+    "summary": {
+      "en": "The ancient two-stringed fretted long-necked lute accompanying improvised sung poetry, moral fables, and epic tales; inscribed on UNESCO's Urgent Safeguarding List in 2016.",
+      "km": "ឧបករណ៍ខ្សែដេញដងវែងបុរាណមានខ្សែពីរ សម្រាប់ដេញបន្ទរចម្រៀងកំណាព្យ អប់រំទូន្មាន និងរឿងនិទាន ចុះបញ្ជីបេតិកភណ្ឌអរូបីត្រូវការការសង្គ្រោះបន្ទាន់របស់ UNESCO ឆ្នាំ ២០១៦។",
+      "vi": "Cây đàn hai dây cần dài có phím bấm cổ truyền đệm cho những bài thơ ứng tác, chuyện ngụ ngôn đạo lý và trường ca dân gian; được UNESCO ghi danh vào Danh sách Cần bảo vệ Khẩn cấp năm 2016.",
+      "th": "พิณคอยาวโบราณสองสาย มีเฟรต ใช้บรรเลงประกอบการขับลำนำ กลอนสด และนิทานคติธรรม ได้รับการขึ้นทะเบียนในบัญชีมรดกที่ต้องได้รับการสงวนรักษาอย่างเร่งด่วนของยูเนสโกในปี 2016"
+    },
+    "era": {
+      "en": "Angkorian Period (7th c. bas-reliefs) – UNESCO Inscribed 2016",
+      "km": "សម័យអង្គរ ដល់ បច្ចុប្បន្ន (ចុះបញ្ជី UNESCO ឆ្នាំ ២០១៦)",
+      "vi": "Thời Angkor (thế kỷ 7) – Ghi danh UNESCO 2016",
+      "th": "ยุคพระนคร ถึงปัจจุบัน (ขึ้นทะเบียนยูเนสโก ค.ศ. 2016)"
+    },
+    "coverMedia": {
+      "id": "m-cdv-cover",
+      "url": "file:///app/applet/src/assets/instruments.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/instruments.jpg",
+      "type": "image",
+      "title": {
+        "en": "Grand Master Kong Nay Performing with the Sacred Chapei Dang Veng Lute",
+        "km": "ព្រឹទ្ធាចារ្យ គង់ ណៃ កំពុងដេញចាប៉ីដងវែង",
+        "vi": "Đại nghệ nhân Kong Nay trình tấu cây đàn Chapei Dang Veng huyền thoại",
+        "th": "บรมครูกง ไน บรรเลงพิณจะเปยดองเวง"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "provenance": {
+        "repository": "UNESCO Phnom Penh Intangible Cultural Heritage Archive",
+        "captureDate": "2024-03-05",
+        "creditLine": "Khmer Heritage Field Mission (2024)"
+      },
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    "updatedAt": "2026-08-28T00:00:00.000Z",
+    "reviewStatus": "verified_peer_reviewed",
+    "coordinates": {
+      "latitude": 10.6104,
+      "longitude": 104.1815
+    }
+  },
+  {
+    "id": "e-pchum-ben",
+    "slug": "pchum-ben",
+    "categoryId": "rituals",
+    "category": "rituals",
+    "title": {
+      "en": "Pchum Ben (Ancestral Merits Festival & The Bay Ben Rite)",
+      "km": "ពិធីបុណ្យភ្ជុំបិណ្ឌ និងពិធីបោះបាយបិណ្ឌ",
+      "vi": "Lễ Hội Pchum Ben (Lễ Vu Lan Khơ-me & Nghi Thức Tung Cơm Bay Ben)",
+      "th": "เทศกาลสารทเขมร (พจุมเบณฑ์) และพิธีโยนข้าวก้อน"
+    },
+    "summary": {
+      "en": "The fifteen-day Khmer Buddhist festival of ancestral remembrance in the lunar month of Photrobot, culminating in pre-dawn pagoda circumambulations and the offering of sesame-rice balls to wandering spirits.",
+      "km": "ពិធីបុណ្យប្រពៃណីព្រះពុទ្ធសាសនាខ្មែររយៈពេល ១៥ ថ្ងៃក្នុងខែភទ្របទ ដើម្បីឧទ្ទិសកុសលដល់បុព្វការីជន និងប្រេតជន តាមរយៈពិធីបោះបាយបិណ្ឌនៅវេលាម៉ោង ៤ ទៀបភ្លឺ។",
+      "vi": "Đại lễ Phật giáo truyền thống kéo dài 15 ngày trong tháng Bhadrapada âm lịch nhằm tri ân báo hiếu tổ tiên và chuyển phước đức cho các ngạ quỷ lang thang qua nghi thức tung cơm nếp vắt mè (Bay Ben) lúc rạng đông.",
+      "th": "เทศกาลทางพุทธศาสนาเขมร 15 วันในเดือน 10 เพื่ออุทิศส่วนกุศลให้แก่บรรพบุรุษและดวงวิญญาณเร่ร่อน โดยมีพิธีโยนข้าวก้อนในยามเช้ามืด"
+    },
+    "era": {
+      "en": "Ancient Khmer Buddhist Tradition (Angkorian Era – Present)",
+      "km": "ប្រពៃណីពុទ្ធសាសនាបុរាណ ដល់ បច្ចុប្បន្ន",
+      "vi": "Truyền thống Phật giáo Cổ xưa đến Nay",
+      "th": "ประเพณีพุทธโบราณ ถึงปัจจุบัน"
+    },
+    "coverMedia": {
+      "id": "m-pb-cover",
+      "url": "file:///app/applet/src/assets/angkor-wat.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/angkor-wat.jpg",
+      "type": "image",
+      "title": {
+        "en": "Devotees in Traditional White Silk Attire Carrying Offerings during Pchum Ben",
+        "km": "ពុទ្ធបរិស័ទគ្រងសម្លៀកបំពាក់សូត្រសប្រគេនចង្ហាន់បុណ្យភ្ជុំបិណ្ឌ",
+        "vi": "Thiện nam tín nữ trong trang phục áo lụa trắng dâng cơm cúng dường mùa Pchum Ben",
+        "th": "พุทธศาสนิกชนแต่งกายชุดขาวนำสำรับภัตตาหารไปทำบุญในเทศกาลพจุมเบณฑ์"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "provenance": {
+        "repository": "Khmer Heritage Ethnographic Archive",
+        "collection": "Living Buddhist Rituals Survey",
+        "captureDate": "2024-09-20",
+        "creditLine": "Khmer Heritage Field Mission (2024)"
+      },
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    "updatedAt": "2026-08-28T00:00:00.000Z",
+    "reviewStatus": "verified_peer_reviewed",
+    "coordinates": {
+      "latitude": 11.5564,
+      "longitude": 104.9282
+    }
+  },
+  {
+    "id": "e-sdok-kok-thom",
+    "slug": "sdok-kok-thom",
+    "categoryId": "script",
+    "category": "script",
+    "title": {
+      "en": "Stele of Sdok Kok Thom (Inscription K.235)",
+      "km": "សិលាចារឹកស្ដុកកក់ធំ (K.235)",
+      "vi": "Bia Đá Sdok Kok Thom (Văn Bia K.235)",
+      "th": "ศิลาจารึกสด๊กก๊อกธม (จารึก K.235)"
+    },
+    "summary": {
+      "en": "The Rosetta Stone of Angkorian history, inscribed in 1052 CE in Sanskrit and Old Khmer, recording 250 years of royal dynastic succession and the founding of the sacred Devaraja cult.",
+      "km": "សិលាចារឹកគន្លឹះនៃប្រវត្តិសាស្ត្រអង្គរ ចារក្នុងឆ្នាំ ១០៥២ ជាភាសាសំស្ក្រឹត និងភាសាខ្មែរបុរាណ កត់ត្រារាជពង្សាវតារ ២៥០ ឆ្នាំ និងការបង្កើតលទ្ធិទេវរាជ។",
+      "vi": "Được mệnh danh là 'Hòn đá Rosetta' của lịch sử Khmer Angkor, khắc năm 1052 CN bằng chữ Phạn và tiếng Khơ-me cổ, ghi lại 250 năm truyền thừa vương triều và sự khai sinh tín ngưỡng Thần Vương.",
+      "th": "ศิลาจารึกหลักสำคัญที่สุดของประวัติศาสตร์พระนคร จารึกขึ้นในปี ค.ศ. 1052 ด้วยภาษาสันสกฤตและภาษาเขมรโบราณ บันทึกลำดับกษัตริย์ 250 ปีและการสถาปนาลัทธิเทวราชา"
+    },
+    "era": {
+      "en": "11th Century CE (February 8, 1052 CE)",
+      "km": "សតវត្សរ៍ទី ១១ នៃ គ.ស. (៨ កុម្ភៈ ឆ្នាំ ១០៥២)",
+      "vi": "Thế kỷ 11 CN (Khắc ngày 8 tháng 2 năm 1052 CN)",
+      "th": "ศตวรรษที่ 11 (8 กุมภาพันธ์ ค.ศ. 1052)"
+    },
+    "coverMedia": {
+      "id": "m-skt-cover",
+      "url": "file:///app/applet/src/assets/bayon.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/bayon.jpg",
+      "type": "image",
+      "title": {
+        "en": "The Four-Sided Inscribed Grey Sandstone Stele of Sdok Kok Thom (K.235)",
+        "km": "សិលាចារឹកស្ដុកកក់ធំ ៤ ជ្រុង ធ្វើពីថ្មភក់ពណ៌ប្រផេះ",
+        "vi": "Bia đá bốn mặt Sdok Kok Thom bằng sa thạch xám khắc chữ Phạn và Khơ-me cổ",
+        "th": "ศิลาจารึก 4 ด้านสด๊กก๊อกธม"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "provenance": {
+        "repository": "National Museum of Bangkok / EFEO Epigraphy Archive",
+        "accessionNumber": "K.235 / SKT-1052",
+        "captureDate": "2024-02-25",
+        "creditLine": "Khmer Heritage Epigraphy Project (2024)"
+      },
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    "updatedAt": "2026-08-28T00:00:00.000Z",
+    "reviewStatus": "verified_peer_reviewed",
+    "coordinates": {
+      "latitude": 13.8406,
+      "longitude": 102.7389
+    }
+  },
+  {
+    "id": "e-silk-hol",
+    "slug": "silk-hol",
+    "categoryId": "costumes",
+    "category": "costumes",
+    "title": {
+      "en": "Khmer Golden Silk & Sampot Hol (Weft Ikat Weaving)",
+      "km": "សូត្រមាសខ្មែរ និងសំពត់ហូល",
+      "vi": "Lụa Tơ Vàng Khơ-me & Nghệ Thuật Dệt Ikat Sampot Hol",
+      "th": "ผ้าไหมทองคำเขมรและผ้ามัดหมี่โฮล (สัมปอตโฮล)"
+    },
+    "summary": {
+      "en": "The masterwork of Khmer textile heritage, utilizing indigenous golden multivoltine silk threads (Bombyx mori) and natural botanical dyes to create intricate weft-ikat patterns worn at royal court rituals and weddings.",
+      "km": "កំពូលសិល្បៈវាយនភណ្ឌខ្មែរ ផលិតពីសរសៃសូត្រមាសធម្មជាតិ និងល័ក្តរុក្ខជាតិព្រៃ ត្បាញជាក្បាច់ហូលពិទ្យាធរដ៏ល្អប្រណិត សម្រាប់ប្រើប្រាស់ក្នុងព្រះរាជពិធី និងមង្គលការ។",
+      "vi": "Kiệt tác dệt may di sản của người Khmer, sử dụng sợi tơ vàng tự nhiên quý hiếm cùng các loại thuốc nhuộm thực vật từ vỏ cây rừng để dệt nên những tấm lụa Sampot Hol hoa văn Ikat huyền ảo dùng trong đại lễ hoàng gia và hôn lễ.",
+      "th": "สุดยอดศิลปหัตถกรรมทอผ้าของเขมร ทอด้วยเส้นไหมสีทองธรรมชาติและสีย้อมจากพืชพรรณธรรมชาติ สร้างสรรค์ลวดลายมัดหมี่อันวิจิตรสำหรับใช้ในพระราชพิธีและงานมงคลสมรส"
+    },
+    "era": {
+      "en": "Funan Period (1st c.) – Living Heritage Revival",
+      "km": "សម័យហ្វូណន ដល់ បច្ចុប្បន្ន",
+      "vi": "Thời Phù Nam (Thế kỷ 1) – Phục hưng Di sản Sống",
+      "th": "ยุคฟูนัน ถึงปัจจุบัน"
+    },
+    "coverMedia": {
+      "id": "m-sh-cover",
+      "url": "file:///app/applet/src/assets/silk.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/silk.jpg",
+      "type": "image",
+      "title": {
+        "en": "Intricate Traditional Sampot Hol Golden Silk Ikat Fabric Pattern",
+        "km": "ក្បាច់កម្រងផ្កាសំពត់ហូលសូត្រមាសបុរាណ",
+        "vi": "Hoa văn dệt Ikat tinh xảo trên nền lụa tơ vàng Sampot Hol truyền thống",
+        "th": "ลวดลายมัดหมี่บนผืนผ้าไหมโฮลโบราณ"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "provenance": {
+        "repository": "Institute for Khmer Traditional Textiles (IKTT) / Takeo Weaver Guild",
+        "captureDate": "2024-03-08",
+        "creditLine": "Khmer Heritage Field Mission (2024)"
+      },
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    "updatedAt": "2026-08-28T00:00:00.000Z",
+    "reviewStatus": "verified_peer_reviewed",
+    "coordinates": {
+      "latitude": 10.9904,
+      "longitude": 104.7849
+    }
+  },
+  {
+    "id": "e-amok-trey",
+    "slug": "amok-trey",
+    "categoryId": "cuisine",
+    "category": "cuisine",
+    "title": {
+      "en": "Amok Trey (Steamed Fish Curry in Banana Leaf Basket)",
+      "km": "អាម៉ុកត្រី",
+      "vi": "Amok Trey (Cá Chẽm Hấp Cà Ri Lá Chuối Khơ-me)",
+      "th": "อาม็อกเตร็ย (ห่อหมกปลาเขมร)"
+    },
+    "summary": {
+      "en": "The culinary signature of Cambodia: fresh Tonlé Sap fish fillets gently steamed in rich coconut milk, beaten egg, aromatic yellow kroeung paste, and sacred noni leaves inside folded banana-leaf baskets.",
+      "km": "ម្ហូបប្រចាំអត្តសញ្ញាណជាតិខ្មែរ ធ្វើពីសាច់ត្រីរ៉ស់បឹងទន្លេសាប ប្រឡាក់ជាមួយគ្រឿងបុកលឿង ខ្ទិះដូង ពងទា និងទ្រាប់ស្លឹកញ ខ្ចប់ក្នុងកន្ទោងស្លឹកចេកចំហុយយ៉ាងឈ្ងុយឆ្ងាញ់។",
+      "vi": "Món ăn quốc hồn quốc túy của ẩm thực Campuchia: cá quả Biển Hồ Tonlé Sap được ướp với cốt dừa béo ngậy, trứng vịt, sốt gia vị kroeung vàng giã tay và lót lá nhàu non hấp trong xửng lá chuối gấp hình chiếc thuyền nhỏ.",
+      "th": "อาหารประจำชาติต้นตำรับเขมร ทำจากเนื้อปลาช่อนสดจากทะเลสาบเขมร คลุกเคล้ากับกะทิสด ไข่ พริกแกงเหลืองโกรឿង และรองด้วยใบยอ นึ่งในกระทงใบตองจนหอมกรุ่น"
+    },
+    "era": {
+      "en": "Angkorian Culinary Heritage – Living National Tradition",
+      "km": "បេតិកភណ្ឌម្ហូបបុរាណសម័យអង្គរ ដល់ បច្ចុប្បន្ន",
+      "vi": "Di sản Ẩm thực Thời Angkor đến Nay",
+      "th": "มรดกอาหารยุคพระนคร ถึงปัจจุบัน"
+    },
+    "coverMedia": {
+      "id": "m-at-cover",
+      "url": "file:///app/applet/src/assets/banteay-srei.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/banteay-srei.jpg",
+      "type": "image",
+      "title": {
+        "en": "Steamed Amok Trey Served in Folded Banana Leaf Kratong with Coconut Cream Swirl",
+        "km": "អាម៉ុកត្រីចំហុយក្នុងកន្ទោងស្លឹកចេកស្រោចខ្ទិះដូង",
+        "vi": "Món cá hấp Amok Trey trong xửng lá chuối trang trí ớt chỉ thiên và cốt dừa",
+        "th": "อาม็อกเตร็ยในกระทงใบตองราดหัวกะทิสด"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "provenance": {
+        "repository": "Cambodian Culinary Heritage Documentation Project",
+        "captureDate": "2024-03-10",
+        "creditLine": "Khmer Heritage Field Mission (2024)"
+      },
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    "updatedAt": "2026-08-28T00:00:00.000Z",
+    "reviewStatus": "verified_peer_reviewed",
+    "coordinates": {
+      "latitude": 12.5657,
+      "longitude": 104.991
+    }
+  },
+  {
+    "id": "e-krama",
+    "slug": "krama",
+    "categoryId": "crafts",
+    "category": "crafts",
+    "title": {
+      "en": "Krama Weaving & Artisan Heritage",
+      "km": "សិល្បៈតម្បាញក្រមាខ្មែរ",
+      "vi": "Nghệ Thuật Dệt Khăn Rằn Krama Khơ-me",
+      "th": "ศิลปะการทอผ้าขาวม้าเขมร (กรอมา)"
+    },
+    "summary": {
+      "en": "The ubiquitous checkered textile symbol of Cambodian identity, handwoven on domestic frame looms and inscribed in 2024 on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity.",
+      "km": "វាយនភណ្ឌក្រឡាការ៉ូដែលជាអត្តសញ្ញាណជាតិខ្មែរ ត្បាញដោយដៃលើកីតម្បាញឈើ និងចុះបញ្ជីបេតិកភណ្ឌអរូបីនៃមនុស្សជាតិ UNESCO ក្នុងឆ្នាំ ២០២៤។",
+      "vi": "Chiếc khăn rằn dệt hoa văn ca-rô biểu tượng bất hủ của bản sắc văn hóa Campuchia, dệt thủ công trên khung cửi gỗ gia đình và được UNESCO ghi danh Di sản Văn hóa Phi vật thể của Nhân loại năm 2024.",
+      "th": "ผ้าทอลายตารางอันเป็นสัญลักษณ์แห่งเอกลักษณ์ของชาวกัมพูชา ทอด้วยกี่กระตุกไม้แบบดั้งเดิม ได้รับการขึ้นทะเบียนเป็นมรดกทางวัฒนธรรมที่จับต้องไม่ได้ของยูเนสโกในปี ค.ศ. 2024"
+    },
+    "era": {
+      "en": "Angkorian Era (1st Millennium CE) – UNESCO Inscribed 2024",
+      "km": "សម័យអង្គរ ដល់ បច្ចុប្បន្ន (ចុះបញ្ជី UNESCO ឆ្នាំ ២០២៤)",
+      "vi": "Thời Angkor đến Nay (Ghi danh UNESCO 2024)",
+      "th": "ยุคพระนคร ถึงปัจจุบัน (ขึ้นทะเบียนยูเนสโก ค.ศ. 2024)"
+    },
+    "coverMedia": {
+      "id": "m-km-cover",
+      "url": "file:///app/applet/src/assets/silk.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/silk.jpg",
+      "type": "image",
+      "title": {
+        "en": "Traditional Red and White Cotton Checkered Krama Cloth",
+        "km": "ក្រមាខ្មែរក្រឡាការ៉ូពណ៌ក្រហមសប្រពៃណី",
+        "vi": "Chiếc khăn rằn Krama sọc đỏ trắng truyền thống dệt từ sợi bông tự nhiên",
+        "th": "ผ้าขาวม้ากรอมาลายตารางสีแดงสลับขาว"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "provenance": {
+        "repository": "UNESCO Phnom Penh Intangible Cultural Heritage Section",
+        "collection": "National Inventory of Intangible Cultural Heritage",
+        "captureDate": "2024-03-12",
+        "creditLine": "Khmer Heritage Field Mission (2024)"
+      },
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    "updatedAt": "2026-08-28T00:00:00.000Z",
+    "reviewStatus": "verified_peer_reviewed",
+    "coordinates": {
+      "latitude": 11.5234,
+      "longitude": 105.0112
+    }
+  },
+  {
+    "id": "e-angkor-thom",
+    "slug": "angkor-thom",
+    "categoryId": "landmarks",
+    "category": "landmarks",
+    "title": {
+      "en": "Angkor Thom (The Great Royal City)",
+      "km": "មហានគរ (ក្រុងអង្គរធំ)",
+      "vi": "Đại Kinh Thành Angkor Thom",
+      "th": "นครธม (มหาพระนคร)"
+    },
+    "summary": {
+      "en": "The fortified 9-square-kilometer imperial capital founded by King Jayavarman VII in the late 12th century, accessed across giant causeways depicting the Churning of the Ocean of Milk.",
+      "km": "រាជធានីបន្ទាយដ៏ធំសម្បើមទំហំ ៩ គីឡូម៉ែត្រការ៉េ ស្ថាបនាដោយព្រះបាទជ័យវរ្ម័នទី ៧ នៅចុងសតវត្សរ៍ទី ១២ ដែលមានស្ពានយក្សនិងទេវតាទាញព្រះភុជង្គនាគឆ្លងកសិណទឹក។",
+      "vi": "Kinh đô kiên cố rộng 9 km² do vua Jayavarman VII xây dựng vào cuối thế kỷ 12, dẫn lối bằng các cây cầu đá khổng lồ tạc cảnh các vị thần Deva và Dạ xoa kéo rắn thần Naga.",
+      "th": "เมืองหลวงรูปสี่เหลี่ยมจัตุรัสขนาด 9 ตารางกิโลเมตร สร้างโดยพระเจ้าชัยวรมันที่ 7 ในปลายศตวรรษที่ 12 มีสะพานหินสลักเทวดาและอสูรกวนเกษียรสมุทรข้ามคูเมือง"
+    },
+    "era": {
+      "en": "Late 12th Century CE (c. 1181–1218 CE)",
+      "km": "ចុងសតវត្សរ៍ទី ១២ នៃ គ.ស.",
+      "vi": "Cuối thế kỷ 12 CN (khoảng 1181–1218 CN)",
+      "th": "ปลายศตวรรษที่ 12"
+    },
+    "coverMedia": {
+      "id": "m-at-city-cover",
+      "url": "file:///app/applet/src/assets/bayon.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/bayon.jpg",
+      "type": "image",
+      "title": {
+        "en": "Angkor Thom South Gate Tower and Bridge of Gods and Demons",
+        "km": "ខ្លោងទ្វារខាងត្បូងក្រុងអង្គរធំ និងស្ពានទេវតាយក្សទាញនាគ",
+        "vi": "Cổng Nam Angkor Thom với tháp bốn mặt và hàng tượng Thần - Quỷ kéo rắn thần Naga",
+        "th": "ซุ้มประตูด้านทิศใต้ของนครธมและสะพานเทวดาอสูรฉุดพญานาค"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "provenance": {
+        "repository": "Khmer Heritage Urban Survey Repository",
+        "collection": "Angkor Thom Defensive Perimeter Documentation",
+        "captureDate": "2024-02-20",
+        "creditLine": "Khmer Heritage Field Mission (2024)"
+      },
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    "updatedAt": "2026-08-28T00:00:00.000Z",
+    "reviewStatus": "verified_peer_reviewed",
+    "coordinates": {
+      "latitude": 13.4413,
+      "longitude": 103.8586
+    }
+  },
+  {
+    "id": "e-jayavarman-vii",
+    "slug": "jayavarman-vii",
+    "categoryId": "figures",
+    "category": "figures",
+    "title": {
+      "en": "King Jayavarman VII (The Great Buddhist Monarch)",
+      "km": "ព្រះបាទជ័យវរ្ម័នទី ៧",
+      "vi": "Đại Đế Jayavarman VII (Vị Vua Phật Giáo Vĩ Đại)",
+      "th": "พระเจ้าชัยวรมันที่ 7 (มหาราชแห่งจักรวรรดิเขมร)"
+    },
+    "summary": {
+      "en": "The greatest builder monarch of the Khmer Empire (reigned c. 1181–1218 CE), who liberated Angkor from Cham occupation, converted the state religion to Mahayana Buddhism, and constructed the Bayon, Ta Prohm, and 102 hospitals.",
+      "km": "ព្រះមហាក្សត្រដ៏អស្ចារ្យបំផុតនៃចក្រភពអង្គរ (សោយរាជ្យ គ.ស. ១១៨១–១២១៨) ដែលបានរំដោះរាជធានីពីការត្រួតត្រារបស់ចាម ប្តូរមកកាន់ព្រះពុទ្ធសាសនាមហាយាន និងស្ថាបនាប្រាសាទបាយ័ន តាព្រហ្ម និងមន្ទីរពេទ្យ ១០២ កន្លែង។",
+      "vi": "Vị hoàng đế vĩ đại nhất trong lịch sử Khmer (trị vì khoảng 1181–1218 CN), người đã giải phóng đất nước khỏi quân Chăm, chuyển quốc giáo sang Phật giáo Đại thừa và kiến thiết kinh thành Angkor Thom, đền Bayon, Ta Prohm cùng 102 bệnh viện cứu tế.",
+      "th": "มหาราชผู้ยิ่งใหญ่ที่สุดแห่งจักรวรรดิเขมร (ครองราชย์ ค.ศ. 1181–1218) ผู้ทรงกอบกู้เอกราชจากจามปา ทรงเปลี่ยนศาสนาประจำชาติเป็นพุทธศาสนามหายาน และสร้างปราสาทบายอน ตาพรหม พร้อมทั้งสุขศาลา 102 แห่ง"
+    },
+    "era": {
+      "en": "Reign: c. 1181–1218 CE (Angkorian Golden Age)",
+      "km": "រជ្ជកាល៖ ប្រមាណ ឆ្នាំ ១១៨១–១២១៨ នៃ គ.ស.",
+      "vi": "Trị vì: khoảng 1181–1218 CN (Thời kỳ Hoàng kim Angkor)",
+      "th": "ครองราชย์: ราว ค.ศ. 1181–1218"
+    },
+    "coverMedia": {
+      "id": "m-jv-cover",
+      "url": "file:///app/applet/src/assets/bayon.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/bayon.jpg",
+      "type": "image",
+      "title": {
+        "en": "Iconic Sandstone Portrait Statue of King Jayavarman VII in Meditation Pose",
+        "km": "ព្រះរូបចម្លាក់ថ្មភក់ព្រះបាទជ័យវរ្ម័នទី ៧ ក្នុងឥរិយាបថសមាធិ",
+        "vi": "Bức tượng sa thạch kinh điển tạc chân dung vua Jayavarman VII trong tư thế thiền định",
+        "th": "พระบรมรูปสลักหินทรายพระเจ้าชัยวรมันที่ 7 ในท่าสมาธิ"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "provenance": {
+        "repository": "National Museum of Cambodia (Phnom Penh)",
+        "accessionNumber": "NMC-Ka-128",
+        "captureDate": "2024-02-28",
+        "creditLine": "Khmer Heritage Field Mission (2024)"
+      },
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    "updatedAt": "2026-08-28T00:00:00.000Z",
+    "reviewStatus": "verified_peer_reviewed",
+    "coordinates": {
+      "latitude": 13.4413,
+      "longitude": 103.8586
+    }
+  },
+  {
+    "id": "e-reamker",
+    "slug": "reamker",
+    "categoryId": "mythology",
+    "category": "mythology",
+    "title": {
+      "en": "The Reamker (The Khmer Epic of Rama)",
+      "km": "រឿងរាមកេរ្តិ៍",
+      "vi": "Sử Thi Reamker (Trường Ca Ramayana Của Người Khơ-me)",
+      "th": "มหากาพย์เรียมเกร์ (รามเกียรติ์เขมร)"
+    },
+    "summary": {
+      "en": "The national epic of Cambodia adapted from the ancient Indian Ramayana, deeply imbued with Theravada Buddhist ethics, righteous kingship, and immortalized across temple bas-reliefs and the Silver Pagoda murals.",
+      "km": "វីរកថាជាតិរបស់ប្រទេសកម្ពុជា ដកស្រង់ចេញពីរឿងរាមាយណៈឥណ្ឌា ដោយបង្កប់នូវទស្សនវិជ្ជាពុទ្ធសាសនាថេរវាទ សីលធម៌ និងរាជធម៌ ដែលបានឆ្លាក់លើប្រាសាទបុរាណ និងគំនូរជញ្ជាំងវត្តព្រះកែវមរកត។",
+      "vi": "Bản trường ca sử thi vĩ đại của dân tộc Campuchia chuyển thể từ sử thi Ramayana Ấn Độ, thấm đượm triết lý đạo đức Phật giáo Nguyên thủy và được khắc họa bất hủ trên các bức phù điêu Angkor cùng 600m bích họa chùa Bạc.",
+      "th": "มหากาพย์ประจำชาติกัมพูชาที่ดัดแปลงมาจากมหากาพย์รามายณะของอินเดีย สอดแทรกคติธรรมทางพุทธศาสนาเถรวาทและทศพิธราชธรรม ปรากฏเป็นภาพสลักหินโบราณและจิตรกรรมฝาผนังวัดพระแก้วมรกต"
+    },
+    "era": {
+      "en": "Angkorian Bas-Reliefs (10th–12th c.) to Middle Khmer Manuscripts (16th–17th c.)",
+      "km": "សម័យអង្គរ (សតវត្សរ៍ទី ១០–១២) ដល់ ក្បួនសាស្រ្តាស្លឹករឹតសម័យកណ្តាល (សតវត្សរ៍ទី ១៦–១៧)",
+      "vi": "Phù điêu Angkor (thế kỷ 10–12) đến Bản chép lá buông thời Trung đại (thế kỷ 16–17)",
+      "th": "ยุคพระนคร ถึงคัมภีร์ใบลานยุคกลาง"
+    },
+    "coverMedia": {
+      "id": "m-rk-cover",
+      "url": "file:///app/applet/src/assets/apsara.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/apsara.jpg",
+      "type": "image",
+      "title": {
+        "en": "Silver Pagoda Royal Palace Mural Gallery Depicting the Battle of Lanka in the Reamker",
+        "km": "គំនូរជញ្ជាំងរឿងរាមកេរ្តិ៍នៅវត្តព្រះកែវមរកត បង្ហាញពីសមរភូមិកោះលង្កា",
+        "vi": "Bích họa tường dài 600m chùa Bạc trong Hoàng cung tái hiện trận chiến đảo Lanka",
+        "th": "จิตรกรรมฝาผนังเรื่องเรียมเกร์ ณ วัดพระแก้วมรกต กรุงพนมเปญ"
+      },
+      "creator": "Khmer Heritage Field Mission",
+      "source": "Khmer Heritage Field Archive",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "cc_by_sa",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+      "sourceId": "src-khmer-field-mission",
+      "provenance": {
+        "repository": "Royal Palace of Cambodia / Silver Pagoda Murals Conservation Project",
+        "collection": "Wat Preah Keo Morakot Gallery Survey",
+        "captureDate": "2024-03-14",
+        "creditLine": "Khmer Heritage Field Mission (2024)"
+      },
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    "updatedAt": "2026-08-28T00:00:00.000Z",
+    "reviewStatus": "verified_peer_reviewed",
+    "coordinates": {
+      "latitude": 11.5621,
+      "longitude": 104.9317
+    }
+  }
+]

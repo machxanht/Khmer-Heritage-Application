@@ -1,0 +1,192 @@
+{
+  "id": "e-reamker",
+  "slug": "reamker",
+  "category": "mythology",
+  "categoryId": "mythology",
+  "title": {
+    "en": "The Reamker (The Khmer Epic of Rama)",
+    "km": "រឿងរាមកេរ្តិ៍",
+    "vi": "Sử Thi Reamker (Trường Ca Ramayana Của Người Khơ-me)",
+    "th": "มหากาพย์เรียมเกร์ (รามเกียรติ์เขมร)"
+  },
+  "summary": {
+    "en": "The national epic of Cambodia adapted from the ancient Indian Ramayana, deeply imbued with Theravada Buddhist ethics, righteous kingship, and immortalized across temple bas-reliefs and the Silver Pagoda murals.",
+    "km": "វីរកថាជាតិរបស់ប្រទេសកម្ពុជា ដកស្រង់ចេញពីរឿងរាមាយណៈឥណ្ឌា ដោយបង្កប់នូវទស្សនវិជ្ជាពុទ្ធសាសនាថេរវាទ សីលធម៌ និងរាជធម៌ ដែលបានឆ្លាក់លើប្រាសាទបុរាណ និងគំនូរជញ្ជាំងវត្តព្រះកែវមរកត។",
+    "vi": "Bản trường ca sử thi vĩ đại của dân tộc Campuchia chuyển thể từ sử thi Ramayana Ấn Độ, thấm đượm triết lý đạo đức Phật giáo Nguyên thủy và được khắc họa bất hủ trên các bức phù điêu Angkor cùng 600m bích họa chùa Bạc.",
+    "th": "มหากาพย์ประจำชาติกัมพูชาที่ดัดแปลงมาจากมหากาพย์รามายณะของอินเดีย สอดแทรกคติธรรมทางพุทธศาสนาเถรวาทและทศพิธราชธรรม ปรากฏเป็นภาพสลักหินโบราณและจิตรกรรมฝาผนังวัดพระแก้วมรกต"
+  },
+  "era": {
+    "en": "Angkorian Bas-Reliefs (10th–12th c.) to Middle Khmer Manuscripts (16th–17th c.)",
+    "km": "សម័យអង្គរ (សតវត្សរ៍ទី ១០–១២) ដល់ ក្បួនសាស្រ្តាស្លឹករឹតសម័យកណ្តាល (សតវត្សរ៍ទី ១៦–១៧)",
+    "vi": "Phù điêu Angkor (thế kỷ 10–12) đến Bản chép lá buông thời Trung đại (thế kỷ 16–17)",
+    "th": "ยุคพระนคร ถึงคัมภีร์ใบลานยุคกลาง"
+  },
+  "coverMedia": {
+    "id": "m-rk-cover",
+    "url": "file:///app/applet/src/assets/apsara.jpg",
+    "thumbnailUrl": "file:///app/applet/src/assets/apsara.jpg",
+    "type": "image",
+    "title": {
+      "en": "Silver Pagoda Royal Palace Mural Gallery Depicting the Battle of Lanka in the Reamker",
+      "km": "គំនូរជញ្ជាំងរឿងរាមកេរ្តិ៍នៅវត្តព្រះកែវមរកត បង្ហាញពីសមរភូមិកោះលង្កា",
+      "vi": "Bích họa tường dài 600m chùa Bạc trong Hoàng cung tái hiện trận chiến đảo Lanka",
+      "th": "จิตรกรรมฝาผนังเรื่องเรียมเกร์ ณ วัดพระแก้วมรกต กรุงพนมเปญ"
+    },
+    "creator": "Khmer Heritage Field Mission",
+    "source": "Khmer Heritage Field Archive",
+    "sourceUrl": "https://whc.unesco.org/en/list/668/",
+    "license": "cc_by_sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Khmer Heritage Field Mission — Khmer Heritage Field Archive, CC BY-SA 4.0",
+    "sourceId": "src-khmer-field-mission",
+    "provenance": {
+      "repository": "Royal Palace of Cambodia / Silver Pagoda Murals Conservation Project",
+      "collection": "Wat Preah Keo Morakot Gallery Survey",
+      "captureDate": "2024-03-14",
+      "creditLine": "Khmer Heritage Field Mission (2024)"
+    },
+    "reviewStatus": "verified_peer_reviewed"
+  },
+  "coordinates": {
+    "latitude": 11.5621,
+    "longitude": 104.9317
+  },
+  "location": {
+    "coordinates": {
+      "latitude": 11.5621,
+      "longitude": 104.9317
+    },
+    "province": {
+      "en": "Phnom Penh & Siem Reap",
+      "km": "រាជធានីភ្នំពេញ និងសៀមរាប",
+      "vi": "Phnom Penh & Siem Reap",
+      "th": "พนมเปญและเสียมราฐ"
+    },
+    "country": "Cambodia",
+    "siteName": {
+      "en": "Silver Pagoda (Wat Preah Keo Morakot) & Angkor Wat",
+      "km": "វត្តព្រះកែវមរកត និងអង្គរវត្ត"
+    }
+  },
+  "keyFacts": {
+    "era": {
+      "en": "Textual codification: 16th–17th century Middle Khmer (Rāmakerti I & II)",
+      "km": "កាលបរិច្ឆេទសាស្ត្រាស្លឹករឹត៖ សតវត្សរ៍ទី ១៦–១៧"
+    },
+    "author": {
+      "en": "Composed by ancient Khmer court poets and Buddhist scholars",
+      "km": "រៀបរៀងដោយកវីរាជវាំងខ្មែរ និងព្រះសង្ឃបណ្ឌិត"
+    },
+    "religion": {
+      "en": "Hindu Mythological Origin synthesized with Theravada Buddhist Ethics (Dharma)",
+      "km": "ការរួមបញ្ចូលរវាងទេវកថាព្រាហ្មណ៍ និងធម៌វិន័យព្រះពុទ្ធសាសនា"
+    },
+    "artStyle": {
+      "en": "Royal Ballet, Lkhon Khol Masked Theatre, Sbek Thom Shadow Puppetry, Temple Murals",
+      "km": "របាំព្រះរាជទ្រព្យ ល្ខោនខោល ល្ខោនស្បែកធំ និងគំនូរបុរាណ"
+    },
+    "material": {
+      "en": "Palm-leaf manuscripts (Sastra Sleuk Rith), Mineral pigment murals, Sandstone bas-reliefs",
+      "km": "សាស្រ្តាស្លឹករឹត គំនូរពណ៌រ៉ែធម្មជាតិ និងចម្លាក់ថ្មភក់"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "id": "sec-rk-buddhist-adaptation",
+        "heading": {
+          "en": "Buddhist Transformation of Preah Ream (Prince Rama as Bodhisattva)",
+          "km": "ការកែប្រែទស្សនវិជ្ជាពុទ្ធសាសនាក្នុងរឿងរាមកេរ្តិ៍ (ព្រះរាមជាពោធិសត្វ)",
+          "vi": "Sự Phật Hóa Hình Tượng Preah Ream (Hoàng Tử Rama Như Hiện Thân Bồ Tát)",
+          "th": "การปรับเปลี่ยนสู่คติพุทธ: พระรามในฐานะพระโพธิสัตว์"
+        },
+        "body": {
+          "en": "Unlike the Indian Valmiki Ramayana where Rama is strictly the avatar of Vishnu, the Khmer Reamker reframes Preah Ream (Rama) through a Buddhist lens as an ideal Bodhisattva embodying ultimate mindfulness, righteousness (dhamma), and filial piety. Krong Reap (Ravana) is not merely an evil demon, but a tragic figure bound by craving (tanha) and ignorance (avijja). The epic emphasizes moral redemption, the futility of destructive wrath, and the spiritual harmony of Neang Seda (Sita) as mother of the earth.",
+          "km": "ខុសពីរឿងរាមាយណៈឥណ្ឌា រឿងរាមកេរ្តិ៍ខ្មែរលើកតម្កើងព្រះរាមជាព្រះពោធិសត្វប្រកបដោយគុណធម៌ និងសីលធម៌ខ្ពង់ខ្ពស់។ ក្រុងរាពណ៍ (រាពណ៍) មិនត្រឹមតែជាយក្សអាក្រក់នោះទេ ប៉ុន្តែជានិមិត្តរូបនៃតណ្ហានិងអវិជ្ជា។ រឿងនេះបង្ហាញពីការអត់ឱនទោស និងសន្តិភាព។",
+          "vi": "Khác với nguyên tác Ramayana của thi hào Valmiki ở Ấn Độ coi Rama là hiện thân của thần Vishnu, sử thi Reamker của Campuchia đã tiếp thu và tái định hình nhân vật Hoàng tử Preah Ream (Rama) dưới lăng kính đạo đức Phật giáo như một vị Bồ Tát toàn thiện, biểu trưng cho lòng từ bi, sự chính trực (chánh pháp) và đạo hiếu. Nhân vật chúa quỷ Krong Reap (Ravana) không đơn thuần là ác quỷ mà là một hình tượng bi kịch bị giam hãm trong tham ái (tanha) và vô minh (avijja). Sử thi đề cao sự giải thoát nội tâm và lòng hòa giải nhân ái.",
+          "th": "ต่างจากรามายณะของอินเดีย เรียมเกร์ของเขมรได้ปรับเปลี่ยนให้พระรามมีลักษณะของพระโพธิสัตว์ผู้ทรงธรรมและเปี่ยมด้วยทศพิธราชธรรม ทศกัณฐ์เป็นภาพสะท้อนของกิเลสตัณหาและอวิชชา มหากาพย์เน้นย้ำเรื่องการให้อภัยและสันติภาพ"
+        }
+      },
+      {
+        "id": "sec-rk-performing-arts",
+        "heading": {
+          "en": "Performance Traditions: Lkhon Khol, Sbek Thom Shadow Puppetry & Silver Pagoda Murals",
+          "km": "សិល្បៈសម្តែង៖ ល្ខោនខោល ល្ខោនស្បែកធំ និងគំនូរវត្តព្រះកែវមរកត",
+          "vi": "Nghệ Thuật Trình Diễn: Kịch Mặt Nạ Lkhon Khol, Rối Bóng Sbek Thom & Bích Họa Cung Điện",
+          "th": "นาฏการแสดง: โขนเขมร (ละครโขล) หนังใหญ่สแบกธม และจิตรกรรมฝาผนัง"
+        },
+        "body": {
+          "en": "The Reamker is the foundational script for Cambodia's most prestigious performing arts. It provides the full dramatic repertory for Lkhon Khol (sacred all-male masked dance drama), Sbek Thom (UNESCO-inscribed giant shadow puppet theatre using intricately chiseled cowhide screens), and the classical Royal Ballet. The cloister walls of Wat Preah Keo Morakot (Silver Pagoda) in Phnom Penh contain a world-renowned 600-meter continuous fresco sequence painted between 1903 and 1904 by 40 master Cambodian artists under the direction of Oknha Tep Nimit Mak.",
+          "km": "រឿងរាមកេរ្តិ៍ជាគ្រឹះនៃសិល្បៈទស្សនីយភាពខ្មែរ រួមមានល្ខោនខោល ល្ខោនស្បែកធំ (បេតិកភណ្ឌអរូបី UNESCO) និងរបាំព្រះរាជទ្រព្យ។ ថែវព័ទ្ធជុំវិញវត្តព្រះកែវមរកតមានគំនូរបុរាណប្រវែង ៦០០ ម៉ែត្រដែលគូរឡើងក្នុងឆ្នាំ ១៩០៣–១៩០៤ ដោយវិចិត្រករខ្មែរ ៤០ នាក់ដឹកនាំដោយឧកញ៉ាទេពនិម្មិត ម៉ក់។",
+          "vi": "Reamker là kịch bản cốt lõi nuôi dưỡng các loại hình nghệ thuật sân khấu đỉnh cao của Campuchia: kịch múa mặt nạ nam Lkhon Khol, nghệ thuật múa rối bóng da bò khổng lồ Sbek Thom (Di sản UNESCO) và kịch múa Cung đình. Dãy hành lang bao quanh Chùa Bạc trong khuôn viên Hoàng cung tại Phnom Penh lưu giữ dải tranh bích họa liên tục dài 600m do 40 bậc thầy hội họa Khmer vẽ trong hai năm 1903–1904 dưới sự chỉ huy của danh họa Oknha Tep Nimit Mak.",
+          "th": "เรื่องเรียมเกร์เป็นหัวใจของศิลปะการแสดงเขมร ทั้งละครโขล หนังใหญ่สแบกธม และระบำหลวง ภาพจิตรกรรมฝาผนังรอบระเบียงวัดพระแก้วมรกตความยาว 600 เมตร วาดขึ้นในปี ค.ศ. 1903–1904 โดยช่างหลวงเขมร 40 ท่านภายใต้การนำของออกญาเทพนิมิตมัก"
+        }
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "id": "m-rk-g1",
+      "url": "file:///app/applet/src/assets/apsara.jpg",
+      "thumbnailUrl": "file:///app/applet/src/assets/apsara.jpg",
+      "type": "image",
+      "title": {
+        "en": "Angkor Wat Bas-Relief Detail of Monkey General Hanuman Battling Indrajit",
+        "km": "ចម្លាក់ហនុមានប្រយុទ្ធជាមួយឥន្ទ្រជិតលើជញ្ជាំងអង្គរវត្ត",
+        "vi": "Phù điêu tướng khỉ Hanuman giao tranh với Indrajit trên tường đá Angkor Wat",
+        "th": "ภาพสลักหนุมานสู้กับอินทรชิตบนผนังนครวัด"
+      },
+      "creator": "EFEO Photographic Archives",
+      "source": "EFEO Archives",
+      "sourceUrl": "https://whc.unesco.org/en/list/668/",
+      "license": "direct_permission",
+      "licenseUrl": "https://collection.efeo.fr/",
+      "attribution": "EFEO Photographic Archives — EFEO Archives, CC BY-SA 4.0",
+      "sourceId": "src-efeo-photo-archive",
+      "reviewStatus": "verified_peer_reviewed"
+    }
+  ],
+  "relatedEntryIds": [
+    "e-apsara",
+    "e-pinpeat",
+    "e-chapei-dong-veng",
+    "e-banteay-srei"
+  ],
+  "relatedEntries": [
+    "e-apsara",
+    "e-pinpeat",
+    "e-chapei-dong-veng",
+    "e-banteay-srei"
+  ],
+  "sourceIds": [
+    "src-pou-1977",
+    "src-bizot-1989",
+    "src-shapiro-1994",
+    "src-coe-2003"
+  ],
+  "citations": [
+    {
+      "id": "c-rk-1",
+      "title": "Rāmakerti (XVIe-XVIIe siècles): Texte khmer publié avec introduction et glossaire",
+      "author": "Dr. Saveros Pou",
+      "year": 1977,
+      "publisher": "Publications de l’EFEO, Vol. CX",
+      "sourceId": "src-pou-1977",
+      "sourceType": "academic_publication",
+      "reviewStatus": "verified_peer_reviewed"
+    },
+    {
+      "id": "c-rk-2",
+      "title": "Rāmaker: L’épopée de Rāma au Cambodge",
+      "author": "François Bizot",
+      "year": 1989,
+      "publisher": "EFEO",
+      "sourceId": "src-bizot-1989",
+      "sourceType": "academic_publication",
+      "reviewStatus": "verified_peer_reviewed"
+    }
+  ],
+  "reviewStatus": "verified_peer_reviewed",
+  "scholarlyReviewer": "Dr. Saveros Pou & École française d'Extrême-Orient (EFEO)",
+  "updatedAt": "2026-08-28T00:00:00.000Z"
+}

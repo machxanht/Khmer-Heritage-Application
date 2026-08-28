@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0",
+  "version": "1.0.0",
+  "generatedAt": "2026-08-28T00:00:00.000Z",
+  "lastUpdated": "2026-08-28T00:00:00.000Z",
+  "contentHash": "sha256-4b7ea1555b7f9f0d3ff99fa44cd5321bc5886389687dfc64a39b38422f8057ed",
+  "entriesCount": 16,
+  "categoriesCount": 12,
+  "cdnBaseUrl": "https://r2.khmer-heritage.internal/v1",
+  "entryIndexUrl": "/content/v1/entries/index.json",
+  "categoriesUrl": "/content/v1/categories.json",
+  "entryIds": [
+    "e-angkor-wat",
+    "e-bayon",
+    "e-banteay-srei",
+    "e-phnom-kulen",
+    "e-apsara",
+    "e-pinpeat",
+    "e-roneat-ek",
+    "e-chapei-dong-veng",
+    "e-pchum-ben",
+    "e-sdok-kok-thom",
+    "e-silk-hol",
+    "e-amok-trey",
+    "e-krama",
+    "e-angkor-thom",
+    "e-jayavarman-vii",
+    "e-reamker"
+  ]
+}
