@@ -86,6 +86,21 @@
   - Renamed package in `package.json` to `khmer-heritage` (v0.1.0).
   - Maintained `docs/AI_BRIDGE_PROGRESS_010.md` and published completion report in `docs/AI_BRIDGE_REPORT_010.md`.
 
+## Task KH-011: Cloudflare R2 Content Provider & Remote Content Integration
+- **Date**: 2026-08-28
+- **Assigned By**: ChatGPT / PM
+- **Implemented By**: Studio AI (Developer)
+- **Status**: SUCCESS
+- **Summary**:
+  - Implemented `R2ContentProvider` implementing `IContentProvider` for remote JSON content distribution fetching.
+  - Added configurable base URL support (`VITE_CONTENT_BASE_URL` declared in `.env.example`).
+  - Built remote `DataManifest` validation & deterministic integrity verification.
+  - Implemented in-memory caching and lazy loading for manifest, categories, index, and entry details.
+  - Implemented robust error handling and seamless fallback to `StaticContentProvider` on network failure, HTTP 404/500, timeouts, or corrupt payload.
+  - Built 13-case unit & integration test suite (`src/services/providers/__tests__/r2Provider.test.ts`) integrated as Stage 5 into `src/pipeline/testRunner.ts`.
+  - Passed all verification checks: `npm run content:test` (5/5 stages), `npm run content:validate`, `npm run content:benchmark`, `npm run lint`, and `npm run build`.
+  - Maintained `docs/AI_BRIDGE_PROGRESS_011.md` and published completion report in `docs/AI_BRIDGE_REPORT_011.md`.
+
 
 
 

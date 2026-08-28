@@ -13,6 +13,7 @@ import { runScalabilityBenchmark } from './scalabilityTest.ts';
 import { runValidationEdgeCasesSuite } from './__tests__/validatorEdgeCases.test.ts';
 import { exportContentBundle } from './exporter.ts';
 import { validateContentBundle } from './validateBundle.ts';
+import { runR2ProviderTestSuite } from '../services/providers/__tests__/r2Provider.test.ts';
 
 export async function runAllPipelineAudits(): Promise<boolean> {
   const overallStart = performance.now();
@@ -98,16 +99,34 @@ export async function runAllPipelineAudits(): Promise<boolean> {
     return false;
   }
 
+  // STAGE 5: Cloudflare R2 / Remote Content Provider Suite
+  console.log('▶ STAGE 5: TESTING R2 CONTENT PROVIDER & REMOTE INGESTION LAYER...');
+  const r2Report = await runR2ProviderTestSuite();
+  r2Report.results.forEach((r, idx) => {
+    const symbol = r.passed ? '✓ PASS' : '✗ FAIL';
+    console.log(`  [${symbol}] [${r.suite}] Test ${String(idx + 1).padStart(2, '0')}: ${r.name} (${r.durationMs} ms)`);
+  });
+  console.log(`  • Result: ${r2Report.passed}/${r2Report.total} R2 provider test cases passed in ${r2Report.durationMs} ms.\n`);
+
+  if (r2Report.failed > 0) {
+    console.error(`❌ STAGE 5 FAILED: ${r2Report.failed} R2 provider test cases failed!`);
+    r2Report.results
+      .filter((r) => !r.passed)
+      .forEach((r) => console.error(`    - [${r.suite}] ${r.name}: ${r.error}`));
+    return false;
+  }
+
   const overallEnd = performance.now();
   const overallMs = +(overallEnd - overallStart).toFixed(2);
 
   console.log('╔═══════════════════════════════════════════════════════════════════════════╗');
-  console.log(`║ ALL 4 AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                   ║`);
-  console.log('║ STATUS: CORPUS & PRODUCTION CONTENT BUNDLE VERIFIED AND DEPLOYABLE        ║');
+  console.log(`║ ALL 5 AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                   ║`);
+  console.log('║ STATUS: CORPUS, JSON BUNDLE & R2 REMOTE PROVIDER VERIFIED AND DEPLOYABLE  ║');
   console.log('╚═══════════════════════════════════════════════════════════════════════════╝\n');
 
   return true;
 }
+
 
 // Direct Execution
 if (import.meta.url === `file://${process.argv[1]}` || process.argv.includes('--run-all')) {

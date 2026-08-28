@@ -15,12 +15,15 @@ import {
   Trail,
 } from '../types/schema.ts';
 import { IContentProvider } from './providers/IContentProvider.ts';
+import { R2ContentProvider, R2ContentProviderOptions } from './providers/R2ContentProvider.ts';
 import { StaticContentProvider } from './providers/StaticContentProvider.ts';
 
 export type { IContentProvider };
+export { R2ContentProvider, StaticContentProvider };
 
 export interface IContentService {
   setProvider(provider: IContentProvider): void;
+  getProvider(): IContentProvider;
   getProviderId(): string;
   getManifest(): Promise<DataManifest>;
   getCategories(): Promise<Category[]>;
@@ -46,6 +49,10 @@ export class FoundationContentService implements IContentService {
    */
   setProvider(provider: IContentProvider): void {
     this.provider = provider;
+  }
+
+  getProvider(): IContentProvider {
+    return this.provider;
   }
 
   getProviderId(): string {

@@ -3,42 +3,46 @@
 ---
 
 ### [SECTION A: CURRENT TASK FROM CHATGPT / PM]
-**Task ID**: KH-010  
-**Title**: Production Content Bundle Foundation  
+**Task ID**: KH-011  
+**Title**: Cloudflare R2 Content Provider & Remote Content Integration  
 **Assigned To**: Studio AI (Developer / Implementation Agent)  
 **Date**: 2026-08-28  
 
 **Task Description**:
-- Transition the verified 16-entry Khmer Heritage corpus from TypeScript-only runtime data into a deterministic, versioned JSON content distribution bundle (`content/v1/`).
-- Create reusable export pipeline (`src/pipeline/exporter.ts`, `src/pipeline/exportBundle.ts`, `npm run content:export`).
-- Generate deterministic manifest (`content/v1/manifest.json`), categories array (`content/v1/categories.json`), lightweight index (`content/v1/entries/index.json`), and 16 entry detail JSON files (`content/v1/entries/*.json`).
-- Implement JSON bundle validation (`src/pipeline/validateBundle.ts`) integrated into `content:validate` and `content:test`.
-- Maintain complete backwards compatibility for existing `IContentProvider`, `StaticContentProvider`, `FoundationContentService`, and UI.
-- Rename package to `khmer-heritage` (v0.1.0) and document deliverables in `docs/AI_BRIDGE_REPORT_010.md` and `docs/AI_BRIDGE_PROGRESS_010.md`.
+- Implement `R2ContentProvider` implementing `IContentProvider` to fetch content from remote Cloudflare R2 / CDN distributions.
+- Support configurable remote base URL (`VITE_CONTENT_BASE_URL` / `.env.example`).
+- Validate remote manifest before trusting dataset (schemaVersion, contentVersion, hash, counts).
+- Support lazy / batch fetching of manifest, categories, index, and entry details.
+- Implement robust local fallback to `StaticContentProvider` on network errors, HTTP 404/500, timeouts, and JSON corruption.
+- Implement comprehensive unit and integration test suite (`src/services/providers/__tests__/r2Provider.test.ts`).
+- Integrate R2 test suite into Stage 5 of `npm run content:test`.
+- Maintain complete documentation in `docs/AI_BRIDGE_PROGRESS_011.md`, `docs/AI_BRIDGE_REPORT_011.md`, `docs/AI_BRIDGE.md`, and `docs/AI_BRIDGE_HISTORY.md`.
 
 ---
 
 ### [SECTION B: COMPLETION REPORT FROM STUDIO AI]
-**Task ID**: KH-010  
+**Task ID**: KH-011  
 **Status**: SUCCESS  
 **Date**: 2026-08-28  
 
 **Summary of Deliverables**:
-1. **Deterministic JSON Content Exporter**: Built `src/pipeline/exporter.ts` and CLI runner `src/pipeline/exportBundle.ts` (`npm run content:export`), producing the full versioned structure in `content/v1/` with cryptographic SHA-256 content hashing (`sha256-4b7ea1555b7f9f0d3ff99fa44cd5321bc5886389687dfc64a39b38422f8057ed`).
-2. **Versioned Production Bundle Output**:
-   - `content/v1/manifest.json`: Schema v1, content v1.0.0, 12 categories, 16 entries, SHA-256 hash.
-   - `content/v1/categories.json`: 12 canonical cultural categories with 4 localized titles (`km`, `en`, `vi`, `th`).
-   - `content/v1/entries/index.json`: Lightweight summary catalog (16 summaries) for zero-latency discovery & search bootstrap.
-   - `content/v1/entries/*.json`: 16 complete, structured entry detail files.
-3. **JSON Bundle Integrity Validator**: Built `src/pipeline/validateBundle.ts` and integrated it into Stage 4 of `npm run content:test` and `npm run content:validate`.
-4. **Schema & Provider Alignment**: Resolved duplicate `EntrySummary` declarations in `src/types/schema.ts`, added `getEntrySummaries()` across `IContentProvider`, `StaticContentProvider`, and `FoundationContentService`.
-5. **Project Renaming**: Renamed package in `package.json` to `khmer-heritage` (v0.1.0).
-6. **Verification & Audit**:
-   - `npm run content:validate`: 100% PASS (16 TS entries valid, 19 bundle files valid, hash match confirmed).
-   - `npm run content:test`: 100% PASS across all 4 audit stages (~148 ms total).
-   - `npm run content:benchmark`: PASS (throughput up to 40,258 entries/sec).
+1. **Remote Content Provider**: Built `src/services/providers/R2ContentProvider.ts` implementing `IContentProvider`.
+   - Supports configurable base URLs with `VITE_CONTENT_BASE_URL` and safe fallback to `/content/v1`.
+   - Validates `DataManifest` schema version, content hash integrity, and counts.
+   - Dual-keyed in-memory cache (`Map<string, EntryDetail>` by ID & slug) to eliminate redundant network roundtrips.
+   - Transparent, error-guarded fallback to `StaticContentProvider` (bundled local corpus) on network unreachable, HTTP errors, 50ms timeouts, 404 missing entries, or corrupted JSON responses.
+2. **Environment Configuration**: Documented `VITE_CONTENT_BASE_URL` in `.env.example`.
+3. **Service Layer Integration**: Enhanced `FoundationContentService` in `src/services/contentService.ts` to export and hot-swap between `R2ContentProvider` and `StaticContentProvider`.
+4. **Comprehensive Test Suite**: Built `src/services/providers/__tests__/r2Provider.test.ts` (13 tests) and integrated as Stage 5 into `src/pipeline/testRunner.ts`.
+5. **Verification & Audit**:
+   - `npm run content:test`: 100% PASS across all 5 audit stages (Corpus, Edge Cases, Benchmarks, Bundle Integrity, R2 Remote Provider).
+   - `npm run content:validate`: 100% PASS (0 errors, 0 warnings).
+   - `npm run content:benchmark`: PASS (Scalability verified up to 38k entries/sec).
    - `npm run lint`: 0 TypeScript errors.
-   - `npm run build`: Production build succeeded.
-7. **Comprehensive Documentation**: Maintained `docs/AI_BRIDGE_PROGRESS_010.md` and created `docs/AI_BRIDGE_REPORT_010.md`.
+   - `npm run build`: Production build verified.
+6. **Documentation & Handoff Tracking**:
+   - Created `docs/AI_BRIDGE_PROGRESS_011.md`.
+   - Created `docs/AI_BRIDGE_REPORT_011.md`.
+   - Updated `docs/AI_BRIDGE.md` and `docs/AI_BRIDGE_HISTORY.md`.
 
 
