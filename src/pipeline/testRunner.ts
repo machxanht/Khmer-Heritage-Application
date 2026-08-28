@@ -14,6 +14,7 @@ import { runValidationEdgeCasesSuite } from './__tests__/validatorEdgeCases.test
 import { exportContentBundle } from './exporter.ts';
 import { validateContentBundle } from './validateBundle.ts';
 import { runR2ProviderTestSuite } from '../services/providers/__tests__/r2Provider.test.ts';
+import { runOfflineCacheTests } from '../services/providers/__tests__/offlineCache.test.ts';
 
 export async function runAllPipelineAudits(): Promise<boolean> {
   const overallStart = performance.now();
@@ -116,12 +117,29 @@ export async function runAllPipelineAudits(): Promise<boolean> {
     return false;
   }
 
+  // STAGE 6: Offline Cache & Resilient Fallback Layer
+  console.log('▶ STAGE 6: TESTING OFFLINE CACHE, CORRUPTION RECOVERY & FALLBACK CHAIN...');
+  const offlineReport = await runOfflineCacheTests();
+  offlineReport.results.forEach((r, idx) => {
+    const symbol = r.passed ? '✓ PASS' : '✗ FAIL';
+    console.log(`  [${symbol}] Test ${String(idx + 1).padStart(2, '0')}: ${r.name} (${r.durationMs} ms)`);
+  });
+  console.log(`  • Result: ${offlineReport.passed}/${offlineReport.total} offline cache tests passed.\n`);
+
+  if (offlineReport.failed > 0) {
+    console.error(`❌ STAGE 6 FAILED: ${offlineReport.failed} offline cache test cases failed!`);
+    offlineReport.results
+      .filter((r) => !r.passed)
+      .forEach((r) => console.error(`    - ${r.name}: ${r.error}`));
+    return false;
+  }
+
   const overallEnd = performance.now();
   const overallMs = +(overallEnd - overallStart).toFixed(2);
 
   console.log('╔═══════════════════════════════════════════════════════════════════════════╗');
-  console.log(`║ ALL 5 AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                   ║`);
-  console.log('║ STATUS: CORPUS, JSON BUNDLE & R2 REMOTE PROVIDER VERIFIED AND DEPLOYABLE  ║');
+  console.log(`║ ALL 6 AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                   ║`);
+  console.log('║ STATUS: CORPUS, BUNDLE, R2 REMOTE PROVIDER & OFFLINE CACHE VERIFIED       ║');
   console.log('╚═══════════════════════════════════════════════════════════════════════════╝\n');
 
   return true;

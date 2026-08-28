@@ -17,9 +17,13 @@ import {
 import { IContentProvider } from './providers/IContentProvider.ts';
 import { R2ContentProvider, R2ContentProviderOptions } from './providers/R2ContentProvider.ts';
 import { StaticContentProvider } from './providers/StaticContentProvider.ts';
+import { IContentCache, CacheDiagnostics, CacheEntry } from './cache/IContentCache.ts';
+import { MemoryContentCache } from './cache/MemoryContentCache.ts';
+import { BrowserStorageCache, BrowserStorageOptions } from './cache/BrowserStorageCache.ts';
+import { ContentCacheManager, CacheManagerOptions } from './cache/ContentCacheManager.ts';
 
-export type { IContentProvider };
-export { R2ContentProvider, StaticContentProvider };
+export type { IContentProvider, IContentCache, CacheDiagnostics, CacheEntry, R2ContentProviderOptions, BrowserStorageOptions, CacheManagerOptions };
+export { R2ContentProvider, StaticContentProvider, MemoryContentCache, BrowserStorageCache, ContentCacheManager };
 
 export interface IContentService {
   setProvider(provider: IContentProvider): void;

@@ -1,7 +1,8 @@
 /**
- * Cloudflare R2 / Remote CDN Content Provider
+ * Cloudflare R2 / Remote CDN Content Provider with Offline Cache Foundation
  * Fetches versioned static JSON content bundles from remote storage (or local static CDN)
- * with schema verification, deterministic integrity validation, in-memory caching, and resilient local fallback.
+ * with schema verification, deterministic integrity validation, tiered L1/L2 caching,
+ * and resilient local fallback.
  */
 
 import {
@@ -14,6 +15,8 @@ import {
   Instrument,
   Trail,
 } from '../../types/schema.ts';
+import { ContentCacheManager } from '../cache/ContentCacheManager.ts';
+import { IContentCache } from '../cache/IContentCache.ts';
 import { IContentProvider } from './IContentProvider.ts';
 import { StaticContentProvider } from './StaticContentProvider.ts';
 
@@ -29,6 +32,12 @@ export interface R2ContentProviderOptions {
    * Defaults to new StaticContentProvider().
    */
   fallbackProvider?: IContentProvider;
+
+  /**
+   * Cache manager for tiered in-memory and persistent browser storage.
+   * Defaults to new ContentCacheManager().
+   */
+  cacheManager?: IContentCache;
 
   /**
    * Custom fetch function (allows mocking in Node test suites or custom headers).
@@ -57,12 +66,13 @@ export interface R2ContentProviderOptions {
   logger?: (msg: string, level?: 'info' | 'warn' | 'error') => void;
 }
 
-export type ProviderHealthStatus = 'uninitialized' | 'healthy' | 'fallback';
+export type ProviderHealthStatus = 'uninitialized' | 'healthy' | 'cached' | 'fallback';
 
 export class R2ContentProvider implements IContentProvider {
   readonly providerId = 'cloudflare-r2';
   private readonly baseUrl: string;
   private readonly fallbackProvider: IContentProvider;
+  private readonly cacheManager: IContentCache;
   private readonly fetchFn: typeof fetch;
   private readonly timeoutMs: number;
   private readonly expectedSchemaVersion: number;
@@ -71,13 +81,6 @@ export class R2ContentProvider implements IContentProvider {
 
   private healthStatus: ProviderHealthStatus = 'uninitialized';
   private lastError: Error | null = null;
-
-  // In-memory cache
-  private manifestCache: DataManifest | null = null;
-  private categoriesCache: Category[] | null = null;
-  private entryIndexCache: EntrySummary[] | null = null;
-  private readonly entryDetailCache: Map<string, EntryDetail> = new Map();
-  private allEntriesCache: EntryDetail[] | null = null;
 
   constructor(options: R2ContentProviderOptions = {}) {
     // Resolve base URL safely across Vite client and Node.js environments
@@ -95,6 +98,7 @@ export class R2ContentProvider implements IContentProvider {
     this.baseUrl = (resolvedBaseUrl || '/content/v1').replace(/\/+$/, '');
 
     this.fallbackProvider = options.fallbackProvider || new StaticContentProvider();
+    this.cacheManager = options.cacheManager || new ContentCacheManager();
     this.fetchFn = options.fetchFn || (typeof fetch !== 'undefined' ? fetch.bind(globalThis) : async () => {
       throw new Error('fetch is not available in current environment');
     });
@@ -119,12 +123,12 @@ export class R2ContentProvider implements IContentProvider {
     return this.baseUrl;
   }
 
-  clearCache(): void {
-    this.manifestCache = null;
-    this.categoriesCache = null;
-    this.entryIndexCache = null;
-    this.entryDetailCache.clear();
-    this.allEntriesCache = null;
+  getCacheManager(): IContentCache {
+    return this.cacheManager;
+  }
+
+  async clearCache(): Promise<void> {
+    await this.cacheManager.invalidateAll();
   }
 
   /**
@@ -252,50 +256,95 @@ export class R2ContentProvider implements IContentProvider {
     return entry as EntryDetail;
   }
 
-  // --- IContentProvider Implementation with Fallback Guard ---
+  // --- IContentProvider Implementation with Tiered Cache & Fallback Guard ---
 
   async getManifest(): Promise<DataManifest> {
-    if (this.manifestCache) return this.manifestCache;
+    // 1. Try Cache First
+    const cached = await this.cacheManager.getManifest();
+    if (cached) {
+      this.healthStatus = 'cached';
+      return cached;
+    }
 
+    // 2. Remote Fetch
     try {
       const raw = await this.fetchJson<unknown>('/manifest.json');
       const valid = this.validateManifest(raw);
-      this.manifestCache = valid;
+      await this.cacheManager.setManifest(valid);
       this.healthStatus = 'healthy';
       this.lastError = null;
       return valid;
     } catch (err: any) {
       this.handleRemoteError(err, 'getManifest');
+
+      // 3. Fallback to cached content if any
+      const staleCached = await this.cacheManager.getManifest();
+      if (staleCached) {
+        this.healthStatus = 'cached';
+        return staleCached;
+      }
+
+      // 4. Fallback to local static provider
       return this.fallbackProvider.getManifest();
     }
   }
 
   async getCategories(): Promise<Category[]> {
-    if (this.categoriesCache) return this.categoriesCache;
+    // 1. Try Cache First
+    const cached = await this.cacheManager.getCategories();
+    if (cached) {
+      this.healthStatus = 'cached';
+      return cached;
+    }
 
+    // 2. Remote Fetch
     try {
       const raw = await this.fetchJson<unknown>('/categories.json');
       const valid = this.validateCategories(raw);
-      this.categoriesCache = valid;
+      await this.cacheManager.setCategories(valid);
       this.healthStatus = 'healthy';
       return valid;
     } catch (err: any) {
       this.handleRemoteError(err, 'getCategories');
+
+      // 3. Fallback to cached content
+      const staleCached = await this.cacheManager.getCategories();
+      if (staleCached) {
+        this.healthStatus = 'cached';
+        return staleCached;
+      }
+
+      // 4. Fallback to local static provider
       return this.fallbackProvider.getCategories();
     }
   }
 
   async getEntrySummaries(): Promise<EntrySummary[]> {
-    if (this.entryIndexCache) return this.entryIndexCache;
+    // 1. Try Cache First
+    const cached = await this.cacheManager.getEntrySummaries();
+    if (cached) {
+      this.healthStatus = 'cached';
+      return cached;
+    }
 
+    // 2. Remote Fetch
     try {
       const raw = await this.fetchJson<unknown>('/entries/index.json');
       const valid = this.validateEntryIndex(raw);
-      this.entryIndexCache = valid;
+      await this.cacheManager.setEntrySummaries(valid);
       this.healthStatus = 'healthy';
       return valid;
     } catch (err: any) {
       this.handleRemoteError(err, 'getEntrySummaries');
+
+      // 3. Fallback to cached content
+      const staleCached = await this.cacheManager.getEntrySummaries();
+      if (staleCached) {
+        this.healthStatus = 'cached';
+        return staleCached;
+      }
+
+      // 4. Fallback to local static provider
       if (this.fallbackProvider.getEntrySummaries) {
         return this.fallbackProvider.getEntrySummaries();
       }
@@ -332,13 +381,15 @@ export class R2ContentProvider implements IContentProvider {
   }
 
   async getEntryDetail(slugOrId: string): Promise<EntryDetail | null> {
-    // 1. Check in-memory detail cache
-    if (this.entryDetailCache.has(slugOrId)) {
-      return this.entryDetailCache.get(slugOrId)!;
+    // 1. Try Cache First
+    const cached = await this.cacheManager.getEntryDetail(slugOrId);
+    if (cached) {
+      this.healthStatus = 'cached';
+      return cached;
     }
 
+    // 2. Remote Fetch
     try {
-      // 2. Resolve the target file ID
       let targetId = slugOrId;
       // If slugOrId doesn't look like an ID (e.g. e-*), look it up in the entry index
       if (!targetId.startsWith('e-')) {
@@ -348,28 +399,32 @@ export class R2ContentProvider implements IContentProvider {
           if (match) {
             targetId = match.id;
           }
-        } catch {
-          // If index fetch fails, continue attempting direct ID fetch
-        }
+        } catch {}
       }
 
       const raw = await this.fetchJson<unknown>(`/entries/${targetId}.json`);
       const valid = this.validateEntryDetail(raw, slugOrId);
 
-      // Cache by both ID and slug
-      this.entryDetailCache.set(valid.id, valid);
-      this.entryDetailCache.set(valid.slug, valid);
+      // Write to cache under both ID and slug
+      await this.cacheManager.setEntryDetail(valid);
       this.healthStatus = 'healthy';
       return valid;
     } catch (err: any) {
       this.handleRemoteError(err, `getEntryDetail(${slugOrId})`);
+
+      // 3. Fallback to cached content
+      const staleCached = await this.cacheManager.getEntryDetail(slugOrId);
+      if (staleCached) {
+        this.healthStatus = 'cached';
+        return staleCached;
+      }
+
+      // 4. Fallback to local static provider
       return this.fallbackProvider.getEntryDetail(slugOrId);
     }
   }
 
   async getEntries(): Promise<EntryDetail[]> {
-    if (this.allEntriesCache) return this.allEntriesCache;
-
     try {
       const summaries = await this.getEntrySummaries();
       const details = await Promise.all(
@@ -377,10 +432,8 @@ export class R2ContentProvider implements IContentProvider {
       );
       const validDetails = details.filter((d): d is EntryDetail => d !== null);
       if (validDetails.length === summaries.length) {
-        this.allEntriesCache = validDetails;
         return validDetails;
       }
-      // If partial details, fall back
       return this.fallbackProvider.getEntries();
     } catch (err: any) {
       this.handleRemoteError(err, 'getEntries');
@@ -409,7 +462,7 @@ export class R2ContentProvider implements IContentProvider {
     this.lastError = error;
     this.healthStatus = 'fallback';
     this.logger(
-      `Remote operation '${operation}' failed: ${error.message}. Delegating to local fallback.`,
+      `Remote operation '${operation}' failed: ${error.message}. Delegating to cache / local fallback.`,
       'warn'
     );
   }
