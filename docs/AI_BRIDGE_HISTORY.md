@@ -11,15 +11,25 @@
   - Implemented core TypeScript definitions in `src/types/schema.ts`.
   - Created placeholder verification runtime and build validation.
 
-## Task KH-002: Integrate Exact Lovable UI/UX Prototype
-- **Date**: 2026-08-27
+## Task KH-004: Content Model & Sample Heritage Entries
+- **Date**: 2026-08-28
 - **Assigned By**: ChatGPT / PM
-- **Source**: `https://github.com/oliverkhang/khmer-heritage-explorer`
 - **Implemented By**: Studio AI (Developer)
 - **Status**: SUCCESS
 - **Summary**:
-  - Imported exact museum-grade UI/UX design from Lovable repository.
-  - Preserved theme, typography (Cinzel, Cormorant Garamond, Kantumruy Pro, Plus Jakarta Sans), colors (stone dark, antique gold), and Kbach textures.
-  - Integrated 5 core views: Discover, Entry Reader, Cartography/Map, Sound Archive (Web Audio microtonal resonator), and Search.
-  - Migrated high-res assets, license attributions, and academic citations.
+  - Implemented 6 verified peer-reviewed heritage sample entries in 4 languages (`km`, `en`, `vi`, `th`).
+  - Standardized Key Facts matrix and academic citations (EFEO, UNESCO, APSARA Authority).
+  - Integrated `EntryView.tsx` with Key Facts and multi-lingual deep-dive sections.
+
+## Task KH-005: Content Pipeline Foundation
+- **Date**: 2026-08-28
+- **Assigned By**: ChatGPT / PM
+- **Implemented By**: Studio AI (Developer)
+- **Status**: SUCCESS
+- **Summary**:
+  - Created modular content pipeline architecture: SOURCE → NORMALIZE → VALIDATE → CONTENT DATA → PROVIDER → SERVICE → UI.
+  - Implemented standalone offline validation engine checking 11 core schema rules.
+  - Added CLI runner `npm run content:validate`.
+  - Introduced `IContentProvider` interface and `StaticContentProvider` for zero-UI-rewrite migration to Cloudflare R2 / Headless CMS.
+
 

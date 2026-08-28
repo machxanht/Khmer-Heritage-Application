@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { AppShell, type NavTab } from "./components/AppShell.tsx";
 import { DiscoverView } from "./components/DiscoverView.tsx";
+import { CategoriesView } from "./components/CategoriesView.tsx";
+import { GalleryView } from "./components/GalleryView.tsx";
 import { EntryView } from "./components/EntryView.tsx";
 import { MapView } from "./components/MapView.tsx";
 import { SoundView } from "./components/SoundView.tsx";
@@ -14,6 +16,7 @@ import { HeritageDataProvider, useHeritageData } from "./context/HeritageDataCon
 function AppContent() {
   const [currentTab, setCurrentTab] = useState<NavTab>("discover");
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
+  const [selectedCategoryFilter, setSelectedCategoryFilter] = useState<string>("all");
   const [searchInitialQuery, setSearchInitialQuery] = useState<string>("");
   const { ingestEntry } = useHeritageData();
 
@@ -24,6 +27,17 @@ function AppContent() {
       if (hash.startsWith("entry/")) {
         const slug = hash.replace("entry/", "");
         setSelectedSlug(slug);
+      } else if (hash.startsWith("category/")) {
+        const cat = hash.replace("category/", "");
+        setSelectedCategoryFilter(cat);
+        setCurrentTab("categories");
+        setSelectedSlug(null);
+      } else if (hash === "categories") {
+        setCurrentTab("categories");
+        setSelectedSlug(null);
+      } else if (hash === "gallery") {
+        setCurrentTab("gallery");
+        setSelectedSlug(null);
       } else if (hash === "map") {
         setCurrentTab("map");
         setSelectedSlug(null);
@@ -63,11 +77,11 @@ function AppContent() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const handleSelectCategory = (categoryName: string) => {
-    setSearchInitialQuery(categoryName);
-    setCurrentTab("search");
+  const handleSelectCategoryFromHome = (categoryId: string) => {
+    setSelectedCategoryFilter(categoryId);
+    setCurrentTab("categories");
     setSelectedSlug(null);
-    window.location.hash = "search";
+    window.location.hash = `category/${categoryId}`;
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
@@ -89,8 +103,16 @@ function AppContent() {
       ) : currentTab === "discover" ? (
         <DiscoverView
           onSelectEntry={handleSelectEntry}
-          onSelectCategory={handleSelectCategory}
+          onSelectCategory={handleSelectCategoryFromHome}
+          onViewAllCategories={() => handleTabChange("categories")}
         />
+      ) : currentTab === "categories" ? (
+        <CategoriesView
+          initialCategory={selectedCategoryFilter}
+          onSelectEntry={handleSelectEntry}
+        />
+      ) : currentTab === "gallery" ? (
+        <GalleryView onSelectEntry={handleSelectEntry} />
       ) : currentTab === "map" ? (
         <MapView onSelectEntry={handleSelectEntry} />
       ) : currentTab === "music" ? (

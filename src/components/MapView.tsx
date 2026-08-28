@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ArrowRight, Compass, Filter, MapPin, Sparkles } from "lucide-react";
 import { Badge, Page, SectionHeading } from "./heritage.tsx";
-import { sites } from "../data/heritage.ts";
+import { sites, eras } from "../data/heritage.ts";
 import type { HeritageSite } from "../data/types.ts";
 import { useLanguage } from "../context/LanguageContext.tsx";
 
@@ -16,14 +16,6 @@ export function MapView({ onSelectEntry }: { onSelectEntry: (slug: string) => vo
     if (unescoOnly && !site.unesco) return false;
     return true;
   });
-
-  const eraFilters = [
-    { id: "all", label: dict.map.allEras },
-    { id: "pre", label: dict.eras.pre },
-    { id: "early", label: dict.eras.early },
-    { id: "golden", label: dict.eras.golden },
-    { id: "post", label: dict.eras.post },
-  ];
 
   return (
     <Page>
@@ -46,7 +38,17 @@ export function MapView({ onSelectEntry }: { onSelectEntry: (slug: string) => vo
           <span className="text-xs uppercase tracking-wider text-muted-foreground flex items-center gap-1.5 mr-2">
             <Filter className="size-3.5" /> {dict.map.filterEra}
           </span>
-          {eraFilters.map((era) => (
+          <button
+            onClick={() => setSelectedEra("all")}
+            className={`px-3 py-1.5 rounded-full text-xs transition-colors cursor-pointer ${
+              selectedEra === "all"
+                ? "bg-primary text-primary-foreground font-medium"
+                : "bg-secondary/70 text-muted-foreground hover:text-foreground"
+            }`}
+          >
+            <span className={locale === "km" ? "font-khmer" : ""}>{dict.map.allEras}</span>
+          </button>
+          {eras.map((era) => (
             <button
               key={era.id}
               onClick={() => setSelectedEra(era.id)}
@@ -56,7 +58,7 @@ export function MapView({ onSelectEntry }: { onSelectEntry: (slug: string) => vo
                   : "bg-secondary/70 text-muted-foreground hover:text-foreground"
               }`}
             >
-              <span className={locale === "km" ? "font-khmer" : ""}>{era.label}</span>
+              <span className={locale === "km" ? "font-khmer" : ""}>{tData(era.label)}</span>
             </button>
           ))}
         </div>
@@ -160,7 +162,7 @@ export function MapView({ onSelectEntry }: { onSelectEntry: (slug: string) => vo
               <div className="flex justify-between py-1 border-b border-border/40">
                 <span className="text-muted-foreground">{dict.map.status}</span>
                 <span className="capitalize font-medium text-amber-300">
-                  {dict.condition[selectedSite.condition]}
+                  {selectedSite.condition.replace("_", " ")}
                 </span>
               </div>
               <div className="flex justify-between py-1 border-b border-border/40">

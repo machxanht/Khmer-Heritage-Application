@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Grid } from "lucide-react";
 import { Badge, EntryCard, Page, SectionHeading } from "./heritage.tsx";
 import { categories, eras, trails } from "../data/heritage.ts";
 import { useLanguage } from "../context/LanguageContext.tsx";
@@ -8,9 +8,11 @@ import { useHeritageData } from "../context/HeritageDataContext.tsx";
 export function DiscoverView({
   onSelectEntry,
   onSelectCategory,
+  onViewAllCategories,
 }: {
   onSelectEntry: (slug: string) => void;
-  onSelectCategory: (categoryName: string) => void;
+  onSelectCategory: (categoryId: string) => void;
+  onViewAllCategories: () => void;
 }) {
   const { locale, tData, tNum, dict } = useLanguage();
   const { entries } = useHeritageData();
@@ -20,7 +22,7 @@ export function DiscoverView({
 
   return (
     <div>
-      {/* Featured Hero Section */}
+      {/* Featured Masterpiece Hero Section */}
       <section className="relative">
         <div className="relative h-[62vh] min-h-[440px] w-full overflow-hidden">
           <img
@@ -64,18 +66,35 @@ export function DiscoverView({
       </section>
 
       <Page>
-        {/* Eight Pillars Grid */}
-        <SectionHeading
-          eyebrow={dict.home.pillarsEyebrow}
-          title={dict.home.pillarsTitle}
-        />
-        <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+        {/* 12 Heritage Pillars Grid */}
+        <div className="flex items-end justify-between mb-5">
+          <div>
+            <p className="text-eyebrow">{dict.home.pillarsEyebrow}</p>
+            <h2
+              className={`mt-1.5 text-2xl md:text-3xl font-medium text-foreground ${
+                locale === "km" ? "font-khmer leading-snug" : "font-display"
+              }`}
+            >
+              {dict.home.pillarsTitle}
+            </h2>
+          </div>
+          <button
+            onClick={onViewAllCategories}
+            className="hidden sm:inline-flex items-center gap-1.5 text-xs text-primary font-medium hover:underline cursor-pointer"
+          >
+            <Grid className="size-3.5" />
+            <span>{dict.home.viewAllCategories}</span>
+            <ArrowRight className="size-3" />
+          </button>
+        </div>
+
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
           {categories.map((c) => {
             const count = entries.filter((e) => e.categoryId === c.id || e.categoryId === c.slug).length;
             return (
               <button
                 key={c.id}
-                onClick={() => onSelectCategory(tData(c.title))}
+                onClick={() => onSelectCategory(c.id)}
                 className="kbach-frame group flex flex-col justify-between gap-4 p-4 text-left transition-colors hover:bg-secondary/50 cursor-pointer"
               >
                 <div>
@@ -93,7 +112,7 @@ export function DiscoverView({
                 <div>
                   <div className="gold-rule mb-2" />
                   <p className="text-[11px] text-muted-foreground">
-                    {tNum(count)} {dict.home.entries}
+                    {tNum(count > 0 ? count : c.count || 0)} {dict.home.entries}
                   </p>
                 </div>
               </button>
@@ -114,7 +133,7 @@ export function DiscoverView({
                 onClick={() => setActiveEra(e.id)}
                 className={`shrink-0 rounded-full border px-4 py-2 text-xs transition-colors cursor-pointer ${
                   e.id === activeEra
-                    ? "border-primary bg-primary/15 text-primary font-medium"
+                    ? "border-primary bg-primary/15 text-primary font-medium shadow-xs"
                     : "border-border text-muted-foreground hover:text-foreground"
                 }`}
               >
@@ -144,40 +163,64 @@ export function DiscoverView({
           />
           <div className="grid gap-4 md:grid-cols-3">
             {trails.map((tr) => (
-              <article key={tr.id} className="surface-card overflow-hidden">
-                <div className="relative aspect-video">
-                  <img src={tr.coverUrl} alt={tData(tr.title)} loading="lazy" className="size-full object-cover" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-card to-transparent" />
+              <div
+                key={tr.id}
+                className="surface-card group relative overflow-hidden text-left"
+              >
+                <div className="relative aspect-16/10 overflow-hidden">
+                  <img
+                    src={tr.coverUrl}
+                    alt={tData(tr.title)}
+                    className="size-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/40 to-transparent" />
+                  <div className="absolute bottom-3 left-3 right-3">
+                    <span className="text-[10px] uppercase tracking-widest text-primary font-semibold">
+                      {tNum(tr.stops)} {dict.home.stops}
+                    </span>
+                    <h3
+                      className={`mt-1 text-lg font-medium text-foreground ${
+                        locale === "km" ? "font-khmer" : "font-display"
+                      }`}
+                    >
+                      {tData(tr.title)}
+                    </h3>
+                  </div>
                 </div>
                 <div className="p-4">
-                  <p className="text-[10px] uppercase tracking-[0.2em] text-primary/80 font-medium">
-                    {tNum(tr.stops)} {dict.home.stops}
-                  </p>
-                  <h3
-                    className={`mt-1 text-lg leading-snug font-medium text-foreground ${
-                      locale === "km" ? "font-khmer" : ""
-                    }`}
-                  >
-                    {tData(tr.title)}
-                  </h3>
-                  <p className="mt-2 text-[13px] text-muted-foreground leading-relaxed">
-                    {tData(tr.blurb)}
-                  </p>
+                  <p className="text-xs text-muted-foreground line-clamp-2">{tData(tr.blurb)}</p>
+                  {tr.entrySlugs && tr.entrySlugs.length > 0 && (
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      {tr.entrySlugs.map((slug) => {
+                        const matched = entries.find((e) => e.slug === slug);
+                        if (!matched) return null;
+                        return (
+                          <button
+                            key={slug}
+                            onClick={() => onSelectEntry(slug)}
+                            className="rounded-full bg-secondary/80 hover:bg-primary/20 hover:text-primary px-2.5 py-1 text-[11px] font-medium transition cursor-pointer border border-border/60"
+                          >
+                            {tData(matched.title)}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  )}
                 </div>
-              </article>
+              </div>
             ))}
           </div>
         </div>
 
-        {/* Recently Catalogued Archives */}
+        {/* Catalogued Entries Gallery */}
         <div className="mt-14">
           <SectionHeading
             eyebrow={dict.home.archiveEyebrow}
             title={dict.home.archiveTitle}
           />
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {entries.slice(1).map((e) => (
-              <EntryCard key={e.id} entry={e} onSelect={onSelectEntry} />
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {entries.slice(0, 6).map((entry) => (
+              <EntryCard key={entry.id} entry={entry} onSelect={onSelectEntry} />
             ))}
           </div>
         </div>

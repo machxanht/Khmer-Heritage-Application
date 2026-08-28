@@ -88,23 +88,82 @@ export interface EntrySummary {
   updatedAt?: string;
 }
 
+export interface KeyFactItem {
+  key: string;
+  label: LocalizedString;
+  value: LocalizedString;
+}
+
+export interface HeritageLocation {
+  coordinates: GeoCoordinates;
+  province?: LocalizedString;
+  country?: string;
+  siteName?: LocalizedString;
+}
+
+export interface AudioMediaMetadata {
+  soundscapeId?: string;
+  audioPreviewUrl?: string;
+  acousticNotes?: LocalizedString;
+  tuningHz?: number[];
+  instruments?: string[];
+}
+
+export interface KeyFacts {
+  era?: LocalizedString;
+  builder?: LocalizedString;
+  founder?: LocalizedString;
+  ruler?: LocalizedString;
+  religion?: LocalizedString;
+  tradition?: LocalizedString;
+  architecturalStyle?: LocalizedString;
+  artStyle?: LocalizedString;
+  unescoStatus?: LocalizedString;
+  material?: LocalizedString;
+  location?: LocalizedString;
+  items?: KeyFactItem[];
+}
+
 export interface EntrySection {
   id: string;
   heading: LocalizedString;
   body: LocalizedString;
+  media?: MediaAsset[];
+  citations?: Citation[];
+}
+
+export interface EntrySummary {
+  id: string;
+  slug: string;
+  categoryId: string;
+  category?: string;
+  title: LocalizedString;
+  summary: LocalizedString;
+  era: LocalizedString;
+  coverMedia: MediaAsset;
+  updatedAt?: string;
 }
 
 export interface EntryDetail extends EntrySummary {
+  category?: string;
+  keyFacts?: KeyFacts;
   content: {
     sections: EntrySection[];
   };
+  scholarlySections?: EntrySection[];
+  location?: HeritageLocation;
   coordinates?: GeoCoordinates;
   gallery: MediaAsset[];
   relatedEntryIds: string[];
+  relatedEntries?: string[];
   citations: Citation[];
+  bibliography?: Citation[];
+  audioMetadata?: AudioMediaMetadata;
   version?: number;
   createdAt?: string;
 }
+
+export type HeritageEntry = EntryDetail;
 
 export interface Era {
   id: string;

@@ -1,9 +1,9 @@
 /**
- * Content Service Interface (Foundation Provider)
- * Standard async content provider designed for seamless migration to Cloudflare R2 static JSON CDN.
+ * Content Service Architecture (Foundation Provider)
+ * Provides a unified async access layer for all components.
+ * Supports hot-swapping data providers (Static -> Cloudflare R2 / Headless CMS) seamlessly.
  */
 
-import { PROJECT_INFO } from '../core/constants.ts';
 import {
   Category,
   DataManifest,
@@ -14,16 +14,14 @@ import {
   Instrument,
   Trail,
 } from '../types/schema.ts';
-import {
-  categories as defaultCategories,
-  entries as defaultEntries,
-  eras as defaultEras,
-  instruments as defaultInstruments,
-  sites as defaultSites,
-  trails as defaultTrails,
-} from '../data/heritage.ts';
+import { IContentProvider } from './providers/IContentProvider.ts';
+import { StaticContentProvider } from './providers/StaticContentProvider.ts';
+
+export type { IContentProvider };
 
 export interface IContentService {
+  setProvider(provider: IContentProvider): void;
+  getProviderId(): string;
   getManifest(): Promise<DataManifest>;
   getCategories(): Promise<Category[]>;
   getEntries(): Promise<EntryDetail[]>;
@@ -36,52 +34,57 @@ export interface IContentService {
 }
 
 export class FoundationContentService implements IContentService {
+  private provider: IContentProvider;
+
+  constructor(initialProvider?: IContentProvider) {
+    this.provider = initialProvider || new StaticContentProvider();
+  }
+
+  /**
+   * Dynamically swaps the active content provider (e.g. from static bundle to R2/CMS).
+   */
+  setProvider(provider: IContentProvider): void {
+    this.provider = provider;
+  }
+
+  getProviderId(): string {
+    return this.provider.providerId;
+  }
+
   async getManifest(): Promise<DataManifest> {
-    return {
-      version: PROJECT_INFO.version,
-      schemaVersion: 1,
-      lastUpdated: new Date().toISOString(),
-      categoriesCount: defaultCategories.length,
-      entriesCount: defaultEntries.length,
-      cdnBaseUrl: 'https://r2.khmer-heritage.internal/v1',
-    };
+    return this.provider.getManifest();
   }
 
   async getCategories(): Promise<Category[]> {
-    return defaultCategories;
+    return this.provider.getCategories();
   }
 
   async getEntries(): Promise<EntryDetail[]> {
-    return defaultEntries;
+    return this.provider.getEntries();
   }
 
   async getEntriesByCategory(categoryId: string): Promise<EntrySummary[]> {
-    return defaultEntries.filter(
-      (e) => e.categoryId === categoryId || e.categoryId === categoryId.toLowerCase()
-    );
+    return this.provider.getEntriesByCategory(categoryId);
   }
 
   async getEntryDetail(slugOrId: string): Promise<EntryDetail | null> {
-    const found = defaultEntries.find(
-      (e) => e.slug === slugOrId || e.id === slugOrId
-    );
-    return found || null;
+    return this.provider.getEntryDetail(slugOrId);
   }
 
   async getSites(): Promise<HeritageSite[]> {
-    return defaultSites;
+    return this.provider.getSites();
   }
 
   async getEras(): Promise<Era[]> {
-    return defaultEras;
+    return this.provider.getEras();
   }
 
   async getTrails(): Promise<Trail[]> {
-    return defaultTrails;
+    return this.provider.getTrails();
   }
 
   async getInstruments(): Promise<Instrument[]> {
-    return defaultInstruments;
+    return this.provider.getInstruments();
   }
 }
 

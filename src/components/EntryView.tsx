@@ -105,6 +105,27 @@ export function EntryView({
           ))}
         </div>
 
+        {/* Structured Key Facts Matrix */}
+        {entry.keyFacts?.items && entry.keyFacts.items.length > 0 && (
+          <div className="surface-card mt-4 p-5">
+            <h3 className="text-[11px] uppercase tracking-[0.18em] text-primary font-semibold mb-3">
+              {locale === "km" ? "ទិន្នន័យសំខាន់ៗនៃបេតិកភណ្ឌ" : locale === "vi" ? "Hồ Sơ Dữ Liệu Cốt Lõi Di Sản" : locale === "th" ? "ข้อมูลสำคัญทางประวัติศาสตร์" : "Core Heritage Key Facts"}
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              {entry.keyFacts.items.map((fact) => (
+                <div key={fact.key} className="rounded-md bg-secondary/40 border border-border/50 p-3">
+                  <p className="text-[10px] uppercase tracking-wider text-muted-foreground font-medium">
+                    {tData(fact.label)}
+                  </p>
+                  <p className={`mt-1 text-sm font-medium text-foreground ${locale === "km" ? "font-khmer" : ""}`}>
+                    {tData(fact.value)}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Article Body Sections */}
         <article className="mt-12 max-w-3xl">
           {entry.content.sections.map((s) => {

@@ -26,7 +26,7 @@ export function BookmarksView({
           <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
             <Bookmark className="size-4 text-primary fill-primary/30" />
             <span className={locale === "km" ? "font-khmer" : ""}>
-              {tNum(savedEntries.length)} {dict.saved.countSuffix}
+              {tNum(savedEntries.length)} {dict.saved.savedCount}
             </span>
           </div>
         }
@@ -59,7 +59,7 @@ export function BookmarksView({
               className="inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-xs font-medium text-primary-foreground hover:opacity-90 transition cursor-pointer"
             >
               <Compass className="size-3.5" />
-              <span className={locale === "km" ? "font-khmer" : ""}>{dict.saved.startExploring}</span>
+              <span className={locale === "km" ? "font-khmer" : ""}>{dict.saved.exploreArchivePrompt}</span>
             </button>
           </div>
         </div>

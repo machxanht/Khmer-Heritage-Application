@@ -10,6 +10,7 @@ interface LanguageContextType {
    * Get dictionary translation by dot notation e.g. t("nav.discover") or section/key
    */
   dict: TranslationDict;
+  t: TranslationDict;
   /**
    * Resolve any LocalizedString object { en: string, km: string } to the current active language string
    */
@@ -68,7 +69,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <LanguageContext.Provider value={{ locale, setLocale, toggleLocale, dict, tData, tNum }}>
+    <LanguageContext.Provider value={{ locale, setLocale, toggleLocale, dict, t: dict, tData, tNum }}>
       {children}
     </LanguageContext.Provider>
   );
