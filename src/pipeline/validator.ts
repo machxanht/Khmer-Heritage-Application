@@ -2,30 +2,39 @@
  * Content Pipeline Validation Layer
  * Pure, deterministic validation engine for Khmer Heritage entries and corpus.
  * Zero external runtime dependencies, 100% offline & standalone.
- * Pipeline Step: SOURCE -> NORMALIZE -> VALIDATE -> CONTENT DATA
+ * Pipeline Step: SOURCE REGISTRY -> NORMALIZE -> VALIDATE -> CONTENT DATA
  */
 
 import {
   Citation,
   EntrySection,
   HeritageEntry,
+  LicenseTier,
+  LICENSE_LABEL,
   LocalizedString,
   MediaAsset,
+  SourceRecord,
 } from '../types/schema.ts';
 import {
   CorpusValidationReport,
   EntryValidationResult,
+  ItemReviewFlag,
+  LICENSES_REQUIRING_ATTRIBUTION,
+  SourceValidationResult,
   VALID_CATEGORIES,
   VALID_LICENSES,
   VALID_MEDIA_TYPES,
+  VALID_REVIEW_STATUSES,
+  VALID_SOURCE_TYPES,
   ValidationIssue,
   ValidationOptions,
 } from './types.ts';
+import { sourcesRegistry as defaultSourcesRegistry } from '../data/sources.ts';
 
 /**
  * Validates a localized string structure.
  */
-function validateLocalizedString(
+export function validateLocalizedString(
   fieldPath: string,
   str: LocalizedString | undefined | null,
   issues: ValidationIssue[],
@@ -101,12 +110,132 @@ function validateLocalizedString(
 }
 
 /**
- * Validates a media asset structure and licensing metadata.
+ * Validates a single SourceRecord in the Source Registry.
  */
-function validateMediaAsset(
+export function validateSourceRecord(source: SourceRecord): SourceValidationResult {
+  const errors: ValidationIssue[] = [];
+  const warnings: ValidationIssue[] = [];
+
+  if (!source || typeof source !== 'object') {
+    errors.push({
+      field: 'source',
+      message: 'SourceRecord must be a valid object.',
+      severity: 'error',
+      code: 'SOURCE_OBJECT_INVALID',
+    });
+    return {
+      sourceId: 'unknown',
+      isValid: false,
+      errors,
+      warnings,
+    };
+  }
+
+  const id = source.id || '';
+  if (!id || typeof id !== 'string' || id.trim().length === 0) {
+    errors.push({
+      field: 'id',
+      message: 'Source id is required.',
+      severity: 'error',
+      code: 'SOURCE_ID_MISSING',
+    });
+  } else if (!/^src-[a-z0-9-_]+$/i.test(id)) {
+    warnings.push({
+      field: 'id',
+      message: `Source id "${id}" should ideally follow the convention "src-<author/authority>-<year/code>".`,
+      severity: 'warning',
+      code: 'SOURCE_ID_CONVENTION',
+      receivedValue: id,
+    });
+  }
+
+  if (!source.type || !VALID_SOURCE_TYPES.includes(source.type)) {
+    errors.push({
+      field: 'type',
+      message: `Source type must be one of: ${VALID_SOURCE_TYPES.join(', ')}. Received: ${source.type}`,
+      severity: 'error',
+      code: 'SOURCE_TYPE_INVALID',
+      receivedValue: source.type,
+    });
+  }
+
+  if (!source.title || typeof source.title !== 'string' || source.title.trim().length === 0) {
+    errors.push({
+      field: 'title',
+      message: 'Source title is required and cannot be empty.',
+      severity: 'error',
+      code: 'SOURCE_TITLE_MISSING',
+    });
+  }
+
+  if (!source.author || typeof source.author !== 'string' || source.author.trim().length === 0) {
+    errors.push({
+      field: 'author',
+      message: 'Source author or issuing institution is required.',
+      severity: 'error',
+      code: 'SOURCE_AUTHOR_MISSING',
+    });
+  }
+
+  if (!source.reviewStatus || !VALID_REVIEW_STATUSES.includes(source.reviewStatus)) {
+    errors.push({
+      field: 'reviewStatus',
+      message: `Source reviewStatus must be one of: ${VALID_REVIEW_STATUSES.join(', ')}. Received: ${source.reviewStatus}`,
+      severity: 'error',
+      code: 'SOURCE_REVIEW_STATUS_INVALID',
+      receivedValue: source.reviewStatus,
+    });
+  }
+
+  if (source.url) {
+    if (typeof source.url !== 'string' || !/^(https?:\/\/|\/)/i.test(source.url)) {
+      errors.push({
+        field: 'url',
+        message: `Source URL "${source.url}" must be a valid HTTP/HTTPS URL or relative path.`,
+        severity: 'error',
+        code: 'SOURCE_URL_INVALID',
+        receivedValue: source.url,
+      });
+    }
+  }
+
+  if (source.license && !VALID_LICENSES.includes(source.license)) {
+    errors.push({
+      field: 'license',
+      message: `Source license must be one of: ${VALID_LICENSES.join(', ')}. Received: ${source.license}`,
+      severity: 'error',
+      code: 'SOURCE_LICENSE_INVALID',
+      receivedValue: source.license,
+    });
+  }
+
+  if (source.license && LICENSES_REQUIRING_ATTRIBUTION.includes(source.license)) {
+    if (!source.attribution || source.attribution.trim().length === 0) {
+      errors.push({
+        field: 'attribution',
+        message: `Attribution is required for license tier: ${source.license}`,
+        severity: 'error',
+        code: 'SOURCE_ATTRIBUTION_MISSING',
+      });
+    }
+  }
+
+  return {
+    sourceId: id || 'unknown',
+    isValid: errors.length === 0,
+    errors,
+    warnings,
+  };
+}
+
+/**
+ * Validates a media asset structure, provenance, and licensing metadata.
+ */
+export function validateMediaAsset(
   fieldPath: string,
   media: MediaAsset | undefined | null,
-  issues: ValidationIssue[]
+  issues: ValidationIssue[],
+  sourcesRegistry?: Record<string, SourceRecord>
 ): void {
   if (!media || typeof media !== 'object') {
     issues.push({
@@ -136,6 +265,18 @@ function validateMediaAsset(
     });
   }
 
+  if (media.sourceUrl && typeof media.sourceUrl === 'string' && media.sourceUrl.trim().length > 0) {
+    if (!/^(https?:\/\/|\/)/i.test(media.sourceUrl.trim())) {
+      issues.push({
+        field: `${fieldPath}.sourceUrl`,
+        message: `${fieldPath}.sourceUrl "${media.sourceUrl}" must be a valid HTTP/HTTPS URL or relative path.`,
+        severity: 'warning',
+        code: 'MEDIA_SOURCE_URL_INVALID',
+        receivedValue: media.sourceUrl,
+      });
+    }
+  }
+
   if (!media.type || !VALID_MEDIA_TYPES.includes(media.type)) {
     issues.push({
       field: `${fieldPath}.type`,
@@ -146,6 +287,7 @@ function validateMediaAsset(
     });
   }
 
+  // License tier validation
   if (!media.license || !VALID_LICENSES.includes(media.license)) {
     issues.push({
       field: `${fieldPath}.license`,
@@ -156,13 +298,59 @@ function validateMediaAsset(
     });
   }
 
-  if (!media.attribution || typeof media.attribution !== 'string' || media.attribution.trim().length === 0) {
+  // Attribution enforcement for licenses that mandate it
+  if (LICENSES_REQUIRING_ATTRIBUTION.includes(media.license)) {
+    if (!media.attribution || typeof media.attribution !== 'string' || media.attribution.trim().length === 0) {
+      issues.push({
+        field: `${fieldPath}.attribution`,
+        message: `${fieldPath}.attribution is required for license tier "${media.license}" (${LICENSE_LABEL[media.license] || media.license}).`,
+        severity: 'error',
+        code: 'MEDIA_ATTRIBUTION_MISSING',
+      });
+    }
+  }
+
+  // Review status validation if provided
+  if (media.reviewStatus && !VALID_REVIEW_STATUSES.includes(media.reviewStatus)) {
     issues.push({
-      field: `${fieldPath}.attribution`,
-      message: `${fieldPath}.attribution is required for licensing provenance.`,
+      field: `${fieldPath}.reviewStatus`,
+      message: `${fieldPath}.reviewStatus must be one of: ${VALID_REVIEW_STATUSES.join(', ')}. Received: ${media.reviewStatus}`,
       severity: 'error',
-      code: 'MEDIA_ATTRIBUTION_MISSING',
+      code: 'MEDIA_REVIEW_STATUS_INVALID',
+      receivedValue: media.reviewStatus,
     });
+  }
+
+  // Creator & Provenance enforcement
+  if (!media.creator || typeof media.creator !== 'string' || media.creator.trim().length === 0) {
+    issues.push({
+      field: `${fieldPath}.creator`,
+      message: `${fieldPath}.creator is required for provenance tracking.`,
+      severity: 'error',
+      code: 'MEDIA_CREATOR_MISSING',
+    });
+  }
+
+  if (!media.source || typeof media.source !== 'string' || media.source.trim().length === 0) {
+    issues.push({
+      field: `${fieldPath}.source`,
+      message: `${fieldPath}.source institution or repository is required.`,
+      severity: 'error',
+      code: 'MEDIA_SOURCE_MISSING',
+    });
+  }
+
+  // Cross-reference checking for sourceId
+  if (media.sourceId && sourcesRegistry) {
+    if (!sourcesRegistry[media.sourceId]) {
+      issues.push({
+        field: `${fieldPath}.sourceId`,
+        message: `Media references unknown sourceId "${media.sourceId}" that is not registered in sources.ts.`,
+        severity: 'error',
+        code: 'MEDIA_SOURCE_ID_BROKEN',
+        receivedValue: media.sourceId,
+      });
+    }
   }
 
   validateLocalizedString(`${fieldPath}.title`, media.title, issues);
@@ -175,7 +363,8 @@ function validateSection(
   fieldPath: string,
   section: EntrySection,
   index: number,
-  issues: ValidationIssue[]
+  issues: ValidationIssue[],
+  sourcesRegistry?: Record<string, SourceRecord>
 ): void {
   if (!section || typeof section !== 'object') {
     issues.push({
@@ -201,7 +390,7 @@ function validateSection(
 
   if (section.media && Array.isArray(section.media)) {
     section.media.forEach((m: MediaAsset, mIdx: number) => {
-      validateMediaAsset(`${fieldPath}[${index}].media[${mIdx}]`, m, issues);
+      validateMediaAsset(`${fieldPath}[${index}].media[${mIdx}]`, m, issues, sourcesRegistry);
     });
   }
 }
@@ -209,11 +398,12 @@ function validateSection(
 /**
  * Validates an academic citation object.
  */
-function validateCitation(
+export function validateCitation(
   fieldPath: string,
   citation: Citation,
   index: number,
-  issues: ValidationIssue[]
+  issues: ValidationIssue[],
+  sourcesRegistry?: Record<string, SourceRecord>
 ): void {
   if (!citation || typeof citation !== 'object') {
     issues.push({
@@ -262,6 +452,51 @@ function validateCitation(
       });
     }
   }
+
+  // Cross-reference checking with Source Registry
+  if (citation.sourceId && sourcesRegistry) {
+    if (!sourcesRegistry[citation.sourceId]) {
+      issues.push({
+        field: `${fieldPath}[${index}].sourceId`,
+        message: `Citation references unknown sourceId "${citation.sourceId}" that is not registered in sources.ts.`,
+        severity: 'error',
+        code: 'CITATION_SOURCE_ID_BROKEN',
+        receivedValue: citation.sourceId,
+      });
+    }
+  }
+
+  if (citation.license && !VALID_LICENSES.includes(citation.license)) {
+    issues.push({
+      field: `${fieldPath}[${index}].license`,
+      message: `Citation license must be one of: ${VALID_LICENSES.join(', ')}. Received: ${citation.license}`,
+      severity: 'error',
+      code: 'CITATION_LICENSE_INVALID',
+      receivedValue: citation.license,
+    });
+  }
+
+  if (citation.url && typeof citation.url === 'string' && citation.url.trim().length > 0) {
+    if (!/^(https?:\/\/|\/)/i.test(citation.url.trim())) {
+      issues.push({
+        field: `${fieldPath}[${index}].url`,
+        message: `Citation URL "${citation.url}" must be a valid HTTP/HTTPS URL or relative path.`,
+        severity: 'warning',
+        code: 'CITATION_URL_INVALID',
+        receivedValue: citation.url,
+      });
+    }
+  }
+
+  if (citation.sourceType && !VALID_SOURCE_TYPES.includes(citation.sourceType)) {
+    issues.push({
+      field: `${fieldPath}[${index}].sourceType`,
+      message: `Citation sourceType must be one of: ${VALID_SOURCE_TYPES.join(', ')}. Received: ${citation.sourceType}`,
+      severity: 'error',
+      code: 'CITATION_SOURCE_TYPE_INVALID',
+      receivedValue: citation.sourceType,
+    });
+  }
 }
 
 /**
@@ -273,6 +508,7 @@ export function validateHeritageEntry(
   options: ValidationOptions = {}
 ): EntryValidationResult {
   const issues: ValidationIssue[] = [];
+  const sourcesRegistry = options.sourcesRegistry || defaultSourcesRegistry;
 
   // 1. Identity validation
   if (!entry.id || typeof entry.id !== 'string' || entry.id.trim().length === 0) {
@@ -335,7 +571,7 @@ export function validateHeritageEntry(
   validateLocalizedString('era', entry.era, issues, options);
 
   // 5. Cover Media validation
-  validateMediaAsset('coverMedia', entry.coverMedia, issues);
+  validateMediaAsset('coverMedia', entry.coverMedia, issues, sourcesRegistry);
 
   // 6. Content Sections validation
   if (!entry.content || !Array.isArray(entry.content.sections) || entry.content.sections.length === 0) {
@@ -347,14 +583,14 @@ export function validateHeritageEntry(
     });
   } else {
     entry.content.sections.forEach((sec, idx) => {
-      validateSection('content.sections', sec, idx, issues);
+      validateSection('content.sections', sec, idx, issues, sourcesRegistry);
     });
   }
 
   // 7. Gallery Assets validation
   if (entry.gallery && Array.isArray(entry.gallery)) {
     entry.gallery.forEach((g, idx) => {
-      validateMediaAsset(`gallery[${idx}]`, g, issues);
+      validateMediaAsset(`gallery[${idx}]`, g, issues, sourcesRegistry);
     });
   }
 
@@ -362,11 +598,33 @@ export function validateHeritageEntry(
   const citations = entry.citations || entry.bibliography || [];
   if (Array.isArray(citations)) {
     citations.forEach((c, idx) => {
-      validateCitation('citations', c, idx, issues);
+      validateCitation('citations', c, idx, issues, sourcesRegistry);
     });
   }
 
-  // 9. Relational integrity (internal check)
+  // 9. Source Registry Cross-References
+  if (entry.sourceIds && Array.isArray(entry.sourceIds)) {
+    entry.sourceIds.forEach((srcId, idx) => {
+      if (typeof srcId !== 'string' || srcId.trim().length === 0) {
+        issues.push({
+          field: `sourceIds[${idx}]`,
+          message: `Source ID at index ${idx} is empty.`,
+          severity: 'error',
+          code: 'SOURCE_ID_EMPTY',
+        });
+      } else if (sourcesRegistry && !sourcesRegistry[srcId]) {
+        issues.push({
+          field: `sourceIds[${idx}]`,
+          message: `Entry references sourceId "${srcId}" which does not exist in the Source Registry.`,
+          severity: 'error',
+          code: 'SOURCE_ID_UNRESOLVED',
+          receivedValue: srcId,
+        });
+      }
+    });
+  }
+
+  // 10. Relational integrity (internal check)
   const related = entry.relatedEntryIds || entry.relatedEntries || [];
   if (Array.isArray(related)) {
     related.forEach((relId, idx) => {
@@ -396,7 +654,7 @@ export function validateHeritageEntry(
     });
   }
 
-  // 10. Geographic Coordinates validation (if present)
+  // 11. Geographic Coordinates validation (if present)
   const coords = entry.coordinates || entry.location?.coordinates;
   if (coords) {
     if (typeof coords.latitude !== 'number' || isNaN(coords.latitude) || coords.latitude < -90 || coords.latitude > 90) {
@@ -419,7 +677,7 @@ export function validateHeritageEntry(
     }
   }
 
-  // 11. Audio Metadata validation (if present)
+  // 12. Audio Metadata validation (if present)
   if (entry.audioMetadata) {
     const audio = entry.audioMetadata;
     if (audio.tuningHz && Array.isArray(audio.tuningHz)) {
@@ -437,6 +695,17 @@ export function validateHeritageEntry(
     }
   }
 
+  // 13. Review Status validation (if present)
+  if (entry.reviewStatus && !VALID_REVIEW_STATUSES.includes(entry.reviewStatus)) {
+    issues.push({
+      field: 'reviewStatus',
+      message: `Entry reviewStatus must be one of: ${VALID_REVIEW_STATUSES.join(', ')}. Received: ${entry.reviewStatus}`,
+      severity: 'error',
+      code: 'ENTRY_REVIEW_STATUS_INVALID',
+      receivedValue: entry.reviewStatus,
+    });
+  }
+
   const errors = issues.filter((i) => i.severity === 'error');
   const warnings = issues.filter((i) => i.severity === 'warning');
 
@@ -450,18 +719,30 @@ export function validateHeritageEntry(
 }
 
 /**
- * Validates an entire corpus of Heritage Entries.
- * Checks for duplicate IDs, duplicate slugs, broken cross-references, and individual entry conformity.
+ * Validates an entire corpus of Heritage Entries and the Source Registry.
  */
 export function validateHeritageCorpus(
   entries: HeritageEntry[],
   options: ValidationOptions = {}
 ): CorpusValidationReport {
+  const sourcesRegistry = options.sourcesRegistry || defaultSourcesRegistry;
   const allEntryIds = new Set<string>();
   const idCounts = new Map<string, number>();
   const slugCounts = new Map<string, number>();
 
-  // Pass 1: Index all IDs and Slugs
+  // Pass 1: Validate Source Registry
+  const sourceResults: SourceValidationResult[] = Object.values(sourcesRegistry).map(validateSourceRecord);
+  const sourceIdCounts = new Map<string, number>();
+  Object.keys(sourcesRegistry).forEach((sId) => {
+    sourceIdCounts.set(sId, (sourceIdCounts.get(sId) || 0) + 1);
+  });
+  const duplicateSourceIds = Array.from(sourceIdCounts.entries())
+    .filter(([_, count]) => count > 1)
+    .map(([id]) => id);
+
+  const validSources = sourceResults.filter((s) => s.isValid).length;
+
+  // Pass 2: Index all Entry IDs and Slugs
   entries.forEach((e) => {
     if (e.id) {
       allEntryIds.add(e.id);
@@ -480,9 +761,9 @@ export function validateHeritageCorpus(
     .filter(([_, count]) => count > 1)
     .map(([slug]) => slug);
 
-  // Pass 2: Validate each entry
+  // Pass 3: Validate each entry
   const entryResults: EntryValidationResult[] = entries.map((entry) => {
-    const res = validateHeritageEntry(entry, allEntryIds, options);
+    const res = validateHeritageEntry(entry, allEntryIds, { ...options, sourcesRegistry });
 
     // Add duplicate ID / slug errors if applicable
     if (entry.id && duplicateIds.includes(entry.id)) {
@@ -507,7 +788,7 @@ export function validateHeritageCorpus(
     return res;
   });
 
-  // Broken references collection
+  // Broken related references collection
   const brokenReferences: Array<{ sourceEntryId: string; targetReferenceId: string }> = [];
   entries.forEach((entry) => {
     const related = entry.relatedEntryIds || entry.relatedEntries || [];
@@ -521,8 +802,86 @@ export function validateHeritageCorpus(
     });
   });
 
-  const totalErrors = entryResults.reduce((acc, r) => acc + r.errors.length, 0);
-  const totalWarnings = entryResults.reduce((acc, r) => acc + r.warnings.length, 0);
+  // Broken source references collection
+  const brokenSourceReferences: Array<{ sourceEntryId: string; missingSourceId: string }> = [];
+  entries.forEach((entry) => {
+    const srcIds = entry.sourceIds || [];
+    srcIds.forEach((sId) => {
+      if (!sourcesRegistry[sId]) {
+        brokenSourceReferences.push({
+          sourceEntryId: entry.id,
+          missingSourceId: sId,
+        });
+      }
+    });
+  });
+
+  // License & Source Type Distributions & Provenance Metrics
+  const licenseDistribution: Record<string, number> = {};
+  const sourceTypeDistribution: Record<string, number> = {};
+  const itemsNeedingHumanReview: ItemReviewFlag[] = [];
+  let totalMediaChecked = 0;
+  let missingAttributions = 0;
+
+  // Track sources distributions
+  Object.values(sourcesRegistry).forEach((src) => {
+    sourceTypeDistribution[src.type] = (sourceTypeDistribution[src.type] || 0) + 1;
+    if (src.reviewStatus === 'needs_human_review' || src.reviewStatus === 'unverified' || src.type === 'unknown_needs_review') {
+      itemsNeedingHumanReview.push({
+        id: src.id,
+        category: 'source',
+        reason: 'Source record is marked as needing review or unverified.',
+        reviewStatus: src.reviewStatus,
+      });
+    }
+  });
+
+  // Track entries & media distributions
+  entries.forEach((entry) => {
+    if (entry.reviewStatus === 'needs_human_review' || entry.reviewStatus === 'unverified') {
+      itemsNeedingHumanReview.push({
+        id: entry.id,
+        category: 'entry',
+        reason: 'Entry marked as needing human review.',
+        reviewStatus: entry.reviewStatus,
+      });
+    }
+
+    const allMedia: MediaAsset[] = [];
+    if (entry.coverMedia) allMedia.push(entry.coverMedia);
+    if (entry.gallery) allMedia.push(...entry.gallery);
+    if (entry.content?.sections) {
+      entry.content.sections.forEach((s) => {
+        if (s.media) allMedia.push(...s.media);
+      });
+    }
+
+    allMedia.forEach((m) => {
+      totalMediaChecked++;
+      if (m.license) {
+        licenseDistribution[m.license] = (licenseDistribution[m.license] || 0) + 1;
+      }
+      if (LICENSES_REQUIRING_ATTRIBUTION.includes(m.license) && (!m.attribution || m.attribution.trim().length === 0)) {
+        missingAttributions++;
+      }
+      if (m.reviewStatus === 'needs_human_review' || m.reviewStatus === 'unverified') {
+        itemsNeedingHumanReview.push({
+          id: m.id,
+          category: 'media',
+          reason: `Media asset "${m.id}" in entry "${entry.id}" requires review.`,
+          reviewStatus: m.reviewStatus,
+        });
+      }
+    });
+  });
+
+  const totalErrors = entryResults.reduce((acc, r) => acc + r.errors.length, 0) +
+    sourceResults.reduce((acc, s) => acc + s.errors.length, 0) +
+    (duplicateSourceIds.length > 0 ? duplicateSourceIds.length : 0);
+
+  const totalWarnings = entryResults.reduce((acc, r) => acc + r.warnings.length, 0) +
+    sourceResults.reduce((acc, s) => acc + s.warnings.length, 0);
+
   const validEntries = entryResults.filter((r) => r.isValid).length;
 
   return {
@@ -530,11 +889,21 @@ export function validateHeritageCorpus(
     totalEntries: entries.length,
     validEntries,
     invalidEntries: entries.length - validEntries,
+    totalSources: Object.keys(sourcesRegistry).length,
+    validSources,
+    totalMediaChecked,
+    missingAttributions,
     totalErrors,
     totalWarnings,
     duplicateIds,
     duplicateSlugs,
+    duplicateSourceIds,
     brokenReferences,
+    brokenSourceReferences,
+    itemsNeedingHumanReview,
+    licenseDistribution,
+    sourceTypeDistribution,
     entryResults,
+    sourceResults,
   };
 }

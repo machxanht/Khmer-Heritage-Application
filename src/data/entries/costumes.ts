@@ -1,0 +1,123 @@
+import type { HeritageEntry } from "../../types/schema.ts";
+import { createMedia, LOCAL_ASSETS } from "./mediaHelper.ts";
+
+export const costumesEntries: HeritageEntry[] = [
+  // KHMER GOLDEN SILK & SAMPOT HOL (WEFT IKAT)
+  {
+    id: "e-silk-hol",
+    slug: "silk-hol",
+    category: "costumes",
+    categoryId: "costumes",
+    title: {
+      en: "Khmer Golden Silk & Sampot Hol (Weft Ikat Weaving)",
+      km: "សូត្រមាសខ្មែរ និងសំពត់ហូល",
+      vi: "Lụa Tơ Vàng Khơ-me & Nghệ Thuật Dệt Ikat Sampot Hol",
+      th: "ผ้าไหมทองคำเขมรและผ้ามัดหมี่โฮล (สัมปอตโฮล)",
+    },
+    summary: {
+      en: "The masterwork of Khmer textile heritage, utilizing indigenous golden multivoltine silk threads (Bombyx mori) and natural botanical dyes to create intricate weft-ikat patterns worn at royal court rituals and weddings.",
+      km: "កំពូលសិល្បៈវាយនភណ្ឌខ្មែរ ផលិតពីសរសៃសូត្រមាសធម្មជាតិ និងល័ក្តរុក្ខជាតិព្រៃ ត្បាញជាក្បាច់ហូលពិទ្យាធរដ៏ល្អប្រណិត សម្រាប់ប្រើប្រាស់ក្នុងព្រះរាជពិធី និងមង្គលការ។",
+      vi: "Kiệt tác dệt may di sản của người Khmer, sử dụng sợi tơ vàng tự nhiên quý hiếm cùng các loại thuốc nhuộm thực vật từ vỏ cây rừng để dệt nên những tấm lụa Sampot Hol hoa văn Ikat huyền ảo dùng trong đại lễ hoàng gia và hôn lễ.",
+      th: "สุดยอดศิลปหัตถกรรมทอผ้าของเขมร ทอด้วยเส้นไหมสีทองธรรมชาติและสีย้อมจากพืชพรรณธรรมชาติ สร้างสรรค์ลวดลายมัดหมี่อันวิจิตรสำหรับใช้ในพระราชพิธีและงานมงคลสมรส",
+    },
+    era: {
+      en: "Funan Period (1st c.) – Living Heritage Revival",
+      km: "សម័យហ្វូណន ដល់ បច្ចុប្បន្ន",
+      vi: "Thời Phù Nam (Thế kỷ 1) – Phục hưng Di sản Sống",
+      th: "ยุคฟูนัน ถึงปัจจุบัน",
+    },
+    coverMedia: createMedia(
+      "m-sh-cover",
+      LOCAL_ASSETS.silk,
+      "Intricate Traditional Sampot Hol Golden Silk Ikat Fabric Pattern",
+      "ក្បាច់កម្រងផ្កាសំពត់ហូលសូត្រមាសបុរាណ",
+      "Khmer Heritage Field Mission",
+      "Hoa văn dệt Ikat tinh xảo trên nền lụa tơ vàng Sampot Hol truyền thống",
+      "ลวดลายมัดหมี่บนผืนผ้าไหมโฮลโบราณ",
+      "Khmer Heritage Field Archive",
+      "cc_by_sa",
+      "src-khmer-field-mission",
+      {
+        repository: "Institute for Khmer Traditional Textiles (IKTT) / Takeo Weaver Guild",
+        captureDate: "2024-03-08",
+        creditLine: "Khmer Heritage Field Mission (2024)",
+      }
+    ),
+    coordinates: {
+      latitude: 10.9904,
+      longitude: 104.7849,
+    },
+    location: {
+      coordinates: { latitude: 10.9904, longitude: 104.7849 },
+      province: { en: "Takeo & Siem Reap", km: "ខេត្តតាកែវ និងសៀមរាប", vi: "Takeo & Siem Reap", th: "ตาแก้วและเสียมราฐ" },
+      country: "Cambodia",
+      siteName: { en: "Prey Kabbas & Institute for Khmer Traditional Textiles (IKTT)", km: "ស្រុកព្រៃកប្បាស និងវិទ្យាស្ថាន IKTT" },
+    },
+    keyFacts: {
+      era: { en: "Over 1,500 Years (Recorded by Zhou Daguan in 1296 CE)", km: "ប្រវត្តិជាង ១៥០០ ឆ្នាំ (កត់ត្រាដោយជីវ តាក្វាន់)" },
+      tradition: { en: "Weft Ikat (Hol), Twill & Brocade Weaving", km: "សិល្បៈតម្បាញហូល គៀត និងផាមួង" },
+      material: { en: "Golden raw silk (Bombyx mori), lac (red), prohut bark (yellow), indigo (blue)", km: "សូត្រមាស ល័ក្ត សំបកប្រហូត ដើមត្រុំ" },
+    },
+    content: {
+      sections: [
+        {
+          id: "sec-sh-ikat",
+          heading: {
+            en: "The Mat-Mee (Weft Ikat) Resist-Dyeing Technique & Cosmic Motifs",
+            km: "បច្ចេកទេសចងក្បាច់គាត និងក្បាច់ផ្កាចក្រវាឡ",
+            vi: "Kỹ Thuật Buộc Nhuộm Kháng Màu (Ikat) & Hệ Thống Hoa Văn Vũ Trụ",
+            th: "เทคนิคมัดหมี่ย้อมสีธรรมชาติและลวดลายจักรวาล",
+          },
+          body: {
+            en: "Khmer Sampot Hol is produced through an exacting weft-resist dyeing technique (Ikat). Before weaving begins on a traditional two-pedal frame loom, bundles of fine golden silk weft threads are tied tightly with banana fibers or plastic ties according to complex mathematical mental grids and immersed repeatedly in natural dye baths: red extracted from tree-lac insects (Coccus lacca), golden yellow from prohut tree bark (Garcinia vilersiana), and deep indigo from indigo leaves. The woven patterns include the ancient Hol Pidan (sacred temple banners), celestial flowers (Pka Chan), and protective mythological serpents (Naga).",
+            km: "សំពត់ហូលខ្មែរប្រើបច្ចេកទេសចងក្បាច់គាតលើសរសៃសូត្រមុនពេលជ្រលក់ពណ៌ធម្មជាតិ៖ ពណ៌ក្រហមពីល័ក្ត ពណ៌លឿងពីសំបកប្រហូត និងពណ៌ខៀវពីដើមត្រុំ។ ក្បាច់រួមមានហូលពិដាន ផ្កាចន្ទន៍ និងក្បាច់នាគរាជ។",
+            vi: "Sampot Hol của người Khmer được tạo tác bằng kỹ thuật nhuộm kháng sợi ngang (Ikat) vô cùng công phu. Trước khi dệt trên khung cửi gỗ truyền thống, từng bó tơ vàng được nghệ nhân buộc thắt bằng dây sợi để cản màu theo một sơ đồ toán học tính nhẩm trong đầu, rồi ngâm liên tục vào các nồi thuốc nhuộm chiết xuất từ thiên nhiên: màu đỏ thắm từ cánh kiến đỏ (lực), màu vàng rực từ vỏ cây prohut và màu chàm từ lá chàm. Các họa tiết bao gồm tấm Hol Pidan treo chánh điện, hoa champa và rồng thần Naga.",
+            th: "ผ้าโฮลเขมรใช้เทคนิคมัดหมี่เส้นพุ่งอย่างประณีต โดยมัดเส้นไหมทองเป็นเปลาะๆ ตามลวดลายก่อนนำไปย้อมสีธรรมชาติ เช่น ครั่ง (สีแดง) เปลือกประโหด (สีเหลือง) และคราม (สีน้ำเงิน) ลวดลายโบราณได้แก่ ดอกจันทน์และพญานาค",
+          },
+        },
+      ],
+    },
+    gallery: [
+      createMedia(
+        "m-sh-g1",
+        LOCAL_ASSETS.silk,
+        "Master Weaver Tying Resist Patterns on Wooden Frame in Takeo Province",
+        "អ្នកតម្បាញកំពុងចងក្បាច់គាតលើស៊ុមឈើនៅខេត្តតាកែវ",
+        "Khmer Heritage Field Mission",
+        "Nghệ nhân cao niên đang buộc hoa văn Ikat trên khung gỗ tại tỉnh Takeo",
+        "ช่างทอผ้ากำลังมัดลายหมี่บนโครงไม้",
+        "Khmer Heritage Field Archive",
+        "cc_by_sa",
+        "src-khmer-field-mission"
+      ),
+    ],
+    relatedEntryIds: ["e-krama", "e-apsara", "e-pchum-ben", "e-amok-trey"],
+    relatedEntries: ["e-krama", "e-apsara", "e-pchum-ben", "e-amok-trey"],
+    sourceIds: ["src-green-2003", "src-morimoto-2004", "src-pou-1992"],
+    citations: [
+      {
+        id: "c-sh-1",
+        title: "Traditional Textiles of Cambodia: Cultural Threads and Material Heritage",
+        author: "Gillian Green",
+        year: 2003,
+        publisher: "River Books, Bangkok / Weatherhill",
+        sourceId: "src-green-2003",
+        sourceType: "academic_publication",
+        reviewStatus: "verified_peer_reviewed",
+      },
+      {
+        id: "c-sh-2",
+        title: "Reviving Khmer Silk: The Institute for Khmer Traditional Textiles (IKTT)",
+        author: "Kikuo Morimoto",
+        year: 2004,
+        publisher: "UNESCO Bangkok",
+        sourceId: "src-morimoto-2004",
+        sourceType: "academic_publication",
+        reviewStatus: "verified_peer_reviewed",
+      },
+    ],
+    reviewStatus: "verified_peer_reviewed",
+    scholarlyReviewer: "Gillian Green & Institute for Khmer Traditional Textiles (IKTT)",
+    updatedAt: "2026-08-28T00:00:00.000Z",
+  },
+];

@@ -222,12 +222,36 @@ export function EntryView({
             <ul className="surface-card mt-3 divide-y divide-border/60">
               {entry.citations.map((c) => (
                 <li key={c.id} className="p-4">
-                  <p className="text-sm text-foreground font-medium">{c.title}</p>
-                  <p className="mt-1 text-xs text-muted-foreground">
+                  <div className="flex flex-wrap items-center gap-2 mb-1">
+                    <p className="text-sm text-foreground font-medium">{c.title}</p>
+                    {c.sourceType && (
+                      <span className="rounded bg-primary/10 border border-primary/20 px-1.5 py-0.5 text-[9px] uppercase tracking-wider text-primary font-medium">
+                        {c.sourceType.replace(/_/g, " ")}
+                      </span>
+                    )}
+                    {c.reviewStatus && (
+                      <span className="rounded bg-secondary border border-border px-1.5 py-0.5 text-[9px] uppercase tracking-wider text-muted-foreground font-medium">
+                        {c.reviewStatus.replace(/_/g, " ")}
+                      </span>
+                    )}
+                  </div>
+                  <p className="text-xs text-muted-foreground">
                     {c.author}
+                    {c.institution ? ` (${c.institution})` : ""}
                     {c.year ? ` · ${tNum(c.year)}` : ""}
                     {c.publisher ? ` · ${c.publisher}` : ""}
+                    {c.isbn ? ` · ISBN: ${c.isbn}` : ""}
                   </p>
+                  {c.url && (
+                    <a
+                      href={c.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-1.5 inline-block text-[11px] text-primary hover:underline"
+                    >
+                      {c.url}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>
@@ -259,14 +283,27 @@ export function EntryView({
             <div className="mt-4 flex items-start justify-between gap-4">
               <div>
                 <p className="text-sm font-medium text-foreground">{tData(zoom.title)}</p>
-                <p className="mt-2 text-[11px] text-muted-foreground">
-                  {zoom.creator} · {zoom.source} · {LICENSE_LABEL[zoom.license]}
-                </p>
+                <div className="mt-2 flex flex-wrap items-center gap-2">
+                  <span className="rounded bg-primary/10 border border-primary/20 px-2 py-0.5 text-[10px] uppercase tracking-wider text-primary font-medium">
+                    {LICENSE_LABEL[zoom.license]}
+                  </span>
+                  <p className="text-[11px] text-muted-foreground">
+                    {zoom.creator} · {zoom.source}
+                  </p>
+                </div>
+                {zoom.provenance && (
+                  <p className="mt-1.5 text-[10px] text-muted-foreground/80 font-mono">
+                    {zoom.provenance.repository ? `Repo: ${zoom.provenance.repository}` : ""}
+                    {zoom.provenance.collection ? ` | Coll: ${zoom.provenance.collection}` : ""}
+                    {zoom.provenance.accessionNumber ? ` | Acc: ${zoom.provenance.accessionNumber}` : ""}
+                    {zoom.provenance.creditLine ? ` | ${zoom.provenance.creditLine}` : ""}
+                  </p>
+                )}
               </div>
               <button
                 onClick={() => setZoom(null)}
                 aria-label="Close viewer"
-                className="rounded-full border border-border p-2 hover:bg-secondary transition-colors cursor-pointer text-muted-foreground hover:text-foreground"
+                className="rounded-full border border-border p-2 hover:bg-secondary transition-colors cursor-pointer text-muted-foreground hover:text-foreground shrink-0"
               >
                 <X className="size-4" />
               </button>

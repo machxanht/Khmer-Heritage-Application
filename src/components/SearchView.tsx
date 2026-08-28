@@ -19,23 +19,34 @@ export function SearchView({
   const [selectedEra, setSelectedEra] = useState<string>("all");
 
   const filteredEntries = entries.filter((entry) => {
-    const q = query.trim().toLowerCase();
+    const rawQ = query.trim();
+    const q = rawQ.toLowerCase();
     const matchesQuery =
-      q === "" ||
+      rawQ === "" ||
       entry.title.en.toLowerCase().includes(q) ||
-      entry.title.km.includes(query) ||
+      entry.title.km.includes(rawQ) ||
+      (entry.title.vi ? entry.title.vi.toLowerCase().includes(q) : false) ||
+      (entry.title.th ? entry.title.th.toLowerCase().includes(q) : false) ||
       entry.summary.en.toLowerCase().includes(q) ||
-      entry.summary.km.includes(query) ||
+      entry.summary.km.includes(rawQ) ||
+      (entry.summary.vi ? entry.summary.vi.toLowerCase().includes(q) : false) ||
+      (entry.summary.th ? entry.summary.th.toLowerCase().includes(q) : false) ||
       entry.content.sections.some(
         (s) =>
           s.heading.en.toLowerCase().includes(q) ||
-          s.heading.km.includes(query) ||
+          s.heading.km.includes(rawQ) ||
+          (s.heading.vi ? s.heading.vi.toLowerCase().includes(q) : false) ||
+          (s.heading.th ? s.heading.th.toLowerCase().includes(q) : false) ||
           s.body.en.toLowerCase().includes(q) ||
-          s.body.km.includes(query)
+          s.body.km.includes(rawQ) ||
+          (s.body.vi ? s.body.vi.toLowerCase().includes(q) : false) ||
+          (s.body.th ? s.body.th.toLowerCase().includes(q) : false)
       );
 
     const matchesCategory =
-      selectedCategory === "all" || entry.categoryId === selectedCategory;
+      selectedCategory === "all" ||
+      entry.categoryId === selectedCategory ||
+      entry.category === selectedCategory;
 
     const matchesEra =
       selectedEra === "all" ||

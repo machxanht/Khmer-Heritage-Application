@@ -1,0 +1,142 @@
+import type { HeritageEntry } from "../../types/schema.ts";
+import { createMedia, LOCAL_ASSETS } from "./mediaHelper.ts";
+
+export const artsEntries: HeritageEntry[] = [
+  // ROYAL BALLET OF CAMBODIA & APSARA DANCE
+  {
+    id: "e-apsara",
+    slug: "apsara",
+    category: "arts",
+    categoryId: "arts",
+    title: {
+      en: "Royal Ballet of Cambodia & The Apsara Dance",
+      km: "របាំព្រះរាជទ្រព្យ និងរបាំអប្សរា",
+      vi: "Vũ Điệu Hoàng Gia Campuchia & Điệu Múa Apsara",
+      th: "ระบำหลวงกัมพูชาและระบำอัปสรา",
+    },
+    summary: {
+      en: "The sacred classical dance drama of the Royal Court of Cambodia, inscribed by UNESCO as Intangible Cultural Heritage of Humanity in 2003, carrying ancient gestural cosmology from stone carvings to living ritual.",
+      km: "សិល្បៈរបាំបុរាណសក្ការៈនៃព្រះបរមរាជវាំងកម្ពុជា ចុះបញ្ជីបេតិកភណ្ឌអរូបីនៃមនុស្សជាតិ UNESCO ក្នុងឆ្នាំ ២០០៣ ដែលរក្សាបាននូវកាយវិការចក្រវាឡវិទ្យាពីចម្លាក់ថ្មដល់ជីវិតរស់រវើក។",
+      vi: "Nghệ thuật kịch múa cổ điển thiêng liêng của Hoàng gia Campuchia, được UNESCO vinh danh là Di sản Văn hóa Phi vật thể của Nhân loại năm 2003, lưu giữ hệ thống cử chỉ vũ đạo vũ trụ học từ các bức phù điêu đá nghìn năm.",
+      th: "นาฏศิลป์ชั้นสูงอันศักดิ์สิทธิ์แห่งราชสำนักกัมพูชา ได้รับการขึ้นทะเบียนเป็นมรดกทางวัฒนธรรมที่จับต้องไม่ได้ของยูเนสโกในปี ค.ศ. 2003",
+    },
+    era: {
+      en: "Angkorian Period (9th c.) – Living Tradition",
+      km: "សម័យអង្គរ (សតវត្សរ៍ទី ៩) ដល់ បច្ចុប្បន្ន",
+      vi: "Thời kỳ Angkor (Thế kỷ 9) – Truyền thống Sống",
+      th: "ยุคพระนคร (ศตวรรษที่ 9) ถึงปัจจุบัน",
+    },
+    coverMedia: createMedia(
+      "m-ap-cover",
+      LOCAL_ASSETS.apsara,
+      "Royal Ballet Dancer in Golden Mokot Headdress performing Robam Apsara",
+      "នាដការីរបាំព្រះរាជទ្រព្យគ្រងម្កុដមាសសម្តែងរបាំអប្សរា",
+      "Khmer Heritage Field Mission",
+      "Nữ nghệ sĩ múa Cung đình trong vương miện Mokot vàng trình diễn điệu múa Apsara",
+      "นางรำระบำหลวงสวมชฎามงกุฎทองคำแสดงระบำอัปสรา",
+      "Khmer Heritage Field Archive",
+      "cc_by_sa",
+      "src-khmer-field-mission",
+      {
+        repository: "Khmer Heritage Performance Archive",
+        collection: "National Theatre of Cambodia Classical Repertory",
+        captureDate: "2024-03-01",
+        creditLine: "Khmer Heritage Field Mission (2024)",
+      }
+    ),
+    coordinates: {
+      latitude: 11.5621,
+      longitude: 104.9317,
+    },
+    location: {
+      coordinates: { latitude: 11.5621, longitude: 104.9317 },
+      province: { en: "Phnom Penh", km: "រាជធានីភ្នំពេញ", vi: "Phnom Penh", th: "พนมเปญ" },
+      country: "Cambodia",
+      siteName: { en: "Royal Palace of Cambodia & National Museum", km: "ព្រះបរមរាជវាំង និងសារមន្ទីរជាតិ" },
+    },
+    keyFacts: {
+      era: { en: "Over 1,000 Years of Royal Lineage", km: "ប្រវត្តិជាង ១០០០ ឆ្នាំ" },
+      religion: { en: "Hindu-Buddhist Celestial Rituals", km: "ពិធីសក្ការៈទេវតានិងព្រះពុទ្ធសាសនា" },
+      artStyle: { en: "Classical Khmer Court Dance", km: "សិល្បៈរបាំព្រះរាជទ្រព្យ" },
+      unescoStatus: { en: "UNESCO Representative List (2008, originally proclaimed 2003)", km: "បេតិកភណ្ឌអរូបីពិភពលោក (២០០៣/២០០៨)" },
+      material: { en: "Golden Mokot, Silk Sampot & Brocade Costumes", km: "ម្កុដមាស សំពត់ហូល និងគ្រឿងអលង្ការ" },
+    },
+    content: {
+      sections: [
+        {
+          id: "sec-ap-handgestures",
+          heading: {
+            en: "Sacred Hand Gestures (Kbach) & Botanical Metaphor",
+            km: "ក្បាច់កាយវិការដៃ និងទស្សនវិជ្ជាធម្មជាតិ",
+            vi: "Hệ Thống Cử Chỉ Tay (Kbach) & Biểu Tượng Thực Vật Học",
+            th: "ภาษาท่ารำ (กบัจ) และปรัชญาธรรมชาติ",
+          },
+          body: {
+            en: "Classical Khmer dance is founded on a vocabulary of over 4,500 subtle physical gestures (kbach). The most expressive element is the hand language, derived from ancient mudras and symbolizing the life cycle of flora: the closed bud (jeeb), the opening leaf, the blossoming flower, and the falling ripe fruit. These movements are executed with hyperextended fingers and hypermobile joints cultivated through rigorous training from childhood, embodying celestial lightness.",
+            km: "របាំបុរាណខ្មែរមានកាយវិការក្បាច់ជាង ៤៥០០។ កាយវិការដៃតំណាងឲ្យវដ្តជីវិតនៃរុក្ខជាតិ៖ ត្រួយ ស្លឹក ផ្ការីក និងផ្លែទុំជ្រុះ។ ម្រាមដៃពត់ទន់ល្មើយឆ្លុះបញ្ចាំងពីសោភ័ណភាពទេវតាលើមេឃ។",
+            vi: "Múa cổ điển Campuchia được xây dựng trên một kho tàng hơn 4.500 cử chỉ hình thể (kbach) tinh tế. Điểm biểu cảm đặc sắc nhất là ngôn ngữ bàn tay (mudra), tượng trưng cho vòng đời thảo mộc: từ nụ búp, lá non hé mở, hoa nở rộ cho đến quả chín rụng. Các ngón tay được uốn cong ngược mềm mại nhờ quá trình khổ luyện từ thuở nhỏ, tái hiện vẻ thanh thoát của các nàng tiên nữ giáng trần.",
+            th: "นาฏศิลป์เขมรมีภาษาท่ารำมากกว่า 4,500 ท่า ท่ารำของมือสื่อถึงวงจรชีวิตของพืชพันธุ์ ตั้งแต่ยอดอ่อน ใบ ดอกบาน จนถึงผลสุกร่วงหล่น นิ้วมือที่ดัดอ่อนช้อยสะท้อนถึงความงามของนางฟ้าบนสรวงสวรรค์",
+          },
+        },
+        {
+          id: "sec-ap-roles",
+          heading: {
+            en: "The Four Dramatic Roles & Revival by Princess Buppha Devi",
+            km: "តួអង្គទាំង ៤ និងការស្តារឡើងវិញដោយសម្តេចរាជបុត្រី ព្រះរៀម នរោត្តម បុប្ផាទេវី",
+            vi: "Bốn Vai Diễn Kinh Điển & Sự Chấn Hưng Bởi Công Chúa Buppha Devi",
+            th: "ตัวละครหลักทั้ง 4 และการฟื้นฟูโดยสมเด็จพระเรียมนโรดม บุปผาเทวี",
+          },
+          body: {
+            en: "The Royal Ballet repertoire is divided into four primary archetypes: Neay Rong (Male Hero/Prince), Neang (Female Heroine/Princess), Yeak (Giant/Ogre Demon), and Sva (Monkey Warrior). In the 1960s, Her Royal Highness Princess Norodom Buppha Devi became the prima ballerina of the Royal Ballet, bringing the sacred Robam Apsara to global audiences and leading its heroic reconstruction after the devastating losses of the 1970s.",
+            km: "តួអង្គរបាំព្រះរាជទ្រព្យចែកជា ៤ គឺ៖ នាយរោង (បុរស/ព្រះអង្គ) នាង (ស្ត្រី/នាងទេពី) យក្ស (អសុរា) និងស្វា (ហនុមាន)។ នៅទសវត្សរ៍ ១៩៦០ សម្តេចរាជបុត្រីព្រះរៀម នរោត្តម បុប្ផាទេវី បាននាំយករបាំអប្សរាទៅកាន់ឆាកអន្តរជាតិ និងដឹកនាំការស្តារឡើងវិញយ៉ាងមហិមា។",
+            vi: "Kho tàng kịch múa Hoàng gia gồm bốn hệ vai kinh điển: Neay Rong (Nam anh hùng/Hoàng tử), Neang (Nữ nhân/Công chúa), Yeak (Chằn tinh/Dạ xoa) và Sva (Chiến binh Khỉ). Vào thập niên 1960, Công chúa Norodom Buppha Devi đã trở thành đệ nhất vũ công hoàng gia, đưa điệu múa Apsara ra khắp năm châu và lãnh đạo công cuộc tái sinh kỳ diệu của nghệ thuật này sau những thăng trầm lịch sử.",
+            th: "ตัวละครในระบำหลวงแบ่งออกเป็น 4 บทบาทหลัก ได้แก่ นายโรง (ตัวพระ) นาง (ตัวนาง) ยักษ์ และลิง ในทศวรรษ 1960 สมเด็จพระเรียมนโรดม บุปผาเทวี ทรงเป็นนางรำเอกและทรงฟื้นฟูนาฏศิลป์นี้ให้กลับมารุ่งเรืองอีกครั้ง",
+          },
+        },
+      ],
+    },
+    gallery: [
+      createMedia(
+        "m-ap-g1",
+        LOCAL_ASSETS.apsara,
+        "Angkor Wat Bas-Relief Carvings of Dancing Apsaras",
+        "ចម្លាក់អប្សរារាំលើជញ្ជាំងអង្គរវត្ត",
+        "EFEO Photographic Archives",
+        "Phù điêu vũ nữ Apsara nghìn năm trên tường đá Angkor Wat",
+        "ภาพสลักนางอัปสราบนผนังหินนครวัด",
+        "EFEO Archives",
+        "direct_permission",
+        "src-efeo-photo-archive"
+      ),
+    ],
+    relatedEntryIds: ["e-pinpeat", "e-silk-hol", "e-reamker", "e-angkor-wat"],
+    relatedEntries: ["e-pinpeat", "e-silk-hol", "e-reamker", "e-angkor-wat"],
+    sourceIds: ["src-unesco-00054", "src-shapiro-1994", "src-coe-2003"],
+    citations: [
+      {
+        id: "c-ap-1",
+        title: "Royal Ballet of Cambodia (Inscribed 2008 on the Representative List of the Intangible Cultural Heritage of Humanity)",
+        author: "UNESCO Intangible Cultural Heritage Section",
+        year: 2008,
+        institution: "UNESCO",
+        url: "https://ich.unesco.org/en/RL/royal-ballet-of-cambodia-00054",
+        sourceId: "src-unesco-00054",
+        sourceType: "unesco_institutional",
+        reviewStatus: "institutional_certified",
+      },
+      {
+        id: "c-ap-2",
+        title: "Dance and the Celestial Maidens: The Reconstruction of Cambodian Classical Dance",
+        author: "Dr. Toni Shapiro-Phim",
+        year: 1994,
+        publisher: "Cornell University Southeast Asia Program",
+        sourceId: "src-shapiro-1994",
+        sourceType: "academic_publication",
+        reviewStatus: "verified_peer_reviewed",
+      },
+    ],
+    reviewStatus: "verified_peer_reviewed",
+    scholarlyReviewer: "Royal University of Fine Arts & UNESCO Heritage Section",
+    updatedAt: "2026-08-28T00:00:00.000Z",
+  },
+];

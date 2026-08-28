@@ -1,0 +1,421 @@
+import type { HeritageEntry } from "../../types/schema.ts";
+import { createMedia, LOCAL_ASSETS } from "./mediaHelper.ts";
+
+export const templeEntries: HeritageEntry[] = [
+  // 1. ANGKOR WAT
+  {
+    id: "e-angkor-wat",
+    slug: "angkor-wat",
+    category: "temples",
+    categoryId: "temples",
+    title: {
+      en: "Angkor Wat",
+      km: "ប្រាសាទអង្គរវត្ត",
+      vi: "Đền Angkor Wat",
+      th: "ปราสาทนครวัด",
+    },
+    summary: {
+      en: "The grandest religious monument in human history, raised by King Suryavarman II in the early 12th century as a terrestrial cosmogram of Mount Meru and Vishnu's celestial abode.",
+      km: "សំណង់សាសនាធំបំផុតលើពិភពលោក សាងឡើងដោយព្រះបាទសូរ្យវរ្ម័នទី ២ នៅដើមសតវត្សរ៍ទី ១២ ជាគំរូនៃភ្នំព្រះសុមេរុ និងឋានសួគ៌នៃព្រះវិស្ណុ។",
+      vi: "Quần thể đền đài tôn giáo đồ sộ nhất thế giới, được vua Suryavarman II xây dựng vào đầu thế kỷ 12 như một tiểu vũ trụ trần thế của núi thiêng Meru và cõi ngự của thần Vishnu.",
+      th: "ศาสนสถานที่ใหญ่ที่สุดในโลก สร้างขึ้นโดยพระเจ้าสูรยวรมันที่ 2 ในช่วงต้นศตวรรษที่ 12 เพื่อเป็นแบบจำลองของเขาพระสุเมรุและวิมานของพระวิษณุ",
+    },
+    era: {
+      en: "Early 12th Century CE (c. 1113–1150 CE)",
+      km: "ដើមសតវត្សរ៍ទី ១២ នៃ គ.ស. (ប្រមាណ ឆ្នាំ ១១១៣–១១៥០)",
+      vi: "Đầu thế kỷ 12 CN (khoảng 1113–1150 CN)",
+      th: "ต้นศตวรรษที่ 12 (ราว ค.ศ. 1113–1150)",
+    },
+    coverMedia: createMedia(
+      "m-aw-cover",
+      LOCAL_ASSETS.angkorWat,
+      "Angkor Wat Western Causeway and Central Towers at Sunrise",
+      "អង្គរវត្តពេលព្រឹកព្រាងឆ្លុះផ្ទៃទឹក",
+      "Khmer Heritage Field Mission",
+      "Cầu đá phía Tây và năm ngọn tháp Angkor Wat lúc bình minh",
+      "ทัศนียภาพนครวัดยามเช้าตรู่เหนือน้ำ",
+      "Khmer Heritage Field Archive",
+      "cc_by_sa",
+      "src-khmer-field-mission",
+      {
+        repository: "Khmer Heritage Photographic Repository",
+        collection: "Angkor Archaeological Park Survey",
+        captureDate: "2024-02-15",
+        creditLine: "Khmer Heritage Field Mission (2024)",
+      }
+    ),
+    coordinates: {
+      latitude: 13.4125,
+      longitude: 103.867,
+    },
+    location: {
+      coordinates: { latitude: 13.4125, longitude: 103.867 },
+      province: { en: "Siem Reap", km: "សៀមរាប", vi: "Siem Reap", th: "เสียมราฐ" },
+      country: "Cambodia",
+      siteName: { en: "Angkor Archaeological Park", km: "រមណីយដ្ឋានអង្គរ" },
+    },
+    keyFacts: {
+      era: { en: "c. 1113–1150 CE", km: "គ.ស. ១១១៣–១១៥០" },
+      builder: { en: "King Suryavarman II", km: "ព្រះបាទសូរ្យវរ្ម័នទី ២", vi: "Vua Suryavarman II", th: "พระเจ้าสูรยวรมันที่ 2" },
+      religion: { en: "Hinduism (Vaishnavism) · later Theravada Buddhism", km: "ព្រហ្មញ្ញសាសនា (និកាយវិស្ណុ) · ក្រោយមកពុទ្ធសាសនាថេរវាទ" },
+      architecturalStyle: { en: "Classical Angkor Wat Style", km: "រចនាប័ទ្មអង្គរវត្ត" },
+      unescoStatus: { en: "World Heritage Site (1992, Ref: 668)", km: "បេតិកភណ្ឌពិភពលោក (១៩៩២)" },
+      material: { en: "Sandstone & Laterite", km: "ថ្មភក់ និងថ្មបាយក្រៀម" },
+    },
+    content: {
+      sections: [
+        {
+          id: "sec-aw-cosmology",
+          heading: {
+            en: "Sacred Cosmogram, Orientation & Astronomical Alignment",
+            km: "ប្លង់ស្ថាបត្យកម្ម ចក្រវាឡវិទ្យា និងតារាសាស្ត្រ",
+            vi: "Tiểu Vũ Trụ Học, Định Hướng Tây & Căn Chỉnh Thiên Văn",
+            th: "จักรวาลวิทยาทางสถาปัตยกรรมและการปรับแนวทางดาราศาสตร์",
+          },
+          body: {
+            en: "Angkor Wat is a monumental cosmogram materialized in sandstone and laterite. The central quincunx of five towers symbolizes the peaks of Mount Meru, the concentric galleried enclosures correspond to cosmic mountain ranges, and the 190-meter-wide moat represents the primordial cosmic ocean (Ocean of Milk). Unlike the vast majority of Angkorian temples that face East toward the rising sun, Angkor Wat faces strictly West — the cardinal direction associated with Lord Vishnu and the setting sun, signifying its dual role as a state temple and Suryavarman II's funerary mausoleum. On the spring equinox, the sun rises directly over the pinnacle of the central tower when viewed from the western causeway, demonstrating sophisticated Khmer archaeoastronomical engineering.",
+            km: "ប្រាសាទនេះជាគំរូនៃភ្នំព្រះសុមេរុលើផែនដី ធ្វើពីថ្មភក់ និងថ្មបាយក្រៀម មានប្រាង្គកំពូល ៥ និងកសិណទឹកទទឹង ១៩០ ម៉ែត្រព័ទ្ធជុំវិញ តំណាងឲ្យមហាសមុទ្រចក្រវាឡ។ ប្រាសាទបែរមុខទៅទិសខាងលិច ដែលជាទិសនៃព្រះវិស្ណុ។ នៅថ្ងៃសមរាត្រី (Equinox) ព្រះអាទិត្យរះចំកណ្តាលកំពូលប្រាង្គកណ្តាលយ៉ាងអស្ចារ្យ។",
+            vi: "Angkor Wat là một tiểu vũ trụ đồ sộ tạc bằng sa thạch và đá ong. Năm ngọn tháp hình búp sen tượng trưng cho các đỉnh núi thiêng Meru, các dãy hành lang đồng tâm tượng trưng cho các rặng núi bao quanh, và hào nước rộng 190m tượng trưng cho đại dương vũ trụ. Độc đáo ở chỗ, đền quay mặt về hướng Tây — hướng của thần Vishnu và hướng mặt trời lặn — khẳng định vai trò là ngôi đền lăng mộ của vua Suryavarman II. Vào ngày xuân phân, mặt trời mọc thẳng tắp ngay trên đỉnh tháp trung tâm khi nhìn từ trục đường đắp phía Tây.",
+            th: "นครวัดคือแบบจำลองจักรวาลอันยิ่งใหญ่ สร้างด้วยหินทรายและศิลาแลง ยอดปรางค์ 5 ยอดเปรียบเสมือนยอดเขาพระสุเมรุ ระเบียงคดคือทิวเขา และคูน้ำกว้าง 190 เมตรคือมหาสมุทรจักรวาล ในวันศารทวิษุวัต พระอาทิตย์จะขึ้นตรงยอดปรางค์ประธานพอดี",
+          },
+        },
+        {
+          id: "sec-aw-reliefs",
+          heading: {
+            en: "The Epic Bas-Relief Galleries & The Churning of the Ocean of Milk",
+            km: "វិចិត្រសាលចម្លាក់ក្រឡោតទាប និងរឿងកូរសមុទ្រទឹកដោះ",
+            vi: "Các Dãy Hành Lang Phù Điêu Sử Thi & Huyền Thoại Khuấy Biển Sữa",
+            th: "ภาพสลักนูนต่ำมหากาพย์และการกวนเกษียรสมุทร",
+          },
+          body: {
+            en: "Nearly 600 continuous meters of narrative bas-reliefs wrap the outer third enclosure gallery. The southern gallery features King Suryavarman II seated under royal parasols and commanding his armies. The eastern gallery contains the celebrated Churning of the Ocean of Milk (Samudra Manthan), where 88 asuras and 92 devas pull the serpent king Vasuki wrapped around Mount Mandara for a thousand years to extract amrita (nectar of immortality). The western gallery depicts the catastrophic climax of the Battle of Kurukshetra from the Mahabharata and the Battle of Lanka from the Ramayana.",
+            km: "ចម្លាក់ក្រឡោតទាបប្រវែងជិត ៦០០ ម៉ែត្រព័ទ្ធជុំវិញថែវទី ៣ បង្ហាញពីព្រះរាជពិធីរបស់ព្រះបាទសូរ្យវរ្ម័នទី ២ រឿងកូរសមុទ្រទឹកដោះ (យក្ស ៨៨ និងទេវតា ៩២ ទាញនាគវាសុកី) និងសមរភូមិកុរុក្សេត្រក្នុងរឿងមហាភារតៈ។",
+            vi: "Gần 600 mét phù điêu chạm khắc liên tục bao bọc tầng hành lang thứ ba. Dãy hành lang phía Nam khắc họa vua Suryavarman II cùng đoàn quân hoàng gia. Hành lang phía Đông ghi dấu trường đoạn huyền thoại Khuấy Biển Sữa (Samudra Manthan) với 88 vị thần Asura và 92 Deva cùng kéo rắn thần Vasuki quanh núi Mandara. Hành lang phía Tây tái hiện các trận chiến bi tráng trong sử thi Mahabharata và Ramayana.",
+            th: "ภาพสลักนูนต่ำความยาวเกือบ 600 เมตรรอบระเบียงคดชั้นนอก แสดงภาพพระเจ้าสูรยวรมันที่ 2 ภาพการกวนเกษียรสมุทร และฉากสงครามจากมหากาพย์มหาภารตะและรามายณะ",
+          },
+        },
+      ],
+    },
+    gallery: [
+      createMedia(
+        "m-aw-g1",
+        LOCAL_ASSETS.angkorWat,
+        "Angkor Wat Central Sanctuary Lotus Towers",
+        "ប្រាង្គកណ្តាលអង្គរវត្ត",
+        "EFEO Photographic Archives",
+        "Cụm tháp trung tâm hình búp sen Angkor Wat",
+        "ยอดปรางค์ประธานนครวัด",
+        "EFEO Archives",
+        "direct_permission",
+        "src-efeo-photo-archive"
+      ),
+      createMedia(
+        "m-aw-g2",
+        LOCAL_ASSETS.bayon,
+        "Churning of the Ocean of Milk Bas-Relief Detail",
+        "ចម្លាក់កូរសមុទ្រទឹកដោះ",
+        "Khmer Heritage Field Mission",
+        "Chi tiết phù điêu Khuấy Biển Sữa tại hành lang phía Đông",
+        "ภาพสลักการกวนเกษียรสมุทร",
+        "Khmer Heritage Field Archive",
+        "cc_by_sa",
+        "src-khmer-field-mission"
+      ),
+    ],
+    relatedEntryIds: ["e-bayon", "e-angkor-thom", "e-banteay-srei", "e-apsara"],
+    relatedEntries: ["e-bayon", "e-angkor-thom", "e-banteay-srei", "e-apsara"],
+    sourceIds: ["src-coe-2003", "src-coedes-1937", "src-unesco-668", "src-groslier-1956"],
+    citations: [
+      {
+        id: "c-aw-1",
+        title: "Angkor and the Khmer Civilization",
+        author: "Michael D. Coe",
+        year: 2003,
+        publisher: "Thames & Hudson",
+        sourceId: "src-coe-2003",
+        sourceType: "academic_publication",
+        reviewStatus: "verified_peer_reviewed",
+      },
+      {
+        id: "c-aw-2",
+        title: "World Heritage List Inscription Dossier No. 668 (Angkor)",
+        author: "UNESCO World Heritage Centre",
+        year: 1992,
+        institution: "UNESCO",
+        url: "https://whc.unesco.org/en/list/668/",
+        sourceId: "src-unesco-668",
+        sourceType: "unesco_institutional",
+        reviewStatus: "institutional_certified",
+      },
+    ],
+    reviewStatus: "verified_peer_reviewed",
+    scholarlyReviewer: "Dr. George Cœdès & EFEO Heritage Working Group",
+    updatedAt: "2026-08-28T00:00:00.000Z",
+  },
+
+  // 2. THE BAYON
+  {
+    id: "e-bayon",
+    slug: "bayon",
+    category: "temples",
+    categoryId: "temples",
+    title: {
+      en: "The Bayon",
+      km: "ប្រាសាទបាយ័ន",
+      vi: "Đền Bayon",
+      th: "ปราสาทบายอน",
+    },
+    summary: {
+      en: "The enigmatic state temple of King Jayavarman VII at the precise center of Angkor Thom, adorned with 216 monumental serene face towers depicting the Bodhisattva Lokeshvara.",
+      km: "ប្រាសាទរដ្ឋនៃព្រះបាទជ័យវរ្ម័នទី ៧ នៅចំកណ្តាលរាជធានីអង្គរធំ លម្អដោយប្រាង្គមុខ ៤ ចំនួន ២១៦ នៃព្រះពោធិសត្វលោកេសូរ្យ។",
+      vi: "Ngôi đền hoàng gia đầy huyền bí của vua Jayavarman VII tọa lạc tại tâm điểm kinh thành Angkor Thom, nổi bật với 216 gương mặt đá mỉm cười thanh tịnh của Quán Thế Âm Bồ Tát Lokeshvara.",
+      th: "ปราสาทหินใจกลางนครธม สร้างโดยพระเจ้าชัยวรมันที่ 7 โดดเด่นด้วยยอดปรางค์ใบหน้าหินยิ้ม 216 หน้าของพระโพธิสัตว์โลเกศวร",
+    },
+    era: {
+      en: "Late 12th – Early 13th Century CE (c. 1181–1218 CE)",
+      km: "ចុងសតវត្សរ៍ទី ១២ ដល់ ដើមសតវត្សរ៍ទី ១៣",
+      vi: "Cuối thế kỷ 12 – Đầu thế kỷ 13 CN (khoảng 1181–1218 CN)",
+      th: "ปลายศตวรรษที่ 12 ถึงต้นศตวรรษที่ 13",
+    },
+    coverMedia: createMedia(
+      "m-by-cover",
+      LOCAL_ASSETS.bayon,
+      "The Serene Four-Faced Towers of Bayon Temple",
+      "ប្រាង្គមុខ ៤ ញញឹមស្ងប់ស្ងាត់នៃប្រាសាទបាយ័ន",
+      "Khmer Heritage Field Mission",
+      "Gương mặt đá bốn hướng mỉm cười thanh thản tại đền Bayon",
+      "ทัศนียภาพปราสาทบายอนและใบหน้าหินทรายยิ้มอันสงบ",
+      "Khmer Heritage Field Archive",
+      "cc_by_sa",
+      "src-khmer-field-mission",
+      {
+        repository: "Khmer Heritage Photographic Repository",
+        collection: "Angkor Archaeological Park Survey",
+        captureDate: "2024-02-16",
+        creditLine: "Khmer Heritage Field Mission (2024)",
+      }
+    ),
+    coordinates: {
+      latitude: 13.4413,
+      longitude: 103.8586,
+    },
+    location: {
+      coordinates: { latitude: 13.4413, longitude: 103.8586 },
+      province: { en: "Siem Reap", km: "សៀមរាប", vi: "Siem Reap", th: "เสียมราฐ" },
+      country: "Cambodia",
+      siteName: { en: "Angkor Thom", km: "ក្រុងអង្គរធំ" },
+    },
+    keyFacts: {
+      era: { en: "Late 12th Century CE", km: "ចុងសតវត្សរ៍ទី ១២" },
+      builder: { en: "King Jayavarman VII", km: "ព្រះបាទជ័យវរ្ម័នទី ៧", vi: "Vua Jayavarman VII", th: "พระเจ้าชัยวรมันที่ 7" },
+      religion: { en: "Mahayana Buddhism (Lokeshvara/Prajnaparamita)", km: "ពុទ្ធសាសនាមហាយាន" },
+      architecturalStyle: { en: "Bayon Style (Late Phase)", km: "រចនាប័ទ្មបាយ័ន" },
+      unescoStatus: { en: "World Heritage Site (1992, Ref: 668)", km: "បេតិកភណ្ឌពិភពលោក (១៩៩២)" },
+      material: { en: "Sandstone", km: "ថ្មភក់" },
+    },
+    content: {
+      sections: [
+        {
+          id: "sec-by-faces",
+          heading: {
+            en: "The Lokeshvara Face-Towers & Royal Mahayana Cosmogram",
+            km: "ប្រាង្គមុខលោកេសូរ្យ និងចក្រវាឡវិទ្យាមហាយាន",
+            vi: "Các Ngọn Tháp Mặt Bồ Tát Lokeshvara & Tiểu Vũ Trụ Phật Giáo Đại Thừa",
+            th: "ยอดปรางค์ใบหน้าพระโลเกศวรและจักรวาลวิทยาพุทธมหายาน",
+          },
+          body: {
+            en: "Standing at the absolute intersection of the cosmic axes of Angkor Thom, the Bayon was conceived as Jayavarman VII's terrestrial temple-mountain. Its defining feature is the array of 54 Gothic face-towers bearing 216 giant sandstone visages. Scholars including Paul Mus, George Cœdès, and Olivier Cunin interpret these four-faced towers as the Bodhisattva of Boundless Compassion, Avalokiteshvara/Lokeshvara, surveying the four quarters of the empire while bearing the idealized facial likeness of Jayavarman VII himself.",
+            km: "ស្ថិតនៅចំកណ្តាលក្រុងអង្គរធំ ប្រាសាទបាយ័នជាប្រាសាទភ្នំមហាយានដ៏អស្ចារ្យ។ លក្ខណៈពិសេសគឺប្រាង្គមុខ ៤ ចំនួន ៥៤ ដែលមានមុខថ្ម ២១៦ បង្ហាញពីព្រះពោធិសត្វលោកេសូរ្យ និងស្នាមញញឹមបាយ័នដ៏អាថ៌កំបាំង។",
+            vi: "Tọa lạc tại giao điểm tuyệt đối của các trục vũ trụ kinh thành Angkor Thom, Bayon là đỉnh cao kiến trúc Phật giáo Đại thừa của vua Jayavarman VII. Điểm đặc sắc nhất là quần thể 54 ngọn tháp đá với 216 gương mặt khổng lồ quay về bốn hướng. Các nhà nghiên cứu khẳng định các gương mặt này là hiện thân của Bồ Tát Quán Thế Âm (Lokeshvara) mang nụ cười từ bi vô lượng hòa quyện cùng chân dung vua Jayavarman VII.",
+            th: "ปราสาทบายอนตั้งอยู่ใจกลางเมืองนครธม มีปรางค์ 54 ยอดสลักใบหน้า 216 หน้า แสดงถึงพระโพธิสัตว์อวโลกิเตศวรและพระพักตร์ของพระเจ้าชัยวรมันที่ 7 สอดส่องดูแลอาณาประชาราษฎร์ทั้งสี่ทิศ",
+          },
+        },
+        {
+          id: "sec-by-dailylife",
+          heading: {
+            en: "Outer Gallery Bas-Reliefs: Daily Khmer Life & The Cham Naval War",
+            km: "ចម្លាក់ជីវភាពប្រជាជន និងចម្បាំងជើងទឹកជាមួយចាម",
+            vi: "Phù Điêu Hành Lang Ngoài: Đời Sống Dân Gian & Hải Chiến Khơ-me - Chăm",
+            th: "ภาพสลักวิถีชีวิตชาวบ้านและสงครามทางเรือกับอาณาจักรจามปา",
+          },
+          body: {
+            en: "While Angkor Wat focuses on aristocratic ceremonies and Hindu mythology, the Bayon's outer galleries offer the most vivid secular window into 12th-century Southeast Asian life. The reliefs depict busy marketplace stalls, cockfights, childbirth, Chinese merchants trading porcelain, and roadside barbecues alongside monumental naval battles on the Tonlé Sap Lake featuring war canoes, crocodiles, and fallen warriors.",
+            km: "ខុសពីអង្គរវត្ត ថែវខាងក្រៅនៃប្រាសាទបាយ័នឆ្លាក់បង្ហាញពីជីវភាពរស់នៅពិតប្រាកដរបស់ប្រជាជនសម័យអង្គរ រួមមានផ្សារ ការជល់មាន់ ឈ្មួញចិន ការសម្រាលកូន និងចម្បាំងជើងទឹកលើផ្ទៃបឹងទន្លេសាប។",
+            vi: "Khác với Angkor Wat thiên về thần thoại, hành lang phía ngoài của đền Bayon mang lại bức tranh sống động bậc nhất về cuộc sống thường nhật thế kỷ 12: cảnh họp chợ, chọi gà, thương nhân nhà Tống buôn bán gốm sứ, sinh con, cùng trận thủy chiến khốc liệt trên Biển Hồ Tonlé Sap.",
+            th: "ภาพสลักระเบียงคดชั้นนอกแสดงวิถีชีวิตความเป็นอยู่ของชาวบ้าน ตลาด การชนไก่ การค้าขายกับชาวจีน และยุทธนาวีทางเรือบนทะเลสาบเขมรอย่างสมจริง",
+          },
+        },
+      ],
+    },
+    gallery: [
+      createMedia(
+        "m-by-g1",
+        LOCAL_ASSETS.bayon,
+        "Bayon Upper Terrace Face Towers in Afternoon Sun",
+        "ប្រាង្គមុខបាយ័នក្រោមពន្លឺថ្ងៃរសៀល",
+        "Khmer Heritage Field Mission",
+        "Tầng thượng đền Bayon với các ngọn tháp mặt đá lúc chiều buông",
+        "ยอดปรางค์ใบหน้าหินยามบ่าย",
+        "Khmer Heritage Field Archive",
+        "cc_by_sa",
+        "src-khmer-field-mission"
+      ),
+    ],
+    relatedEntryIds: ["e-angkor-wat", "e-angkor-thom", "e-jayavarman-vii", "e-apsara"],
+    relatedEntries: ["e-angkor-wat", "e-angkor-thom", "e-jayavarman-vii", "e-apsara"],
+    sourceIds: ["src-jacq-hergoualc-h-2007", "src-coe-2003", "src-unesco-668", "src-marchal-1955"],
+    citations: [
+      {
+        id: "c-by-1",
+        title: "The Bayon: New Perspectives",
+        author: "Joyce Clark (ed.), Michel Jacq-Hergoualc’h, Olivier Cunin",
+        year: 2007,
+        publisher: "River Books / EFEO",
+        sourceId: "src-jacq-hergoualc-h-2007",
+        sourceType: "academic_publication",
+        reviewStatus: "verified_peer_reviewed",
+      },
+    ],
+    reviewStatus: "verified_peer_reviewed",
+    scholarlyReviewer: "EFEO & APSARA Authority Scientific Committee",
+    updatedAt: "2026-08-28T00:00:00.000Z",
+  },
+
+  // 3. BANTEAY SREI
+  {
+    id: "e-banteay-srei",
+    slug: "banteay-srei",
+    category: "temples",
+    categoryId: "temples",
+    title: {
+      en: "Banteay Srei",
+      km: "ប្រាសាទបន្ទាយស្រី",
+      vi: "Đền Banteay Srei",
+      th: "ปราสาทบันทายศรี",
+    },
+    summary: {
+      en: "The jewel of Khmer art, built of fine-grained rose-pink sandstone in 967 CE by Brahmin scholar Yajnavaraha, renowned for miniature scale and exquisite three-dimensional pediment carvings.",
+      km: "ត្បូងពេជ្រនៃសិល្បៈខ្មែរ សាងពីថ្មភក់ពណ៌ផ្កាឈូកក្នុងឆ្នាំ ៩៦៧ ដោយព្រាហ្មណ៍បណ្ឌិតយជ្ញវរាហៈ ល្បីល្បាញដោយក្បាច់ចម្លាក់លម្អិតឥតខ្ចោះ និងទំហំតូចច្រឡឹង។",
+      vi: "Viên ngọc quý của nghệ thuật điêu khắc Khmer, tạc bằng sa thạch hồng tinh mịn vào năm 967 CN bởi học giả Bà La Môn Yajnavaraha, nổi tiếng với kích thước tinh tế và phù điêu 3D tinh xảo tột bậc.",
+      th: "อัญมณีแห่งศิลปะเขมร สร้างด้วยหินทรายสีชมพูในปี ค.ศ. 967 โดยพราหมณ์ยัชญวราหะ โดดเด่นด้วยลวดลายแกะสลักอันประณีตและวิจิตรบรรจง",
+    },
+    era: {
+      en: "10th Century CE (Consecrated 967 CE)",
+      km: "សតវត្សរ៍ទី ១០ នៃ គ.ស. (សម្ពោធ ឆ្នាំ ៩៦៧)",
+      vi: "Thế kỷ 10 CN (Khánh thành năm 967 CN)",
+      th: "ศตวรรษที่ 10 (สร้างเสร็จ ค.ศ. 967)",
+    },
+    coverMedia: createMedia(
+      "m-bs-cover",
+      LOCAL_ASSETS.banteaySrei,
+      "Intricately Carved Rose Sandstone Sanctuary of Banteay Srei",
+      "ប្រាង្គថ្មភក់ពណ៌ផ្កាឈូកនៃប្រាសាទបន្ទាយស្រី",
+      "Khmer Heritage Field Mission",
+      "Thánh điện sa thạch hồng với đường nét chạm khắc tinh xảo tại Banteay Srei",
+      "ปราสาทหินทรายสีชมพูบันทายศรี",
+      "Khmer Heritage Field Archive",
+      "cc_by_sa",
+      "src-khmer-field-mission",
+      {
+        repository: "Khmer Heritage Photographic Repository",
+        collection: "Angkor Archaeological Park Survey",
+        captureDate: "2024-02-17",
+        creditLine: "Khmer Heritage Field Mission (2024)",
+      }
+    ),
+    coordinates: {
+      latitude: 13.5987,
+      longitude: 103.9633,
+    },
+    location: {
+      coordinates: { latitude: 13.5987, longitude: 103.9633 },
+      province: { en: "Siem Reap", km: "សៀមរាប", vi: "Siem Reap", th: "เสียมราฐ" },
+      country: "Cambodia",
+      siteName: { en: "Banteay Srei Historic Complex", km: "រមណីយដ្ឋានបន្ទាយស្រី" },
+    },
+    keyFacts: {
+      era: { en: "Consecrated April 22, 967 CE", km: "សម្ពោធ ថ្ងៃទី ២២ មេសា ឆ្នាំ ៩៦៧" },
+      builder: { en: "Yajnavaraha (Royal Guru & Brahmin Scholar)", km: "ព្រះគ្រូ យជ្ញវរាហៈ", vi: "Yajnavaraha (Hoàng sư Bà La Môn)", th: "ยัชญวราหะ (ราชครูพราหมณ์)" },
+      ruler: { en: "King Rajendravarman II & Jayavarman V", km: "ព្រះបាទរាជេន្ទ្រវរ្ម័នទី ២ និង ជ័យវរ្ម័នទី ៥" },
+      religion: { en: "Shaivism (Tribhuvanamahesvara)", km: "ព្រហ្មញ្ញសាសនា (និកាយសិវៈ)" },
+      architecturalStyle: { en: "Banteay Srei Style", km: "រចនាប័ទ្មបន្ទាយស្រី" },
+      material: { en: "Rose-pink Arkose Sandstone", km: "ថ្មភក់ពណ៌ផ្កាឈូក" },
+    },
+    content: {
+      sections: [
+        {
+          id: "sec-bs-craft",
+          heading: {
+            en: "Rose Sandstone Mastery & Non-Royal Brahmin Consecration",
+            km: "សិល្បៈថ្មភក់ពណ៌ផ្កាឈូក និងការស្ថាបនាដោយព្រាហ្មណ៍បណ្ឌិត",
+            vi: "Nghệ Thuật Sa Thạch Hồng & Dấu Ấn Kiến Trúc Phi Hoàng Tộc",
+            th: "ศิลปะหินทรายสีชมพูและการสถาปนาโดยปราชญ์พราหมณ์",
+          },
+          body: {
+            en: "Originally named Tribhuvanamahesvara ('Great Lord of the Threefold World'), Banteay Srei is unique among major Angkorian temples as it was commissioned not by a reigning monarch, but by a Brahmin scholar, Yajnavaraha, who served as preceptor to King Jayavarman V. The temple was carved from a hard, fine-grained rose-red arkosic sandstone that allowed sculptors to achieve woodcarving-like depth and crisp filigree detail that has resisted weathering for over a millennium.",
+            km: "ដើមឡើយមានឈ្មោះថា ត្រីភុវនមហេស្វរ ប្រាសាទបន្ទាយស្រីជាប្រាសាទពិសេសដែលសាងឡើងដោយព្រាហ្មណ៍បណ្ឌិតយជ្ញវរាហៈ មិនមែនដោយព្រះមហាក្សត្រឡើយ។ ថ្មភក់ពណ៌ផ្កាឈូកមានសាច់រឹងមាំ អនុញ្ញាតឲ្យវិចិត្រករឆ្លាក់ក្បាច់យ៉ាងល្អិតល្អន់ដូចឆ្លាក់លើឈើ។",
+            vi: "Tên nguyên thủy là Tribhuvanamahesvara ('Đại Tự Chúa Tể Tam Giới'), Banteay Srei là ngôi đền duy nhất trong các kiệt tác Angkor được xây dựng bởi một học giả Bà La Môn — Yajnavaraha, hoàng sư của vua Jayavarman V — chứ không phải bởi quốc vương. Đền được tạc từ loại sa thạch hồng hạt mịn có độ cứng cao, cho phép các nghệ nhân chạm lộng những đường gờ, hoa văn dây leo và phù điêu sâu như khắc trên gỗ quý.",
+            th: "ปราสาทบันทายศรีเดิมชื่อว่า ตรีภูวนมเหศวร เป็นปราสาทที่สร้างโดยพราหมณ์ยัชญวราหะ ผู้เป็นพระอาจารย์ของพระเจ้าชัยวรมันที่ 5 หินทรายสีชมพูเนื้อละเอียดช่วยให้แกะสลักลวดลายได้คมชัดเสมือนงานแกะสลักไม้",
+          },
+        },
+        {
+          id: "sec-bs-pediments",
+          heading: {
+            en: "Narrative Pediments & Devata Niches",
+            km: "ហោជាងរឿងទេវកថា និងចម្លាក់ទេវតា",
+            vi: "Trán Cửa Kể Chuyện Sử Thi & Tượng Nữ Thần Devata",
+            th: "หน้าบันเล่าเรื่องมหากาพย์และรูปสลักนางเทวตา",
+          },
+          body: {
+            en: "Banteay Srei pioneered the narrative triangular pediment in Khmer architecture. Prominent scenes include Ravana shaking Mount Kailasa, Shiva and Parvati enthroned, the burning of the Khandava forest from the Mahabharata, and the duel between monkey kings Vali and Sugriva from the Ramayana. The devata (celestial nymph) figures standing in niches hold lotus stems and display delicate folded sampot garments that French author André Malraux famously attempted to plunder in 1923.",
+            km: "ហោជាងបន្ទាយស្រីបង្ហាញពីឈុតឆាករឿងរាមកេរ្តិ៍ និងមហាភារតៈ រួមមានយក្សក្រុងរាពណ៍អង្រួនភ្នំកៃលាស ព្រះសិវៈនិងនាងបវ៌តី និងចម្បាំងពាលីនិងសុគ្រីព។ ចម្លាក់ទេវតាក្នុងប្រាង្គនីមួយៗមានសម្រស់ស្រស់ស្អាតឥតខ្ចោះ។",
+            vi: "Banteay Srei mở đầu cho phong cách chạm trổ trán cửa hình tam giác kể chuyện sử thi trong kiến trúc Khmer. Các tích kinh điển gồm có: Quỷ vương Ravana rung chuyển núi tuyết Kailasa, thần Shiva và Parvati an tọa, thần Krishna đốt rừng Khandava, và trận quyết đấu giữa hai vua khỉ Vali và Sugriva. Các bức tượng nữ thần Devata đứng trong vòm hốc đá mang nét duyên dáng thanh tao và trang phục xếp nếp tinh xảo.",
+            th: "หน้าบันของบันทายศรีแสดงเรื่องราวมหากาพย์อย่างมีชีวิตชีวา เช่น ภาพทศกัณฐ์เขย่าเขาไกรลาส พระศิวะและพระอุมา และการต่อสู้ระหว่างพาลีกับสุครีพ รูปสลักนางเทวตามีความอ่อนช้อยงดงามอย่างยิ่ง",
+          },
+        },
+      ],
+    },
+    gallery: [
+      createMedia(
+        "m-bs-g1",
+        LOCAL_ASSETS.banteaySrei,
+        "Ravana Shaking Mount Kailasa Pediment Relief",
+        "ចម្លាក់ហោជាងក្រុងរាពណ៍អង្រួនភ្នំកៃលាស",
+        "EFEO Photographic Archives",
+        "Phù điêu trán cửa tích Quỷ vương Ravana rung chuyển núi Kailasa",
+        "ภาพสลักหน้าบันทศกัณฐ์เขย่าเขาไกรลาส",
+        "EFEO Archives",
+        "direct_permission",
+        "src-efeo-photo-archive"
+      ),
+    ],
+    relatedEntryIds: ["e-angkor-wat", "e-bayon", "e-reamker", "e-apsara"],
+    relatedEntries: ["e-angkor-wat", "e-bayon", "e-reamker", "e-apsara"],
+    sourceIds: ["src-finot-parmentier-1926", "src-dagens-1995", "src-unesco-668", "src-marchal-1955"],
+    citations: [
+      {
+        id: "c-bs-1",
+        title: "Le temple d'Icvarapura (Banteay Srei, Cambodge)",
+        author: "Louis Finot, Henri Parmentier, Victor Goloubew",
+        year: 1926,
+        publisher: "G. Van Oest / EFEO Mémoires archéologiques I",
+        sourceId: "src-finot-parmentier-1926",
+        sourceType: "academic_publication",
+        reviewStatus: "verified_peer_reviewed",
+      },
+      {
+        id: "c-bs-2",
+        title: "Angkor: Heart of an Asian Empire",
+        author: "Bruno Dagens",
+        year: 1995,
+        publisher: "Thames & Hudson",
+        sourceId: "src-dagens-1995",
+        sourceType: "academic_publication",
+        reviewStatus: "verified_peer_reviewed",
+      },
+    ],
+    reviewStatus: "verified_peer_reviewed",
+    scholarlyReviewer: "EFEO & APSARA Scientific Directorate",
+    updatedAt: "2026-08-28T00:00:00.000Z",
+  },
+];

@@ -32,4 +32,46 @@
   - Added CLI runner `npm run content:validate`.
   - Introduced `IContentProvider` interface and `StaticContentProvider` for zero-UI-rewrite migration to Cloudflare R2 / Headless CMS.
 
+## Task KH-007: Content Source & Licensing Foundation
+- **Date**: 2026-08-28
+- **Assigned By**: ChatGPT / PM
+- **Implemented By**: Studio AI (Developer)
+- **Status**: SUCCESS
+- **Summary**:
+  - Extended schema contracts with `SourceType`, `ReviewStatus`, `MediaProvenance`, and `SourceRecord`.
+  - Created central Source Registry (`src/data/sources.ts`) with 16 peer-reviewed academic publications and UNESCO/EFEO/APSARA institutional dossiers.
+  - Upgraded `src/pipeline/validator.ts` and `src/pipeline/normalize.ts` to enforce source referential integrity, attribution requirements, and review audits.
+  - Migrated `src/data/sampleEntries.ts` to link to central source IDs with rich provenance objects.
+  - Documented findings and validation report in `docs/AI_BRIDGE_REPORT_007.md`.
+
+## Task KH-008: Content Pipeline & Corpus Readiness Audit
+- **Date**: 2026-08-28
+- **Assigned By**: ChatGPT / PM
+- **Implemented By**: Studio AI (Developer)
+- **Status**: SUCCESS
+- **Summary**:
+  - Completed end-to-end trace of content lifecycle (Source -> Normalization -> Validation -> Provider -> Service -> UI).
+  - Audited Single Source of Truth across datasets and UI components.
+  - Implemented offline scalability test suite (`src/pipeline/scalabilityTest.ts`) measuring normalization, validation, and search throughput for up to 100 entries.
+  - Created 14-test validation guardrails suite (`src/pipeline/__tests__/validatorEdgeCases.test.ts`) covering uniqueness, graph integrity, attribution, coordinates, and URL checks.
+  - Upgraded `SearchView.tsx` for full 4-language searching (`km`, `en`, `vi`, `th`).
+  - Added `npm run content:test` and `npm run content:benchmark` test commands.
+  - Published comprehensive readiness audit report in `docs/AI_BRIDGE_REPORT_008.md`.
+
+## Task KH-009: Real Content Ingestion — First Curated Corpus
+- **Date**: 2026-08-28
+- **Assigned By**: ChatGPT / PM
+- **Implemented By**: Studio AI (Developer)
+- **Status**: SUCCESS
+- **Summary**:
+  - Ingested 16 comprehensive, peer-reviewed heritage entries across all 12 cultural pillars.
+  - Modularized corpus authoring into domain files under `src/data/entries/`.
+  - Expanded scholarly source registry (`src/data/sources.ts`) to 27 academic & institutional sources (EFEO, UNESCO, APSARA Authority, Antiquity, etc.).
+  - Embedded 33 media assets with rigorous CC BY-SA 4.0 provenance metadata and creator attributions.
+  - Validated and audited full corpus via `npm run content:test` with 0 errors and benchmark throughput of 23,753 entries/sec.
+  - Published comprehensive report in `docs/AI_BRIDGE_REPORT_009.md`.
+
+
+
+
 

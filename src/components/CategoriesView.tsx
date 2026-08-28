@@ -51,7 +51,9 @@ export function CategoriesView({
 
   const filteredEntries = entries.filter((e) => {
     const matchesCat =
-      selectedCategory === "all" || e.categoryId === selectedCategory;
+      selectedCategory === "all" ||
+      e.categoryId === selectedCategory ||
+      e.category === selectedCategory;
     const matchesEra =
       selectedEra === "all" ||
       e.era.en.toLowerCase().includes(selectedEra.toLowerCase()) ||

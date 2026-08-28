@@ -30,6 +30,53 @@ export const LICENSE_LABEL: Record<LicenseTier, string> = {
   direct_permission: 'Direct Museum Permission',
 };
 
+export type SourceType =
+  | 'academic_publication'
+  | 'unesco_institutional'
+  | 'museum_archive'
+  | 'government_heritage_authority'
+  | 'open_licensed_media'
+  | 'public_domain'
+  | 'original_commissioned'
+  | 'unknown_needs_review';
+
+export type ReviewStatus =
+  | 'verified_peer_reviewed'
+  | 'institutional_certified'
+  | 'preliminary_review'
+  | 'needs_human_review'
+  | 'unverified';
+
+export interface MediaProvenance {
+  repository?: string;
+  collection?: string;
+  accessionNumber?: string;
+  creditLine?: string;
+  captureDate?: string;
+  physicalLocation?: string;
+  rightsNotice?: string;
+}
+
+export interface SourceRecord {
+  id: string;
+  type: SourceType;
+  title: string;
+  author: string;
+  institution?: string;
+  publication?: string;
+  publisher?: string;
+  year?: number;
+  publicationDate?: string;
+  accessDate?: string;
+  url?: string;
+  isbn?: string;
+  doi?: string;
+  license?: LicenseTier;
+  attribution?: string;
+  reviewStatus: ReviewStatus;
+  notes?: string;
+}
+
 export interface MediaAsset {
   id: string;
   url: string;
@@ -43,6 +90,9 @@ export interface MediaAsset {
   license: LicenseTier;
   licenseUrl: string;
   attribution: string;
+  sourceId?: string;
+  provenance?: MediaProvenance;
+  reviewStatus?: ReviewStatus;
   dimensions?: {
     width: number;
     height: number;
@@ -53,11 +103,19 @@ export interface Citation {
   id: string;
   title: string;
   author: string;
+  sourceId?: string;
+  institution?: string;
   year?: number;
+  publicationDate?: string;
+  accessDate?: string;
   publisher?: string;
   url?: string;
   isbn?: string;
   doi?: string;
+  license?: LicenseTier;
+  attribution?: string;
+  sourceType?: SourceType;
+  reviewStatus?: ReviewStatus;
 }
 
 export interface Category {
@@ -111,6 +169,8 @@ export interface AudioMediaMetadata {
 
 export interface KeyFacts {
   era?: LocalizedString;
+  author?: LocalizedString;
+  creator?: LocalizedString;
   builder?: LocalizedString;
   founder?: LocalizedString;
   ruler?: LocalizedString;
@@ -156,9 +216,12 @@ export interface EntryDetail extends EntrySummary {
   gallery: MediaAsset[];
   relatedEntryIds: string[];
   relatedEntries?: string[];
+  sourceIds?: string[];
   citations: Citation[];
   bibliography?: Citation[];
   audioMetadata?: AudioMediaMetadata;
+  reviewStatus?: ReviewStatus;
+  scholarlyReviewer?: string;
   version?: number;
   createdAt?: string;
 }

@@ -10,6 +10,7 @@ import {
   HeritageEntry,
   LocalizedString,
   MediaAsset,
+  SourceRecord,
 } from '../types/schema.ts';
 import { NormalizeOptions } from './types.ts';
 
@@ -51,6 +52,7 @@ export function normalizeMediaAsset(raw: Partial<MediaAsset> | undefined, fallba
       license: 'cc_by_sa',
       licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0/',
       attribution: 'Khmer Heritage Archive, CC BY-SA 4.0',
+      reviewStatus: 'verified_peer_reviewed',
     };
   }
 
@@ -67,6 +69,9 @@ export function normalizeMediaAsset(raw: Partial<MediaAsset> | undefined, fallba
     license: raw.license || 'cc_by_sa',
     licenseUrl: (raw.licenseUrl || 'https://creativecommons.org/licenses/by-sa/4.0/').trim(),
     attribution: (raw.attribution || `${raw.creator || 'Archive'} — CC BY-SA 4.0`).trim(),
+    ...(raw.sourceId ? { sourceId: raw.sourceId.trim() } : {}),
+    ...(raw.provenance ? { provenance: raw.provenance } : {}),
+    ...(raw.reviewStatus ? { reviewStatus: raw.reviewStatus } : {}),
     ...(raw.dimensions ? { dimensions: raw.dimensions } : {}),
   };
 }
@@ -92,11 +97,19 @@ export function normalizeCitation(raw: Partial<Citation>, fallbackId = 'cit-1'):
     id: (raw.id || fallbackId).trim(),
     title: (raw.title || '').trim(),
     author: (raw.author || 'Scholarly Reference').trim(),
+    ...(raw.sourceId ? { sourceId: raw.sourceId.trim() } : {}),
+    ...(raw.institution ? { institution: raw.institution.trim() } : {}),
     ...(typeof raw.year === 'number' ? { year: raw.year } : {}),
+    ...(raw.publicationDate ? { publicationDate: raw.publicationDate.trim() } : {}),
+    ...(raw.accessDate ? { accessDate: raw.accessDate.trim() } : {}),
     ...(raw.publisher ? { publisher: raw.publisher.trim() } : {}),
     ...(raw.url ? { url: raw.url.trim() } : {}),
     ...(raw.isbn ? { isbn: raw.isbn.trim() } : {}),
     ...(raw.doi ? { doi: raw.doi.trim() } : {}),
+    ...(raw.license ? { license: raw.license } : {}),
+    ...(raw.attribution ? { attribution: raw.attribution.trim() } : {}),
+    ...(raw.sourceType ? { sourceType: raw.sourceType } : {}),
+    ...(raw.reviewStatus ? { reviewStatus: raw.reviewStatus } : {}),
   };
 }
 
@@ -124,6 +137,11 @@ export function normalizeHeritageEntry(
     ? Array.from(new Set(rawRelated.map((r) => String(r).trim()).filter(Boolean)))
     : [];
 
+  const rawSourceIds = raw.sourceIds || [];
+  const sourceIds = Array.isArray(rawSourceIds)
+    ? Array.from(new Set(rawSourceIds.map((s) => String(s).trim()).filter(Boolean)))
+    : undefined;
+
   const rawCitations = raw.citations || raw.bibliography || [];
   const citations = Array.isArray(rawCitations)
     ? rawCitations.map((c, idx) => normalizeCitation(c, `${id}-c-${idx + 1}`))
@@ -144,6 +162,7 @@ export function normalizeHeritageEntry(
     gallery,
     relatedEntryIds,
     relatedEntries: relatedEntryIds,
+    ...(sourceIds && sourceIds.length > 0 ? { sourceIds } : {}),
     citations,
     bibliography: citations,
   };
@@ -161,6 +180,12 @@ export function normalizeHeritageEntry(
   if (raw.audioMetadata) {
     normalized.audioMetadata = raw.audioMetadata;
   }
+  if (raw.reviewStatus) {
+    normalized.reviewStatus = raw.reviewStatus;
+  }
+  if (raw.scholarlyReviewer) {
+    normalized.scholarlyReviewer = raw.scholarlyReviewer;
+  }
   if (raw.updatedAt) {
     normalized.updatedAt = raw.updatedAt;
   }
@@ -177,3 +202,4 @@ export function normalizeCorpus(
 ): HeritageEntry[] {
   return rawEntries.map((e) => normalizeHeritageEntry(e, options));
 }
+

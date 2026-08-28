@@ -1,0 +1,141 @@
+import type { HeritageEntry } from "../../types/schema.ts";
+import { createMedia, LOCAL_ASSETS } from "./mediaHelper.ts";
+
+export const historyEntries: HeritageEntry[] = [
+  // PHNOM KULEN & FOUNDATION OF ANGKOR 802 CE
+  {
+    id: "e-phnom-kulen",
+    slug: "phnom-kulen",
+    category: "history",
+    categoryId: "history",
+    title: {
+      en: "Phnom Kulen Holy Plateau & Foundation of the Khmer Empire",
+      km: "រមណីយដ្ឋានភ្នំគូលេន និងការបង្កើតចក្រភពអង្គរ",
+      vi: "Thánh Địa Núi Thiêng Phnom Kulen & Sự Khởi Lập Đế Chế Angkor",
+      th: "เทือกเขาศักดิ์สิทธิ์พนมกุเลนและการสถาปนาจักรวรรดิเขมร",
+    },
+    summary: {
+      en: "The sacred sandstone plateau (ancient Mahendraparvata) where King Jayavarman II consecrated the Devaraja ritual in 802 CE, featuring the sacred riverbeds of Kbal Spean and a Thousand Lingas.",
+      km: "ខ្ពង់រាបភ្នំថ្មភក់សក្ការៈ (មហេន្ទ្របព៌តបុរាណ) ជាទីតាំងដែលព្រះបាទជ័យវរ្ម័នទី ២ ប្រកាសឯករាជ្យ និងប្រារព្ធពិធីទេវរាជក្នុងឆ្នាំ ៨០២ ព្រមទាំងមានស្ទឹងលិង្គ ១០០០។",
+      vi: "Cao nguyên sa thạch thiêng liêng (cố đô Mahendraparvata) nơi vua Jayavarman II cử hành đại lễ Thần Vương (Devaraja) năm 802 CN khai sinh đế chế Angkor, nổi tiếng với Dòng Sông Ngàn Linga.",
+      th: "ที่ราบสูงหินทรายศักดิ์สิทธิ์ (มเหนทรบรรพต) สถานที่สถาปนาลัทธิเทวราชาในปี ค.ศ. 802 โดยพระเจ้าชัยวรมันที่ 2 และสายน้ำศิวลึงค์ 1,000 องค์",
+    },
+    era: {
+      en: "802 CE – Present (Foundation of the Angkorian Era)",
+      km: "ឆ្នាំ ៨០២ នៃ គ.ស. – បច្ចុប្បន្ន",
+      vi: "Năm 802 CN – Nay (Thời kỳ Khởi nguyên Angkor)",
+      th: "ค.ศ. 802 ถึงปัจจุบัน (ยุคเริ่มต้นอาณาจักรพระนคร)",
+    },
+    coverMedia: createMedia(
+      "m-pk-cover",
+      LOCAL_ASSETS.banteaySrei,
+      "The Carved Riverbed of a Thousand Lingas at Kbal Spean, Phnom Kulen",
+      "ស្ទឹងលិង្គមួយពាន់ និងចម្លាក់ព្រះវិស្ណុនៅភ្នំគូលេន",
+      "Khmer Heritage Field Mission",
+      "Lòng suối chạm khắc ngàn Linga và phù điêu thần Vishnu tại Phnom Kulen",
+      "แม่น้ำศิวลึงค์ 1,000 องค์บนเทือกเขาพนมกุเลน",
+      "Khmer Heritage Field Archive",
+      "cc_by_sa",
+      "src-khmer-field-mission",
+      {
+        repository: "Khmer Heritage Photographic Repository",
+        collection: "Phnom Kulen Archaeological Survey",
+        captureDate: "2024-02-18",
+        creditLine: "Khmer Heritage Field Mission (2024)",
+      }
+    ),
+    coordinates: {
+      latitude: 13.5786,
+      longitude: 104.1103,
+    },
+    location: {
+      coordinates: { latitude: 13.5786, longitude: 104.1103 },
+      province: { en: "Siem Reap", km: "សៀមរាប", vi: "Siem Reap", th: "เสียมราฐ" },
+      country: "Cambodia",
+      siteName: { en: "Phnom Kulen National Park", km: "ឧទ្យានជាតិភ្នំគូលេន" },
+    },
+    keyFacts: {
+      era: { en: "Foundation 802 CE", km: "បង្កើតឡើងក្នុងឆ្នាំ ៨០២" },
+      founder: { en: "King Jayavarman II", km: "ព្រះបាទជ័យវរ្ម័នទី ២", vi: "Vua Jayavarman II", th: "พระเจ้าชัยวรมันที่ 2" },
+      religion: { en: "Shaivism / Devaraja (Kamraten Jagat ta Raja)", km: "លទ្ធិទេវរាជ (កម្រតេងជគតតរាជ)" },
+      unescoStatus: { en: "Tentative List (Angkor Park Extension)", km: "បញ្ជីត្រៀមបេតិកភណ្ឌពិភពលោក" },
+      material: { en: "Natural Sandstone Riverbeds & Laterite", km: "ថ្មភក់ធម្មជាតិ និងថ្មបាយក្រៀម" },
+    },
+    content: {
+      sections: [
+        {
+          id: "sec-pk-devaraja",
+          heading: {
+            en: "802 CE Devaraja Consecration & Independence of Kambuja",
+            km: "ពិធីទេវរាជឆ្នាំ ៨០២ និងឯករាជ្យភាពនៃកម្ពុជា",
+            vi: "Đại Lễ Thần Vương 802 CN & Nền Độc Lập Khai Sinh Xứ Kambuja",
+            th: "พิธีเทวราชา ค.ศ. 802 และการประกาศเอกราชแห่งกัมพูชา",
+          },
+          body: {
+            en: "In the year 802 CE, atop the sacred sandstone plateau of Mahendraparvata (Phnom Kulen), King Jayavarman II conducted a solemn Vedic ritual with the Brahmin priest Hiranyadama. As recorded in the 1052 CE Sdok Kok Thom inscription, this ceremony consecrated the Devaraja (universal Chakravartin or god-king) cult and declared Kambujadesa free from Javanese suzerainty, marking the canonical birth of the Angkorian Khmer Empire.",
+            km: "នៅឆ្នាំ ៨០២ លើកំពូលភ្នំមហេន្ទ្របព៌ត (ភ្នំគូលេន) ព្រះបាទជ័យវរ្ម័នទី ២ បានប្រារព្ធពិធីទេវរាជជាមួយព្រាហ្មណ៍ហិរណ្យទាម។ ពិធីនេះបានបង្រួបបង្រួមទឹកដី និងប្រកាសឯករាជ្យជាតិ បង្កើតឡើងនូវចក្រភពអង្គរដ៏រុងរឿង។",
+            vi: "Năm 802 CN, trên đỉnh cao nguyên sa thạch Mahendraparvata (Phnom Kulen), vua Jayavarman II cùng đại đạo sĩ Bà La Môn Hiranyadama đã cử hành nghi lễ Vệ Đà thiêng liêng. Như được ghi chép trong văn bia Sdok Kok Thom năm 1052, nghi lễ này đã thiết lập tín ngưỡng Thần Vương (Devaraja - Vua Chuyển Luân Thánh Vương) và tuyên bố xứ Kambujadesa hoàn toàn độc lập, đánh dấu thời điểm khai sinh chính thức của Đế chế Khmer Angkor.",
+            th: "ในปี ค.ศ. 802 บนเทือกเขามเหนทรบรรพต (พนมกุเลน) พระเจ้าชัยวรมันที่ 2 ร่วมกับพราหมณ์หิรัญญทามะ ประกอบพิธีสถาปนาลัทธิเทวราชา ประกาศอิสรภาพและรวมแผ่นดินเขมรเป็นปึกแผ่น อันเป็นจุดเริ่มต้นของจักรวรรดิเขมร",
+          },
+        },
+        {
+          id: "sec-pk-lingas",
+          heading: {
+            en: "The River of a Thousand Lingas (Kbal Spean) & Hydraulic Sanctification",
+            km: "ស្ទឹងលិង្គមួយពាន់ (ក្បាលស្ពាន) និងប្រព័ន្ធទឹកសក្ការៈ",
+            vi: "Dòng Sông Ngàn Linga (Kbal Spean) & Sự Linh Hóa Nguồn Thủy Lợi",
+            th: "แม่น้ำศิวลึงค์ 1,000 องค์และการชลประทานศักดิ์สิทธิ์",
+          },
+          body: {
+            en: "Beneath the crystalline mountain waters of Kbal Spean and the Siem Reap River, ancient sculptors carved hundreds of stone lingas and yoni into the natural bedrock alongside bas-reliefs of Lord Vishnu reclining on the serpent Ananta with Brahma emerging from his navel. As the monsoon waters flowed over these sacred carvings, they were ritually sanctified before descending to fill the vast reservoir barays (Indratataka, Yasodharatataka) and irrigate the rice plains of Angkor.",
+            km: "ក្រោមបាតទឹកស្ទឹងក្បាលស្ពាន និងស្ទឹងសៀមរាប មានឆ្លាក់រូបលិង្គរាប់ពាន់ និងព្រះវិស្ណុផ្ទុំលើនាគអនន្ត។ ទឹកដែលហូរលើចម្លាក់សក្ការៈទាំងនេះក្លាយជាទឹកមន្តហូរទៅស្រោចស្រពវាលស្រែ និងបារាយណ៍នៃរាជធានីអង្គរ។",
+            vi: "Dưới làn nước trong vắt của suối Kbal Spean và nguồn sông Siem Reap, các nghệ nhân xưa đã chạm khắc hàng trăm biểu tượng Linga và Yoni trực tiếp vào lòng đá tự nhiên, cùng các phù điêu thần Vishnu an tọa trên Rắn thần Ananta sinh ra thần Brahma. Dòng nước chảy tràn qua các điêu khắc thiêng liêng này được 'thánh hóa' thành nước cam lồ trước khi chảy về lấp đầy các đại hồ Baray và nuôi dưỡng các cánh đồng lúa bát ngát của Angkor.",
+            th: "ใต้ท้องน้ำใสของกบาลสะเปียน สลักศิวลึงค์และโยนีหลายร้อยองค์บนพื้นหินทราย พร้อมภาพสลักพระนารายณ์บรรทมสินธุ์ เมื่อน้ำไหลผ่านจะกลายเป็นน้ำศักดิ์สิทธิ์หล่อเลี้ยงบารายและนาข้าวแห่งเมืองพระนคร",
+          },
+        },
+      ],
+    },
+    gallery: [
+      createMedia(
+        "m-pk-g1",
+        LOCAL_ASSETS.banteaySrei,
+        "Vishnu Anantasayana Relief on Kbal Spean Riverbed",
+        "ចម្លាក់ព្រះវិស្ណុផ្ទុំលើនាគអនន្តក្នុងបាតស្ទឹង",
+        "Khmer Heritage Field Mission",
+        "Phù điêu thần Vishnu an tọa trên rắn thần dưới lòng suối Kbal Spean",
+        "ภาพสลักพระนารายณ์บรรทมสินธุ์ใต้น้ำ",
+        "Khmer Heritage Field Archive",
+        "cc_by_sa",
+        "src-khmer-field-mission"
+      ),
+    ],
+    relatedEntryIds: ["e-sdok-kok-thom", "e-angkor-wat", "e-bayon", "e-jayavarman-vii"],
+    relatedEntries: ["e-sdok-kok-thom", "e-angkor-wat", "e-bayon", "e-jayavarman-vii"],
+    sourceIds: ["src-chevance-2019", "src-coedes-1968", "src-groslier-1956", "src-coedes-1937"],
+    citations: [
+      {
+        id: "c-pk-1",
+        title: "Mahendraparvata: an early Angkorian-period mountain city in the Phnom Kulen",
+        author: "Jean-Baptiste Chevance, Damian Evans, Nina Hofer, et al.",
+        year: 2019,
+        publisher: "Antiquity (Cambridge University Press)",
+        sourceId: "src-chevance-2019",
+        sourceType: "academic_publication",
+        reviewStatus: "verified_peer_reviewed",
+      },
+      {
+        id: "c-pk-2",
+        title: "The Indianized States of Southeast Asia",
+        author: "George Cœdès",
+        year: 1968,
+        publisher: "University of Hawaii Press",
+        sourceId: "src-coedes-1968",
+        sourceType: "academic_publication",
+        reviewStatus: "verified_peer_reviewed",
+      },
+    ],
+    reviewStatus: "verified_peer_reviewed",
+    scholarlyReviewer: "Archaeology & Development Foundation (ADF) & EFEO",
+    updatedAt: "2026-08-28T00:00:00.000Z",
+  },
+];

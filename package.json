@@ -9,6 +9,8 @@
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
     "content:validate": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/validate.ts",
+    "content:test": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/testRunner.ts",
+    "content:benchmark": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/scalabilityTest.ts",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
