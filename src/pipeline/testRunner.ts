@@ -15,6 +15,7 @@ import { exportContentBundle } from './exporter.ts';
 import { validateContentBundle } from './validateBundle.ts';
 import { runR2ProviderTestSuite } from '../services/providers/__tests__/r2Provider.test.ts';
 import { runOfflineCacheTests } from '../services/providers/__tests__/offlineCache.test.ts';
+import { runDeployR2Tests } from './__tests__/deployR2.test.ts';
 
 export async function runAllPipelineAudits(): Promise<boolean> {
   const overallStart = performance.now();
@@ -134,12 +135,29 @@ export async function runAllPipelineAudits(): Promise<boolean> {
     return false;
   }
 
+  // STAGE 7: Cloudflare R2 Deployment Pipeline & AWS SigV4 Signer
+  console.log('▶ STAGE 7: TESTING R2 DEPLOYMENT ENGINE, CACHE POLICIES & SIGV4 AUTH...');
+  const deployReport = await runDeployR2Tests();
+  deployReport.results.forEach((r, idx) => {
+    const symbol = r.passed ? '✓ PASS' : '✗ FAIL';
+    console.log(`  [${symbol}] Test ${String(idx + 1).padStart(2, '0')}: ${r.name} (${r.durationMs} ms)`);
+  });
+  console.log(`  • Result: ${deployReport.passed}/${deployReport.total} R2 deployment tests passed in ${deployReport.durationMs} ms.\n`);
+
+  if (deployReport.failed > 0) {
+    console.error(`❌ STAGE 7 FAILED: ${deployReport.failed} R2 deployment test cases failed!`);
+    deployReport.results
+      .filter((r) => !r.passed)
+      .forEach((r) => console.error(`    - ${r.name}: ${r.error}`));
+    return false;
+  }
+
   const overallEnd = performance.now();
   const overallMs = +(overallEnd - overallStart).toFixed(2);
 
   console.log('╔═══════════════════════════════════════════════════════════════════════════╗');
-  console.log(`║ ALL 6 AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                   ║`);
-  console.log('║ STATUS: CORPUS, BUNDLE, R2 REMOTE PROVIDER & OFFLINE CACHE VERIFIED       ║');
+  console.log(`║ ALL 7 AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                   ║`);
+  console.log('║ STATUS: CORPUS, BUNDLE, R2 PROVIDER, OFFLINE CACHE & DEPLOY ENGINE VERIFIED║');
   console.log('╚═══════════════════════════════════════════════════════════════════════════╝\n');
 
   return true;

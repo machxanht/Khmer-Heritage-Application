@@ -4,6 +4,7 @@
  * with appropriate HTTP cache-control headers, CORS, and content-type metadata.
  */
 
+import * as crypto from 'node:crypto';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { validateContentBundle } from './validateBundle.ts';
@@ -16,6 +17,102 @@ export interface R2DeployConfig {
   publicUrl?: string;
   bundleDir?: string;
   dryRun?: boolean;
+  fetchFn?: typeof fetch;
+}
+
+function hmac(key: Buffer | string, data: string): Buffer {
+  return crypto.createHmac('sha256', key).update(data, 'utf8').digest();
+}
+
+function sha256Hex(data: Buffer | string): string {
+  return crypto.createHash('sha256').update(data).digest('hex');
+}
+
+/**
+ * Executes an authenticated AWS Signature Version 4 PUT request to Cloudflare R2 S3-compatible API.
+ */
+export async function uploadObjectToR2(params: {
+  accountId: string;
+  accessKeyId: string;
+  secretAccessKey: string;
+  bucketName: string;
+  r2Key: string;
+  contentType: string;
+  cacheControl: string;
+  body: Buffer;
+  fetchFn?: typeof fetch;
+}): Promise<{ ok: boolean; status: number; statusText: string; error?: string }> {
+  const {
+    accountId,
+    accessKeyId,
+    secretAccessKey,
+    bucketName,
+    r2Key,
+    contentType,
+    cacheControl,
+    body,
+    fetchFn = fetch,
+  } = params;
+
+  const host = `${accountId}.r2.cloudflarestorage.com`;
+  const url = `https://${host}/${bucketName}/${r2Key}`;
+  const now = new Date();
+  const amzDate = now.toISOString().replace(/[:-]|\.\d{3}/g, '');
+  const dateStamp = amzDate.substring(0, 8);
+  const region = 'auto';
+  const service = 's3';
+
+  const payloadHash = sha256Hex(body);
+
+  const canonicalUri = `/${bucketName}/${r2Key}`;
+  const canonicalQuery = '';
+  const canonicalHeaders =
+    `cache-control:${cacheControl}\n` +
+    `content-type:${contentType}\n` +
+    `host:${host}\n` +
+    `x-amz-content-sha256:${payloadHash}\n` +
+    `x-amz-date:${amzDate}\n`;
+  const signedHeaders = 'cache-control;content-type;host;x-amz-content-sha256;x-amz-date';
+
+  const canonicalRequest = `PUT\n${canonicalUri}\n${canonicalQuery}\n${canonicalHeaders}\n${signedHeaders}\n${payloadHash}`;
+  const canonicalRequestHash = sha256Hex(canonicalRequest);
+
+  const credentialScope = `${dateStamp}/${region}/${service}/aws4_request`;
+  const stringToSign = `AWS4-HMAC-SHA256\n${amzDate}\n${credentialScope}\n${canonicalRequestHash}`;
+
+  const kSecret = `AWS4${secretAccessKey}`;
+  const kDate = hmac(kSecret, dateStamp);
+  const kRegion = hmac(kDate, region);
+  const kService = hmac(kRegion, service);
+  const kSigning = hmac(kService, 'aws4_request');
+
+  const signature = crypto.createHmac('sha256', kSigning).update(stringToSign, 'utf8').digest('hex');
+
+  const authHeader = `AWS4-HMAC-SHA256 Credential=${accessKeyId}/${credentialScope}, SignedHeaders=${signedHeaders}, Signature=${signature}`;
+
+  try {
+    const res = await fetchFn(url, {
+      method: 'PUT',
+      headers: {
+        'Host': host,
+        'Content-Type': contentType,
+        'Cache-Control': cacheControl,
+        'x-amz-date': amzDate,
+        'x-amz-content-sha256': payloadHash,
+        'Authorization': authHeader,
+      },
+      body,
+    });
+
+    if (res.ok) {
+      return { ok: true, status: res.status, statusText: res.statusText };
+    } else {
+      const errorText = await res.text();
+      return { ok: false, status: res.status, statusText: res.statusText, error: errorText };
+    }
+  } catch (err: any) {
+    return { ok: false, status: 0, statusText: 'Fetch Error', error: err.message };
+  }
 }
 
 export interface FileDeployPlan {
@@ -199,12 +296,26 @@ export async function deployToR2(config: R2DeployConfig = {}): Promise<Deploymen
   for (const plan of plans) {
     try {
       const fileContent = fs.readFileSync(plan.localPath);
-      // In production, execute signed S3 PUT request to R2 S3-compatible API endpoint
-      const endpoint = `https://${accountId}.r2.cloudflarestorage.com/${bucketName}/${plan.r2Key}`;
-      messages.push(`Deploying ${plan.relativePath} -> ${endpoint} [${plan.cacheControl}]`);
-      uploadedCount++;
+      const result = await uploadObjectToR2({
+        accountId,
+        accessKeyId,
+        secretAccessKey,
+        bucketName,
+        r2Key: plan.r2Key,
+        contentType: plan.contentType,
+        cacheControl: plan.cacheControl,
+        body: fileContent,
+        fetchFn: config.fetchFn,
+      });
+
+      if (result.ok) {
+        messages.push(`✓ Uploaded ${plan.relativePath} -> ${plan.r2Key} [${plan.cacheControl}] (Status: ${result.status})`);
+        uploadedCount++;
+      } else {
+        messages.push(`✗ Upload failed for ${plan.relativePath} (Status ${result.status}): ${result.error || result.statusText}`);
+      }
     } catch (err: any) {
-      messages.push(`Upload failed for ${plan.relativePath}: ${err.message}`);
+      messages.push(`✗ Upload exception for ${plan.relativePath}: ${err.message}`);
     }
   }
 
