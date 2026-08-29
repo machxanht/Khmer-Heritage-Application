@@ -16,6 +16,7 @@ import { validateContentBundle } from './validateBundle.ts';
 import { runR2ProviderTestSuite } from '../services/providers/__tests__/r2Provider.test.ts';
 import { runOfflineCacheTests } from '../services/providers/__tests__/offlineCache.test.ts';
 import { runDeployR2Tests } from './__tests__/deployR2.test.ts';
+import { runSourceRegistryTestSuite } from './__tests__/sourceRegistry.test.ts';
 
 export async function runAllPipelineAudits(): Promise<boolean> {
   const overallStart = performance.now();
@@ -152,12 +153,29 @@ export async function runAllPipelineAudits(): Promise<boolean> {
     return false;
   }
 
+  // STAGE 8: Content Source Catalog, Licensing & Media Estimator
+  console.log('▶ STAGE 8: AUDITING SCHOLARLY SOURCE REGISTRY, LICENSES & ESTIMATOR...');
+  const sourceReport = await runSourceRegistryTestSuite();
+  sourceReport.results.forEach((r, idx) => {
+    const symbol = r.passed ? '✓ PASS' : '✗ FAIL';
+    console.log(`  [${symbol}] Test ${String(idx + 1).padStart(2, '0')}: ${r.name} (${r.durationMs} ms)`);
+  });
+  console.log(`  • Result: ${sourceReport.passed}/${sourceReport.total} source registry tests passed in ${sourceReport.durationMs} ms.\n`);
+
+  if (sourceReport.failed > 0) {
+    console.error(`❌ STAGE 8 FAILED: ${sourceReport.failed} source registry test cases failed!`);
+    sourceReport.results
+      .filter((r) => !r.passed)
+      .forEach((r) => console.error(`    - ${r.name}: ${r.error}`));
+    return false;
+  }
+
   const overallEnd = performance.now();
   const overallMs = +(overallEnd - overallStart).toFixed(2);
 
   console.log('╔═══════════════════════════════════════════════════════════════════════════╗');
-  console.log(`║ ALL 7 AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                   ║`);
-  console.log('║ STATUS: CORPUS, BUNDLE, R2 PROVIDER, OFFLINE CACHE & DEPLOY ENGINE VERIFIED║');
+  console.log(`║ ALL 8 AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                   ║`);
+  console.log('║ STATUS: CORPUS, BUNDLE, R2, OFFLINE CACHE, SIGV4 & SOURCE CATALOG VERIFIED║');
   console.log('╚═══════════════════════════════════════════════════════════════════════════╝\n');
 
   return true;

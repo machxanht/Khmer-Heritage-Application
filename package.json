@@ -12,6 +12,7 @@
     "content:validate": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/validate.ts",
     "content:test": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/testRunner.ts",
     "content:benchmark": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/scalabilityTest.ts",
+    "content:estimate": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/sourceEstimator.ts",
     "content:deploy": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/deployR2.ts",
     "content:deploy:dry": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/deployR2.ts --dry-run",
     "lint": "tsc --noEmit"

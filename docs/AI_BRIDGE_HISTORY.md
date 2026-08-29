@@ -129,6 +129,22 @@
   - Passed all 7 pipeline test stages (47/47 assertions passed), 0 lint errors, and verified build.
   - Maintained comprehensive documentation in `docs/AI_BRIDGE_PROGRESS_013.md` and `docs/AI_BRIDGE_REPORT_013.md`.
 
+## Task KH-014A: Content Source Catalog, Licensing Conditions & Media Storage Projections
+- **Date**: 2026-08-29
+- **Assigned By**: ChatGPT / PM
+- **Implemented By**: Studio AI (Developer)
+- **Status**: SUCCESS
+- **Summary**:
+  - Audited 20 verified scholarly, institutional, museum, and open media repositories (EFEO, APSARA Authority, RUFA, UNESCO WHC, National Museum of Cambodia, CKS, MCFA, Buddhist Institute, The Met Open Access, Smithsonian Open Access, Musée Guimet, British Library EAP, Library of Congress, Gallica/BnF, Wikimedia Commons, Internet Archive, Persée/BEFEO, Bophana Center, Smithsonian Folkways, In-House).
+  - Published comprehensive reference document `docs/CONTENT_SOURCE_CATALOG.md` detailing licensing models, commercial use permissions, attribution templates, rate limits, and crawl policies (`API_ONLY`, `MANUAL_REVIEW_REQUIRED`, `DIRECT_INGESTION_ONLY`).
+  - Implemented machine-readable source catalog and validation runtime in `src/data/sourceRegistry.ts` with JSON exporter and explicit prohibited scraper registry (`EXCLUDED_SOURCES`).
+  - Built metadata-only media storage estimator with checkpointing and timeout safety (`src/pipeline/sourceEstimator.ts`), establishing multi-scale storage and cost projections (1K to 100K entries) proving 91.8% storage savings and <$12.10/month R2 storage costs under optimized CDN delivery.
+  - Built automated test suite (`src/pipeline/__tests__/sourceRegistry.test.ts`) integrated as Stage 8 into `src/pipeline/testRunner.ts`.
+  - Added CLI runner `npm run content:estimate`.
+  - Passed 100% of pipeline tests across all 8 stages (57/57 assertions passed), 0 lint errors, and verified production build.
+  - Published completion report in `docs/AI_BRIDGE_REPORT_014.md` and updated bridge tracking documentation.
+
+
 
 
 

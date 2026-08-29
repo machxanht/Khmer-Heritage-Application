@@ -158,3 +158,124 @@ export interface BundleValidationReport {
   manifestContentHash: string;
   hashMatches: boolean;
 }
+
+export type CrawlPolicy =
+  | 'SAFE_FOR_METADATA_DISCOVERY'
+  | 'SAFE_WITH_RATE_LIMIT'
+  | 'API_ONLY'
+  | 'MANUAL_REVIEW_REQUIRED'
+  | 'NOT_ALLOWED'
+  | 'UNKNOWN';
+
+export type SourceCatalogCategory =
+  | 'academic_institutional'
+  | 'museum_archive'
+  | 'open_repository'
+  | 'digitized_publications'
+  | 'audio_music'
+  | 'video'
+  | 'direct_commissioned';
+
+export type LicenseModel =
+  | 'item-level'
+  | 'cc0'
+  | 'cc_by'
+  | 'cc_by_sa'
+  | 'public_domain'
+  | 'non_commercial_only'
+  | 'all_rights_reserved'
+  | 'institutional_agreement';
+
+export type CommercialUsePolicy =
+  | 'unrestricted'
+  | 'item_dependent'
+  | 'non_commercial_only'
+  | 'prohibited_without_license'
+  | 'paid_license_required';
+
+export type RedistributionPolicy =
+  | 'full_permitted'
+  | 'permitted_matching_license'
+  | 'non_commercial_only'
+  | 'prohibited'
+  | 'requires_permission';
+
+export interface SourceCatalogEntry {
+  id: string;
+  name: string;
+  category: SourceCatalogCategory;
+  officialUrl: string;
+  apiUrl?: string;
+  iiifUrl?: string;
+  hasMedia: boolean;
+  hasMetadata: boolean;
+  licenseModel: LicenseModel;
+  commercialUse: CommercialUsePolicy;
+  attributionRequired: boolean;
+  attributionTemplate?: string;
+  redistributionPolicy: RedistributionPolicy;
+  crawlPolicy: CrawlPolicy;
+  khmerRelevance: string;
+  rateLimitMs?: number;
+  notes?: string;
+}
+
+export interface MediaSampleItem {
+  sourceId: string;
+  identifier: string;
+  url: string;
+  mimeType: string;
+  fileSizeBytes: number;
+  width?: number;
+  height?: number;
+  durationSeconds?: number;
+  license: string;
+  isPublicDomain: boolean;
+  isCommercialAllowed: boolean;
+}
+
+export interface SourceSampleResult {
+  sourceId: string;
+  sourceName: string;
+  recordsDiscovered: number;
+  mediaDiscovered: number;
+  averageMediaSizeBytes: number;
+  medianMediaSizeBytes: number;
+  largestMediaSizeBytes: number;
+  mediaTypes: Record<string, number>;
+  licenseDistribution: Record<string, number>;
+  samples: MediaSampleItem[];
+}
+
+export interface CorpusStorageProjection {
+  entryCount: number;
+  scenarioAOriginalGB: number;
+  scenarioBOptimizedGB: number;
+  savingsPercent: number;
+  breakdown: {
+    jsonMetadataGB: number;
+    imagesGB: {
+      scenarioA: number;
+      scenarioB: number;
+    };
+    audioGB: {
+      scenarioA: number;
+      scenarioB: number;
+    };
+    videoGB: {
+      scenarioA: number;
+      scenarioB: number;
+    };
+    documentsGB: {
+      scenarioA: number;
+      scenarioB: number;
+    };
+  };
+}
+
+export interface EstimatorCheckpoint {
+  timestamp: string;
+  completedSources: string[];
+  sampleResults: Record<string, SourceSampleResult>;
+}
+
