@@ -17,6 +17,7 @@ import { runR2ProviderTestSuite } from '../services/providers/__tests__/r2Provid
 import { runOfflineCacheTests } from '../services/providers/__tests__/offlineCache.test.ts';
 import { runDeployR2Tests } from './__tests__/deployR2.test.ts';
 import { runSourceRegistryTestSuite } from './__tests__/sourceRegistry.test.ts';
+import { runIngestionPilotTests } from './__tests__/ingestionPilot.test.ts';
 
 export async function runAllPipelineAudits(): Promise<boolean> {
   const overallStart = performance.now();
@@ -170,12 +171,21 @@ export async function runAllPipelineAudits(): Promise<boolean> {
     return false;
   }
 
+  // STAGE 9: Controlled Content Ingestion Pilot & Adapters (KH-014B)
+  const pilotReport = await runIngestionPilotTests();
+  console.log(`  • Result: ${pilotReport.passed}/${pilotReport.passed + pilotReport.failed} pilot tests passed.\n`);
+
+  if (pilotReport.failed > 0) {
+    console.error(`❌ STAGE 9 FAILED: ${pilotReport.failed} pilot tests failed!`);
+    return false;
+  }
+
   const overallEnd = performance.now();
   const overallMs = +(overallEnd - overallStart).toFixed(2);
 
   console.log('╔═══════════════════════════════════════════════════════════════════════════╗');
-  console.log(`║ ALL 8 AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                   ║`);
-  console.log('║ STATUS: CORPUS, BUNDLE, R2, OFFLINE CACHE, SIGV4 & SOURCE CATALOG VERIFIED║');
+  console.log(`║ ALL 9 AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                   ║`);
+  console.log('║ STATUS: CORPUS, BUNDLE, R2, OFFLINE CACHE, SIGV4, CATALOG & PILOT VERIFIED║');
   console.log('╚═══════════════════════════════════════════════════════════════════════════╝\n');
 
   return true;

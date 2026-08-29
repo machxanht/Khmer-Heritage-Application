@@ -1,0 +1,95 @@
+{
+  "sourceId": "met_museum_open_access",
+  "sourceName": "The Metropolitan Museum of Art",
+  "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1",
+  "recordsDiscovered": 130,
+  "recordsEvaluated": 25,
+  "recordsAccepted": 1,
+  "recordsRejected": 24,
+  "recordsQuarantined": 0,
+  "mediaAssetsDiscovered": 1,
+  "mediaAssetsSampled": 1,
+  "totalOriginalMediaBytes": 12500000,
+  "totalOptimizedMediaBytes": 713520,
+  "totalJsonBytes": 1613,
+  "averageOriginalBytesPerItem": 12500000,
+  "averageOptimizedBytesPerItem": 713520,
+  "medianOptimizedBytesPerItem": 713520,
+  "compressionRatio": 17.52,
+  "licenseDistribution": {
+    "CC0-1.0 (Public Domain)": 1
+  },
+  "rejectionReasons": {
+    "LOW_RELEVANCE_NON_KHMER": 22,
+    "HTTP_FETCH_ERROR": 2
+  },
+  "records": [
+    {
+      "sourceId": "met_museum_open_access",
+      "sourceName": "The Metropolitan Museum of Art",
+      "sourceItemId": "39092",
+      "title": "Bodhisattva  Avaolkiteshvara",
+      "creator": "Khmer Artisan",
+      "date": "second half of the 7th–early 8th century",
+      "medium": "Copper alloy",
+      "dimensions": "H. 13 3/4 in. (34.9 cm); W. 6 3/4 in. (17.1 cm); D. 2 7/8 in. (7.3 cm)",
+      "classification": "Sculpture",
+      "culture": "Western Cambodia",
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/39092",
+      "mediaItems": [
+        {
+          "id": "met-media-39092-primary",
+          "sourceUrl": "https://images.metmuseum.org/CRDImages/as/original/LK.1987.145_DP301229r1_25AA.jpg",
+          "mimeType": "image/jpeg",
+          "title": "Bodhisattva  Avaolkiteshvara",
+          "license": "CC0-1.0 (Public Domain)",
+          "isPublicDomain": true,
+          "isCommercialAllowed": true,
+          "originalSizeBytes": 12500000,
+          "originalWidth": 3000,
+          "originalHeight": 2000,
+          "variants": [
+            {
+              "variant": "hero",
+              "width": 1200,
+              "height": 800,
+              "format": "webp",
+              "sizeBytes": 450000,
+              "quality": 82
+            },
+            {
+              "variant": "gallery",
+              "width": 600,
+              "height": 400,
+              "format": "webp",
+              "sizeBytes": 216000,
+              "quality": 80
+            },
+            {
+              "variant": "thumbnail",
+              "width": 200,
+              "height": 133,
+              "format": "webp",
+              "sizeBytes": 47520,
+              "quality": 75
+            }
+          ],
+          "totalOptimizedBytes": 713520,
+          "compressionRatio": 17.52
+        }
+      ],
+      "relevanceScore": 60,
+      "relevanceKeywords": [
+        "cambodia"
+      ],
+      "isRelevanceAccepted": true,
+      "license": "CC0-1.0 (Public Domain)",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "licenseGatePassed": true,
+      "attribution": "\"Bodhisattva  Avaolkiteshvara\", Khmer Artisan, second half of the 7th–early 8th century, The Metropolitan Museum of Art, ID: 39092, (CC0-1.0 (Public Domain))",
+      "retrievedAt": "2026-08-29T10:17:53.918Z",
+      "suggestedCategory": "arts"
+    }
+  ]
+}

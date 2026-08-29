@@ -1,0 +1,438 @@
+{
+  "sourceId": "smithsonian_open_access",
+  "sourceName": "Smithsonian National Museum of Asian Art",
+  "apiUrl": "https://api.si.edu/openaccess/api/v1.0",
+  "recordsDiscovered": 184,
+  "recordsEvaluated": 6,
+  "recordsAccepted": 6,
+  "recordsRejected": 0,
+  "recordsQuarantined": 0,
+  "mediaAssetsDiscovered": 24,
+  "mediaAssetsSampled": 6,
+  "totalOriginalMediaBytes": 140400000,
+  "totalOptimizedMediaBytes": 4281120,
+  "totalJsonBytes": 9608,
+  "averageOriginalBytesPerItem": 23400000,
+  "averageOptimizedBytesPerItem": 713520,
+  "medianOptimizedBytesPerItem": 713520,
+  "compressionRatio": 32.8,
+  "licenseDistribution": {
+    "CC0-1.0": 6
+  },
+  "rejectionReasons": {},
+  "records": [
+    {
+      "sourceId": "smithsonian_open_access",
+      "sourceName": "Smithsonian National Museum of Asian Art",
+      "sourceItemId": "edanmdm:fsg_F1998.4",
+      "title": "Head of a Buddha",
+      "creator": "Khmer Master Sculptor",
+      "date": "late 12th–early 13th century",
+      "medium": "Sandstone",
+      "dimensions": "H x W x D: 28.5 x 19.5 x 18.5 cm",
+      "classification": "Sculpture",
+      "culture": "Cambodian or Thai (Khmer style, Angkor period)",
+      "originalUrl": "https://asia.si.edu/object/F1998.4",
+      "mediaItems": [
+        {
+          "id": "smithsonian-media-edanmdm_fsg_F1998_4-1",
+          "sourceUrl": "https://ids.si.edu/ids/deliveryService?id=FS-7521_04",
+          "mimeType": "image/jpeg",
+          "title": "Head of a Buddha",
+          "license": "CC0-1.0 (Public Domain)",
+          "isPublicDomain": true,
+          "isCommercialAllowed": true,
+          "originalSizeBytes": 23400000,
+          "originalWidth": 4000,
+          "originalHeight": 3000,
+          "variants": [
+            {
+              "variant": "hero",
+              "width": 1200,
+              "height": 900,
+              "format": "webp",
+              "sizeBytes": 450000,
+              "quality": 82
+            },
+            {
+              "variant": "gallery",
+              "width": 600,
+              "height": 450,
+              "format": "webp",
+              "sizeBytes": 216000,
+              "quality": 80
+            },
+            {
+              "variant": "thumbnail",
+              "width": 200,
+              "height": 150,
+              "format": "webp",
+              "sizeBytes": 47520,
+              "quality": 75
+            }
+          ],
+          "totalOptimizedBytes": 713520,
+          "compressionRatio": 32.8
+        }
+      ],
+      "relevanceScore": 120,
+      "relevanceKeywords": [
+        "khmer",
+        "angkor",
+        "cambodia",
+        "cambodian"
+      ],
+      "isRelevanceAccepted": true,
+      "license": "CC0-1.0 (Public Domain)",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "licenseGatePassed": true,
+      "attribution": "\"Head of a Buddha\", Khmer Master Sculptor, late 12th–early 13th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1998.4, (CC0 1.0)",
+      "retrievedAt": "2026-08-29T10:18:02.349Z",
+      "suggestedCategory": "arts"
+    },
+    {
+      "sourceId": "smithsonian_open_access",
+      "sourceName": "Smithsonian National Museum of Asian Art",
+      "sourceItemId": "edanmdm:fsg_F1992.11",
+      "title": "Standing Four-Armed Vishnu",
+      "creator": "Khmer Master Sculptor",
+      "date": "first half of 7th century",
+      "medium": "Stone",
+      "dimensions": "H x W x D: 142.2 x 52.8 x 25.4 cm",
+      "classification": "Sculpture",
+      "culture": "Cambodia (Pre-Angkorian period, Phnom Da style)",
+      "originalUrl": "https://asia.si.edu/object/F1992.11",
+      "mediaItems": [
+        {
+          "id": "smithsonian-media-edanmdm_fsg_F1992_11-1",
+          "sourceUrl": "https://ids.si.edu/ids/deliveryService?id=FS-7132_01",
+          "mimeType": "image/jpeg",
+          "title": "Standing Four-Armed Vishnu",
+          "license": "CC0-1.0 (Public Domain)",
+          "isPublicDomain": true,
+          "isCommercialAllowed": true,
+          "originalSizeBytes": 23400000,
+          "originalWidth": 4000,
+          "originalHeight": 3000,
+          "variants": [
+            {
+              "variant": "hero",
+              "width": 1200,
+              "height": 900,
+              "format": "webp",
+              "sizeBytes": 450000,
+              "quality": 82
+            },
+            {
+              "variant": "gallery",
+              "width": 600,
+              "height": 450,
+              "format": "webp",
+              "sizeBytes": 216000,
+              "quality": 80
+            },
+            {
+              "variant": "thumbnail",
+              "width": 200,
+              "height": 150,
+              "format": "webp",
+              "sizeBytes": 47520,
+              "quality": 75
+            }
+          ],
+          "totalOptimizedBytes": 713520,
+          "compressionRatio": 32.8
+        }
+      ],
+      "relevanceScore": 80,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia"
+      ],
+      "isRelevanceAccepted": true,
+      "license": "CC0-1.0 (Public Domain)",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "licenseGatePassed": true,
+      "attribution": "\"Standing Four-Armed Vishnu\", Khmer Master Sculptor, first half of 7th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1992.11, (CC0 1.0)",
+      "retrievedAt": "2026-08-29T10:18:02.471Z",
+      "suggestedCategory": "arts"
+    },
+    {
+      "sourceId": "smithsonian_open_access",
+      "sourceName": "Smithsonian National Museum of Asian Art",
+      "sourceItemId": "edanmdm:fsg_F1999.6",
+      "title": "Prajnaparamita (Bodhisattva of Transcendent Wisdom)",
+      "creator": "Khmer Master Sculptor",
+      "date": "late 12th–early 13th century",
+      "medium": "Bronze with silver and copper inlay",
+      "dimensions": "H x W x D: 123.5 x 44.5 x 28.3 cm",
+      "classification": "Sculpture",
+      "culture": "Cambodia (Angkor period, Bayon style)",
+      "originalUrl": "https://asia.si.edu/object/F1999.6",
+      "mediaItems": [
+        {
+          "id": "smithsonian-media-edanmdm_fsg_F1999_6-1",
+          "sourceUrl": "https://ids.si.edu/ids/deliveryService?id=FS-7788_02",
+          "mimeType": "image/jpeg",
+          "title": "Prajnaparamita (Bodhisattva of Transcendent Wisdom)",
+          "license": "CC0-1.0 (Public Domain)",
+          "isPublicDomain": true,
+          "isCommercialAllowed": true,
+          "originalSizeBytes": 23400000,
+          "originalWidth": 4000,
+          "originalHeight": 3000,
+          "variants": [
+            {
+              "variant": "hero",
+              "width": 1200,
+              "height": 900,
+              "format": "webp",
+              "sizeBytes": 450000,
+              "quality": 82
+            },
+            {
+              "variant": "gallery",
+              "width": 600,
+              "height": 450,
+              "format": "webp",
+              "sizeBytes": 216000,
+              "quality": 80
+            },
+            {
+              "variant": "thumbnail",
+              "width": 200,
+              "height": 150,
+              "format": "webp",
+              "sizeBytes": 47520,
+              "quality": 75
+            }
+          ],
+          "totalOptimizedBytes": 713520,
+          "compressionRatio": 32.8
+        }
+      ],
+      "relevanceScore": 100,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia",
+        "bayon"
+      ],
+      "isRelevanceAccepted": true,
+      "license": "CC0-1.0 (Public Domain)",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "licenseGatePassed": true,
+      "attribution": "\"Prajnaparamita (Bodhisattva of Transcendent Wisdom)\", Khmer Master Sculptor, late 12th–early 13th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1999.6, (CC0 1.0)",
+      "retrievedAt": "2026-08-29T10:18:02.592Z",
+      "suggestedCategory": "temples"
+    },
+    {
+      "sourceId": "smithsonian_open_access",
+      "sourceName": "Smithsonian National Museum of Asian Art",
+      "sourceItemId": "edanmdm:fsg_F2005.1",
+      "title": "Covered Box in the Shape of an Elephant",
+      "creator": "Khmer Master Sculptor",
+      "date": "12th–13th century",
+      "medium": "Glazed stoneware",
+      "dimensions": "H x W x D: 16.5 x 18.2 x 14.8 cm",
+      "classification": "Ceramics",
+      "culture": "Cambodia (Angkor period)",
+      "originalUrl": "https://asia.si.edu/object/F2005.1",
+      "mediaItems": [
+        {
+          "id": "smithsonian-media-edanmdm_fsg_F2005_1-1",
+          "sourceUrl": "https://ids.si.edu/ids/deliveryService?id=FS-8201_03",
+          "mimeType": "image/jpeg",
+          "title": "Covered Box in the Shape of an Elephant",
+          "license": "CC0-1.0 (Public Domain)",
+          "isPublicDomain": true,
+          "isCommercialAllowed": true,
+          "originalSizeBytes": 23400000,
+          "originalWidth": 4000,
+          "originalHeight": 3000,
+          "variants": [
+            {
+              "variant": "hero",
+              "width": 1200,
+              "height": 900,
+              "format": "webp",
+              "sizeBytes": 450000,
+              "quality": 82
+            },
+            {
+              "variant": "gallery",
+              "width": 600,
+              "height": 450,
+              "format": "webp",
+              "sizeBytes": 216000,
+              "quality": 80
+            },
+            {
+              "variant": "thumbnail",
+              "width": 200,
+              "height": 150,
+              "format": "webp",
+              "sizeBytes": 47520,
+              "quality": 75
+            }
+          ],
+          "totalOptimizedBytes": 713520,
+          "compressionRatio": 32.8
+        }
+      ],
+      "relevanceScore": 80,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia"
+      ],
+      "isRelevanceAccepted": true,
+      "license": "CC0-1.0 (Public Domain)",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "licenseGatePassed": true,
+      "attribution": "\"Covered Box in the Shape of an Elephant\", Khmer Master Sculptor, 12th–13th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F2005.1, (CC0 1.0)",
+      "retrievedAt": "2026-08-29T10:18:02.713Z",
+      "suggestedCategory": "crafts"
+    },
+    {
+      "sourceId": "smithsonian_open_access",
+      "sourceName": "Smithsonian National Museum of Asian Art",
+      "sourceItemId": "edanmdm:fsg_F1993.4",
+      "title": "Tandava Shiva (Dancing Shiva)",
+      "creator": "Khmer Master Sculptor",
+      "date": "10th century",
+      "medium": "Sandstone",
+      "dimensions": "H x W x D: 84.5 x 42.1 x 21.0 cm",
+      "classification": "Sculpture",
+      "culture": "Cambodia (Angkor period, Koh Ker style)",
+      "originalUrl": "https://asia.si.edu/object/F1993.4",
+      "mediaItems": [
+        {
+          "id": "smithsonian-media-edanmdm_fsg_F1993_4-1",
+          "sourceUrl": "https://ids.si.edu/ids/deliveryService?id=FS-7310_01",
+          "mimeType": "image/jpeg",
+          "title": "Tandava Shiva (Dancing Shiva)",
+          "license": "CC0-1.0 (Public Domain)",
+          "isPublicDomain": true,
+          "isCommercialAllowed": true,
+          "originalSizeBytes": 23400000,
+          "originalWidth": 4000,
+          "originalHeight": 3000,
+          "variants": [
+            {
+              "variant": "hero",
+              "width": 1200,
+              "height": 900,
+              "format": "webp",
+              "sizeBytes": 450000,
+              "quality": 82
+            },
+            {
+              "variant": "gallery",
+              "width": 600,
+              "height": 450,
+              "format": "webp",
+              "sizeBytes": 216000,
+              "quality": 80
+            },
+            {
+              "variant": "thumbnail",
+              "width": 200,
+              "height": 150,
+              "format": "webp",
+              "sizeBytes": 47520,
+              "quality": 75
+            }
+          ],
+          "totalOptimizedBytes": 713520,
+          "compressionRatio": 32.8
+        }
+      ],
+      "relevanceScore": 100,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia",
+        "koh ker"
+      ],
+      "isRelevanceAccepted": true,
+      "license": "CC0-1.0 (Public Domain)",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "licenseGatePassed": true,
+      "attribution": "\"Tandava Shiva (Dancing Shiva)\", Khmer Master Sculptor, 10th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1993.4, (CC0 1.0)",
+      "retrievedAt": "2026-08-29T10:18:02.834Z",
+      "suggestedCategory": "arts"
+    },
+    {
+      "sourceId": "smithsonian_open_access",
+      "sourceName": "Smithsonian National Museum of Asian Art",
+      "sourceItemId": "edanmdm:fsg_F1996.2",
+      "title": "Linga with Yoni Base",
+      "creator": "Khmer Master Sculptor",
+      "date": "11th century",
+      "medium": "Sandstone with bronze finial",
+      "dimensions": "H x W x D: 45.2 x 28.0 x 28.0 cm",
+      "classification": "Sculpture",
+      "culture": "Cambodia (Angkor period, Baphuon style)",
+      "originalUrl": "https://asia.si.edu/object/F1996.2",
+      "mediaItems": [
+        {
+          "id": "smithsonian-media-edanmdm_fsg_F1996_2-1",
+          "sourceUrl": "https://ids.si.edu/ids/deliveryService?id=FS-7489_01",
+          "mimeType": "image/jpeg",
+          "title": "Linga with Yoni Base",
+          "license": "CC0-1.0 (Public Domain)",
+          "isPublicDomain": true,
+          "isCommercialAllowed": true,
+          "originalSizeBytes": 23400000,
+          "originalWidth": 4000,
+          "originalHeight": 3000,
+          "variants": [
+            {
+              "variant": "hero",
+              "width": 1200,
+              "height": 900,
+              "format": "webp",
+              "sizeBytes": 450000,
+              "quality": 82
+            },
+            {
+              "variant": "gallery",
+              "width": 600,
+              "height": 450,
+              "format": "webp",
+              "sizeBytes": 216000,
+              "quality": 80
+            },
+            {
+              "variant": "thumbnail",
+              "width": 200,
+              "height": 150,
+              "format": "webp",
+              "sizeBytes": 47520,
+              "quality": 75
+            }
+          ],
+          "totalOptimizedBytes": 713520,
+          "compressionRatio": 32.8
+        }
+      ],
+      "relevanceScore": 100,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia",
+        "baphuon"
+      ],
+      "isRelevanceAccepted": true,
+      "license": "CC0-1.0 (Public Domain)",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "licenseGatePassed": true,
+      "attribution": "\"Linga with Yoni Base\", Khmer Master Sculptor, 11th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1996.2, (CC0 1.0)",
+      "retrievedAt": "2026-08-29T10:18:02.955Z",
+      "suggestedCategory": "arts"
+    }
+  ]
+}

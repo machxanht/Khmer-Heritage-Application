@@ -6,3 +6,6 @@ coverage/
 *.log
 .env*
 !.env.example
+content/pilot/media/
+content/.*checkpoint.json
+content/pilot/.*checkpoint.json

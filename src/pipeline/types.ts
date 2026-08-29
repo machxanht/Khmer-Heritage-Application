@@ -5,6 +5,8 @@
 
 import { HeritageEntry, LicenseTier, ReviewStatus, SourceRecord, SourceType } from '../types/schema.ts';
 
+export type { HeritageEntry, LicenseTier, ReviewStatus, SourceRecord, SourceType };
+
 export const VALID_CATEGORIES = [
   'temples',
   'history',
@@ -277,5 +279,128 @@ export interface EstimatorCheckpoint {
   timestamp: string;
   completedSources: string[];
   sampleResults: Record<string, SourceSampleResult>;
+}
+
+export interface OptimizedMediaVariant {
+  variant: 'hero' | 'gallery' | 'thumbnail';
+  width: number;
+  height: number;
+  format: 'webp' | 'avif' | 'jpeg';
+  sizeBytes: number;
+  quality: number;
+}
+
+export interface IngestedMediaItem {
+  id: string;
+  sourceUrl: string;
+  mimeType: string;
+  title: string;
+  license: string;
+  isPublicDomain: boolean;
+  isCommercialAllowed: boolean;
+  originalSizeBytes: number;
+  originalWidth?: number;
+  originalHeight?: number;
+  variants: OptimizedMediaVariant[];
+  totalOptimizedBytes: number;
+  compressionRatio: number;
+}
+
+export interface CandidateRecord {
+  sourceId: string;
+  sourceName: string;
+  sourceItemId: string;
+  title: string;
+  creator?: string;
+  date?: string;
+  medium?: string;
+  dimensions?: string;
+  classification?: string;
+  culture?: string;
+  originalUrl: string;
+  mediaItems: IngestedMediaItem[];
+  relevanceScore: number;
+  relevanceKeywords: string[];
+  isRelevanceAccepted: boolean;
+  license: string;
+  licenseUrl?: string;
+  licenseTier: LicenseTier | 'unsupported_quarantine';
+  isCommercialAllowed: boolean;
+  licenseGatePassed: boolean;
+  quarantineReason?: string;
+  attribution: string;
+  retrievedAt: string;
+  suggestedCategory: ValidCategoryId;
+}
+
+export interface IngestionPilotSourceResult {
+  sourceId: string;
+  sourceName: string;
+  apiUrl: string;
+  recordsDiscovered: number;
+  recordsEvaluated: number;
+  recordsAccepted: number;
+  recordsRejected: number;
+  recordsQuarantined: number;
+  mediaAssetsDiscovered: number;
+  mediaAssetsSampled: number;
+  totalOriginalMediaBytes: number;
+  totalOptimizedMediaBytes: number;
+  totalJsonBytes: number;
+  averageOriginalBytesPerItem: number;
+  averageOptimizedBytesPerItem: number;
+  medianOptimizedBytesPerItem: number;
+  compressionRatio: number;
+  licenseDistribution: Record<string, number>;
+  rejectionReasons: Record<string, number>;
+  records: CandidateRecord[];
+}
+
+export interface IngestionPilotSummary {
+  timestamp: string;
+  pilotVersion: string;
+  pilotSizeTarget: number;
+  sources: Record<string, IngestionPilotSourceResult>;
+  totals: {
+    recordsDiscovered: number;
+    recordsEvaluated: number;
+    recordsAccepted: number;
+    recordsRejected: number;
+    recordsQuarantined: number;
+    mediaSampled: number;
+    originalMediaBytes: number;
+    optimizedMediaBytes: number;
+    totalJsonBytes: number;
+    overallCompressionRatio: number;
+    averageBytesPerAcceptedItem: number;
+    medianBytesPerAcceptedItem: number;
+  };
+  storageExtrapolations: {
+    scale1kGB: { original: number; optimized: number; savingsPct: number; estMonthlyR2USD: number };
+    scale5kGB: { original: number; optimized: number; savingsPct: number; estMonthlyR2USD: number };
+    scale10kGB: { original: number; optimized: number; savingsPct: number; estMonthlyR2USD: number };
+    scale50kGB: { original: number; optimized: number; savingsPct: number; estMonthlyR2USD: number };
+  };
+  theoreticalModelComparison: {
+    kh014AModeledAvgOptimizedMB: number;
+    pilotMeasuredAvgOptimizedMB: number;
+    deltaPercent: number;
+    assessment: string;
+  };
+  quotaAndRuntimeObservations: {
+    metApiLatencyMs: number;
+    smithsonianApiLatencyMs: number;
+    wikimediaApiLatencyMs: number;
+    rateLimitsRespected: boolean;
+    memoryUsageMB: number;
+    executionTimeMs: number;
+  };
+}
+
+export interface PilotCheckpoint {
+  timestamp: string;
+  targetSampleSize: number;
+  completedSources: string[];
+  sourceResults: Record<string, IngestionPilotSourceResult>;
 }
 

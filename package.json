@@ -13,6 +13,7 @@
     "content:test": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/testRunner.ts",
     "content:benchmark": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/scalabilityTest.ts",
     "content:estimate": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/sourceEstimator.ts",
+    "content:pilot": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/ingestionPilot.ts",
     "content:deploy": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/deployR2.ts",
     "content:deploy:dry": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/deployR2.ts --dry-run",
     "lint": "tsc --noEmit"
@@ -29,6 +30,7 @@
     "motion": "^12.23.24",
     "react": "^19.0.1",
     "react-dom": "^19.0.1",
+    "sharp": "^0.35.4",
     "tailwind-merge": "^3.6.0",
     "vite": "^6.2.3"
   },
@@ -37,6 +39,7 @@
     "@types/node": "^22.14.0",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.5",
+    "@types/sharp": "^0.32.0",
     "autoprefixer": "^10.4.21",
     "esbuild": "^0.25.0",
     "tailwindcss": "^4.1.14",
