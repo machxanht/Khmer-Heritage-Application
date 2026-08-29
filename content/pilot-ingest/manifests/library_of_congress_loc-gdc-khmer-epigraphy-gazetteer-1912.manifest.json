@@ -9,7 +9,7 @@
   "attribution": "\"Khmer Epigraphy Gazetteer\" (1912), Library of Congress (PD)",
   "originalUrl": "https://tile.loc.gov/storage-services/service/gdc/epigraphy_gazetteer_1912.pdf",
   "finalUrl": "https://tile.loc.gov/storage-services/service/gdc/epigraphy_gazetteer_1912.pdf",
-  "retrievedAt": "2026-08-29T16:00:18.095Z",
+  "retrievedAt": "2026-08-29T16:18:13.206Z",
   "mediaType": "document",
   "original": {
     "mime": "application/pdf",
@@ -21,11 +21,11 @@
     {
       "variant": "web_optimized_pdf",
       "format": "pdf",
-      "sizeBytes": 23200000
+      "sizeBytes": 23780000
     }
   ],
-  "optimizedBytes": 23200000,
-  "compressionRatio": 0.4,
+  "optimizedBytes": 23780000,
+  "compressionRatio": 0.41,
   "predictedOptimizedBytes": 23200000,
-  "variancePercentage": 0
+  "variancePercentage": 2.5
 }

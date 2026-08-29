@@ -9,7 +9,7 @@
   "attribution": "\"Prajnaparamita\", ca. 1200, The Metropolitan Museum of Art (CC0)",
   "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167162.jpg",
   "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167162.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.046Z",
+  "retrievedAt": "2026-08-29T16:18:12.193Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 790000
+      "sizeBytes": 758400
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 395000
+      "sizeBytes": 355500
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 118500
+      "sizeBytes": 101120
     }
   ],
-  "optimizedBytes": 1303500,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1215020,
+  "compressionRatio": 0.1538,
   "predictedOptimizedBytes": 1303500,
-  "variancePercentage": 0
+  "variancePercentage": -6.79
 }

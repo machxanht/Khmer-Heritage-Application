@@ -9,7 +9,7 @@
   "attribution": "\"Lintel Churning Ocean of Milk\", 10th c., The Metropolitan Museum of Art (CC0)",
   "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167153.jpg",
   "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167153.jpg",
-  "retrievedAt": "2026-08-29T16:00:16.903Z",
+  "retrievedAt": "2026-08-29T16:18:12.038Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 945000
+      "sizeBytes": 963900
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 472500
+      "sizeBytes": 453600
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 141750
+      "sizeBytes": 132300
     }
   ],
-  "optimizedBytes": 1559250,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1549800,
+  "compressionRatio": 0.164,
   "predictedOptimizedBytes": 1559250,
-  "variancePercentage": 0
+  "variancePercentage": -0.61
 }

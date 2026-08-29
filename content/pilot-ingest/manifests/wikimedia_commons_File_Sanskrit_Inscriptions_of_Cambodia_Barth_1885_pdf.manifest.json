@@ -9,7 +9,7 @@
   "attribution": "\"Inscriptions sanscrites du Cambodge\" (1885), Public Domain",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Sanskrit_Inscriptions_of_Cambodia_Barth_1885.pdf",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Sanskrit_Inscriptions_of_Cambodia_Barth_1885.pdf",
-  "retrievedAt": "2026-08-29T16:00:17.837Z",
+  "retrievedAt": "2026-08-29T16:18:12.957Z",
   "mediaType": "document",
   "original": {
     "mime": "application/pdf",
@@ -21,11 +21,11 @@
     {
       "variant": "web_optimized_pdf",
       "format": "pdf",
-      "sizeBytes": 15400000
+      "sizeBytes": 15785000
     }
   ],
-  "optimizedBytes": 15400000,
-  "compressionRatio": 0.4,
+  "optimizedBytes": 15785000,
+  "compressionRatio": 0.41,
   "predictedOptimizedBytes": 15400000,
-  "variancePercentage": 0
+  "variancePercentage": 2.5
 }

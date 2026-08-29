@@ -9,7 +9,7 @@
   "attribution": "\"Guide archéologique aux temples d’Angkor\" (1928), Public Domain",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Angkor_Guide_Henri_Marchal_1928.pdf",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Angkor_Guide_Henri_Marchal_1928.pdf",
-  "retrievedAt": "2026-08-29T16:00:17.839Z",
+  "retrievedAt": "2026-08-29T16:18:12.959Z",
   "mediaType": "document",
   "original": {
     "mime": "application/pdf",
@@ -21,11 +21,11 @@
     {
       "variant": "web_optimized_pdf",
       "format": "pdf",
-      "sizeBytes": 16840000
+      "sizeBytes": 17261000
     }
   ],
-  "optimizedBytes": 16840000,
-  "compressionRatio": 0.4,
+  "optimizedBytes": 17261000,
+  "compressionRatio": 0.41,
   "predictedOptimizedBytes": 16840000,
-  "variancePercentage": 0
+  "variancePercentage": 2.5
 }

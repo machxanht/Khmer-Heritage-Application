@@ -9,7 +9,7 @@
   "attribution": "\"Mahori Ensemble Suite\" (1962), Internet Archive (Public Domain)",
   "originalUrl": "https://archive.org/download/khmer-mahori-1962/mahori_morokot_suite.mp3",
   "finalUrl": "https://archive.org/download/khmer-mahori-1962/mahori_morokot_suite.mp3",
-  "retrievedAt": "2026-08-29T16:00:17.971Z",
+  "retrievedAt": "2026-08-29T16:18:13.082Z",
   "mediaType": "audio",
   "original": {
     "mime": "audio/mpeg",
@@ -21,18 +21,18 @@
     {
       "variant": "web_standard",
       "format": "opus",
-      "sizeBytes": 5850000,
+      "sizeBytes": 6006000,
       "bitrate": 48000
     },
     {
       "variant": "mobile_preview",
       "format": "opus",
-      "sizeBytes": 2730000,
+      "sizeBytes": 2847000,
       "bitrate": 32000
     }
   ],
-  "optimizedBytes": 8580000,
-  "compressionRatio": 0.22,
+  "optimizedBytes": 8853000,
+  "compressionRatio": 0.227,
   "predictedOptimizedBytes": 8580000,
-  "variancePercentage": 0
+  "variancePercentage": 3.18
 }

@@ -9,7 +9,7 @@
   "attribution": "\"Head of Jayavarman VII\", late 12th c., The Metropolitan Museum of Art (CC0)",
   "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167154.jpg",
   "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167154.jpg",
-  "retrievedAt": "2026-08-29T16:00:16.905Z",
+  "retrievedAt": "2026-08-29T16:18:12.040Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 695000
+      "sizeBytes": 681100
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 347500
+      "sizeBytes": 319700
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 104250
+      "sizeBytes": 91740
     }
   ],
-  "optimizedBytes": 1146750,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1092540,
+  "compressionRatio": 0.1572,
   "predictedOptimizedBytes": 1146750,
-  "variancePercentage": 0
+  "variancePercentage": -4.73
 }

@@ -9,7 +9,7 @@
   "attribution": "\"Ritual Bronze Bell\", 12th c., The Metropolitan Museum of Art (CC0)",
   "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167159.jpg",
   "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167159.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.007Z",
+  "retrievedAt": "2026-08-29T16:18:12.141Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 510000
+      "sizeBytes": 499800
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 255000
+      "sizeBytes": 234600
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 76500
+      "sizeBytes": 67320
     }
   ],
-  "optimizedBytes": 841500,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 801720,
+  "compressionRatio": 0.1572,
   "predictedOptimizedBytes": 841500,
-  "variancePercentage": 0
+  "variancePercentage": -4.73
 }

@@ -1,6 +1,6 @@
 {
   "snapshotId": "KH-SNAP-20260829-017B",
-  "runTimestamp": "2026-08-29T16:00:16.847Z",
+  "runTimestamp": "2026-08-29T16:18:11.983Z",
   "isDryRun": false,
   "totalSelected": 100,
   "downloaded": 100,
@@ -49,40 +49,40 @@
       "selected": 65,
       "success": 65,
       "originalBytes": 693060000,
-      "optimizedBytes": 114354900,
-      "ratio": 0.165,
+      "optimizedBytes": 113530736,
+      "ratio": 0.1638,
       "predictedRatio": 0.165
     },
     "audio": {
       "selected": 12,
       "success": 12,
       "originalBytes": 407600000,
-      "optimizedBytes": 89672000,
-      "ratio": 0.22,
+      "optimizedBytes": 89101600,
+      "ratio": 0.2186,
       "predictedRatio": 0.22
     },
     "video": {
       "selected": 6,
       "success": 6,
       "originalBytes": 833000000,
-      "optimizedBytes": 291550000,
-      "ratio": 0.35,
+      "optimizedBytes": 287767200,
+      "ratio": 0.3455,
       "predictedRatio": 0.35
     },
     "document": {
       "selected": 15,
       "success": 15,
       "originalBytes": 863800000,
-      "optimizedBytes": 345520000,
-      "ratio": 0.4,
+      "optimizedBytes": 344332000,
+      "ratio": 0.3986,
       "predictedRatio": 0.4
     },
     "three_d": {
       "selected": 2,
       "success": 2,
       "originalBytes": 52500000,
-      "optimizedBytes": 9450000,
-      "ratio": 0.18,
+      "optimizedBytes": 9093000,
+      "ratio": 0.1732,
       "predictedRatio": 0.18
     }
   },
@@ -92,59 +92,59 @@
       "image": {
         "count": 65,
         "originalBytes": 693060000,
-        "optimizedBytes": 114354900,
-        "actualRatio": 0.165,
+        "optimizedBytes": 113530736,
+        "actualRatio": 0.1638,
         "predictedRatio": 0.165,
         "predictedOptimizedBytes": 114354900,
-        "variancePercentage": 0,
+        "variancePercentage": -0.72,
         "status": "SUPPORTED"
       },
       "audio": {
         "count": 12,
         "originalBytes": 407600000,
-        "optimizedBytes": 89672000,
-        "actualRatio": 0.22,
+        "optimizedBytes": 89101600,
+        "actualRatio": 0.2186,
         "predictedRatio": 0.22,
         "predictedOptimizedBytes": 89672000,
-        "variancePercentage": 0,
+        "variancePercentage": -0.64,
         "status": "SUPPORTED"
       },
       "video": {
         "count": 6,
         "originalBytes": 833000000,
-        "optimizedBytes": 291550000,
-        "actualRatio": 0.35,
+        "optimizedBytes": 287767200,
+        "actualRatio": 0.3455,
         "predictedRatio": 0.35,
         "predictedOptimizedBytes": 291550000,
-        "variancePercentage": 0,
+        "variancePercentage": -1.3,
         "status": "SUPPORTED"
       },
       "document": {
         "count": 15,
         "originalBytes": 863800000,
-        "optimizedBytes": 345520000,
-        "actualRatio": 0.4,
+        "optimizedBytes": 344332000,
+        "actualRatio": 0.3986,
         "predictedRatio": 0.4,
         "predictedOptimizedBytes": 345520000,
-        "variancePercentage": 0,
+        "variancePercentage": -0.34,
         "status": "SUPPORTED"
       },
       "three_d": {
         "count": 2,
         "originalBytes": 52500000,
-        "optimizedBytes": 9450000,
-        "actualRatio": 0.18,
+        "optimizedBytes": 9093000,
+        "actualRatio": 0.1732,
         "predictedRatio": 0.18,
         "predictedOptimizedBytes": 9450000,
-        "variancePercentage": 0,
+        "variancePercentage": -3.78,
         "status": "SUPPORTED"
       }
     },
     "totalOriginalBytes": 2849960000,
-    "totalOptimizedBytes": 850546900,
-    "overallCompressionRatio": 0.2984,
+    "totalOptimizedBytes": 843824536,
+    "overallCompressionRatio": 0.2961,
     "predictedTotalOptimizedBytes": 850546900,
-    "overallVariancePercentage": 0,
+    "overallVariancePercentage": -0.79,
     "overallModelStatus": "SUPPORTED"
   },
   "integrityStats": {
@@ -156,7 +156,7 @@
     "resumeVerified": true
   },
   "performance": {
-    "totalRuntimeMs": 1268,
+    "totalRuntimeMs": 1245,
     "avgDownloadMs": 3,
     "avgTransformMs": 20,
     "networkBytes": 93801,

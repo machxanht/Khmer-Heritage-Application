@@ -9,7 +9,7 @@
   "attribution": "\"Angkor Wat at Dawn\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Angkor_Wat_aerial_view_sunrise.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Angkor_Wat_aerial_view_sunrise.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.381Z",
+  "retrievedAt": "2026-08-29T16:18:12.499Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 1450000
+      "sizeBytes": 1479000
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 725000
+      "sizeBytes": 696000
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 217500
+      "sizeBytes": 203000
     }
   ],
-  "optimizedBytes": 2392500,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 2378000,
+  "compressionRatio": 0.164,
   "predictedOptimizedBytes": 2392500,
-  "variancePercentage": 0
+  "variancePercentage": -0.61
 }

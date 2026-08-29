@@ -9,7 +9,7 @@
   "attribution": "\"Pinpeat Orchestra at Wat Bo\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Pinpeat_ensemble_orchestra_angkor.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Pinpeat_ensemble_orchestra_angkor.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.455Z",
+  "retrievedAt": "2026-08-29T16:18:12.575Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 1090000
+      "sizeBytes": 1155400
     },
     {
       "variant": "gallery",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 163500
+      "sizeBytes": 161320
     }
   ],
-  "optimizedBytes": 1798500,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1861720,
+  "compressionRatio": 0.1708,
   "predictedOptimizedBytes": 1798500,
-  "variancePercentage": 0
+  "variancePercentage": 3.52
 }

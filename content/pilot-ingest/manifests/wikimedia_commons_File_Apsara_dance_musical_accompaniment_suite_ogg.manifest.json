@@ -9,7 +9,7 @@
   "attribution": "\"Apsara Musical Suite\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Apsara_dance_musical_accompaniment_suite.ogg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Apsara_dance_musical_accompaniment_suite.ogg",
-  "retrievedAt": "2026-08-29T16:00:17.823Z",
+  "retrievedAt": "2026-08-29T16:18:12.943Z",
   "mediaType": "audio",
   "original": {
     "mime": "audio/ogg",
@@ -21,7 +21,7 @@
     {
       "variant": "web_standard",
       "format": "opus",
-      "sizeBytes": 4680000,
+      "sizeBytes": 4617600,
       "bitrate": 48000
     },
     {
@@ -31,8 +31,8 @@
       "bitrate": 32000
     }
   ],
-  "optimizedBytes": 6864000,
-  "compressionRatio": 0.22,
+  "optimizedBytes": 6801600,
+  "compressionRatio": 0.218,
   "predictedOptimizedBytes": 6864000,
-  "variancePercentage": 0
+  "variancePercentage": -0.91
 }

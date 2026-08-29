@@ -9,7 +9,7 @@
   "attribution": "\"Ruins of Angkor Monograph\" (1901), Library of Congress (PD)",
   "originalUrl": "https://tile.loc.gov/storage-services/service/gdc/monograph_angkor_1901.pdf",
   "finalUrl": "https://tile.loc.gov/storage-services/service/gdc/monograph_angkor_1901.pdf",
-  "retrievedAt": "2026-08-29T16:00:18.083Z",
+  "retrievedAt": "2026-08-29T16:18:13.197Z",
   "mediaType": "document",
   "original": {
     "mime": "application/pdf",
@@ -21,11 +21,11 @@
     {
       "variant": "web_optimized_pdf",
       "format": "pdf",
-      "sizeBytes": 18000000
+      "sizeBytes": 18225000
     }
   ],
-  "optimizedBytes": 18000000,
-  "compressionRatio": 0.4,
+  "optimizedBytes": 18225000,
+  "compressionRatio": 0.405,
   "predictedOptimizedBytes": 18000000,
-  "variancePercentage": 0
+  "variancePercentage": 1.25
 }

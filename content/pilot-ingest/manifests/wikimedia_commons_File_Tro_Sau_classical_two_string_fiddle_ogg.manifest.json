@@ -9,7 +9,7 @@
   "attribution": "\"Tro Sau Melodic Suite\", Wikimedia Commons (CC BY 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Tro_Sau_classical_two_string_fiddle.ogg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Tro_Sau_classical_two_string_fiddle.ogg",
-  "retrievedAt": "2026-08-29T16:00:17.827Z",
+  "retrievedAt": "2026-08-29T16:18:12.946Z",
   "mediaType": "audio",
   "original": {
     "mime": "audio/ogg",
@@ -21,18 +21,18 @@
     {
       "variant": "web_standard",
       "format": "opus",
-      "sizeBytes": 3765000,
+      "sizeBytes": 3639500,
       "bitrate": 48000
     },
     {
       "variant": "mobile_preview",
       "format": "opus",
-      "sizeBytes": 1757000,
+      "sizeBytes": 1719350,
       "bitrate": 32000
     }
   ],
-  "optimizedBytes": 5522000,
-  "compressionRatio": 0.22,
+  "optimizedBytes": 5358850,
+  "compressionRatio": 0.2135,
   "predictedOptimizedBytes": 5522000,
-  "variancePercentage": 0
+  "variancePercentage": -2.95
 }

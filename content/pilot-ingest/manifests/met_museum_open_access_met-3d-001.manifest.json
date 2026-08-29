@@ -9,7 +9,7 @@
   "attribution": "\"3D Model: Bayon Avalokiteshvara\", The Metropolitan Museum of Art (CC0)",
   "originalUrl": "https://media.metmuseum.org/3d/bayon_head_photogrammetry.gltf",
   "finalUrl": "https://media.metmuseum.org/3d/bayon_head_photogrammetry.gltf",
-  "retrievedAt": "2026-08-29T16:00:17.079Z",
+  "retrievedAt": "2026-08-29T16:18:12.226Z",
   "mediaType": "three_d",
   "original": {
     "mime": "model/gltf+json",
@@ -20,11 +20,11 @@
     {
       "variant": "draco_compressed_glb",
       "format": "glb",
-      "sizeBytes": 4410000
+      "sizeBytes": 4165000
     }
   ],
-  "optimizedBytes": 4410000,
-  "compressionRatio": 0.18,
+  "optimizedBytes": 4165000,
+  "compressionRatio": 0.17,
   "predictedOptimizedBytes": 4410000,
-  "variancePercentage": 0
+  "variancePercentage": -5.56
 }

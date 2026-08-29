@@ -9,7 +9,7 @@
   "attribution": "\"Khmer Bronze Vessel\", 13th c., National Museum of Asian Art, Smithsonian (CC0)",
   "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-S2008.2_001",
   "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-S2008.2_001",
-  "retrievedAt": "2026-08-29T16:00:17.307Z",
+  "retrievedAt": "2026-08-29T16:18:12.429Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 520000
+      "sizeBytes": 551200
     },
     {
       "variant": "gallery",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 78000
+      "sizeBytes": 76960
     }
   ],
-  "optimizedBytes": 858000,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 888160,
+  "compressionRatio": 0.1708,
   "predictedOptimizedBytes": 858000,
-  "variancePercentage": 0
+  "variancePercentage": 3.52
 }

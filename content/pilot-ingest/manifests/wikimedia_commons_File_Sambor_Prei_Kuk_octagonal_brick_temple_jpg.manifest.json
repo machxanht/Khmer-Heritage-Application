@@ -9,7 +9,7 @@
   "attribution": "\"Sambor Prei Kuk Octagonal Temple\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Sambor_Prei_Kuk_octagonal_brick_temple.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Sambor_Prei_Kuk_octagonal_brick_temple.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.777Z",
+  "retrievedAt": "2026-08-29T16:18:12.899Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 1130000
+      "sizeBytes": 1107400
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 565000
+      "sizeBytes": 519800
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 169500
+      "sizeBytes": 149160
     }
   ],
-  "optimizedBytes": 1864500,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1776360,
+  "compressionRatio": 0.1572,
   "predictedOptimizedBytes": 1864500,
-  "variancePercentage": 0
+  "variancePercentage": -4.73
 }

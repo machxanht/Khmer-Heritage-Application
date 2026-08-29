@@ -9,7 +9,7 @@
   "attribution": "\"Village Chapei Recording\" (1965), Internet Archive (Public Domain)",
   "originalUrl": "https://archive.org/download/khmer-village-chapei-1965/village_chapei_session.mp3",
   "finalUrl": "https://archive.org/download/khmer-village-chapei-1965/village_chapei_session.mp3",
-  "retrievedAt": "2026-08-29T16:00:17.969Z",
+  "retrievedAt": "2026-08-29T16:18:13.079Z",
   "mediaType": "audio",
   "original": {
     "mime": "audio/mpeg",
@@ -21,18 +21,18 @@
     {
       "variant": "web_standard",
       "format": "opus",
-      "sizeBytes": 7275000,
+      "sizeBytes": 6887000,
       "bitrate": 48000
     },
     {
       "variant": "mobile_preview",
       "format": "opus",
-      "sizeBytes": 3395000,
+      "sizeBytes": 3249500,
       "bitrate": 32000
     }
   ],
-  "optimizedBytes": 10670000,
-  "compressionRatio": 0.22,
+  "optimizedBytes": 10136500,
+  "compressionRatio": 0.209,
   "predictedOptimizedBytes": 10670000,
-  "variancePercentage": 0
+  "variancePercentage": -5
 }

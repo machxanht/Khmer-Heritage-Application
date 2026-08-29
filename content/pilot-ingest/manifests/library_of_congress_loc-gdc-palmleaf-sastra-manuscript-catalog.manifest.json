@@ -9,7 +9,7 @@
   "attribution": "\"Palm-Leaf Manuscripts Catalog\" (1925), Library of Congress (PD)",
   "originalUrl": "https://tile.loc.gov/storage-services/service/gdc/sastra_catalog_1925.pdf",
   "finalUrl": "https://tile.loc.gov/storage-services/service/gdc/sastra_catalog_1925.pdf",
-  "retrievedAt": "2026-08-29T16:00:18.086Z",
+  "retrievedAt": "2026-08-29T16:18:13.200Z",
   "mediaType": "document",
   "original": {
     "mime": "application/pdf",
@@ -21,11 +21,11 @@
     {
       "variant": "web_optimized_pdf",
       "format": "pdf",
-      "sizeBytes": 21600000
+      "sizeBytes": 21330000
     }
   ],
-  "optimizedBytes": 21600000,
-  "compressionRatio": 0.4,
+  "optimizedBytes": 21330000,
+  "compressionRatio": 0.395,
   "predictedOptimizedBytes": 21600000,
-  "variancePercentage": 0
+  "variancePercentage": -1.25
 }

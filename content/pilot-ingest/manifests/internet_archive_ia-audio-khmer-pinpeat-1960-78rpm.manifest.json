@@ -9,7 +9,7 @@
   "attribution": "\"Royal Court Pinpeat 78-RPM\" (1958), Internet Archive (Public Domain)",
   "originalUrl": "https://archive.org/download/khmer-court-pinpeat-1958/court_fanfare_78rpm.mp3",
   "finalUrl": "https://archive.org/download/khmer-court-pinpeat-1958/court_fanfare_78rpm.mp3",
-  "retrievedAt": "2026-08-29T16:00:17.966Z",
+  "retrievedAt": "2026-08-29T16:18:13.075Z",
   "mediaType": "audio",
   "original": {
     "mime": "audio/mpeg",
@@ -21,7 +21,7 @@
     {
       "variant": "web_standard",
       "format": "opus",
-      "sizeBytes": 6300000,
+      "sizeBytes": 6216000,
       "bitrate": 48000
     },
     {
@@ -31,8 +31,8 @@
       "bitrate": 32000
     }
   ],
-  "optimizedBytes": 9240000,
-  "compressionRatio": 0.22,
+  "optimizedBytes": 9156000,
+  "compressionRatio": 0.218,
   "predictedOptimizedBytes": 9240000,
-  "variancePercentage": 0
+  "variancePercentage": -0.91
 }

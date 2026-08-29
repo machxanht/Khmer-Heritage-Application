@@ -9,7 +9,7 @@
   "attribution": "\"3D Model: Devata Relief\", The Metropolitan Museum of Art (CC0)",
   "originalUrl": "https://media.metmuseum.org/3d/angkor_devata_relief.gltf",
   "finalUrl": "https://media.metmuseum.org/3d/angkor_devata_relief.gltf",
-  "retrievedAt": "2026-08-29T16:00:17.082Z",
+  "retrievedAt": "2026-08-29T16:18:12.228Z",
   "mediaType": "three_d",
   "original": {
     "mime": "model/gltf+json",
@@ -20,11 +20,11 @@
     {
       "variant": "draco_compressed_glb",
       "format": "glb",
-      "sizeBytes": 5040000
+      "sizeBytes": 4928000
     }
   ],
-  "optimizedBytes": 5040000,
-  "compressionRatio": 0.18,
+  "optimizedBytes": 4928000,
+  "compressionRatio": 0.176,
   "predictedOptimizedBytes": 5040000,
-  "variancePercentage": 0
+  "variancePercentage": -2.22
 }

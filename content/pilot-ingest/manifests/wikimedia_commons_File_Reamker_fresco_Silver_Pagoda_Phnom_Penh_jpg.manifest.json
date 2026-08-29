@@ -9,7 +9,7 @@
   "attribution": "\"Reamker Mural Silver Pagoda\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Reamker_fresco_Silver_Pagoda_Phnom_Penh.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Reamker_fresco_Silver_Pagoda_Phnom_Penh.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.631Z",
+  "retrievedAt": "2026-08-29T16:18:12.751Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 1400000
+      "sizeBytes": 1428000
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 700000
+      "sizeBytes": 672000
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 210000
+      "sizeBytes": 196000
     }
   ],
-  "optimizedBytes": 2310000,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 2296000,
+  "compressionRatio": 0.164,
   "predictedOptimizedBytes": 2310000,
-  "variancePercentage": 0
+  "variancePercentage": -0.61
 }

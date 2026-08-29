@@ -9,7 +9,7 @@
   "attribution": "\"Sdok Kok Thom Stele K.235\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Sdok_Kok_Thom_stele_inscription_sanskrit.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Sdok_Kok_Thom_stele_inscription_sanskrit.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.519Z",
+  "retrievedAt": "2026-08-29T16:18:12.643Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 1370000
+      "sizeBytes": 1452200
     },
     {
       "variant": "gallery",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 205500
+      "sizeBytes": 202760
     }
   ],
-  "optimizedBytes": 2260500,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 2339960,
+  "compressionRatio": 0.1708,
   "predictedOptimizedBytes": 2260500,
-  "variancePercentage": 0
+  "variancePercentage": 3.52
 }

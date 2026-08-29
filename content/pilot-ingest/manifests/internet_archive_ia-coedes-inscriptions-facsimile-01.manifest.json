@@ -9,7 +9,7 @@
   "attribution": "\"Sdok Kok Thom Rubbing Plate\" (1937), Internet Archive (Public Domain)",
   "originalUrl": "https://archive.org/download/inscriptionsducambodge01coed/page/n115_w1200.jpg",
   "finalUrl": "https://archive.org/download/inscriptionsducambodge01coed/page/n115_w1200.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.959Z",
+  "retrievedAt": "2026-08-29T16:18:13.070Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 960000
+      "sizeBytes": 902400
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 288000
+      "sizeBytes": 261120
     }
   ],
-  "optimizedBytes": 3168000,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 3083520,
+  "compressionRatio": 0.1606,
   "predictedOptimizedBytes": 3168000,
-  "variancePercentage": 0
+  "variancePercentage": -2.67
 }

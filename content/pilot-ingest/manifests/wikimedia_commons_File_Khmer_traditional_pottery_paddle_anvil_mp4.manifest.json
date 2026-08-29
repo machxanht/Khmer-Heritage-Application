@@ -9,7 +9,7 @@
   "attribution": "\"Khmer Pottery Technique Video\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Khmer_traditional_pottery_paddle_anvil.mp4",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Khmer_traditional_pottery_paddle_anvil.mp4",
-  "retrievedAt": "2026-08-29T16:00:17.836Z",
+  "retrievedAt": "2026-08-29T16:18:12.955Z",
   "mediaType": "video",
   "original": {
     "mime": "video/mp4",
@@ -26,7 +26,7 @@
       "width": 1280,
       "height": 720,
       "bitrate": 1200000,
-      "sizeBytes": 22000000
+      "sizeBytes": 21296000
     },
     {
       "variant": "mobile_av1_480p",
@@ -34,11 +34,11 @@
       "width": 854,
       "height": 480,
       "bitrate": 600000,
-      "sizeBytes": 8800000
+      "sizeBytes": 8483200
     }
   ],
-  "optimizedBytes": 30800000,
-  "compressionRatio": 0.35,
+  "optimizedBytes": 29779200,
+  "compressionRatio": 0.3384,
   "predictedOptimizedBytes": 30800000,
-  "variancePercentage": 0
+  "variancePercentage": -3.31
 }

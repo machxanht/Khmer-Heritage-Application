@@ -9,7 +9,7 @@
   "attribution": "\"Banteay Srei Pediment\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Banteay_Srei_pink_sandstone_carvings.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Banteay_Srei_pink_sandstone_carvings.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.415Z",
+  "retrievedAt": "2026-08-29T16:18:12.534Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 1320000
+      "sizeBytes": 1372800
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 660000
+      "sizeBytes": 646800
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 198000
+      "sizeBytes": 190080
     }
   ],
-  "optimizedBytes": 2178000,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 2209680,
+  "compressionRatio": 0.1674,
   "predictedOptimizedBytes": 2178000,
-  "variancePercentage": 0
+  "variancePercentage": 1.45
 }

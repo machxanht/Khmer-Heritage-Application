@@ -9,7 +9,7 @@
   "attribution": "\"Angkor Wat Drone Survey\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Angkor_Wat_architecture_drone_survey.mp4",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Angkor_Wat_architecture_drone_survey.mp4",
-  "retrievedAt": "2026-08-29T16:00:17.830Z",
+  "retrievedAt": "2026-08-29T16:18:12.949Z",
   "mediaType": "video",
   "original": {
     "mime": "video/mp4",
@@ -34,11 +34,11 @@
       "width": 854,
       "height": 480,
       "bitrate": 600000,
-      "sizeBytes": 14500000
+      "sizeBytes": 14442000
     }
   ],
-  "optimizedBytes": 50750000,
-  "compressionRatio": 0.35,
+  "optimizedBytes": 50692000,
+  "compressionRatio": 0.3496,
   "predictedOptimizedBytes": 50750000,
-  "variancePercentage": 0
+  "variancePercentage": -0.11
 }

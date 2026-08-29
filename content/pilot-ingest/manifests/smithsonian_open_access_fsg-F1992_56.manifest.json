@@ -9,7 +9,7 @@
   "attribution": "\"Female Deity Torso\", 11th c., National Museum of Asian Art, Smithsonian (CC0)",
   "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1992.56_001",
   "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1992.56_001",
-  "retrievedAt": "2026-08-29T16:00:17.206Z",
+  "retrievedAt": "2026-08-29T16:18:12.330Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 1240000
+      "sizeBytes": 1215200
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 620000
+      "sizeBytes": 570400
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 186000
+      "sizeBytes": 163680
     }
   ],
-  "optimizedBytes": 2046000,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1949280,
+  "compressionRatio": 0.1572,
   "predictedOptimizedBytes": 2046000,
-  "variancePercentage": 0
+  "variancePercentage": -4.73
 }

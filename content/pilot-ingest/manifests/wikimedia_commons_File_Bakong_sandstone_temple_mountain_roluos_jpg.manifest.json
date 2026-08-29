@@ -9,7 +9,7 @@
   "attribution": "\"Bakong Temple Mountain\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Bakong_sandstone_temple_mountain_roluos.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Bakong_sandstone_temple_mountain_roluos.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.816Z",
+  "retrievedAt": "2026-08-29T16:18:12.935Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 1260000
+      "sizeBytes": 1335600
     },
     {
       "variant": "gallery",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 189000
+      "sizeBytes": 186480
     }
   ],
-  "optimizedBytes": 2079000,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 2152080,
+  "compressionRatio": 0.1708,
   "predictedOptimizedBytes": 2079000,
-  "variancePercentage": 0
+  "variancePercentage": 3.52
 }

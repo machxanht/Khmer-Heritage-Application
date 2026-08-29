@@ -9,7 +9,7 @@
   "attribution": "\"Smot Buddhist Chanting\" (1971), Internet Archive (Public Domain)",
   "originalUrl": "https://archive.org/download/khmer-smot-1971/smot_anicca_dharma.mp3",
   "finalUrl": "https://archive.org/download/khmer-smot-1971/smot_anicca_dharma.mp3",
-  "retrievedAt": "2026-08-29T16:00:17.975Z",
+  "retrievedAt": "2026-08-29T16:18:13.087Z",
   "mediaType": "audio",
   "original": {
     "mime": "audio/mpeg",
@@ -21,18 +21,18 @@
     {
       "variant": "web_standard",
       "format": "opus",
-      "sizeBytes": 5430000,
+      "sizeBytes": 5466200,
       "bitrate": 48000
     },
     {
       "variant": "mobile_preview",
       "format": "opus",
-      "sizeBytes": 2534000,
+      "sizeBytes": 2588300,
       "bitrate": 32000
     }
   ],
-  "optimizedBytes": 7964000,
-  "compressionRatio": 0.22,
+  "optimizedBytes": 8054500,
+  "compressionRatio": 0.2225,
   "predictedOptimizedBytes": 7964000,
-  "variancePercentage": 0
+  "variancePercentage": 1.14
 }

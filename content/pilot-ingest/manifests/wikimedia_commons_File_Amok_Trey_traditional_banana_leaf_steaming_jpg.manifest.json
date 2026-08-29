@@ -9,7 +9,7 @@
   "attribution": "\"Amok Trey in Banana Leaf\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Amok_Trey_traditional_banana_leaf_steaming.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Amok_Trey_traditional_banana_leaf_steaming.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.557Z",
+  "retrievedAt": "2026-08-29T16:18:12.677Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 760000
+      "sizeBytes": 820800
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 380000
+      "sizeBytes": 387600
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 114000
+      "sizeBytes": 115520
     }
   ],
-  "optimizedBytes": 1254000,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1323920,
+  "compressionRatio": 0.1742,
   "predictedOptimizedBytes": 1254000,
-  "variancePercentage": 0
+  "variancePercentage": 5.58
 }

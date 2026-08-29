@@ -9,7 +9,7 @@
   "attribution": "\"Standing Maitreya\", 8th c., National Museum of Asian Art, Smithsonian (CC0)",
   "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1940.11_001",
   "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1940.11_001",
-  "retrievedAt": "2026-08-29T16:00:17.137Z",
+  "retrievedAt": "2026-08-29T16:18:12.263Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 930000
+      "sizeBytes": 948600
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 465000
+      "sizeBytes": 446400
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 139500
+      "sizeBytes": 130200
     }
   ],
-  "optimizedBytes": 1534500,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1525200,
+  "compressionRatio": 0.164,
   "predictedOptimizedBytes": 1534500,
-  "variancePercentage": 0
+  "variancePercentage": -0.61
 }

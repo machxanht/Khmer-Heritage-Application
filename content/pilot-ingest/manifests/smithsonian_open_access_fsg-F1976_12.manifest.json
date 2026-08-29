@@ -9,7 +9,7 @@
   "attribution": "\"Tantric Hevajra Bronze\", 13th c., National Museum of Asian Art, Smithsonian (CC0)",
   "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1976.12_001",
   "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1976.12_001",
-  "retrievedAt": "2026-08-29T16:00:17.163Z",
+  "retrievedAt": "2026-08-29T16:18:12.295Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 860000
+      "sizeBytes": 928800
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 430000
+      "sizeBytes": 438600
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 129000
+      "sizeBytes": 130720
     }
   ],
-  "optimizedBytes": 1419000,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1498120,
+  "compressionRatio": 0.1742,
   "predictedOptimizedBytes": 1419000,
-  "variancePercentage": 0
+  "variancePercentage": 5.58
 }

@@ -9,7 +9,7 @@
   "attribution": "\"River of Thousand Lingas\", Wikimedia Commons (CC BY 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Phnom_Kulen_river_thousand_lingas.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Phnom_Kulen_river_thousand_lingas.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.424Z",
+  "retrievedAt": "2026-08-29T16:18:12.544Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 970000
+      "sizeBytes": 950600
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 485000
+      "sizeBytes": 446200
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 145500
+      "sizeBytes": 128040
     }
   ],
-  "optimizedBytes": 1600500,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1524840,
+  "compressionRatio": 0.1572,
   "predictedOptimizedBytes": 1600500,
-  "variancePercentage": 0
+  "variancePercentage": -4.73
 }

@@ -9,7 +9,7 @@
   "attribution": "\"Four-Armed Vishnu\", 12th c., National Museum of Asian Art, Smithsonian (CC0)",
   "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1932.1_001",
   "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1932.1_001",
-  "retrievedAt": "2026-08-29T16:00:17.124Z",
+  "retrievedAt": "2026-08-29T16:18:12.260Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 540000
+      "sizeBytes": 507600
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 162000
+      "sizeBytes": 146880
     }
   ],
-  "optimizedBytes": 1782000,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1734480,
+  "compressionRatio": 0.1606,
   "predictedOptimizedBytes": 1782000,
-  "variancePercentage": 0
+  "variancePercentage": -2.67
 }

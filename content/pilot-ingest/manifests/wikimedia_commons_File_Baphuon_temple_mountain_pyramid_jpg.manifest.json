@@ -9,7 +9,7 @@
   "attribution": "\"Baphuon Pyramid\", Wikimedia Commons (CC BY 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Baphuon_temple_mountain_pyramid.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Baphuon_temple_mountain_pyramid.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.666Z",
+  "retrievedAt": "2026-08-29T16:18:12.790Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 575000
+      "sizeBytes": 540500
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 172500
+      "sizeBytes": 156400
     }
   ],
-  "optimizedBytes": 1897500,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1846900,
+  "compressionRatio": 0.1606,
   "predictedOptimizedBytes": 1897500,
-  "variancePercentage": 0
+  "variancePercentage": -2.67
 }

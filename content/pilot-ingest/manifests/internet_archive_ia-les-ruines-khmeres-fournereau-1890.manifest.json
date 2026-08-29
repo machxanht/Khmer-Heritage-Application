@@ -9,7 +9,7 @@
   "attribution": "\"Les Ruines khmères\" (1890), Internet Archive (Public Domain)",
   "originalUrl": "https://archive.org/download/lesruineskhmeres00four/lesruineskhmeres00four.pdf",
   "finalUrl": "https://archive.org/download/lesruineskhmeres00four/lesruineskhmeres00four.pdf",
-  "retrievedAt": "2026-08-29T16:00:17.987Z",
+  "retrievedAt": "2026-08-29T16:18:13.099Z",
   "mediaType": "document",
   "original": {
     "mime": "application/pdf",
@@ -21,11 +21,11 @@
     {
       "variant": "web_optimized_pdf",
       "format": "pdf",
-      "sizeBytes": 29800000
+      "sizeBytes": 30545000
     }
   ],
-  "optimizedBytes": 29800000,
-  "compressionRatio": 0.4,
+  "optimizedBytes": 30545000,
+  "compressionRatio": 0.41,
   "predictedOptimizedBytes": 29800000,
-  "variancePercentage": 0
+  "variancePercentage": 2.5
 }

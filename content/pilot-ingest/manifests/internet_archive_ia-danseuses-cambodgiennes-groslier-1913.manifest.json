@@ -9,7 +9,7 @@
   "attribution": "\"Danseuses cambodgiennes\" (1913), Internet Archive (Public Domain)",
   "originalUrl": "https://archive.org/download/danseusescambodg00gros/danseusescambodg00gros.pdf",
   "finalUrl": "https://archive.org/download/danseusescambodg00gros/danseusescambodg00gros.pdf",
-  "retrievedAt": "2026-08-29T16:00:17.990Z",
+  "retrievedAt": "2026-08-29T16:18:13.102Z",
   "mediaType": "document",
   "original": {
     "mime": "application/pdf",
@@ -21,11 +21,11 @@
     {
       "variant": "web_optimized_pdf",
       "format": "pdf",
-      "sizeBytes": 20800000
+      "sizeBytes": 21320000
     }
   ],
-  "optimizedBytes": 20800000,
-  "compressionRatio": 0.4,
+  "optimizedBytes": 21320000,
+  "compressionRatio": 0.41,
   "predictedOptimizedBytes": 20800000,
-  "variancePercentage": 0
+  "variancePercentage": 2.5
 }

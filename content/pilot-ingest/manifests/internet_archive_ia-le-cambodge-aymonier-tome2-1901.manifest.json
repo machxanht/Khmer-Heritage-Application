@@ -9,7 +9,7 @@
   "attribution": "\"Le Cambodge Tome 2\" (1901), Internet Archive (Public Domain)",
   "originalUrl": "https://archive.org/download/lecambodge02aymo/lecambodge02aymo.pdf",
   "finalUrl": "https://archive.org/download/lecambodge02aymo/lecambodge02aymo.pdf",
-  "retrievedAt": "2026-08-29T16:00:17.998Z",
+  "retrievedAt": "2026-08-29T16:18:13.110Z",
   "mediaType": "document",
   "original": {
     "mime": "application/pdf",
@@ -21,11 +21,11 @@
     {
       "variant": "web_optimized_pdf",
       "format": "pdf",
-      "sizeBytes": 36400000
+      "sizeBytes": 34580000
     }
   ],
-  "optimizedBytes": 36400000,
-  "compressionRatio": 0.4,
+  "optimizedBytes": 34580000,
+  "compressionRatio": 0.38,
   "predictedOptimizedBytes": 36400000,
-  "variancePercentage": 0
+  "variancePercentage": -5
 }

@@ -9,7 +9,7 @@
   "attribution": "\"Neak Pean Island Temple\", Wikimedia Commons (CC BY 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Neak_Pean_circular_island_temple.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Neak_Pean_circular_island_temple.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.701Z",
+  "retrievedAt": "2026-08-29T16:18:12.826Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 990000
+      "sizeBytes": 1049400
     },
     {
       "variant": "gallery",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 148500
+      "sizeBytes": 146520
     }
   ],
-  "optimizedBytes": 1633500,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1690920,
+  "compressionRatio": 0.1708,
   "predictedOptimizedBytes": 1633500,
-  "variancePercentage": 0
+  "variancePercentage": 3.52
 }

@@ -9,7 +9,7 @@
   "attribution": "\"Standing Crowned Buddha\", 13th c., The Metropolitan Museum of Art (CC0)",
   "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167152.jpg",
   "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167152.jpg",
-  "retrievedAt": "2026-08-29T16:00:16.860Z",
+  "retrievedAt": "2026-08-29T16:18:11.994Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 812000
+      "sizeBytes": 828240
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 406000
+      "sizeBytes": 389760
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 121800
+      "sizeBytes": 113680
     }
   ],
-  "optimizedBytes": 1339800,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1331680,
+  "compressionRatio": 0.164,
   "predictedOptimizedBytes": 1339800,
-  "variancePercentage": 0
+  "variancePercentage": -0.61
 }

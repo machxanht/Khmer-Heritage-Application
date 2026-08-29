@@ -9,6 +9,7 @@ coverage/
 content/pilot/media/
 content/discovery/media/
 content/pilot-ingest/media/
+content/pilot-ingest/raw/
 content/.*checkpoint.json
 content/pilot/.*checkpoint.json
 content/discovery/.*checkpoint.json

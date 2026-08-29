@@ -9,7 +9,7 @@
   "attribution": "\"Vishnu on Ananta Lintel\", 9th c., The Metropolitan Museum of Art (CC0)",
   "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167157.jpg",
   "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167157.jpg",
-  "retrievedAt": "2026-08-29T16:00:16.970Z",
+  "retrievedAt": "2026-08-29T16:18:12.105Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 870000
+      "sizeBytes": 887400
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 435000
+      "sizeBytes": 417600
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 130500
+      "sizeBytes": 121800
     }
   ],
-  "optimizedBytes": 1435500,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1426800,
+  "compressionRatio": 0.164,
   "predictedOptimizedBytes": 1435500,
-  "variancePercentage": 0
+  "variancePercentage": -0.61
 }

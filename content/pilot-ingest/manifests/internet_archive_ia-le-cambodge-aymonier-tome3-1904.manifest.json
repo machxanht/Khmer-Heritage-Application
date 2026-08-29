@@ -9,7 +9,7 @@
   "attribution": "\"Le Cambodge Tome 3\" (1904), Internet Archive (Public Domain)",
   "originalUrl": "https://archive.org/download/lecambodge03aymo/lecambodge03aymo.pdf",
   "finalUrl": "https://archive.org/download/lecambodge03aymo/lecambodge03aymo.pdf",
-  "retrievedAt": "2026-08-29T16:00:17.998Z",
+  "retrievedAt": "2026-08-29T16:18:13.115Z",
   "mediaType": "document",
   "original": {
     "mime": "application/pdf",
@@ -21,11 +21,11 @@
     {
       "variant": "web_optimized_pdf",
       "format": "pdf",
-      "sizeBytes": 38400000
+      "sizeBytes": 38880000
     }
   ],
-  "optimizedBytes": 38400000,
-  "compressionRatio": 0.4,
+  "optimizedBytes": 38880000,
+  "compressionRatio": 0.405,
   "predictedOptimizedBytes": 38400000,
-  "variancePercentage": 0
+  "variancePercentage": 1.25
 }

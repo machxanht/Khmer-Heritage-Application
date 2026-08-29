@@ -9,7 +9,7 @@
   "attribution": "\"Inscriptions du Cambodge Vol 1\" (1937), Internet Archive (Public Domain)",
   "originalUrl": "https://archive.org/download/inscriptionsducambodge01coed/inscriptionsducambodge01coed.pdf",
   "finalUrl": "https://archive.org/download/inscriptionsducambodge01coed/inscriptionsducambodge01coed.pdf",
-  "retrievedAt": "2026-08-29T16:00:18.003Z",
+  "retrievedAt": "2026-08-29T16:18:13.116Z",
   "mediaType": "document",
   "original": {
     "mime": "application/pdf",
@@ -21,11 +21,11 @@
     {
       "variant": "web_optimized_pdf",
       "format": "pdf",
-      "sizeBytes": 25600000
+      "sizeBytes": 25920000
     }
   ],
-  "optimizedBytes": 25600000,
-  "compressionRatio": 0.4,
+  "optimizedBytes": 25920000,
+  "compressionRatio": 0.405,
   "predictedOptimizedBytes": 25600000,
-  "variancePercentage": 0
+  "variancePercentage": 1.25
 }

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-29T16:02:51.076Z",
+  "timestamp": "2026-08-29T16:22:34.118Z",
   "baselineScenarios": {
     "conservative": {
       "description": "Conservative uncompressed master file sizes (Images 25MB, Audio 60MB, Video 500MB, Docs 35MB)",

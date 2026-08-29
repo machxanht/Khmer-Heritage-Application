@@ -9,7 +9,7 @@
   "attribution": "\"Apsara Kbach Masterclass\", Wikimedia Commons (CC BY 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Royal_Ballet_Cambodia_Apsara_gesture_repertoire.mp4",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Royal_Ballet_Cambodia_Apsara_gesture_repertoire.mp4",
-  "retrievedAt": "2026-08-29T16:00:17.833Z",
+  "retrievedAt": "2026-08-29T16:18:12.952Z",
   "mediaType": "video",
   "original": {
     "mime": "video/mp4",
@@ -34,11 +34,11 @@
       "width": 854,
       "height": 480,
       "bitrate": 600000,
-      "sizeBytes": 11000000
+      "sizeBytes": 10956000
     }
   ],
-  "optimizedBytes": 38500000,
-  "compressionRatio": 0.35,
+  "optimizedBytes": 38456000,
+  "compressionRatio": 0.3496,
   "predictedOptimizedBytes": 38500000,
-  "variancePercentage": 0
+  "variancePercentage": -0.11
 }

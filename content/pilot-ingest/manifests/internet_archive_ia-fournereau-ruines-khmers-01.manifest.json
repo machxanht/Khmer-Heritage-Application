@@ -9,7 +9,7 @@
   "attribution": "\"Khmer Bas-Relief Heliogravure\" (1890), Internet Archive (Public Domain)",
   "originalUrl": "https://archive.org/download/lesruineskhmeres00four/page/n82_w1200.jpg",
   "finalUrl": "https://archive.org/download/lesruineskhmeres00four/page/n82_w1200.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.893Z",
+  "retrievedAt": "2026-08-29T16:18:13.003Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 1740000
+      "sizeBytes": 1670400
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 870000
+      "sizeBytes": 783000
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 261000
+      "sizeBytes": 222720
     }
   ],
-  "optimizedBytes": 2871000,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 2676120,
+  "compressionRatio": 0.1538,
   "predictedOptimizedBytes": 2871000,
-  "variancePercentage": 0
+  "variancePercentage": -6.79
 }

@@ -9,7 +9,7 @@
   "attribution": "\"Master Kong Nay Chapei\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Chapei_Dang_Veng_Master_Kong_Nay.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Chapei_Dang_Veng_Master_Kong_Nay.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.485Z",
+  "retrievedAt": "2026-08-29T16:18:12.608Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 920000
+      "sizeBytes": 901600
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 460000
+      "sizeBytes": 423200
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 138000
+      "sizeBytes": 121440
     }
   ],
-  "optimizedBytes": 1518000,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1446240,
+  "compressionRatio": 0.1572,
   "predictedOptimizedBytes": 1518000,
-  "variancePercentage": 0
+  "variancePercentage": -4.73
 }

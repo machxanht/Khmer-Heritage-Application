@@ -9,7 +9,7 @@
   "attribution": "\"Khmer Wedding Overture\", American Folklife Center, Library of Congress (PD)",
   "originalUrl": "https://tile.loc.gov/storage-services/service/afc/afc1968/phat_cheay_wedding.mp3",
   "finalUrl": "https://tile.loc.gov/storage-services/service/afc/afc1968/phat_cheay_wedding.mp3",
-  "retrievedAt": "2026-08-29T16:00:18.079Z",
+  "retrievedAt": "2026-08-29T16:18:13.193Z",
   "mediaType": "audio",
   "original": {
     "mime": "audio/mpeg",
@@ -21,18 +21,18 @@
     {
       "variant": "web_standard",
       "format": "opus",
-      "sizeBytes": 4800000,
+      "sizeBytes": 4832000,
       "bitrate": 48000
     },
     {
       "variant": "mobile_preview",
       "format": "opus",
-      "sizeBytes": 2240000,
+      "sizeBytes": 2288000,
       "bitrate": 32000
     }
   ],
-  "optimizedBytes": 7040000,
-  "compressionRatio": 0.22,
+  "optimizedBytes": 7120000,
+  "compressionRatio": 0.2225,
   "predictedOptimizedBytes": 7040000,
-  "variancePercentage": 0
+  "variancePercentage": 1.14
 }

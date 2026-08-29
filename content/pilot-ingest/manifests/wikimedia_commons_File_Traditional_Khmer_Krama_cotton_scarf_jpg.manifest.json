@@ -9,7 +9,7 @@
   "attribution": "\"Traditional Checked Krama\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Traditional_Khmer_Krama_cotton_scarf.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Traditional_Khmer_Krama_cotton_scarf.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.595Z",
+  "retrievedAt": "2026-08-29T16:18:12.711Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 680000
+      "sizeBytes": 666400
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 340000
+      "sizeBytes": 312800
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 102000
+      "sizeBytes": 89760
     }
   ],
-  "optimizedBytes": 1122000,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1068960,
+  "compressionRatio": 0.1572,
   "predictedOptimizedBytes": 1122000,
-  "variancePercentage": 0
+  "variancePercentage": -4.73
 }

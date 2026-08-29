@@ -9,7 +9,7 @@
   "attribution": "\"Chapei Improvisational Ballad\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Chapei_Dang_Veng_improvisational_ballad.ogg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Chapei_Dang_Veng_improvisational_ballad.ogg",
-  "retrievedAt": "2026-08-29T16:00:17.819Z",
+  "retrievedAt": "2026-08-29T16:18:12.938Z",
   "mediaType": "audio",
   "original": {
     "mime": "audio/ogg",
@@ -21,18 +21,18 @@
     {
       "variant": "web_standard",
       "format": "opus",
-      "sizeBytes": 5115000,
+      "sizeBytes": 4842200,
       "bitrate": 48000
     },
     {
       "variant": "mobile_preview",
       "format": "opus",
-      "sizeBytes": 2387000,
+      "sizeBytes": 2284700,
       "bitrate": 32000
     }
   ],
-  "optimizedBytes": 7502000,
-  "compressionRatio": 0.22,
+  "optimizedBytes": 7126900,
+  "compressionRatio": 0.209,
   "predictedOptimizedBytes": 7502000,
-  "variancePercentage": 0
+  "variancePercentage": -5
 }

@@ -9,7 +9,7 @@
   "attribution": "\"Kong Vong Thom Gong Patterns\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Kong_Vong_Thom_gong_circle_solos.ogg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Kong_Vong_Thom_gong_circle_solos.ogg",
-  "retrievedAt": "2026-08-29T16:00:17.829Z",
+  "retrievedAt": "2026-08-29T16:18:12.948Z",
   "mediaType": "audio",
   "original": {
     "mime": "audio/ogg",
@@ -21,18 +21,18 @@
     {
       "variant": "web_standard",
       "format": "opus",
-      "sizeBytes": 4470000,
+      "sizeBytes": 4321000,
       "bitrate": 48000
     },
     {
       "variant": "mobile_preview",
       "format": "opus",
-      "sizeBytes": 2086000,
+      "sizeBytes": 2041300,
       "bitrate": 32000
     }
   ],
-  "optimizedBytes": 6556000,
-  "compressionRatio": 0.22,
+  "optimizedBytes": 6362300,
+  "compressionRatio": 0.2135,
   "predictedOptimizedBytes": 6556000,
-  "variancePercentage": 0
+  "variancePercentage": -2.95
 }

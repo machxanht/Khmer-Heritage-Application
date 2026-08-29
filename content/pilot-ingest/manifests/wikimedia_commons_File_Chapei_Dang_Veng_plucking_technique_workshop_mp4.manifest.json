@@ -9,7 +9,7 @@
   "attribution": "\"Chapei Workshop Video\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Chapei_Dang_Veng_plucking_technique_workshop.mp4",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Chapei_Dang_Veng_plucking_technique_workshop.mp4",
-  "retrievedAt": "2026-08-29T16:00:17.834Z",
+  "retrievedAt": "2026-08-29T16:18:12.954Z",
   "mediaType": "video",
   "original": {
     "mime": "video/mp4",
@@ -26,7 +26,7 @@
       "width": 1280,
       "height": 720,
       "bitrate": 1200000,
-      "sizeBytes": 23750000
+      "sizeBytes": 23370000
     },
     {
       "variant": "mobile_av1_480p",
@@ -34,11 +34,11 @@
       "width": 854,
       "height": 480,
       "bitrate": 600000,
-      "sizeBytes": 9500000
+      "sizeBytes": 9310000
     }
   ],
-  "optimizedBytes": 33250000,
-  "compressionRatio": 0.35,
+  "optimizedBytes": 32680000,
+  "compressionRatio": 0.344,
   "predictedOptimizedBytes": 33250000,
-  "variancePercentage": 0
+  "variancePercentage": -1.71
 }

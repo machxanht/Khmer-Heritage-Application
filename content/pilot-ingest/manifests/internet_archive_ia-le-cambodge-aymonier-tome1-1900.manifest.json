@@ -9,7 +9,7 @@
   "attribution": "\"Le Cambodge Tome 1\" (1900), Internet Archive (Public Domain)",
   "originalUrl": "https://archive.org/download/lecambodge01aymo/lecambodge01aymo.pdf",
   "finalUrl": "https://archive.org/download/lecambodge01aymo/lecambodge01aymo.pdf",
-  "retrievedAt": "2026-08-29T16:00:17.993Z",
+  "retrievedAt": "2026-08-29T16:18:13.106Z",
   "mediaType": "document",
   "original": {
     "mime": "application/pdf",
@@ -21,11 +21,11 @@
     {
       "variant": "web_optimized_pdf",
       "format": "pdf",
-      "sizeBytes": 34000000
+      "sizeBytes": 33150000
     }
   ],
-  "optimizedBytes": 34000000,
-  "compressionRatio": 0.4,
+  "optimizedBytes": 33150000,
+  "compressionRatio": 0.39,
   "predictedOptimizedBytes": 34000000,
-  "variancePercentage": 0
+  "variancePercentage": -2.5
 }

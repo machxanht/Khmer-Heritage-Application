@@ -9,7 +9,7 @@
   "attribution": "\"Pchum Ben Monastic Chanting\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Pchum_Ben_monastic_paritta_chanting.ogg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Pchum_Ben_monastic_paritta_chanting.ogg",
-  "retrievedAt": "2026-08-29T16:00:17.825Z",
+  "retrievedAt": "2026-08-29T16:18:12.944Z",
   "mediaType": "audio",
   "original": {
     "mime": "audio/ogg",
@@ -21,18 +21,18 @@
     {
       "variant": "web_standard",
       "format": "opus",
-      "sizeBytes": 5790000,
+      "sizeBytes": 5944400,
       "bitrate": 48000
     },
     {
       "variant": "mobile_preview",
       "format": "opus",
-      "sizeBytes": 2702000,
+      "sizeBytes": 2817800,
       "bitrate": 32000
     }
   ],
-  "optimizedBytes": 8492000,
-  "compressionRatio": 0.22,
+  "optimizedBytes": 8762200,
+  "compressionRatio": 0.227,
   "predictedOptimizedBytes": 8492000,
-  "variancePercentage": 0
+  "variancePercentage": 3.18
 }

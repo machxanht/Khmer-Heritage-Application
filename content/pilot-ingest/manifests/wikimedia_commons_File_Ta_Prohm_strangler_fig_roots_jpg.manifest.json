@@ -9,7 +9,7 @@
   "attribution": "\"Ta Prohm Tree Roots\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Ta_Prohm_strangler_fig_roots.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Ta_Prohm_strangler_fig_roots.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.664Z",
+  "retrievedAt": "2026-08-29T16:18:12.789Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 1380000
+      "sizeBytes": 1352400
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 690000
+      "sizeBytes": 634800
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 207000
+      "sizeBytes": 182160
     }
   ],
-  "optimizedBytes": 2277000,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 2169360,
+  "compressionRatio": 0.1572,
   "predictedOptimizedBytes": 2277000,
-  "variancePercentage": 0
+  "variancePercentage": -4.73
 }

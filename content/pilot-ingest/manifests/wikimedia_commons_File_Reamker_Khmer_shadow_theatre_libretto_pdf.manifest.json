@@ -9,7 +9,7 @@
   "attribution": "\"Sbek Thom Reamker Libretto\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Reamker_Khmer_shadow_theatre_libretto.pdf",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Reamker_Khmer_shadow_theatre_libretto.pdf",
-  "retrievedAt": "2026-08-29T16:00:17.844Z",
+  "retrievedAt": "2026-08-29T16:18:12.964Z",
   "mediaType": "document",
   "original": {
     "mime": "application/pdf",
@@ -21,11 +21,11 @@
     {
       "variant": "web_optimized_pdf",
       "format": "pdf",
-      "sizeBytes": 7360000
+      "sizeBytes": 7176000
     }
   ],
-  "optimizedBytes": 7360000,
-  "compressionRatio": 0.4,
+  "optimizedBytes": 7176000,
+  "compressionRatio": 0.39,
   "predictedOptimizedBytes": 7360000,
-  "variancePercentage": 0
+  "variancePercentage": -2.5
 }

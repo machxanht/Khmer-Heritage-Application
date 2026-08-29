@@ -9,7 +9,7 @@
   "attribution": "\"Voyage au Cambodge\" (1880), Internet Archive (Public Domain)",
   "originalUrl": "https://archive.org/download/voyageaucambodge00dela/voyageaucambodge00dela.pdf",
   "finalUrl": "https://archive.org/download/voyageaucambodge00dela/voyageaucambodge00dela.pdf",
-  "retrievedAt": "2026-08-29T16:00:17.982Z",
+  "retrievedAt": "2026-08-29T16:18:13.096Z",
   "mediaType": "document",
   "original": {
     "mime": "application/pdf",
@@ -21,11 +21,11 @@
     {
       "variant": "web_optimized_pdf",
       "format": "pdf",
-      "sizeBytes": 27200000
+      "sizeBytes": 26180000
     }
   ],
-  "optimizedBytes": 27200000,
-  "compressionRatio": 0.4,
+  "optimizedBytes": 26180000,
+  "compressionRatio": 0.385,
   "predictedOptimizedBytes": 27200000,
-  "variancePercentage": 0
+  "variancePercentage": -3.75
 }

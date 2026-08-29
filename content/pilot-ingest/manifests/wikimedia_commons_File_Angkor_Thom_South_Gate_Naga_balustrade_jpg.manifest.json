@@ -9,7 +9,7 @@
   "attribution": "\"Angkor Thom South Gate Naga\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Angkor_Thom_South_Gate_Naga_balustrade.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Angkor_Thom_South_Gate_Naga_balustrade.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.597Z",
+  "retrievedAt": "2026-08-29T16:18:12.713Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 1510000
+      "sizeBytes": 1600600
     },
     {
       "variant": "gallery",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 226500
+      "sizeBytes": 223480
     }
   ],
-  "optimizedBytes": 2491500,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 2579080,
+  "compressionRatio": 0.1708,
   "predictedOptimizedBytes": 2491500,
-  "variancePercentage": 0
+  "variancePercentage": 3.52
 }

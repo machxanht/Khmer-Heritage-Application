@@ -9,7 +9,7 @@
   "attribution": "\"Royal Ballet Apsara Dance\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Royal_Ballet_Cambodia_Apsara_dance.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Royal_Ballet_Cambodia_Apsara_dance.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.451Z",
+  "retrievedAt": "2026-08-29T16:18:12.567Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 1240000
+      "sizeBytes": 1289600
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 620000
+      "sizeBytes": 607600
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 186000
+      "sizeBytes": 178560
     }
   ],
-  "optimizedBytes": 2046000,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 2075760,
+  "compressionRatio": 0.1674,
   "predictedOptimizedBytes": 2046000,
-  "variancePercentage": 0
+  "variancePercentage": 1.45
 }

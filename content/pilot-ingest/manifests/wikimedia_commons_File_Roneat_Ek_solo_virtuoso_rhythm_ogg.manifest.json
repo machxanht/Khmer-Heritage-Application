@@ -9,7 +9,7 @@
   "attribution": "\"Roneat Ek Virtuoso Solo\", Wikimedia Commons (CC BY 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Roneat_Ek_solo_virtuoso_rhythm.ogg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Roneat_Ek_solo_virtuoso_rhythm.ogg",
-  "retrievedAt": "2026-08-29T16:00:17.821Z",
+  "retrievedAt": "2026-08-29T16:18:12.941Z",
   "mediaType": "audio",
   "original": {
     "mime": "audio/ogg",
@@ -21,18 +21,18 @@
     {
       "variant": "web_standard",
       "format": "opus",
-      "sizeBytes": 3405000,
+      "sizeBytes": 3427700,
       "bitrate": 48000
     },
     {
       "variant": "mobile_preview",
       "format": "opus",
-      "sizeBytes": 1589000,
+      "sizeBytes": 1623050,
       "bitrate": 32000
     }
   ],
-  "optimizedBytes": 4994000,
-  "compressionRatio": 0.22,
+  "optimizedBytes": 5050750,
+  "compressionRatio": 0.2225,
   "predictedOptimizedBytes": 4994000,
-  "variancePercentage": 0
+  "variancePercentage": 1.14
 }

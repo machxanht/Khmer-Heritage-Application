@@ -9,7 +9,7 @@
   "attribution": "\"Bust of Jayavarman VII\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Jayavarman_VII_sandstone_bust_NMC.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Jayavarman_VII_sandstone_bust_NMC.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.628Z",
+  "retrievedAt": "2026-08-29T16:18:12.749Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 1030000
+      "sizeBytes": 1050600
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 515000
+      "sizeBytes": 494400
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 154500
+      "sizeBytes": 144200
     }
   ],
-  "optimizedBytes": 1699500,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1689200,
+  "compressionRatio": 0.164,
   "predictedOptimizedBytes": 1699500,
-  "variancePercentage": 0
+  "variancePercentage": -0.61
 }

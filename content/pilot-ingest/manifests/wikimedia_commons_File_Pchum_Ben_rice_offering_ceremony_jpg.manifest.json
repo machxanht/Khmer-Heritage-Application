@@ -9,7 +9,7 @@
   "attribution": "\"Pchum Ben Rice Offering\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Pchum_Ben_rice_offering_ceremony.jpg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Pchum_Ben_rice_offering_ceremony.jpg",
-  "retrievedAt": "2026-08-29T16:00:17.517Z",
+  "retrievedAt": "2026-08-29T16:18:12.640Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 1110000
+      "sizeBytes": 1132200
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 555000
+      "sizeBytes": 532800
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 166500
+      "sizeBytes": 155400
     }
   ],
-  "optimizedBytes": 1831500,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1820400,
+  "compressionRatio": 0.164,
   "predictedOptimizedBytes": 1831500,
-  "variancePercentage": 0
+  "variancePercentage": -0.61
 }

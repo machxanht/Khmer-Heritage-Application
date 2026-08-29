@@ -9,7 +9,7 @@
   "attribution": "\"Angkor Wat Glass Slide\", Frank G. Carpenter Collection, Library of Congress (PD)",
   "originalUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/41800/41829_150px.jpg",
   "finalUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/41800/41829_150px.jpg",
-  "retrievedAt": "2026-08-29T16:00:18.004Z",
+  "retrievedAt": "2026-08-29T16:18:13.119Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 1680000
+      "sizeBytes": 1713600
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 840000
+      "sizeBytes": 806400
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 252000
+      "sizeBytes": 235200
     }
   ],
-  "optimizedBytes": 2772000,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 2755200,
+  "compressionRatio": 0.164,
   "predictedOptimizedBytes": 2772000,
-  "variancePercentage": 0
+  "variancePercentage": -0.61
 }

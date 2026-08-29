@@ -9,7 +9,7 @@
   "attribution": "\"Kulen Plateau Survey\" (1898), Library of Congress (PD)",
   "originalUrl": "https://tile.loc.gov/storage-services/service/gdc/kulen_survey_1898.pdf",
   "finalUrl": "https://tile.loc.gov/storage-services/service/gdc/kulen_survey_1898.pdf",
-  "retrievedAt": "2026-08-29T16:00:18.090Z",
+  "retrievedAt": "2026-08-29T16:18:13.202Z",
   "mediaType": "document",
   "original": {
     "mime": "application/pdf",
@@ -21,11 +21,11 @@
     {
       "variant": "web_optimized_pdf",
       "format": "pdf",
-      "sizeBytes": 19200000
+      "sizeBytes": 18480000
     }
   ],
-  "optimizedBytes": 19200000,
-  "compressionRatio": 0.4,
+  "optimizedBytes": 18480000,
+  "compressionRatio": 0.385,
   "predictedOptimizedBytes": 19200000,
-  "variancePercentage": 0
+  "variancePercentage": -3.75
 }

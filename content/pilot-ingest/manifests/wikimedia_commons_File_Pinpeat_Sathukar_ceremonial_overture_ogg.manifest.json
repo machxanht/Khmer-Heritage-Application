@@ -9,7 +9,7 @@
   "attribution": "\"Sathukar Pinpeat Overture\", Wikimedia Commons (CC BY-SA 4.0)",
   "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Pinpeat_Sathukar_ceremonial_overture.ogg",
   "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Pinpeat_Sathukar_ceremonial_overture.ogg",
-  "retrievedAt": "2026-08-29T16:00:17.817Z",
+  "retrievedAt": "2026-08-29T16:18:12.935Z",
   "mediaType": "audio",
   "original": {
     "mime": "audio/ogg",
@@ -21,18 +21,18 @@
     {
       "variant": "web_standard",
       "format": "opus",
-      "sizeBytes": 4260000,
+      "sizeBytes": 4288400,
       "bitrate": 48000
     },
     {
       "variant": "mobile_preview",
       "format": "opus",
-      "sizeBytes": 1988000,
+      "sizeBytes": 2030600,
       "bitrate": 32000
     }
   ],
-  "optimizedBytes": 6248000,
-  "compressionRatio": 0.22,
+  "optimizedBytes": 6319000,
+  "compressionRatio": 0.2225,
   "predictedOptimizedBytes": 6248000,
-  "variancePercentage": 0
+  "variancePercentage": 1.14
 }

@@ -9,7 +9,7 @@
   "attribution": "\"Dancing Apsara\", 12th c., The Metropolitan Museum of Art (CC0)",
   "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167155.jpg",
   "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167155.jpg",
-  "retrievedAt": "2026-08-29T16:00:16.936Z",
+  "retrievedAt": "2026-08-29T16:18:12.073Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 290000
+      "sizeBytes": 272600
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 87000
+      "sizeBytes": 78880
     }
   ],
-  "optimizedBytes": 957000,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 931480,
+  "compressionRatio": 0.1606,
   "predictedOptimizedBytes": 957000,
-  "variancePercentage": 0
+  "variancePercentage": -2.67
 }

@@ -9,7 +9,7 @@
   "attribution": "\"Devata with Garland\", 12th c., National Museum of Asian Art, Smithsonian (CC0)",
   "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-S1997.32_001",
   "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-S1997.32_001",
-  "retrievedAt": "2026-08-29T16:00:17.233Z",
+  "retrievedAt": "2026-08-29T16:18:12.365Z",
   "mediaType": "image",
   "original": {
     "mime": "image/jpeg",
@@ -25,7 +25,7 @@
       "width": 400,
       "height": 300,
       "quality": 80,
-      "sizeBytes": 1010000
+      "sizeBytes": 1090800
     },
     {
       "variant": "gallery",
@@ -33,7 +33,7 @@
       "width": 400,
       "height": 300,
       "quality": 75,
-      "sizeBytes": 505000
+      "sizeBytes": 515100
     },
     {
       "variant": "thumb",
@@ -41,11 +41,11 @@
       "width": 200,
       "height": 150,
       "quality": 70,
-      "sizeBytes": 151500
+      "sizeBytes": 153520
     }
   ],
-  "optimizedBytes": 1666500,
-  "compressionRatio": 0.165,
+  "optimizedBytes": 1759420,
+  "compressionRatio": 0.1742,
   "predictedOptimizedBytes": 1666500,
-  "variancePercentage": 0
+  "variancePercentage": 5.58
 }
