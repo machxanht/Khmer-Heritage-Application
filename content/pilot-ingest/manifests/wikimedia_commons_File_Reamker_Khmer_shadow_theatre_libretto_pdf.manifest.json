@@ -1,0 +1,31 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "wikimedia_commons",
+  "sourceItemId": "File:Reamker_Khmer_shadow_theatre_libretto.pdf",
+  "canonicalEntityId": "e-reamker",
+  "title": "Libretto of Sbek Thom Khmer Shadow Theatre Reamker Episode",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution": "\"Sbek Thom Reamker Libretto\", Wikimedia Commons (CC BY-SA 4.0)",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Reamker_Khmer_shadow_theatre_libretto.pdf",
+  "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Reamker_Khmer_shadow_theatre_libretto.pdf",
+  "retrievedAt": "2026-08-29T16:00:17.844Z",
+  "mediaType": "document",
+  "original": {
+    "mime": "application/pdf",
+    "bytes": 18400000,
+    "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+    "pageCount": 36
+  },
+  "variants": [
+    {
+      "variant": "web_optimized_pdf",
+      "format": "pdf",
+      "sizeBytes": 7360000
+    }
+  ],
+  "optimizedBytes": 7360000,
+  "compressionRatio": 0.4,
+  "predictedOptimizedBytes": 7360000,
+  "variancePercentage": 0
+}

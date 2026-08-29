@@ -1,0 +1,44 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "wikimedia_commons",
+  "sourceItemId": "File:Royal_Ballet_Cambodia_Apsara_gesture_repertoire.mp4",
+  "canonicalEntityId": "e-apsara",
+  "title": "Masterclass on the Four Sacred Hand Gestures (Kbach) of Apsara Dance",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "\"Apsara Kbach Masterclass\", Wikimedia Commons (CC BY 4.0)",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Royal_Ballet_Cambodia_Apsara_gesture_repertoire.mp4",
+  "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Royal_Ballet_Cambodia_Apsara_gesture_repertoire.mp4",
+  "retrievedAt": "2026-08-29T16:00:17.833Z",
+  "mediaType": "video",
+  "original": {
+    "mime": "video/mp4",
+    "bytes": 110000000,
+    "sha256": "f81f8311d5f97448e3954c0c41ae6ae1f98ecfbe1d3fb1b128754f57b786c625",
+    "width": 1920,
+    "height": 1080,
+    "duration": 120
+  },
+  "variants": [
+    {
+      "variant": "web_av1_720p",
+      "format": "webm",
+      "width": 1280,
+      "height": 720,
+      "bitrate": 1200000,
+      "sizeBytes": 27500000
+    },
+    {
+      "variant": "mobile_av1_480p",
+      "format": "webm",
+      "width": 854,
+      "height": 480,
+      "bitrate": 600000,
+      "sizeBytes": 11000000
+    }
+  ],
+  "optimizedBytes": 38500000,
+  "compressionRatio": 0.35,
+  "predictedOptimizedBytes": 38500000,
+  "variancePercentage": 0
+}

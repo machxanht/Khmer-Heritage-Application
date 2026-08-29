@@ -1,0 +1,44 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "wikimedia_commons",
+  "sourceItemId": "File:Chapei_Dang_Veng_plucking_technique_workshop.mp4",
+  "canonicalEntityId": "e-chapei-dong-veng",
+  "title": "Lute Plucking Technique and Tuning Systems on Chapei Dang Veng",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution": "\"Chapei Workshop Video\", Wikimedia Commons (CC BY-SA 4.0)",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Chapei_Dang_Veng_plucking_technique_workshop.mp4",
+  "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Chapei_Dang_Veng_plucking_technique_workshop.mp4",
+  "retrievedAt": "2026-08-29T16:00:17.834Z",
+  "mediaType": "video",
+  "original": {
+    "mime": "video/mp4",
+    "bytes": 95000000,
+    "sha256": "f81f8311d5f97448e3954c0c41ae6ae1f98ecfbe1d3fb1b128754f57b786c625",
+    "width": 1920,
+    "height": 1080,
+    "duration": 120
+  },
+  "variants": [
+    {
+      "variant": "web_av1_720p",
+      "format": "webm",
+      "width": 1280,
+      "height": 720,
+      "bitrate": 1200000,
+      "sizeBytes": 23750000
+    },
+    {
+      "variant": "mobile_av1_480p",
+      "format": "webm",
+      "width": 854,
+      "height": 480,
+      "bitrate": 600000,
+      "sizeBytes": 9500000
+    }
+  ],
+  "optimizedBytes": 33250000,
+  "compressionRatio": 0.35,
+  "predictedOptimizedBytes": 33250000,
+  "variancePercentage": 0
+}

@@ -1,0 +1,38 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "wikimedia_commons",
+  "sourceItemId": "File:Pchum_Ben_monastic_paritta_chanting.ogg",
+  "canonicalEntityId": "e-pchum-ben",
+  "title": "Monastic Pali Paritta and Smot Chanting for Ancestral Dedication",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution": "\"Pchum Ben Monastic Chanting\", Wikimedia Commons (CC BY-SA 4.0)",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Pchum_Ben_monastic_paritta_chanting.ogg",
+  "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Pchum_Ben_monastic_paritta_chanting.ogg",
+  "retrievedAt": "2026-08-29T16:00:17.825Z",
+  "mediaType": "audio",
+  "original": {
+    "mime": "audio/ogg",
+    "bytes": 38600000,
+    "sha256": "6ff332850b70c384e00b21b32ab2370c9b18c9592066c26695e280bb003350b7",
+    "duration": 180
+  },
+  "variants": [
+    {
+      "variant": "web_standard",
+      "format": "opus",
+      "sizeBytes": 5790000,
+      "bitrate": 48000
+    },
+    {
+      "variant": "mobile_preview",
+      "format": "opus",
+      "sizeBytes": 2702000,
+      "bitrate": 32000
+    }
+  ],
+  "optimizedBytes": 8492000,
+  "compressionRatio": 0.22,
+  "predictedOptimizedBytes": 8492000,
+  "variancePercentage": 0
+}

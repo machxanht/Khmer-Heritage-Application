@@ -1,0 +1,31 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "internet_archive",
+  "sourceItemId": "ia-inscriptions-du-cambodge-coedes-vol1-1937",
+  "canonicalEntityId": "e-sdok-kok-thom",
+  "title": "Inscriptions du Cambodge: Volume I (George Cœdès, EFEO, 1937)",
+  "license": "Public Domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "attribution": "\"Inscriptions du Cambodge Vol 1\" (1937), Internet Archive (Public Domain)",
+  "originalUrl": "https://archive.org/download/inscriptionsducambodge01coed/inscriptionsducambodge01coed.pdf",
+  "finalUrl": "https://archive.org/download/inscriptionsducambodge01coed/inscriptionsducambodge01coed.pdf",
+  "retrievedAt": "2026-08-29T16:00:18.003Z",
+  "mediaType": "document",
+  "original": {
+    "mime": "application/pdf",
+    "bytes": 64000000,
+    "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+    "pageCount": 125
+  },
+  "variants": [
+    {
+      "variant": "web_optimized_pdf",
+      "format": "pdf",
+      "sizeBytes": 25600000
+    }
+  ],
+  "optimizedBytes": 25600000,
+  "compressionRatio": 0.4,
+  "predictedOptimizedBytes": 25600000,
+  "variancePercentage": 0
+}

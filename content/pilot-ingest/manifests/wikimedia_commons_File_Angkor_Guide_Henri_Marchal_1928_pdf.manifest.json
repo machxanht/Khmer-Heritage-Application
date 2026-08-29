@@ -1,0 +1,31 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "wikimedia_commons",
+  "sourceItemId": "File:Angkor_Guide_Henri_Marchal_1928.pdf",
+  "canonicalEntityId": "e-angkor-wat",
+  "title": "Guide archéologique aux temples d’Angkor (Henri Marchal, 1928)",
+  "license": "Public Domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "attribution": "\"Guide archéologique aux temples d’Angkor\" (1928), Public Domain",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Angkor_Guide_Henri_Marchal_1928.pdf",
+  "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Angkor_Guide_Henri_Marchal_1928.pdf",
+  "retrievedAt": "2026-08-29T16:00:17.839Z",
+  "mediaType": "document",
+  "original": {
+    "mime": "application/pdf",
+    "bytes": 42100000,
+    "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+    "pageCount": 82
+  },
+  "variants": [
+    {
+      "variant": "web_optimized_pdf",
+      "format": "pdf",
+      "sizeBytes": 16840000
+    }
+  ],
+  "optimizedBytes": 16840000,
+  "compressionRatio": 0.4,
+  "predictedOptimizedBytes": 16840000,
+  "variancePercentage": 0
+}

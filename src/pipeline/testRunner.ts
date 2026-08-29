@@ -20,6 +20,7 @@ import { runSourceRegistryTestSuite } from './__tests__/sourceRegistry.test.ts';
 import { runIngestionPilotTests } from './__tests__/ingestionPilot.test.ts';
 import { runDiscoveryCrawlerTests } from './__tests__/discoveryCrawler.test.ts';
 import { runCorpusInventoryTests } from './__tests__/corpusInventory.test.ts';
+import { runControlledPilotTestSuite } from './__tests__/controlledIngestPilot.test.ts';
 
 export async function runAllPipelineAudits(): Promise<boolean> {
   const overallStart = performance.now();
@@ -216,12 +217,29 @@ export async function runAllPipelineAudits(): Promise<boolean> {
     return false;
   }
 
+  // STAGE 12: Controlled Media Ingestion Pilot & Storage Accounting (KH-018)
+  console.log('▶ STAGE 12: CONTROLLED MEDIA INGESTION PILOT & PROVENANCE MANIFESTS (KH-018)...');
+  const pilot18Report = await runControlledPilotTestSuite();
+  pilot18Report.results.forEach((r, idx) => {
+    const symbol = r.passed ? '✓ PASS' : '✗ FAIL';
+    console.log(`  [${symbol}] Test ${String(idx + 1).padStart(2, '0')}: ${r.test}`);
+  });
+  console.log(`  • Result: ${pilot18Report.passed}/${pilot18Report.total} pilot tests passed in ${pilot18Report.durationMs} ms.\n`);
+
+  if (pilot18Report.failed > 0) {
+    console.error(`❌ STAGE 12 FAILED: ${pilot18Report.failed} controlled pilot tests failed!`);
+    pilot18Report.results
+      .filter((r) => !r.passed)
+      .forEach((r) => console.error(`    - ${r.test}: ${r.message}`));
+    return false;
+  }
+
   const overallEnd = performance.now();
   const overallMs = +(overallEnd - overallStart).toFixed(2);
 
   console.log('╔═══════════════════════════════════════════════════════════════════════════╗');
-  console.log(`║ ALL 11 AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                  ║`);
-  console.log('║ STATUS: CORPUS, BUNDLE, R2, CACHE, SIGV4, CATALOG, PILOT, CRAWLER, INVENTORY ║');
+  console.log(`║ ALL 12 AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                  ║`);
+  console.log('║ STATUS: CORPUS, BUNDLE, R2, CACHE, SIGV4, CATALOG, PILOT, CRAWLER, INVENTORY, INGEST-100 ║');
   console.log('╚═══════════════════════════════════════════════════════════════════════════╝\n');
 
   return true;

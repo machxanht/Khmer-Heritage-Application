@@ -1,0 +1,31 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "internet_archive",
+  "sourceItemId": "ia-le-cambodge-aymonier-tome1-1900",
+  "canonicalEntityId": "e-phnom-kulen",
+  "title": "Le Cambodge: Le royaume actuel et les provinces (Étienne Aymonier, 1900)",
+  "license": "Public Domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "attribution": "\"Le Cambodge Tome 1\" (1900), Internet Archive (Public Domain)",
+  "originalUrl": "https://archive.org/download/lecambodge01aymo/lecambodge01aymo.pdf",
+  "finalUrl": "https://archive.org/download/lecambodge01aymo/lecambodge01aymo.pdf",
+  "retrievedAt": "2026-08-29T16:00:17.993Z",
+  "mediaType": "document",
+  "original": {
+    "mime": "application/pdf",
+    "bytes": 85000000,
+    "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+    "pageCount": 166
+  },
+  "variants": [
+    {
+      "variant": "web_optimized_pdf",
+      "format": "pdf",
+      "sizeBytes": 34000000
+    }
+  ],
+  "optimizedBytes": 34000000,
+  "compressionRatio": 0.4,
+  "predictedOptimizedBytes": 34000000,
+  "variancePercentage": 0
+}

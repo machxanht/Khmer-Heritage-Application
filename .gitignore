@@ -8,6 +8,10 @@ coverage/
 !.env.example
 content/pilot/media/
 content/discovery/media/
+content/pilot-ingest/media/
 content/.*checkpoint.json
 content/pilot/.*checkpoint.json
 content/discovery/.*checkpoint.json
+content/pilot-ingest/.*checkpoint.json
+.pilot-cache/
+pilot-media/

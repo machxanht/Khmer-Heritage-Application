@@ -1,0 +1,51 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "wikimedia_commons",
+  "sourceItemId": "File:Baphuon_temple_mountain_pyramid.jpg",
+  "canonicalEntityId": "e-angkor-thom",
+  "title": "The Great Pyramid Temple Mountain of Baphuon",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "\"Baphuon Pyramid\", Wikimedia Commons (CC BY 4.0)",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Baphuon_temple_mountain_pyramid.jpg",
+  "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Baphuon_temple_mountain_pyramid.jpg",
+  "retrievedAt": "2026-08-29T16:00:17.666Z",
+  "mediaType": "image",
+  "original": {
+    "mime": "image/jpeg",
+    "bytes": 11500000,
+    "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+    "width": 400,
+    "height": 300
+  },
+  "variants": [
+    {
+      "variant": "hero",
+      "format": "webp",
+      "width": 400,
+      "height": 300,
+      "quality": 80,
+      "sizeBytes": 1150000
+    },
+    {
+      "variant": "gallery",
+      "format": "webp",
+      "width": 400,
+      "height": 300,
+      "quality": 75,
+      "sizeBytes": 575000
+    },
+    {
+      "variant": "thumb",
+      "format": "webp",
+      "width": 200,
+      "height": 150,
+      "quality": 70,
+      "sizeBytes": 172500
+    }
+  ],
+  "optimizedBytes": 1897500,
+  "compressionRatio": 0.165,
+  "predictedOptimizedBytes": 1897500,
+  "variancePercentage": 0
+}

@@ -1,0 +1,51 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "wikimedia_commons",
+  "sourceItemId": "File:Pinpeat_ensemble_orchestra_angkor.jpg",
+  "canonicalEntityId": "e-pinpeat",
+  "title": "Traditional Pinpeat Orchestra Performing at Wat Bo, Siem Reap",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution": "\"Pinpeat Orchestra at Wat Bo\", Wikimedia Commons (CC BY-SA 4.0)",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Pinpeat_ensemble_orchestra_angkor.jpg",
+  "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Pinpeat_ensemble_orchestra_angkor.jpg",
+  "retrievedAt": "2026-08-29T16:00:17.455Z",
+  "mediaType": "image",
+  "original": {
+    "mime": "image/jpeg",
+    "bytes": 10900000,
+    "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+    "width": 400,
+    "height": 300
+  },
+  "variants": [
+    {
+      "variant": "hero",
+      "format": "webp",
+      "width": 400,
+      "height": 300,
+      "quality": 80,
+      "sizeBytes": 1090000
+    },
+    {
+      "variant": "gallery",
+      "format": "webp",
+      "width": 400,
+      "height": 300,
+      "quality": 75,
+      "sizeBytes": 545000
+    },
+    {
+      "variant": "thumb",
+      "format": "webp",
+      "width": 200,
+      "height": 150,
+      "quality": 70,
+      "sizeBytes": 163500
+    }
+  ],
+  "optimizedBytes": 1798500,
+  "compressionRatio": 0.165,
+  "predictedOptimizedBytes": 1798500,
+  "variancePercentage": 0
+}

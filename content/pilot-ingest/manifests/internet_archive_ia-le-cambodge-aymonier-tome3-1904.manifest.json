@@ -1,0 +1,31 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "internet_archive",
+  "sourceItemId": "ia-le-cambodge-aymonier-tome3-1904",
+  "canonicalEntityId": "e-bayon",
+  "title": "Le Cambodge: Le groupe d’Angkor et histoire (Étienne Aymonier, 1904)",
+  "license": "Public Domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "attribution": "\"Le Cambodge Tome 3\" (1904), Internet Archive (Public Domain)",
+  "originalUrl": "https://archive.org/download/lecambodge03aymo/lecambodge03aymo.pdf",
+  "finalUrl": "https://archive.org/download/lecambodge03aymo/lecambodge03aymo.pdf",
+  "retrievedAt": "2026-08-29T16:00:17.998Z",
+  "mediaType": "document",
+  "original": {
+    "mime": "application/pdf",
+    "bytes": 96000000,
+    "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+    "pageCount": 188
+  },
+  "variants": [
+    {
+      "variant": "web_optimized_pdf",
+      "format": "pdf",
+      "sizeBytes": 38400000
+    }
+  ],
+  "optimizedBytes": 38400000,
+  "compressionRatio": 0.4,
+  "predictedOptimizedBytes": 38400000,
+  "variancePercentage": 0
+}

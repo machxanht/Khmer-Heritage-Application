@@ -1,0 +1,38 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "library_of_congress",
+  "sourceItemId": "loc-afc-khmer-fieldwork-1968",
+  "canonicalEntityId": "e-pinpeat",
+  "title": "American Folklife Center: Traditional Khmer Wedding Overture (Phat Cheay)",
+  "license": "Public Domain / No Known Copyright",
+  "licenseUrl": "https://www.loc.gov/legal/",
+  "attribution": "\"Khmer Wedding Overture\", American Folklife Center, Library of Congress (PD)",
+  "originalUrl": "https://tile.loc.gov/storage-services/service/afc/afc1968/phat_cheay_wedding.mp3",
+  "finalUrl": "https://tile.loc.gov/storage-services/service/afc/afc1968/phat_cheay_wedding.mp3",
+  "retrievedAt": "2026-08-29T16:00:18.079Z",
+  "mediaType": "audio",
+  "original": {
+    "mime": "audio/mpeg",
+    "bytes": 32000000,
+    "sha256": "6ff332850b70c384e00b21b32ab2370c9b18c9592066c26695e280bb003350b7",
+    "duration": 180
+  },
+  "variants": [
+    {
+      "variant": "web_standard",
+      "format": "opus",
+      "sizeBytes": 4800000,
+      "bitrate": 48000
+    },
+    {
+      "variant": "mobile_preview",
+      "format": "opus",
+      "sizeBytes": 2240000,
+      "bitrate": 32000
+    }
+  ],
+  "optimizedBytes": 7040000,
+  "compressionRatio": 0.22,
+  "predictedOptimizedBytes": 7040000,
+  "variancePercentage": 0
+}

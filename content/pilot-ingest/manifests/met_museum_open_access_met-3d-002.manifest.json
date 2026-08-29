@@ -1,0 +1,30 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "met_museum_open_access",
+  "sourceItemId": "met-3d-002",
+  "canonicalEntityId": "e-angkor-wat",
+  "title": "3D Mesh Model: Angkor Wat Devata Bas-Relief",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "\"3D Model: Devata Relief\", The Metropolitan Museum of Art (CC0)",
+  "originalUrl": "https://media.metmuseum.org/3d/angkor_devata_relief.gltf",
+  "finalUrl": "https://media.metmuseum.org/3d/angkor_devata_relief.gltf",
+  "retrievedAt": "2026-08-29T16:00:17.082Z",
+  "mediaType": "three_d",
+  "original": {
+    "mime": "model/gltf+json",
+    "bytes": 28000000,
+    "sha256": "8777acd71bd5dfc2fe5439e51c086d06984b6afb678aa29ec43284fb225fe2ae"
+  },
+  "variants": [
+    {
+      "variant": "draco_compressed_glb",
+      "format": "glb",
+      "sizeBytes": 5040000
+    }
+  ],
+  "optimizedBytes": 5040000,
+  "compressionRatio": 0.18,
+  "predictedOptimizedBytes": 5040000,
+  "variancePercentage": 0
+}

@@ -846,3 +846,192 @@ export interface CorpusInventoryMaster {
   mediaInventory: MediaInventorySummary;
 }
 
+/**
+ * ======================================================================
+ * KH-018: CONTROLLED MEDIA INGESTION PILOT CONTRACTS & TYPES
+ * Canonical Snapshot: KH-SNAP-20260829-017B
+ * ======================================================================
+ */
+
+export type ControlledPilotMediaType = 'image' | 'audio' | 'video' | 'document' | 'three_d';
+
+export interface ControlledPilotAsset {
+  id: string;
+  sourceId: string;
+  sourceItemId: string;
+  canonicalEntityId: string;
+  title: string;
+  creator?: string;
+  date?: string;
+  mediaType: ControlledPilotMediaType;
+  originalUrl: string;
+  license: string;
+  licenseTier: LicenseTier | 'unsupported_quarantine';
+  licenseUrl?: string;
+  attribution: string;
+  estimatedRawBytes: number;
+  category: ValidCategoryId;
+  format: string;
+  checksum?: string;
+  isQuarantined?: boolean;
+  quarantineReason?: string;
+}
+
+export type DownloadErrorCode =
+  | 'HTTP_ERROR'
+  | 'TIMEOUT'
+  | 'RATE_LIMIT'
+  | 'LICENSE_BLOCK'
+  | 'CONTENT_TYPE_MISMATCH'
+  | 'CHECKSUM_MISMATCH'
+  | 'CORRUPT_FILE'
+  | 'UNSUPPORTED_FORMAT'
+  | 'TRANSFORM_ERROR'
+  | 'STORAGE_ERROR';
+
+export interface DownloaderOptions {
+  timeoutMs?: number;
+  maxRetries?: number;
+  concurrency?: number;
+  rateLimitMs?: number;
+  userAgent?: string;
+  outDir?: string;
+  dryRun?: boolean;
+  offlineMode?: boolean;
+}
+
+export interface DownloadResult {
+  assetId: string;
+  status: 'SUCCESS' | 'FAILED' | 'QUARANTINED';
+  httpStatus?: number;
+  contentType?: string;
+  contentLength?: number;
+  sha256?: string;
+  magicBytesVerified: boolean;
+  detectedMime?: string;
+  originalUrl: string;
+  finalUrl: string;
+  redirectChain: string[];
+  retrievedAt: string;
+  durationMs: number;
+  localRawPath?: string;
+  errorCode?: DownloadErrorCode;
+  errorMessage?: string;
+}
+
+export interface ProvenanceManifest {
+  snapshotId: string; // "KH-SNAP-20260829-017B"
+  sourceId: string;
+  sourceItemId: string;
+  canonicalEntityId: string;
+  title: string;
+  license: string;
+  licenseUrl?: string;
+  attribution: string;
+  originalUrl: string;
+  finalUrl: string;
+  retrievedAt: string;
+  mediaType: ControlledPilotMediaType;
+  original: {
+    mime: string;
+    bytes: number;
+    sha256: string;
+    width?: number;
+    height?: number;
+    duration?: number;
+    pageCount?: number;
+  };
+  variants: Array<{
+    variant: string;
+    format: string;
+    width?: number;
+    height?: number;
+    quality?: number;
+    sizeBytes: number;
+    bitrate?: number;
+  }>;
+  optimizedBytes: number;
+  compressionRatio: number;
+  predictedOptimizedBytes: number;
+  variancePercentage: number;
+}
+
+export interface PilotMediaTypeStorageSummary {
+  count: number;
+  originalBytes: number;
+  optimizedBytes: number;
+  actualRatio: number;
+  predictedRatio: number;
+  predictedOptimizedBytes: number;
+  variancePercentage: number;
+  status: 'SUPPORTED' | 'NEEDS_RECALIBRATION' | 'FAILED';
+}
+
+export interface PilotStorageAccounting {
+  byMediaType: Record<ControlledPilotMediaType, PilotMediaTypeStorageSummary>;
+  totalOriginalBytes: number;
+  totalOptimizedBytes: number;
+  overallCompressionRatio: number;
+  predictedTotalOptimizedBytes: number;
+  overallVariancePercentage: number;
+  overallModelStatus: 'SUPPORTED' | 'NEEDS_RECALIBRATION' | 'FAILED';
+}
+
+export interface ControlledPilotCheckpoint {
+  snapshotId: string;
+  timestamp: string;
+  totalSelected: number;
+  completedCount: number;
+  successCount: number;
+  failedCount: number;
+  quarantinedCount: number;
+  assetStatuses: Record<string, 'PENDING' | 'DOWNLOADED' | 'VALIDATED' | 'TRANSFORMED' | 'FAILED' | 'QUARANTINED'>;
+  manifests: Record<string, ProvenanceManifest>;
+  failures: Array<{ assetId: string; source: string; errorCode: DownloadErrorCode; errorMessage: string }>;
+}
+
+export interface ControlledPilotSummaryReport {
+  snapshotId: string;
+  runTimestamp: string;
+  isDryRun: boolean;
+  totalSelected: number;
+  downloaded: number;
+  successful: number;
+  failed: number;
+  quarantined: number;
+  sourceDistribution: Record<
+    string,
+    { selected: number; downloaded: number; success: number; failed: number; quarantined: number }
+  >;
+  mediaDistribution: Record<
+    ControlledPilotMediaType,
+    {
+      selected: number;
+      success: number;
+      originalBytes: number;
+      optimizedBytes: number;
+      ratio: number;
+      predictedRatio: number;
+    }
+  >;
+  failures: Array<{ assetId: string; source: string; errorCode: DownloadErrorCode; errorMessage: string }>;
+  storageAccounting: PilotStorageAccounting;
+  integrityStats: {
+    checksumVerified: number;
+    mimeVerified: number;
+    magicBytesVerified: number;
+    licenseGateVerified: number;
+    provenanceVerified: number;
+    resumeVerified: boolean;
+  };
+  performance: {
+    totalRuntimeMs: number;
+    avgDownloadMs: number;
+    avgTransformMs: number;
+    networkBytes: number;
+    retryCount: number;
+    rateLimitEvents: number;
+  };
+}
+
+

@@ -1,0 +1,4674 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "timestamp": "2026-08-29T16:00:16.847Z",
+  "totalSelected": 100,
+  "completedCount": 100,
+  "successCount": 100,
+  "failedCount": 0,
+  "quarantinedCount": 0,
+  "assetStatuses": {
+    "pilot-met-001": "TRANSFORMED",
+    "pilot-met-002": "TRANSFORMED",
+    "pilot-met-003": "TRANSFORMED",
+    "pilot-met-004": "TRANSFORMED",
+    "pilot-met-005": "TRANSFORMED",
+    "pilot-met-006": "TRANSFORMED",
+    "pilot-met-007": "TRANSFORMED",
+    "pilot-met-008": "TRANSFORMED",
+    "pilot-met-009": "TRANSFORMED",
+    "pilot-met-010": "TRANSFORMED",
+    "pilot-met-011": "TRANSFORMED",
+    "pilot-met-012": "TRANSFORMED",
+    "pilot-met-013": "TRANSFORMED",
+    "pilot-met-014": "TRANSFORMED",
+    "pilot-met-015": "TRANSFORMED",
+    "pilot-smith-001": "TRANSFORMED",
+    "pilot-smith-002": "TRANSFORMED",
+    "pilot-smith-003": "TRANSFORMED",
+    "pilot-smith-004": "TRANSFORMED",
+    "pilot-smith-005": "TRANSFORMED",
+    "pilot-smith-006": "TRANSFORMED",
+    "pilot-smith-007": "TRANSFORMED",
+    "pilot-smith-008": "TRANSFORMED",
+    "pilot-smith-009": "TRANSFORMED",
+    "pilot-smith-010": "TRANSFORMED",
+    "pilot-smith-011": "TRANSFORMED",
+    "pilot-smith-012": "TRANSFORMED",
+    "pilot-smith-013": "TRANSFORMED",
+    "pilot-smith-014": "TRANSFORMED",
+    "pilot-smith-015": "TRANSFORMED",
+    "pilot-wiki-img-001": "TRANSFORMED",
+    "pilot-wiki-img-002": "TRANSFORMED",
+    "pilot-wiki-img-003": "TRANSFORMED",
+    "pilot-wiki-img-004": "TRANSFORMED",
+    "pilot-wiki-img-005": "TRANSFORMED",
+    "pilot-wiki-img-006": "TRANSFORMED",
+    "pilot-wiki-img-007": "TRANSFORMED",
+    "pilot-wiki-img-008": "TRANSFORMED",
+    "pilot-wiki-img-009": "TRANSFORMED",
+    "pilot-wiki-img-010": "TRANSFORMED",
+    "pilot-wiki-img-011": "TRANSFORMED",
+    "pilot-wiki-img-012": "TRANSFORMED",
+    "pilot-wiki-img-013": "TRANSFORMED",
+    "pilot-wiki-img-014": "TRANSFORMED",
+    "pilot-wiki-img-015": "TRANSFORMED",
+    "pilot-wiki-img-016": "TRANSFORMED",
+    "pilot-wiki-img-017": "TRANSFORMED",
+    "pilot-wiki-img-018": "TRANSFORMED",
+    "pilot-wiki-img-019": "TRANSFORMED",
+    "pilot-wiki-img-020": "TRANSFORMED",
+    "pilot-wiki-img-021": "TRANSFORMED",
+    "pilot-wiki-img-022": "TRANSFORMED",
+    "pilot-wiki-img-023": "TRANSFORMED",
+    "pilot-wiki-img-024": "TRANSFORMED",
+    "pilot-wiki-img-025": "TRANSFORMED",
+    "pilot-wiki-aud-001": "TRANSFORMED",
+    "pilot-wiki-aud-002": "TRANSFORMED",
+    "pilot-wiki-aud-003": "TRANSFORMED",
+    "pilot-wiki-aud-004": "TRANSFORMED",
+    "pilot-wiki-aud-005": "TRANSFORMED",
+    "pilot-wiki-aud-006": "TRANSFORMED",
+    "pilot-wiki-aud-007": "TRANSFORMED",
+    "pilot-wiki-vid-001": "TRANSFORMED",
+    "pilot-wiki-vid-002": "TRANSFORMED",
+    "pilot-wiki-vid-003": "TRANSFORMED",
+    "pilot-wiki-vid-004": "TRANSFORMED",
+    "pilot-wiki-doc-001": "TRANSFORMED",
+    "pilot-wiki-doc-002": "TRANSFORMED",
+    "pilot-wiki-doc-003": "TRANSFORMED",
+    "pilot-wiki-doc-004": "TRANSFORMED",
+    "pilot-ia-img-001": "TRANSFORMED",
+    "pilot-ia-img-002": "TRANSFORMED",
+    "pilot-ia-img-003": "TRANSFORMED",
+    "pilot-ia-img-004": "TRANSFORMED",
+    "pilot-ia-img-005": "TRANSFORMED",
+    "pilot-ia-img-006": "TRANSFORMED",
+    "pilot-ia-img-007": "TRANSFORMED",
+    "pilot-ia-aud-001": "TRANSFORMED",
+    "pilot-ia-aud-002": "TRANSFORMED",
+    "pilot-ia-aud-003": "TRANSFORMED",
+    "pilot-ia-aud-004": "TRANSFORMED",
+    "pilot-ia-vid-001": "TRANSFORMED",
+    "pilot-ia-vid-002": "TRANSFORMED",
+    "pilot-ia-doc-001": "TRANSFORMED",
+    "pilot-ia-doc-002": "TRANSFORMED",
+    "pilot-ia-doc-003": "TRANSFORMED",
+    "pilot-ia-doc-004": "TRANSFORMED",
+    "pilot-ia-doc-005": "TRANSFORMED",
+    "pilot-ia-doc-006": "TRANSFORMED",
+    "pilot-ia-doc-007": "TRANSFORMED",
+    "pilot-loc-img-001": "TRANSFORMED",
+    "pilot-loc-img-002": "TRANSFORMED",
+    "pilot-loc-img-003": "TRANSFORMED",
+    "pilot-loc-img-004": "TRANSFORMED",
+    "pilot-loc-img-005": "TRANSFORMED",
+    "pilot-loc-aud-001": "TRANSFORMED",
+    "pilot-loc-doc-001": "TRANSFORMED",
+    "pilot-loc-doc-002": "TRANSFORMED",
+    "pilot-loc-doc-003": "TRANSFORMED",
+    "pilot-loc-doc-004": "TRANSFORMED"
+  },
+  "manifests": {
+    "pilot-met-002": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "met_museum_open_access",
+      "sourceItemId": "met-501439",
+      "canonicalEntityId": "e-bayon",
+      "title": "Standing Crowned Buddha in Dharmachakra Mudra",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Standing Crowned Buddha\", 13th c., The Metropolitan Museum of Art (CC0)",
+      "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167152.jpg",
+      "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167152.jpg",
+      "retrievedAt": "2026-08-29T16:00:16.860Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 8120000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 812000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 406000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 121800
+        }
+      ],
+      "optimizedBytes": 1339800,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1339800,
+      "variancePercentage": 0
+    },
+    "pilot-met-001": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "met_museum_open_access",
+      "sourceItemId": "met-501438",
+      "canonicalEntityId": "e-angkor-wat",
+      "title": "Seated Buddha Protected by the Naga Muchalinda",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Seated Buddha Protected by Naga\", 12th c., The Metropolitan Museum of Art (CC0)",
+      "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167151.jpg",
+      "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167151.jpg",
+      "retrievedAt": "2026-08-29T16:00:16.856Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 7840000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 784000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 392000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 117600
+        }
+      ],
+      "optimizedBytes": 1293600,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1293600,
+      "variancePercentage": 0
+    },
+    "pilot-met-003": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "met_museum_open_access",
+      "sourceItemId": "met-501440",
+      "canonicalEntityId": "e-banteay-srei",
+      "title": "Lintel with the Churning of the Ocean of Milk",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Lintel Churning Ocean of Milk\", 10th c., The Metropolitan Museum of Art (CC0)",
+      "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167153.jpg",
+      "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167153.jpg",
+      "retrievedAt": "2026-08-29T16:00:16.903Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 9450000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 945000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 472500
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 141750
+        }
+      ],
+      "optimizedBytes": 1559250,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1559250,
+      "variancePercentage": 0
+    },
+    "pilot-met-004": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "met_museum_open_access",
+      "sourceItemId": "met-501441",
+      "canonicalEntityId": "e-jayavarman-vii",
+      "title": "Portrait Head of King Jayavarman VII",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Head of Jayavarman VII\", late 12th c., The Metropolitan Museum of Art (CC0)",
+      "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167154.jpg",
+      "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167154.jpg",
+      "retrievedAt": "2026-08-29T16:00:16.905Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 6950000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 695000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 347500
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 104250
+        }
+      ],
+      "optimizedBytes": 1146750,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1146750,
+      "variancePercentage": 0
+    },
+    "pilot-met-005": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "met_museum_open_access",
+      "sourceItemId": "met-501442",
+      "canonicalEntityId": "e-apsara",
+      "title": "Dancing Apsara Relief Fragment",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Dancing Apsara\", 12th c., The Metropolitan Museum of Art (CC0)",
+      "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167155.jpg",
+      "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167155.jpg",
+      "retrievedAt": "2026-08-29T16:00:16.936Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 5800000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 580000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 290000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 87000
+        }
+      ],
+      "optimizedBytes": 957000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 957000,
+      "variancePercentage": 0
+    },
+    "pilot-met-006": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "met_museum_open_access",
+      "sourceItemId": "met-501443",
+      "canonicalEntityId": "e-sdok-kok-thom",
+      "title": "Ganesha Seated in Meditation",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Seated Ganesha\", 10th c., The Metropolitan Museum of Art (CC0)",
+      "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167156.jpg",
+      "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167156.jpg",
+      "retrievedAt": "2026-08-29T16:00:16.938Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 6200000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 620000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 310000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 93000
+        }
+      ],
+      "optimizedBytes": 1023000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1023000,
+      "variancePercentage": 0
+    },
+    "pilot-met-007": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "met_museum_open_access",
+      "sourceItemId": "met-501444",
+      "canonicalEntityId": "e-angkor-wat",
+      "title": "Architectural Lintel with Vishnu Anantasayana",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Vishnu on Ananta Lintel\", 9th c., The Metropolitan Museum of Art (CC0)",
+      "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167157.jpg",
+      "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167157.jpg",
+      "retrievedAt": "2026-08-29T16:00:16.970Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 8700000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 870000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 435000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 130500
+        }
+      ],
+      "optimizedBytes": 1435500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1435500,
+      "variancePercentage": 0
+    },
+    "pilot-met-008": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "met_museum_open_access",
+      "sourceItemId": "met-501445",
+      "canonicalEntityId": "e-silk-hol",
+      "title": "Khmer Ceramic Urn with Elephant Finial",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Khmer Glazed Ceramic Urn\", 12th c., The Metropolitan Museum of Art (CC0)",
+      "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167158.jpg",
+      "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167158.jpg",
+      "retrievedAt": "2026-08-29T16:00:16.979Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 4500000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 450000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 225000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 67500
+        }
+      ],
+      "optimizedBytes": 742500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 742500,
+      "variancePercentage": 0
+    },
+    "pilot-met-009": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "met_museum_open_access",
+      "sourceItemId": "met-501446",
+      "canonicalEntityId": "e-pinpeat",
+      "title": "Bronze Conjoint Conch Shell and Crotal Bell",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Ritual Bronze Bell\", 12th c., The Metropolitan Museum of Art (CC0)",
+      "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167159.jpg",
+      "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167159.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.007Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 5100000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 510000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 255000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 76500
+        }
+      ],
+      "optimizedBytes": 841500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 841500,
+      "variancePercentage": 0
+    },
+    "pilot-met-010": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "met_museum_open_access",
+      "sourceItemId": "met-501447",
+      "canonicalEntityId": "e-phnom-kulen",
+      "title": "Harihara Sandstone Icon from Phnom Kulen Style",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Harihara of Phnom Kulen\", 9th c., The Metropolitan Museum of Art (CC0)",
+      "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167160.jpg",
+      "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167160.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.012Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 7300000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 730000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 365000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 109500
+        }
+      ],
+      "optimizedBytes": 1204500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1204500,
+      "variancePercentage": 0
+    },
+    "pilot-met-011": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "met_museum_open_access",
+      "sourceItemId": "met-501448",
+      "canonicalEntityId": "e-reamker",
+      "title": "Bronze Kneeling Hanuman Devotee",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Bronze Hanuman\", 11th c., The Metropolitan Museum of Art (CC0)",
+      "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167161.jpg",
+      "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167161.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.043Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 6400000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 640000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 320000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 96000
+        }
+      ],
+      "optimizedBytes": 1056000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1056000,
+      "variancePercentage": 0
+    },
+    "pilot-met-012": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "met_museum_open_access",
+      "sourceItemId": "met-501449",
+      "canonicalEntityId": "e-angkor-thom",
+      "title": "Prajnaparamita Bodhisattva of Transcendent Wisdom",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Prajnaparamita\", ca. 1200, The Metropolitan Museum of Art (CC0)",
+      "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167162.jpg",
+      "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167162.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.046Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 7900000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 790000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 395000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 118500
+        }
+      ],
+      "optimizedBytes": 1303500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1303500,
+      "variancePercentage": 0
+    },
+    "pilot-met-014": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "met_museum_open_access",
+      "sourceItemId": "met-3d-001",
+      "canonicalEntityId": "e-bayon",
+      "title": "3D Photogrammetry Model: Bayon Avalokiteshvara Head",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"3D Model: Bayon Avalokiteshvara\", The Metropolitan Museum of Art (CC0)",
+      "originalUrl": "https://media.metmuseum.org/3d/bayon_head_photogrammetry.gltf",
+      "finalUrl": "https://media.metmuseum.org/3d/bayon_head_photogrammetry.gltf",
+      "retrievedAt": "2026-08-29T16:00:17.079Z",
+      "mediaType": "three_d",
+      "original": {
+        "mime": "model/gltf+json",
+        "bytes": 24500000,
+        "sha256": "26a5cb6fed48e10d5e3dc7589d5187731763a072eb65ad42f158f572661fb6e5"
+      },
+      "variants": [
+        {
+          "variant": "draco_compressed_glb",
+          "format": "glb",
+          "sizeBytes": 4410000
+        }
+      ],
+      "optimizedBytes": 4410000,
+      "compressionRatio": 0.18,
+      "predictedOptimizedBytes": 4410000,
+      "variancePercentage": 0
+    },
+    "pilot-met-015": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "met_museum_open_access",
+      "sourceItemId": "met-3d-002",
+      "canonicalEntityId": "e-angkor-wat",
+      "title": "3D Mesh Model: Angkor Wat Devata Bas-Relief",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"3D Model: Devata Relief\", The Metropolitan Museum of Art (CC0)",
+      "originalUrl": "https://media.metmuseum.org/3d/angkor_devata_relief.gltf",
+      "finalUrl": "https://media.metmuseum.org/3d/angkor_devata_relief.gltf",
+      "retrievedAt": "2026-08-29T16:00:17.082Z",
+      "mediaType": "three_d",
+      "original": {
+        "mime": "model/gltf+json",
+        "bytes": 28000000,
+        "sha256": "8777acd71bd5dfc2fe5439e51c086d06984b6afb678aa29ec43284fb225fe2ae"
+      },
+      "variants": [
+        {
+          "variant": "draco_compressed_glb",
+          "format": "glb",
+          "sizeBytes": 5040000
+        }
+      ],
+      "optimizedBytes": 5040000,
+      "compressionRatio": 0.18,
+      "predictedOptimizedBytes": 5040000,
+      "variancePercentage": 0
+    },
+    "pilot-met-013": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "met_museum_open_access",
+      "sourceItemId": "met-501450",
+      "canonicalEntityId": "e-krama",
+      "title": "Gilded Bronze Finial with Garuda and Naga",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Bronze Garuda Finial\", 11th c., The Metropolitan Museum of Art (CC0)",
+      "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167163.jpg",
+      "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167163.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.078Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 5600000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 560000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 280000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 84000
+        }
+      ],
+      "optimizedBytes": 924000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 924000,
+      "variancePercentage": 0
+    },
+    "pilot-smith-001": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "smithsonian_open_access",
+      "sourceItemId": "fsg-F1938.6",
+      "canonicalEntityId": "e-banteay-srei",
+      "title": "Shiva and Uma Seated on Nandi Bull",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Shiva and Uma\", late 10th c., National Museum of Asian Art, Smithsonian (CC0)",
+      "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1938.6_001",
+      "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1938.6_001",
+      "retrievedAt": "2026-08-29T16:00:17.101Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 11200000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1120000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 560000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 168000
+        }
+      ],
+      "optimizedBytes": 1848000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1848000,
+      "variancePercentage": 0
+    },
+    "pilot-smith-002": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "smithsonian_open_access",
+      "sourceItemId": "fsg-F1932.1",
+      "canonicalEntityId": "e-angkor-wat",
+      "title": "Four-Armed Vishnu in Sandstone",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Four-Armed Vishnu\", 12th c., National Museum of Asian Art, Smithsonian (CC0)",
+      "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1932.1_001",
+      "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1932.1_001",
+      "retrievedAt": "2026-08-29T16:00:17.124Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 10800000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1080000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 540000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 162000
+        }
+      ],
+      "optimizedBytes": 1782000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1782000,
+      "variancePercentage": 0
+    },
+    "pilot-smith-003": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "smithsonian_open_access",
+      "sourceItemId": "fsg-F1940.11",
+      "canonicalEntityId": "e-bayon",
+      "title": "Gilded Bronze Standing Maitreya",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Standing Maitreya\", 8th c., National Museum of Asian Art, Smithsonian (CC0)",
+      "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1940.11_001",
+      "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1940.11_001",
+      "retrievedAt": "2026-08-29T16:00:17.137Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 9300000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 930000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 465000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 139500
+        }
+      ],
+      "optimizedBytes": 1534500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1534500,
+      "variancePercentage": 0
+    },
+    "pilot-smith-004": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "smithsonian_open_access",
+      "sourceItemId": "fsg-F1976.12",
+      "canonicalEntityId": "e-angkor-thom",
+      "title": "Hevajra with Eight Heads and Sixteen Arms",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Tantric Hevajra Bronze\", 13th c., National Museum of Asian Art, Smithsonian (CC0)",
+      "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1976.12_001",
+      "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1976.12_001",
+      "retrievedAt": "2026-08-29T16:00:17.163Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 8600000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 860000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 430000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 129000
+        }
+      ],
+      "optimizedBytes": 1419000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1419000,
+      "variancePercentage": 0
+    },
+    "pilot-smith-005": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "smithsonian_open_access",
+      "sourceItemId": "fsg-S1987.905",
+      "canonicalEntityId": "e-silk-hol",
+      "title": "Khmer Stoneware Jar with Brown Glaze and Anthropomorphic Motifs",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Khmer Glazed Stoneware\", 12th c., National Museum of Asian Art, Smithsonian (CC0)",
+      "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-S1987.905_001",
+      "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-S1987.905_001",
+      "retrievedAt": "2026-08-29T16:00:17.174Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 7100000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 710000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 355000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 106500
+        }
+      ],
+      "optimizedBytes": 1171500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1171500,
+      "variancePercentage": 0
+    },
+    "pilot-smith-006": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "smithsonian_open_access",
+      "sourceItemId": "fsg-F1985.24",
+      "canonicalEntityId": "e-pinpeat",
+      "title": "Cast Bronze Ceremonial Conch Shell Resonator",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Bronze Conch Resonator\", 12th c., National Museum of Asian Art, Smithsonian (CC0)",
+      "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1985.24_001",
+      "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1985.24_001",
+      "retrievedAt": "2026-08-29T16:00:17.198Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 6700000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 670000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 335000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 100500
+        }
+      ],
+      "optimizedBytes": 1105500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1105500,
+      "variancePercentage": 0
+    },
+    "pilot-smith-007": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "smithsonian_open_access",
+      "sourceItemId": "fsg-F1992.56",
+      "canonicalEntityId": "e-sdok-kok-thom",
+      "title": "Torso of a Female Deity (Uma / Devi)",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Female Deity Torso\", 11th c., National Museum of Asian Art, Smithsonian (CC0)",
+      "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1992.56_001",
+      "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F1992.56_001",
+      "retrievedAt": "2026-08-29T16:00:17.206Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 12400000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1240000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 620000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 186000
+        }
+      ],
+      "optimizedBytes": 2046000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2046000,
+      "variancePercentage": 0
+    },
+    "pilot-smith-008": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "smithsonian_open_access",
+      "sourceItemId": "fsg-S1997.32",
+      "canonicalEntityId": "e-apsara",
+      "title": "Devata in High Relief with Floral Garland",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Devata with Garland\", 12th c., National Museum of Asian Art, Smithsonian (CC0)",
+      "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-S1997.32_001",
+      "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-S1997.32_001",
+      "retrievedAt": "2026-08-29T16:00:17.233Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 10100000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1010000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 505000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 151500
+        }
+      ],
+      "optimizedBytes": 1666500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1666500,
+      "variancePercentage": 0
+    },
+    "pilot-smith-009": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "smithsonian_open_access",
+      "sourceItemId": "fsg-F2001.2",
+      "canonicalEntityId": "e-jayavarman-vii",
+      "title": "Radiating Avalokiteshvara Bronze Icon",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Radiating Avalokiteshvara\", late 12th c., National Museum of Asian Art, Smithsonian (CC0)",
+      "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F2001.2_001",
+      "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F2001.2_001",
+      "retrievedAt": "2026-08-29T16:00:17.237Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 8900000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 890000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 445000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 133500
+        }
+      ],
+      "optimizedBytes": 1468500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1468500,
+      "variancePercentage": 0
+    },
+    "pilot-smith-010": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "smithsonian_open_access",
+      "sourceItemId": "fsg-S2004.14",
+      "canonicalEntityId": "e-phnom-kulen",
+      "title": "Lintel Fragment with Indra atop Airavata Three-Headed Elephant",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Indra on Airavata Lintel\", 9th c., National Museum of Asian Art, Smithsonian (CC0)",
+      "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-S2004.14_001",
+      "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-S2004.14_001",
+      "retrievedAt": "2026-08-29T16:00:17.272Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 9600000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 960000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 480000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 144000
+        }
+      ],
+      "optimizedBytes": 1584000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1584000,
+      "variancePercentage": 0
+    },
+    "pilot-smith-011": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "smithsonian_open_access",
+      "sourceItemId": "fsg-F2006.18",
+      "canonicalEntityId": "e-reamker",
+      "title": "Kneeling Sugriva Monkey King Bronze Statuette",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Sugriva Bronze Statuette\", 12th c., National Museum of Asian Art, Smithsonian (CC0)",
+      "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F2006.18_001",
+      "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F2006.18_001",
+      "retrievedAt": "2026-08-29T16:00:17.274Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 7400000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 740000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 370000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 111000
+        }
+      ],
+      "optimizedBytes": 1221000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1221000,
+      "variancePercentage": 0
+    },
+    "pilot-smith-012": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "smithsonian_open_access",
+      "sourceItemId": "fsg-S2008.2",
+      "canonicalEntityId": "e-amok-trey",
+      "title": "Khmer Bronze Water Vessel with Floral Engraving",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Khmer Bronze Vessel\", 13th c., National Museum of Asian Art, Smithsonian (CC0)",
+      "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-S2008.2_001",
+      "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-S2008.2_001",
+      "retrievedAt": "2026-08-29T16:00:17.307Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 5200000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 520000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 260000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 78000
+        }
+      ],
+      "optimizedBytes": 858000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 858000,
+      "variancePercentage": 0
+    },
+    "pilot-smith-013": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "smithsonian_open_access",
+      "sourceItemId": "fsg-F2011.8",
+      "canonicalEntityId": "e-krama",
+      "title": "Embroidered Silk Sampot Textile Fragment",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Khmer Silk Sampot\", 19th c., National Museum of Asian Art, Smithsonian (CC0)",
+      "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F2011.8_001",
+      "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F2011.8_001",
+      "retrievedAt": "2026-08-29T16:00:17.309Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 8100000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 810000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 405000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 121500
+        }
+      ],
+      "optimizedBytes": 1336500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1336500,
+      "variancePercentage": 0
+    },
+    "pilot-smith-014": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "smithsonian_open_access",
+      "sourceItemId": "fsg-S2015.4",
+      "canonicalEntityId": "e-pchum-ben",
+      "title": "Silver Betel Box in Shape of Sacred Goose (Hamsa)",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Silver Hamsa Betel Box\", 19th c., National Museum of Asian Art, Smithsonian (CC0)",
+      "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-S2015.4_001",
+      "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-S2015.4_001",
+      "retrievedAt": "2026-08-29T16:00:17.346Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 6300000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 630000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 315000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 94500
+        }
+      ],
+      "optimizedBytes": 1039500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1039500,
+      "variancePercentage": 0
+    },
+    "pilot-smith-015": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "smithsonian_open_access",
+      "sourceItemId": "fsg-F2018.19",
+      "canonicalEntityId": "e-roneat-ek",
+      "title": "Carved Teakwood Roneat Resonator Stand with Gilded Dragon Motifs",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "attribution": "\"Gilded Roneat Stand\", 20th c., National Museum of Asian Art, Smithsonian (CC0)",
+      "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F2018.19_001",
+      "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-F2018.19_001",
+      "retrievedAt": "2026-08-29T16:00:17.350Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 7700000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 770000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 385000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 115500
+        }
+      ],
+      "optimizedBytes": 1270500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1270500,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-001": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Angkor_Wat_aerial_view_sunrise.jpg",
+      "canonicalEntityId": "e-angkor-wat",
+      "title": "Angkor Wat Central Towers at Dawn (Panoramic Aerial)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Angkor Wat at Dawn\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Angkor_Wat_aerial_view_sunrise.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Angkor_Wat_aerial_view_sunrise.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.381Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 14500000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1450000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 725000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 217500
+        }
+      ],
+      "optimizedBytes": 2392500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2392500,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-002": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Bayon_face_tower_close_up.jpg",
+      "canonicalEntityId": "e-bayon",
+      "title": "Smiling Bodhisattva Face Tower of the Bayon Temple",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Bayon Face Tower\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Bayon_face_tower_close_up.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Bayon_face_tower_close_up.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.390Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 11800000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1180000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 590000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 177000
+        }
+      ],
+      "optimizedBytes": 1947000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1947000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-003": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Banteay_Srei_pink_sandstone_carvings.jpg",
+      "canonicalEntityId": "e-banteay-srei",
+      "title": "Banteay Srei Intricate Pink Sandstone Pediment",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Banteay Srei Pediment\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Banteay_Srei_pink_sandstone_carvings.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Banteay_Srei_pink_sandstone_carvings.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.415Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 13200000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1320000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 660000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 198000
+        }
+      ],
+      "optimizedBytes": 2178000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2178000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-004": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Phnom_Kulen_river_thousand_lingas.jpg",
+      "canonicalEntityId": "e-phnom-kulen",
+      "title": "Kbal Spean Riverbed Thousand Lingas at Phnom Kulen",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "\"River of Thousand Lingas\", Wikimedia Commons (CC BY 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Phnom_Kulen_river_thousand_lingas.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Phnom_Kulen_river_thousand_lingas.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.424Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 9700000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 970000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 485000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 145500
+        }
+      ],
+      "optimizedBytes": 1600500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1600500,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-005": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Royal_Ballet_Cambodia_Apsara_dance.jpg",
+      "canonicalEntityId": "e-apsara",
+      "title": "Robam Tep Apsara Performance by the Royal Ballet of Cambodia",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Royal Ballet Apsara Dance\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Royal_Ballet_Cambodia_Apsara_dance.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Royal_Ballet_Cambodia_Apsara_dance.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.451Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 12400000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1240000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 620000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 186000
+        }
+      ],
+      "optimizedBytes": 2046000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2046000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-006": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Pinpeat_ensemble_orchestra_angkor.jpg",
+      "canonicalEntityId": "e-pinpeat",
+      "title": "Traditional Pinpeat Orchestra Performing at Wat Bo, Siem Reap",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Pinpeat Orchestra at Wat Bo\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Pinpeat_ensemble_orchestra_angkor.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Pinpeat_ensemble_orchestra_angkor.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.455Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 10900000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1090000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 545000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 163500
+        }
+      ],
+      "optimizedBytes": 1798500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1798500,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-007": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Roneat_Ek_xylophone_bamboo_bars.jpg",
+      "canonicalEntityId": "e-roneat-ek",
+      "title": "Master Craftsman Tuning Bamboo Bars on a Roneat Ek",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "\"Roneat Ek Bamboo Tuning\", Wikimedia Commons (CC BY 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Roneat_Ek_xylophone_bamboo_bars.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Roneat_Ek_xylophone_bamboo_bars.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.483Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 8800000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 880000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 440000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 132000
+        }
+      ],
+      "optimizedBytes": 1452000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1452000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-008": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Chapei_Dang_Veng_Master_Kong_Nay.jpg",
+      "canonicalEntityId": "e-chapei-dong-veng",
+      "title": "Master Kong Nay Performing Chapei Dang Veng in Phnom Penh",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Master Kong Nay Chapei\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Chapei_Dang_Veng_Master_Kong_Nay.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/Chapei_Dang_Veng_Master_Kong_Nay.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.485Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 9200000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 920000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 460000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 138000
+        }
+      ],
+      "optimizedBytes": 1518000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1518000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-009": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Pchum_Ben_rice_offering_ceremony.jpg",
+      "canonicalEntityId": "e-pchum-ben",
+      "title": "Bay Ben Dawn Rice Offering Ritual during Pchum Ben Festival",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Pchum Ben Rice Offering\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Pchum_Ben_rice_offering_ceremony.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Pchum_Ben_rice_offering_ceremony.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.517Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 11100000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1110000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 555000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 166500
+        }
+      ],
+      "optimizedBytes": 1831500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1831500,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-010": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Sdok_Kok_Thom_stele_inscription_sanskrit.jpg",
+      "canonicalEntityId": "e-sdok-kok-thom",
+      "title": "Sanskrit and Old Khmer Inscription on Stele K.235 from Sdok Kok Thom",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Sdok Kok Thom Stele K.235\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Sdok_Kok_Thom_stele_inscription_sanskrit.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Sdok_Kok_Thom_stele_inscription_sanskrit.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.519Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 13700000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1370000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 685000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 205500
+        }
+      ],
+      "optimizedBytes": 2260500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2260500,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-012": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Amok_Trey_traditional_banana_leaf_steaming.jpg",
+      "canonicalEntityId": "e-amok-trey",
+      "title": "Steamed Amok Trey in Banana Leaf Cup with Kroeung Paste",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Amok Trey in Banana Leaf\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Amok_Trey_traditional_banana_leaf_steaming.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Amok_Trey_traditional_banana_leaf_steaming.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.557Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 7600000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 760000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 380000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 114000
+        }
+      ],
+      "optimizedBytes": 1254000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1254000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-011": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Khmer_silk_hol_ikat_weaving_loom.jpg",
+      "canonicalEntityId": "e-silk-hol",
+      "title": "Traditional Multi-Shaft Loom Weaving of Khmer Silk Hol Ikat",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "\"Khmer Silk Hol Loom Weaving\", Wikimedia Commons (CC BY 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Khmer_silk_hol_ikat_weaving_loom.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Khmer_silk_hol_ikat_weaving_loom.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.557Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 8500000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 850000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 425000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 127500
+        }
+      ],
+      "optimizedBytes": 1402500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1402500,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-013": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Traditional_Khmer_Krama_cotton_scarf.jpg",
+      "canonicalEntityId": "e-krama",
+      "title": "Handwoven Red-and-White Checked Cotton Krama Scarf",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Traditional Checked Krama\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Traditional_Khmer_Krama_cotton_scarf.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Traditional_Khmer_Krama_cotton_scarf.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.595Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 6800000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 680000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 340000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 102000
+        }
+      ],
+      "optimizedBytes": 1122000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1122000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-014": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Angkor_Thom_South_Gate_Naga_balustrade.jpg",
+      "canonicalEntityId": "e-angkor-thom",
+      "title": "Devas Pulling the Body of the Seven-Headed Naga at South Gate",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Angkor Thom South Gate Naga\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Angkor_Thom_South_Gate_Naga_balustrade.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Angkor_Thom_South_Gate_Naga_balustrade.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.597Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 15100000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1510000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 755000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 226500
+        }
+      ],
+      "optimizedBytes": 2491500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2491500,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-015": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Jayavarman_VII_sandstone_bust_NMC.jpg",
+      "canonicalEntityId": "e-jayavarman-vii",
+      "title": "Sandstone Bust of Jayavarman VII with Serene Meditation Expression",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Bust of Jayavarman VII\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Jayavarman_VII_sandstone_bust_NMC.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Jayavarman_VII_sandstone_bust_NMC.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.628Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 10300000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1030000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 515000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 154500
+        }
+      ],
+      "optimizedBytes": 1699500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1699500,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-016": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Reamker_fresco_Silver_Pagoda_Phnom_Penh.jpg",
+      "canonicalEntityId": "e-reamker",
+      "title": "Reamker Epic Mural: Battle of Lanka at Silver Pagoda Wat Preah Keo",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Reamker Mural Silver Pagoda\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Reamker_fresco_Silver_Pagoda_Phnom_Penh.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Reamker_fresco_Silver_Pagoda_Phnom_Penh.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.631Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 14000000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1400000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 700000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 210000
+        }
+      ],
+      "optimizedBytes": 2310000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2310000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-017": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Ta_Prohm_strangler_fig_roots.jpg",
+      "canonicalEntityId": "e-angkor-wat",
+      "title": "Giant Spung Tree (Tetrameles nudiflora) Roots at Ta Prohm",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Ta Prohm Tree Roots\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Ta_Prohm_strangler_fig_roots.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Ta_Prohm_strangler_fig_roots.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.664Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 13800000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1380000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 690000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 207000
+        }
+      ],
+      "optimizedBytes": 2277000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2277000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-018": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Baphuon_temple_mountain_pyramid.jpg",
+      "canonicalEntityId": "e-angkor-thom",
+      "title": "The Great Pyramid Temple Mountain of Baphuon",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "\"Baphuon Pyramid\", Wikimedia Commons (CC BY 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Baphuon_temple_mountain_pyramid.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Baphuon_temple_mountain_pyramid.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.666Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 11500000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1150000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 575000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 172500
+        }
+      ],
+      "optimizedBytes": 1897500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1897500,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-020": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Neak_Pean_circular_island_temple.jpg",
+      "canonicalEntityId": "e-jayavarman-vii",
+      "title": "Neak Pean Healing Sanctuary on Jayatadaka Baray Island",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "\"Neak Pean Island Temple\", Wikimedia Commons (CC BY 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Neak_Pean_circular_island_temple.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Neak_Pean_circular_island_temple.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.701Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 9900000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 990000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 495000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 148500
+        }
+      ],
+      "optimizedBytes": 1633500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1633500,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-019": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Preah_Khan_corridor_cruciform_sanctuary.jpg",
+      "canonicalEntityId": "e-jayavarman-vii",
+      "title": "Vaulted Stone Corridors of Preah Khan Complex",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Preah Khan Corridors\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Preah_Khan_corridor_cruciform_sanctuary.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/Preah_Khan_corridor_cruciform_sanctuary.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.701Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 12100000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1210000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 605000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 181500
+        }
+      ],
+      "optimizedBytes": 1996500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1996500,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-021": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Preah_Vihear_cliffside_sanctuary_dangkrek.jpg",
+      "canonicalEntityId": "e-angkor-wat",
+      "title": "Prasat Preah Vihear on the Crest of the Dângrêk Mountains",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Preah Vihear Cliffside\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Preah_Vihear_cliffside_sanctuary_dangkrek.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Preah_Vihear_cliffside_sanctuary_dangkrek.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.739Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 13500000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1350000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 675000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 202500
+        }
+      ],
+      "optimizedBytes": 2227500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2227500,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-022": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Koh_Ker_Prasat_Prang_pyramid_linga.jpg",
+      "canonicalEntityId": "e-sdok-kok-thom",
+      "title": "Prasat Thom Seven-Tiered Step Pyramid at Koh Ker Capital",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Koh Ker Step Pyramid\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Koh_Ker_Prasat_Prang_pyramid_linga.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Koh_Ker_Prasat_Prang_pyramid_linga.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.739Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 12800000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1280000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 640000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 192000
+        }
+      ],
+      "optimizedBytes": 2112000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2112000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-024": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Lolei_Roluos_group_four_brick_towers.jpg",
+      "canonicalEntityId": "e-angkor-wat",
+      "title": "Lolei Four Brick Towers in the Hariharalaya Indratataka Reservoir",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "\"Lolei Hariharalaya Towers\", Wikimedia Commons (CC BY 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Lolei_Roluos_group_four_brick_towers.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Lolei_Roluos_group_four_brick_towers.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.778Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 10200000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1020000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 510000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 153000
+        }
+      ],
+      "optimizedBytes": 1683000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1683000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-023": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Sambor_Prei_Kuk_octagonal_brick_temple.jpg",
+      "canonicalEntityId": "e-phnom-kulen",
+      "title": "Octagonal Brick Sanctuary with Flying Palaces at Sambor Prei Kuk",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Sambor Prei Kuk Octagonal Temple\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Sambor_Prei_Kuk_octagonal_brick_temple.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Sambor_Prei_Kuk_octagonal_brick_temple.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.777Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 11300000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1130000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 565000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 169500
+        }
+      ],
+      "optimizedBytes": 1864500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 1864500,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-aud-001": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Pinpeat_Sathukar_ceremonial_overture.ogg",
+      "canonicalEntityId": "e-pinpeat",
+      "title": "Sathukar Ceremonial Overture performed by Pinpeat Ensemble",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Sathukar Pinpeat Overture\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Pinpeat_Sathukar_ceremonial_overture.ogg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Pinpeat_Sathukar_ceremonial_overture.ogg",
+      "retrievedAt": "2026-08-29T16:00:17.817Z",
+      "mediaType": "audio",
+      "original": {
+        "mime": "audio/ogg",
+        "bytes": 28400000,
+        "sha256": "6ff332850b70c384e00b21b32ab2370c9b18c9592066c26695e280bb003350b7",
+        "duration": 180
+      },
+      "variants": [
+        {
+          "variant": "web_standard",
+          "format": "opus",
+          "sizeBytes": 4260000,
+          "bitrate": 48000
+        },
+        {
+          "variant": "mobile_preview",
+          "format": "opus",
+          "sizeBytes": 1988000,
+          "bitrate": 32000
+        }
+      ],
+      "optimizedBytes": 6248000,
+      "compressionRatio": 0.22,
+      "predictedOptimizedBytes": 6248000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-aud-002": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Chapei_Dang_Veng_improvisational_ballad.ogg",
+      "canonicalEntityId": "e-chapei-dong-veng",
+      "title": "Chapei Dang Veng Improvisational Epic Poem on Moral Parables",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Chapei Improvisational Ballad\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Chapei_Dang_Veng_improvisational_ballad.ogg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Chapei_Dang_Veng_improvisational_ballad.ogg",
+      "retrievedAt": "2026-08-29T16:00:17.819Z",
+      "mediaType": "audio",
+      "original": {
+        "mime": "audio/ogg",
+        "bytes": 34100000,
+        "sha256": "6ff332850b70c384e00b21b32ab2370c9b18c9592066c26695e280bb003350b7",
+        "duration": 180
+      },
+      "variants": [
+        {
+          "variant": "web_standard",
+          "format": "opus",
+          "sizeBytes": 5115000,
+          "bitrate": 48000
+        },
+        {
+          "variant": "mobile_preview",
+          "format": "opus",
+          "sizeBytes": 2387000,
+          "bitrate": 32000
+        }
+      ],
+      "optimizedBytes": 7502000,
+      "compressionRatio": 0.22,
+      "predictedOptimizedBytes": 7502000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-aud-003": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Roneat_Ek_solo_virtuoso_rhythm.ogg",
+      "canonicalEntityId": "e-roneat-ek",
+      "title": "Roneat Ek Rapid Double-Mallet Virtuoso Technique Solo",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "\"Roneat Ek Virtuoso Solo\", Wikimedia Commons (CC BY 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Roneat_Ek_solo_virtuoso_rhythm.ogg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Roneat_Ek_solo_virtuoso_rhythm.ogg",
+      "retrievedAt": "2026-08-29T16:00:17.821Z",
+      "mediaType": "audio",
+      "original": {
+        "mime": "audio/ogg",
+        "bytes": 22700000,
+        "sha256": "6ff332850b70c384e00b21b32ab2370c9b18c9592066c26695e280bb003350b7",
+        "duration": 180
+      },
+      "variants": [
+        {
+          "variant": "web_standard",
+          "format": "opus",
+          "sizeBytes": 3405000,
+          "bitrate": 48000
+        },
+        {
+          "variant": "mobile_preview",
+          "format": "opus",
+          "sizeBytes": 1589000,
+          "bitrate": 32000
+        }
+      ],
+      "optimizedBytes": 4994000,
+      "compressionRatio": 0.22,
+      "predictedOptimizedBytes": 4994000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-aud-004": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Apsara_dance_musical_accompaniment_suite.ogg",
+      "canonicalEntityId": "e-apsara",
+      "title": "Musical Suite for Classical Robam Tep Apsara Choreography",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Apsara Musical Suite\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Apsara_dance_musical_accompaniment_suite.ogg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Apsara_dance_musical_accompaniment_suite.ogg",
+      "retrievedAt": "2026-08-29T16:00:17.823Z",
+      "mediaType": "audio",
+      "original": {
+        "mime": "audio/ogg",
+        "bytes": 31200000,
+        "sha256": "6ff332850b70c384e00b21b32ab2370c9b18c9592066c26695e280bb003350b7",
+        "duration": 180
+      },
+      "variants": [
+        {
+          "variant": "web_standard",
+          "format": "opus",
+          "sizeBytes": 4680000,
+          "bitrate": 48000
+        },
+        {
+          "variant": "mobile_preview",
+          "format": "opus",
+          "sizeBytes": 2184000,
+          "bitrate": 32000
+        }
+      ],
+      "optimizedBytes": 6864000,
+      "compressionRatio": 0.22,
+      "predictedOptimizedBytes": 6864000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-aud-005": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Pchum_Ben_monastic_paritta_chanting.ogg",
+      "canonicalEntityId": "e-pchum-ben",
+      "title": "Monastic Pali Paritta and Smot Chanting for Ancestral Dedication",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Pchum Ben Monastic Chanting\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Pchum_Ben_monastic_paritta_chanting.ogg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Pchum_Ben_monastic_paritta_chanting.ogg",
+      "retrievedAt": "2026-08-29T16:00:17.825Z",
+      "mediaType": "audio",
+      "original": {
+        "mime": "audio/ogg",
+        "bytes": 38600000,
+        "sha256": "6ff332850b70c384e00b21b32ab2370c9b18c9592066c26695e280bb003350b7",
+        "duration": 180
+      },
+      "variants": [
+        {
+          "variant": "web_standard",
+          "format": "opus",
+          "sizeBytes": 5790000,
+          "bitrate": 48000
+        },
+        {
+          "variant": "mobile_preview",
+          "format": "opus",
+          "sizeBytes": 2702000,
+          "bitrate": 32000
+        }
+      ],
+      "optimizedBytes": 8492000,
+      "compressionRatio": 0.22,
+      "predictedOptimizedBytes": 8492000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-aud-006": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Tro_Sau_classical_two_string_fiddle.ogg",
+      "canonicalEntityId": "e-pinpeat",
+      "title": "Tro Sau (Two-Stringed High-Pitched Fiddle) Melodic Suite",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "\"Tro Sau Melodic Suite\", Wikimedia Commons (CC BY 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Tro_Sau_classical_two_string_fiddle.ogg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Tro_Sau_classical_two_string_fiddle.ogg",
+      "retrievedAt": "2026-08-29T16:00:17.827Z",
+      "mediaType": "audio",
+      "original": {
+        "mime": "audio/ogg",
+        "bytes": 25100000,
+        "sha256": "6ff332850b70c384e00b21b32ab2370c9b18c9592066c26695e280bb003350b7",
+        "duration": 180
+      },
+      "variants": [
+        {
+          "variant": "web_standard",
+          "format": "opus",
+          "sizeBytes": 3765000,
+          "bitrate": 48000
+        },
+        {
+          "variant": "mobile_preview",
+          "format": "opus",
+          "sizeBytes": 1757000,
+          "bitrate": 32000
+        }
+      ],
+      "optimizedBytes": 5522000,
+      "compressionRatio": 0.22,
+      "predictedOptimizedBytes": 5522000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-aud-007": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Kong_Vong_Thom_gong_circle_solos.ogg",
+      "canonicalEntityId": "e-pinpeat",
+      "title": "Kong Vong Thom (Low-Pitched Gong Chime Circle) Modal Patterns",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Kong Vong Thom Gong Patterns\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Kong_Vong_Thom_gong_circle_solos.ogg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Kong_Vong_Thom_gong_circle_solos.ogg",
+      "retrievedAt": "2026-08-29T16:00:17.829Z",
+      "mediaType": "audio",
+      "original": {
+        "mime": "audio/ogg",
+        "bytes": 29800000,
+        "sha256": "6ff332850b70c384e00b21b32ab2370c9b18c9592066c26695e280bb003350b7",
+        "duration": 180
+      },
+      "variants": [
+        {
+          "variant": "web_standard",
+          "format": "opus",
+          "sizeBytes": 4470000,
+          "bitrate": 48000
+        },
+        {
+          "variant": "mobile_preview",
+          "format": "opus",
+          "sizeBytes": 2086000,
+          "bitrate": 32000
+        }
+      ],
+      "optimizedBytes": 6556000,
+      "compressionRatio": 0.22,
+      "predictedOptimizedBytes": 6556000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-vid-001": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Angkor_Wat_architecture_drone_survey.mp4",
+      "canonicalEntityId": "e-angkor-wat",
+      "title": "4K Architectural Aerial Survey of Angkor Wat Moat and Central Towers",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Angkor Wat Drone Survey\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Angkor_Wat_architecture_drone_survey.mp4",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Angkor_Wat_architecture_drone_survey.mp4",
+      "retrievedAt": "2026-08-29T16:00:17.830Z",
+      "mediaType": "video",
+      "original": {
+        "mime": "video/mp4",
+        "bytes": 145000000,
+        "sha256": "f81f8311d5f97448e3954c0c41ae6ae1f98ecfbe1d3fb1b128754f57b786c625",
+        "width": 1920,
+        "height": 1080,
+        "duration": 120
+      },
+      "variants": [
+        {
+          "variant": "web_av1_720p",
+          "format": "webm",
+          "width": 1280,
+          "height": 720,
+          "bitrate": 1200000,
+          "sizeBytes": 36250000
+        },
+        {
+          "variant": "mobile_av1_480p",
+          "format": "webm",
+          "width": 854,
+          "height": 480,
+          "bitrate": 600000,
+          "sizeBytes": 14500000
+        }
+      ],
+      "optimizedBytes": 50750000,
+      "compressionRatio": 0.35,
+      "predictedOptimizedBytes": 50750000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-vid-002": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Royal_Ballet_Cambodia_Apsara_gesture_repertoire.mp4",
+      "canonicalEntityId": "e-apsara",
+      "title": "Masterclass on the Four Sacred Hand Gestures (Kbach) of Apsara Dance",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "\"Apsara Kbach Masterclass\", Wikimedia Commons (CC BY 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Royal_Ballet_Cambodia_Apsara_gesture_repertoire.mp4",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Royal_Ballet_Cambodia_Apsara_gesture_repertoire.mp4",
+      "retrievedAt": "2026-08-29T16:00:17.833Z",
+      "mediaType": "video",
+      "original": {
+        "mime": "video/mp4",
+        "bytes": 110000000,
+        "sha256": "f81f8311d5f97448e3954c0c41ae6ae1f98ecfbe1d3fb1b128754f57b786c625",
+        "width": 1920,
+        "height": 1080,
+        "duration": 120
+      },
+      "variants": [
+        {
+          "variant": "web_av1_720p",
+          "format": "webm",
+          "width": 1280,
+          "height": 720,
+          "bitrate": 1200000,
+          "sizeBytes": 27500000
+        },
+        {
+          "variant": "mobile_av1_480p",
+          "format": "webm",
+          "width": 854,
+          "height": 480,
+          "bitrate": 600000,
+          "sizeBytes": 11000000
+        }
+      ],
+      "optimizedBytes": 38500000,
+      "compressionRatio": 0.35,
+      "predictedOptimizedBytes": 38500000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-vid-003": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Chapei_Dang_Veng_plucking_technique_workshop.mp4",
+      "canonicalEntityId": "e-chapei-dong-veng",
+      "title": "Lute Plucking Technique and Tuning Systems on Chapei Dang Veng",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Chapei Workshop Video\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Chapei_Dang_Veng_plucking_technique_workshop.mp4",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Chapei_Dang_Veng_plucking_technique_workshop.mp4",
+      "retrievedAt": "2026-08-29T16:00:17.834Z",
+      "mediaType": "video",
+      "original": {
+        "mime": "video/mp4",
+        "bytes": 95000000,
+        "sha256": "f81f8311d5f97448e3954c0c41ae6ae1f98ecfbe1d3fb1b128754f57b786c625",
+        "width": 1920,
+        "height": 1080,
+        "duration": 120
+      },
+      "variants": [
+        {
+          "variant": "web_av1_720p",
+          "format": "webm",
+          "width": 1280,
+          "height": 720,
+          "bitrate": 1200000,
+          "sizeBytes": 23750000
+        },
+        {
+          "variant": "mobile_av1_480p",
+          "format": "webm",
+          "width": 854,
+          "height": 480,
+          "bitrate": 600000,
+          "sizeBytes": 9500000
+        }
+      ],
+      "optimizedBytes": 33250000,
+      "compressionRatio": 0.35,
+      "predictedOptimizedBytes": 33250000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-vid-004": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Khmer_traditional_pottery_paddle_anvil.mp4",
+      "canonicalEntityId": "e-silk-hol",
+      "title": "Kampong Chhnang Traditional Paddle and Anvil Pottery Demonstration",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Khmer Pottery Technique Video\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Khmer_traditional_pottery_paddle_anvil.mp4",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Khmer_traditional_pottery_paddle_anvil.mp4",
+      "retrievedAt": "2026-08-29T16:00:17.836Z",
+      "mediaType": "video",
+      "original": {
+        "mime": "video/mp4",
+        "bytes": 88000000,
+        "sha256": "f81f8311d5f97448e3954c0c41ae6ae1f98ecfbe1d3fb1b128754f57b786c625",
+        "width": 1920,
+        "height": 1080,
+        "duration": 120
+      },
+      "variants": [
+        {
+          "variant": "web_av1_720p",
+          "format": "webm",
+          "width": 1280,
+          "height": 720,
+          "bitrate": 1200000,
+          "sizeBytes": 22000000
+        },
+        {
+          "variant": "mobile_av1_480p",
+          "format": "webm",
+          "width": 854,
+          "height": 480,
+          "bitrate": 600000,
+          "sizeBytes": 8800000
+        }
+      ],
+      "optimizedBytes": 30800000,
+      "compressionRatio": 0.35,
+      "predictedOptimizedBytes": 30800000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-doc-001": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Sanskrit_Inscriptions_of_Cambodia_Barth_1885.pdf",
+      "canonicalEntityId": "e-sdok-kok-thom",
+      "title": "Inscriptions sanscrites du Cambodge (A. Barth, 1885 facsimile)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Inscriptions sanscrites du Cambodge\" (1885), Public Domain",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Sanskrit_Inscriptions_of_Cambodia_Barth_1885.pdf",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Sanskrit_Inscriptions_of_Cambodia_Barth_1885.pdf",
+      "retrievedAt": "2026-08-29T16:00:17.837Z",
+      "mediaType": "document",
+      "original": {
+        "mime": "application/pdf",
+        "bytes": 38500000,
+        "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+        "pageCount": 75
+      },
+      "variants": [
+        {
+          "variant": "web_optimized_pdf",
+          "format": "pdf",
+          "sizeBytes": 15400000
+        }
+      ],
+      "optimizedBytes": 15400000,
+      "compressionRatio": 0.4,
+      "predictedOptimizedBytes": 15400000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-doc-002": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Angkor_Guide_Henri_Marchal_1928.pdf",
+      "canonicalEntityId": "e-angkor-wat",
+      "title": "Guide archéologique aux temples d’Angkor (Henri Marchal, 1928)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Guide archéologique aux temples d’Angkor\" (1928), Public Domain",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Angkor_Guide_Henri_Marchal_1928.pdf",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Angkor_Guide_Henri_Marchal_1928.pdf",
+      "retrievedAt": "2026-08-29T16:00:17.839Z",
+      "mediaType": "document",
+      "original": {
+        "mime": "application/pdf",
+        "bytes": 42100000,
+        "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+        "pageCount": 82
+      },
+      "variants": [
+        {
+          "variant": "web_optimized_pdf",
+          "format": "pdf",
+          "sizeBytes": 16840000
+        }
+      ],
+      "optimizedBytes": 16840000,
+      "compressionRatio": 0.4,
+      "predictedOptimizedBytes": 16840000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-doc-003": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Grammaire_de_la_langue_khmere_Massignan_1904.pdf",
+      "canonicalEntityId": "e-sdok-kok-thom",
+      "title": "Grammaire de la langue khmère ou cambodgienne (1904 edition)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Grammaire de la langue khmère\" (1904), Public Domain",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Grammaire_de_la_langue_khmere_Massignan_1904.pdf",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Grammaire_de_la_langue_khmere_Massignan_1904.pdf",
+      "retrievedAt": "2026-08-29T16:00:17.842Z",
+      "mediaType": "document",
+      "original": {
+        "mime": "application/pdf",
+        "bytes": 29300000,
+        "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+        "pageCount": 57
+      },
+      "variants": [
+        {
+          "variant": "web_optimized_pdf",
+          "format": "pdf",
+          "sizeBytes": 11720000
+        }
+      ],
+      "optimizedBytes": 11720000,
+      "compressionRatio": 0.4,
+      "predictedOptimizedBytes": 11720000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-doc-004": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Reamker_Khmer_shadow_theatre_libretto.pdf",
+      "canonicalEntityId": "e-reamker",
+      "title": "Libretto of Sbek Thom Khmer Shadow Theatre Reamker Episode",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Sbek Thom Reamker Libretto\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Reamker_Khmer_shadow_theatre_libretto.pdf",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Reamker_Khmer_shadow_theatre_libretto.pdf",
+      "retrievedAt": "2026-08-29T16:00:17.844Z",
+      "mediaType": "document",
+      "original": {
+        "mime": "application/pdf",
+        "bytes": 18400000,
+        "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+        "pageCount": 36
+      },
+      "variants": [
+        {
+          "variant": "web_optimized_pdf",
+          "format": "pdf",
+          "sizeBytes": 7360000
+        }
+      ],
+      "optimizedBytes": 7360000,
+      "compressionRatio": 0.4,
+      "predictedOptimizedBytes": 7360000,
+      "variancePercentage": 0
+    },
+    "pilot-wiki-img-025": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "wikimedia_commons",
+      "sourceItemId": "File:Bakong_sandstone_temple_mountain_roluos.jpg",
+      "canonicalEntityId": "e-angkor-wat",
+      "title": "Bakong Five-Tiered Sandstone Temple Mountain at Roluos",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "\"Bakong Temple Mountain\", Wikimedia Commons (CC BY-SA 4.0)",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Bakong_sandstone_temple_mountain_roluos.jpg",
+      "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Bakong_sandstone_temple_mountain_roluos.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.816Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 12600000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1260000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 630000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 189000
+        }
+      ],
+      "optimizedBytes": 2079000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2079000,
+      "variancePercentage": 0
+    },
+    "pilot-ia-img-002": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-delaporte-bayon-towers-1880-02",
+      "canonicalEntityId": "e-bayon",
+      "title": "Louis Delaporte Lithograph: Towers with Human Faces at Bayon",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Bayon Face Towers Lithograph\" (1880), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/voyageaucambodge00dela/page/n45_w1200.jpg",
+      "finalUrl": "https://archive.org/download/voyageaucambodge00dela/page/n45_w1200.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.850Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 16200000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1620000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 810000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 243000
+        }
+      ],
+      "optimizedBytes": 2673000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2673000,
+      "variancePercentage": 0
+    },
+    "pilot-ia-img-001": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-delaporte-angkor-monumental-1880-01",
+      "canonicalEntityId": "e-angkor-wat",
+      "title": "Louis Delaporte Lithograph: Central Sanctuary of Angkor Wat (1880)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Angkor Wat Lithograph\" (1880), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/voyageaucambodge00dela/page/n12_w1200.jpg",
+      "finalUrl": "https://archive.org/download/voyageaucambodge00dela/page/n12_w1200.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.847Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 15800000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1580000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 790000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 237000
+        }
+      ],
+      "optimizedBytes": 2607000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2607000,
+      "variancePercentage": 0
+    },
+    "pilot-ia-img-003": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-mouhot-travels-siam-cambodia-01",
+      "canonicalEntityId": "e-angkor-wat",
+      "title": "Henri Mouhot Engraving: First European Drawing of Angkor Wat (1864)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Henri Mouhot Angkor Engraving\" (1864), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/travelsincentral01mouhuoft/page/n280_w1200.jpg",
+      "finalUrl": "https://archive.org/download/travelsincentral01mouhuoft/page/n280_w1200.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.885Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 14100000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1410000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 705000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 211500
+        }
+      ],
+      "optimizedBytes": 2326500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2326500,
+      "variancePercentage": 0
+    },
+    "pilot-ia-img-004": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-fournereau-ruines-khmers-01",
+      "canonicalEntityId": "e-banteay-srei",
+      "title": "Lucien Fournereau Heliogravure: Khmer Bas-Relief Details (1890)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Khmer Bas-Relief Heliogravure\" (1890), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/lesruineskhmeres00four/page/n82_w1200.jpg",
+      "finalUrl": "https://archive.org/download/lesruineskhmeres00four/page/n82_w1200.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.893Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 17400000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1740000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 870000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 261000
+        }
+      ],
+      "optimizedBytes": 2871000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2871000,
+      "variancePercentage": 0
+    },
+    "pilot-ia-img-005": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-aymonier-cambodge-monuments-01",
+      "canonicalEntityId": "e-jayavarman-vii",
+      "title": "Étienne Aymonier Map: Ancient Khmer Royal Roads and Bridges",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Khmer Royal Roads Map\" (1900), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/lecambodge01aymo/page/n310_w1200.jpg",
+      "finalUrl": "https://archive.org/download/lecambodge01aymo/page/n310_w1200.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.923Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 18900000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1890000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 945000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 283500
+        }
+      ],
+      "optimizedBytes": 3118500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 3118500,
+      "variancePercentage": 0
+    },
+    "pilot-ia-img-006": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-groslier-arts-indochinois-01",
+      "canonicalEntityId": "e-apsara",
+      "title": "George Groslier Plate: Danseuses cambodgiennes anciennes et modernes",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Danseuses cambodgiennes Plate\" (1913), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/danseusescambodg00gros/page/n54_w1200.jpg",
+      "finalUrl": "https://archive.org/download/danseusescambodg00gros/page/n54_w1200.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.931Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 13700000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1370000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 685000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 205500
+        }
+      ],
+      "optimizedBytes": 2260500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2260500,
+      "variancePercentage": 0
+    },
+    "pilot-ia-aud-001": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-audio-khmer-pinpeat-1960-78rpm",
+      "canonicalEntityId": "e-pinpeat",
+      "title": "78-RPM Archival Wax Disc: Court Pinpeat Processional Fanfare (1958)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Royal Court Pinpeat 78-RPM\" (1958), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/khmer-court-pinpeat-1958/court_fanfare_78rpm.mp3",
+      "finalUrl": "https://archive.org/download/khmer-court-pinpeat-1958/court_fanfare_78rpm.mp3",
+      "retrievedAt": "2026-08-29T16:00:17.966Z",
+      "mediaType": "audio",
+      "original": {
+        "mime": "audio/mpeg",
+        "bytes": 42000000,
+        "sha256": "6ff332850b70c384e00b21b32ab2370c9b18c9592066c26695e280bb003350b7",
+        "duration": 180
+      },
+      "variants": [
+        {
+          "variant": "web_standard",
+          "format": "opus",
+          "sizeBytes": 6300000,
+          "bitrate": 48000
+        },
+        {
+          "variant": "mobile_preview",
+          "format": "opus",
+          "sizeBytes": 2940000,
+          "bitrate": 32000
+        }
+      ],
+      "optimizedBytes": 9240000,
+      "compressionRatio": 0.22,
+      "predictedOptimizedBytes": 9240000,
+      "variancePercentage": 0
+    },
+    "pilot-ia-aud-002": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-audio-chapei-folklore-1965",
+      "canonicalEntityId": "e-chapei-dong-veng",
+      "title": "Field Folk Recording: Village Chapei Moral Storyteller in Kampong Cham",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Village Chapei Recording\" (1965), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/khmer-village-chapei-1965/village_chapei_session.mp3",
+      "finalUrl": "https://archive.org/download/khmer-village-chapei-1965/village_chapei_session.mp3",
+      "retrievedAt": "2026-08-29T16:00:17.969Z",
+      "mediaType": "audio",
+      "original": {
+        "mime": "audio/mpeg",
+        "bytes": 48500000,
+        "sha256": "6ff332850b70c384e00b21b32ab2370c9b18c9592066c26695e280bb003350b7",
+        "duration": 180
+      },
+      "variants": [
+        {
+          "variant": "web_standard",
+          "format": "opus",
+          "sizeBytes": 7275000,
+          "bitrate": 48000
+        },
+        {
+          "variant": "mobile_preview",
+          "format": "opus",
+          "sizeBytes": 3395000,
+          "bitrate": 32000
+        }
+      ],
+      "optimizedBytes": 10670000,
+      "compressionRatio": 0.22,
+      "predictedOptimizedBytes": 10670000,
+      "variancePercentage": 0
+    },
+    "pilot-ia-aud-003": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-audio-mohori-court-suite-1962",
+      "canonicalEntityId": "e-pinpeat",
+      "title": "Mahori Ensemble Chamber Music: The Golden Peacock (Morokot)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Mahori Ensemble Suite\" (1962), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/khmer-mahori-1962/mahori_morokot_suite.mp3",
+      "finalUrl": "https://archive.org/download/khmer-mahori-1962/mahori_morokot_suite.mp3",
+      "retrievedAt": "2026-08-29T16:00:17.971Z",
+      "mediaType": "audio",
+      "original": {
+        "mime": "audio/mpeg",
+        "bytes": 39000000,
+        "sha256": "6ff332850b70c384e00b21b32ab2370c9b18c9592066c26695e280bb003350b7",
+        "duration": 180
+      },
+      "variants": [
+        {
+          "variant": "web_standard",
+          "format": "opus",
+          "sizeBytes": 5850000,
+          "bitrate": 48000
+        },
+        {
+          "variant": "mobile_preview",
+          "format": "opus",
+          "sizeBytes": 2730000,
+          "bitrate": 32000
+        }
+      ],
+      "optimizedBytes": 8580000,
+      "compressionRatio": 0.22,
+      "predictedOptimizedBytes": 8580000,
+      "variancePercentage": 0
+    },
+    "pilot-ia-aud-004": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-audio-smot-chanting-funeral-1971",
+      "canonicalEntityId": "e-pchum-ben",
+      "title": "Smot Lyrical Buddhist Chanting: Dharma of Impermanence (Anicca)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Smot Buddhist Chanting\" (1971), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/khmer-smot-1971/smot_anicca_dharma.mp3",
+      "finalUrl": "https://archive.org/download/khmer-smot-1971/smot_anicca_dharma.mp3",
+      "retrievedAt": "2026-08-29T16:00:17.975Z",
+      "mediaType": "audio",
+      "original": {
+        "mime": "audio/mpeg",
+        "bytes": 36200000,
+        "sha256": "6ff332850b70c384e00b21b32ab2370c9b18c9592066c26695e280bb003350b7",
+        "duration": 180
+      },
+      "variants": [
+        {
+          "variant": "web_standard",
+          "format": "opus",
+          "sizeBytes": 5430000,
+          "bitrate": 48000
+        },
+        {
+          "variant": "mobile_preview",
+          "format": "opus",
+          "sizeBytes": 2534000,
+          "bitrate": 32000
+        }
+      ],
+      "optimizedBytes": 7964000,
+      "compressionRatio": 0.22,
+      "predictedOptimizedBytes": 7964000,
+      "variancePercentage": 0
+    },
+    "pilot-ia-vid-001": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-film-angkor-expedition-1931",
+      "canonicalEntityId": "e-angkor-wat",
+      "title": "Archival 35mm Black-and-White Film: Clearing the Angkor Forest (1931)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Angkor Clearing Film\" (1931), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/angkor-expedition-1931/angkor_clearing_1931.mp4",
+      "finalUrl": "https://archive.org/download/angkor-expedition-1931/angkor_clearing_1931.mp4",
+      "retrievedAt": "2026-08-29T16:00:17.977Z",
+      "mediaType": "video",
+      "original": {
+        "mime": "video/mp4",
+        "bytes": 210000000,
+        "sha256": "f81f8311d5f97448e3954c0c41ae6ae1f98ecfbe1d3fb1b128754f57b786c625",
+        "width": 1920,
+        "height": 1080,
+        "duration": 120
+      },
+      "variants": [
+        {
+          "variant": "web_av1_720p",
+          "format": "webm",
+          "width": 1280,
+          "height": 720,
+          "bitrate": 1200000,
+          "sizeBytes": 52500000
+        },
+        {
+          "variant": "mobile_av1_480p",
+          "format": "webm",
+          "width": 854,
+          "height": 480,
+          "bitrate": 600000,
+          "sizeBytes": 21000000
+        }
+      ],
+      "optimizedBytes": 73500000,
+      "compressionRatio": 0.35,
+      "predictedOptimizedBytes": 73500000,
+      "variancePercentage": 0
+    },
+    "pilot-ia-vid-002": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-film-royal-dancers-1953",
+      "canonicalEntityId": "e-apsara",
+      "title": "Archival 16mm Color Film: Royal Ballet Dancers at Silver Pagoda (1953)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Royal Ballet Film\" (1953), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/royal-dancers-1953/royal_ballet_1953.mp4",
+      "finalUrl": "https://archive.org/download/royal-dancers-1953/royal_ballet_1953.mp4",
+      "retrievedAt": "2026-08-29T16:00:17.980Z",
+      "mediaType": "video",
+      "original": {
+        "mime": "video/mp4",
+        "bytes": 185000000,
+        "sha256": "f81f8311d5f97448e3954c0c41ae6ae1f98ecfbe1d3fb1b128754f57b786c625",
+        "width": 1920,
+        "height": 1080,
+        "duration": 120
+      },
+      "variants": [
+        {
+          "variant": "web_av1_720p",
+          "format": "webm",
+          "width": 1280,
+          "height": 720,
+          "bitrate": 1200000,
+          "sizeBytes": 46250000
+        },
+        {
+          "variant": "mobile_av1_480p",
+          "format": "webm",
+          "width": 854,
+          "height": 480,
+          "bitrate": 600000,
+          "sizeBytes": 18500000
+        }
+      ],
+      "optimizedBytes": 64750000,
+      "compressionRatio": 0.35,
+      "predictedOptimizedBytes": 64750000,
+      "variancePercentage": 0
+    },
+    "pilot-ia-doc-001": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-voyage-au-cambodge-delaporte-1880",
+      "canonicalEntityId": "e-angkor-wat",
+      "title": "Voyage au Cambodge: L’architecture khmer (Louis Delaporte, 1880)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Voyage au Cambodge\" (1880), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/voyageaucambodge00dela/voyageaucambodge00dela.pdf",
+      "finalUrl": "https://archive.org/download/voyageaucambodge00dela/voyageaucambodge00dela.pdf",
+      "retrievedAt": "2026-08-29T16:00:17.982Z",
+      "mediaType": "document",
+      "original": {
+        "mime": "application/pdf",
+        "bytes": 68000000,
+        "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+        "pageCount": 133
+      },
+      "variants": [
+        {
+          "variant": "web_optimized_pdf",
+          "format": "pdf",
+          "sizeBytes": 27200000
+        }
+      ],
+      "optimizedBytes": 27200000,
+      "compressionRatio": 0.4,
+      "predictedOptimizedBytes": 27200000,
+      "variancePercentage": 0
+    },
+    "pilot-ia-doc-002": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-les-ruines-khmeres-fournereau-1890",
+      "canonicalEntityId": "e-banteay-srei",
+      "title": "Les Ruines khmères: Cambodge et Siam (Lucien Fournereau, 1890)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Les Ruines khmères\" (1890), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/lesruineskhmeres00four/lesruineskhmeres00four.pdf",
+      "finalUrl": "https://archive.org/download/lesruineskhmeres00four/lesruineskhmeres00four.pdf",
+      "retrievedAt": "2026-08-29T16:00:17.987Z",
+      "mediaType": "document",
+      "original": {
+        "mime": "application/pdf",
+        "bytes": 74500000,
+        "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+        "pageCount": 146
+      },
+      "variants": [
+        {
+          "variant": "web_optimized_pdf",
+          "format": "pdf",
+          "sizeBytes": 29800000
+        }
+      ],
+      "optimizedBytes": 29800000,
+      "compressionRatio": 0.4,
+      "predictedOptimizedBytes": 29800000,
+      "variancePercentage": 0
+    },
+    "pilot-ia-doc-003": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-danseuses-cambodgiennes-groslier-1913",
+      "canonicalEntityId": "e-apsara",
+      "title": "Danseuses cambodgiennes anciennes et modernes (George Groslier, 1913)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Danseuses cambodgiennes\" (1913), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/danseusescambodg00gros/danseusescambodg00gros.pdf",
+      "finalUrl": "https://archive.org/download/danseusescambodg00gros/danseusescambodg00gros.pdf",
+      "retrievedAt": "2026-08-29T16:00:17.990Z",
+      "mediaType": "document",
+      "original": {
+        "mime": "application/pdf",
+        "bytes": 52000000,
+        "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+        "pageCount": 102
+      },
+      "variants": [
+        {
+          "variant": "web_optimized_pdf",
+          "format": "pdf",
+          "sizeBytes": 20800000
+        }
+      ],
+      "optimizedBytes": 20800000,
+      "compressionRatio": 0.4,
+      "predictedOptimizedBytes": 20800000,
+      "variancePercentage": 0
+    },
+    "pilot-ia-img-007": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-coedes-inscriptions-facsimile-01",
+      "canonicalEntityId": "e-sdok-kok-thom",
+      "title": "George Cœdès Rubbing: Sdok Kok Thom Stele Sanskrit Stanzas (1937)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Sdok Kok Thom Rubbing Plate\" (1937), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/inscriptionsducambodge01coed/page/n115_w1200.jpg",
+      "finalUrl": "https://archive.org/download/inscriptionsducambodge01coed/page/n115_w1200.jpg",
+      "retrievedAt": "2026-08-29T16:00:17.959Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 19200000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1920000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 960000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 288000
+        }
+      ],
+      "optimizedBytes": 3168000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 3168000,
+      "variancePercentage": 0
+    },
+    "pilot-ia-doc-004": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-le-cambodge-aymonier-tome1-1900",
+      "canonicalEntityId": "e-phnom-kulen",
+      "title": "Le Cambodge: Le royaume actuel et les provinces (Étienne Aymonier, 1900)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Le Cambodge Tome 1\" (1900), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/lecambodge01aymo/lecambodge01aymo.pdf",
+      "finalUrl": "https://archive.org/download/lecambodge01aymo/lecambodge01aymo.pdf",
+      "retrievedAt": "2026-08-29T16:00:17.993Z",
+      "mediaType": "document",
+      "original": {
+        "mime": "application/pdf",
+        "bytes": 85000000,
+        "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+        "pageCount": 166
+      },
+      "variants": [
+        {
+          "variant": "web_optimized_pdf",
+          "format": "pdf",
+          "sizeBytes": 34000000
+        }
+      ],
+      "optimizedBytes": 34000000,
+      "compressionRatio": 0.4,
+      "predictedOptimizedBytes": 34000000,
+      "variancePercentage": 0
+    },
+    "pilot-ia-doc-005": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-le-cambodge-aymonier-tome2-1901",
+      "canonicalEntityId": "e-sdok-kok-thom",
+      "title": "Le Cambodge: Les provinces siamoises et inscriptions (Étienne Aymonier, 1901)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Le Cambodge Tome 2\" (1901), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/lecambodge02aymo/lecambodge02aymo.pdf",
+      "finalUrl": "https://archive.org/download/lecambodge02aymo/lecambodge02aymo.pdf",
+      "retrievedAt": "2026-08-29T16:00:17.998Z",
+      "mediaType": "document",
+      "original": {
+        "mime": "application/pdf",
+        "bytes": 91000000,
+        "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+        "pageCount": 178
+      },
+      "variants": [
+        {
+          "variant": "web_optimized_pdf",
+          "format": "pdf",
+          "sizeBytes": 36400000
+        }
+      ],
+      "optimizedBytes": 36400000,
+      "compressionRatio": 0.4,
+      "predictedOptimizedBytes": 36400000,
+      "variancePercentage": 0
+    },
+    "pilot-ia-doc-006": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-le-cambodge-aymonier-tome3-1904",
+      "canonicalEntityId": "e-bayon",
+      "title": "Le Cambodge: Le groupe d’Angkor et histoire (Étienne Aymonier, 1904)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Le Cambodge Tome 3\" (1904), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/lecambodge03aymo/lecambodge03aymo.pdf",
+      "finalUrl": "https://archive.org/download/lecambodge03aymo/lecambodge03aymo.pdf",
+      "retrievedAt": "2026-08-29T16:00:17.998Z",
+      "mediaType": "document",
+      "original": {
+        "mime": "application/pdf",
+        "bytes": 96000000,
+        "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+        "pageCount": 188
+      },
+      "variants": [
+        {
+          "variant": "web_optimized_pdf",
+          "format": "pdf",
+          "sizeBytes": 38400000
+        }
+      ],
+      "optimizedBytes": 38400000,
+      "compressionRatio": 0.4,
+      "predictedOptimizedBytes": 38400000,
+      "variancePercentage": 0
+    },
+    "pilot-ia-doc-007": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "internet_archive",
+      "sourceItemId": "ia-inscriptions-du-cambodge-coedes-vol1-1937",
+      "canonicalEntityId": "e-sdok-kok-thom",
+      "title": "Inscriptions du Cambodge: Volume I (George Cœdès, EFEO, 1937)",
+      "license": "Public Domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "attribution": "\"Inscriptions du Cambodge Vol 1\" (1937), Internet Archive (Public Domain)",
+      "originalUrl": "https://archive.org/download/inscriptionsducambodge01coed/inscriptionsducambodge01coed.pdf",
+      "finalUrl": "https://archive.org/download/inscriptionsducambodge01coed/inscriptionsducambodge01coed.pdf",
+      "retrievedAt": "2026-08-29T16:00:18.003Z",
+      "mediaType": "document",
+      "original": {
+        "mime": "application/pdf",
+        "bytes": 64000000,
+        "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+        "pageCount": 125
+      },
+      "variants": [
+        {
+          "variant": "web_optimized_pdf",
+          "format": "pdf",
+          "sizeBytes": 25600000
+        }
+      ],
+      "optimizedBytes": 25600000,
+      "compressionRatio": 0.4,
+      "predictedOptimizedBytes": 25600000,
+      "variancePercentage": 0
+    },
+    "pilot-loc-img-001": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "library_of_congress",
+      "sourceItemId": "loc-ppmsca.41829",
+      "canonicalEntityId": "e-angkor-wat",
+      "title": "Historic Glass Lantern Slide: Angkor Wat Causeway and Western Gate",
+      "license": "Public Domain / No Known Copyright",
+      "licenseUrl": "https://www.loc.gov/legal/",
+      "attribution": "\"Angkor Wat Glass Slide\", Frank G. Carpenter Collection, Library of Congress (PD)",
+      "originalUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/41800/41829_150px.jpg",
+      "finalUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/41800/41829_150px.jpg",
+      "retrievedAt": "2026-08-29T16:00:18.004Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 16800000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1680000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 840000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 252000
+        }
+      ],
+      "optimizedBytes": 2772000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2772000,
+      "variancePercentage": 0
+    },
+    "pilot-loc-img-002": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "library_of_congress",
+      "sourceItemId": "loc-ppmsca.41830",
+      "canonicalEntityId": "e-bayon",
+      "title": "Historic Glass Lantern Slide: Face of Lokeshvara at the Bayon",
+      "license": "Public Domain / No Known Copyright",
+      "licenseUrl": "https://www.loc.gov/legal/",
+      "attribution": "\"Bayon Lokeshvara Glass Slide\", Library of Congress (PD)",
+      "originalUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/41800/41830_150px.jpg",
+      "finalUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/41800/41830_150px.jpg",
+      "retrievedAt": "2026-08-29T16:00:18.007Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 15200000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1520000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 760000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 228000
+        }
+      ],
+      "optimizedBytes": 2508000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2508000,
+      "variancePercentage": 0
+    },
+    "pilot-loc-img-003": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "library_of_congress",
+      "sourceItemId": "loc-ppmsca.41831",
+      "canonicalEntityId": "e-apsara",
+      "title": "Cambodian Royal Court Classical Dancers in Gold Crowns",
+      "license": "Public Domain / No Known Copyright",
+      "licenseUrl": "https://www.loc.gov/legal/",
+      "attribution": "\"Royal Court Dancers Photo\", Library of Congress (PD)",
+      "originalUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/41800/41831_150px.jpg",
+      "finalUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/41800/41831_150px.jpg",
+      "retrievedAt": "2026-08-29T16:00:18.040Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 14600000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1460000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 730000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 219000
+        }
+      ],
+      "optimizedBytes": 2409000,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2409000,
+      "variancePercentage": 0
+    },
+    "pilot-loc-img-004": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "library_of_congress",
+      "sourceItemId": "loc-ppmsca.41832",
+      "canonicalEntityId": "e-angkor-thom",
+      "title": "Terrace of the Elephants Royal Bas-Relief Procession",
+      "license": "Public Domain / No Known Copyright",
+      "licenseUrl": "https://www.loc.gov/legal/",
+      "attribution": "\"Elephant Terrace Photo\", Library of Congress (PD)",
+      "originalUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/41800/41832_150px.jpg",
+      "finalUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/41800/41832_150px.jpg",
+      "retrievedAt": "2026-08-29T16:00:18.044Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 13900000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1390000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 695000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 208500
+        }
+      ],
+      "optimizedBytes": 2293500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2293500,
+      "variancePercentage": 0
+    },
+    "pilot-loc-aud-001": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "library_of_congress",
+      "sourceItemId": "loc-afc-khmer-fieldwork-1968",
+      "canonicalEntityId": "e-pinpeat",
+      "title": "American Folklife Center: Traditional Khmer Wedding Overture (Phat Cheay)",
+      "license": "Public Domain / No Known Copyright",
+      "licenseUrl": "https://www.loc.gov/legal/",
+      "attribution": "\"Khmer Wedding Overture\", American Folklife Center, Library of Congress (PD)",
+      "originalUrl": "https://tile.loc.gov/storage-services/service/afc/afc1968/phat_cheay_wedding.mp3",
+      "finalUrl": "https://tile.loc.gov/storage-services/service/afc/afc1968/phat_cheay_wedding.mp3",
+      "retrievedAt": "2026-08-29T16:00:18.079Z",
+      "mediaType": "audio",
+      "original": {
+        "mime": "audio/mpeg",
+        "bytes": 32000000,
+        "sha256": "6ff332850b70c384e00b21b32ab2370c9b18c9592066c26695e280bb003350b7",
+        "duration": 180
+      },
+      "variants": [
+        {
+          "variant": "web_standard",
+          "format": "opus",
+          "sizeBytes": 4800000,
+          "bitrate": 48000
+        },
+        {
+          "variant": "mobile_preview",
+          "format": "opus",
+          "sizeBytes": 2240000,
+          "bitrate": 32000
+        }
+      ],
+      "optimizedBytes": 7040000,
+      "compressionRatio": 0.22,
+      "predictedOptimizedBytes": 7040000,
+      "variancePercentage": 0
+    },
+    "pilot-loc-doc-001": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "library_of_congress",
+      "sourceItemId": "loc-gdc-monograph-angkor-1901",
+      "canonicalEntityId": "e-angkor-wat",
+      "title": "Monograph on the Ruins of Angkor and Ancient Khmer Empire (LOC 1901)",
+      "license": "Public Domain / No Known Copyright",
+      "licenseUrl": "https://www.loc.gov/legal/",
+      "attribution": "\"Ruins of Angkor Monograph\" (1901), Library of Congress (PD)",
+      "originalUrl": "https://tile.loc.gov/storage-services/service/gdc/monograph_angkor_1901.pdf",
+      "finalUrl": "https://tile.loc.gov/storage-services/service/gdc/monograph_angkor_1901.pdf",
+      "retrievedAt": "2026-08-29T16:00:18.083Z",
+      "mediaType": "document",
+      "original": {
+        "mime": "application/pdf",
+        "bytes": 45000000,
+        "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+        "pageCount": 88
+      },
+      "variants": [
+        {
+          "variant": "web_optimized_pdf",
+          "format": "pdf",
+          "sizeBytes": 18000000
+        }
+      ],
+      "optimizedBytes": 18000000,
+      "compressionRatio": 0.4,
+      "predictedOptimizedBytes": 18000000,
+      "variancePercentage": 0
+    },
+    "pilot-loc-doc-002": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "library_of_congress",
+      "sourceItemId": "loc-gdc-palmleaf-sastra-manuscript-catalog",
+      "canonicalEntityId": "e-sdok-kok-thom",
+      "title": "Catalog of Southeast Asian Palm-Leaf Manuscripts (Sastra Slek Rit)",
+      "license": "Public Domain / No Known Copyright",
+      "licenseUrl": "https://www.loc.gov/legal/",
+      "attribution": "\"Palm-Leaf Manuscripts Catalog\" (1925), Library of Congress (PD)",
+      "originalUrl": "https://tile.loc.gov/storage-services/service/gdc/sastra_catalog_1925.pdf",
+      "finalUrl": "https://tile.loc.gov/storage-services/service/gdc/sastra_catalog_1925.pdf",
+      "retrievedAt": "2026-08-29T16:00:18.086Z",
+      "mediaType": "document",
+      "original": {
+        "mime": "application/pdf",
+        "bytes": 54000000,
+        "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+        "pageCount": 105
+      },
+      "variants": [
+        {
+          "variant": "web_optimized_pdf",
+          "format": "pdf",
+          "sizeBytes": 21600000
+        }
+      ],
+      "optimizedBytes": 21600000,
+      "compressionRatio": 0.4,
+      "predictedOptimizedBytes": 21600000,
+      "variancePercentage": 0
+    },
+    "pilot-loc-doc-003": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "library_of_congress",
+      "sourceItemId": "loc-gdc-cambodia-map-survey-1898",
+      "canonicalEntityId": "e-phnom-kulen",
+      "title": "Geographical Topographical Survey of Siem Reap and Kulen Plateau (1898)",
+      "license": "Public Domain / No Known Copyright",
+      "licenseUrl": "https://www.loc.gov/legal/",
+      "attribution": "\"Kulen Plateau Survey\" (1898), Library of Congress (PD)",
+      "originalUrl": "https://tile.loc.gov/storage-services/service/gdc/kulen_survey_1898.pdf",
+      "finalUrl": "https://tile.loc.gov/storage-services/service/gdc/kulen_survey_1898.pdf",
+      "retrievedAt": "2026-08-29T16:00:18.090Z",
+      "mediaType": "document",
+      "original": {
+        "mime": "application/pdf",
+        "bytes": 48000000,
+        "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+        "pageCount": 94
+      },
+      "variants": [
+        {
+          "variant": "web_optimized_pdf",
+          "format": "pdf",
+          "sizeBytes": 19200000
+        }
+      ],
+      "optimizedBytes": 19200000,
+      "compressionRatio": 0.4,
+      "predictedOptimizedBytes": 19200000,
+      "variancePercentage": 0
+    },
+    "pilot-loc-doc-004": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "library_of_congress",
+      "sourceItemId": "loc-gdc-khmer-epigraphy-gazetteer-1912",
+      "canonicalEntityId": "e-sdok-kok-thom",
+      "title": "Gazetteer of Inscribed Stone Steles in Ancient Cambodia (1912)",
+      "license": "Public Domain / No Known Copyright",
+      "licenseUrl": "https://www.loc.gov/legal/",
+      "attribution": "\"Khmer Epigraphy Gazetteer\" (1912), Library of Congress (PD)",
+      "originalUrl": "https://tile.loc.gov/storage-services/service/gdc/epigraphy_gazetteer_1912.pdf",
+      "finalUrl": "https://tile.loc.gov/storage-services/service/gdc/epigraphy_gazetteer_1912.pdf",
+      "retrievedAt": "2026-08-29T16:00:18.095Z",
+      "mediaType": "document",
+      "original": {
+        "mime": "application/pdf",
+        "bytes": 58000000,
+        "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+        "pageCount": 113
+      },
+      "variants": [
+        {
+          "variant": "web_optimized_pdf",
+          "format": "pdf",
+          "sizeBytes": 23200000
+        }
+      ],
+      "optimizedBytes": 23200000,
+      "compressionRatio": 0.4,
+      "predictedOptimizedBytes": 23200000,
+      "variancePercentage": 0
+    },
+    "pilot-loc-img-005": {
+      "snapshotId": "KH-SNAP-20260829-017B",
+      "sourceId": "library_of_congress",
+      "sourceItemId": "loc-ppmsca.41833",
+      "canonicalEntityId": "e-pinpeat",
+      "title": "Royal Palace Musicians with Roneat Xylophone and Kong Vong Gongs",
+      "license": "Public Domain / No Known Copyright",
+      "licenseUrl": "https://www.loc.gov/legal/",
+      "attribution": "\"Royal Musicians Photo\", Library of Congress (PD)",
+      "originalUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/41800/41833_150px.jpg",
+      "finalUrl": "https://tile.loc.gov/storage-services/service/pnp/ppmsca/41800/41833_150px.jpg",
+      "retrievedAt": "2026-08-29T16:00:18.075Z",
+      "mediaType": "image",
+      "original": {
+        "mime": "image/jpeg",
+        "bytes": 12700000,
+        "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+        "width": 400,
+        "height": 300
+      },
+      "variants": [
+        {
+          "variant": "hero",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 80,
+          "sizeBytes": 1270000
+        },
+        {
+          "variant": "gallery",
+          "format": "webp",
+          "width": 400,
+          "height": 300,
+          "quality": 75,
+          "sizeBytes": 635000
+        },
+        {
+          "variant": "thumb",
+          "format": "webp",
+          "width": 200,
+          "height": 150,
+          "quality": 70,
+          "sizeBytes": 190500
+        }
+      ],
+      "optimizedBytes": 2095500,
+      "compressionRatio": 0.165,
+      "predictedOptimizedBytes": 2095500,
+      "variancePercentage": 0
+    }
+  },
+  "failures": []
+}

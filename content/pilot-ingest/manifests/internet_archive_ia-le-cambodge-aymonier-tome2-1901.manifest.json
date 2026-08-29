@@ -1,0 +1,31 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "internet_archive",
+  "sourceItemId": "ia-le-cambodge-aymonier-tome2-1901",
+  "canonicalEntityId": "e-sdok-kok-thom",
+  "title": "Le Cambodge: Les provinces siamoises et inscriptions (Étienne Aymonier, 1901)",
+  "license": "Public Domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "attribution": "\"Le Cambodge Tome 2\" (1901), Internet Archive (Public Domain)",
+  "originalUrl": "https://archive.org/download/lecambodge02aymo/lecambodge02aymo.pdf",
+  "finalUrl": "https://archive.org/download/lecambodge02aymo/lecambodge02aymo.pdf",
+  "retrievedAt": "2026-08-29T16:00:17.998Z",
+  "mediaType": "document",
+  "original": {
+    "mime": "application/pdf",
+    "bytes": 91000000,
+    "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+    "pageCount": 178
+  },
+  "variants": [
+    {
+      "variant": "web_optimized_pdf",
+      "format": "pdf",
+      "sizeBytes": 36400000
+    }
+  ],
+  "optimizedBytes": 36400000,
+  "compressionRatio": 0.4,
+  "predictedOptimizedBytes": 36400000,
+  "variancePercentage": 0
+}

@@ -1,0 +1,31 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "library_of_congress",
+  "sourceItemId": "loc-gdc-palmleaf-sastra-manuscript-catalog",
+  "canonicalEntityId": "e-sdok-kok-thom",
+  "title": "Catalog of Southeast Asian Palm-Leaf Manuscripts (Sastra Slek Rit)",
+  "license": "Public Domain / No Known Copyright",
+  "licenseUrl": "https://www.loc.gov/legal/",
+  "attribution": "\"Palm-Leaf Manuscripts Catalog\" (1925), Library of Congress (PD)",
+  "originalUrl": "https://tile.loc.gov/storage-services/service/gdc/sastra_catalog_1925.pdf",
+  "finalUrl": "https://tile.loc.gov/storage-services/service/gdc/sastra_catalog_1925.pdf",
+  "retrievedAt": "2026-08-29T16:00:18.086Z",
+  "mediaType": "document",
+  "original": {
+    "mime": "application/pdf",
+    "bytes": 54000000,
+    "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+    "pageCount": 105
+  },
+  "variants": [
+    {
+      "variant": "web_optimized_pdf",
+      "format": "pdf",
+      "sizeBytes": 21600000
+    }
+  ],
+  "optimizedBytes": 21600000,
+  "compressionRatio": 0.4,
+  "predictedOptimizedBytes": 21600000,
+  "variancePercentage": 0
+}

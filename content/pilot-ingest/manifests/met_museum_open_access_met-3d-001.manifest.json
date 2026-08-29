@@ -1,0 +1,30 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "met_museum_open_access",
+  "sourceItemId": "met-3d-001",
+  "canonicalEntityId": "e-bayon",
+  "title": "3D Photogrammetry Model: Bayon Avalokiteshvara Head",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "\"3D Model: Bayon Avalokiteshvara\", The Metropolitan Museum of Art (CC0)",
+  "originalUrl": "https://media.metmuseum.org/3d/bayon_head_photogrammetry.gltf",
+  "finalUrl": "https://media.metmuseum.org/3d/bayon_head_photogrammetry.gltf",
+  "retrievedAt": "2026-08-29T16:00:17.079Z",
+  "mediaType": "three_d",
+  "original": {
+    "mime": "model/gltf+json",
+    "bytes": 24500000,
+    "sha256": "26a5cb6fed48e10d5e3dc7589d5187731763a072eb65ad42f158f572661fb6e5"
+  },
+  "variants": [
+    {
+      "variant": "draco_compressed_glb",
+      "format": "glb",
+      "sizeBytes": 4410000
+    }
+  ],
+  "optimizedBytes": 4410000,
+  "compressionRatio": 0.18,
+  "predictedOptimizedBytes": 4410000,
+  "variancePercentage": 0
+}

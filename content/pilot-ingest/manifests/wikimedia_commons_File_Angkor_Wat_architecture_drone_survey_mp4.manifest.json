@@ -1,0 +1,44 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "wikimedia_commons",
+  "sourceItemId": "File:Angkor_Wat_architecture_drone_survey.mp4",
+  "canonicalEntityId": "e-angkor-wat",
+  "title": "4K Architectural Aerial Survey of Angkor Wat Moat and Central Towers",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution": "\"Angkor Wat Drone Survey\", Wikimedia Commons (CC BY-SA 4.0)",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Angkor_Wat_architecture_drone_survey.mp4",
+  "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Angkor_Wat_architecture_drone_survey.mp4",
+  "retrievedAt": "2026-08-29T16:00:17.830Z",
+  "mediaType": "video",
+  "original": {
+    "mime": "video/mp4",
+    "bytes": 145000000,
+    "sha256": "f81f8311d5f97448e3954c0c41ae6ae1f98ecfbe1d3fb1b128754f57b786c625",
+    "width": 1920,
+    "height": 1080,
+    "duration": 120
+  },
+  "variants": [
+    {
+      "variant": "web_av1_720p",
+      "format": "webm",
+      "width": 1280,
+      "height": 720,
+      "bitrate": 1200000,
+      "sizeBytes": 36250000
+    },
+    {
+      "variant": "mobile_av1_480p",
+      "format": "webm",
+      "width": 854,
+      "height": 480,
+      "bitrate": 600000,
+      "sizeBytes": 14500000
+    }
+  ],
+  "optimizedBytes": 50750000,
+  "compressionRatio": 0.35,
+  "predictedOptimizedBytes": 50750000,
+  "variancePercentage": 0
+}

@@ -1,0 +1,38 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "wikimedia_commons",
+  "sourceItemId": "File:Pinpeat_Sathukar_ceremonial_overture.ogg",
+  "canonicalEntityId": "e-pinpeat",
+  "title": "Sathukar Ceremonial Overture performed by Pinpeat Ensemble",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution": "\"Sathukar Pinpeat Overture\", Wikimedia Commons (CC BY-SA 4.0)",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Pinpeat_Sathukar_ceremonial_overture.ogg",
+  "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Pinpeat_Sathukar_ceremonial_overture.ogg",
+  "retrievedAt": "2026-08-29T16:00:17.817Z",
+  "mediaType": "audio",
+  "original": {
+    "mime": "audio/ogg",
+    "bytes": 28400000,
+    "sha256": "6ff332850b70c384e00b21b32ab2370c9b18c9592066c26695e280bb003350b7",
+    "duration": 180
+  },
+  "variants": [
+    {
+      "variant": "web_standard",
+      "format": "opus",
+      "sizeBytes": 4260000,
+      "bitrate": 48000
+    },
+    {
+      "variant": "mobile_preview",
+      "format": "opus",
+      "sizeBytes": 1988000,
+      "bitrate": 32000
+    }
+  ],
+  "optimizedBytes": 6248000,
+  "compressionRatio": 0.22,
+  "predictedOptimizedBytes": 6248000,
+  "variancePercentage": 0
+}

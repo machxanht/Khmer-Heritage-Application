@@ -1,0 +1,38 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "internet_archive",
+  "sourceItemId": "ia-audio-smot-chanting-funeral-1971",
+  "canonicalEntityId": "e-pchum-ben",
+  "title": "Smot Lyrical Buddhist Chanting: Dharma of Impermanence (Anicca)",
+  "license": "Public Domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "attribution": "\"Smot Buddhist Chanting\" (1971), Internet Archive (Public Domain)",
+  "originalUrl": "https://archive.org/download/khmer-smot-1971/smot_anicca_dharma.mp3",
+  "finalUrl": "https://archive.org/download/khmer-smot-1971/smot_anicca_dharma.mp3",
+  "retrievedAt": "2026-08-29T16:00:17.975Z",
+  "mediaType": "audio",
+  "original": {
+    "mime": "audio/mpeg",
+    "bytes": 36200000,
+    "sha256": "6ff332850b70c384e00b21b32ab2370c9b18c9592066c26695e280bb003350b7",
+    "duration": 180
+  },
+  "variants": [
+    {
+      "variant": "web_standard",
+      "format": "opus",
+      "sizeBytes": 5430000,
+      "bitrate": 48000
+    },
+    {
+      "variant": "mobile_preview",
+      "format": "opus",
+      "sizeBytes": 2534000,
+      "bitrate": 32000
+    }
+  ],
+  "optimizedBytes": 7964000,
+  "compressionRatio": 0.22,
+  "predictedOptimizedBytes": 7964000,
+  "variancePercentage": 0
+}

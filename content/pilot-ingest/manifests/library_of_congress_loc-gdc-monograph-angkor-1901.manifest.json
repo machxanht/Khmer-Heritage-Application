@@ -1,0 +1,31 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "library_of_congress",
+  "sourceItemId": "loc-gdc-monograph-angkor-1901",
+  "canonicalEntityId": "e-angkor-wat",
+  "title": "Monograph on the Ruins of Angkor and Ancient Khmer Empire (LOC 1901)",
+  "license": "Public Domain / No Known Copyright",
+  "licenseUrl": "https://www.loc.gov/legal/",
+  "attribution": "\"Ruins of Angkor Monograph\" (1901), Library of Congress (PD)",
+  "originalUrl": "https://tile.loc.gov/storage-services/service/gdc/monograph_angkor_1901.pdf",
+  "finalUrl": "https://tile.loc.gov/storage-services/service/gdc/monograph_angkor_1901.pdf",
+  "retrievedAt": "2026-08-29T16:00:18.083Z",
+  "mediaType": "document",
+  "original": {
+    "mime": "application/pdf",
+    "bytes": 45000000,
+    "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+    "pageCount": 88
+  },
+  "variants": [
+    {
+      "variant": "web_optimized_pdf",
+      "format": "pdf",
+      "sizeBytes": 18000000
+    }
+  ],
+  "optimizedBytes": 18000000,
+  "compressionRatio": 0.4,
+  "predictedOptimizedBytes": 18000000,
+  "variancePercentage": 0
+}

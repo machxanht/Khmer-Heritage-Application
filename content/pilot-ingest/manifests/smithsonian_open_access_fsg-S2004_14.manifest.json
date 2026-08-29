@@ -1,0 +1,51 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "smithsonian_open_access",
+  "sourceItemId": "fsg-S2004.14",
+  "canonicalEntityId": "e-phnom-kulen",
+  "title": "Lintel Fragment with Indra atop Airavata Three-Headed Elephant",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "\"Indra on Airavata Lintel\", 9th c., National Museum of Asian Art, Smithsonian (CC0)",
+  "originalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-S2004.14_001",
+  "finalUrl": "https://ids.si.edu/ids/deliveryService?id=FS-S2004.14_001",
+  "retrievedAt": "2026-08-29T16:00:17.272Z",
+  "mediaType": "image",
+  "original": {
+    "mime": "image/jpeg",
+    "bytes": 9600000,
+    "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+    "width": 400,
+    "height": 300
+  },
+  "variants": [
+    {
+      "variant": "hero",
+      "format": "webp",
+      "width": 400,
+      "height": 300,
+      "quality": 80,
+      "sizeBytes": 960000
+    },
+    {
+      "variant": "gallery",
+      "format": "webp",
+      "width": 400,
+      "height": 300,
+      "quality": 75,
+      "sizeBytes": 480000
+    },
+    {
+      "variant": "thumb",
+      "format": "webp",
+      "width": 200,
+      "height": 150,
+      "quality": 70,
+      "sizeBytes": 144000
+    }
+  ],
+  "optimizedBytes": 1584000,
+  "compressionRatio": 0.165,
+  "predictedOptimizedBytes": 1584000,
+  "variancePercentage": 0
+}

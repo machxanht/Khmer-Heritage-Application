@@ -1,0 +1,31 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "internet_archive",
+  "sourceItemId": "ia-les-ruines-khmeres-fournereau-1890",
+  "canonicalEntityId": "e-banteay-srei",
+  "title": "Les Ruines khmères: Cambodge et Siam (Lucien Fournereau, 1890)",
+  "license": "Public Domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "attribution": "\"Les Ruines khmères\" (1890), Internet Archive (Public Domain)",
+  "originalUrl": "https://archive.org/download/lesruineskhmeres00four/lesruineskhmeres00four.pdf",
+  "finalUrl": "https://archive.org/download/lesruineskhmeres00four/lesruineskhmeres00four.pdf",
+  "retrievedAt": "2026-08-29T16:00:17.987Z",
+  "mediaType": "document",
+  "original": {
+    "mime": "application/pdf",
+    "bytes": 74500000,
+    "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+    "pageCount": 146
+  },
+  "variants": [
+    {
+      "variant": "web_optimized_pdf",
+      "format": "pdf",
+      "sizeBytes": 29800000
+    }
+  ],
+  "optimizedBytes": 29800000,
+  "compressionRatio": 0.4,
+  "predictedOptimizedBytes": 29800000,
+  "variancePercentage": 0
+}

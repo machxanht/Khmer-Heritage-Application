@@ -1,0 +1,31 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "wikimedia_commons",
+  "sourceItemId": "File:Sanskrit_Inscriptions_of_Cambodia_Barth_1885.pdf",
+  "canonicalEntityId": "e-sdok-kok-thom",
+  "title": "Inscriptions sanscrites du Cambodge (A. Barth, 1885 facsimile)",
+  "license": "Public Domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "attribution": "\"Inscriptions sanscrites du Cambodge\" (1885), Public Domain",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Sanskrit_Inscriptions_of_Cambodia_Barth_1885.pdf",
+  "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Sanskrit_Inscriptions_of_Cambodia_Barth_1885.pdf",
+  "retrievedAt": "2026-08-29T16:00:17.837Z",
+  "mediaType": "document",
+  "original": {
+    "mime": "application/pdf",
+    "bytes": 38500000,
+    "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+    "pageCount": 75
+  },
+  "variants": [
+    {
+      "variant": "web_optimized_pdf",
+      "format": "pdf",
+      "sizeBytes": 15400000
+    }
+  ],
+  "optimizedBytes": 15400000,
+  "compressionRatio": 0.4,
+  "predictedOptimizedBytes": 15400000,
+  "variancePercentage": 0
+}

@@ -1,0 +1,44 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "internet_archive",
+  "sourceItemId": "ia-film-royal-dancers-1953",
+  "canonicalEntityId": "e-apsara",
+  "title": "Archival 16mm Color Film: Royal Ballet Dancers at Silver Pagoda (1953)",
+  "license": "Public Domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "attribution": "\"Royal Ballet Film\" (1953), Internet Archive (Public Domain)",
+  "originalUrl": "https://archive.org/download/royal-dancers-1953/royal_ballet_1953.mp4",
+  "finalUrl": "https://archive.org/download/royal-dancers-1953/royal_ballet_1953.mp4",
+  "retrievedAt": "2026-08-29T16:00:17.980Z",
+  "mediaType": "video",
+  "original": {
+    "mime": "video/mp4",
+    "bytes": 185000000,
+    "sha256": "f81f8311d5f97448e3954c0c41ae6ae1f98ecfbe1d3fb1b128754f57b786c625",
+    "width": 1920,
+    "height": 1080,
+    "duration": 120
+  },
+  "variants": [
+    {
+      "variant": "web_av1_720p",
+      "format": "webm",
+      "width": 1280,
+      "height": 720,
+      "bitrate": 1200000,
+      "sizeBytes": 46250000
+    },
+    {
+      "variant": "mobile_av1_480p",
+      "format": "webm",
+      "width": 854,
+      "height": 480,
+      "bitrate": 600000,
+      "sizeBytes": 18500000
+    }
+  ],
+  "optimizedBytes": 64750000,
+  "compressionRatio": 0.35,
+  "predictedOptimizedBytes": 64750000,
+  "variancePercentage": 0
+}

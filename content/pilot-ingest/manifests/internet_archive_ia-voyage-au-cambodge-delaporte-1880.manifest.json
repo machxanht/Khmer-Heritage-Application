@@ -1,0 +1,31 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "internet_archive",
+  "sourceItemId": "ia-voyage-au-cambodge-delaporte-1880",
+  "canonicalEntityId": "e-angkor-wat",
+  "title": "Voyage au Cambodge: L’architecture khmer (Louis Delaporte, 1880)",
+  "license": "Public Domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "attribution": "\"Voyage au Cambodge\" (1880), Internet Archive (Public Domain)",
+  "originalUrl": "https://archive.org/download/voyageaucambodge00dela/voyageaucambodge00dela.pdf",
+  "finalUrl": "https://archive.org/download/voyageaucambodge00dela/voyageaucambodge00dela.pdf",
+  "retrievedAt": "2026-08-29T16:00:17.982Z",
+  "mediaType": "document",
+  "original": {
+    "mime": "application/pdf",
+    "bytes": 68000000,
+    "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+    "pageCount": 133
+  },
+  "variants": [
+    {
+      "variant": "web_optimized_pdf",
+      "format": "pdf",
+      "sizeBytes": 27200000
+    }
+  ],
+  "optimizedBytes": 27200000,
+  "compressionRatio": 0.4,
+  "predictedOptimizedBytes": 27200000,
+  "variancePercentage": 0
+}

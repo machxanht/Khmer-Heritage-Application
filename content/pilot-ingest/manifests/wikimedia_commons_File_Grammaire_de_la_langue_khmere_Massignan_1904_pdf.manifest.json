@@ -1,0 +1,31 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "wikimedia_commons",
+  "sourceItemId": "File:Grammaire_de_la_langue_khmere_Massignan_1904.pdf",
+  "canonicalEntityId": "e-sdok-kok-thom",
+  "title": "Grammaire de la langue khmère ou cambodgienne (1904 edition)",
+  "license": "Public Domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "attribution": "\"Grammaire de la langue khmère\" (1904), Public Domain",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Grammaire_de_la_langue_khmere_Massignan_1904.pdf",
+  "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Grammaire_de_la_langue_khmere_Massignan_1904.pdf",
+  "retrievedAt": "2026-08-29T16:00:17.842Z",
+  "mediaType": "document",
+  "original": {
+    "mime": "application/pdf",
+    "bytes": 29300000,
+    "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+    "pageCount": 57
+  },
+  "variants": [
+    {
+      "variant": "web_optimized_pdf",
+      "format": "pdf",
+      "sizeBytes": 11720000
+    }
+  ],
+  "optimizedBytes": 11720000,
+  "compressionRatio": 0.4,
+  "predictedOptimizedBytes": 11720000,
+  "variancePercentage": 0
+}

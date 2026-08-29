@@ -1,0 +1,38 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "wikimedia_commons",
+  "sourceItemId": "File:Apsara_dance_musical_accompaniment_suite.ogg",
+  "canonicalEntityId": "e-apsara",
+  "title": "Musical Suite for Classical Robam Tep Apsara Choreography",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution": "\"Apsara Musical Suite\", Wikimedia Commons (CC BY-SA 4.0)",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Apsara_dance_musical_accompaniment_suite.ogg",
+  "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Apsara_dance_musical_accompaniment_suite.ogg",
+  "retrievedAt": "2026-08-29T16:00:17.823Z",
+  "mediaType": "audio",
+  "original": {
+    "mime": "audio/ogg",
+    "bytes": 31200000,
+    "sha256": "6ff332850b70c384e00b21b32ab2370c9b18c9592066c26695e280bb003350b7",
+    "duration": 180
+  },
+  "variants": [
+    {
+      "variant": "web_standard",
+      "format": "opus",
+      "sizeBytes": 4680000,
+      "bitrate": 48000
+    },
+    {
+      "variant": "mobile_preview",
+      "format": "opus",
+      "sizeBytes": 2184000,
+      "bitrate": 32000
+    }
+  ],
+  "optimizedBytes": 6864000,
+  "compressionRatio": 0.22,
+  "predictedOptimizedBytes": 6864000,
+  "variancePercentage": 0
+}

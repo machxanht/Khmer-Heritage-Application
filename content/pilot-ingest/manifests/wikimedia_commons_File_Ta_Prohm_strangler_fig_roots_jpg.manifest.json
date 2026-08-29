@@ -1,0 +1,51 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "wikimedia_commons",
+  "sourceItemId": "File:Ta_Prohm_strangler_fig_roots.jpg",
+  "canonicalEntityId": "e-angkor-wat",
+  "title": "Giant Spung Tree (Tetrameles nudiflora) Roots at Ta Prohm",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "attribution": "\"Ta Prohm Tree Roots\", Wikimedia Commons (CC BY-SA 4.0)",
+  "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Ta_Prohm_strangler_fig_roots.jpg",
+  "finalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Ta_Prohm_strangler_fig_roots.jpg",
+  "retrievedAt": "2026-08-29T16:00:17.664Z",
+  "mediaType": "image",
+  "original": {
+    "mime": "image/jpeg",
+    "bytes": 13800000,
+    "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+    "width": 400,
+    "height": 300
+  },
+  "variants": [
+    {
+      "variant": "hero",
+      "format": "webp",
+      "width": 400,
+      "height": 300,
+      "quality": 80,
+      "sizeBytes": 1380000
+    },
+    {
+      "variant": "gallery",
+      "format": "webp",
+      "width": 400,
+      "height": 300,
+      "quality": 75,
+      "sizeBytes": 690000
+    },
+    {
+      "variant": "thumb",
+      "format": "webp",
+      "width": 200,
+      "height": 150,
+      "quality": 70,
+      "sizeBytes": 207000
+    }
+  ],
+  "optimizedBytes": 2277000,
+  "compressionRatio": 0.165,
+  "predictedOptimizedBytes": 2277000,
+  "variancePercentage": 0
+}

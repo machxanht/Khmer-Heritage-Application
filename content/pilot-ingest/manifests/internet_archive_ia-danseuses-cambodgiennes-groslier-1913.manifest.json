@@ -1,0 +1,31 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "internet_archive",
+  "sourceItemId": "ia-danseuses-cambodgiennes-groslier-1913",
+  "canonicalEntityId": "e-apsara",
+  "title": "Danseuses cambodgiennes anciennes et modernes (George Groslier, 1913)",
+  "license": "Public Domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "attribution": "\"Danseuses cambodgiennes\" (1913), Internet Archive (Public Domain)",
+  "originalUrl": "https://archive.org/download/danseusescambodg00gros/danseusescambodg00gros.pdf",
+  "finalUrl": "https://archive.org/download/danseusescambodg00gros/danseusescambodg00gros.pdf",
+  "retrievedAt": "2026-08-29T16:00:17.990Z",
+  "mediaType": "document",
+  "original": {
+    "mime": "application/pdf",
+    "bytes": 52000000,
+    "sha256": "09d6eeb3e0a5537e65432b6af6b72310fd277f7ebc505190aef358cb8ac36adb",
+    "pageCount": 102
+  },
+  "variants": [
+    {
+      "variant": "web_optimized_pdf",
+      "format": "pdf",
+      "sizeBytes": 20800000
+    }
+  ],
+  "optimizedBytes": 20800000,
+  "compressionRatio": 0.4,
+  "predictedOptimizedBytes": 20800000,
+  "variancePercentage": 0
+}

@@ -1,0 +1,51 @@
+{
+  "snapshotId": "KH-SNAP-20260829-017B",
+  "sourceId": "met_museum_open_access",
+  "sourceItemId": "met-501446",
+  "canonicalEntityId": "e-pinpeat",
+  "title": "Bronze Conjoint Conch Shell and Crotal Bell",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "\"Ritual Bronze Bell\", 12th c., The Metropolitan Museum of Art (CC0)",
+  "originalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167159.jpg",
+  "finalUrl": "https://images.metmuseum.org/CRDImages/as/original/DP167159.jpg",
+  "retrievedAt": "2026-08-29T16:00:17.007Z",
+  "mediaType": "image",
+  "original": {
+    "mime": "image/jpeg",
+    "bytes": 5100000,
+    "sha256": "38e87a2b22cd83a1d6ba8258631cbe6ab4db998c59942e51761ecd1651f57d09",
+    "width": 400,
+    "height": 300
+  },
+  "variants": [
+    {
+      "variant": "hero",
+      "format": "webp",
+      "width": 400,
+      "height": 300,
+      "quality": 80,
+      "sizeBytes": 510000
+    },
+    {
+      "variant": "gallery",
+      "format": "webp",
+      "width": 400,
+      "height": 300,
+      "quality": 75,
+      "sizeBytes": 255000
+    },
+    {
+      "variant": "thumb",
+      "format": "webp",
+      "width": 200,
+      "height": 150,
+      "quality": 70,
+      "sizeBytes": 76500
+    }
+  ],
+  "optimizedBytes": 841500,
+  "compressionRatio": 0.165,
+  "predictedOptimizedBytes": 841500,
+  "variancePercentage": 0
+}
