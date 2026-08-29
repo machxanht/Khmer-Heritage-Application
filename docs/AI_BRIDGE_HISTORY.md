@@ -178,6 +178,23 @@
   - All 10 pipeline stages passed 100% (112/112 tests), 0 lint errors, and successful applet compilation.
   - Maintained strict operational boundaries: paused after metadata discovery without initiating unapproved large-scale media downloading.
 
+## Task KH-016: Full Corpus Metadata Discovery
+- **Date**: 2026-08-29
+- **Assigned By**: ChatGPT / PM
+- **Implemented By**: Studio AI (Developer)
+- **Status**: SUCCESS
+- **Summary**:
+  - Expanded metadata discovery pipeline across 14 sources: Pilot (Met, Smithsonian, Wikimedia), Tier 1 (Internet Archive, Gallica/BnF, British Library EAP, LOC, Persée BEFEO), and Tier 2 Institutional Repositories (National Museum of Cambodia, APSARA National Authority, EFEO, CKS, Buddhist Institute, MCFA Cambodia).
+  - Built cross-source entity deduplication clustering (`clusterAndDeduplicateRecords`) identifying 71 unique canonical cultural entities across 78 discovered media records with 6 duplicate clusters and 13 cross-institutional links.
+  - Implemented media-type breakdown across Images (51), Audio (5), Video (2), and Documents (25).
+  - High-res images achieved an 18.39x compression ratio (763.7 KB average footprint); audio achieved 6.50x; video achieved 4.00x; documents achieved 1.80x.
+  - Calculated multi-scale storage projections up to 500,000 items: 50K items require 792.7 GB ($11.74/mo on R2); 500K items require 7.93 TB ($118.76/mo on R2).
+  - Exported 15 discovery artifacts into `content/discovery/`.
+  - Expanded test suite to 64 tests in `src/pipeline/__tests__/discoveryCrawler.test.ts`.
+  - All 10 pipeline stages passed (135/135 tests) in 452 ms. 0 lint errors and clean production build.
+  - Paused after discovery completion with full storage models ready for PM ingestion approval.
+
+
 
 
 

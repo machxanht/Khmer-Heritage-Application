@@ -1,27 +1,83 @@
 {
-  "timestamp": "2026-08-29T10:30:30.417Z",
+  "timestamp": "2026-08-29T11:11:48.161Z",
+  "discoveryVersion": "KH-016-v1.0",
   "globalLicenseDistribution": {
-    "CC0-1.0 (Public Domain)": 13,
-    "All Rights Reserved": 1,
-    "CC-BY-SA": 31,
-    "CC-BY": 16
+    "CC0-1.0 (Public Domain)": 31,
+    "All Rights Reserved": 9,
+    "CC-BY-SA": 11,
+    "CC-BY": 3,
+    "CC BY-NC 4.0": 1,
+    "http://creativecommons.org/licenses/by-nc-nd/4.0/": 1,
+    "http://creativecommons.org/licenses/by-sa/4.0/": 2,
+    "Unknown / Unspecified": 1,
+    "http://creativecommons.org/licenses/by/3.0/": 1,
+    "BnF Non-Commercial Open Access (free for research/education; commercial license required)": 6,
+    "CC BY-NC 4.0 (Non-Commercial)": 5,
+    "Persée Non-Commercial Research & Education Access": 5,
+    "EFEO (Institutional Agreement / Droits réservés)": 1,
+    "Droits photographiques réservés EFEO": 1,
+    "Center for Khmer Studies (Non-commercial research access)": 1,
+    "Buddhist Institute of Cambodia (Droits réservés)": 1,
+    "Ministry of Culture and Fine Arts, Kingdom of Cambodia (All Rights Reserved)": 1
   },
-  "acceptedCount": 60,
-  "quarantinedCount": 1,
-  "rejectedCount": 129,
-  "unknownLicenseCount": 0,
+  "acceptedCount": 45,
+  "quarantinedCount": 29,
+  "rejectedCount": 2,
+  "unknownLicenseCount": 7,
   "perSourceLicenses": {
     "met_museum_open_access": {
-      "CC0-1.0 (Public Domain)": 1
+      "CC0-1.0 (Public Domain)": 12,
+      "All Rights Reserved": 1
     },
     "smithsonian_open_access": {
       "CC0-1.0 (Public Domain)": 9,
       "All Rights Reserved": 1
     },
     "wikimedia_commons": {
-      "CC-BY-SA": 31,
-      "CC0-1.0 (Public Domain)": 3,
-      "CC-BY": 16
+      "CC-BY-SA": 11,
+      "CC-BY": 3,
+      "CC0-1.0 (Public Domain)": 1,
+      "CC BY-NC 4.0": 1
+    },
+    "internet_archive": {
+      "CC0-1.0 (Public Domain)": 5,
+      "http://creativecommons.org/licenses/by-nc-nd/4.0/": 1,
+      "http://creativecommons.org/licenses/by-sa/4.0/": 2,
+      "Unknown / Unspecified": 1,
+      "http://creativecommons.org/licenses/by/3.0/": 1
+    },
+    "gallica_bnf": {
+      "BnF Non-Commercial Open Access (free for research/education; commercial license required)": 6
+    },
+    "british_library_eap": {
+      "CC BY-NC 4.0 (Non-Commercial)": 5
+    },
+    "library_of_congress": {
+      "CC0-1.0 (Public Domain)": 4,
+      "All Rights Reserved": 1
+    },
+    "persee_befeo": {
+      "Persée Non-Commercial Research & Education Access": 5
+    },
+    "national_museum_cambodia": {
+      "All Rights Reserved": 3
+    },
+    "apsara_authority": {
+      "All Rights Reserved": 2
+    },
+    "efeo": {
+      "EFEO (Institutional Agreement / Droits réservés)": 1,
+      "Droits photographiques réservés EFEO": 1
+    },
+    "center_for_khmer_studies": {
+      "Center for Khmer Studies (Non-commercial research access)": 1
+    },
+    "buddhist_institute_cambodia": {
+      "All Rights Reserved": 1,
+      "Buddhist Institute of Cambodia (Droits réservés)": 1
+    },
+    "mcfa_cambodia": {
+      "Ministry of Culture and Fine Arts, Kingdom of Cambodia (All Rights Reserved)": 1
     }
   }
 }

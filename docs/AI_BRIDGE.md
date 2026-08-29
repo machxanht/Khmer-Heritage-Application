@@ -3,63 +3,42 @@
 ---
 
 ### [SECTION A: CURRENT TASK FROM CHATGPT / PM]
-**Task ID**: KH-015  
-**Title**: Controlled Corpus Metadata Discovery (Met Museum, Smithsonian, Wikimedia Commons)  
+**Task ID**: KH-016  
+**Title**: Full Corpus Metadata Discovery (Tier 1 & Tier 2 Sources, Deduplication & Storage Analysis)  
 **Assigned To**: Studio AI (Developer / Implementation Agent)  
 **Date**: 2026-08-29  
 
 **Task Description**:
-- Perform a metadata-first discovery crawl across the three approved, commercially compatible content sources:
-  1. The Metropolitan Museum of Art Open Access (`met_museum_open_access`)
-  2. Smithsonian Open Access / Freer-Sackler Collection (`smithsonian_open_access`)
-  3. Wikimedia Commons (`wikimedia_commons`)
-- Collect metadata only (no full media binary downloads during discovery).
-- Apply fail-closed license gating (quarantine NC, ND, and All Rights Reserved).
-- Implement pagination, rate-limiting, and resumable execution checkpointing (`.discovery-checkpoint.json`).
-- Calculate multi-scale storage projections (1K, 5K, 10K, 25K, 50K, 100K) and storage tier architecture analysis (10GB to 1TB).
-- Export 6 discovery JSON files in `content/discovery/`.
-- Build automated test suite (`src/pipeline/__tests__/discoveryCrawler.test.ts`) integrated as Stage 10 into `src/pipeline/testRunner.ts`.
-- Maintain bridge documentation in `docs/AI_BRIDGE_PROGRESS_015.md`, `docs/AI_BRIDGE_REPORT_015.md`, `docs/AI_BRIDGE.md`, and `docs/AI_BRIDGE_HISTORY.md`.
+- Expand metadata discovery beyond the 3 pilot sources to cover:
+  1. Tier 1 Sources: Internet Archive, Gallica / BnF, British Library EAP, Library of Congress, Persée BEFEO.
+  2. Tier 2 Institutional Sources: National Museum of Cambodia, APSARA National Authority, EFEO, Center for Khmer Studies, Buddhist Institute of Cambodia, Ministry of Culture and Fine Arts (MCFA).
+- Implement cross-source entity deduplication and canonical clustering.
+- Perform fine-grained media-type breakdown (images, audio, video, documents) and calculate multi-scale storage projections up to 500,000 items.
+- Export all structured discovery artifacts in `content/discovery/`.
+- Extend automated test suite (`src/pipeline/__tests__/discoveryCrawler.test.ts`) integrated as Stage 10 into `src/pipeline/testRunner.ts`.
+- Document progress and findings in `docs/AI_BRIDGE_PROGRESS_016.md`, `docs/AI_BRIDGE_REPORT_016.md`, `docs/AI_BRIDGE.md`, and `docs/AI_BRIDGE_HISTORY.md`.
 
 ---
 
 ### [SECTION B: COMPLETION REPORT FROM STUDIO AI]
-**Task ID**: KH-015  
+**Task ID**: KH-016  
 **Status**: SUCCESS (100% Verified)  
 **Date**: 2026-08-29  
 
 **Summary of Deliverables**:
-1. **Discovery Architecture & Schemas**:
-   - Extended `src/pipeline/types.ts` with `DiscoveredRecord`, `DiscoverySourceResult`, `CorpusDiscoverySummary`, `ScaleProjectionTier`, `StorageTierAnalysis`, and `DiscoveryCheckpoint`.
-   - Created `src/pipeline/discoveryCommon.ts` for license classification, media detection, empirical sizing models, and scale projections.
-2. **Discovery Adapters**:
-   - `src/pipeline/adapters/metDiscoveryAdapter.ts`: Met Museum collection discovery, cursor pagination, and CC0 validation.
-   - `src/pipeline/adapters/smithsonianDiscoveryAdapter.ts`: Freer-Sackler Khmer sculpture discovery and high-res master dimension modeling.
-   - `src/pipeline/adapters/wikimediaDiscoveryAdapter.ts`: MediaWiki search generator, `imageinfo` exact byte sizes, and CC-BY/CC-BY-SA parsing.
-3. **Orchestrator & CLI Tool**:
-   - Implemented `src/pipeline/discoveryCrawler.ts` with checkpointing (`.discovery-checkpoint.json`) and added npm script `npm run content:discover`.
-   - Exported 6 discovery artifacts in `content/discovery/`:
-     - `met-discovery.json`
-     - `smithsonian-discovery.json`
-     - `wikimedia-discovery.json`
-     - `corpus-estimate.json`
-     - `license-summary.json`
-     - `discovery-summary.json`
-4. **Key Discovery Metrics**:
-   - 190 records examined, 61 Khmer relevant, 60 accepted under commercial open licenses (31 CC-BY-SA, 16 CC-BY, 13 CC0), 1 quarantined.
-   - Average optimized footprint: ~570.6 KB per accepted record (18.26x compression, 94.5% storage savings).
-   - Scale Projections: 10K items require 5.31 GB ($0.00/mo within R2 Free Tier); 100K items require 53.14 GB ($0.65/mo on R2).
-   - Storage Recommendation: `R2_CURRENT_BUCKET` (Cloudflare R2 with zero egress bandwidth charges).
-5. **Automated Test Suite (Stage 10)**:
-   - Built test suite `src/pipeline/__tests__/discoveryCrawler.test.ts` (41 tests) and integrated into `src/pipeline/testRunner.ts`.
-   - **All 10 pipeline stages passed (112/112 tests)** in 430 ms.
-6. **Unified Verification**:
-   - `npm run content:discover`: Passed.
-   - `npm run content:test`: 100% PASS across all 10 stages (112/112 assertions passed).
-   - `npm run content:validate`: 100% PASS with 0 errors, 0 warnings.
-   - `npm run lint`: 0 TypeScript errors (`tsc --noEmit`).
-   - `npm run build`: Succeeded.
-7. **Handoff & Pause Confirmation**:
-   - Full corpus media downloading remains stopped. All discovery metadata and storage projections are ready for PM authorization.
-
-
+1. **Full-Scope Adapters & Source Integration**:
+   - Built 5 Tier 1 adapters (`internetArchiveDiscoveryAdapter.ts`, `gallicaBnfDiscoveryAdapter.ts`, `britishLibraryDiscoveryAdapter.ts`, `locDiscoveryAdapter.ts`, `perseeBefeoDiscoveryAdapter.ts`).
+   - Built consolidated Tier 2 institutional adapter (`tier2InstitutionalDiscoveryAdapter.ts`) supporting 6 institutional bodies under `MANUAL_REVIEW_REQUIRED` and `SAFE_FOR_METADATA_DISCOVERY` policies.
+2. **Deduplication & Cross-Source Entity Clustering**:
+   - Built normalized title and keyword clustering algorithm (`clusterAndDeduplicateRecords`) identifying 71 unique canonical entities across 78 discovered records with 6 duplicate clusters and 13 cross-institutional links.
+3. **Media-Type Breakdown & Storage Modeling**:
+   - Categorized discovered items into Images (51), Audio (5), Video (2), and Documents (25).
+   - High-res images achieve an 18.39x compression ratio (763.7 KB average footprint); audio achieves 6.50x; video achieves 4.00x; documents achieve 1.80x.
+   - Scaled projections up to 500,000 items: 50K items require 792.7 GB ($11.74/mo on R2); 500K items require 7.93 TB ($118.76/mo on R2).
+4. **Artifact Generation (`content/discovery/`)**:
+   - Generated 15 artifacts including `deduplication-summary.json`, `corpus-estimate.json`, `expanded-discovery-summary.json`, and all 9 source discovery files.
+5. **Testing & Validation**:
+   - 64 automated tests in `discoveryCrawler.test.ts`. All 10 pipeline stages passed (135/135 tests) in 452 ms.
+   - 0 TypeScript compiler errors (`npm run lint`), successful applet build (`npm run build`).
+6. **Safety & Quarantine**:
+   - Strict fail-closed policy maintained. Bulk media downloads remain halted pending PM review.

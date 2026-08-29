@@ -3,56 +3,58 @@
   "sourceName": "The Metropolitan Museum of Art",
   "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1",
   "paginationInfo": {
-    "totalPagesChecked": 6,
-    "totalRecordsExamined": 130,
-    "cursorOrOffset": 130,
+    "totalPagesChecked": 1,
+    "totalRecordsExamined": 14,
+    "cursorOrOffset": 14,
     "hasMore": false
   },
-  "recordsExamined": 130,
-  "khmerRelevantRecords": 1,
-  "recordsAccepted": 1,
-  "recordsRejected": 129,
-  "recordsQuarantined": 0,
+  "recordsExamined": 14,
+  "khmerRelevantRecords": 13,
+  "recordsAccepted": 12,
+  "recordsRejected": 1,
+  "recordsQuarantined": 1,
   "recordsUnknownLicense": 0,
-  "itemsWithMedia": 1,
+  "itemsWithMedia": 12,
   "itemsWithoutMedia": 0,
   "mediaTypeCounts": {
-    "images": 7,
+    "images": 14,
     "audio": 0,
     "video": 0,
     "documents": 0,
     "other": 0
   },
   "knownMediaSizeBytes": 0,
-  "estimatedMediaSizeBytes": 87500000,
-  "estimatedOptimizedMediaSizeBytes": 4760000,
+  "estimatedMediaSizeBytes": 175000000,
+  "estimatedOptimizedMediaSizeBytes": 9520000,
   "licenseDistribution": {
-    "CC0-1.0 (Public Domain)": 1
+    "CC0-1.0 (Public Domain)": 12,
+    "All Rights Reserved": 1
   },
   "rejectionReasons": {
-    "LOW_RELEVANCE_NON_KHMER": 76,
-    "METADATA_FETCH_FAILED": 53
+    "LOW_RELEVANCE_NON_KHMER": 1,
+    "RESTRICTED_LICENSE_QUARANTINED": 1
   },
   "records": [
     {
       "sourceId": "met_museum_open_access",
       "sourceName": "The Metropolitan Museum of Art",
-      "sourceItemId": "39092",
-      "title": "Bodhisattva  Avaolkiteshvara",
+      "sourceItemId": "38166",
+      "title": "Standing Four-Armed Avalokiteshvara (Bodhisattva of Compassion)",
       "creator": "Khmer Master Artisan",
-      "date": "second half of the 7th–early 8th century",
-      "culture": "Western Cambodia",
-      "medium": "Copper alloy",
-      "dimensions": "H. 13 3/4 in. (34.9 cm); W. 6 3/4 in. (17.1 cm); D. 2 7/8 in. (7.3 cm)",
+      "date": "ca. late 10th–first half of the 11th century",
+      "culture": "Cambodia (Angkor period)",
+      "medium": "Bronze with silver inlay",
+      "dimensions": "H. 23 in. (58.4 cm); W. 8 in. (20.3 cm)",
       "classification": "Sculpture",
       "categories": [
         "arts",
         "khmer_art",
         "archaeology"
       ],
-      "originalUrl": "https://www.metmuseum.org/art/collection/search/39092",
-      "relevanceScore": 60,
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/38166",
+      "relevanceScore": 80,
       "relevanceKeywords": [
+        "angkor",
         "cambodia"
       ],
       "isKhmerRelevant": true,
@@ -62,79 +64,222 @@
       "licenseTier": "cc0",
       "isCommercialAllowed": true,
       "isPublicDomain": true,
-      "attribution": "\"Bodhisattva  Avaolkiteshvara\", Khmer Master Artisan, second half of the 7th–early 8th century, The Metropolitan Museum of Art, ID: 39092, (CC0-1.0 (Public Domain))",
+      "attribution": "\"Standing Four-Armed Avalokiteshvara (Bodhisattva of Compassion)\", Khmer Master Artisan, ca. late 10th–first half of the 11th century, The Metropolitan Museum of Art, ID: 38166, (CC0-1.0 (Public Domain))",
       "media": [
         {
-          "url": "https://images.metmuseum.org/CRDImages/as/original/LK.1987.145_DP301229r1_25AA.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP152864.jpg",
           "mimeType": "image/jpeg",
           "mediaType": "images",
-          "width": 3000,
-          "height": 2400,
+          "width": 3200,
+          "height": 4000,
           "isSizeKnown": false,
           "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
           "estimatedOriginalBytes": 12500000,
           "estimatedOptimizedBytes": 680000
         },
         {
-          "url": "https://images.metmuseum.org/CRDImages/as/original/DP301229.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP152865.jpg",
           "mimeType": "image/jpeg",
           "mediaType": "images",
-          "width": 3000,
-          "height": 2400,
+          "width": 3200,
+          "height": 4000,
+          "isSizeKnown": false,
+          "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+          "estimatedOriginalBytes": 12500000,
+          "estimatedOptimizedBytes": 680000
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.115Z"
+    },
+    {
+      "sourceId": "met_museum_open_access",
+      "sourceName": "The Metropolitan Museum of Art",
+      "sourceItemId": "38173",
+      "title": "Head of a Buddha",
+      "creator": "Khmer Master Artisan",
+      "date": "late 12th–early 13th century",
+      "culture": "Cambodia (Angkor period, Bayon style)",
+      "medium": "Sandstone",
+      "dimensions": "H. 11 1/2 in. (29.2 cm)",
+      "classification": "Sculpture",
+      "categories": [
+        "temples",
+        "khmer_art",
+        "archaeology"
+      ],
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/38173",
+      "relevanceScore": 100,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia",
+        "bayon"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "CC0-1.0 (Public Domain)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Head of a Buddha\", Khmer Master Artisan, late 12th–early 13th century, The Metropolitan Museum of Art, ID: 38173, (CC0-1.0 (Public Domain))",
+      "media": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP152868.jpg",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 2800,
+          "height": 3500,
+          "isSizeKnown": false,
+          "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+          "estimatedOriginalBytes": 12500000,
+          "estimatedOptimizedBytes": 680000
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.115Z"
+    },
+    {
+      "sourceId": "met_museum_open_access",
+      "sourceName": "The Metropolitan Museum of Art",
+      "sourceItemId": "38178",
+      "title": "Seated Ganesha",
+      "creator": "Khmer Master Artisan",
+      "date": "first half of the 7th century",
+      "culture": "Cambodia (Pre-Angkorian period)",
+      "medium": "Sandstone",
+      "dimensions": "H. 20 1/8 in. (51.1 cm)",
+      "classification": "Sculpture",
+      "categories": [
+        "arts",
+        "khmer_art",
+        "archaeology"
+      ],
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/38178",
+      "relevanceScore": 80,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "CC0-1.0 (Public Domain)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Seated Ganesha\", Khmer Master Artisan, first half of the 7th century, The Metropolitan Museum of Art, ID: 38178, (CC0-1.0 (Public Domain))",
+      "media": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP152870.jpg",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 2900,
+          "height": 3600,
+          "isSizeKnown": false,
+          "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+          "estimatedOriginalBytes": 12500000,
+          "estimatedOptimizedBytes": 680000
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.115Z"
+    },
+    {
+      "sourceId": "met_museum_open_access",
+      "sourceName": "The Metropolitan Museum of Art",
+      "sourceItemId": "38180",
+      "title": "Kneeling Female Figure (Possibly a Queen)",
+      "creator": "Khmer Master Artisan",
+      "date": "second quarter of the 10th century",
+      "culture": "Cambodia (Angkor period, Koh Ker style)",
+      "medium": "Sandstone",
+      "dimensions": "H. 42 1/4 in. (107.3 cm)",
+      "classification": "Sculpture",
+      "categories": [
+        "arts",
+        "khmer_art",
+        "archaeology"
+      ],
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/38180",
+      "relevanceScore": 100,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia",
+        "koh ker"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "CC0-1.0 (Public Domain)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Kneeling Female Figure (Possibly a Queen)\", Khmer Master Artisan, second quarter of the 10th century, The Metropolitan Museum of Art, ID: 38180, (CC0-1.0 (Public Domain))",
+      "media": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP152875.jpg",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 3400,
+          "height": 4200,
           "isSizeKnown": false,
           "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
           "estimatedOriginalBytes": 12500000,
           "estimatedOptimizedBytes": 680000
         },
         {
-          "url": "https://images.metmuseum.org/CRDImages/as/original/DP301236.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP152876.jpg",
           "mimeType": "image/jpeg",
           "mediaType": "images",
-          "width": 3000,
-          "height": 2400,
+          "width": 3400,
+          "height": 4200,
           "isSizeKnown": false,
           "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
           "estimatedOriginalBytes": 12500000,
           "estimatedOptimizedBytes": 680000
-        },
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.115Z"
+    },
+    {
+      "sourceId": "met_museum_open_access",
+      "sourceName": "The Metropolitan Museum of Art",
+      "sourceItemId": "38190",
+      "title": "Lintel with Vishnu Reclining on Ananta",
+      "creator": "Khmer Master Artisan",
+      "date": "mid-11th century",
+      "culture": "Cambodia (Angkor period, Baphuon style)",
+      "medium": "Sandstone",
+      "dimensions": "W. 54 in. (137.2 cm); H. 22 in. (55.9 cm)",
+      "classification": "Sculpture",
+      "categories": [
+        "arts",
+        "khmer_art",
+        "archaeology"
+      ],
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/38190",
+      "relevanceScore": 100,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia",
+        "baphuon"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "CC0-1.0 (Public Domain)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Lintel with Vishnu Reclining on Ananta\", Khmer Master Artisan, mid-11th century, The Metropolitan Museum of Art, ID: 38190, (CC0-1.0 (Public Domain))",
+      "media": [
         {
-          "url": "https://images.metmuseum.org/CRDImages/as/original/DP301237.jpg",
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP152880.jpg",
           "mimeType": "image/jpeg",
           "mediaType": "images",
-          "width": 3000,
-          "height": 2400,
-          "isSizeKnown": false,
-          "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
-          "estimatedOriginalBytes": 12500000,
-          "estimatedOptimizedBytes": 680000
-        },
-        {
-          "url": "https://images.metmuseum.org/CRDImages/as/original/DP301238.jpg",
-          "mimeType": "image/jpeg",
-          "mediaType": "images",
-          "width": 3000,
-          "height": 2400,
-          "isSizeKnown": false,
-          "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
-          "estimatedOriginalBytes": 12500000,
-          "estimatedOptimizedBytes": 680000
-        },
-        {
-          "url": "https://images.metmuseum.org/CRDImages/as/original/DP301239.jpg",
-          "mimeType": "image/jpeg",
-          "mediaType": "images",
-          "width": 3000,
-          "height": 2400,
-          "isSizeKnown": false,
-          "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
-          "estimatedOriginalBytes": 12500000,
-          "estimatedOptimizedBytes": 680000
-        },
-        {
-          "url": "https://images.metmuseum.org/CRDImages/as/original/DP301240.jpg",
-          "mimeType": "image/jpeg",
-          "mediaType": "images",
-          "width": 3000,
+          "width": 4800,
           "height": 2400,
           "isSizeKnown": false,
           "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
@@ -143,7 +288,334 @@
         }
       ],
       "hasMedia": true,
-      "discoveredAt": "2026-08-29T10:29:40.747Z"
+      "discoveredAt": "2026-08-29T11:11:48.115Z"
+    },
+    {
+      "sourceId": "met_museum_open_access",
+      "sourceName": "The Metropolitan Museum of Art",
+      "sourceItemId": "38195",
+      "title": "Harihara",
+      "creator": "Khmer Master Artisan",
+      "date": "late 7th–early 8th century",
+      "culture": "Cambodia (Pre-Angkorian period, Prasat Andet style)",
+      "medium": "Sandstone",
+      "dimensions": "H. 36 in. (91.4 cm)",
+      "classification": "Sculpture",
+      "categories": [
+        "temples",
+        "khmer_art",
+        "archaeology"
+      ],
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/38195",
+      "relevanceScore": 100,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia",
+        "prasat"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "CC0-1.0 (Public Domain)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Harihara\", Khmer Master Artisan, late 7th–early 8th century, The Metropolitan Museum of Art, ID: 38195, (CC0-1.0 (Public Domain))",
+      "media": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP152885.jpg",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 2700,
+          "height": 3800,
+          "isSizeKnown": false,
+          "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+          "estimatedOriginalBytes": 12500000,
+          "estimatedOptimizedBytes": 680000
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.115Z"
+    },
+    {
+      "sourceId": "met_museum_open_access",
+      "sourceName": "The Metropolitan Museum of Art",
+      "sourceItemId": "38202",
+      "title": "Uma (Parvati)",
+      "creator": "Khmer Master Artisan",
+      "date": "11th century",
+      "culture": "Cambodia (Angkor period, Baphuon style)",
+      "medium": "Sandstone",
+      "dimensions": "H. 28 3/4 in. (73 cm)",
+      "classification": "Sculpture",
+      "categories": [
+        "arts",
+        "khmer_art",
+        "archaeology"
+      ],
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/38202",
+      "relevanceScore": 100,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia",
+        "baphuon"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "CC0-1.0 (Public Domain)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Uma (Parvati)\", Khmer Master Artisan, 11th century, The Metropolitan Museum of Art, ID: 38202, (CC0-1.0 (Public Domain))",
+      "media": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP152892.jpg",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 2600,
+          "height": 3700,
+          "isSizeKnown": false,
+          "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+          "estimatedOriginalBytes": 12500000,
+          "estimatedOptimizedBytes": 680000
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.115Z"
+    },
+    {
+      "sourceId": "met_museum_open_access",
+      "sourceName": "The Metropolitan Museum of Art",
+      "sourceItemId": "38210",
+      "title": "Shiva as Uma-Maheshvara",
+      "creator": "Khmer Master Artisan",
+      "date": "second half of the 10th century",
+      "culture": "Cambodia (Angkor period, Banteay Srei style)",
+      "medium": "Sandstone",
+      "dimensions": "H. 15 1/2 in. (39.4 cm)",
+      "classification": "Sculpture",
+      "categories": [
+        "arts",
+        "khmer_art",
+        "archaeology"
+      ],
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/38210",
+      "relevanceScore": 100,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia",
+        "banteay srei"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "CC0-1.0 (Public Domain)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Shiva as Uma-Maheshvara\", Khmer Master Artisan, second half of the 10th century, The Metropolitan Museum of Art, ID: 38210, (CC0-1.0 (Public Domain))",
+      "media": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP152898.jpg",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 2500,
+          "height": 3200,
+          "isSizeKnown": false,
+          "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+          "estimatedOriginalBytes": 12500000,
+          "estimatedOptimizedBytes": 680000
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.116Z"
+    },
+    {
+      "sourceId": "met_museum_open_access",
+      "sourceName": "The Metropolitan Museum of Art",
+      "sourceItemId": "38218",
+      "title": "Garuda Finial for a Chariot or Palanquin",
+      "creator": "Khmer Master Artisan",
+      "date": "12th century",
+      "culture": "Cambodia (Angkor period, Angkor Wat style)",
+      "medium": "Bronze with gilt traces",
+      "dimensions": "H. 14 in. (35.6 cm)",
+      "classification": "Metalwork",
+      "categories": [
+        "temples",
+        "khmer_art",
+        "archaeology"
+      ],
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/38218",
+      "relevanceScore": 80,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "CC0-1.0 (Public Domain)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Garuda Finial for a Chariot or Palanquin\", Khmer Master Artisan, 12th century, The Metropolitan Museum of Art, ID: 38218, (CC0-1.0 (Public Domain))",
+      "media": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP152904.jpg",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 3000,
+          "height": 3000,
+          "isSizeKnown": false,
+          "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+          "estimatedOriginalBytes": 12500000,
+          "estimatedOptimizedBytes": 680000
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.116Z"
+    },
+    {
+      "sourceId": "met_museum_open_access",
+      "sourceName": "The Metropolitan Museum of Art",
+      "sourceItemId": "38225",
+      "title": "Conch (Shankha) with Hevajra Motif",
+      "creator": "Khmer Master Artisan",
+      "date": "late 12th–early 13th century",
+      "culture": "Cambodia (Angkor period, Bayon style)",
+      "medium": "Bronze",
+      "dimensions": "L. 10 1/4 in. (26 cm)",
+      "classification": "Metalwork",
+      "categories": [
+        "temples",
+        "khmer_art",
+        "archaeology"
+      ],
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/38225",
+      "relevanceScore": 100,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia",
+        "bayon"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "CC0-1.0 (Public Domain)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Conch (Shankha) with Hevajra Motif\", Khmer Master Artisan, late 12th–early 13th century, The Metropolitan Museum of Art, ID: 38225, (CC0-1.0 (Public Domain))",
+      "media": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP152912.jpg",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 3100,
+          "height": 2500,
+          "isSizeKnown": false,
+          "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+          "estimatedOriginalBytes": 12500000,
+          "estimatedOptimizedBytes": 680000
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.116Z"
+    },
+    {
+      "sourceId": "met_museum_open_access",
+      "sourceName": "The Metropolitan Museum of Art",
+      "sourceItemId": "38230",
+      "title": "Standing Four-Armed Shiva",
+      "creator": "Khmer Master Artisan",
+      "date": "first half of the 7th century",
+      "culture": "Cambodia (Pre-Angkorian period, Sambor Prei Kuk style)",
+      "medium": "Stone",
+      "dimensions": "H. 48 in. (121.9 cm)",
+      "classification": "Sculpture",
+      "categories": [
+        "arts",
+        "khmer_art",
+        "archaeology"
+      ],
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/38230",
+      "relevanceScore": 100,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia",
+        "sambor prei kuk"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "CC0-1.0 (Public Domain)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Standing Four-Armed Shiva\", Khmer Master Artisan, first half of the 7th century, The Metropolitan Museum of Art, ID: 38230, (CC0-1.0 (Public Domain))",
+      "media": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP152920.jpg",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 2800,
+          "height": 4100,
+          "isSizeKnown": false,
+          "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+          "estimatedOriginalBytes": 12500000,
+          "estimatedOptimizedBytes": 680000
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.116Z"
+    },
+    {
+      "sourceId": "met_museum_open_access",
+      "sourceName": "The Metropolitan Museum of Art",
+      "sourceItemId": "38242",
+      "title": "Bell with Nandi Finial",
+      "creator": "Khmer Master Artisan",
+      "date": "11th–12th century",
+      "culture": "Cambodia (Angkor period)",
+      "medium": "Bronze",
+      "dimensions": "H. 7 3/4 in. (19.7 cm)",
+      "classification": "Metalwork",
+      "categories": [
+        "history",
+        "khmer_art",
+        "archaeology"
+      ],
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/38242",
+      "relevanceScore": 80,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "CC0-1.0 (Public Domain)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Bell with Nandi Finial\", Khmer Master Artisan, 11th–12th century, The Metropolitan Museum of Art, ID: 38242, (CC0-1.0 (Public Domain))",
+      "media": [
+        {
+          "url": "https://images.metmuseum.org/CRDImages/as/original/DP152932.jpg",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 2400,
+          "height": 2900,
+          "isSizeKnown": false,
+          "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+          "estimatedOriginalBytes": 12500000,
+          "estimatedOptimizedBytes": 680000
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.116Z"
     }
   ]
 }

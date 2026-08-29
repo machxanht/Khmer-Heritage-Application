@@ -1,0 +1,691 @@
+{
+  "timestamp": "2026-08-29T11:11:48.161Z",
+  "discoveryVersion": "KH-016-v1.0",
+  "institutions": {
+    "national_museum_cambodia": {
+      "sourceId": "national_museum_cambodia",
+      "sourceName": "National Museum of Cambodia (MCFA)",
+      "paginationInfo": {
+        "totalPagesChecked": 1,
+        "totalRecordsExamined": 3,
+        "hasMore": false
+      },
+      "recordsExamined": 3,
+      "khmerRelevantRecords": 3,
+      "recordsAccepted": 0,
+      "recordsRejected": 0,
+      "recordsQuarantined": 3,
+      "recordsUnknownLicense": 0,
+      "itemsWithMedia": 3,
+      "itemsWithoutMedia": 0,
+      "mediaTypeCounts": {
+        "images": 3,
+        "audio": 0,
+        "video": 0,
+        "documents": 0,
+        "other": 0
+      },
+      "knownMediaSizeBytes": 45400000,
+      "estimatedMediaSizeBytes": 45400000,
+      "estimatedOptimizedMediaSizeBytes": 2595769,
+      "licenseDistribution": {
+        "All Rights Reserved": 3
+      },
+      "rejectionReasons": {},
+      "records": [
+        {
+          "sourceId": "national_museum_cambodia",
+          "sourceName": "National Museum of Cambodia (MCFA)",
+          "sourceItemId": "nmc-acc-ka-1823",
+          "title": "Statue of Jayavarman VII in Meditation Pose (Preah Khan of Kampong Svay)",
+          "creator": "Royal Sculptors of Angkor (Angkor Thom Workshops)",
+          "date": "late 12th century (Bayon Period)",
+          "description": "Masterpiece sandstone sculpture portraying King Jayavarman VII in the serene meditation posture of a Dharmaraja (Bodhisattva of Compassion). Accession: KA.1823.",
+          "categories": [
+            "sculpture_carving"
+          ],
+          "culture": "Cambodia (Khmer Heritage)",
+          "originalUrl": "http://cambodiamuseum.gov.kh/collections/sculpture/ka1823",
+          "relevanceScore": 150,
+          "relevanceKeywords": [
+            "angkor",
+            "cambodia",
+            "cambodian",
+            "preah",
+            "jayavarman",
+            "preah khan"
+          ],
+          "isKhmerRelevant": true,
+          "rawLicense": "National Museum of Cambodia / Department of Museums, MCFA (All Rights Reserved)",
+          "licenseClassification": "QUARANTINE",
+          "licenseTier": "unsupported_quarantine",
+          "isCommercialAllowed": false,
+          "isPublicDomain": false,
+          "quarantineOrRejectionReason": "All Rights Reserved / In Copyright requires specific institutional review",
+          "attribution": "\"Statue of Jayavarman VII in Meditation Pose (Preah Khan of Kampong Svay)\", Royal Sculptors of Angkor (Angkor Thom Workshops), late 12th century (Bayon Period), National Museum of Cambodia (MCFA), ID: nmc-acc-ka-1823, (All Rights Reserved)",
+          "media": [
+            {
+              "url": "http://cambodiamuseum.gov.kh/images/collections/ka1823.jpg",
+              "mimeType": "image/jpeg",
+              "mediaType": "images",
+              "width": 3200,
+              "height": 4400,
+              "originalSizeBytes": 15200000,
+              "isSizeKnown": true,
+              "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+              "estimatedOriginalBytes": 15200000,
+              "estimatedOptimizedBytes": 869068
+            }
+          ],
+          "hasMedia": true,
+          "discoveredAt": "2026-08-29T11:11:48.131Z"
+        },
+        {
+          "sourceId": "national_museum_cambodia",
+          "sourceName": "National Museum of Cambodia (MCFA)",
+          "sourceItemId": "nmc-acc-kb-0412",
+          "title": "Bronze Reclining Vishnu of the West Mebon Sanctuary",
+          "creator": "Angkorian Bronze Casters (Baphuon/Angkor Wat Period)",
+          "date": "mid-11th century",
+          "description": "Monumental bronze sculpture fragment of the multi-armed Cosmic Vishnu resting on the primordial serpent Shesha, salvaged from the island sanctuary of West Mebon.",
+          "categories": [
+            "sculpture_carving"
+          ],
+          "culture": "Cambodia (Khmer Heritage)",
+          "originalUrl": "http://cambodiamuseum.gov.kh/collections/bronzes/kb0412",
+          "relevanceScore": 110,
+          "relevanceKeywords": [
+            "angkor",
+            "cambodia",
+            "cambodian",
+            "baphuon"
+          ],
+          "isKhmerRelevant": true,
+          "rawLicense": "All Rights Reserved / Department of Museums, MCFA",
+          "licenseClassification": "QUARANTINE",
+          "licenseTier": "unsupported_quarantine",
+          "isCommercialAllowed": false,
+          "isPublicDomain": false,
+          "quarantineOrRejectionReason": "All Rights Reserved / In Copyright requires specific institutional review",
+          "attribution": "\"Bronze Reclining Vishnu of the West Mebon Sanctuary\", Angkorian Bronze Casters (Baphuon/Angkor Wat Period), mid-11th century, National Museum of Cambodia (MCFA), ID: nmc-acc-kb-0412, (All Rights Reserved)",
+          "media": [
+            {
+              "url": "http://cambodiamuseum.gov.kh/images/collections/kb0412.jpg",
+              "mimeType": "image/jpeg",
+              "mediaType": "images",
+              "width": 4800,
+              "height": 3600,
+              "originalSizeBytes": 18800000,
+              "isSizeKnown": true,
+              "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+              "estimatedOriginalBytes": 18800000,
+              "estimatedOptimizedBytes": 1074900
+            }
+          ],
+          "hasMedia": true,
+          "discoveredAt": "2026-08-29T11:11:48.131Z"
+        },
+        {
+          "sourceId": "national_museum_cambodia",
+          "sourceName": "National Museum of Cambodia (MCFA)",
+          "sourceItemId": "nmc-acc-kc-0891",
+          "title": "Bust of Shiva / Uma (Sambor Prei Kuk Style)",
+          "creator": "Chenla Artists",
+          "date": "7th century",
+          "description": "Pre-Angkorian masterwork carved in fine-grained sandstone with naturalistic facial modeling and ascetic jatamukuta hairstyle.",
+          "categories": [
+            "sculpture_carving"
+          ],
+          "culture": "Cambodia (Khmer Heritage)",
+          "originalUrl": "http://cambodiamuseum.gov.kh/collections/sculpture/kc0891",
+          "relevanceScore": 130,
+          "relevanceKeywords": [
+            "angkor",
+            "cambodia",
+            "cambodian",
+            "sambor prei kuk",
+            "chenla"
+          ],
+          "isKhmerRelevant": true,
+          "rawLicense": "All Rights Reserved",
+          "licenseClassification": "QUARANTINE",
+          "licenseTier": "unsupported_quarantine",
+          "isCommercialAllowed": false,
+          "isPublicDomain": false,
+          "quarantineOrRejectionReason": "All Rights Reserved / In Copyright requires specific institutional review",
+          "attribution": "\"Bust of Shiva / Uma (Sambor Prei Kuk Style)\", Chenla Artists, 7th century, National Museum of Cambodia (MCFA), ID: nmc-acc-kc-0891, (All Rights Reserved)",
+          "media": [
+            {
+              "url": "http://cambodiamuseum.gov.kh/images/collections/kc0891.jpg",
+              "mimeType": "image/jpeg",
+              "mediaType": "images",
+              "width": 2900,
+              "height": 3800,
+              "originalSizeBytes": 11400000,
+              "isSizeKnown": true,
+              "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+              "estimatedOriginalBytes": 11400000,
+              "estimatedOptimizedBytes": 651801
+            }
+          ],
+          "hasMedia": true,
+          "discoveredAt": "2026-08-29T11:11:48.131Z"
+        }
+      ]
+    },
+    "apsara_authority": {
+      "sourceId": "apsara_authority",
+      "sourceName": "APSARA National Authority",
+      "paginationInfo": {
+        "totalPagesChecked": 1,
+        "totalRecordsExamined": 2,
+        "hasMore": false
+      },
+      "recordsExamined": 2,
+      "khmerRelevantRecords": 2,
+      "recordsAccepted": 0,
+      "recordsRejected": 0,
+      "recordsQuarantined": 2,
+      "recordsUnknownLicense": 0,
+      "itemsWithMedia": 2,
+      "itemsWithoutMedia": 0,
+      "mediaTypeCounts": {
+        "images": 0,
+        "audio": 0,
+        "video": 0,
+        "documents": 2,
+        "other": 0
+      },
+      "knownMediaSizeBytes": 90500000,
+      "estimatedMediaSizeBytes": 90500000,
+      "estimatedOptimizedMediaSizeBytes": 50277778,
+      "licenseDistribution": {
+        "All Rights Reserved": 2
+      },
+      "rejectionReasons": {},
+      "records": [
+        {
+          "sourceId": "apsara_authority",
+          "sourceName": "APSARA National Authority",
+          "sourceItemId": "apsara-mon-001",
+          "title": "Angkor Archaeological Park: Heritage Zoning, Hydraulic Master Plan, and Monument Registry",
+          "creator": "Department of Conservation of Monuments and Preventive Archaeology, APSARA",
+          "date": "2022",
+          "description": "Official master inventory and spatial GIS cadastral mapping of 1,200 archaeological features across Zones 1 and 2 in the Angkor World Heritage Site.",
+          "categories": [
+            "monument_temple"
+          ],
+          "culture": "Cambodia (Khmer Heritage)",
+          "originalUrl": "https://apsaraauthority.gov.kh/conservation/zoning-registry",
+          "relevanceScore": 110,
+          "relevanceKeywords": [
+            "angkor",
+            "cambodia",
+            "cambodian",
+            "apsara"
+          ],
+          "isKhmerRelevant": true,
+          "rawLicense": "APSARA National Authority, Royal Government of Cambodia (All Rights Reserved)",
+          "licenseClassification": "QUARANTINE",
+          "licenseTier": "unsupported_quarantine",
+          "isCommercialAllowed": false,
+          "isPublicDomain": false,
+          "quarantineOrRejectionReason": "All Rights Reserved / In Copyright requires specific institutional review",
+          "attribution": "\"Angkor Archaeological Park: Heritage Zoning, Hydraulic Master Plan, and Monument Registry\", Department of Conservation of Monuments and Preventive Archaeology, APSARA, 2022, APSARA National Authority, ID: apsara-mon-001, (All Rights Reserved)",
+          "media": [
+            {
+              "url": "https://apsaraauthority.gov.kh/reports/angkor_cadastral_gis_2022.pdf",
+              "mimeType": "application/pdf",
+              "mediaType": "documents",
+              "originalSizeBytes": 52000000,
+              "isSizeKnown": true,
+              "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+              "estimatedOriginalBytes": 52000000,
+              "estimatedOptimizedBytes": 28888889
+            }
+          ],
+          "hasMedia": true,
+          "discoveredAt": "2026-08-29T11:11:48.133Z"
+        },
+        {
+          "sourceId": "apsara_authority",
+          "sourceName": "APSARA National Authority",
+          "sourceItemId": "apsara-cons-042",
+          "title": "Technical Report: Consolidation and Stone Restoration of the Central Tower of the Bayon Temple",
+          "creator": "APSARA Stone Conservation Unit in collaboration with JASA",
+          "date": "2023",
+          "description": "Detailed structural petrographic analysis, desalting treatments, and mortar stabilization protocols applied to the smiling face towers of the Bayon.",
+          "categories": [
+            "monument_temple"
+          ],
+          "culture": "Cambodia (Khmer Heritage)",
+          "originalUrl": "https://apsaraauthority.gov.kh/reports/bayon_restoration_2023",
+          "relevanceScore": 80,
+          "relevanceKeywords": [
+            "cambodia",
+            "cambodian",
+            "bayon",
+            "apsara"
+          ],
+          "isKhmerRelevant": true,
+          "rawLicense": "APSARA National Authority (All Rights Reserved)",
+          "licenseClassification": "QUARANTINE",
+          "licenseTier": "unsupported_quarantine",
+          "isCommercialAllowed": false,
+          "isPublicDomain": false,
+          "quarantineOrRejectionReason": "All Rights Reserved / In Copyright requires specific institutional review",
+          "attribution": "\"Technical Report: Consolidation and Stone Restoration of the Central Tower of the Bayon Temple\", APSARA Stone Conservation Unit in collaboration with JASA, 2023, APSARA National Authority, ID: apsara-cons-042, (All Rights Reserved)",
+          "media": [
+            {
+              "url": "https://apsaraauthority.gov.kh/reports/bayon_consolidation_2023.pdf",
+              "mimeType": "application/pdf",
+              "mediaType": "documents",
+              "originalSizeBytes": 38500000,
+              "isSizeKnown": true,
+              "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+              "estimatedOriginalBytes": 38500000,
+              "estimatedOptimizedBytes": 21388889
+            }
+          ],
+          "hasMedia": true,
+          "discoveredAt": "2026-08-29T11:11:48.133Z"
+        }
+      ]
+    },
+    "efeo": {
+      "sourceId": "efeo",
+      "sourceName": "École française d'Extrême-Orient (EFEO)",
+      "apiUrl": "https://www.persee.fr/oai",
+      "paginationInfo": {
+        "totalPagesChecked": 1,
+        "totalRecordsExamined": 2,
+        "hasMore": false
+      },
+      "recordsExamined": 2,
+      "khmerRelevantRecords": 2,
+      "recordsAccepted": 0,
+      "recordsRejected": 0,
+      "recordsQuarantined": 0,
+      "recordsUnknownLicense": 2,
+      "itemsWithMedia": 2,
+      "itemsWithoutMedia": 0,
+      "mediaTypeCounts": {
+        "images": 2,
+        "audio": 0,
+        "video": 0,
+        "documents": 0,
+        "other": 0
+      },
+      "knownMediaSizeBytes": 40000000,
+      "estimatedMediaSizeBytes": 40000000,
+      "estimatedOptimizedMediaSizeBytes": 2287021,
+      "licenseDistribution": {
+        "EFEO (Institutional Agreement / Droits réservés)": 1,
+        "Droits photographiques réservés EFEO": 1
+      },
+      "rejectionReasons": {},
+      "records": [
+        {
+          "sourceId": "efeo",
+          "sourceName": "École française d'Extrême-Orient (EFEO)",
+          "sourceItemId": "efeo-epig-k908",
+          "title": "Inscription K. 908 : Stèle de fondation du Prah Khan d'Angkor",
+          "creator": "EFEO Epigraphy Department / George Cœdès",
+          "date": "1939",
+          "description": "Sanskrit inscription comprising 179 stanzas recording the geneology of King Jayavarman VII and the consecration of the temple-city of Jayasri.",
+          "categories": [
+            "manuscript_epigraphy"
+          ],
+          "culture": "Cambodia (Khmer Heritage)",
+          "originalUrl": "https://www.efeo.fr/epigraphie_khmere_k908",
+          "relevanceScore": 110,
+          "relevanceKeywords": [
+            "angkor",
+            "cambodia",
+            "cambodian",
+            "jayavarman"
+          ],
+          "isKhmerRelevant": true,
+          "rawLicense": "EFEO (Institutional Agreement / Droits réservés)",
+          "licenseClassification": "UNKNOWN",
+          "licenseTier": "unknown",
+          "isCommercialAllowed": false,
+          "isPublicDomain": false,
+          "quarantineOrRejectionReason": "Unverified licensing text: \"EFEO (Institutional Agreement / Droits réservés)\"",
+          "attribution": "\"Inscription K. 908 : Stèle de fondation du Prah Khan d'Angkor\", EFEO Epigraphy Department / George Cœdès, 1939, École française d'Extrême-Orient (EFEO), ID: efeo-epig-k908, (EFEO (Institutional Agreement / Droits réservés))",
+          "media": [
+            {
+              "url": "https://collection.efeo.fr/rubbings/k908.tif",
+              "mimeType": "image/tiff",
+              "mediaType": "images",
+              "width": 6000,
+              "height": 4500,
+              "originalSizeBytes": 26000000,
+              "isSizeKnown": true,
+              "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+              "estimatedOriginalBytes": 26000000,
+              "estimatedOptimizedBytes": 1486564
+            }
+          ],
+          "hasMedia": true,
+          "discoveredAt": "2026-08-29T11:11:48.134Z"
+        },
+        {
+          "sourceId": "efeo",
+          "sourceName": "École française d'Extrême-Orient (EFEO)",
+          "sourceItemId": "efeo-photo-angkor-0182",
+          "title": "EFEO Photographic Archives: Reconstruction of the Gopura of Banteay Srei by Anastylosis",
+          "creator": "Henri Marchal",
+          "date": "1931",
+          "description": "Primary negative from the EFEO historical photo library documenting stone-by-stone numbering and re-erection of the eastern gopura.",
+          "categories": [
+            "manuscript_epigraphy"
+          ],
+          "culture": "Cambodia (Khmer Heritage)",
+          "originalUrl": "https://collection.efeo.fr/photos/angkor0182",
+          "relevanceScore": 60,
+          "relevanceKeywords": [
+            "cambodia",
+            "cambodian",
+            "banteay srei"
+          ],
+          "isKhmerRelevant": true,
+          "rawLicense": "Droits photographiques réservés EFEO",
+          "licenseClassification": "UNKNOWN",
+          "licenseTier": "unknown",
+          "isCommercialAllowed": false,
+          "isPublicDomain": false,
+          "quarantineOrRejectionReason": "Unverified licensing text: \"Droits photographiques réservés EFEO\"",
+          "attribution": "\"EFEO Photographic Archives: Reconstruction of the Gopura of Banteay Srei by Anastylosis\", Henri Marchal, 1931, École française d'Extrême-Orient (EFEO), ID: efeo-photo-angkor-0182, (Droits photographiques réservés EFEO)",
+          "media": [
+            {
+              "url": "https://collection.efeo.fr/photos/angkor0182.jpg",
+              "mimeType": "image/jpeg",
+              "mediaType": "images",
+              "width": 4200,
+              "height": 3200,
+              "originalSizeBytes": 14000000,
+              "isSizeKnown": true,
+              "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+              "estimatedOriginalBytes": 14000000,
+              "estimatedOptimizedBytes": 800457
+            }
+          ],
+          "hasMedia": true,
+          "discoveredAt": "2026-08-29T11:11:48.134Z"
+        }
+      ]
+    },
+    "center_for_khmer_studies": {
+      "sourceId": "center_for_khmer_studies",
+      "sourceName": "Center for Khmer Studies (CKS)",
+      "paginationInfo": {
+        "totalPagesChecked": 1,
+        "totalRecordsExamined": 1,
+        "hasMore": false
+      },
+      "recordsExamined": 1,
+      "khmerRelevantRecords": 1,
+      "recordsAccepted": 0,
+      "recordsRejected": 0,
+      "recordsQuarantined": 1,
+      "recordsUnknownLicense": 0,
+      "itemsWithMedia": 1,
+      "itemsWithoutMedia": 0,
+      "mediaTypeCounts": {
+        "images": 0,
+        "audio": 0,
+        "video": 0,
+        "documents": 1,
+        "other": 0
+      },
+      "knownMediaSizeBytes": 44000000,
+      "estimatedMediaSizeBytes": 44000000,
+      "estimatedOptimizedMediaSizeBytes": 24444444,
+      "licenseDistribution": {
+        "Center for Khmer Studies (Non-commercial research access)": 1
+      },
+      "rejectionReasons": {},
+      "records": [
+        {
+          "sourceId": "center_for_khmer_studies",
+          "sourceName": "Center for Khmer Studies (CKS)",
+          "sourceItemId": "cks-siksacakr-vol-14",
+          "title": "Siksācakr: The Journal of Cambodia Research (Special Issue on Angkorian Hydrology and Water Management)",
+          "creator": "Center for Khmer Studies Research Fellows",
+          "date": "2016",
+          "description": "Peer-reviewed scholarly papers examining LiDAR airborne laser mapping of Angkor's medieval hydraulic networks, spillways, and canals.",
+          "categories": [
+            "scholarly_research"
+          ],
+          "culture": "Cambodia (Khmer Heritage)",
+          "originalUrl": "https://khmerstudies.org/publications/siksacakr/vol-14",
+          "relevanceScore": 110,
+          "relevanceKeywords": [
+            "khmer",
+            "angkor",
+            "cambodia",
+            "cambodian"
+          ],
+          "isKhmerRelevant": true,
+          "rawLicense": "Center for Khmer Studies (Non-commercial research access)",
+          "licenseClassification": "QUARANTINE",
+          "licenseTier": "unsupported_quarantine",
+          "isCommercialAllowed": false,
+          "isPublicDomain": false,
+          "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+          "attribution": "\"Siksācakr: The Journal of Cambodia Research (Special Issue on Angkorian Hydrology and Water Management)\", Center for Khmer Studies Research Fellows, 2016, Center for Khmer Studies (CKS), ID: cks-siksacakr-vol-14, (Center for Khmer Studies (Non-commercial research access))",
+          "media": [
+            {
+              "url": "https://khmerstudies.org/publications/siksacakr/vol-14.pdf",
+              "mimeType": "application/pdf",
+              "mediaType": "documents",
+              "originalSizeBytes": 44000000,
+              "isSizeKnown": true,
+              "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+              "estimatedOriginalBytes": 44000000,
+              "estimatedOptimizedBytes": 24444444
+            }
+          ],
+          "hasMedia": true,
+          "discoveredAt": "2026-08-29T11:11:48.137Z"
+        }
+      ]
+    },
+    "buddhist_institute_cambodia": {
+      "sourceId": "buddhist_institute_cambodia",
+      "sourceName": "Buddhist Institute of Cambodia (Institut Bouddhique)",
+      "paginationInfo": {
+        "totalPagesChecked": 1,
+        "totalRecordsExamined": 2,
+        "hasMore": false
+      },
+      "recordsExamined": 2,
+      "khmerRelevantRecords": 2,
+      "recordsAccepted": 0,
+      "recordsRejected": 0,
+      "recordsQuarantined": 1,
+      "recordsUnknownLicense": 1,
+      "itemsWithMedia": 2,
+      "itemsWithoutMedia": 0,
+      "mediaTypeCounts": {
+        "images": 0,
+        "audio": 0,
+        "video": 0,
+        "documents": 2,
+        "other": 0
+      },
+      "knownMediaSizeBytes": 126000000,
+      "estimatedMediaSizeBytes": 126000000,
+      "estimatedOptimizedMediaSizeBytes": 70000000,
+      "licenseDistribution": {
+        "All Rights Reserved": 1,
+        "Buddhist Institute of Cambodia (Droits réservés)": 1
+      },
+      "rejectionReasons": {},
+      "records": [
+        {
+          "sourceId": "buddhist_institute_cambodia",
+          "sourceName": "Buddhist Institute of Cambodia (Institut Bouddhique)",
+          "sourceItemId": "budinst-tripitaka-vol-01",
+          "title": "Preah Trai Pitak Khmer (Khmer Buddhist Canon): Vinaya Pitaka, Suttavibhanga Vol. 1",
+          "creator": "Tripitaka Commission / Samdech Preah Sangha Raja Chuon Nath",
+          "date": "1961",
+          "description": "Bilingual Pali-Khmer edition of the Theravada Buddhist monastic discipline rules, transcribed and standardized into Khmer script.",
+          "categories": [
+            "manuscript_epigraphy"
+          ],
+          "culture": "Cambodia (Khmer Heritage)",
+          "originalUrl": "http://www.budinst.gov.kh/tripitaka/vol01",
+          "relevanceScore": 110,
+          "relevanceKeywords": [
+            "khmer",
+            "cambodia",
+            "cambodian",
+            "preah"
+          ],
+          "isKhmerRelevant": true,
+          "rawLicense": "Buddhist Institute of Cambodia (All Rights Reserved / Institutional Agreement)",
+          "licenseClassification": "QUARANTINE",
+          "licenseTier": "unsupported_quarantine",
+          "isCommercialAllowed": false,
+          "isPublicDomain": false,
+          "quarantineOrRejectionReason": "All Rights Reserved / In Copyright requires specific institutional review",
+          "attribution": "\"Preah Trai Pitak Khmer (Khmer Buddhist Canon): Vinaya Pitaka, Suttavibhanga Vol. 1\", Tripitaka Commission / Samdech Preah Sangha Raja Chuon Nath, 1961, Buddhist Institute of Cambodia (Institut Bouddhique), ID: budinst-tripitaka-vol-01, (All Rights Reserved)",
+          "media": [
+            {
+              "url": "http://www.budinst.gov.kh/publications/tripitaka_vol01.pdf",
+              "mimeType": "application/pdf",
+              "mediaType": "documents",
+              "originalSizeBytes": 68000000,
+              "isSizeKnown": true,
+              "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+              "estimatedOriginalBytes": 68000000,
+              "estimatedOptimizedBytes": 37777778
+            }
+          ],
+          "hasMedia": true,
+          "discoveredAt": "2026-08-29T11:11:48.139Z"
+        },
+        {
+          "sourceId": "buddhist_institute_cambodia",
+          "sourceName": "Buddhist Institute of Cambodia (Institut Bouddhique)",
+          "sourceItemId": "budinst-kambujasuriya-1935",
+          "title": "Kambuja Suriya Revue: Collection of Cambodian Legends and Folk Tales",
+          "creator": "Institut Bouddhique Phnom Penh",
+          "date": "1935",
+          "description": "Historic monthly review preserving classical Khmer folklore, moral tales (Chbab), proverbs, and Buddhist poetry.",
+          "categories": [
+            "manuscript_epigraphy"
+          ],
+          "culture": "Cambodia (Khmer Heritage)",
+          "originalUrl": "http://www.budinst.gov.kh/kambujasuriya/1935",
+          "relevanceScore": 90,
+          "relevanceKeywords": [
+            "khmer",
+            "cambodia",
+            "cambodian"
+          ],
+          "isKhmerRelevant": true,
+          "rawLicense": "Buddhist Institute of Cambodia (Droits réservés)",
+          "licenseClassification": "UNKNOWN",
+          "licenseTier": "unknown",
+          "isCommercialAllowed": false,
+          "isPublicDomain": false,
+          "quarantineOrRejectionReason": "Unverified licensing text: \"Buddhist Institute of Cambodia (Droits réservés)\"",
+          "attribution": "\"Kambuja Suriya Revue: Collection of Cambodian Legends and Folk Tales\", Institut Bouddhique Phnom Penh, 1935, Buddhist Institute of Cambodia (Institut Bouddhique), ID: budinst-kambujasuriya-1935, (Buddhist Institute of Cambodia (Droits réservés))",
+          "media": [
+            {
+              "url": "http://www.budinst.gov.kh/kambujasuriya/1935_complete.pdf",
+              "mimeType": "application/pdf",
+              "mediaType": "documents",
+              "originalSizeBytes": 58000000,
+              "isSizeKnown": true,
+              "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+              "estimatedOriginalBytes": 58000000,
+              "estimatedOptimizedBytes": 32222222
+            }
+          ],
+          "hasMedia": true,
+          "discoveredAt": "2026-08-29T11:11:48.139Z"
+        }
+      ]
+    },
+    "mcfa_cambodia": {
+      "sourceId": "mcfa_cambodia",
+      "sourceName": "Ministry of Culture and Fine Arts, Cambodia",
+      "paginationInfo": {
+        "totalPagesChecked": 1,
+        "totalRecordsExamined": 1,
+        "hasMore": false
+      },
+      "recordsExamined": 1,
+      "khmerRelevantRecords": 1,
+      "recordsAccepted": 0,
+      "recordsRejected": 0,
+      "recordsQuarantined": 1,
+      "recordsUnknownLicense": 0,
+      "itemsWithMedia": 1,
+      "itemsWithoutMedia": 0,
+      "mediaTypeCounts": {
+        "images": 0,
+        "audio": 0,
+        "video": 0,
+        "documents": 1,
+        "other": 0
+      },
+      "knownMediaSizeBytes": 42000000,
+      "estimatedMediaSizeBytes": 42000000,
+      "estimatedOptimizedMediaSizeBytes": 23333333,
+      "licenseDistribution": {
+        "Ministry of Culture and Fine Arts, Kingdom of Cambodia (All Rights Reserved)": 1
+      },
+      "rejectionReasons": {},
+      "records": [
+        {
+          "sourceId": "mcfa_cambodia",
+          "sourceName": "Ministry of Culture and Fine Arts, Cambodia",
+          "sourceItemId": "mcfa-ich-registry-2023",
+          "title": "National Inventory of Intangible Cultural Heritage of the Kingdom of Cambodia",
+          "creator": "Department of Cultural Heritage, Ministry of Culture and Fine Arts",
+          "date": "2023",
+          "description": "Official national inventory covering Royal Ballet of Cambodia (Robam Preah Reach Trop), Sbek Thom Shadow Theater, Chapei Dang Veng, Kun Lbokator Martial Arts, and Tug-of-War (Teanh Prot).",
+          "categories": [
+            "intangible_heritage"
+          ],
+          "culture": "Cambodia (Khmer Heritage)",
+          "originalUrl": "https://www.mcfa.gov.kh/heritage/intangible-inventory-2023",
+          "relevanceScore": 80,
+          "relevanceKeywords": [
+            "cambodia",
+            "cambodian",
+            "chapei",
+            "preah"
+          ],
+          "isKhmerRelevant": true,
+          "rawLicense": "Ministry of Culture and Fine Arts, Kingdom of Cambodia (All Rights Reserved)",
+          "licenseClassification": "QUARANTINE",
+          "licenseTier": "unsupported_quarantine",
+          "isCommercialAllowed": false,
+          "isPublicDomain": false,
+          "quarantineOrRejectionReason": "No-Derivatives (ND) restriction prevents responsive CDN variant generation",
+          "attribution": "\"National Inventory of Intangible Cultural Heritage of the Kingdom of Cambodia\", Department of Cultural Heritage, Ministry of Culture and Fine Arts, 2023, Ministry of Culture and Fine Arts, Cambodia, ID: mcfa-ich-registry-2023, (Ministry of Culture and Fine Arts, Kingdom of Cambodia (All Rights Reserved))",
+          "media": [
+            {
+              "url": "https://www.mcfa.gov.kh/documents/national_ich_inventory_2023.pdf",
+              "mimeType": "application/pdf",
+              "mediaType": "documents",
+              "originalSizeBytes": 42000000,
+              "isSizeKnown": true,
+              "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+              "estimatedOriginalBytes": 42000000,
+              "estimatedOptimizedBytes": 23333333
+            }
+          ],
+          "hasMedia": true,
+          "discoveredAt": "2026-08-29T11:11:48.140Z"
+        }
+      ]
+    }
+  }
+}

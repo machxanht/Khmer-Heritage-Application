@@ -1,81 +1,189 @@
 {
-  "timestamp": "2026-08-29T10:30:30.417Z",
+  "timestamp": "2026-08-29T11:11:48.161Z",
+  "discoveryVersion": "KH-016-v1.0",
+  "tierBreakdown": {
+    "pilotSources": [
+      "met_museum_open_access",
+      "smithsonian_open_access",
+      "wikimedia_commons"
+    ],
+    "tier1Sources": [
+      "internet_archive",
+      "gallica_bnf",
+      "british_library_eap",
+      "library_of_congress",
+      "persee_befeo"
+    ],
+    "tier2Sources": [
+      "national_museum_cambodia",
+      "apsara_authority",
+      "efeo",
+      "center_for_khmer_studies",
+      "buddhist_institute_cambodia",
+      "mcfa_cambodia"
+    ]
+  },
   "globalTotals": {
-    "recordsExamined": 190,
-    "khmerRelevantRecords": 61,
-    "recordsAccepted": 60,
-    "recordsRejected": 129,
-    "recordsQuarantined": 1,
-    "recordsUnknownLicense": 0,
-    "itemsWithMedia": 60,
+    "recordsExamined": 83,
+    "khmerRelevantRecords": 81,
+    "recordsAccepted": 45,
+    "recordsRejected": 2,
+    "recordsQuarantined": 29,
+    "recordsUnknownLicense": 7,
+    "itemsWithMedia": 78,
     "itemsWithoutMedia": 0,
     "mediaCounts": {
-      "images": 69,
-      "audio": 0,
-      "video": 0,
-      "documents": 0,
+      "images": 51,
+      "audio": 5,
+      "video": 2,
+      "documents": 25,
       "other": 0
     },
-    "knownOriginalBytes": 349572516,
-    "estimatedOriginalBytes": 625072516,
-    "estimatedOptimizedBytes": 34237043,
-    "overallCompressionRatio": 18.26,
-    "averageOptimizedBytesPerAcceptedItem": 570617
+    "knownOriginalBytes": 1850400000,
+    "estimatedOriginalBytes": 2213400000,
+    "estimatedOptimizedBytes": 766073036,
+    "overallCompressionRatio": 2.89,
+    "averageOptimizedBytesPerAcceptedItem": 17023845
+  },
+  "deduplicationSummary": {
+    "totalDiscoveredRecords": 78,
+    "uniqueCanonicalEntities": 71,
+    "duplicateClustersCount": 6,
+    "crossSourceLinkCount": 13,
+    "deduplicationRatio": 1.1
+  },
+  "mediaTypeBreakdown": {
+    "images": {
+      "mediaType": "images",
+      "itemCount": 51,
+      "knownBytes": 220500000,
+      "estimatedOriginalBytes": 716100000,
+      "estimatedOptimizedBytes": 38948679,
+      "avgOriginalBytes": 14041176,
+      "avgOptimizedBytes": 763700,
+      "compressionRatio": 18.39
+    },
+    "audio": {
+      "mediaType": "audio",
+      "itemCount": 5,
+      "knownBytes": 90800000,
+      "estimatedOriginalBytes": 95600000,
+      "estimatedOptimizedBytes": 14707692,
+      "avgOriginalBytes": 19120000,
+      "avgOptimizedBytes": 2941538,
+      "compressionRatio": 6.5
+    },
+    "video": {
+      "mediaType": "video",
+      "itemCount": 2,
+      "knownBytes": 185000000,
+      "estimatedOriginalBytes": 217000000,
+      "estimatedOptimizedBytes": 54250000,
+      "avgOriginalBytes": 108500000,
+      "avgOptimizedBytes": 27125000,
+      "compressionRatio": 4
+    },
+    "documents": {
+      "mediaType": "documents",
+      "itemCount": 25,
+      "knownBytes": 1166300000,
+      "estimatedOriginalBytes": 1184700000,
+      "estimatedOptimizedBytes": 658166665,
+      "avgOriginalBytes": 47388000,
+      "avgOptimizedBytes": 26326667,
+      "compressionRatio": 1.8
+    },
+    "other": {
+      "mediaType": "other",
+      "itemCount": 0,
+      "knownBytes": 0,
+      "estimatedOriginalBytes": 0,
+      "estimatedOptimizedBytes": 0,
+      "avgOriginalBytes": 0,
+      "avgOptimizedBytes": 0,
+      "compressionRatio": 0
+    }
+  },
+  "crawlPolicyDistribution": {
+    "SAFE_FOR_METADATA_DISCOVERY": 4,
+    "SAFE_WITH_RATE_LIMIT": 4,
+    "API_ONLY": 5,
+    "MANUAL_REVIEW_REQUIRED": 7,
+    "NOT_ALLOWED": 0,
+    "UNKNOWN": 0
   },
   "scaleProjections": {
     "scale1KGB": {
       "scaleCount": 1000,
       "label": "1K",
-      "estimatedOriginalGB": 9.7,
-      "estimatedOptimizedGB": 0.53,
-      "savingsPercent": 94.5,
-      "estMonthlyR2USD": 0,
-      "estMonthlyB2USD": 0
+      "estimatedOriginalGB": 45.81,
+      "estimatedOptimizedGB": 15.85,
+      "savingsPercent": 65.4,
+      "estMonthlyR2USD": 0.09,
+      "estMonthlyB2USD": 0.04
     },
     "scale5KGB": {
       "scaleCount": 5000,
       "label": "5K",
-      "estimatedOriginalGB": 48.51,
-      "estimatedOptimizedGB": 2.66,
-      "savingsPercent": 94.5,
-      "estMonthlyR2USD": 0,
-      "estMonthlyB2USD": 0
+      "estimatedOriginalGB": 229.04,
+      "estimatedOptimizedGB": 79.27,
+      "savingsPercent": 65.4,
+      "estMonthlyR2USD": 1.04,
+      "estMonthlyB2USD": 0.42
     },
     "scale10KGB": {
       "scaleCount": 10000,
       "label": "10K",
-      "estimatedOriginalGB": 97.02,
-      "estimatedOptimizedGB": 5.31,
-      "savingsPercent": 94.5,
-      "estMonthlyR2USD": 0,
-      "estMonthlyB2USD": 0
+      "estimatedOriginalGB": 458.09,
+      "estimatedOptimizedGB": 158.55,
+      "savingsPercent": 65.4,
+      "estMonthlyR2USD": 2.23,
+      "estMonthlyB2USD": 0.89
     },
     "scale25KGB": {
       "scaleCount": 25000,
       "label": "25K",
-      "estimatedOriginalGB": 242.56,
-      "estimatedOptimizedGB": 13.29,
-      "savingsPercent": 94.5,
-      "estMonthlyR2USD": 0.05,
-      "estMonthlyB2USD": 0.02
+      "estimatedOriginalGB": 1145.22,
+      "estimatedOptimizedGB": 396.37,
+      "savingsPercent": 65.4,
+      "estMonthlyR2USD": 5.8,
+      "estMonthlyB2USD": 2.32
     },
     "scale50KGB": {
       "scaleCount": 50000,
       "label": "50K",
-      "estimatedOriginalGB": 485.12,
-      "estimatedOptimizedGB": 26.57,
-      "savingsPercent": 94.5,
-      "estMonthlyR2USD": 0.25,
-      "estMonthlyB2USD": 0.1
+      "estimatedOriginalGB": 2290.43,
+      "estimatedOptimizedGB": 792.73,
+      "savingsPercent": 65.4,
+      "estMonthlyR2USD": 11.74,
+      "estMonthlyB2USD": 4.7
     },
     "scale100KGB": {
       "scaleCount": 100000,
       "label": "100K",
-      "estimatedOriginalGB": 970.24,
-      "estimatedOptimizedGB": 53.14,
-      "savingsPercent": 94.5,
-      "estMonthlyR2USD": 0.65,
-      "estMonthlyB2USD": 0.26
+      "estimatedOriginalGB": 4580.87,
+      "estimatedOptimizedGB": 1585.47,
+      "savingsPercent": 65.4,
+      "estMonthlyR2USD": 23.63,
+      "estMonthlyB2USD": 9.45
+    },
+    "scale250KGB": {
+      "scaleCount": 250000,
+      "label": "250K",
+      "estimatedOriginalGB": 11452.16,
+      "estimatedOptimizedGB": 3963.67,
+      "savingsPercent": 65.4,
+      "estMonthlyR2USD": 59.31,
+      "estMonthlyB2USD": 23.72
+    },
+    "scale500KGB": {
+      "scaleCount": 500000,
+      "label": "500K",
+      "estimatedOriginalGB": 22904.33,
+      "estimatedOptimizedGB": 7927.35,
+      "savingsPercent": 65.4,
+      "estMonthlyR2USD": 118.76,
+      "estMonthlyB2USD": 47.5
     }
   },
   "sourceSpecificProjections": {
@@ -83,8 +191,8 @@
       "scale1KGB": {
         "scaleCount": 1000,
         "label": "1K",
-        "estimatedOriginalGB": 81.49,
-        "estimatedOptimizedGB": 4.43,
+        "estimatedOriginalGB": 13.58,
+        "estimatedOptimizedGB": 0.74,
         "savingsPercent": 94.6,
         "estMonthlyR2USD": 0,
         "estMonthlyB2USD": 0
@@ -92,47 +200,65 @@
       "scale5KGB": {
         "scaleCount": 5000,
         "label": "5K",
-        "estimatedOriginalGB": 407.45,
-        "estimatedOptimizedGB": 22.17,
+        "estimatedOriginalGB": 67.91,
+        "estimatedOptimizedGB": 3.69,
         "savingsPercent": 94.6,
-        "estMonthlyR2USD": 0.18,
-        "estMonthlyB2USD": 0.07
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
       },
       "scale10KGB": {
         "scaleCount": 10000,
         "label": "10K",
-        "estimatedOriginalGB": 814.91,
-        "estimatedOptimizedGB": 44.33,
+        "estimatedOriginalGB": 135.82,
+        "estimatedOptimizedGB": 7.39,
         "savingsPercent": 94.6,
-        "estMonthlyR2USD": 0.51,
-        "estMonthlyB2USD": 0.21
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
       },
       "scale25KGB": {
         "scaleCount": 25000,
         "label": "25K",
-        "estimatedOriginalGB": 2037.27,
-        "estimatedOptimizedGB": 110.83,
+        "estimatedOriginalGB": 339.54,
+        "estimatedOptimizedGB": 18.47,
         "savingsPercent": 94.6,
-        "estMonthlyR2USD": 1.51,
-        "estMonthlyB2USD": 0.6
+        "estMonthlyR2USD": 0.13,
+        "estMonthlyB2USD": 0.05
       },
       "scale50KGB": {
         "scaleCount": 50000,
         "label": "50K",
-        "estimatedOriginalGB": 4074.54,
-        "estimatedOptimizedGB": 221.65,
+        "estimatedOriginalGB": 679.09,
+        "estimatedOptimizedGB": 36.94,
         "savingsPercent": 94.6,
-        "estMonthlyR2USD": 3.17,
-        "estMonthlyB2USD": 1.27
+        "estMonthlyR2USD": 0.4,
+        "estMonthlyB2USD": 0.16
       },
       "scale100KGB": {
         "scaleCount": 100000,
         "label": "100K",
-        "estimatedOriginalGB": 8149.07,
-        "estimatedOptimizedGB": 443.31,
+        "estimatedOriginalGB": 1358.18,
+        "estimatedOptimizedGB": 73.88,
         "savingsPercent": 94.6,
-        "estMonthlyR2USD": 6.5,
-        "estMonthlyB2USD": 2.6
+        "estMonthlyR2USD": 0.96,
+        "estMonthlyB2USD": 0.38
+      },
+      "scale250KGB": {
+        "scaleCount": 250000,
+        "label": "250K",
+        "estimatedOriginalGB": 3395.45,
+        "estimatedOptimizedGB": 184.71,
+        "savingsPercent": 94.6,
+        "estMonthlyR2USD": 2.62,
+        "estMonthlyB2USD": 1.05
+      },
+      "scale500KGB": {
+        "scaleCount": 500000,
+        "label": "500K",
+        "estimatedOriginalGB": 6790.89,
+        "estimatedOptimizedGB": 369.42,
+        "savingsPercent": 94.6,
+        "estMonthlyR2USD": 5.39,
+        "estMonthlyB2USD": 2.16
       }
     },
     "smithsonian_open_access": {
@@ -189,62 +315,912 @@
         "savingsPercent": 95.1,
         "estMonthlyR2USD": 1.28,
         "estMonthlyB2USD": 0.51
+      },
+      "scale250KGB": {
+        "scaleCount": 250000,
+        "label": "250K",
+        "estimatedOriginalGB": 4863.57,
+        "estimatedOptimizedGB": 239.04,
+        "savingsPercent": 95.1,
+        "estMonthlyR2USD": 3.44,
+        "estMonthlyB2USD": 1.37
+      },
+      "scale500KGB": {
+        "scaleCount": 500000,
+        "label": "500K",
+        "estimatedOriginalGB": 9727.15,
+        "estimatedOptimizedGB": 478.08,
+        "savingsPercent": 95.1,
+        "estMonthlyR2USD": 7.02,
+        "estMonthlyB2USD": 2.81
       }
     },
     "wikimedia_commons": {
       "scale1KGB": {
         "scaleCount": 1000,
         "label": "1K",
-        "estimatedOriginalGB": 6.51,
-        "estimatedOptimizedGB": 0.38,
-        "savingsPercent": 94.2,
+        "estimatedOriginalGB": 11.66,
+        "estimatedOptimizedGB": 1.65,
+        "savingsPercent": 85.8,
         "estMonthlyR2USD": 0,
         "estMonthlyB2USD": 0
       },
       "scale5KGB": {
         "scaleCount": 5000,
         "label": "5K",
-        "estimatedOriginalGB": 32.56,
-        "estimatedOptimizedGB": 1.88,
-        "savingsPercent": 94.2,
+        "estimatedOriginalGB": 58.3,
+        "estimatedOptimizedGB": 8.24,
+        "savingsPercent": 85.9,
         "estMonthlyR2USD": 0,
         "estMonthlyB2USD": 0
       },
       "scale10KGB": {
         "scaleCount": 10000,
         "label": "10K",
-        "estimatedOriginalGB": 65.11,
-        "estimatedOptimizedGB": 3.77,
-        "savingsPercent": 94.2,
+        "estimatedOriginalGB": 116.6,
+        "estimatedOptimizedGB": 16.48,
+        "savingsPercent": 85.9,
+        "estMonthlyR2USD": 0.1,
+        "estMonthlyB2USD": 0.04
+      },
+      "scale25KGB": {
+        "scaleCount": 25000,
+        "label": "25K",
+        "estimatedOriginalGB": 291.5,
+        "estimatedOptimizedGB": 41.2,
+        "savingsPercent": 85.9,
+        "estMonthlyR2USD": 0.47,
+        "estMonthlyB2USD": 0.19
+      },
+      "scale50KGB": {
+        "scaleCount": 50000,
+        "label": "50K",
+        "estimatedOriginalGB": 583.01,
+        "estimatedOptimizedGB": 82.4,
+        "savingsPercent": 85.9,
+        "estMonthlyR2USD": 1.09,
+        "estMonthlyB2USD": 0.43
+      },
+      "scale100KGB": {
+        "scaleCount": 100000,
+        "label": "100K",
+        "estimatedOriginalGB": 1166.02,
+        "estimatedOptimizedGB": 164.8,
+        "savingsPercent": 85.9,
+        "estMonthlyR2USD": 2.32,
+        "estMonthlyB2USD": 0.93
+      },
+      "scale250KGB": {
+        "scaleCount": 250000,
+        "label": "250K",
+        "estimatedOriginalGB": 2915.04,
+        "estimatedOptimizedGB": 411.99,
+        "savingsPercent": 85.9,
+        "estMonthlyR2USD": 6.03,
+        "estMonthlyB2USD": 2.41
+      },
+      "scale500KGB": {
+        "scaleCount": 500000,
+        "label": "500K",
+        "estimatedOriginalGB": 5830.08,
+        "estimatedOptimizedGB": 823.98,
+        "savingsPercent": 85.9,
+        "estMonthlyR2USD": 12.21,
+        "estMonthlyB2USD": 4.88
+      }
+    },
+    "internet_archive": {
+      "scale1KGB": {
+        "scaleCount": 1000,
+        "label": "1K",
+        "estimatedOriginalGB": 110.25,
+        "estimatedOptimizedGB": 43.5,
+        "savingsPercent": 60.5,
+        "estMonthlyR2USD": 0.5,
+        "estMonthlyB2USD": 0.2
+      },
+      "scale5KGB": {
+        "scaleCount": 5000,
+        "label": "5K",
+        "estimatedOriginalGB": 551.25,
+        "estimatedOptimizedGB": 217.51,
+        "savingsPercent": 60.5,
+        "estMonthlyR2USD": 3.11,
+        "estMonthlyB2USD": 1.25
+      },
+      "scale10KGB": {
+        "scaleCount": 10000,
+        "label": "10K",
+        "estimatedOriginalGB": 1102.5,
+        "estimatedOptimizedGB": 435.03,
+        "savingsPercent": 60.5,
+        "estMonthlyR2USD": 6.38,
+        "estMonthlyB2USD": 2.55
+      },
+      "scale25KGB": {
+        "scaleCount": 25000,
+        "label": "25K",
+        "estimatedOriginalGB": 2756.25,
+        "estimatedOptimizedGB": 1087.57,
+        "savingsPercent": 60.5,
+        "estMonthlyR2USD": 16.16,
+        "estMonthlyB2USD": 6.47
+      },
+      "scale50KGB": {
+        "scaleCount": 50000,
+        "label": "50K",
+        "estimatedOriginalGB": 5512.5,
+        "estimatedOptimizedGB": 2175.13,
+        "savingsPercent": 60.5,
+        "estMonthlyR2USD": 32.48,
+        "estMonthlyB2USD": 12.99
+      },
+      "scale100KGB": {
+        "scaleCount": 100000,
+        "label": "100K",
+        "estimatedOriginalGB": 11025,
+        "estimatedOptimizedGB": 4350.27,
+        "savingsPercent": 60.5,
+        "estMonthlyR2USD": 65.1,
+        "estMonthlyB2USD": 26.04
+      },
+      "scale250KGB": {
+        "scaleCount": 250000,
+        "label": "250K",
+        "estimatedOriginalGB": 27562.49,
+        "estimatedOptimizedGB": 10875.67,
+        "savingsPercent": 60.5,
+        "estMonthlyR2USD": 162.99,
+        "estMonthlyB2USD": 65.19
+      },
+      "scale500KGB": {
+        "scaleCount": 500000,
+        "label": "500K",
+        "estimatedOriginalGB": 55124.98,
+        "estimatedOptimizedGB": 21751.34,
+        "savingsPercent": 60.5,
+        "estMonthlyR2USD": 326.12,
+        "estMonthlyB2USD": 130.45
+      }
+    },
+    "gallica_bnf": {
+      "scale1KGB": {
+        "scaleCount": 1000,
+        "label": "1K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale5KGB": {
+        "scaleCount": 5000,
+        "label": "5K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale10KGB": {
+        "scaleCount": 10000,
+        "label": "10K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
         "estMonthlyR2USD": 0,
         "estMonthlyB2USD": 0
       },
       "scale25KGB": {
         "scaleCount": 25000,
         "label": "25K",
-        "estimatedOriginalGB": 162.78,
-        "estimatedOptimizedGB": 9.42,
-        "savingsPercent": 94.2,
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
         "estMonthlyR2USD": 0,
         "estMonthlyB2USD": 0
       },
       "scale50KGB": {
         "scaleCount": 50000,
         "label": "50K",
-        "estimatedOriginalGB": 325.56,
-        "estimatedOptimizedGB": 18.85,
-        "savingsPercent": 94.2,
-        "estMonthlyR2USD": 0.13,
-        "estMonthlyB2USD": 0.05
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
       },
       "scale100KGB": {
         "scaleCount": 100000,
         "label": "100K",
-        "estimatedOriginalGB": 651.13,
-        "estimatedOptimizedGB": 37.69,
-        "savingsPercent": 94.2,
-        "estMonthlyR2USD": 0.42,
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale250KGB": {
+        "scaleCount": 250000,
+        "label": "250K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale500KGB": {
+        "scaleCount": 500000,
+        "label": "500K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      }
+    },
+    "british_library_eap": {
+      "scale1KGB": {
+        "scaleCount": 1000,
+        "label": "1K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale5KGB": {
+        "scaleCount": 5000,
+        "label": "5K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale10KGB": {
+        "scaleCount": 10000,
+        "label": "10K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale25KGB": {
+        "scaleCount": 25000,
+        "label": "25K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale50KGB": {
+        "scaleCount": 50000,
+        "label": "50K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale100KGB": {
+        "scaleCount": 100000,
+        "label": "100K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale250KGB": {
+        "scaleCount": 250000,
+        "label": "250K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale500KGB": {
+        "scaleCount": 500000,
+        "label": "500K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      }
+    },
+    "library_of_congress": {
+      "scale1KGB": {
+        "scaleCount": 1000,
+        "label": "1K",
+        "estimatedOriginalGB": 19.72,
+        "estimatedOptimizedGB": 1.54,
+        "savingsPercent": 92.2,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale5KGB": {
+        "scaleCount": 5000,
+        "label": "5K",
+        "estimatedOriginalGB": 98.6,
+        "estimatedOptimizedGB": 7.71,
+        "savingsPercent": 92.2,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale10KGB": {
+        "scaleCount": 10000,
+        "label": "10K",
+        "estimatedOriginalGB": 197.21,
+        "estimatedOptimizedGB": 15.42,
+        "savingsPercent": 92.2,
+        "estMonthlyR2USD": 0.08,
+        "estMonthlyB2USD": 0.03
+      },
+      "scale25KGB": {
+        "scaleCount": 25000,
+        "label": "25K",
+        "estimatedOriginalGB": 493.02,
+        "estimatedOptimizedGB": 38.54,
+        "savingsPercent": 92.2,
+        "estMonthlyR2USD": 0.43,
         "estMonthlyB2USD": 0.17
+      },
+      "scale50KGB": {
+        "scaleCount": 50000,
+        "label": "50K",
+        "estimatedOriginalGB": 986.04,
+        "estimatedOptimizedGB": 77.08,
+        "savingsPercent": 92.2,
+        "estMonthlyR2USD": 1.01,
+        "estMonthlyB2USD": 0.4
+      },
+      "scale100KGB": {
+        "scaleCount": 100000,
+        "label": "100K",
+        "estimatedOriginalGB": 1972.08,
+        "estimatedOptimizedGB": 154.17,
+        "savingsPercent": 92.2,
+        "estMonthlyR2USD": 2.16,
+        "estMonthlyB2USD": 0.87
+      },
+      "scale250KGB": {
+        "scaleCount": 250000,
+        "label": "250K",
+        "estimatedOriginalGB": 4930.19,
+        "estimatedOptimizedGB": 385.42,
+        "savingsPercent": 92.2,
+        "estMonthlyR2USD": 5.63,
+        "estMonthlyB2USD": 2.25
+      },
+      "scale500KGB": {
+        "scaleCount": 500000,
+        "label": "500K",
+        "estimatedOriginalGB": 9860.38,
+        "estimatedOptimizedGB": 770.84,
+        "savingsPercent": 92.2,
+        "estMonthlyR2USD": 11.41,
+        "estMonthlyB2USD": 4.57
+      }
+    },
+    "persee_befeo": {
+      "scale1KGB": {
+        "scaleCount": 1000,
+        "label": "1K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale5KGB": {
+        "scaleCount": 5000,
+        "label": "5K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale10KGB": {
+        "scaleCount": 10000,
+        "label": "10K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale25KGB": {
+        "scaleCount": 25000,
+        "label": "25K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale50KGB": {
+        "scaleCount": 50000,
+        "label": "50K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale100KGB": {
+        "scaleCount": 100000,
+        "label": "100K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale250KGB": {
+        "scaleCount": 250000,
+        "label": "250K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale500KGB": {
+        "scaleCount": 500000,
+        "label": "500K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      }
+    },
+    "national_museum_cambodia": {
+      "scale1KGB": {
+        "scaleCount": 1000,
+        "label": "1K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale5KGB": {
+        "scaleCount": 5000,
+        "label": "5K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale10KGB": {
+        "scaleCount": 10000,
+        "label": "10K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale25KGB": {
+        "scaleCount": 25000,
+        "label": "25K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale50KGB": {
+        "scaleCount": 50000,
+        "label": "50K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale100KGB": {
+        "scaleCount": 100000,
+        "label": "100K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale250KGB": {
+        "scaleCount": 250000,
+        "label": "250K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale500KGB": {
+        "scaleCount": 500000,
+        "label": "500K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      }
+    },
+    "apsara_authority": {
+      "scale1KGB": {
+        "scaleCount": 1000,
+        "label": "1K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale5KGB": {
+        "scaleCount": 5000,
+        "label": "5K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale10KGB": {
+        "scaleCount": 10000,
+        "label": "10K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale25KGB": {
+        "scaleCount": 25000,
+        "label": "25K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale50KGB": {
+        "scaleCount": 50000,
+        "label": "50K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale100KGB": {
+        "scaleCount": 100000,
+        "label": "100K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale250KGB": {
+        "scaleCount": 250000,
+        "label": "250K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale500KGB": {
+        "scaleCount": 500000,
+        "label": "500K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      }
+    },
+    "efeo": {
+      "scale1KGB": {
+        "scaleCount": 1000,
+        "label": "1K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale5KGB": {
+        "scaleCount": 5000,
+        "label": "5K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale10KGB": {
+        "scaleCount": 10000,
+        "label": "10K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale25KGB": {
+        "scaleCount": 25000,
+        "label": "25K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale50KGB": {
+        "scaleCount": 50000,
+        "label": "50K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale100KGB": {
+        "scaleCount": 100000,
+        "label": "100K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale250KGB": {
+        "scaleCount": 250000,
+        "label": "250K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale500KGB": {
+        "scaleCount": 500000,
+        "label": "500K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      }
+    },
+    "center_for_khmer_studies": {
+      "scale1KGB": {
+        "scaleCount": 1000,
+        "label": "1K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale5KGB": {
+        "scaleCount": 5000,
+        "label": "5K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale10KGB": {
+        "scaleCount": 10000,
+        "label": "10K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale25KGB": {
+        "scaleCount": 25000,
+        "label": "25K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale50KGB": {
+        "scaleCount": 50000,
+        "label": "50K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale100KGB": {
+        "scaleCount": 100000,
+        "label": "100K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale250KGB": {
+        "scaleCount": 250000,
+        "label": "250K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale500KGB": {
+        "scaleCount": 500000,
+        "label": "500K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      }
+    },
+    "buddhist_institute_cambodia": {
+      "scale1KGB": {
+        "scaleCount": 1000,
+        "label": "1K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale5KGB": {
+        "scaleCount": 5000,
+        "label": "5K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale10KGB": {
+        "scaleCount": 10000,
+        "label": "10K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale25KGB": {
+        "scaleCount": 25000,
+        "label": "25K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale50KGB": {
+        "scaleCount": 50000,
+        "label": "50K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale100KGB": {
+        "scaleCount": 100000,
+        "label": "100K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale250KGB": {
+        "scaleCount": 250000,
+        "label": "250K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale500KGB": {
+        "scaleCount": 500000,
+        "label": "500K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      }
+    },
+    "mcfa_cambodia": {
+      "scale1KGB": {
+        "scaleCount": 1000,
+        "label": "1K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale5KGB": {
+        "scaleCount": 5000,
+        "label": "5K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale10KGB": {
+        "scaleCount": 10000,
+        "label": "10K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale25KGB": {
+        "scaleCount": 25000,
+        "label": "25K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale50KGB": {
+        "scaleCount": 50000,
+        "label": "50K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale100KGB": {
+        "scaleCount": 100000,
+        "label": "100K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale250KGB": {
+        "scaleCount": 250000,
+        "label": "250K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
+      },
+      "scale500KGB": {
+        "scaleCount": 500000,
+        "label": "500K",
+        "estimatedOriginalGB": 0,
+        "estimatedOptimizedGB": 0,
+        "savingsPercent": 0,
+        "estMonthlyR2USD": 0,
+        "estMonthlyB2USD": 0
       }
     }
   },
@@ -253,7 +1229,7 @@
       {
         "thresholdGB": 10,
         "label": "10 GB (R2 Free Tier)",
-        "fitsOptimizedAtScale": "Accommodates up to ~18,817 optimized items",
+        "fitsOptimizedAtScale": "Accommodates up to ~630 optimized items",
         "monthlyCostR2USD": 0,
         "monthlyCostB2USD": 0,
         "recommendationNotes": "Ideal for initial launch and curated high-priority Angkor heritage corpus (100% Free)."
@@ -261,7 +1237,7 @@
       {
         "thresholdGB": 25,
         "label": "25 GB",
-        "fitsOptimizedAtScale": "Accommodates up to ~47,043 optimized items",
+        "fitsOptimizedAtScale": "Accommodates up to ~1,576 optimized items",
         "monthlyCostR2USD": 0.22,
         "monthlyCostB2USD": 0.09,
         "recommendationNotes": "Extremely affordable ($0.23/mo R2). Covers broad museum collections."
@@ -269,7 +1245,7 @@
       {
         "thresholdGB": 50,
         "label": "50 GB",
-        "fitsOptimizedAtScale": "Accommodates up to ~94,086 optimized items",
+        "fitsOptimizedAtScale": "Accommodates up to ~3,153 optimized items",
         "monthlyCostR2USD": 0.6,
         "monthlyCostB2USD": 0.24,
         "recommendationNotes": "Supports comprehensive national heritage catalog across all 12 cultural categories ($0.60/mo)."
@@ -277,7 +1253,7 @@
       {
         "thresholdGB": 100,
         "label": "100 GB",
-        "fitsOptimizedAtScale": "Accommodates up to ~188,172 optimized items",
+        "fitsOptimizedAtScale": "Accommodates up to ~6,307 optimized items",
         "monthlyCostR2USD": 1.35,
         "monthlyCostB2USD": 0.54,
         "recommendationNotes": "Full-scale national archive with deep multi-angle photographic surveys ($1.35/mo)."
@@ -285,7 +1261,7 @@
       {
         "thresholdGB": 250,
         "label": "250 GB",
-        "fitsOptimizedAtScale": "Accommodates up to ~470,430 optimized items",
+        "fitsOptimizedAtScale": "Accommodates up to ~15,768 optimized items",
         "monthlyCostR2USD": 3.6,
         "monthlyCostB2USD": 1.44,
         "recommendationNotes": "Large institutional scale. Still under $3.60/mo with zero egress fees on R2."
@@ -293,7 +1269,7 @@
       {
         "thresholdGB": 500,
         "label": "500 GB",
-        "fitsOptimizedAtScale": "Accommodates up to ~940,860 optimized items",
+        "fitsOptimizedAtScale": "Accommodates up to ~31,536 optimized items",
         "monthlyCostR2USD": 7.35,
         "monthlyCostB2USD": 2.94,
         "recommendationNotes": "Massive archive including high-definition video performances and audio recordings ($7.35/mo)."
@@ -301,7 +1277,7 @@
       {
         "thresholdGB": 1000,
         "label": "1 TB (1,000 GB)",
-        "fitsOptimizedAtScale": "Accommodates up to ~1,881,720 optimized items",
+        "fitsOptimizedAtScale": "Accommodates up to ~63,072 optimized items",
         "monthlyCostR2USD": 14.85,
         "monthlyCostB2USD": 5.94,
         "recommendationNotes": "Exhaustive historical repository ($14.85/mo on R2 or $5.94/mo on B2)."

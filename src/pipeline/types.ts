@@ -509,6 +509,61 @@ export interface StorageTierComparison {
   recommendationNotes: string;
 }
 
+export interface DeduplicationCluster {
+  canonicalEntityId: string;
+  canonicalTitle: string;
+  suggestedCategory: string;
+  sourceItemCount: number;
+  sources: string[];
+  sourceItemIds: string[];
+  canonicalMediaCount: number;
+  representativeRecord: DiscoveredRecord;
+}
+
+export interface DeduplicationSummary {
+  totalDiscoveredRecords: number;
+  uniqueCanonicalEntities: number;
+  duplicateClustersCount: number;
+  crossSourceLinkCount: number;
+  deduplicationRatio: number;
+  clusters: DeduplicationCluster[];
+}
+
+export interface MediaTypeStorageBreakdown {
+  mediaType: DiscoveredMediaType;
+  itemCount: number;
+  knownBytes: number;
+  estimatedOriginalBytes: number;
+  estimatedOptimizedBytes: number;
+  avgOriginalBytes: number;
+  avgOptimizedBytes: number;
+  compressionRatio: number;
+}
+
+export interface ExpandedCorpusDiscoverySummary extends CorpusDiscoverySummary {
+  discoveryVersion: string; // e.g. "KH-016-v1.0"
+  tierBreakdown: {
+    tier1Sources: string[];
+    tier2Sources: string[];
+    pilotSources: string[];
+  };
+  deduplication: DeduplicationSummary;
+  mediaTypeBreakdown: Record<DiscoveredMediaType, MediaTypeStorageBreakdown>;
+  crawlPolicyDistribution: Record<CrawlPolicy, number>;
+  sourceInstitutionalProfiles: Record<
+    string,
+    {
+      sourceName: string;
+      officialUrl: string;
+      apiUrl?: string;
+      crawlPolicy: CrawlPolicy;
+      licenseModel: LicenseModel;
+      commercialUsePolicy: CommercialUsePolicy;
+      mediaSupport: DiscoveredMediaType[];
+    }
+  >;
+}
+
 export interface CorpusDiscoverySummary {
   timestamp: string;
   discoveryVersion: string;

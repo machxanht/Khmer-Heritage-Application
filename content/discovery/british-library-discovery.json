@@ -1,0 +1,240 @@
+{
+  "sourceId": "british_library_eap",
+  "sourceName": "British Library (Endangered Archives Programme)",
+  "apiUrl": "https://api.bl.uk/metadata/iiif",
+  "paginationInfo": {
+    "totalPagesChecked": 1,
+    "totalRecordsExamined": 5,
+    "hasMore": false
+  },
+  "recordsExamined": 5,
+  "khmerRelevantRecords": 5,
+  "recordsAccepted": 0,
+  "recordsRejected": 0,
+  "recordsQuarantined": 5,
+  "recordsUnknownLicense": 0,
+  "itemsWithMedia": 5,
+  "itemsWithoutMedia": 0,
+  "mediaTypeCounts": {
+    "images": 0,
+    "audio": 0,
+    "video": 0,
+    "documents": 5,
+    "other": 0
+  },
+  "knownMediaSizeBytes": 240500000,
+  "estimatedMediaSizeBytes": 240500000,
+  "estimatedOptimizedMediaSizeBytes": 133611111,
+  "licenseDistribution": {
+    "CC BY-NC 4.0 (Non-Commercial)": 5
+  },
+  "rejectionReasons": {},
+  "records": [
+    {
+      "sourceId": "british_library_eap",
+      "sourceName": "British Library (Endangered Archives Programme)",
+      "sourceItemId": "EAP051/1/1/1",
+      "title": "Sastra Sleuk Rith: Trai Bhumi (The Three Worlds of Khmer Buddhist Cosmology)",
+      "creator": "Monastery of Wat Damnak Scribes, Siem Reap",
+      "date": "1882 (Chulasakarat 1244)",
+      "description": "Inscribed palm-leaf manuscript bundle (Sastra Sleuk Rith) detailing the 31 realms of Buddhist cosmology, Karma, and Mount Meru geography.",
+      "categories": [
+        "manuscript_epigraphy"
+      ],
+      "culture": "Cambodia (Theravada Buddhist Manuscript Tradition)",
+      "originalUrl": "https://eap.bl.uk/archive-item/EAP051-1-1-1",
+      "relevanceScore": 70,
+      "relevanceKeywords": [
+        "khmer",
+        "cambodia"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial 4.0 International)",
+      "licenseClassification": "QUARANTINE",
+      "licenseTier": "unsupported_quarantine",
+      "isCommercialAllowed": false,
+      "isPublicDomain": false,
+      "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+      "attribution": "\"Monastery of Wat Damnak Scribes, Siem Reap\", 1882 (Chulasakarat 1244), British Library Endangered Archives Programme, CC BY-NC 4.0, British Library (Endangered Archives Programme), (https://eap.bl.uk/archive-item/EAP051-1-1-1)",
+      "media": [
+        {
+          "url": "https://api.bl.uk/metadata/iiif/manifest/EAP051_1_1_1.json",
+          "mimeType": "application/json+iiif",
+          "mediaType": "documents",
+          "originalSizeBytes": 34500000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 34500000,
+          "estimatedOptimizedBytes": 19166667
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.125Z"
+    },
+    {
+      "sourceId": "british_library_eap",
+      "sourceName": "British Library (Endangered Archives Programme)",
+      "sourceItemId": "EAP051/1/2/4",
+      "title": "Sastra Sleuk Rith: Mahavessantara Jataka (The Great Vessantara Chapter)",
+      "creator": "Wat Bo Monastery Monks",
+      "date": "1904",
+      "description": "Complete 13-canto palm leaf manuscript of the Great Virtues of Prince Vessantara (Preah Vesandor), the supreme perfection of generosity.",
+      "categories": [
+        "manuscript_epigraphy"
+      ],
+      "culture": "Cambodia (Theravada Buddhist Manuscript Tradition)",
+      "originalUrl": "https://eap.bl.uk/archive-item/EAP051-1-2-4",
+      "relevanceScore": 40,
+      "relevanceKeywords": [
+        "cambodia",
+        "preah"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "CC BY-NC 4.0",
+      "licenseClassification": "QUARANTINE",
+      "licenseTier": "unsupported_quarantine",
+      "isCommercialAllowed": false,
+      "isPublicDomain": false,
+      "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+      "attribution": "\"Wat Bo Monastery Monks\", 1904, British Library Endangered Archives Programme, CC BY-NC 4.0, British Library (Endangered Archives Programme), (https://eap.bl.uk/archive-item/EAP051-1-2-4)",
+      "media": [
+        {
+          "url": "https://api.bl.uk/metadata/iiif/manifest/EAP051_1_2_4.json",
+          "mimeType": "application/json+iiif",
+          "mediaType": "documents",
+          "originalSizeBytes": 86000000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 86000000,
+          "estimatedOptimizedBytes": 47777778
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.126Z"
+    },
+    {
+      "sourceId": "british_library_eap",
+      "sourceName": "British Library (Endangered Archives Programme)",
+      "sourceItemId": "EAP261/1/3/8",
+      "title": "Sastra Kbach: Traditional Khmer Medicinal Treatises and Healing Mantras",
+      "creator": "Traditional Healer (Kru Khmer), Battambang",
+      "date": "1895",
+      "description": "Herbal medicine treatise recording botanical formulas, pulse diagnosis, and sacred Yantra protection diagrams inscribed in Khom script.",
+      "categories": [
+        "manuscript_epigraphy"
+      ],
+      "culture": "Cambodia (Theravada Buddhist Manuscript Tradition)",
+      "originalUrl": "https://eap.bl.uk/archive-item/EAP261-1-3-8",
+      "relevanceScore": 70,
+      "relevanceKeywords": [
+        "khmer",
+        "cambodia"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "CC BY-NC 4.0",
+      "licenseClassification": "QUARANTINE",
+      "licenseTier": "unsupported_quarantine",
+      "isCommercialAllowed": false,
+      "isPublicDomain": false,
+      "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+      "attribution": "\"Traditional Healer (Kru Khmer), Battambang\", 1895, British Library Endangered Archives Programme, CC BY-NC 4.0, British Library (Endangered Archives Programme), (https://eap.bl.uk/archive-item/EAP261-1-3-8)",
+      "media": [
+        {
+          "url": "https://api.bl.uk/metadata/iiif/manifest/EAP261_1_3_8.json",
+          "mimeType": "application/json+iiif",
+          "mediaType": "documents",
+          "originalSizeBytes": 42000000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 42000000,
+          "estimatedOptimizedBytes": 23333333
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.126Z"
+    },
+    {
+      "sourceId": "british_library_eap",
+      "sourceName": "British Library (Endangered Archives Programme)",
+      "sourceItemId": "EAP051/2/1/15",
+      "title": "Reamker Poem (Khmer Ramayana): Battle of Indrajit Palm Leaf Folios",
+      "creator": "Royal Palace Master Scribe",
+      "date": "1912",
+      "description": "Lyrical recitation verses of the Reamker describing the heroic duel between Prince Lakshmana and Indrajit at Lanka.",
+      "categories": [
+        "manuscript_epigraphy"
+      ],
+      "culture": "Cambodia (Theravada Buddhist Manuscript Tradition)",
+      "originalUrl": "https://eap.bl.uk/archive-item/EAP051-2-1-15",
+      "relevanceScore": 90,
+      "relevanceKeywords": [
+        "khmer",
+        "cambodia",
+        "reamker"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "CC BY-NC 4.0",
+      "licenseClassification": "QUARANTINE",
+      "licenseTier": "unsupported_quarantine",
+      "isCommercialAllowed": false,
+      "isPublicDomain": false,
+      "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+      "attribution": "\"Royal Palace Master Scribe\", 1912, British Library Endangered Archives Programme, CC BY-NC 4.0, British Library (Endangered Archives Programme), (https://eap.bl.uk/archive-item/EAP051-2-1-15)",
+      "media": [
+        {
+          "url": "https://api.bl.uk/metadata/iiif/manifest/EAP051_2_1_15.json",
+          "mimeType": "application/json+iiif",
+          "mediaType": "documents",
+          "originalSizeBytes": 58000000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 58000000,
+          "estimatedOptimizedBytes": 32222222
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.126Z"
+    },
+    {
+      "sourceId": "british_library_eap",
+      "sourceName": "British Library (Endangered Archives Programme)",
+      "sourceItemId": "EAP128/1/1/1",
+      "title": "Medieval Icelandic Saga Manuscripts from Reykjavik",
+      "creator": "Icelandic Scribe",
+      "date": "1350",
+      "description": "Old Norse historical sagas and skaldic poetry (non-Khmer).",
+      "categories": [
+        "manuscript_epigraphy"
+      ],
+      "culture": "Cambodia (Theravada Buddhist Manuscript Tradition)",
+      "originalUrl": "https://eap.bl.uk/archive-item/EAP128-1-1-1",
+      "relevanceScore": 70,
+      "relevanceKeywords": [
+        "khmer",
+        "cambodia"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "CC BY-NC 4.0",
+      "licenseClassification": "QUARANTINE",
+      "licenseTier": "unsupported_quarantine",
+      "isCommercialAllowed": false,
+      "isPublicDomain": false,
+      "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+      "attribution": "\"Icelandic Scribe\", 1350, British Library Endangered Archives Programme, CC BY-NC 4.0, British Library (Endangered Archives Programme), (https://eap.bl.uk/archive-item/EAP128-1-1-1)",
+      "media": [
+        {
+          "url": "https://api.bl.uk/metadata/iiif/manifest/EAP128_1_1_1.json",
+          "mimeType": "application/json+iiif",
+          "mediaType": "documents",
+          "originalSizeBytes": 20000000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 20000000,
+          "estimatedOptimizedBytes": 11111111
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.126Z"
+    }
+  ]
+}

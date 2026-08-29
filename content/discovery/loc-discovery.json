@@ -1,0 +1,249 @@
+{
+  "sourceId": "library_of_congress",
+  "sourceName": "Library of Congress (LOC)",
+  "apiUrl": "https://www.loc.gov/apis/",
+  "paginationInfo": {
+    "totalPagesChecked": 1,
+    "totalRecordsExamined": 5,
+    "hasMore": false
+  },
+  "recordsExamined": 5,
+  "khmerRelevantRecords": 5,
+  "recordsAccepted": 4,
+  "recordsRejected": 0,
+  "recordsQuarantined": 1,
+  "recordsUnknownLicense": 0,
+  "itemsWithMedia": 5,
+  "itemsWithoutMedia": 0,
+  "mediaTypeCounts": {
+    "images": 4,
+    "audio": 1,
+    "video": 0,
+    "documents": 0,
+    "other": 0
+  },
+  "knownMediaSizeBytes": 84700000,
+  "estimatedMediaSizeBytes": 84700000,
+  "estimatedOptimizedMediaSizeBytes": 6621506,
+  "licenseDistribution": {
+    "CC0-1.0 (Public Domain)": 4,
+    "All Rights Reserved": 1
+  },
+  "rejectionReasons": {},
+  "records": [
+    {
+      "sourceId": "library_of_congress",
+      "sourceName": "Library of Congress (LOC)",
+      "sourceItemId": "g8012a.ct001928",
+      "title": "Topographical Map of French Indochina: Kingdom of Cambodia and Angkor Region",
+      "creator": "Service Géographique de l'Indochine",
+      "date": "1914",
+      "description": "Detailed military and archaeological survey map showing the layout of the Angkor temple complex and ancient hydraulic grid.",
+      "categories": [
+        "historical_monument"
+      ],
+      "culture": "Cambodia (Khmer)",
+      "originalUrl": "https://www.loc.gov/item/g8012a.ct001928/",
+      "relevanceScore": 90,
+      "relevanceKeywords": [
+        "khmer",
+        "angkor",
+        "cambodia"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "No known copyright restrictions / Public Domain",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Service Géographique de l'Indochine\", 1914, CC0-1.0 (Public Domain), Library of Congress (LOC), (https://www.loc.gov/item/g8012a.ct001928/)",
+      "media": [
+        {
+          "url": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd801:g8012:g8012a:ct001928/full/pct:100/0/default.jpg",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 6400,
+          "height": 5200,
+          "originalSizeBytes": 24500000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 24500000,
+          "estimatedOptimizedBytes": 1400800
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.127Z"
+    },
+    {
+      "sourceId": "library_of_congress",
+      "sourceName": "Library of Congress (LOC)",
+      "sourceItemId": "cph.3c15892",
+      "title": "Glass Plate Negative: Western Causeway and Towers of Angkor Wat",
+      "creator": "Carpenter Collection / Frank G. Carpenter",
+      "date": "1923",
+      "description": "Historical photographic negative capturing the monumental sandstone causeway crossing the outer moat toward the western gopura of Angkor Wat.",
+      "categories": [
+        "historical_monument"
+      ],
+      "culture": "Cambodia (Khmer)",
+      "originalUrl": "https://www.loc.gov/item/99615892/",
+      "relevanceScore": 90,
+      "relevanceKeywords": [
+        "khmer",
+        "angkor",
+        "cambodia"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "Public Domain",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Carpenter Collection / Frank G. Carpenter\", 1923, CC0-1.0 (Public Domain), Library of Congress (LOC), (https://www.loc.gov/item/99615892/)",
+      "media": [
+        {
+          "url": "https://tile.loc.gov/storage-services/service/pnp/cph/3c10000/3c15000/3c15800/3c15892v.jpg",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 4200,
+          "height": 3100,
+          "originalSizeBytes": 12800000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 12800000,
+          "estimatedOptimizedBytes": 731847
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.127Z"
+    },
+    {
+      "sourceId": "library_of_congress",
+      "sourceName": "Library of Congress (LOC)",
+      "sourceItemId": "afc1979008_sr01",
+      "title": "Field Recording: Traditional Khmer Wedding Music (Pleng Kar) and Tro Sao Performance",
+      "creator": "American Folklife Center / Field Collection",
+      "date": "1968",
+      "description": "Historical field acoustic recording of the Tro Sao (two-string bowed fiddle) and chapei accompanying traditional Khmer matrimonial blessings.",
+      "categories": [
+        "traditional_music"
+      ],
+      "culture": "Cambodia (Khmer)",
+      "originalUrl": "https://www.loc.gov/item/afc1979008_sr01/",
+      "relevanceScore": 90,
+      "relevanceKeywords": [
+        "khmer",
+        "cambodia",
+        "chapei"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "Public Domain / Educational Access",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"American Folklife Center / Field Collection\", 1968, CC0-1.0 (Public Domain), Library of Congress (LOC), (https://www.loc.gov/item/afc1979008_sr01/)",
+      "media": [
+        {
+          "url": "https://tile.loc.gov/storage-services/service/afc/afc1979008/afc1979008_sr01.mp3",
+          "mimeType": "audio/mp3",
+          "mediaType": "audio",
+          "durationSeconds": 280,
+          "originalSizeBytes": 18400000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 18400000,
+          "estimatedOptimizedBytes": 2830769
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.127Z"
+    },
+    {
+      "sourceId": "library_of_congress",
+      "sourceName": "Library of Congress (LOC)",
+      "sourceItemId": "loc.item.2014589124",
+      "title": "Architectural Elevation: Bas-Relief Gallery of the Churning of the Ocean of Milk",
+      "creator": "Historic American Buildings Survey (HABS Special Survey)",
+      "date": "1935",
+      "description": "Measured architectural drafting and iconographical elevations of the 88 Asuras and 92 Devas at Angkor Wat.",
+      "categories": [
+        "historical_monument"
+      ],
+      "culture": "Cambodia (Khmer)",
+      "originalUrl": "https://www.loc.gov/item/2014589124/",
+      "relevanceScore": 90,
+      "relevanceKeywords": [
+        "khmer",
+        "angkor",
+        "cambodia"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "Public Domain",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Historic American Buildings Survey (HABS Special Survey)\", 1935, CC0-1.0 (Public Domain), Library of Congress (LOC), (https://www.loc.gov/item/2014589124/)",
+      "media": [
+        {
+          "url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/kh/kh0001/photos/kh0001pv.jpg",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 5800,
+          "height": 4200,
+          "originalSizeBytes": 21000000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 21000000,
+          "estimatedOptimizedBytes": 1200686
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.127Z"
+    },
+    {
+      "sourceId": "library_of_congress",
+      "sourceName": "Library of Congress (LOC)",
+      "sourceItemId": "loc.item.copyrighted_modern_photo_2018",
+      "title": "Contemporary Aerial Photography of Southeast Asian Ports",
+      "creator": "Commercial Aerial Agency",
+      "date": "2018",
+      "description": "Commercial aerial drone photography of shipping containers in Bangkok.",
+      "categories": [
+        "historical_monument"
+      ],
+      "culture": "Cambodia (Khmer)",
+      "originalUrl": "https://www.loc.gov/item/2018999999/",
+      "relevanceScore": 40,
+      "relevanceKeywords": [
+        "khmer",
+        "cambodia"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "All Rights Reserved / Copyrighted",
+      "licenseClassification": "QUARANTINE",
+      "licenseTier": "unsupported_quarantine",
+      "isCommercialAllowed": false,
+      "isPublicDomain": false,
+      "quarantineOrRejectionReason": "All Rights Reserved / In Copyright requires specific institutional review",
+      "attribution": "\"Commercial Aerial Agency\", 2018, All Rights Reserved, Library of Congress (LOC), (https://www.loc.gov/item/2018999999/)",
+      "media": [
+        {
+          "url": "https://tile.loc.gov/storage-services/service/pnp/copyrighted.jpg",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 3000,
+          "height": 2000,
+          "originalSizeBytes": 8000000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 8000000,
+          "estimatedOptimizedBytes": 457404
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.127Z"
+    }
+  ]
+}

@@ -1,0 +1,4116 @@
+{
+  "totalDiscoveredRecords": 78,
+  "uniqueCanonicalEntities": 71,
+  "duplicateClustersCount": 6,
+  "crossSourceLinkCount": 13,
+  "deduplicationRatio": 1.1,
+  "clusters": [
+    {
+      "canonicalEntityId": "kh-entity-0001",
+      "canonicalTitle": "Standing Four-Armed Avalokiteshvara (Bodhisattva of Compassion)",
+      "suggestedCategory": "arts",
+      "sourceItemCount": 1,
+      "sources": [
+        "met_museum_open_access"
+      ],
+      "sourceItemIds": [
+        "met_museum_open_access:38166"
+      ],
+      "canonicalMediaCount": 2,
+      "representativeRecord": {
+        "sourceId": "met_museum_open_access",
+        "sourceName": "The Metropolitan Museum of Art",
+        "sourceItemId": "38166",
+        "title": "Standing Four-Armed Avalokiteshvara (Bodhisattva of Compassion)",
+        "creator": "Khmer Master Artisan",
+        "date": "ca. late 10th–first half of the 11th century",
+        "culture": "Cambodia (Angkor period)",
+        "medium": "Bronze with silver inlay",
+        "dimensions": "H. 23 in. (58.4 cm); W. 8 in. (20.3 cm)",
+        "classification": "Sculpture",
+        "categories": [
+          "arts",
+          "khmer_art",
+          "archaeology"
+        ],
+        "originalUrl": "https://www.metmuseum.org/art/collection/search/38166",
+        "relevanceScore": 80,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0 (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Standing Four-Armed Avalokiteshvara (Bodhisattva of Compassion)\", Khmer Master Artisan, ca. late 10th–first half of the 11th century, The Metropolitan Museum of Art, ID: 38166, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://images.metmuseum.org/CRDImages/as/original/DP152864.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 3200,
+            "height": 4000,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          },
+          {
+            "url": "https://images.metmuseum.org/CRDImages/as/original/DP152865.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 3200,
+            "height": 4000,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.115Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0002",
+      "canonicalTitle": "Head of a Buddha",
+      "suggestedCategory": "temples",
+      "sourceItemCount": 1,
+      "sources": [
+        "met_museum_open_access"
+      ],
+      "sourceItemIds": [
+        "met_museum_open_access:38173"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "met_museum_open_access",
+        "sourceName": "The Metropolitan Museum of Art",
+        "sourceItemId": "38173",
+        "title": "Head of a Buddha",
+        "creator": "Khmer Master Artisan",
+        "date": "late 12th–early 13th century",
+        "culture": "Cambodia (Angkor period, Bayon style)",
+        "medium": "Sandstone",
+        "dimensions": "H. 11 1/2 in. (29.2 cm)",
+        "classification": "Sculpture",
+        "categories": [
+          "temples",
+          "khmer_art",
+          "archaeology"
+        ],
+        "originalUrl": "https://www.metmuseum.org/art/collection/search/38173",
+        "relevanceScore": 100,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia",
+          "bayon"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0 (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Head of a Buddha\", Khmer Master Artisan, late 12th–early 13th century, The Metropolitan Museum of Art, ID: 38173, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://images.metmuseum.org/CRDImages/as/original/DP152868.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 2800,
+            "height": 3500,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.115Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0003",
+      "canonicalTitle": "Seated Ganesha",
+      "suggestedCategory": "arts",
+      "sourceItemCount": 2,
+      "sources": [
+        "met_museum_open_access",
+        "smithsonian_open_access"
+      ],
+      "sourceItemIds": [
+        "met_museum_open_access:38178",
+        "smithsonian_open_access:edanmdm:fsg_F1997.24"
+      ],
+      "canonicalMediaCount": 2,
+      "representativeRecord": {
+        "sourceId": "met_museum_open_access",
+        "sourceName": "The Metropolitan Museum of Art",
+        "sourceItemId": "38178",
+        "title": "Seated Ganesha",
+        "creator": "Khmer Master Artisan",
+        "date": "first half of the 7th century",
+        "culture": "Cambodia (Pre-Angkorian period)",
+        "medium": "Sandstone",
+        "dimensions": "H. 20 1/8 in. (51.1 cm)",
+        "classification": "Sculpture",
+        "categories": [
+          "arts",
+          "khmer_art",
+          "archaeology"
+        ],
+        "originalUrl": "https://www.metmuseum.org/art/collection/search/38178",
+        "relevanceScore": 80,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0 (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Seated Ganesha\", Khmer Master Artisan, first half of the 7th century, The Metropolitan Museum of Art, ID: 38178, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://images.metmuseum.org/CRDImages/as/original/DP152870.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 2900,
+            "height": 3600,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.115Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0004",
+      "canonicalTitle": "Kneeling Female Figure (Possibly a Queen)",
+      "suggestedCategory": "arts",
+      "sourceItemCount": 1,
+      "sources": [
+        "met_museum_open_access"
+      ],
+      "sourceItemIds": [
+        "met_museum_open_access:38180"
+      ],
+      "canonicalMediaCount": 2,
+      "representativeRecord": {
+        "sourceId": "met_museum_open_access",
+        "sourceName": "The Metropolitan Museum of Art",
+        "sourceItemId": "38180",
+        "title": "Kneeling Female Figure (Possibly a Queen)",
+        "creator": "Khmer Master Artisan",
+        "date": "second quarter of the 10th century",
+        "culture": "Cambodia (Angkor period, Koh Ker style)",
+        "medium": "Sandstone",
+        "dimensions": "H. 42 1/4 in. (107.3 cm)",
+        "classification": "Sculpture",
+        "categories": [
+          "arts",
+          "khmer_art",
+          "archaeology"
+        ],
+        "originalUrl": "https://www.metmuseum.org/art/collection/search/38180",
+        "relevanceScore": 100,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia",
+          "koh ker"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0 (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Kneeling Female Figure (Possibly a Queen)\", Khmer Master Artisan, second quarter of the 10th century, The Metropolitan Museum of Art, ID: 38180, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://images.metmuseum.org/CRDImages/as/original/DP152875.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 3400,
+            "height": 4200,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          },
+          {
+            "url": "https://images.metmuseum.org/CRDImages/as/original/DP152876.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 3400,
+            "height": 4200,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.115Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0005",
+      "canonicalTitle": "Lintel with Vishnu Reclining on Ananta",
+      "suggestedCategory": "arts",
+      "sourceItemCount": 2,
+      "sources": [
+        "met_museum_open_access",
+        "smithsonian_open_access"
+      ],
+      "sourceItemIds": [
+        "met_museum_open_access:38190",
+        "smithsonian_open_access:edanmdm:fsg_F1992.11"
+      ],
+      "canonicalMediaCount": 3,
+      "representativeRecord": {
+        "sourceId": "met_museum_open_access",
+        "sourceName": "The Metropolitan Museum of Art",
+        "sourceItemId": "38190",
+        "title": "Lintel with Vishnu Reclining on Ananta",
+        "creator": "Khmer Master Artisan",
+        "date": "mid-11th century",
+        "culture": "Cambodia (Angkor period, Baphuon style)",
+        "medium": "Sandstone",
+        "dimensions": "W. 54 in. (137.2 cm); H. 22 in. (55.9 cm)",
+        "classification": "Sculpture",
+        "categories": [
+          "arts",
+          "khmer_art",
+          "archaeology"
+        ],
+        "originalUrl": "https://www.metmuseum.org/art/collection/search/38190",
+        "relevanceScore": 100,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia",
+          "baphuon"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0 (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Lintel with Vishnu Reclining on Ananta\", Khmer Master Artisan, mid-11th century, The Metropolitan Museum of Art, ID: 38190, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://images.metmuseum.org/CRDImages/as/original/DP152880.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 4800,
+            "height": 2400,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.115Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0006",
+      "canonicalTitle": "Harihara",
+      "suggestedCategory": "temples",
+      "sourceItemCount": 1,
+      "sources": [
+        "met_museum_open_access"
+      ],
+      "sourceItemIds": [
+        "met_museum_open_access:38195"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "met_museum_open_access",
+        "sourceName": "The Metropolitan Museum of Art",
+        "sourceItemId": "38195",
+        "title": "Harihara",
+        "creator": "Khmer Master Artisan",
+        "date": "late 7th–early 8th century",
+        "culture": "Cambodia (Pre-Angkorian period, Prasat Andet style)",
+        "medium": "Sandstone",
+        "dimensions": "H. 36 in. (91.4 cm)",
+        "classification": "Sculpture",
+        "categories": [
+          "temples",
+          "khmer_art",
+          "archaeology"
+        ],
+        "originalUrl": "https://www.metmuseum.org/art/collection/search/38195",
+        "relevanceScore": 100,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia",
+          "prasat"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0 (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Harihara\", Khmer Master Artisan, late 7th–early 8th century, The Metropolitan Museum of Art, ID: 38195, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://images.metmuseum.org/CRDImages/as/original/DP152885.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 2700,
+            "height": 3800,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.115Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0007",
+      "canonicalTitle": "Uma (Parvati)",
+      "suggestedCategory": "arts",
+      "sourceItemCount": 1,
+      "sources": [
+        "met_museum_open_access"
+      ],
+      "sourceItemIds": [
+        "met_museum_open_access:38202"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "met_museum_open_access",
+        "sourceName": "The Metropolitan Museum of Art",
+        "sourceItemId": "38202",
+        "title": "Uma (Parvati)",
+        "creator": "Khmer Master Artisan",
+        "date": "11th century",
+        "culture": "Cambodia (Angkor period, Baphuon style)",
+        "medium": "Sandstone",
+        "dimensions": "H. 28 3/4 in. (73 cm)",
+        "classification": "Sculpture",
+        "categories": [
+          "arts",
+          "khmer_art",
+          "archaeology"
+        ],
+        "originalUrl": "https://www.metmuseum.org/art/collection/search/38202",
+        "relevanceScore": 100,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia",
+          "baphuon"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0 (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Uma (Parvati)\", Khmer Master Artisan, 11th century, The Metropolitan Museum of Art, ID: 38202, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://images.metmuseum.org/CRDImages/as/original/DP152892.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 2600,
+            "height": 3700,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.115Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0008",
+      "canonicalTitle": "Shiva as Uma-Maheshvara",
+      "suggestedCategory": "arts",
+      "sourceItemCount": 3,
+      "sources": [
+        "met_museum_open_access",
+        "smithsonian_open_access"
+      ],
+      "sourceItemIds": [
+        "met_museum_open_access:38210",
+        "met_museum_open_access:38230",
+        "smithsonian_open_access:edanmdm:fsg_F1993.4"
+      ],
+      "canonicalMediaCount": 3,
+      "representativeRecord": {
+        "sourceId": "met_museum_open_access",
+        "sourceName": "The Metropolitan Museum of Art",
+        "sourceItemId": "38210",
+        "title": "Shiva as Uma-Maheshvara",
+        "creator": "Khmer Master Artisan",
+        "date": "second half of the 10th century",
+        "culture": "Cambodia (Angkor period, Banteay Srei style)",
+        "medium": "Sandstone",
+        "dimensions": "H. 15 1/2 in. (39.4 cm)",
+        "classification": "Sculpture",
+        "categories": [
+          "arts",
+          "khmer_art",
+          "archaeology"
+        ],
+        "originalUrl": "https://www.metmuseum.org/art/collection/search/38210",
+        "relevanceScore": 100,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia",
+          "banteay srei"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0 (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Shiva as Uma-Maheshvara\", Khmer Master Artisan, second half of the 10th century, The Metropolitan Museum of Art, ID: 38210, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://images.metmuseum.org/CRDImages/as/original/DP152898.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 2500,
+            "height": 3200,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.116Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0009",
+      "canonicalTitle": "Garuda Finial for a Chariot or Palanquin",
+      "suggestedCategory": "temples",
+      "sourceItemCount": 1,
+      "sources": [
+        "met_museum_open_access"
+      ],
+      "sourceItemIds": [
+        "met_museum_open_access:38218"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "met_museum_open_access",
+        "sourceName": "The Metropolitan Museum of Art",
+        "sourceItemId": "38218",
+        "title": "Garuda Finial for a Chariot or Palanquin",
+        "creator": "Khmer Master Artisan",
+        "date": "12th century",
+        "culture": "Cambodia (Angkor period, Angkor Wat style)",
+        "medium": "Bronze with gilt traces",
+        "dimensions": "H. 14 in. (35.6 cm)",
+        "classification": "Metalwork",
+        "categories": [
+          "temples",
+          "khmer_art",
+          "archaeology"
+        ],
+        "originalUrl": "https://www.metmuseum.org/art/collection/search/38218",
+        "relevanceScore": 80,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0 (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Garuda Finial for a Chariot or Palanquin\", Khmer Master Artisan, 12th century, The Metropolitan Museum of Art, ID: 38218, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://images.metmuseum.org/CRDImages/as/original/DP152904.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 3000,
+            "height": 3000,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.116Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0010",
+      "canonicalTitle": "Conch (Shankha) with Hevajra Motif",
+      "suggestedCategory": "temples",
+      "sourceItemCount": 1,
+      "sources": [
+        "met_museum_open_access"
+      ],
+      "sourceItemIds": [
+        "met_museum_open_access:38225"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "met_museum_open_access",
+        "sourceName": "The Metropolitan Museum of Art",
+        "sourceItemId": "38225",
+        "title": "Conch (Shankha) with Hevajra Motif",
+        "creator": "Khmer Master Artisan",
+        "date": "late 12th–early 13th century",
+        "culture": "Cambodia (Angkor period, Bayon style)",
+        "medium": "Bronze",
+        "dimensions": "L. 10 1/4 in. (26 cm)",
+        "classification": "Metalwork",
+        "categories": [
+          "temples",
+          "khmer_art",
+          "archaeology"
+        ],
+        "originalUrl": "https://www.metmuseum.org/art/collection/search/38225",
+        "relevanceScore": 100,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia",
+          "bayon"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0 (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Conch (Shankha) with Hevajra Motif\", Khmer Master Artisan, late 12th–early 13th century, The Metropolitan Museum of Art, ID: 38225, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://images.metmuseum.org/CRDImages/as/original/DP152912.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 3100,
+            "height": 2500,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.116Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0011",
+      "canonicalTitle": "Bell with Nandi Finial",
+      "suggestedCategory": "history",
+      "sourceItemCount": 1,
+      "sources": [
+        "met_museum_open_access"
+      ],
+      "sourceItemIds": [
+        "met_museum_open_access:38242"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "met_museum_open_access",
+        "sourceName": "The Metropolitan Museum of Art",
+        "sourceItemId": "38242",
+        "title": "Bell with Nandi Finial",
+        "creator": "Khmer Master Artisan",
+        "date": "11th–12th century",
+        "culture": "Cambodia (Angkor period)",
+        "medium": "Bronze",
+        "dimensions": "H. 7 3/4 in. (19.7 cm)",
+        "classification": "Metalwork",
+        "categories": [
+          "history",
+          "khmer_art",
+          "archaeology"
+        ],
+        "originalUrl": "https://www.metmuseum.org/art/collection/search/38242",
+        "relevanceScore": 80,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0 (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Bell with Nandi Finial\", Khmer Master Artisan, 11th–12th century, The Metropolitan Museum of Art, ID: 38242, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://images.metmuseum.org/CRDImages/as/original/DP152932.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 2400,
+            "height": 2900,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.116Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0012",
+      "canonicalTitle": "Head of a Buddha",
+      "suggestedCategory": "arts",
+      "sourceItemCount": 1,
+      "sources": [
+        "smithsonian_open_access"
+      ],
+      "sourceItemIds": [
+        "smithsonian_open_access:edanmdm:fsg_F1998.4"
+      ],
+      "canonicalMediaCount": 2,
+      "representativeRecord": {
+        "sourceId": "smithsonian_open_access",
+        "sourceName": "Smithsonian National Museum of Asian Art",
+        "sourceItemId": "edanmdm:fsg_F1998.4",
+        "title": "Head of a Buddha",
+        "creator": "Khmer Master Sculptor",
+        "date": "late 12th–early 13th century",
+        "culture": "Cambodian or Thai (Khmer style, Angkor period)",
+        "medium": "Sandstone",
+        "dimensions": "H x W x D: 28.5 x 19.5 x 18.5 cm (11 1/4 x 7 11/16 x 7 5/16 in)",
+        "classification": "Sculpture",
+        "categories": [
+          "arts",
+          "khmer_sculpture",
+          "freer_sackler"
+        ],
+        "originalUrl": "https://asia.si.edu/object/F1998.4",
+        "relevanceScore": 120,
+        "relevanceKeywords": [
+          "khmer",
+          "angkor",
+          "cambodia",
+          "cambodian"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0 (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Head of a Buddha\", Khmer Master Sculptor, late 12th–early 13th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1998.4, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://ids.si.edu/ids/deliveryService?id=FS-7521_04",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 4000,
+            "height": 3200,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          },
+          {
+            "url": "https://ids.si.edu/ids/deliveryService?id=FS-7521_05",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 4000,
+            "height": 3200,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.117Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0013",
+      "canonicalTitle": "Prajnaparamita (Bodhisattva of Transcendent Wisdom)",
+      "suggestedCategory": "temples",
+      "sourceItemCount": 1,
+      "sources": [
+        "smithsonian_open_access"
+      ],
+      "sourceItemIds": [
+        "smithsonian_open_access:edanmdm:fsg_F1999.6"
+      ],
+      "canonicalMediaCount": 2,
+      "representativeRecord": {
+        "sourceId": "smithsonian_open_access",
+        "sourceName": "Smithsonian National Museum of Asian Art",
+        "sourceItemId": "edanmdm:fsg_F1999.6",
+        "title": "Prajnaparamita (Bodhisattva of Transcendent Wisdom)",
+        "creator": "Khmer Master Sculptor",
+        "date": "late 12th–early 13th century",
+        "culture": "Cambodia (Angkor period, Bayon style)",
+        "medium": "Bronze with silver and copper inlay",
+        "dimensions": "H x W x D: 123.5 x 44.5 x 28.3 cm (48 5/8 x 17 1/2 x 11 1/8 in)",
+        "classification": "Sculpture",
+        "categories": [
+          "temples",
+          "khmer_sculpture",
+          "freer_sackler"
+        ],
+        "originalUrl": "https://asia.si.edu/object/F1999.6",
+        "relevanceScore": 120,
+        "relevanceKeywords": [
+          "khmer",
+          "angkor",
+          "cambodia",
+          "bayon"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0 (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Prajnaparamita (Bodhisattva of Transcendent Wisdom)\", Khmer Master Sculptor, late 12th–early 13th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1999.6, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://ids.si.edu/ids/deliveryService?id=FS-7788_02",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 3800,
+            "height": 5000,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_ULTRA_HI_RES_IMAGE_MODEL",
+            "estimatedOriginalBytes": 22000000,
+            "estimatedOptimizedBytes": 950000
+          },
+          {
+            "url": "https://ids.si.edu/ids/deliveryService?id=FS-7788_03",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 3800,
+            "height": 5000,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_ULTRA_HI_RES_IMAGE_MODEL",
+            "estimatedOriginalBytes": 22000000,
+            "estimatedOptimizedBytes": 950000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.117Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0014",
+      "canonicalTitle": "Covered Box in the Shape of an Elephant",
+      "suggestedCategory": "arts",
+      "sourceItemCount": 1,
+      "sources": [
+        "smithsonian_open_access"
+      ],
+      "sourceItemIds": [
+        "smithsonian_open_access:edanmdm:fsg_F2005.1"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "smithsonian_open_access",
+        "sourceName": "Smithsonian National Museum of Asian Art",
+        "sourceItemId": "edanmdm:fsg_F2005.1",
+        "title": "Covered Box in the Shape of an Elephant",
+        "creator": "Khmer Master Sculptor",
+        "date": "12th–13th century",
+        "culture": "Cambodia (Angkor period)",
+        "medium": "Glazed stoneware",
+        "dimensions": "H x W x D: 16.5 x 18.2 x 14.8 cm (6 1/2 x 7 3/16 x 5 13/16 in)",
+        "classification": "Ceramics",
+        "categories": [
+          "arts",
+          "khmer_sculpture",
+          "freer_sackler"
+        ],
+        "originalUrl": "https://asia.si.edu/object/F2005.1",
+        "relevanceScore": 100,
+        "relevanceKeywords": [
+          "khmer",
+          "angkor",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0 (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Covered Box in the Shape of an Elephant\", Khmer Master Sculptor, 12th–13th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F2005.1, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://ids.si.edu/ids/deliveryService?id=FS-8201_03",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 3400,
+            "height": 3000,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.117Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0015",
+      "canonicalTitle": "Linga with Yoni Base",
+      "suggestedCategory": "arts",
+      "sourceItemCount": 1,
+      "sources": [
+        "smithsonian_open_access"
+      ],
+      "sourceItemIds": [
+        "smithsonian_open_access:edanmdm:fsg_F1996.2"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "smithsonian_open_access",
+        "sourceName": "Smithsonian National Museum of Asian Art",
+        "sourceItemId": "edanmdm:fsg_F1996.2",
+        "title": "Linga with Yoni Base",
+        "creator": "Khmer Master Sculptor",
+        "date": "11th century",
+        "culture": "Cambodia (Angkor period, Baphuon style)",
+        "medium": "Sandstone with bronze finial",
+        "dimensions": "H x W x D: 45.2 x 28.0 x 28.0 cm (17 13/16 x 11 x 11 in)",
+        "classification": "Sculpture",
+        "categories": [
+          "arts",
+          "khmer_sculpture",
+          "freer_sackler"
+        ],
+        "originalUrl": "https://asia.si.edu/object/F1996.2",
+        "relevanceScore": 120,
+        "relevanceKeywords": [
+          "khmer",
+          "angkor",
+          "cambodia",
+          "baphuon"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0 (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Linga with Yoni Base\", Khmer Master Sculptor, 11th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1996.2, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://ids.si.edu/ids/deliveryService?id=FS-7489_01",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 3000,
+            "height": 3800,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.117Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0016",
+      "canonicalTitle": "Kneeling Attendant Figure (Apsara/Devata)",
+      "suggestedCategory": "arts",
+      "sourceItemCount": 1,
+      "sources": [
+        "smithsonian_open_access"
+      ],
+      "sourceItemIds": [
+        "smithsonian_open_access:edanmdm:fsg_F2001.9"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "smithsonian_open_access",
+        "sourceName": "Smithsonian National Museum of Asian Art",
+        "sourceItemId": "edanmdm:fsg_F2001.9",
+        "title": "Kneeling Attendant Figure (Apsara/Devata)",
+        "creator": "Khmer Master Sculptor",
+        "date": "late 10th century",
+        "culture": "Cambodia (Angkor period, Banteay Srei style)",
+        "medium": "Pink sandstone",
+        "dimensions": "H x W x D: 56.4 x 26.0 x 22.0 cm",
+        "classification": "Sculpture",
+        "categories": [
+          "arts",
+          "khmer_sculpture",
+          "freer_sackler"
+        ],
+        "originalUrl": "https://asia.si.edu/object/F2001.9",
+        "relevanceScore": 140,
+        "relevanceKeywords": [
+          "khmer",
+          "angkor",
+          "cambodia",
+          "banteay srei",
+          "apsara"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0 (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Kneeling Attendant Figure (Apsara/Devata)\", Khmer Master Sculptor, late 10th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F2001.9, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://ids.si.edu/ids/deliveryService?id=FS-7955_01",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 3200,
+            "height": 4500,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.117Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0017",
+      "canonicalTitle": "Twentieth-Century American Jazz Trumpet",
+      "suggestedCategory": "arts",
+      "sourceItemCount": 1,
+      "sources": [
+        "smithsonian_open_access"
+      ],
+      "sourceItemIds": [
+        "smithsonian_open_access:edanmdm:nmaahc_2015.1"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "smithsonian_open_access",
+        "sourceName": "Smithsonian National Museum of Asian Art",
+        "sourceItemId": "edanmdm:nmaahc_2015.1",
+        "title": "Twentieth-Century American Jazz Trumpet",
+        "creator": "Khmer Master Sculptor",
+        "date": "1955",
+        "culture": "American",
+        "medium": "Brass",
+        "dimensions": "H: 48 cm",
+        "classification": "Musical Instruments",
+        "categories": [
+          "arts",
+          "khmer_sculpture",
+          "freer_sackler"
+        ],
+        "originalUrl": "https://asia.si.edu/object/edanmdm:nmaahc_2015.1",
+        "relevanceScore": 40,
+        "relevanceKeywords": [
+          "khmer",
+          "angkor"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0 (Public Domain)",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Twentieth-Century American Jazz Trumpet\", Khmer Master Sculptor, 1955, Smithsonian National Museum of Asian Art, ID: edanmdm:nmaahc_2015.1, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://ids.si.edu/ids/deliveryService?id=NMAAHC-001",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 2400,
+            "height": 2400,
+            "isSizeKnown": false,
+            "sizeEstimationMethod": "EMPIRICAL_MUSEUM_ARCHIVAL_IMAGE_MODEL",
+            "estimatedOriginalBytes": 12500000,
+            "estimatedOptimizedBytes": 680000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.117Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0018",
+      "canonicalTitle": "Angkor Wat temple complex panorama at sunrise.jpg",
+      "suggestedCategory": "temples",
+      "sourceItemCount": 1,
+      "sources": [
+        "wikimedia_commons"
+      ],
+      "sourceItemIds": [
+        "wikimedia_commons:101"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "wikimedia_commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceItemId": "101",
+        "title": "Angkor Wat temple complex panorama at sunrise.jpg",
+        "creator": "Bjørn Christian Tørrissen",
+        "date": "2019-11-14",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Angkor_Wat_temple_complex_panorama_at_sunrise.jpg",
+        "categories": [
+          "temples",
+          "Angkor Wat at sunrise",
+          "Khmer architecture in Cambodia",
+          "Featured pictures of Cambodia"
+        ],
+        "relevanceScore": 90,
+        "relevanceKeywords": [
+          "khmer",
+          "angkor",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc_by_sa",
+        "isCommercialAllowed": true,
+        "isPublicDomain": false,
+        "attribution": "\"Angkor Wat temple complex panorama at sunrise.jpg\", Bjørn Christian Tørrissen, 2019-11-14, Wikimedia Commons, ID: 101, (CC-BY-SA)",
+        "media": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Angkor_Wat_temple_complex_panorama_at_sunrise.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 5800,
+            "height": 3200,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 14850000,
+            "estimatedOptimizedBytes": 849057
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.119Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0019",
+      "canonicalTitle": "Bayon Temple smiling stone faces towers Angkor Thom.jpg",
+      "suggestedCategory": "temples",
+      "sourceItemCount": 1,
+      "sources": [
+        "wikimedia_commons"
+      ],
+      "sourceItemIds": [
+        "wikimedia_commons:102"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "wikimedia_commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceItemId": "102",
+        "title": "Bayon Temple smiling stone faces towers Angkor Thom.jpg",
+        "creator": "CEphoto, Uwe Aranas",
+        "date": "2018-03-22",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Bayon_Temple_smiling_stone_faces_towers_Angkor_Thom.jpg",
+        "categories": [
+          "temples",
+          "Bayon",
+          "Angkor Thom",
+          "Lokeshvara faces in Khmer architecture"
+        ],
+        "relevanceScore": 90,
+        "relevanceKeywords": [
+          "khmer",
+          "angkor",
+          "bayon"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc_by_sa",
+        "isCommercialAllowed": true,
+        "isPublicDomain": false,
+        "attribution": "\"Bayon Temple smiling stone faces towers Angkor Thom.jpg\", CEphoto, Uwe Aranas, 2018-03-22, Wikimedia Commons, ID: 102, (CC-BY-SA)",
+        "media": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Bayon_Temple_smiling_stone_faces_towers_Angkor_Thom.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 4800,
+            "height": 3600,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 12400000,
+            "estimatedOptimizedBytes": 708977
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.119Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0020",
+      "canonicalTitle": "Banteay Srei pink sandstone intricate lintel carvings.jpg",
+      "suggestedCategory": "arts",
+      "sourceItemCount": 1,
+      "sources": [
+        "wikimedia_commons"
+      ],
+      "sourceItemIds": [
+        "wikimedia_commons:103"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "wikimedia_commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceItemId": "103",
+        "title": "Banteay Srei pink sandstone intricate lintel carvings.jpg",
+        "creator": "Vyacheslav Argenberg",
+        "date": "2020-01-10",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Banteay_Srei_pink_sandstone_intricate_lintel_carvings.jpg",
+        "categories": [
+          "arts",
+          "Banteay Srei carvings",
+          "Hindu lintels in Cambodia",
+          "Khmer decorative art"
+        ],
+        "relevanceScore": 60,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia",
+          "banteay srei"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc_by",
+        "isCommercialAllowed": true,
+        "isPublicDomain": false,
+        "attribution": "\"Banteay Srei pink sandstone intricate lintel carvings.jpg\", Vyacheslav Argenberg, 2020-01-10, Wikimedia Commons, ID: 103, (CC-BY)",
+        "media": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Banteay_Srei_pink_sandstone_intricate_lintel_carvings.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 4200,
+            "height": 2800,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 9800000,
+            "estimatedOptimizedBytes": 560320
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.119Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0021",
+      "canonicalTitle": "Preah Vihear cliffside sanctuary northern staircase view.jpg",
+      "suggestedCategory": "temples",
+      "sourceItemCount": 1,
+      "sources": [
+        "wikimedia_commons"
+      ],
+      "sourceItemIds": [
+        "wikimedia_commons:104"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "wikimedia_commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceItemId": "104",
+        "title": "Preah Vihear cliffside sanctuary northern staircase view.jpg",
+        "creator": "Danyal",
+        "date": "2017-08-05",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Preah_Vihear_cliffside_sanctuary_northern_staircase_view.jpg",
+        "categories": [
+          "temples",
+          "Prasat Preah Vihear",
+          "Dângrêk Mountains",
+          "UNESCO World Heritage Sites in Cambodia"
+        ],
+        "relevanceScore": 80,
+        "relevanceKeywords": [
+          "cambodia",
+          "preah",
+          "preah vihear",
+          "prasat"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc_by_sa",
+        "isCommercialAllowed": true,
+        "isPublicDomain": false,
+        "attribution": "\"Preah Vihear cliffside sanctuary northern staircase view.jpg\", Danyal, 2017-08-05, Wikimedia Commons, ID: 104, (CC-BY-SA)",
+        "media": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Preah_Vihear_cliffside_sanctuary_northern_staircase_view.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 4500,
+            "height": 3000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 11200000,
+            "estimatedOptimizedBytes": 640366
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.119Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0022",
+      "canonicalTitle": "Royal Ballet of Cambodia classical Apsara dance performance.jpg",
+      "suggestedCategory": "rituals",
+      "sourceItemCount": 1,
+      "sources": [
+        "wikimedia_commons"
+      ],
+      "sourceItemIds": [
+        "wikimedia_commons:105"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "wikimedia_commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceItemId": "105",
+        "title": "Royal Ballet of Cambodia classical Apsara dance performance.jpg",
+        "creator": "Ministry of Culture and Fine Arts Photographer",
+        "date": "2016-04-12",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Royal_Ballet_of_Cambodia_classical_Apsara_dance_performance.jpg",
+        "categories": [
+          "rituals",
+          "Robam Tep Apsara",
+          "Khmer classical dance",
+          "Traditional costumes of Cambodia"
+        ],
+        "relevanceScore": 60,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia",
+          "apsara"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc_by_sa",
+        "isCommercialAllowed": true,
+        "isPublicDomain": false,
+        "attribution": "\"Royal Ballet of Cambodia classical Apsara dance performance.jpg\", Ministry of Culture and Fine Arts Photographer, 2016-04-12, Wikimedia Commons, ID: 105, (CC-BY-SA)",
+        "media": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Royal_Ballet_of_Cambodia_classical_Apsara_dance_performance.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 4000,
+            "height": 2667,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 8700000,
+            "estimatedOptimizedBytes": 497427
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.119Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0023",
+      "canonicalTitle": "Traditional Pinpeat orchestra ensemble performing with Roneat Ek and Kong Vong.jpg",
+      "suggestedCategory": "music",
+      "sourceItemCount": 1,
+      "sources": [
+        "wikimedia_commons"
+      ],
+      "sourceItemIds": [
+        "wikimedia_commons:106"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "wikimedia_commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceItemId": "106",
+        "title": "Traditional Pinpeat orchestra ensemble performing with Roneat Ek and Kong Vong.jpg",
+        "creator": "Khmer Heritage Foundation",
+        "date": "2021-02-18",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Traditional_Pinpeat_orchestra_ensemble_performing.jpg",
+        "categories": [
+          "music",
+          "Pinpeat music",
+          "Khmer musical instruments",
+          "Roneat ek"
+        ],
+        "relevanceScore": 40,
+        "relevanceKeywords": [
+          "khmer",
+          "pinpeat"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc_by_sa",
+        "isCommercialAllowed": true,
+        "isPublicDomain": false,
+        "attribution": "\"Traditional Pinpeat orchestra ensemble performing with Roneat Ek and Kong Vong.jpg\", Khmer Heritage Foundation, 2021-02-18, Wikimedia Commons, ID: 106, (CC-BY-SA)",
+        "media": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Traditional_Pinpeat_orchestra_ensemble_performing.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 4400,
+            "height": 2933,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 10150000,
+            "estimatedOptimizedBytes": 580332
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.119Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0024",
+      "canonicalTitle": "Chapei Dang Veng traditional solo performance master.ogg",
+      "suggestedCategory": "music",
+      "sourceItemCount": 1,
+      "sources": [
+        "wikimedia_commons"
+      ],
+      "sourceItemIds": [
+        "wikimedia_commons:107"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "wikimedia_commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceItemId": "107",
+        "title": "Chapei Dang Veng traditional solo performance master.ogg",
+        "creator": "Cambodian Living Arts Master",
+        "date": "2019-06-20",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Chapei_Dang_Veng_traditional_solo_performance.ogg",
+        "categories": [
+          "music",
+          "Chapei Dang Veng",
+          "UNESCO Intangible Cultural Heritage of Cambodia",
+          "Khmer folk songs"
+        ],
+        "relevanceScore": 60,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia",
+          "chapei"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc_by_sa",
+        "isCommercialAllowed": true,
+        "isPublicDomain": false,
+        "attribution": "\"Chapei Dang Veng traditional solo performance master.ogg\", Cambodian Living Arts Master, 2019-06-20, Wikimedia Commons, ID: 107, (CC-BY-SA)",
+        "media": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Chapei_Dang_Veng_traditional_solo_performance.ogg",
+            "mimeType": "audio/ogg",
+            "mediaType": "audio",
+            "width": 0,
+            "height": 0,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 4800000,
+            "estimatedOptimizedBytes": 738462
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.119Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0025",
+      "canonicalTitle": "Ta Prohm temple giant tetrameles nudiflora tree roots covering gallery.jpg",
+      "suggestedCategory": "temples",
+      "sourceItemCount": 1,
+      "sources": [
+        "wikimedia_commons"
+      ],
+      "sourceItemIds": [
+        "wikimedia_commons:108"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "wikimedia_commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceItemId": "108",
+        "title": "Ta Prohm temple giant tetrameles nudiflora tree roots covering gallery.jpg",
+        "creator": "Diego Delso",
+        "date": "2014-12-01",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ta_Prohm_temple_giant_tetrameles_nudiflora_tree_roots.jpg",
+        "categories": [
+          "temples",
+          "Ta Prohm",
+          "Trees in Angkor",
+          "Buddhist temples in Cambodia"
+        ],
+        "relevanceScore": 60,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia",
+          "ta prohm"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc_by_sa",
+        "isCommercialAllowed": true,
+        "isPublicDomain": false,
+        "attribution": "\"Ta Prohm temple giant tetrameles nudiflora tree roots covering gallery.jpg\", Diego Delso, 2014-12-01, Wikimedia Commons, ID: 108, (CC-BY-SA)",
+        "media": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ta_Prohm_temple_giant_tetrameles_nudiflora_tree_roots.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 5200,
+            "height": 3467,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 15200000,
+            "estimatedOptimizedBytes": 869068
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.119Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0026",
+      "canonicalTitle": "Sastra Slek Rit ancient Khmer palm-leaf manuscript inscription.pdf",
+      "suggestedCategory": "script",
+      "sourceItemCount": 1,
+      "sources": [
+        "wikimedia_commons"
+      ],
+      "sourceItemIds": [
+        "wikimedia_commons:109"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "wikimedia_commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceItemId": "109",
+        "title": "Sastra Slek Rit ancient Khmer palm-leaf manuscript inscription.pdf",
+        "creator": "Buddhist Institute Archive",
+        "date": "2015-09-10",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sastra_Slek_Rit_ancient_Khmer_palm_leaf_manuscript.pdf",
+        "categories": [
+          "script",
+          "Khmer manuscripts",
+          "Pali literature in Cambodia",
+          "Palm leaf manuscripts"
+        ],
+        "relevanceScore": 90,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia",
+          "sastra slek rit"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Sastra Slek Rit ancient Khmer palm-leaf manuscript inscription.pdf\", Buddhist Institute Archive, 2015-09-10, Wikimedia Commons, ID: 109, (CC0-1.0 (Public Domain))",
+        "media": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sastra_Slek_Rit_ancient_Khmer_palm_leaf_manuscript.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "width": 0,
+            "height": 0,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 18400000,
+            "estimatedOptimizedBytes": 10222222
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.120Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0027",
+      "canonicalTitle": "Angkor Thom south gate naga bridge guardian statues.jpg",
+      "suggestedCategory": "arts",
+      "sourceItemCount": 1,
+      "sources": [
+        "wikimedia_commons"
+      ],
+      "sourceItemIds": [
+        "wikimedia_commons:110"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "wikimedia_commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceItemId": "110",
+        "title": "Angkor Thom south gate naga bridge guardian statues.jpg",
+        "creator": "Pisit",
+        "date": "2020-03-15",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Angkor_Thom_south_gate_naga_bridge_guardian_statues.jpg",
+        "categories": [
+          "arts",
+          "Angkor Thom South Gate",
+          "Churning of the Ocean of Milk sculptures",
+          "Khmer stone gates"
+        ],
+        "relevanceScore": 70,
+        "relevanceKeywords": [
+          "khmer",
+          "angkor"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc_by",
+        "isCommercialAllowed": true,
+        "isPublicDomain": false,
+        "attribution": "\"Angkor Thom south gate naga bridge guardian statues.jpg\", Pisit, 2020-03-15, Wikimedia Commons, ID: 110, (CC-BY)",
+        "media": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Angkor_Thom_south_gate_naga_bridge_guardian_statues.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 4000,
+            "height": 3000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 9300000,
+            "estimatedOptimizedBytes": 531732
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.120Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0028",
+      "canonicalTitle": "Prasat Kravan brick temple Vishnu bas-relief sculptures.jpg",
+      "suggestedCategory": "temples",
+      "sourceItemCount": 1,
+      "sources": [
+        "wikimedia_commons"
+      ],
+      "sourceItemIds": [
+        "wikimedia_commons:111"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "wikimedia_commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceItemId": "111",
+        "title": "Prasat Kravan brick temple Vishnu bas-relief sculptures.jpg",
+        "creator": "Giles McDonald",
+        "date": "2017-04-18",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Prasat_Kravan_brick_temple_Vishnu_bas_relief.jpg",
+        "categories": [
+          "temples",
+          "Prasat Kravan",
+          "Brick temples of Angkor",
+          "Vishnu reliefs in Cambodia"
+        ],
+        "relevanceScore": 60,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia",
+          "prasat"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc_by_sa",
+        "isCommercialAllowed": true,
+        "isPublicDomain": false,
+        "attribution": "\"Prasat Kravan brick temple Vishnu bas-relief sculptures.jpg\", Giles McDonald, 2017-04-18, Wikimedia Commons, ID: 111, (CC-BY-SA)",
+        "media": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Prasat_Kravan_brick_temple_Vishnu_bas_relief.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 3800,
+            "height": 2850,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 8900000,
+            "estimatedOptimizedBytes": 508862
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.120Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0029",
+      "canonicalTitle": "Koh Ker Prasat Thom seven-tiered pyramid temple.jpg",
+      "suggestedCategory": "temples",
+      "sourceItemCount": 1,
+      "sources": [
+        "wikimedia_commons"
+      ],
+      "sourceItemIds": [
+        "wikimedia_commons:112"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "wikimedia_commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceItemId": "112",
+        "title": "Koh Ker Prasat Thom seven-tiered pyramid temple.jpg",
+        "creator": "Jean-Pierre Dalbéra",
+        "date": "2016-01-28",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Koh_Ker_Prasat_Thom_seven_tiered_pyramid_temple.jpg",
+        "categories": [
+          "temples",
+          "Prasat Thom Koh Ker",
+          "Pyramids in Cambodia",
+          "10th-century Khmer architecture"
+        ],
+        "relevanceScore": 80,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia",
+          "koh ker",
+          "prasat"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc_by",
+        "isCommercialAllowed": true,
+        "isPublicDomain": false,
+        "attribution": "\"Koh Ker Prasat Thom seven-tiered pyramid temple.jpg\", Jean-Pierre Dalbéra, 2016-01-28, Wikimedia Commons, ID: 112, (CC-BY)",
+        "media": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Koh_Ker_Prasat_Thom_seven_tiered_pyramid_temple.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 4900,
+            "height": 3267,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 13100000,
+            "estimatedOptimizedBytes": 748999
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.120Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0030",
+      "canonicalTitle": "Sambor Prei Kuk brick octagonal temple Prasat Tao.jpg",
+      "suggestedCategory": "temples",
+      "sourceItemCount": 1,
+      "sources": [
+        "wikimedia_commons"
+      ],
+      "sourceItemIds": [
+        "wikimedia_commons:113"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "wikimedia_commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceItemId": "113",
+        "title": "Sambor Prei Kuk brick octagonal temple Prasat Tao.jpg",
+        "creator": "Supnut",
+        "date": "2018-11-09",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Sambor_Prei_Kuk_brick_octagonal_temple_Prasat_Tao.jpg",
+        "categories": [
+          "temples",
+          "Sambor Prei Kuk",
+          "Chenla period temples",
+          "Kompong Thom heritage"
+        ],
+        "relevanceScore": 60,
+        "relevanceKeywords": [
+          "sambor prei kuk",
+          "chenla",
+          "prasat"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc_by_sa",
+        "isCommercialAllowed": true,
+        "isPublicDomain": false,
+        "attribution": "\"Sambor Prei Kuk brick octagonal temple Prasat Tao.jpg\", Supnut, 2018-11-09, Wikimedia Commons, ID: 113, (CC-BY-SA)",
+        "media": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Sambor_Prei_Kuk_brick_octagonal_temple_Prasat_Tao.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 4600,
+            "height": 3067,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 11400000,
+            "estimatedOptimizedBytes": 651801
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.120Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0031",
+      "canonicalTitle": "Reamker epic shadow theatre Sbek Thom performance video clip.webm",
+      "suggestedCategory": "mythology",
+      "sourceItemCount": 1,
+      "sources": [
+        "wikimedia_commons"
+      ],
+      "sourceItemIds": [
+        "wikimedia_commons:114"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "wikimedia_commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceItemId": "114",
+        "title": "Reamker epic shadow theatre Sbek Thom performance video clip.webm",
+        "creator": "Sovanna Phum Theatre",
+        "date": "2021-07-14",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Reamker_epic_shadow_theatre_Sbek_Thom_performance.webm",
+        "categories": [
+          "mythology",
+          "Sbek Thom",
+          "Khmer shadow theatre",
+          "Reamker performances"
+        ],
+        "relevanceScore": 40,
+        "relevanceKeywords": [
+          "khmer",
+          "reamker"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc_by_sa",
+        "isCommercialAllowed": true,
+        "isPublicDomain": false,
+        "attribution": "\"Reamker epic shadow theatre Sbek Thom performance video clip.webm\", Sovanna Phum Theatre, 2021-07-14, Wikimedia Commons, ID: 114, (CC-BY-SA)",
+        "media": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Reamker_epic_shadow_theatre_Sbek_Thom_performance.webm",
+            "mimeType": "video/webm",
+            "mediaType": "video",
+            "width": 1920,
+            "height": 1080,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 32000000,
+            "estimatedOptimizedBytes": 8000000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.120Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0032",
+      "canonicalTitle": "Khmer traditional silk weaving hol and ikat pattern.jpg",
+      "suggestedCategory": "costumes",
+      "sourceItemCount": 1,
+      "sources": [
+        "wikimedia_commons"
+      ],
+      "sourceItemIds": [
+        "wikimedia_commons:115"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "wikimedia_commons",
+        "sourceName": "Wikimedia Commons",
+        "sourceItemId": "115",
+        "title": "Khmer traditional silk weaving hol and ikat pattern.jpg",
+        "creator": "Phnom Srok Artisans Guild",
+        "date": "2019-08-22",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Khmer_traditional_silk_weaving_hol_and_ikat.jpg",
+        "categories": [
+          "costumes",
+          "Khmer silk",
+          "Ikat textiles in Cambodia",
+          "Traditional crafts of Cambodia"
+        ],
+        "relevanceScore": 70,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc_by_sa",
+        "isCommercialAllowed": true,
+        "isPublicDomain": false,
+        "attribution": "\"Khmer traditional silk weaving hol and ikat pattern.jpg\", Phnom Srok Artisans Guild, 2019-08-22, Wikimedia Commons, ID: 115, (CC-BY-SA)",
+        "media": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Khmer_traditional_silk_weaving_hol_and_ikat.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 3600,
+            "height": 2400,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 7600000,
+            "estimatedOptimizedBytes": 434534
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.120Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0033",
+      "canonicalTitle": "Inscriptions du Cambodge, Vol. 1: Épigraphie Khmère Ancienne",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "internet_archive"
+      ],
+      "sourceItemIds": [
+        "internet_archive:inscriptionsducambodgecoedes01"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "internet_archive",
+        "sourceName": "Internet Archive (archive.org)",
+        "sourceItemId": "inscriptionsducambodgecoedes01",
+        "title": "Inscriptions du Cambodge, Vol. 1: Épigraphie Khmère Ancienne",
+        "creator": "George Cœdès (1886-1969)",
+        "date": "1937",
+        "description": "Foundational scholarly transcription, translation, and historical commentary on ancient Sanskrit and Old Khmer stone inscriptions.",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Khmer)",
+        "originalUrl": "https://archive.org/details/inscriptionsducambodgecoedes01",
+        "relevanceScore": 70,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "http://creativecommons.org/publicdomain/mark/1.0/",
+        "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"George Cœdès (1886-1969)\", 1937, CC0-1.0 (Public Domain), Internet Archive (archive.org), (https://archive.org/details/inscriptionsducambodgecoedes01)",
+        "media": [
+          {
+            "url": "https://archive.org/download/inscriptionsducambodgecoedes01/inscriptionsducambodgecoedes01.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 48500000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 48500000,
+            "estimatedOptimizedBytes": 26944444
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.122Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0034",
+      "canonicalTitle": "Voyage au Cambodge : l'architecture khmer",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "internet_archive"
+      ],
+      "sourceItemIds": [
+        "internet_archive:voyageaucambodge01delaporte"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "internet_archive",
+        "sourceName": "Internet Archive (archive.org)",
+        "sourceItemId": "voyageaucambodge01delaporte",
+        "title": "Voyage au Cambodge : l'architecture khmer",
+        "creator": "Louis Delaporte (1842-1925)",
+        "date": "1880",
+        "description": "First comprehensive European architectural monograph on Angkor Wat, Bayon, and Angkor Thom with elaborate lithographic engravings.",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Khmer)",
+        "originalUrl": "https://archive.org/details/voyageaucambodge01delaporte",
+        "relevanceScore": 110,
+        "relevanceKeywords": [
+          "khmer",
+          "angkor",
+          "cambodia",
+          "bayon"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "http://creativecommons.org/publicdomain/mark/1.0/",
+        "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Louis Delaporte (1842-1925)\", 1880, CC0-1.0 (Public Domain), Internet Archive (archive.org), (https://archive.org/details/voyageaucambodge01delaporte)",
+        "media": [
+          {
+            "url": "https://archive.org/download/voyageaucambodge01delaporte/delaporte_voyage_cambodge.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 65200000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 65200000,
+            "estimatedOptimizedBytes": 36222222
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.122Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0035",
+      "canonicalTitle": "Le Cambodge : Le royaume actuel et les provinces siamoises",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "internet_archive"
+      ],
+      "sourceItemIds": [
+        "internet_archive:lecambodgetourisme00aymonier"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "internet_archive",
+        "sourceName": "Internet Archive (archive.org)",
+        "sourceItemId": "lecambodgetourisme00aymonier",
+        "title": "Le Cambodge : Le royaume actuel et les provinces siamoises",
+        "creator": "Étienne Aymonier (1844-1929)",
+        "date": "1900",
+        "description": "Exhaustive 3-volume geographical and epigraphical inventory of Cambodian monuments, temples, folklore, and rural traditions.",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Khmer)",
+        "originalUrl": "https://archive.org/details/lecambodgetourisme00aymonier",
+        "relevanceScore": 60,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia",
+          "cambodian"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "http://creativecommons.org/publicdomain/mark/1.0/",
+        "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Étienne Aymonier (1844-1929)\", 1900, CC0-1.0 (Public Domain), Internet Archive (archive.org), (https://archive.org/details/lecambodgetourisme00aymonier)",
+        "media": [
+          {
+            "url": "https://archive.org/download/lecambodgetourisme00aymonier/aymonier_le_cambodge_v1.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 82400000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 82400000,
+            "estimatedOptimizedBytes": 45777778
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.122Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0036",
+      "canonicalTitle": "The Ancient Khmer Empire",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "internet_archive"
+      ],
+      "sourceItemIds": [
+        "internet_archive:ancientkhmerempirebriggs1951"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "internet_archive",
+        "sourceName": "Internet Archive (archive.org)",
+        "sourceItemId": "ancientkhmerempirebriggs1951",
+        "title": "The Ancient Khmer Empire",
+        "creator": "Lawrence Palmer Briggs",
+        "date": "1951",
+        "description": "Monumental English-language historical synthesis of the Angkorian civilization from Funan to the post-Angkorian decline.",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Khmer)",
+        "originalUrl": "https://archive.org/details/ancientkhmerempirebriggs1951",
+        "relevanceScore": 110,
+        "relevanceKeywords": [
+          "khmer",
+          "angkor",
+          "cambodia",
+          "funan"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "licenseUrl": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+        "attribution": "\"Lawrence Palmer Briggs\", 1951, http://creativecommons.org/licenses/by-nc-nd/4.0/, Internet Archive (archive.org), (https://archive.org/details/ancientkhmerempirebriggs1951)",
+        "media": [
+          {
+            "url": "https://archive.org/download/ancientkhmerempirebriggs1951/ancient_khmer_empire_briggs.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 94000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 94000000,
+            "estimatedOptimizedBytes": 52222222
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.122Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0037",
+      "canonicalTitle": "Royal Court Pinpeat Ensemble: Ceremonial Suite for the Sacred Apsara Dance",
+      "suggestedCategory": "traditional_music",
+      "sourceItemCount": 1,
+      "sources": [
+        "internet_archive"
+      ],
+      "sourceItemIds": [
+        "internet_archive:khmer_royal_pinpeat_ensemble_1962"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "internet_archive",
+        "sourceName": "Internet Archive (archive.org)",
+        "sourceItemId": "khmer_royal_pinpeat_ensemble_1962",
+        "title": "Royal Court Pinpeat Ensemble: Ceremonial Suite for the Sacred Apsara Dance",
+        "creator": "National Royal Palace Orchestra, Phnom Penh",
+        "date": "1962",
+        "description": "Historical acoustic recording of Roneat Ek (xylophone), Kong Vong Toch (gong circles), and Sralai (quadruple-reed oboe) performing the divine Apsara entrance fanfare.",
+        "categories": [
+          "traditional_music"
+        ],
+        "culture": "Cambodia (Khmer)",
+        "originalUrl": "https://archive.org/details/khmer_royal_pinpeat_ensemble_1962",
+        "relevanceScore": 80,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia",
+          "apsara",
+          "pinpeat"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseClassification": "UNKNOWN",
+        "licenseTier": "unknown",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Unverified licensing text: \"http://creativecommons.org/licenses/by-sa/4.0/\"",
+        "attribution": "\"National Royal Palace Orchestra, Phnom Penh\", 1962, http://creativecommons.org/licenses/by-sa/4.0/, Internet Archive (archive.org), (https://archive.org/details/khmer_royal_pinpeat_ensemble_1962)",
+        "media": [
+          {
+            "url": "https://archive.org/download/khmer_royal_pinpeat_ensemble_1962/pinpeat_ceremonial_apsara_1962.flac",
+            "mimeType": "audio/flac",
+            "mediaType": "audio",
+            "durationSeconds": 380,
+            "originalSizeBytes": 24600000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 24600000,
+            "estimatedOptimizedBytes": 3784615
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.122Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0038",
+      "canonicalTitle": "Chapei Dong Veng: Ballad of the Reamker and Moral Verses",
+      "suggestedCategory": "traditional_music",
+      "sourceItemCount": 1,
+      "sources": [
+        "internet_archive"
+      ],
+      "sourceItemIds": [
+        "internet_archive:chapei_dong_veng_master_kong_nay_1991"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "internet_archive",
+        "sourceName": "Internet Archive (archive.org)",
+        "sourceItemId": "chapei_dong_veng_master_kong_nay_1991",
+        "title": "Chapei Dong Veng: Ballad of the Reamker and Moral Verses",
+        "creator": "Master Kong Nay",
+        "date": "1991",
+        "description": "Traditional long-necked lute (Chapei) recitation with improvisational epic narrative poetry registered on UNESCO Intangible Cultural Heritage list.",
+        "categories": [
+          "traditional_music"
+        ],
+        "culture": "Cambodia (Khmer)",
+        "originalUrl": "https://archive.org/details/chapei_dong_veng_master_kong_nay_1991",
+        "relevanceScore": 80,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia",
+          "chapei",
+          "reamker"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/4.0/",
+        "licenseClassification": "UNKNOWN",
+        "licenseTier": "unknown",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Unverified licensing text: \"http://creativecommons.org/licenses/by-sa/4.0/\"",
+        "attribution": "\"Master Kong Nay\", 1991, http://creativecommons.org/licenses/by-sa/4.0/, Internet Archive (archive.org), (https://archive.org/details/chapei_dong_veng_master_kong_nay_1991)",
+        "media": [
+          {
+            "url": "https://archive.org/download/chapei_dong_veng_master_kong_nay_1991/chapei_ballad_kong_nay.flac",
+            "mimeType": "audio/flac",
+            "mediaType": "audio",
+            "durationSeconds": 510,
+            "originalSizeBytes": 32800000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 32800000,
+            "estimatedOptimizedBytes": 5046154
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.122Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0039",
+      "canonicalTitle": "Historical Newsreel: EFEO Anastylose Reconstruction of Banteay Srei and Angkor Wat",
+      "suggestedCategory": "dance_theater",
+      "sourceItemCount": 1,
+      "sources": [
+        "internet_archive"
+      ],
+      "sourceItemIds": [
+        "internet_archive:angkor_wat_archaeological_restoration_1931"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "internet_archive",
+        "sourceName": "Internet Archive (archive.org)",
+        "sourceItemId": "angkor_wat_archaeological_restoration_1931",
+        "title": "Historical Newsreel: EFEO Anastylose Reconstruction of Banteay Srei and Angkor Wat",
+        "creator": "Henri Marchal / EFEO Indochina Film Unit",
+        "date": "1931",
+        "description": "Archival black-and-white 35mm cinematographic reel documenting the pioneer anastylosis restoration techniques at Banteay Srei temple.",
+        "categories": [
+          "dance_theater"
+        ],
+        "culture": "Cambodia (Khmer)",
+        "originalUrl": "https://archive.org/details/angkor_wat_archaeological_restoration_1931",
+        "relevanceScore": 110,
+        "relevanceKeywords": [
+          "khmer",
+          "angkor",
+          "cambodia",
+          "banteay srei"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "http://creativecommons.org/publicdomain/mark/1.0/",
+        "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Henri Marchal / EFEO Indochina Film Unit\", 1931, CC0-1.0 (Public Domain), Internet Archive (archive.org), (https://archive.org/details/angkor_wat_archaeological_restoration_1931)",
+        "media": [
+          {
+            "url": "https://archive.org/download/angkor_wat_archaeological_restoration_1931/banteay_srei_restoration_1931.mp4",
+            "mimeType": "video/mp4",
+            "mediaType": "video",
+            "durationSeconds": 420,
+            "originalSizeBytes": 185000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 185000000,
+            "estimatedOptimizedBytes": 46250000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.122Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0040",
+      "canonicalTitle": "Glass Plate Photographic Negative: The Smiling Towers of the Bayon Temple",
+      "suggestedCategory": "historical_monument",
+      "sourceItemCount": 2,
+      "sources": [
+        "internet_archive",
+        "gallica_bnf"
+      ],
+      "sourceItemIds": [
+        "internet_archive:bayon_temple_photo_album_1920",
+        "gallica_bnf:ark:/12148/btv1b8453488g"
+      ],
+      "canonicalMediaCount": 2,
+      "representativeRecord": {
+        "sourceId": "internet_archive",
+        "sourceName": "Internet Archive (archive.org)",
+        "sourceItemId": "bayon_temple_photo_album_1920",
+        "title": "Glass Plate Photographic Negative: The Smiling Towers of the Bayon Temple",
+        "creator": "Mission Archéologique d'Angkor",
+        "date": "1920",
+        "description": "Ultra-high resolution glass-plate negative scan capturing the face-towers of Avalokiteshvara/Jayavarman VII before modern consolidation.",
+        "categories": [
+          "historical_monument"
+        ],
+        "culture": "Cambodia (Khmer)",
+        "originalUrl": "https://archive.org/details/bayon_temple_photo_album_1920",
+        "relevanceScore": 130,
+        "relevanceKeywords": [
+          "khmer",
+          "angkor",
+          "cambodia",
+          "bayon",
+          "jayavarman"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "http://creativecommons.org/publicdomain/mark/1.0/",
+        "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Mission Archéologique d'Angkor\", 1920, CC0-1.0 (Public Domain), Internet Archive (archive.org), (https://archive.org/details/bayon_temple_photo_album_1920)",
+        "media": [
+          {
+            "url": "https://archive.org/download/bayon_temple_photo_album_1920/bayon_face_towers_1920.tif",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 4800,
+            "height": 3600,
+            "originalSizeBytes": 19400000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 19400000,
+            "estimatedOptimizedBytes": 1109205
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.122Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0041",
+      "canonicalTitle": "Modern History of Southeast Asia: Cambodia Section",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "internet_archive"
+      ],
+      "sourceItemIds": [
+        "internet_archive:modern_cambodian_textbook_copyrighted_2020"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "internet_archive",
+        "sourceName": "Internet Archive (archive.org)",
+        "sourceItemId": "modern_cambodian_textbook_copyrighted_2020",
+        "title": "Modern History of Southeast Asia: Cambodia Section",
+        "creator": "Contemporary Publisher",
+        "date": "2020",
+        "description": "In-copyright modern textbook on 21st century Southeast Asian geopolitics.",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Khmer)",
+        "originalUrl": "https://archive.org/details/modern_cambodian_textbook_copyrighted_2020",
+        "relevanceScore": 40,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "Unknown",
+        "licenseUrl": "",
+        "licenseClassification": "UNKNOWN",
+        "licenseTier": "unknown",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Missing licensing and copyright declaration in source metadata",
+        "attribution": "\"Contemporary Publisher\", 2020, Unknown / Unspecified, Internet Archive (archive.org), (https://archive.org/details/modern_cambodian_textbook_copyrighted_2020)",
+        "media": [
+          {
+            "url": "https://archive.org/download/modern_cambodian_textbook_copyrighted_2020/textbook.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 25000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 25000000,
+            "estimatedOptimizedBytes": 13888889
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.122Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0042",
+      "canonicalTitle": "Javanese Gamelan Court Music from Yogyakarta",
+      "suggestedCategory": "traditional_music",
+      "sourceItemCount": 1,
+      "sources": [
+        "internet_archive"
+      ],
+      "sourceItemIds": [
+        "internet_archive:generic_indonesian_gamelan_music"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "internet_archive",
+        "sourceName": "Internet Archive (archive.org)",
+        "sourceItemId": "generic_indonesian_gamelan_music",
+        "title": "Javanese Gamelan Court Music from Yogyakarta",
+        "creator": "Kraton Ensemble",
+        "date": "1975",
+        "description": "Traditional Indonesian central Javanese gamelan music (non-Khmer).",
+        "categories": [
+          "traditional_music"
+        ],
+        "culture": "Cambodia (Khmer)",
+        "originalUrl": "https://archive.org/details/generic_indonesian_gamelan_music",
+        "relevanceScore": 70,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "http://creativecommons.org/licenses/by/3.0/",
+        "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+        "licenseClassification": "UNKNOWN",
+        "licenseTier": "unknown",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Unverified licensing text: \"http://creativecommons.org/licenses/by/3.0/\"",
+        "attribution": "\"Kraton Ensemble\", 1975, http://creativecommons.org/licenses/by/3.0/, Internet Archive (archive.org), (https://archive.org/details/generic_indonesian_gamelan_music)",
+        "media": [
+          {
+            "url": "https://archive.org/download/generic_indonesian_gamelan_music/gamelan.mp3",
+            "mimeType": "audio/flac",
+            "mediaType": "audio",
+            "originalSizeBytes": 15000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 15000000,
+            "estimatedOptimizedBytes": 2307692
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.122Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0043",
+      "canonicalTitle": "Carte du Royaume de Cambodge et des Ruines d'Angkor",
+      "suggestedCategory": "historical_monument",
+      "sourceItemCount": 1,
+      "sources": [
+        "gallica_bnf"
+      ],
+      "sourceItemIds": [
+        "gallica_bnf:ark:/12148/bpt6k5444211j"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "gallica_bnf",
+        "sourceName": "Bibliothèque nationale de France (BnF / Gallica)",
+        "sourceItemId": "ark:/12148/bpt6k5444211j",
+        "title": "Carte du Royaume de Cambodge et des Ruines d'Angkor",
+        "creator": "Mission Doudart de Lagrée / Francis Garnier",
+        "date": "1873",
+        "description": "Historical hand-colored topographical survey map locating the central sanctuary of Angkor Wat and surrounding hydraulic barays.",
+        "categories": [
+          "historical_monument"
+        ],
+        "culture": "Cambodia (Khmer / Colonial Period)",
+        "originalUrl": "https://gallica.bnf.fr/ark:/12148/bpt6k5444211j",
+        "relevanceScore": 70,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "conditions d'utilisation de Gallica : réutilisation non commerciale libre et gratuite",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+        "attribution": "\"Mission Doudart de Lagrée / Francis Garnier\", 1873, Source gallica.bnf.fr / Bibliothèque nationale de France, Bibliothèque nationale de France (BnF / Gallica), (https://gallica.bnf.fr/ark:/12148/bpt6k5444211j)",
+        "media": [
+          {
+            "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k5444211j/f1/full/full/0/native.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 5200,
+            "height": 4100,
+            "originalSizeBytes": 18200000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 18200000,
+            "estimatedOptimizedBytes": 1040595
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.124Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0044",
+      "canonicalTitle": "Monuments du Cambodge : Dessins et relevés d'architecture",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "gallica_bnf"
+      ],
+      "sourceItemIds": [
+        "gallica_bnf:ark:/12148/bpt6k1052843b"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "gallica_bnf",
+        "sourceName": "Bibliothèque nationale de France (BnF / Gallica)",
+        "sourceItemId": "ark:/12148/bpt6k1052843b",
+        "title": "Monuments du Cambodge : Dessins et relevés d'architecture",
+        "creator": "Louis Delaporte",
+        "date": "1880",
+        "description": "Complete lithographic portfolio of architectural elevations, bas-relief rubbings, and pediment reconstructions of Angkorian temples.",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Khmer / Colonial Period)",
+        "originalUrl": "https://gallica.bnf.fr/ark:/12148/bpt6k1052843b",
+        "relevanceScore": 70,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "domaine public / réutilisation non commerciale",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+        "attribution": "\"Louis Delaporte\", 1880, Source gallica.bnf.fr / Bibliothèque nationale de France, Bibliothèque nationale de France (BnF / Gallica), (https://gallica.bnf.fr/ark:/12148/bpt6k1052843b)",
+        "media": [
+          {
+            "url": "https://gallica.bnf.fr/ark:/12148/bpt6k1052843b.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 72000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 72000000,
+            "estimatedOptimizedBytes": 40000000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.124Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0045",
+      "canonicalTitle": "Dictionnaire cambodgien-français",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "gallica_bnf"
+      ],
+      "sourceItemIds": [
+        "gallica_bnf:ark:/12148/bpt6k6521990p"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "gallica_bnf",
+        "sourceName": "Bibliothèque nationale de France (BnF / Gallica)",
+        "sourceItemId": "ark:/12148/bpt6k6521990p",
+        "title": "Dictionnaire cambodgien-français",
+        "creator": "Jean Moura (1827-1885)",
+        "date": "1878",
+        "description": "Pioneering bilingual dictionary of classical and spoken Khmer, including epigraphic terms and administrative titles.",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Khmer / Colonial Period)",
+        "originalUrl": "https://gallica.bnf.fr/ark:/12148/bpt6k6521990p",
+        "relevanceScore": 70,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "domaine public / réutilisation non commerciale",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+        "attribution": "\"Jean Moura (1827-1885)\", 1878, Source gallica.bnf.fr / Bibliothèque nationale de France, Bibliothèque nationale de France (BnF / Gallica), (https://gallica.bnf.fr/ark:/12148/bpt6k6521990p)",
+        "media": [
+          {
+            "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6521990p.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 54000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 54000000,
+            "estimatedOptimizedBytes": 30000000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.124Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0046",
+      "canonicalTitle": "Photographie du Roi Norodom Ier en costume royal",
+      "suggestedCategory": "historical_monument",
+      "sourceItemCount": 1,
+      "sources": [
+        "gallica_bnf"
+      ],
+      "sourceItemIds": [
+        "gallica_bnf:ark:/12148/btv1b10508821z"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "gallica_bnf",
+        "sourceName": "Bibliothèque nationale de France (BnF / Gallica)",
+        "sourceItemId": "ark:/12148/btv1b10508821z",
+        "title": "Photographie du Roi Norodom Ier en costume royal",
+        "creator": "Atelier Photographique de Phnom Penh",
+        "date": "1885",
+        "description": "Historical archival portrait of King Norodom I wearing royal regalia, krama sash, and ceremonial kris dagger.",
+        "categories": [
+          "historical_monument"
+        ],
+        "culture": "Cambodia (Khmer / Colonial Period)",
+        "originalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b10508821z",
+        "relevanceScore": 40,
+        "relevanceKeywords": [
+          "cambodia",
+          "krama"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "conditions d'utilisation de Gallica : réutilisation non commerciale",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+        "attribution": "\"Atelier Photographique de Phnom Penh\", 1885, Source gallica.bnf.fr / Bibliothèque nationale de France, Bibliothèque nationale de France (BnF / Gallica), (https://gallica.bnf.fr/ark:/12148/btv1b10508821z)",
+        "media": [
+          {
+            "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10508821z/f1/full/full/0/native.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 3800,
+            "height": 4800,
+            "originalSizeBytes": 16400000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 16400000,
+            "estimatedOptimizedBytes": 937679
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.124Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0047",
+      "canonicalTitle": "Traité de Botanique Tropicale de l'Afrique Équatoriale",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "gallica_bnf"
+      ],
+      "sourceItemIds": [
+        "gallica_bnf:ark:/12148/bpt6k9999999x"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "gallica_bnf",
+        "sourceName": "Bibliothèque nationale de France (BnF / Gallica)",
+        "sourceItemId": "ark:/12148/bpt6k9999999x",
+        "title": "Traité de Botanique Tropicale de l'Afrique Équatoriale",
+        "creator": "Institut Français",
+        "date": "1910",
+        "description": "Botanical treatise on Central African equatorial flora (non-Khmer).",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Khmer / Colonial Period)",
+        "originalUrl": "https://gallica.bnf.fr/ark:/12148/bpt6k9999999x",
+        "relevanceScore": 70,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "domaine public",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+        "attribution": "\"Institut Français\", 1910, Source gallica.bnf.fr / Bibliothèque nationale de France, Bibliothèque nationale de France (BnF / Gallica), (https://gallica.bnf.fr/ark:/12148/bpt6k9999999x)",
+        "media": [
+          {
+            "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9999999x.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 22000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 22000000,
+            "estimatedOptimizedBytes": 12222222
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.124Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0048",
+      "canonicalTitle": "Sastra Sleuk Rith: Trai Bhumi (The Three Worlds of Khmer Buddhist Cosmology)",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 2,
+      "sources": [
+        "british_library_eap"
+      ],
+      "sourceItemIds": [
+        "british_library_eap:EAP051/1/1/1",
+        "british_library_eap:EAP051/1/2/4"
+      ],
+      "canonicalMediaCount": 2,
+      "representativeRecord": {
+        "sourceId": "british_library_eap",
+        "sourceName": "British Library (Endangered Archives Programme)",
+        "sourceItemId": "EAP051/1/1/1",
+        "title": "Sastra Sleuk Rith: Trai Bhumi (The Three Worlds of Khmer Buddhist Cosmology)",
+        "creator": "Monastery of Wat Damnak Scribes, Siem Reap",
+        "date": "1882 (Chulasakarat 1244)",
+        "description": "Inscribed palm-leaf manuscript bundle (Sastra Sleuk Rith) detailing the 31 realms of Buddhist cosmology, Karma, and Mount Meru geography.",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Theravada Buddhist Manuscript Tradition)",
+        "originalUrl": "https://eap.bl.uk/archive-item/EAP051-1-1-1",
+        "relevanceScore": 70,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY-NC 4.0 (Creative Commons Attribution-NonCommercial 4.0 International)",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+        "attribution": "\"Monastery of Wat Damnak Scribes, Siem Reap\", 1882 (Chulasakarat 1244), British Library Endangered Archives Programme, CC BY-NC 4.0, British Library (Endangered Archives Programme), (https://eap.bl.uk/archive-item/EAP051-1-1-1)",
+        "media": [
+          {
+            "url": "https://api.bl.uk/metadata/iiif/manifest/EAP051_1_1_1.json",
+            "mimeType": "application/json+iiif",
+            "mediaType": "documents",
+            "originalSizeBytes": 34500000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 34500000,
+            "estimatedOptimizedBytes": 19166667
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.125Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0049",
+      "canonicalTitle": "Sastra Kbach: Traditional Khmer Medicinal Treatises and Healing Mantras",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "british_library_eap"
+      ],
+      "sourceItemIds": [
+        "british_library_eap:EAP261/1/3/8"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "british_library_eap",
+        "sourceName": "British Library (Endangered Archives Programme)",
+        "sourceItemId": "EAP261/1/3/8",
+        "title": "Sastra Kbach: Traditional Khmer Medicinal Treatises and Healing Mantras",
+        "creator": "Traditional Healer (Kru Khmer), Battambang",
+        "date": "1895",
+        "description": "Herbal medicine treatise recording botanical formulas, pulse diagnosis, and sacred Yantra protection diagrams inscribed in Khom script.",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Theravada Buddhist Manuscript Tradition)",
+        "originalUrl": "https://eap.bl.uk/archive-item/EAP261-1-3-8",
+        "relevanceScore": 70,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY-NC 4.0",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+        "attribution": "\"Traditional Healer (Kru Khmer), Battambang\", 1895, British Library Endangered Archives Programme, CC BY-NC 4.0, British Library (Endangered Archives Programme), (https://eap.bl.uk/archive-item/EAP261-1-3-8)",
+        "media": [
+          {
+            "url": "https://api.bl.uk/metadata/iiif/manifest/EAP261_1_3_8.json",
+            "mimeType": "application/json+iiif",
+            "mediaType": "documents",
+            "originalSizeBytes": 42000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 42000000,
+            "estimatedOptimizedBytes": 23333333
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.126Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0050",
+      "canonicalTitle": "Reamker Poem (Khmer Ramayana): Battle of Indrajit Palm Leaf Folios",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "british_library_eap"
+      ],
+      "sourceItemIds": [
+        "british_library_eap:EAP051/2/1/15"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "british_library_eap",
+        "sourceName": "British Library (Endangered Archives Programme)",
+        "sourceItemId": "EAP051/2/1/15",
+        "title": "Reamker Poem (Khmer Ramayana): Battle of Indrajit Palm Leaf Folios",
+        "creator": "Royal Palace Master Scribe",
+        "date": "1912",
+        "description": "Lyrical recitation verses of the Reamker describing the heroic duel between Prince Lakshmana and Indrajit at Lanka.",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Theravada Buddhist Manuscript Tradition)",
+        "originalUrl": "https://eap.bl.uk/archive-item/EAP051-2-1-15",
+        "relevanceScore": 90,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia",
+          "reamker"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY-NC 4.0",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+        "attribution": "\"Royal Palace Master Scribe\", 1912, British Library Endangered Archives Programme, CC BY-NC 4.0, British Library (Endangered Archives Programme), (https://eap.bl.uk/archive-item/EAP051-2-1-15)",
+        "media": [
+          {
+            "url": "https://api.bl.uk/metadata/iiif/manifest/EAP051_2_1_15.json",
+            "mimeType": "application/json+iiif",
+            "mediaType": "documents",
+            "originalSizeBytes": 58000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 58000000,
+            "estimatedOptimizedBytes": 32222222
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.126Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0051",
+      "canonicalTitle": "Medieval Icelandic Saga Manuscripts from Reykjavik",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "british_library_eap"
+      ],
+      "sourceItemIds": [
+        "british_library_eap:EAP128/1/1/1"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "british_library_eap",
+        "sourceName": "British Library (Endangered Archives Programme)",
+        "sourceItemId": "EAP128/1/1/1",
+        "title": "Medieval Icelandic Saga Manuscripts from Reykjavik",
+        "creator": "Icelandic Scribe",
+        "date": "1350",
+        "description": "Old Norse historical sagas and skaldic poetry (non-Khmer).",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Theravada Buddhist Manuscript Tradition)",
+        "originalUrl": "https://eap.bl.uk/archive-item/EAP128-1-1-1",
+        "relevanceScore": 70,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "CC BY-NC 4.0",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+        "attribution": "\"Icelandic Scribe\", 1350, British Library Endangered Archives Programme, CC BY-NC 4.0, British Library (Endangered Archives Programme), (https://eap.bl.uk/archive-item/EAP128-1-1-1)",
+        "media": [
+          {
+            "url": "https://api.bl.uk/metadata/iiif/manifest/EAP128_1_1_1.json",
+            "mimeType": "application/json+iiif",
+            "mediaType": "documents",
+            "originalSizeBytes": 20000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 20000000,
+            "estimatedOptimizedBytes": 11111111
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.126Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0052",
+      "canonicalTitle": "Topographical Map of French Indochina: Kingdom of Cambodia and Angkor Region",
+      "suggestedCategory": "historical_monument",
+      "sourceItemCount": 1,
+      "sources": [
+        "library_of_congress"
+      ],
+      "sourceItemIds": [
+        "library_of_congress:g8012a.ct001928"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "library_of_congress",
+        "sourceName": "Library of Congress (LOC)",
+        "sourceItemId": "g8012a.ct001928",
+        "title": "Topographical Map of French Indochina: Kingdom of Cambodia and Angkor Region",
+        "creator": "Service Géographique de l'Indochine",
+        "date": "1914",
+        "description": "Detailed military and archaeological survey map showing the layout of the Angkor temple complex and ancient hydraulic grid.",
+        "categories": [
+          "historical_monument"
+        ],
+        "culture": "Cambodia (Khmer)",
+        "originalUrl": "https://www.loc.gov/item/g8012a.ct001928/",
+        "relevanceScore": 90,
+        "relevanceKeywords": [
+          "khmer",
+          "angkor",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "No known copyright restrictions / Public Domain",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Service Géographique de l'Indochine\", 1914, CC0-1.0 (Public Domain), Library of Congress (LOC), (https://www.loc.gov/item/g8012a.ct001928/)",
+        "media": [
+          {
+            "url": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd801:g8012:g8012a:ct001928/full/pct:100/0/default.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 6400,
+            "height": 5200,
+            "originalSizeBytes": 24500000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 24500000,
+            "estimatedOptimizedBytes": 1400800
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.127Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0053",
+      "canonicalTitle": "Glass Plate Negative: Western Causeway and Towers of Angkor Wat",
+      "suggestedCategory": "historical_monument",
+      "sourceItemCount": 1,
+      "sources": [
+        "library_of_congress"
+      ],
+      "sourceItemIds": [
+        "library_of_congress:cph.3c15892"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "library_of_congress",
+        "sourceName": "Library of Congress (LOC)",
+        "sourceItemId": "cph.3c15892",
+        "title": "Glass Plate Negative: Western Causeway and Towers of Angkor Wat",
+        "creator": "Carpenter Collection / Frank G. Carpenter",
+        "date": "1923",
+        "description": "Historical photographic negative capturing the monumental sandstone causeway crossing the outer moat toward the western gopura of Angkor Wat.",
+        "categories": [
+          "historical_monument"
+        ],
+        "culture": "Cambodia (Khmer)",
+        "originalUrl": "https://www.loc.gov/item/99615892/",
+        "relevanceScore": 90,
+        "relevanceKeywords": [
+          "khmer",
+          "angkor",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "Public Domain",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Carpenter Collection / Frank G. Carpenter\", 1923, CC0-1.0 (Public Domain), Library of Congress (LOC), (https://www.loc.gov/item/99615892/)",
+        "media": [
+          {
+            "url": "https://tile.loc.gov/storage-services/service/pnp/cph/3c10000/3c15000/3c15800/3c15892v.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 4200,
+            "height": 3100,
+            "originalSizeBytes": 12800000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 12800000,
+            "estimatedOptimizedBytes": 731847
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.127Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0054",
+      "canonicalTitle": "Field Recording: Traditional Khmer Wedding Music (Pleng Kar) and Tro Sao Performance",
+      "suggestedCategory": "traditional_music",
+      "sourceItemCount": 1,
+      "sources": [
+        "library_of_congress"
+      ],
+      "sourceItemIds": [
+        "library_of_congress:afc1979008_sr01"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "library_of_congress",
+        "sourceName": "Library of Congress (LOC)",
+        "sourceItemId": "afc1979008_sr01",
+        "title": "Field Recording: Traditional Khmer Wedding Music (Pleng Kar) and Tro Sao Performance",
+        "creator": "American Folklife Center / Field Collection",
+        "date": "1968",
+        "description": "Historical field acoustic recording of the Tro Sao (two-string bowed fiddle) and chapei accompanying traditional Khmer matrimonial blessings.",
+        "categories": [
+          "traditional_music"
+        ],
+        "culture": "Cambodia (Khmer)",
+        "originalUrl": "https://www.loc.gov/item/afc1979008_sr01/",
+        "relevanceScore": 90,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia",
+          "chapei"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "Public Domain / Educational Access",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"American Folklife Center / Field Collection\", 1968, CC0-1.0 (Public Domain), Library of Congress (LOC), (https://www.loc.gov/item/afc1979008_sr01/)",
+        "media": [
+          {
+            "url": "https://tile.loc.gov/storage-services/service/afc/afc1979008/afc1979008_sr01.mp3",
+            "mimeType": "audio/mp3",
+            "mediaType": "audio",
+            "durationSeconds": 280,
+            "originalSizeBytes": 18400000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 18400000,
+            "estimatedOptimizedBytes": 2830769
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.127Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0055",
+      "canonicalTitle": "Architectural Elevation: Bas-Relief Gallery of the Churning of the Ocean of Milk",
+      "suggestedCategory": "historical_monument",
+      "sourceItemCount": 1,
+      "sources": [
+        "library_of_congress"
+      ],
+      "sourceItemIds": [
+        "library_of_congress:loc.item.2014589124"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "library_of_congress",
+        "sourceName": "Library of Congress (LOC)",
+        "sourceItemId": "loc.item.2014589124",
+        "title": "Architectural Elevation: Bas-Relief Gallery of the Churning of the Ocean of Milk",
+        "creator": "Historic American Buildings Survey (HABS Special Survey)",
+        "date": "1935",
+        "description": "Measured architectural drafting and iconographical elevations of the 88 Asuras and 92 Devas at Angkor Wat.",
+        "categories": [
+          "historical_monument"
+        ],
+        "culture": "Cambodia (Khmer)",
+        "originalUrl": "https://www.loc.gov/item/2014589124/",
+        "relevanceScore": 90,
+        "relevanceKeywords": [
+          "khmer",
+          "angkor",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "Public Domain",
+        "licenseClassification": "ACCEPTABLE",
+        "licenseTier": "cc0",
+        "isCommercialAllowed": true,
+        "isPublicDomain": true,
+        "attribution": "\"Historic American Buildings Survey (HABS Special Survey)\", 1935, CC0-1.0 (Public Domain), Library of Congress (LOC), (https://www.loc.gov/item/2014589124/)",
+        "media": [
+          {
+            "url": "https://tile.loc.gov/storage-services/service/pnp/habshaer/kh/kh0001/photos/kh0001pv.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 5800,
+            "height": 4200,
+            "originalSizeBytes": 21000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 21000000,
+            "estimatedOptimizedBytes": 1200686
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.127Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0056",
+      "canonicalTitle": "Contemporary Aerial Photography of Southeast Asian Ports",
+      "suggestedCategory": "historical_monument",
+      "sourceItemCount": 1,
+      "sources": [
+        "library_of_congress"
+      ],
+      "sourceItemIds": [
+        "library_of_congress:loc.item.copyrighted_modern_photo_2018"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "library_of_congress",
+        "sourceName": "Library of Congress (LOC)",
+        "sourceItemId": "loc.item.copyrighted_modern_photo_2018",
+        "title": "Contemporary Aerial Photography of Southeast Asian Ports",
+        "creator": "Commercial Aerial Agency",
+        "date": "2018",
+        "description": "Commercial aerial drone photography of shipping containers in Bangkok.",
+        "categories": [
+          "historical_monument"
+        ],
+        "culture": "Cambodia (Khmer)",
+        "originalUrl": "https://www.loc.gov/item/2018999999/",
+        "relevanceScore": 40,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "All Rights Reserved / Copyrighted",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "All Rights Reserved / In Copyright requires specific institutional review",
+        "attribution": "\"Commercial Aerial Agency\", 2018, All Rights Reserved, Library of Congress (LOC), (https://www.loc.gov/item/2018999999/)",
+        "media": [
+          {
+            "url": "https://tile.loc.gov/storage-services/service/pnp/copyrighted.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 3000,
+            "height": 2000,
+            "originalSizeBytes": 8000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 8000000,
+            "estimatedOptimizedBytes": 457404
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.127Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0057",
+      "canonicalTitle": "La date du Bayon et les bas-reliefs des galeries extérieures",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "persee_befeo"
+      ],
+      "sourceItemIds": [
+        "persee_befeo:befeo_0336-1519_1928_num_28_1_3136"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "persee_befeo",
+        "sourceName": "Persée (BEFEO / Bulletin de l'EFEO)",
+        "sourceItemId": "befeo_0336-1519_1928_num_28_1_3136",
+        "title": "La date du Bayon et les bas-reliefs des galeries extérieures",
+        "creator": "George Cœdès",
+        "date": "1928",
+        "description": "Landmark scholarly monograph establishing that the Bayon temple was constructed during the reign of King Jayavarman VII as a Mahayana Buddhist sanctuary.",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Khmer Epigraphy & Archaeology)",
+        "originalUrl": "https://www.persee.fr/doc/befeo_0336-1519_1928_num_28_1_3136",
+        "relevanceScore": 60,
+        "relevanceKeywords": [
+          "cambodia",
+          "bayon",
+          "jayavarman"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "Persée Conditions d'utilisation : libre et gratuit pour l'enseignement et la recherche (usage non commercial)",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+        "attribution": "\"George Cœdès\", 1928, Persée / Bulletin de l'École française d'Extrême-Orient, Persée (BEFEO / Bulletin de l'EFEO), (https://www.persee.fr/doc/befeo_0336-1519_1928_num_28_1_3136)",
+        "media": [
+          {
+            "url": "https://www.persee.fr/docPdf/befeo_0336-1519_1928_num_28_1_3136.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 32400000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 32400000,
+            "estimatedOptimizedBytes": 18000000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.129Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0058",
+      "canonicalTitle": "Études cambodgiennes XXVIII : Le temple du Prah Khan d'Angkor",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "persee_befeo"
+      ],
+      "sourceItemIds": [
+        "persee_befeo:befeo_0336-1519_1932_num_32_1_3305"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "persee_befeo",
+        "sourceName": "Persée (BEFEO / Bulletin de l'EFEO)",
+        "sourceItemId": "befeo_0336-1519_1932_num_32_1_3305",
+        "title": "Études cambodgiennes XXVIII : Le temple du Prah Khan d'Angkor",
+        "creator": "George Cœdès",
+        "date": "1932",
+        "description": "Comprehensive epigraphical analysis of the Preah Khan foundation stele (K. 908), detailing 121 hospital chapels (Arogyasala) and 102 rest houses (Dharmasala).",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Khmer Epigraphy & Archaeology)",
+        "originalUrl": "https://www.persee.fr/doc/befeo_0336-1519_1932_num_32_1_3305",
+        "relevanceScore": 110,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia",
+          "preah",
+          "preah khan"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "Persée Conditions d'utilisation : usage non commercial",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+        "attribution": "\"George Cœdès\", 1932, Persée / Bulletin de l'École française d'Extrême-Orient, Persée (BEFEO / Bulletin de l'EFEO), (https://www.persee.fr/doc/befeo_0336-1519_1932_num_32_1_3305)",
+        "media": [
+          {
+            "url": "https://www.persee.fr/docPdf/befeo_0336-1519_1932_num_32_1_3305.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 45200000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 45200000,
+            "estimatedOptimizedBytes": 25111111
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.129Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0059",
+      "canonicalTitle": "Notes sur l'architecture khmère : Les linteaux et frontons de Banteay Srei",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 2,
+      "sources": [
+        "persee_befeo",
+        "efeo"
+      ],
+      "sourceItemIds": [
+        "persee_befeo:befeo_0336-1519_1934_num_34_2_4981",
+        "efeo:efeo-photo-angkor-0182"
+      ],
+      "canonicalMediaCount": 2,
+      "representativeRecord": {
+        "sourceId": "persee_befeo",
+        "sourceName": "Persée (BEFEO / Bulletin de l'EFEO)",
+        "sourceItemId": "befeo_0336-1519_1934_num_34_2_4981",
+        "title": "Notes sur l'architecture khmère : Les linteaux et frontons de Banteay Srei",
+        "creator": "Henri Marchal / Victor Goloubew",
+        "date": "1934",
+        "description": "Deep architectural study of the pink sandstone lintels at Banteay Srei, analyzing the mythological relief narratives of Ravana shaking Mount Kailash.",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Khmer Epigraphy & Archaeology)",
+        "originalUrl": "https://www.persee.fr/doc/befeo_0336-1519_1934_num_34_2_4981",
+        "relevanceScore": 40,
+        "relevanceKeywords": [
+          "cambodia",
+          "banteay srei"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "Persée Conditions d'utilisation : usage non commercial",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+        "attribution": "\"Henri Marchal / Victor Goloubew\", 1934, Persée / Bulletin de l'École française d'Extrême-Orient, Persée (BEFEO / Bulletin de l'EFEO), (https://www.persee.fr/doc/befeo_0336-1519_1934_num_34_2_4981)",
+        "media": [
+          {
+            "url": "https://www.persee.fr/docPdf/befeo_0336-1519_1934_num_34_2_4981.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 28600000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 28600000,
+            "estimatedOptimizedBytes": 15888889
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.129Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0060",
+      "canonicalTitle": "L'archéologie du Phnom Kulen : Les sanctuaires rupestres et la rivière aux mille lingas (Kbal Spean)",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "persee_befeo"
+      ],
+      "sourceItemIds": [
+        "persee_befeo:befeo_0336-1519_1963_num_51_2_1502"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "persee_befeo",
+        "sourceName": "Persée (BEFEO / Bulletin de l'EFEO)",
+        "sourceItemId": "befeo_0336-1519_1963_num_51_2_1502",
+        "title": "L'archéologie du Phnom Kulen : Les sanctuaires rupestres et la rivière aux mille lingas (Kbal Spean)",
+        "creator": "Jean Boulbet / Pierre Dagens",
+        "date": "1963",
+        "description": "First modern archaeological exploration report documenting the 1,000 carved lingas and rock-hewn Vishnu figures along the holy riverbed of Phnom Kulen.",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Khmer Epigraphy & Archaeology)",
+        "originalUrl": "https://www.persee.fr/doc/befeo_0336-1519_1963_num_51_2_1502",
+        "relevanceScore": 60,
+        "relevanceKeywords": [
+          "cambodia",
+          "phnom kulen",
+          "kbal spean"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "Persée Conditions d'utilisation : usage non commercial",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+        "attribution": "\"Jean Boulbet / Pierre Dagens\", 1963, Persée / Bulletin de l'École française d'Extrême-Orient, Persée (BEFEO / Bulletin de l'EFEO), (https://www.persee.fr/doc/befeo_0336-1519_1963_num_51_2_1502)",
+        "media": [
+          {
+            "url": "https://www.persee.fr/docPdf/befeo_0336-1519_1963_num_51_2_1502.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 36000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 36000000,
+            "estimatedOptimizedBytes": 20000000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.129Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0061",
+      "canonicalTitle": "Recherches sur l'histoire des dynasties chinoises des Song du Sud",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "persee_befeo"
+      ],
+      "sourceItemIds": [
+        "persee_befeo:befeo_0336-1519_1912_num_12_1_2700"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "persee_befeo",
+        "sourceName": "Persée (BEFEO / Bulletin de l'EFEO)",
+        "sourceItemId": "befeo_0336-1519_1912_num_12_1_2700",
+        "title": "Recherches sur l'histoire des dynasties chinoises des Song du Sud",
+        "creator": "Édouard Chavannes",
+        "date": "1912",
+        "description": "Epigraphic and historical study of the Southern Song dynasty emperors in China (non-Khmer).",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Khmer Epigraphy & Archaeology)",
+        "originalUrl": "https://www.persee.fr/doc/befeo_0336-1519_1912_num_12_1_2700",
+        "relevanceScore": 70,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "Persée Conditions d'utilisation : usage non commercial",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+        "attribution": "\"Édouard Chavannes\", 1912, Persée / Bulletin de l'École française d'Extrême-Orient, Persée (BEFEO / Bulletin de l'EFEO), (https://www.persee.fr/doc/befeo_0336-1519_1912_num_12_1_2700)",
+        "media": [
+          {
+            "url": "https://www.persee.fr/docPdf/befeo_0336-1519_1912_num_12_1_2700.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 18000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 18000000,
+            "estimatedOptimizedBytes": 10000000
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.129Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0062",
+      "canonicalTitle": "Statue of Jayavarman VII in Meditation Pose (Preah Khan of Kampong Svay)",
+      "suggestedCategory": "sculpture_carving",
+      "sourceItemCount": 1,
+      "sources": [
+        "national_museum_cambodia"
+      ],
+      "sourceItemIds": [
+        "national_museum_cambodia:nmc-acc-ka-1823"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "national_museum_cambodia",
+        "sourceName": "National Museum of Cambodia (MCFA)",
+        "sourceItemId": "nmc-acc-ka-1823",
+        "title": "Statue of Jayavarman VII in Meditation Pose (Preah Khan of Kampong Svay)",
+        "creator": "Royal Sculptors of Angkor (Angkor Thom Workshops)",
+        "date": "late 12th century (Bayon Period)",
+        "description": "Masterpiece sandstone sculpture portraying King Jayavarman VII in the serene meditation posture of a Dharmaraja (Bodhisattva of Compassion). Accession: KA.1823.",
+        "categories": [
+          "sculpture_carving"
+        ],
+        "culture": "Cambodia (Khmer Heritage)",
+        "originalUrl": "http://cambodiamuseum.gov.kh/collections/sculpture/ka1823",
+        "relevanceScore": 150,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia",
+          "cambodian",
+          "preah",
+          "jayavarman",
+          "preah khan"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "National Museum of Cambodia / Department of Museums, MCFA (All Rights Reserved)",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "All Rights Reserved / In Copyright requires specific institutional review",
+        "attribution": "\"Statue of Jayavarman VII in Meditation Pose (Preah Khan of Kampong Svay)\", Royal Sculptors of Angkor (Angkor Thom Workshops), late 12th century (Bayon Period), National Museum of Cambodia (MCFA), ID: nmc-acc-ka-1823, (All Rights Reserved)",
+        "media": [
+          {
+            "url": "http://cambodiamuseum.gov.kh/images/collections/ka1823.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 3200,
+            "height": 4400,
+            "originalSizeBytes": 15200000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 15200000,
+            "estimatedOptimizedBytes": 869068
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.131Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0063",
+      "canonicalTitle": "Bronze Reclining Vishnu of the West Mebon Sanctuary",
+      "suggestedCategory": "sculpture_carving",
+      "sourceItemCount": 1,
+      "sources": [
+        "national_museum_cambodia"
+      ],
+      "sourceItemIds": [
+        "national_museum_cambodia:nmc-acc-kb-0412"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "national_museum_cambodia",
+        "sourceName": "National Museum of Cambodia (MCFA)",
+        "sourceItemId": "nmc-acc-kb-0412",
+        "title": "Bronze Reclining Vishnu of the West Mebon Sanctuary",
+        "creator": "Angkorian Bronze Casters (Baphuon/Angkor Wat Period)",
+        "date": "mid-11th century",
+        "description": "Monumental bronze sculpture fragment of the multi-armed Cosmic Vishnu resting on the primordial serpent Shesha, salvaged from the island sanctuary of West Mebon.",
+        "categories": [
+          "sculpture_carving"
+        ],
+        "culture": "Cambodia (Khmer Heritage)",
+        "originalUrl": "http://cambodiamuseum.gov.kh/collections/bronzes/kb0412",
+        "relevanceScore": 110,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia",
+          "cambodian",
+          "baphuon"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "All Rights Reserved / Department of Museums, MCFA",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "All Rights Reserved / In Copyright requires specific institutional review",
+        "attribution": "\"Bronze Reclining Vishnu of the West Mebon Sanctuary\", Angkorian Bronze Casters (Baphuon/Angkor Wat Period), mid-11th century, National Museum of Cambodia (MCFA), ID: nmc-acc-kb-0412, (All Rights Reserved)",
+        "media": [
+          {
+            "url": "http://cambodiamuseum.gov.kh/images/collections/kb0412.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 4800,
+            "height": 3600,
+            "originalSizeBytes": 18800000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 18800000,
+            "estimatedOptimizedBytes": 1074900
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.131Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0064",
+      "canonicalTitle": "Bust of Shiva / Uma (Sambor Prei Kuk Style)",
+      "suggestedCategory": "sculpture_carving",
+      "sourceItemCount": 1,
+      "sources": [
+        "national_museum_cambodia"
+      ],
+      "sourceItemIds": [
+        "national_museum_cambodia:nmc-acc-kc-0891"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "national_museum_cambodia",
+        "sourceName": "National Museum of Cambodia (MCFA)",
+        "sourceItemId": "nmc-acc-kc-0891",
+        "title": "Bust of Shiva / Uma (Sambor Prei Kuk Style)",
+        "creator": "Chenla Artists",
+        "date": "7th century",
+        "description": "Pre-Angkorian masterwork carved in fine-grained sandstone with naturalistic facial modeling and ascetic jatamukuta hairstyle.",
+        "categories": [
+          "sculpture_carving"
+        ],
+        "culture": "Cambodia (Khmer Heritage)",
+        "originalUrl": "http://cambodiamuseum.gov.kh/collections/sculpture/kc0891",
+        "relevanceScore": 130,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia",
+          "cambodian",
+          "sambor prei kuk",
+          "chenla"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "All Rights Reserved",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "All Rights Reserved / In Copyright requires specific institutional review",
+        "attribution": "\"Bust of Shiva / Uma (Sambor Prei Kuk Style)\", Chenla Artists, 7th century, National Museum of Cambodia (MCFA), ID: nmc-acc-kc-0891, (All Rights Reserved)",
+        "media": [
+          {
+            "url": "http://cambodiamuseum.gov.kh/images/collections/kc0891.jpg",
+            "mimeType": "image/jpeg",
+            "mediaType": "images",
+            "width": 2900,
+            "height": 3800,
+            "originalSizeBytes": 11400000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 11400000,
+            "estimatedOptimizedBytes": 651801
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.131Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0065",
+      "canonicalTitle": "Angkor Archaeological Park: Heritage Zoning, Hydraulic Master Plan, and Monument Registry",
+      "suggestedCategory": "monument_temple",
+      "sourceItemCount": 1,
+      "sources": [
+        "apsara_authority"
+      ],
+      "sourceItemIds": [
+        "apsara_authority:apsara-mon-001"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "apsara_authority",
+        "sourceName": "APSARA National Authority",
+        "sourceItemId": "apsara-mon-001",
+        "title": "Angkor Archaeological Park: Heritage Zoning, Hydraulic Master Plan, and Monument Registry",
+        "creator": "Department of Conservation of Monuments and Preventive Archaeology, APSARA",
+        "date": "2022",
+        "description": "Official master inventory and spatial GIS cadastral mapping of 1,200 archaeological features across Zones 1 and 2 in the Angkor World Heritage Site.",
+        "categories": [
+          "monument_temple"
+        ],
+        "culture": "Cambodia (Khmer Heritage)",
+        "originalUrl": "https://apsaraauthority.gov.kh/conservation/zoning-registry",
+        "relevanceScore": 110,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia",
+          "cambodian",
+          "apsara"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "APSARA National Authority, Royal Government of Cambodia (All Rights Reserved)",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "All Rights Reserved / In Copyright requires specific institutional review",
+        "attribution": "\"Angkor Archaeological Park: Heritage Zoning, Hydraulic Master Plan, and Monument Registry\", Department of Conservation of Monuments and Preventive Archaeology, APSARA, 2022, APSARA National Authority, ID: apsara-mon-001, (All Rights Reserved)",
+        "media": [
+          {
+            "url": "https://apsaraauthority.gov.kh/reports/angkor_cadastral_gis_2022.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 52000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 52000000,
+            "estimatedOptimizedBytes": 28888889
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.133Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0066",
+      "canonicalTitle": "Technical Report: Consolidation and Stone Restoration of the Central Tower of the Bayon Temple",
+      "suggestedCategory": "monument_temple",
+      "sourceItemCount": 1,
+      "sources": [
+        "apsara_authority"
+      ],
+      "sourceItemIds": [
+        "apsara_authority:apsara-cons-042"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "apsara_authority",
+        "sourceName": "APSARA National Authority",
+        "sourceItemId": "apsara-cons-042",
+        "title": "Technical Report: Consolidation and Stone Restoration of the Central Tower of the Bayon Temple",
+        "creator": "APSARA Stone Conservation Unit in collaboration with JASA",
+        "date": "2023",
+        "description": "Detailed structural petrographic analysis, desalting treatments, and mortar stabilization protocols applied to the smiling face towers of the Bayon.",
+        "categories": [
+          "monument_temple"
+        ],
+        "culture": "Cambodia (Khmer Heritage)",
+        "originalUrl": "https://apsaraauthority.gov.kh/reports/bayon_restoration_2023",
+        "relevanceScore": 80,
+        "relevanceKeywords": [
+          "cambodia",
+          "cambodian",
+          "bayon",
+          "apsara"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "APSARA National Authority (All Rights Reserved)",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "All Rights Reserved / In Copyright requires specific institutional review",
+        "attribution": "\"Technical Report: Consolidation and Stone Restoration of the Central Tower of the Bayon Temple\", APSARA Stone Conservation Unit in collaboration with JASA, 2023, APSARA National Authority, ID: apsara-cons-042, (All Rights Reserved)",
+        "media": [
+          {
+            "url": "https://apsaraauthority.gov.kh/reports/bayon_consolidation_2023.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 38500000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 38500000,
+            "estimatedOptimizedBytes": 21388889
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.133Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0067",
+      "canonicalTitle": "Inscription K. 908 : Stèle de fondation du Prah Khan d'Angkor",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "efeo"
+      ],
+      "sourceItemIds": [
+        "efeo:efeo-epig-k908"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "efeo",
+        "sourceName": "École française d'Extrême-Orient (EFEO)",
+        "sourceItemId": "efeo-epig-k908",
+        "title": "Inscription K. 908 : Stèle de fondation du Prah Khan d'Angkor",
+        "creator": "EFEO Epigraphy Department / George Cœdès",
+        "date": "1939",
+        "description": "Sanskrit inscription comprising 179 stanzas recording the geneology of King Jayavarman VII and the consecration of the temple-city of Jayasri.",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Khmer Heritage)",
+        "originalUrl": "https://www.efeo.fr/epigraphie_khmere_k908",
+        "relevanceScore": 110,
+        "relevanceKeywords": [
+          "angkor",
+          "cambodia",
+          "cambodian",
+          "jayavarman"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "EFEO (Institutional Agreement / Droits réservés)",
+        "licenseClassification": "UNKNOWN",
+        "licenseTier": "unknown",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Unverified licensing text: \"EFEO (Institutional Agreement / Droits réservés)\"",
+        "attribution": "\"Inscription K. 908 : Stèle de fondation du Prah Khan d'Angkor\", EFEO Epigraphy Department / George Cœdès, 1939, École française d'Extrême-Orient (EFEO), ID: efeo-epig-k908, (EFEO (Institutional Agreement / Droits réservés))",
+        "media": [
+          {
+            "url": "https://collection.efeo.fr/rubbings/k908.tif",
+            "mimeType": "image/tiff",
+            "mediaType": "images",
+            "width": 6000,
+            "height": 4500,
+            "originalSizeBytes": 26000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 26000000,
+            "estimatedOptimizedBytes": 1486564
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.134Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0068",
+      "canonicalTitle": "Siksācakr: The Journal of Cambodia Research (Special Issue on Angkorian Hydrology and Water Management)",
+      "suggestedCategory": "scholarly_research",
+      "sourceItemCount": 1,
+      "sources": [
+        "center_for_khmer_studies"
+      ],
+      "sourceItemIds": [
+        "center_for_khmer_studies:cks-siksacakr-vol-14"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "center_for_khmer_studies",
+        "sourceName": "Center for Khmer Studies (CKS)",
+        "sourceItemId": "cks-siksacakr-vol-14",
+        "title": "Siksācakr: The Journal of Cambodia Research (Special Issue on Angkorian Hydrology and Water Management)",
+        "creator": "Center for Khmer Studies Research Fellows",
+        "date": "2016",
+        "description": "Peer-reviewed scholarly papers examining LiDAR airborne laser mapping of Angkor's medieval hydraulic networks, spillways, and canals.",
+        "categories": [
+          "scholarly_research"
+        ],
+        "culture": "Cambodia (Khmer Heritage)",
+        "originalUrl": "https://khmerstudies.org/publications/siksacakr/vol-14",
+        "relevanceScore": 110,
+        "relevanceKeywords": [
+          "khmer",
+          "angkor",
+          "cambodia",
+          "cambodian"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "Center for Khmer Studies (Non-commercial research access)",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+        "attribution": "\"Siksācakr: The Journal of Cambodia Research (Special Issue on Angkorian Hydrology and Water Management)\", Center for Khmer Studies Research Fellows, 2016, Center for Khmer Studies (CKS), ID: cks-siksacakr-vol-14, (Center for Khmer Studies (Non-commercial research access))",
+        "media": [
+          {
+            "url": "https://khmerstudies.org/publications/siksacakr/vol-14.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 44000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 44000000,
+            "estimatedOptimizedBytes": 24444444
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.137Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0069",
+      "canonicalTitle": "Preah Trai Pitak Khmer (Khmer Buddhist Canon): Vinaya Pitaka, Suttavibhanga Vol. 1",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "buddhist_institute_cambodia"
+      ],
+      "sourceItemIds": [
+        "buddhist_institute_cambodia:budinst-tripitaka-vol-01"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "buddhist_institute_cambodia",
+        "sourceName": "Buddhist Institute of Cambodia (Institut Bouddhique)",
+        "sourceItemId": "budinst-tripitaka-vol-01",
+        "title": "Preah Trai Pitak Khmer (Khmer Buddhist Canon): Vinaya Pitaka, Suttavibhanga Vol. 1",
+        "creator": "Tripitaka Commission / Samdech Preah Sangha Raja Chuon Nath",
+        "date": "1961",
+        "description": "Bilingual Pali-Khmer edition of the Theravada Buddhist monastic discipline rules, transcribed and standardized into Khmer script.",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Khmer Heritage)",
+        "originalUrl": "http://www.budinst.gov.kh/tripitaka/vol01",
+        "relevanceScore": 110,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia",
+          "cambodian",
+          "preah"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "Buddhist Institute of Cambodia (All Rights Reserved / Institutional Agreement)",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "All Rights Reserved / In Copyright requires specific institutional review",
+        "attribution": "\"Preah Trai Pitak Khmer (Khmer Buddhist Canon): Vinaya Pitaka, Suttavibhanga Vol. 1\", Tripitaka Commission / Samdech Preah Sangha Raja Chuon Nath, 1961, Buddhist Institute of Cambodia (Institut Bouddhique), ID: budinst-tripitaka-vol-01, (All Rights Reserved)",
+        "media": [
+          {
+            "url": "http://www.budinst.gov.kh/publications/tripitaka_vol01.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 68000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 68000000,
+            "estimatedOptimizedBytes": 37777778
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.139Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0070",
+      "canonicalTitle": "Kambuja Suriya Revue: Collection of Cambodian Legends and Folk Tales",
+      "suggestedCategory": "manuscript_epigraphy",
+      "sourceItemCount": 1,
+      "sources": [
+        "buddhist_institute_cambodia"
+      ],
+      "sourceItemIds": [
+        "buddhist_institute_cambodia:budinst-kambujasuriya-1935"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "buddhist_institute_cambodia",
+        "sourceName": "Buddhist Institute of Cambodia (Institut Bouddhique)",
+        "sourceItemId": "budinst-kambujasuriya-1935",
+        "title": "Kambuja Suriya Revue: Collection of Cambodian Legends and Folk Tales",
+        "creator": "Institut Bouddhique Phnom Penh",
+        "date": "1935",
+        "description": "Historic monthly review preserving classical Khmer folklore, moral tales (Chbab), proverbs, and Buddhist poetry.",
+        "categories": [
+          "manuscript_epigraphy"
+        ],
+        "culture": "Cambodia (Khmer Heritage)",
+        "originalUrl": "http://www.budinst.gov.kh/kambujasuriya/1935",
+        "relevanceScore": 90,
+        "relevanceKeywords": [
+          "khmer",
+          "cambodia",
+          "cambodian"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "Buddhist Institute of Cambodia (Droits réservés)",
+        "licenseClassification": "UNKNOWN",
+        "licenseTier": "unknown",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "Unverified licensing text: \"Buddhist Institute of Cambodia (Droits réservés)\"",
+        "attribution": "\"Kambuja Suriya Revue: Collection of Cambodian Legends and Folk Tales\", Institut Bouddhique Phnom Penh, 1935, Buddhist Institute of Cambodia (Institut Bouddhique), ID: budinst-kambujasuriya-1935, (Buddhist Institute of Cambodia (Droits réservés))",
+        "media": [
+          {
+            "url": "http://www.budinst.gov.kh/kambujasuriya/1935_complete.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 58000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 58000000,
+            "estimatedOptimizedBytes": 32222222
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.139Z"
+      }
+    },
+    {
+      "canonicalEntityId": "kh-entity-0071",
+      "canonicalTitle": "National Inventory of Intangible Cultural Heritage of the Kingdom of Cambodia",
+      "suggestedCategory": "intangible_heritage",
+      "sourceItemCount": 1,
+      "sources": [
+        "mcfa_cambodia"
+      ],
+      "sourceItemIds": [
+        "mcfa_cambodia:mcfa-ich-registry-2023"
+      ],
+      "canonicalMediaCount": 1,
+      "representativeRecord": {
+        "sourceId": "mcfa_cambodia",
+        "sourceName": "Ministry of Culture and Fine Arts, Cambodia",
+        "sourceItemId": "mcfa-ich-registry-2023",
+        "title": "National Inventory of Intangible Cultural Heritage of the Kingdom of Cambodia",
+        "creator": "Department of Cultural Heritage, Ministry of Culture and Fine Arts",
+        "date": "2023",
+        "description": "Official national inventory covering Royal Ballet of Cambodia (Robam Preah Reach Trop), Sbek Thom Shadow Theater, Chapei Dang Veng, Kun Lbokator Martial Arts, and Tug-of-War (Teanh Prot).",
+        "categories": [
+          "intangible_heritage"
+        ],
+        "culture": "Cambodia (Khmer Heritage)",
+        "originalUrl": "https://www.mcfa.gov.kh/heritage/intangible-inventory-2023",
+        "relevanceScore": 80,
+        "relevanceKeywords": [
+          "cambodia",
+          "cambodian",
+          "chapei",
+          "preah"
+        ],
+        "isKhmerRelevant": true,
+        "rawLicense": "Ministry of Culture and Fine Arts, Kingdom of Cambodia (All Rights Reserved)",
+        "licenseClassification": "QUARANTINE",
+        "licenseTier": "unsupported_quarantine",
+        "isCommercialAllowed": false,
+        "isPublicDomain": false,
+        "quarantineOrRejectionReason": "No-Derivatives (ND) restriction prevents responsive CDN variant generation",
+        "attribution": "\"National Inventory of Intangible Cultural Heritage of the Kingdom of Cambodia\", Department of Cultural Heritage, Ministry of Culture and Fine Arts, 2023, Ministry of Culture and Fine Arts, Cambodia, ID: mcfa-ich-registry-2023, (Ministry of Culture and Fine Arts, Kingdom of Cambodia (All Rights Reserved))",
+        "media": [
+          {
+            "url": "https://www.mcfa.gov.kh/documents/national_ich_inventory_2023.pdf",
+            "mimeType": "application/pdf",
+            "mediaType": "documents",
+            "originalSizeBytes": 42000000,
+            "isSizeKnown": true,
+            "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+            "estimatedOriginalBytes": 42000000,
+            "estimatedOptimizedBytes": 23333333
+          }
+        ],
+        "hasMedia": true,
+        "discoveredAt": "2026-08-29T11:11:48.140Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "sourceId": "internet_archive",
+  "sourceName": "Internet Archive (archive.org)",
+  "apiUrl": "https://archive.org/advancedsearch.php",
+  "paginationInfo": {
+    "totalPagesChecked": 1,
+    "totalRecordsExamined": 10,
+    "hasMore": false
+  },
+  "recordsExamined": 10,
+  "khmerRelevantRecords": 10,
+  "recordsAccepted": 5,
+  "recordsRejected": 0,
+  "recordsQuarantined": 1,
+  "recordsUnknownLicense": 4,
+  "itemsWithMedia": 10,
+  "itemsWithoutMedia": 0,
+  "mediaTypeCounts": {
+    "images": 1,
+    "audio": 3,
+    "video": 1,
+    "documents": 5,
+    "other": 0
+  },
+  "knownMediaSizeBytes": 591900000,
+  "estimatedMediaSizeBytes": 591900000,
+  "estimatedOptimizedMediaSizeBytes": 233553221,
+  "licenseDistribution": {
+    "CC0-1.0 (Public Domain)": 5,
+    "http://creativecommons.org/licenses/by-nc-nd/4.0/": 1,
+    "http://creativecommons.org/licenses/by-sa/4.0/": 2,
+    "Unknown / Unspecified": 1,
+    "http://creativecommons.org/licenses/by/3.0/": 1
+  },
+  "rejectionReasons": {},
+  "records": [
+    {
+      "sourceId": "internet_archive",
+      "sourceName": "Internet Archive (archive.org)",
+      "sourceItemId": "inscriptionsducambodgecoedes01",
+      "title": "Inscriptions du Cambodge, Vol. 1: Épigraphie Khmère Ancienne",
+      "creator": "George Cœdès (1886-1969)",
+      "date": "1937",
+      "description": "Foundational scholarly transcription, translation, and historical commentary on ancient Sanskrit and Old Khmer stone inscriptions.",
+      "categories": [
+        "manuscript_epigraphy"
+      ],
+      "culture": "Cambodia (Khmer)",
+      "originalUrl": "https://archive.org/details/inscriptionsducambodgecoedes01",
+      "relevanceScore": 70,
+      "relevanceKeywords": [
+        "khmer",
+        "cambodia"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"George Cœdès (1886-1969)\", 1937, CC0-1.0 (Public Domain), Internet Archive (archive.org), (https://archive.org/details/inscriptionsducambodgecoedes01)",
+      "media": [
+        {
+          "url": "https://archive.org/download/inscriptionsducambodgecoedes01/inscriptionsducambodgecoedes01.pdf",
+          "mimeType": "application/pdf",
+          "mediaType": "documents",
+          "originalSizeBytes": 48500000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 48500000,
+          "estimatedOptimizedBytes": 26944444
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.122Z"
+    },
+    {
+      "sourceId": "internet_archive",
+      "sourceName": "Internet Archive (archive.org)",
+      "sourceItemId": "voyageaucambodge01delaporte",
+      "title": "Voyage au Cambodge : l'architecture khmer",
+      "creator": "Louis Delaporte (1842-1925)",
+      "date": "1880",
+      "description": "First comprehensive European architectural monograph on Angkor Wat, Bayon, and Angkor Thom with elaborate lithographic engravings.",
+      "categories": [
+        "manuscript_epigraphy"
+      ],
+      "culture": "Cambodia (Khmer)",
+      "originalUrl": "https://archive.org/details/voyageaucambodge01delaporte",
+      "relevanceScore": 110,
+      "relevanceKeywords": [
+        "khmer",
+        "angkor",
+        "cambodia",
+        "bayon"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Louis Delaporte (1842-1925)\", 1880, CC0-1.0 (Public Domain), Internet Archive (archive.org), (https://archive.org/details/voyageaucambodge01delaporte)",
+      "media": [
+        {
+          "url": "https://archive.org/download/voyageaucambodge01delaporte/delaporte_voyage_cambodge.pdf",
+          "mimeType": "application/pdf",
+          "mediaType": "documents",
+          "originalSizeBytes": 65200000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 65200000,
+          "estimatedOptimizedBytes": 36222222
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.122Z"
+    },
+    {
+      "sourceId": "internet_archive",
+      "sourceName": "Internet Archive (archive.org)",
+      "sourceItemId": "lecambodgetourisme00aymonier",
+      "title": "Le Cambodge : Le royaume actuel et les provinces siamoises",
+      "creator": "Étienne Aymonier (1844-1929)",
+      "date": "1900",
+      "description": "Exhaustive 3-volume geographical and epigraphical inventory of Cambodian monuments, temples, folklore, and rural traditions.",
+      "categories": [
+        "manuscript_epigraphy"
+      ],
+      "culture": "Cambodia (Khmer)",
+      "originalUrl": "https://archive.org/details/lecambodgetourisme00aymonier",
+      "relevanceScore": 60,
+      "relevanceKeywords": [
+        "khmer",
+        "cambodia",
+        "cambodian"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Étienne Aymonier (1844-1929)\", 1900, CC0-1.0 (Public Domain), Internet Archive (archive.org), (https://archive.org/details/lecambodgetourisme00aymonier)",
+      "media": [
+        {
+          "url": "https://archive.org/download/lecambodgetourisme00aymonier/aymonier_le_cambodge_v1.pdf",
+          "mimeType": "application/pdf",
+          "mediaType": "documents",
+          "originalSizeBytes": 82400000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 82400000,
+          "estimatedOptimizedBytes": 45777778
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.122Z"
+    },
+    {
+      "sourceId": "internet_archive",
+      "sourceName": "Internet Archive (archive.org)",
+      "sourceItemId": "ancientkhmerempirebriggs1951",
+      "title": "The Ancient Khmer Empire",
+      "creator": "Lawrence Palmer Briggs",
+      "date": "1951",
+      "description": "Monumental English-language historical synthesis of the Angkorian civilization from Funan to the post-Angkorian decline.",
+      "categories": [
+        "manuscript_epigraphy"
+      ],
+      "culture": "Cambodia (Khmer)",
+      "originalUrl": "https://archive.org/details/ancientkhmerempirebriggs1951",
+      "relevanceScore": 110,
+      "relevanceKeywords": [
+        "khmer",
+        "angkor",
+        "cambodia",
+        "funan"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "licenseUrl": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+      "licenseClassification": "QUARANTINE",
+      "licenseTier": "unsupported_quarantine",
+      "isCommercialAllowed": false,
+      "isPublicDomain": false,
+      "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+      "attribution": "\"Lawrence Palmer Briggs\", 1951, http://creativecommons.org/licenses/by-nc-nd/4.0/, Internet Archive (archive.org), (https://archive.org/details/ancientkhmerempirebriggs1951)",
+      "media": [
+        {
+          "url": "https://archive.org/download/ancientkhmerempirebriggs1951/ancient_khmer_empire_briggs.pdf",
+          "mimeType": "application/pdf",
+          "mediaType": "documents",
+          "originalSizeBytes": 94000000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 94000000,
+          "estimatedOptimizedBytes": 52222222
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.122Z"
+    },
+    {
+      "sourceId": "internet_archive",
+      "sourceName": "Internet Archive (archive.org)",
+      "sourceItemId": "khmer_royal_pinpeat_ensemble_1962",
+      "title": "Royal Court Pinpeat Ensemble: Ceremonial Suite for the Sacred Apsara Dance",
+      "creator": "National Royal Palace Orchestra, Phnom Penh",
+      "date": "1962",
+      "description": "Historical acoustic recording of Roneat Ek (xylophone), Kong Vong Toch (gong circles), and Sralai (quadruple-reed oboe) performing the divine Apsara entrance fanfare.",
+      "categories": [
+        "traditional_music"
+      ],
+      "culture": "Cambodia (Khmer)",
+      "originalUrl": "https://archive.org/details/khmer_royal_pinpeat_ensemble_1962",
+      "relevanceScore": 80,
+      "relevanceKeywords": [
+        "khmer",
+        "cambodia",
+        "apsara",
+        "pinpeat"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseClassification": "UNKNOWN",
+      "licenseTier": "unknown",
+      "isCommercialAllowed": false,
+      "isPublicDomain": false,
+      "quarantineOrRejectionReason": "Unverified licensing text: \"http://creativecommons.org/licenses/by-sa/4.0/\"",
+      "attribution": "\"National Royal Palace Orchestra, Phnom Penh\", 1962, http://creativecommons.org/licenses/by-sa/4.0/, Internet Archive (archive.org), (https://archive.org/details/khmer_royal_pinpeat_ensemble_1962)",
+      "media": [
+        {
+          "url": "https://archive.org/download/khmer_royal_pinpeat_ensemble_1962/pinpeat_ceremonial_apsara_1962.flac",
+          "mimeType": "audio/flac",
+          "mediaType": "audio",
+          "durationSeconds": 380,
+          "originalSizeBytes": 24600000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 24600000,
+          "estimatedOptimizedBytes": 3784615
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.122Z"
+    },
+    {
+      "sourceId": "internet_archive",
+      "sourceName": "Internet Archive (archive.org)",
+      "sourceItemId": "chapei_dong_veng_master_kong_nay_1991",
+      "title": "Chapei Dong Veng: Ballad of the Reamker and Moral Verses",
+      "creator": "Master Kong Nay",
+      "date": "1991",
+      "description": "Traditional long-necked lute (Chapei) recitation with improvisational epic narrative poetry registered on UNESCO Intangible Cultural Heritage list.",
+      "categories": [
+        "traditional_music"
+      ],
+      "culture": "Cambodia (Khmer)",
+      "originalUrl": "https://archive.org/details/chapei_dong_veng_master_kong_nay_1991",
+      "relevanceScore": 80,
+      "relevanceKeywords": [
+        "khmer",
+        "cambodia",
+        "chapei",
+        "reamker"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "licenseClassification": "UNKNOWN",
+      "licenseTier": "unknown",
+      "isCommercialAllowed": false,
+      "isPublicDomain": false,
+      "quarantineOrRejectionReason": "Unverified licensing text: \"http://creativecommons.org/licenses/by-sa/4.0/\"",
+      "attribution": "\"Master Kong Nay\", 1991, http://creativecommons.org/licenses/by-sa/4.0/, Internet Archive (archive.org), (https://archive.org/details/chapei_dong_veng_master_kong_nay_1991)",
+      "media": [
+        {
+          "url": "https://archive.org/download/chapei_dong_veng_master_kong_nay_1991/chapei_ballad_kong_nay.flac",
+          "mimeType": "audio/flac",
+          "mediaType": "audio",
+          "durationSeconds": 510,
+          "originalSizeBytes": 32800000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 32800000,
+          "estimatedOptimizedBytes": 5046154
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.122Z"
+    },
+    {
+      "sourceId": "internet_archive",
+      "sourceName": "Internet Archive (archive.org)",
+      "sourceItemId": "angkor_wat_archaeological_restoration_1931",
+      "title": "Historical Newsreel: EFEO Anastylose Reconstruction of Banteay Srei and Angkor Wat",
+      "creator": "Henri Marchal / EFEO Indochina Film Unit",
+      "date": "1931",
+      "description": "Archival black-and-white 35mm cinematographic reel documenting the pioneer anastylosis restoration techniques at Banteay Srei temple.",
+      "categories": [
+        "dance_theater"
+      ],
+      "culture": "Cambodia (Khmer)",
+      "originalUrl": "https://archive.org/details/angkor_wat_archaeological_restoration_1931",
+      "relevanceScore": 110,
+      "relevanceKeywords": [
+        "khmer",
+        "angkor",
+        "cambodia",
+        "banteay srei"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Henri Marchal / EFEO Indochina Film Unit\", 1931, CC0-1.0 (Public Domain), Internet Archive (archive.org), (https://archive.org/details/angkor_wat_archaeological_restoration_1931)",
+      "media": [
+        {
+          "url": "https://archive.org/download/angkor_wat_archaeological_restoration_1931/banteay_srei_restoration_1931.mp4",
+          "mimeType": "video/mp4",
+          "mediaType": "video",
+          "durationSeconds": 420,
+          "originalSizeBytes": 185000000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 185000000,
+          "estimatedOptimizedBytes": 46250000
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.122Z"
+    },
+    {
+      "sourceId": "internet_archive",
+      "sourceName": "Internet Archive (archive.org)",
+      "sourceItemId": "bayon_temple_photo_album_1920",
+      "title": "Glass Plate Photographic Negative: The Smiling Towers of the Bayon Temple",
+      "creator": "Mission Archéologique d'Angkor",
+      "date": "1920",
+      "description": "Ultra-high resolution glass-plate negative scan capturing the face-towers of Avalokiteshvara/Jayavarman VII before modern consolidation.",
+      "categories": [
+        "historical_monument"
+      ],
+      "culture": "Cambodia (Khmer)",
+      "originalUrl": "https://archive.org/details/bayon_temple_photo_album_1920",
+      "relevanceScore": 130,
+      "relevanceKeywords": [
+        "khmer",
+        "angkor",
+        "cambodia",
+        "bayon",
+        "jayavarman"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "licenseUrl": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "licenseClassification": "ACCEPTABLE",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "isPublicDomain": true,
+      "attribution": "\"Mission Archéologique d'Angkor\", 1920, CC0-1.0 (Public Domain), Internet Archive (archive.org), (https://archive.org/details/bayon_temple_photo_album_1920)",
+      "media": [
+        {
+          "url": "https://archive.org/download/bayon_temple_photo_album_1920/bayon_face_towers_1920.tif",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 4800,
+          "height": 3600,
+          "originalSizeBytes": 19400000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 19400000,
+          "estimatedOptimizedBytes": 1109205
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.122Z"
+    },
+    {
+      "sourceId": "internet_archive",
+      "sourceName": "Internet Archive (archive.org)",
+      "sourceItemId": "modern_cambodian_textbook_copyrighted_2020",
+      "title": "Modern History of Southeast Asia: Cambodia Section",
+      "creator": "Contemporary Publisher",
+      "date": "2020",
+      "description": "In-copyright modern textbook on 21st century Southeast Asian geopolitics.",
+      "categories": [
+        "manuscript_epigraphy"
+      ],
+      "culture": "Cambodia (Khmer)",
+      "originalUrl": "https://archive.org/details/modern_cambodian_textbook_copyrighted_2020",
+      "relevanceScore": 40,
+      "relevanceKeywords": [
+        "khmer",
+        "cambodia"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "Unknown",
+      "licenseUrl": "",
+      "licenseClassification": "UNKNOWN",
+      "licenseTier": "unknown",
+      "isCommercialAllowed": false,
+      "isPublicDomain": false,
+      "quarantineOrRejectionReason": "Missing licensing and copyright declaration in source metadata",
+      "attribution": "\"Contemporary Publisher\", 2020, Unknown / Unspecified, Internet Archive (archive.org), (https://archive.org/details/modern_cambodian_textbook_copyrighted_2020)",
+      "media": [
+        {
+          "url": "https://archive.org/download/modern_cambodian_textbook_copyrighted_2020/textbook.pdf",
+          "mimeType": "application/pdf",
+          "mediaType": "documents",
+          "originalSizeBytes": 25000000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 25000000,
+          "estimatedOptimizedBytes": 13888889
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.122Z"
+    },
+    {
+      "sourceId": "internet_archive",
+      "sourceName": "Internet Archive (archive.org)",
+      "sourceItemId": "generic_indonesian_gamelan_music",
+      "title": "Javanese Gamelan Court Music from Yogyakarta",
+      "creator": "Kraton Ensemble",
+      "date": "1975",
+      "description": "Traditional Indonesian central Javanese gamelan music (non-Khmer).",
+      "categories": [
+        "traditional_music"
+      ],
+      "culture": "Cambodia (Khmer)",
+      "originalUrl": "https://archive.org/details/generic_indonesian_gamelan_music",
+      "relevanceScore": 70,
+      "relevanceKeywords": [
+        "khmer",
+        "cambodia"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "http://creativecommons.org/licenses/by/3.0/",
+      "licenseUrl": "http://creativecommons.org/licenses/by/3.0/",
+      "licenseClassification": "UNKNOWN",
+      "licenseTier": "unknown",
+      "isCommercialAllowed": false,
+      "isPublicDomain": false,
+      "quarantineOrRejectionReason": "Unverified licensing text: \"http://creativecommons.org/licenses/by/3.0/\"",
+      "attribution": "\"Kraton Ensemble\", 1975, http://creativecommons.org/licenses/by/3.0/, Internet Archive (archive.org), (https://archive.org/details/generic_indonesian_gamelan_music)",
+      "media": [
+        {
+          "url": "https://archive.org/download/generic_indonesian_gamelan_music/gamelan.mp3",
+          "mimeType": "audio/flac",
+          "mediaType": "audio",
+          "originalSizeBytes": 15000000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 15000000,
+          "estimatedOptimizedBytes": 2307692
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.122Z"
+    }
+  ]
+}

@@ -10,6 +10,10 @@ import type {
   ScaleProjectionTier,
   StorageTierComparison,
   LicenseTier,
+  DiscoveredRecord,
+  DeduplicationSummary,
+  DeduplicationCluster,
+  MediaTypeStorageBreakdown,
 } from './types.ts';
 import { evaluateKhmerRelevance, KHMER_RELEVANCE_KEYWORDS } from './pilotCommon.ts';
 
@@ -275,7 +279,7 @@ export function estimateDiscoveredMediaBytes(
 }
 
 /**
- * Calculates Multi-Scale Storage Projections (1K to 100K entries).
+ * Calculates Multi-Scale Storage Projections (1K to 500K entries).
  */
 export function calculateMultiScaleProjections(
   avgOriginalBytesPerItem: number,
@@ -288,6 +292,8 @@ export function calculateMultiScaleProjections(
     { count: 25_000, label: '25K' },
     { count: 50_000, label: '50K' },
     { count: 100_000, label: '100K' },
+    { count: 250_000, label: '250K' },
+    { count: 500_000, label: '500K' },
   ];
 
   const result: Record<string, ScaleProjectionTier> = {};
@@ -314,6 +320,217 @@ export function calculateMultiScaleProjections(
       estMonthlyR2USD,
       estMonthlyB2USD,
     };
+  }
+
+  return result;
+}
+
+/**
+ * Normalizes title strings for cross-source entity deduplication clustering.
+ */
+export function normalizeEntityTitle(rawTitle: string): string {
+  return rawTitle
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^\w\s]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/**
+ * Performs cross-source deduplication clustering across all discovered records.
+ * Identifies duplicate monuments, sculptures, and manuscripts across institutions.
+ */
+export function clusterAndDeduplicateRecords(
+  records: DiscoveredRecord[]
+): DeduplicationSummary {
+  const clustersByNormKey: Map<string, DiscoveredRecord[]> = new Map();
+
+  for (const rec of records) {
+    // Generate normalized entity key
+    const norm = normalizeEntityTitle(rec.title);
+    // Group key by core keywords (e.g. angkor wat, bayon, jayavarman vii, banteay srei, apsara, avalokiteshvara, etc.)
+    let matchKey = norm;
+
+    // Common landmark / deity / ruler canonical clustering keys
+    const canonicalKeywords = [
+      'angkor wat',
+      'bayon',
+      'banteay srei',
+      'banteay kdei',
+      'ta prohm',
+      'preah khan',
+      'phnom kulen',
+      'phnom bakheng',
+      'sambor prei kuk',
+      'koh ker',
+      'preah vihear',
+      'jayavarman vii',
+      'suryavarman ii',
+      'avalokiteshvara',
+      'lokeshvara',
+      'ganesha',
+      'vishnu',
+      'shiva',
+      'buddha',
+      'chapei dong veng',
+      'pinpeat',
+      'roneat ek',
+      'silk hol',
+      'krama',
+      'amok trey',
+      'reamker',
+      'inscriptions du cambodge',
+      'sastra sleuk rith',
+      'moniteur de l indochine',
+    ];
+
+    for (const kw of canonicalKeywords) {
+      if (norm.includes(kw)) {
+        matchKey = `${kw}__${rec.categories[0] || 'heritage'}`;
+        break;
+      }
+    }
+
+    if (!clustersByNormKey.has(matchKey)) {
+      clustersByNormKey.set(matchKey, []);
+    }
+    clustersByNormKey.get(matchKey)!.push(rec);
+  }
+
+  const clusters: DeduplicationCluster[] = [];
+  let duplicateClustersCount = 0;
+  let crossSourceLinkCount = 0;
+
+  let clusterIndex = 1;
+  for (const [key, clusterRecords] of clustersByNormKey.entries()) {
+    const sources = Array.from(new Set(clusterRecords.map((r) => r.sourceId)));
+    const sourceItemIds = clusterRecords.map((r) => `${r.sourceId}:${r.sourceItemId}`);
+    const canonicalMediaCount = clusterRecords.reduce((acc, r) => acc + r.media.length, 0);
+
+    if (clusterRecords.length > 1) {
+      duplicateClustersCount++;
+      crossSourceLinkCount += clusterRecords.length;
+    }
+
+    // Select the best representative record (prefer ACCEPTABLE with media)
+    const representative =
+      clusterRecords.find((r) => r.licenseClassification === 'ACCEPTABLE' && r.hasMedia) ||
+      clusterRecords[0];
+
+    clusters.push({
+      canonicalEntityId: `kh-entity-${String(clusterIndex).padStart(4, '0')}`,
+      canonicalTitle: representative.title,
+      suggestedCategory: representative.categories[0] || 'monument_temple',
+      sourceItemCount: clusterRecords.length,
+      sources,
+      sourceItemIds,
+      canonicalMediaCount,
+      representativeRecord: representative,
+    });
+
+    clusterIndex++;
+  }
+
+  const totalDiscoveredRecords = records.length;
+  const uniqueCanonicalEntities = clusters.length;
+  const deduplicationRatio =
+    totalDiscoveredRecords > 0
+      ? +(totalDiscoveredRecords / uniqueCanonicalEntities).toFixed(2)
+      : 1.0;
+
+  return {
+    totalDiscoveredRecords,
+    uniqueCanonicalEntities,
+    duplicateClustersCount,
+    crossSourceLinkCount,
+    deduplicationRatio,
+    clusters,
+  };
+}
+
+/**
+ * Calculates storage breakdown by media type (images, audio, video, documents, other).
+ */
+export function computeMediaTypeBreakdown(
+  records: DiscoveredRecord[]
+): Record<DiscoveredMediaType, MediaTypeStorageBreakdown> {
+  const result: Record<DiscoveredMediaType, MediaTypeStorageBreakdown> = {
+    images: {
+      mediaType: 'images',
+      itemCount: 0,
+      knownBytes: 0,
+      estimatedOriginalBytes: 0,
+      estimatedOptimizedBytes: 0,
+      avgOriginalBytes: 0,
+      avgOptimizedBytes: 0,
+      compressionRatio: 0,
+    },
+    audio: {
+      mediaType: 'audio',
+      itemCount: 0,
+      knownBytes: 0,
+      estimatedOriginalBytes: 0,
+      estimatedOptimizedBytes: 0,
+      avgOriginalBytes: 0,
+      avgOptimizedBytes: 0,
+      compressionRatio: 0,
+    },
+    video: {
+      mediaType: 'video',
+      itemCount: 0,
+      knownBytes: 0,
+      estimatedOriginalBytes: 0,
+      estimatedOptimizedBytes: 0,
+      avgOriginalBytes: 0,
+      avgOptimizedBytes: 0,
+      compressionRatio: 0,
+    },
+    documents: {
+      mediaType: 'documents',
+      itemCount: 0,
+      knownBytes: 0,
+      estimatedOriginalBytes: 0,
+      estimatedOptimizedBytes: 0,
+      avgOriginalBytes: 0,
+      avgOptimizedBytes: 0,
+      compressionRatio: 0,
+    },
+    other: {
+      mediaType: 'other',
+      itemCount: 0,
+      knownBytes: 0,
+      estimatedOriginalBytes: 0,
+      estimatedOptimizedBytes: 0,
+      avgOriginalBytes: 0,
+      avgOptimizedBytes: 0,
+      compressionRatio: 0,
+    },
+  };
+
+  for (const rec of records) {
+    for (const m of rec.media) {
+      const b = result[m.mediaType] || result.other;
+      b.itemCount++;
+      if (m.isSizeKnown && m.originalSizeBytes) {
+        b.knownBytes += m.originalSizeBytes;
+      }
+      b.estimatedOriginalBytes += m.estimatedOriginalBytes;
+      b.estimatedOptimizedBytes += m.estimatedOptimizedBytes;
+    }
+  }
+
+  for (const k of Object.keys(result) as DiscoveredMediaType[]) {
+    const b = result[k];
+    if (b.itemCount > 0) {
+      b.avgOriginalBytes = Math.round(b.estimatedOriginalBytes / b.itemCount);
+      b.avgOptimizedBytes = Math.round(b.estimatedOptimizedBytes / b.itemCount);
+      b.compressionRatio =
+        b.estimatedOptimizedBytes > 0
+          ? +(b.estimatedOriginalBytes / b.estimatedOptimizedBytes).toFixed(2)
+          : 1.0;
+    }
   }
 
   return result;

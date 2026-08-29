@@ -1,0 +1,286 @@
+{
+  "sourceId": "gallica_bnf",
+  "sourceName": "Bibliothèque nationale de France (BnF / Gallica)",
+  "apiUrl": "https://gallica.bnf.fr/services/engine/search/sru",
+  "paginationInfo": {
+    "totalPagesChecked": 1,
+    "totalRecordsExamined": 6,
+    "hasMore": false
+  },
+  "recordsExamined": 6,
+  "khmerRelevantRecords": 6,
+  "recordsAccepted": 0,
+  "recordsRejected": 0,
+  "recordsQuarantined": 6,
+  "recordsUnknownLicense": 0,
+  "itemsWithMedia": 6,
+  "itemsWithoutMedia": 0,
+  "mediaTypeCounts": {
+    "images": 3,
+    "audio": 0,
+    "video": 0,
+    "documents": 3,
+    "other": 0
+  },
+  "knownMediaSizeBytes": 197400000,
+  "estimatedMediaSizeBytes": 197400000,
+  "estimatedOptimizedMediaSizeBytes": 85046694,
+  "licenseDistribution": {
+    "BnF Non-Commercial Open Access (free for research/education; commercial license required)": 6
+  },
+  "rejectionReasons": {},
+  "records": [
+    {
+      "sourceId": "gallica_bnf",
+      "sourceName": "Bibliothèque nationale de France (BnF / Gallica)",
+      "sourceItemId": "ark:/12148/bpt6k5444211j",
+      "title": "Carte du Royaume de Cambodge et des Ruines d'Angkor",
+      "creator": "Mission Doudart de Lagrée / Francis Garnier",
+      "date": "1873",
+      "description": "Historical hand-colored topographical survey map locating the central sanctuary of Angkor Wat and surrounding hydraulic barays.",
+      "categories": [
+        "historical_monument"
+      ],
+      "culture": "Cambodia (Khmer / Colonial Period)",
+      "originalUrl": "https://gallica.bnf.fr/ark:/12148/bpt6k5444211j",
+      "relevanceScore": 70,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "conditions d'utilisation de Gallica : réutilisation non commerciale libre et gratuite",
+      "licenseClassification": "QUARANTINE",
+      "licenseTier": "unsupported_quarantine",
+      "isCommercialAllowed": false,
+      "isPublicDomain": false,
+      "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+      "attribution": "\"Mission Doudart de Lagrée / Francis Garnier\", 1873, Source gallica.bnf.fr / Bibliothèque nationale de France, Bibliothèque nationale de France (BnF / Gallica), (https://gallica.bnf.fr/ark:/12148/bpt6k5444211j)",
+      "media": [
+        {
+          "url": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k5444211j/f1/full/full/0/native.jpg",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 5200,
+          "height": 4100,
+          "originalSizeBytes": 18200000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 18200000,
+          "estimatedOptimizedBytes": 1040595
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.124Z"
+    },
+    {
+      "sourceId": "gallica_bnf",
+      "sourceName": "Bibliothèque nationale de France (BnF / Gallica)",
+      "sourceItemId": "ark:/12148/btv1b8453488g",
+      "title": "Ruines Khmères : Le Temple du Bayon, vue de la terrasse des Éléphants",
+      "creator": "Émile Gsell (1838-1879)",
+      "date": "1866",
+      "description": "Earliest albumen silver photographic print capturing the Bayon towers and the overgrown Terrace of the Elephants.",
+      "categories": [
+        "historical_monument"
+      ],
+      "culture": "Cambodia (Khmer / Colonial Period)",
+      "originalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b8453488g",
+      "relevanceScore": 40,
+      "relevanceKeywords": [
+        "cambodia",
+        "bayon"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "conditions d'utilisation de Gallica : réutilisation non commerciale",
+      "licenseClassification": "QUARANTINE",
+      "licenseTier": "unsupported_quarantine",
+      "isCommercialAllowed": false,
+      "isPublicDomain": false,
+      "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+      "attribution": "\"Émile Gsell (1838-1879)\", 1866, Source gallica.bnf.fr / Bibliothèque nationale de France, Bibliothèque nationale de France (BnF / Gallica), (https://gallica.bnf.fr/ark:/12148/btv1b8453488g)",
+      "media": [
+        {
+          "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b8453488g/f1/full/full/0/native.jpg",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 4600,
+          "height": 3400,
+          "originalSizeBytes": 14800000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 14800000,
+          "estimatedOptimizedBytes": 846198
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.124Z"
+    },
+    {
+      "sourceId": "gallica_bnf",
+      "sourceName": "Bibliothèque nationale de France (BnF / Gallica)",
+      "sourceItemId": "ark:/12148/bpt6k1052843b",
+      "title": "Monuments du Cambodge : Dessins et relevés d'architecture",
+      "creator": "Louis Delaporte",
+      "date": "1880",
+      "description": "Complete lithographic portfolio of architectural elevations, bas-relief rubbings, and pediment reconstructions of Angkorian temples.",
+      "categories": [
+        "manuscript_epigraphy"
+      ],
+      "culture": "Cambodia (Khmer / Colonial Period)",
+      "originalUrl": "https://gallica.bnf.fr/ark:/12148/bpt6k1052843b",
+      "relevanceScore": 70,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "domaine public / réutilisation non commerciale",
+      "licenseClassification": "QUARANTINE",
+      "licenseTier": "unsupported_quarantine",
+      "isCommercialAllowed": false,
+      "isPublicDomain": false,
+      "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+      "attribution": "\"Louis Delaporte\", 1880, Source gallica.bnf.fr / Bibliothèque nationale de France, Bibliothèque nationale de France (BnF / Gallica), (https://gallica.bnf.fr/ark:/12148/bpt6k1052843b)",
+      "media": [
+        {
+          "url": "https://gallica.bnf.fr/ark:/12148/bpt6k1052843b.pdf",
+          "mimeType": "application/pdf",
+          "mediaType": "documents",
+          "originalSizeBytes": 72000000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 72000000,
+          "estimatedOptimizedBytes": 40000000
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.124Z"
+    },
+    {
+      "sourceId": "gallica_bnf",
+      "sourceName": "Bibliothèque nationale de France (BnF / Gallica)",
+      "sourceItemId": "ark:/12148/bpt6k6521990p",
+      "title": "Dictionnaire cambodgien-français",
+      "creator": "Jean Moura (1827-1885)",
+      "date": "1878",
+      "description": "Pioneering bilingual dictionary of classical and spoken Khmer, including epigraphic terms and administrative titles.",
+      "categories": [
+        "manuscript_epigraphy"
+      ],
+      "culture": "Cambodia (Khmer / Colonial Period)",
+      "originalUrl": "https://gallica.bnf.fr/ark:/12148/bpt6k6521990p",
+      "relevanceScore": 70,
+      "relevanceKeywords": [
+        "khmer",
+        "cambodia"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "domaine public / réutilisation non commerciale",
+      "licenseClassification": "QUARANTINE",
+      "licenseTier": "unsupported_quarantine",
+      "isCommercialAllowed": false,
+      "isPublicDomain": false,
+      "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+      "attribution": "\"Jean Moura (1827-1885)\", 1878, Source gallica.bnf.fr / Bibliothèque nationale de France, Bibliothèque nationale de France (BnF / Gallica), (https://gallica.bnf.fr/ark:/12148/bpt6k6521990p)",
+      "media": [
+        {
+          "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6521990p.pdf",
+          "mimeType": "application/pdf",
+          "mediaType": "documents",
+          "originalSizeBytes": 54000000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 54000000,
+          "estimatedOptimizedBytes": 30000000
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.124Z"
+    },
+    {
+      "sourceId": "gallica_bnf",
+      "sourceName": "Bibliothèque nationale de France (BnF / Gallica)",
+      "sourceItemId": "ark:/12148/btv1b10508821z",
+      "title": "Photographie du Roi Norodom Ier en costume royal",
+      "creator": "Atelier Photographique de Phnom Penh",
+      "date": "1885",
+      "description": "Historical archival portrait of King Norodom I wearing royal regalia, krama sash, and ceremonial kris dagger.",
+      "categories": [
+        "historical_monument"
+      ],
+      "culture": "Cambodia (Khmer / Colonial Period)",
+      "originalUrl": "https://gallica.bnf.fr/ark:/12148/btv1b10508821z",
+      "relevanceScore": 40,
+      "relevanceKeywords": [
+        "cambodia",
+        "krama"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "conditions d'utilisation de Gallica : réutilisation non commerciale",
+      "licenseClassification": "QUARANTINE",
+      "licenseTier": "unsupported_quarantine",
+      "isCommercialAllowed": false,
+      "isPublicDomain": false,
+      "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+      "attribution": "\"Atelier Photographique de Phnom Penh\", 1885, Source gallica.bnf.fr / Bibliothèque nationale de France, Bibliothèque nationale de France (BnF / Gallica), (https://gallica.bnf.fr/ark:/12148/btv1b10508821z)",
+      "media": [
+        {
+          "url": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10508821z/f1/full/full/0/native.jpg",
+          "mimeType": "image/jpeg",
+          "mediaType": "images",
+          "width": 3800,
+          "height": 4800,
+          "originalSizeBytes": 16400000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 16400000,
+          "estimatedOptimizedBytes": 937679
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.124Z"
+    },
+    {
+      "sourceId": "gallica_bnf",
+      "sourceName": "Bibliothèque nationale de France (BnF / Gallica)",
+      "sourceItemId": "ark:/12148/bpt6k9999999x",
+      "title": "Traité de Botanique Tropicale de l'Afrique Équatoriale",
+      "creator": "Institut Français",
+      "date": "1910",
+      "description": "Botanical treatise on Central African equatorial flora (non-Khmer).",
+      "categories": [
+        "manuscript_epigraphy"
+      ],
+      "culture": "Cambodia (Khmer / Colonial Period)",
+      "originalUrl": "https://gallica.bnf.fr/ark:/12148/bpt6k9999999x",
+      "relevanceScore": 70,
+      "relevanceKeywords": [
+        "khmer",
+        "cambodia"
+      ],
+      "isKhmerRelevant": true,
+      "rawLicense": "domaine public",
+      "licenseClassification": "QUARANTINE",
+      "licenseTier": "unsupported_quarantine",
+      "isCommercialAllowed": false,
+      "isPublicDomain": false,
+      "quarantineOrRejectionReason": "Non-Commercial (NC) restriction is incompatible with open redistribution",
+      "attribution": "\"Institut Français\", 1910, Source gallica.bnf.fr / Bibliothèque nationale de France, Bibliothèque nationale de France (BnF / Gallica), (https://gallica.bnf.fr/ark:/12148/bpt6k9999999x)",
+      "media": [
+        {
+          "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9999999x.pdf",
+          "mimeType": "application/pdf",
+          "mediaType": "documents",
+          "originalSizeBytes": 22000000,
+          "isSizeKnown": true,
+          "sizeEstimationMethod": "EXPLICIT_SOURCE_METADATA",
+          "estimatedOriginalBytes": 22000000,
+          "estimatedOptimizedBytes": 12222222
+        }
+      ],
+      "hasMedia": true,
+      "discoveredAt": "2026-08-29T11:11:48.124Z"
+    }
+  ]
+}
