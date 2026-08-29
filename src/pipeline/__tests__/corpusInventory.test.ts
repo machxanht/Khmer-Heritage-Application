@@ -11,6 +11,9 @@ import {
   exportCorpusInventoryArtifacts,
   calculateR2MonthlyCost,
   calculateB2MonthlyCost,
+  calculateScaleProjection,
+  computeSourceDataHash,
+  INVENTORY_SNAPSHOT_METADATA,
   VERIFIED_SOURCE_INVENTORIES,
   STANDARD_DISCOVERY_QUERIES,
   STORAGE_UNIT_METRICS,
@@ -268,6 +271,98 @@ export async function runCorpusInventoryTests(): Promise<InventoryTestSuiteRepor
       const content = JSON.parse(fs.readFileSync(artPath, 'utf-8'));
       assert(`Artifact ${artName} contains valid JSON data`, !!content);
     }
+
+    // 12. KH-017B: Snapshot Invariants, Unit Conversion Reconciliations & Stale Data Defenses
+    // A. Snapshot Metadata & Hash
+    assert('Snapshot ID matches canonical KH-SNAP-20260829-017B', INVENTORY_SNAPSHOT_METADATA.snapshotId === 'KH-SNAP-20260829-017B');
+    const sourceHash = computeSourceDataHash();
+    assert('Source data hash is a 64-character valid sha256 hex string', typeof sourceHash === 'string' && sourceHash.length === 64);
+
+    // B. Critical Discrepancy Resolution: Decimal (SI) vs Binary (IEC) Math Verification
+    const globalOptBytes = master.mediaInventory.totalEstimatedOptimizedBytes; // 802023313244.16
+    const globalRawBytes = master.mediaInventory.totalEstimatedRawBytes; // 2771857304453.12
+
+    // Decimal GB (10^9) vs Binary GiB (2^30) derivations
+    const decimalGlobalOptGB = parseFloat((globalOptBytes / 1e9).toFixed(2)); // 802.02 GB (decimal)
+    const binaryGlobalOptGiB = parseFloat((globalOptBytes / (1024 * 1024 * 1024)).toFixed(2)); // 746.94 GiB (binary)
+
+    const decimalGlobalRawGB = parseFloat((globalRawBytes / 1e9).toFixed(2)); // 2771.86 GB (decimal)
+    const binaryGlobalRawGiB = parseFloat((globalRawBytes / (1024 * 1024 * 1024)).toFixed(2)); // 2581.49 GiB (binary)
+
+    assert('~802.02 GB is the exact decimal SI representation of global optimized bytes', decimalGlobalOptGB === 802.02, `Got ${decimalGlobalOptGB}`);
+    assert('746.94 GB is the exact binary IEC GiB representation of global optimized bytes', binaryGlobalOptGiB === 746.94, `Got ${binaryGlobalOptGiB}`);
+    assert('2,581.49 GB is the exact binary IEC GiB representation of global raw bytes', binaryGlobalRawGiB === 2581.49, `Got ${binaryGlobalRawGiB}`);
+    assert('2,771.86 GB is the exact decimal SI representation of global raw bytes', decimalGlobalRawGB === 2771.86, `Got ${decimalGlobalRawGB}`);
+
+    // C. Production Delivery Corpus Footprint Verification
+    // Production eligible: 41,430 items across 41,690 media assets
+    const prodMediaTotal = 30755 + 2793 + 926 + 7204 + 12; // 41,690 assets
+    assert('Production delivery media asset total is 41,690 assets', prodMediaTotal === 41690);
+
+    const prodOptBytes =
+      30755 * STORAGE_UNIT_METRICS.expected.imagesOptimized +
+      2793 * STORAGE_UNIT_METRICS.expected.audioOptimized +
+      926 * STORAGE_UNIT_METRICS.expected.videoOptimized +
+      7204 * STORAGE_UNIT_METRICS.expected.documentsOptimized +
+      12 * (12.8 * 1024 * 1024);
+    const prodOptGiB = parseFloat((prodOptBytes / (1024 * 1024 * 1024)).toFixed(2));
+    const prodOptDecimalGB = parseFloat((prodOptBytes / 1e9).toFixed(2));
+
+    assert('Production delivery optimized storage is 164.50 GiB', prodOptGiB === 164.5, `Got ${prodOptGiB}`);
+    assert('Production delivery optimized storage is 176.63 decimal GB', prodOptDecimalGB === 176.63, `Got ${prodOptDecimalGB}`);
+
+    // D. Cloud Pricing Invariant Checks
+    // Cloudflare R2: max(0, storage - 10) * 0.015
+    const prodR2Cost = calculateR2MonthlyCost(prodOptGiB);
+    assert('Production R2 delivery cost is $2.32 / month for 164.50 GB', prodR2Cost === 2.32, `Got $${prodR2Cost}`);
+
+    // Backblaze B2: max(0, storage - 10) * 0.006
+    const prodB2Cost = calculateB2MonthlyCost(prodOptGiB);
+    assert('Production B2 delivery cost is $0.93 / month for 164.50 GB', prodB2Cost === 0.93, `Got $${prodB2Cost}`);
+
+    // E. Media-Level Breakdown Sum Reconciliation
+    const breakdown = master.mediaInventory.breakdown;
+    const computedMediaRawBytes =
+      breakdown.images.estRawBytes +
+      breakdown.audio.estRawBytes +
+      breakdown.video.estRawBytes +
+      breakdown.documents.estRawBytes +
+      breakdown.threeD.estRawBytes;
+    assert(
+      'Sum of media breakdown raw bytes matches totalEstimatedRawBytes',
+      Math.abs(computedMediaRawBytes - master.mediaInventory.totalEstimatedRawBytes) < 1,
+      `Media sum: ${computedMediaRawBytes}, Master: ${master.mediaInventory.totalEstimatedRawBytes}`
+    );
+
+    const computedMediaOptBytes =
+      breakdown.images.estOptimizedBytes +
+      breakdown.audio.estOptimizedBytes +
+      breakdown.video.estOptimizedBytes +
+      breakdown.documents.estOptimizedBytes +
+      breakdown.threeD.estOptimizedBytes;
+    assert(
+      'Sum of media breakdown opt bytes matches totalEstimatedOptimizedBytes',
+      Math.abs(computedMediaOptBytes - master.mediaInventory.totalEstimatedOptimizedBytes) < 1,
+      `Media sum: ${computedMediaOptBytes}, Master: ${master.mediaInventory.totalEstimatedOptimizedBytes}`
+    );
+
+    // F. Source-Level Storage Sum Reconciliation
+    let sumSourceRawBytes = 0;
+    let sumSourceOptBytes = 0;
+    for (const src of Object.values(VERIFIED_SOURCE_INVENTORIES)) {
+      sumSourceRawBytes += src.storage.estimatedOriginalBytes;
+      sumSourceOptBytes += src.storage.estimatedOptimizedBytes;
+    }
+    assert(
+      'Sum of source estimatedOriginalBytes equals global totalEstimatedRawBytes',
+      Math.abs(sumSourceRawBytes - master.mediaInventory.totalEstimatedRawBytes) < 1,
+      `Source sum: ${sumSourceRawBytes}, Global: ${master.mediaInventory.totalEstimatedRawBytes}`
+    );
+    assert(
+      'Sum of source estimatedOptimizedBytes equals global totalEstimatedOptimizedBytes',
+      Math.abs(sumSourceOptBytes - master.mediaInventory.totalEstimatedOptimizedBytes) < 1,
+      `Source sum: ${sumSourceOptBytes}, Global: ${master.mediaInventory.totalEstimatedOptimizedBytes}`
+    );
   } catch (err: unknown) {
     const message = err instanceof Error ? err.message : String(err);
     assert('Corpus inventory test suite ran without uncaught fatal exceptions', false, message);

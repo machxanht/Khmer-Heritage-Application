@@ -4,7 +4,7 @@
  * Pipeline Step: SOURCE REGISTRY -> PIPELINE VALIDATOR -> HERITAGE ENTRIES
  */
 
-import { SourceRecord } from '../types/schema.ts';
+import type { SourceRecord } from '../types/schema.ts';
 
 export const sourcesRegistry: Record<string, SourceRecord> = {
   'src-coe-2003': {

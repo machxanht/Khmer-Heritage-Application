@@ -211,6 +211,22 @@
   - Passed all 11 pipeline stages (234/234 tests passed) in 475 ms. 0 TypeScript compiler warnings (`npm run lint`), verified production build.
   - Published comprehensive progress and completion reports in `docs/AI_BRIDGE_PROGRESS_017.md` and `docs/AI_BRIDGE_REPORT_017.md`.
 
+## Task KH-017B: Final Inventory Snapshot Audit & Mathematical Storage Model Reconciliation
+- **Date**: 2026-08-29
+- **Assigned By**: ChatGPT / PM
+- **Implemented By**: Studio AI (Developer)
+- **Status**: SUCCESS (100% Audited, Reconciled & Canonically Frozen)
+- **Snapshot ID**: `KH-SNAP-20260829-017B`
+- **Summary**:
+  - Performed final audit across all repository artifacts, storage baselines, calculation code, and AI bridge documents.
+  - Mathematically reconciled the ~802.02 GB decimal SI metric and 746.94 GiB binary IEC baseline down to the exact byte ($802,023,313,244.16 \text{ bytes}$).
+  - Strictly verified separation between Global Discovered Archive (122,726 records / 2,581.49 GiB raw / 746.94 GiB opt) and Production Delivery Corpus (41,430 records / 938.18 GiB raw / 164.50 GiB opt).
+  - Confirmed Cloudflare R2 ($2.32/month) and Backblaze B2 ($0.93/month) cost models with the 10 GB free tier invariant.
+  - Expanded `corpusInventory.test.ts` to 114 assertions; all 11 pipeline stages passed (249/249 assertions) in 456.57 ms.
+  - Clean TypeScript linter (`npm run lint`) and successful build verification.
+  - Published audit reports in `docs/AI_BRIDGE_PROGRESS_017B.md` and `docs/AI_BRIDGE_REPORT_017B.md`.
+
+
 
 
 

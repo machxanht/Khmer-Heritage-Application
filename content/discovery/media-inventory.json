@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-29T15:05:56.718Z",
+  "timestamp": "2026-08-29T15:27:34.164Z",
   "totalAssets": 119288,
   "breakdown": {
     "images": {
@@ -30,8 +30,8 @@
       "count": 42241,
       "percentage": 35.4,
       "knownBytes": 1240201166848,
-      "estRawBytes": 1240201166848,
-      "estOptimizedBytes": 688754576588.8,
+      "estRawBytes": 1235819167744,
+      "estOptimizedBytes": 696214666567.68,
       "compressionRatio": 1.8
     },
     "manuscripts": {

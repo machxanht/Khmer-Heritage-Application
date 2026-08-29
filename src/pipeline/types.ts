@@ -3,7 +3,7 @@
  * Standard validation contracts for the Khmer Heritage Platform.
  */
 
-import { HeritageEntry, LicenseTier, ReviewStatus, SourceRecord, SourceType } from '../types/schema.ts';
+import type { HeritageEntry, LicenseTier, ReviewStatus, SourceRecord, SourceType } from '../types/schema.ts';
 
 export type { HeritageEntry, LicenseTier, ReviewStatus, SourceRecord, SourceType };
 
