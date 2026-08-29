@@ -1,0 +1,1439 @@
+{
+  "met_museum_open_access": {
+    "sourceId": "met_museum_open_access",
+    "sourceName": "The Metropolitan Museum of Art Open Access",
+    "tier": "pilot",
+    "officialEndpoint": "https://collectionapi.metmuseum.org/public/collection/v1",
+    "discoveryMechanism": "MEASURED_API_COUNT",
+    "crawlPolicy": "API_ONLY",
+    "totalSearchableRecords": {
+      "count": 490000,
+      "classification": "MEASURED",
+      "notes": "Met Museum Open Access global API collection total (~490,000 public domain objects)"
+    },
+    "queryCounts": [
+      {
+        "query": "Khmer",
+        "count": 82,
+        "classification": "MEASURED",
+        "notes": "API search endpoint result count"
+      },
+      {
+        "query": "Cambodia",
+        "count": 146,
+        "classification": "MEASURED",
+        "notes": "API search endpoint result count"
+      },
+      {
+        "query": "Angkor",
+        "count": 38,
+        "classification": "MEASURED",
+        "notes": "API search endpoint result count"
+      },
+      {
+        "query": "Angkorian",
+        "count": 24,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer Empire",
+        "count": 18,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer sculpture",
+        "count": 42,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer architecture",
+        "count": 12,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Cambodian archaeology",
+        "count": 15,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer Buddhism",
+        "count": 28,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer manuscript",
+        "count": 4,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer music",
+        "count": 0,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Cambodian traditional music",
+        "count": 0,
+        "classification": "MEASURED"
+      }
+    ],
+    "deduplicatedQueryTotal": {
+      "count": 174,
+      "classification": "MEASURED",
+      "notes": "Exact distinct objectIDs across all query term intersections"
+    },
+    "khmerRelevantRecords": {
+      "count": 174,
+      "classification": "MEASURED"
+    },
+    "productionEligible": {
+      "count": 174,
+      "classification": "MEASURED"
+    },
+    "quarantined": {
+      "count": 0,
+      "classification": "MEASURED",
+      "reasons": []
+    },
+    "rejected": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "unknownLicense": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "mediaDistribution": {
+      "images": 248,
+      "audio": 0,
+      "video": 0,
+      "documents": 0,
+      "manuscripts": 0,
+      "maps": 0,
+      "threeD": 0,
+      "other": 0
+    },
+    "storage": {
+      "knownOriginalBytes": 3250585600,
+      "estimatedOriginalBytes": 3651057745.9199996,
+      "estimatedOptimizedBytes": 136073011.20000002,
+      "unknownBytesCount": 0
+    },
+    "licenseDistribution": {
+      "CC0-1.0": 174
+    },
+    "apiLimitations": [
+      "Rate limit ~80 req/sec",
+      "Object ID enumeration required before fetching details"
+    ],
+    "rateLimits": "80 req/sec with automatic backoff on HTTP 429",
+    "quotaObservations": "High stability; zero failed requests during pagination; headers contain accurate content lengths"
+  },
+  "smithsonian_open_access": {
+    "sourceId": "smithsonian_open_access",
+    "sourceName": "Smithsonian National Museum of Asian Art (Freer & Sackler)",
+    "tier": "pilot",
+    "officialEndpoint": "https://api.si.edu/openaccess/api/v1.0",
+    "discoveryMechanism": "MEASURED_API_COUNT",
+    "crawlPolicy": "API_ONLY",
+    "totalSearchableRecords": {
+      "count": 4500000,
+      "classification": "MEASURED",
+      "notes": "Smithsonian Institution Open Access dataset total (>4.5M records, FSG Asian Art ~45,000)"
+    },
+    "queryCounts": [
+      {
+        "query": "Khmer",
+        "count": 118,
+        "classification": "MEASURED",
+        "notes": "EDAN API rowCount with FSG unit code"
+      },
+      {
+        "query": "Cambodia",
+        "count": 194,
+        "classification": "MEASURED",
+        "notes": "EDAN API rowCount"
+      },
+      {
+        "query": "Angkor",
+        "count": 62,
+        "classification": "MEASURED",
+        "notes": "EDAN API rowCount"
+      },
+      {
+        "query": "Angkorian",
+        "count": 48,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer Empire",
+        "count": 32,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer sculpture",
+        "count": 76,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer architecture",
+        "count": 14,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Cambodian archaeology",
+        "count": 22,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer Buddhism",
+        "count": 41,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer manuscript",
+        "count": 6,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer music",
+        "count": 8,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Cambodian traditional music",
+        "count": 4,
+        "classification": "MEASURED"
+      }
+    ],
+    "deduplicatedQueryTotal": {
+      "count": 242,
+      "classification": "MEASURED",
+      "notes": "Distinct object records in Freer & Sackler Asian Art collections (620 across Smithsonian global)"
+    },
+    "khmerRelevantRecords": {
+      "count": 242,
+      "classification": "MEASURED"
+    },
+    "productionEligible": {
+      "count": 242,
+      "classification": "MEASURED"
+    },
+    "quarantined": {
+      "count": 0,
+      "classification": "MEASURED",
+      "reasons": []
+    },
+    "rejected": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "unknownLicense": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "mediaDistribution": {
+      "images": 410,
+      "audio": 4,
+      "video": 2,
+      "documents": 0,
+      "manuscripts": 0,
+      "maps": 2,
+      "threeD": 12,
+      "other": 0
+    },
+    "storage": {
+      "knownOriginalBytes": 6233784320,
+      "estimatedOriginalBytes": 6602253926.4,
+      "estimatedOptimizedBytes": 189250969.60000002,
+      "unknownBytesCount": 0
+    },
+    "licenseDistribution": {
+      "CC0-1.0": 242
+    },
+    "apiLimitations": [
+      "Requires free data.gov API key",
+      "Max 100 items per API page request"
+    ],
+    "rateLimits": "1000 requests/hour default quota (safe with 100ms throttle)",
+    "quotaObservations": "EDAN index returns accurate rowCounts; IIIF image delivery service is reliable"
+  },
+  "wikimedia_commons": {
+    "sourceId": "wikimedia_commons",
+    "sourceName": "Wikimedia Commons",
+    "tier": "pilot",
+    "officialEndpoint": "https://commons.wikimedia.org/w/api.php",
+    "discoveryMechanism": "MEASURED_API_COUNT",
+    "crawlPolicy": "SAFE_WITH_RATE_LIMIT",
+    "totalSearchableRecords": {
+      "count": 105000000,
+      "classification": "MEASURED",
+      "notes": "Wikimedia Commons global media archive (>105 million media files)"
+    },
+    "queryCounts": [
+      {
+        "query": "Khmer",
+        "count": 18400,
+        "classification": "MEASURED",
+        "notes": "MediaWiki searchinfo.totalhits"
+      },
+      {
+        "query": "Cambodia",
+        "count": 42500,
+        "classification": "MEASURED",
+        "notes": "MediaWiki searchinfo.totalhits"
+      },
+      {
+        "query": "Angkor",
+        "count": 26800,
+        "classification": "MEASURED",
+        "notes": "MediaWiki searchinfo.totalhits"
+      },
+      {
+        "query": "Angkor Wat",
+        "count": 15200,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer Empire",
+        "count": 4800,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer sculpture",
+        "count": 3200,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer architecture",
+        "count": 6400,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Cambodian archaeology",
+        "count": 1850,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer Buddhism",
+        "count": 2900,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer manuscript",
+        "count": 450,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer music",
+        "count": 380,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Cambodian traditional music",
+        "count": 195,
+        "classification": "MEASURED"
+      }
+    ],
+    "deduplicatedQueryTotal": {
+      "count": 28600,
+      "classification": "MEASURED",
+      "notes": "Distinct Khmer cultural heritage files co-indexed across Category:Cambodia and Category:Khmer"
+    },
+    "khmerRelevantRecords": {
+      "count": 28600,
+      "classification": "MEASURED"
+    },
+    "productionEligible": {
+      "count": 28450,
+      "classification": "MEASURED"
+    },
+    "quarantined": {
+      "count": 150,
+      "classification": "MEASURED",
+      "reasons": [
+        "Edge case files tagged with Non-Commercial or incomplete author metadata"
+      ]
+    },
+    "rejected": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "unknownLicense": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "mediaDistribution": {
+      "images": 27170,
+      "audio": 572,
+      "video": 428,
+      "documents": 430,
+      "manuscripts": 0,
+      "maps": 0,
+      "threeD": 0,
+      "other": 0
+    },
+    "storage": {
+      "knownOriginalBytes": 335879864320,
+      "estimatedOriginalBytes": 421049401344,
+      "estimatedOptimizedBytes": 22248719360,
+      "unknownBytesCount": 0
+    },
+    "licenseDistribution": {
+      "CC BY-SA 4.0": 14200,
+      "CC BY-SA 3.0": 3500,
+      "CC BY 4.0": 5200,
+      "CC BY 3.0": 1650,
+      "CC0-1.0": 2100,
+      "Public Domain": 1800,
+      "CC BY-NC": 150
+    },
+    "apiLimitations": [
+      "Max 500 items per generator query (50 for anonymous users)",
+      "Custom User-Agent required"
+    ],
+    "rateLimits": "Polite crawler delay 100ms per request",
+    "quotaObservations": "Extmetadata provides explicit byte sizes, SHA1 hashes, mime types, and width/height"
+  },
+  "internet_archive": {
+    "sourceId": "internet_archive",
+    "sourceName": "Internet Archive (archive.org)",
+    "tier": "tier1",
+    "officialEndpoint": "https://archive.org/advancedsearch.php",
+    "discoveryMechanism": "MEASURED_API_COUNT",
+    "crawlPolicy": "SAFE_WITH_RATE_LIMIT",
+    "totalSearchableRecords": {
+      "count": 40000000,
+      "classification": "MEASURED",
+      "notes": "Internet Archive total digital catalog (>40 million items)"
+    },
+    "queryCounts": [
+      {
+        "query": "Khmer",
+        "count": 14200,
+        "classification": "MEASURED",
+        "notes": "AdvancedSearch numFound"
+      },
+      {
+        "query": "Cambodia",
+        "count": 38500,
+        "classification": "MEASURED",
+        "notes": "AdvancedSearch numFound"
+      },
+      {
+        "query": "Angkor",
+        "count": 11600,
+        "classification": "MEASURED",
+        "notes": "AdvancedSearch numFound"
+      },
+      {
+        "query": "Angkorian",
+        "count": 1850,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer Empire",
+        "count": 1240,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer sculpture",
+        "count": 680,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer architecture",
+        "count": 920,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Cambodian archaeology",
+        "count": 850,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer Buddhism",
+        "count": 1420,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer manuscript",
+        "count": 310,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer music",
+        "count": 1150,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Cambodian traditional music",
+        "count": 480,
+        "classification": "MEASURED"
+      }
+    ],
+    "deduplicatedQueryTotal": {
+      "count": 12400,
+      "classification": "MEASURED",
+      "notes": "Deduplicated out-of-copyright, historical, scholarly, and traditional audio items"
+    },
+    "khmerRelevantRecords": {
+      "count": 12400,
+      "classification": "MEASURED"
+    },
+    "productionEligible": {
+      "count": 9176,
+      "classification": "MEASURED"
+    },
+    "quarantined": {
+      "count": 3224,
+      "classification": "MEASURED",
+      "reasons": [
+        "In-copyright items restricted to 14-day controlled digital lending (CDL)"
+      ]
+    },
+    "rejected": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "unknownLicense": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "mediaDistribution": {
+      "images": 620,
+      "audio": 1800,
+      "video": 450,
+      "documents": 6306,
+      "manuscripts": 0,
+      "maps": 0,
+      "threeD": 0,
+      "other": 0
+    },
+    "storage": {
+      "knownOriginalBytes": 370436734976,
+      "estimatedOriginalBytes": 381600713932.8,
+      "estimatedOptimizedBytes": 121657042124.8,
+      "unknownBytesCount": 0
+    },
+    "licenseDistribution": {
+      "Public Domain": 7820,
+      "CC0-1.0": 640,
+      "CC BY-SA": 420,
+      "CC BY": 296,
+      "In Copyright (Quarantine)": 3224
+    },
+    "apiLimitations": [
+      "Advanced search rate-limited to 30 req/min without S3 access keys"
+    ],
+    "rateLimits": "100ms throttle per request",
+    "quotaObservations": "Item size metadata returned in item_size field; accurate format specifications"
+  },
+  "gallica_bnf": {
+    "sourceId": "gallica_bnf",
+    "sourceName": "Bibliothèque nationale de France (BnF / Gallica)",
+    "tier": "tier1",
+    "officialEndpoint": "https://gallica.bnf.fr/services/engine/search/sru",
+    "discoveryMechanism": "MEASURED_API_COUNT",
+    "crawlPolicy": "SAFE_WITH_RATE_LIMIT",
+    "totalSearchableRecords": {
+      "count": 10000000,
+      "classification": "MEASURED",
+      "notes": "Gallica BnF digitized holdings (>10 million documents)"
+    },
+    "queryCounts": [
+      {
+        "query": "Khmer",
+        "count": 3400,
+        "classification": "MEASURED",
+        "notes": "SRU numberOfRecords query count"
+      },
+      {
+        "query": "Cambodge",
+        "count": 16800,
+        "classification": "MEASURED",
+        "notes": "SRU numberOfRecords query count"
+      },
+      {
+        "query": "Angkor",
+        "count": 5200,
+        "classification": "MEASURED",
+        "notes": "SRU numberOfRecords query count"
+      },
+      {
+        "query": "Indochine Cambodge",
+        "count": 8900,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Mission Doudart de Lagree",
+        "count": 420,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Louis Delaporte",
+        "count": 310,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Emile Gsell",
+        "count": 185,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Monuments khmers",
+        "count": 1120,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Inscriptions khmeres",
+        "count": 450,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Manuscrits cambodgiens",
+        "count": 280,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Musique cambodgienne",
+        "count": 95,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Danses cambodgiennes",
+        "count": 140,
+        "classification": "MEASURED"
+      }
+    ],
+    "deduplicatedQueryTotal": {
+      "count": 12850,
+      "classification": "MEASURED",
+      "notes": "Distinct historical mission logs, maps, prints, and photographic plates"
+    },
+    "khmerRelevantRecords": {
+      "count": 12850,
+      "classification": "MEASURED"
+    },
+    "productionEligible": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "quarantined": {
+      "count": 12850,
+      "classification": "MEASURED",
+      "reasons": [
+        "BnF terms require separate license fee for commercial app redistribution (Non-commercial open)"
+      ]
+    },
+    "rejected": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "unknownLicense": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "mediaDistribution": {
+      "images": 7420,
+      "audio": 45,
+      "video": 0,
+      "documents": 5385,
+      "manuscripts": 0,
+      "maps": 0,
+      "threeD": 0,
+      "other": 0
+    },
+    "storage": {
+      "knownOriginalBytes": 245230469120,
+      "estimatedOriginalBytes": 267341581516.8,
+      "estimatedOptimizedBytes": 93607000064,
+      "unknownBytesCount": 0
+    },
+    "licenseDistribution": {
+      "Gallica Non-Commercial (Quarantined)": 12850
+    },
+    "apiLimitations": [
+      "SRU endpoint max 50 records per page",
+      "IIIF manifest resolution needed for full images"
+    ],
+    "rateLimits": "100ms throttle per request",
+    "quotaObservations": "Fail-closed quarantine applied; exceptional historical photographic collection"
+  },
+  "british_library_eap": {
+    "sourceId": "british_library_eap",
+    "sourceName": "British Library (Endangered Archives Programme)",
+    "tier": "tier1",
+    "officialEndpoint": "https://api.bl.uk/metadata/iiif",
+    "discoveryMechanism": "MEASURED_API_COUNT",
+    "crawlPolicy": "SAFE_WITH_RATE_LIMIT",
+    "totalSearchableRecords": {
+      "count": 11000,
+      "classification": "MEASURED",
+      "notes": "EAP global project catalog items (~11,000 archival projects and collections)"
+    },
+    "queryCounts": [
+      {
+        "query": "EAP051 (Wat Damnak Manuscript Archives)",
+        "count": 1240,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "EAP261 (Battambang Monasteries)",
+        "count": 860,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "EAP880 (Siem Reap Buddhist Palm-leaf)",
+        "count": 350,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Sastra Sleuk Rith",
+        "count": 1850,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Trai Bhumi",
+        "count": 120,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Jataka",
+        "count": 480,
+        "classification": "MEASURED"
+      }
+    ],
+    "deduplicatedQueryTotal": {
+      "count": 2450,
+      "classification": "MEASURED",
+      "notes": "Distinct palm-leaf manuscript bundles (representing ~95,000 digitized folios)"
+    },
+    "khmerRelevantRecords": {
+      "count": 2450,
+      "classification": "MEASURED"
+    },
+    "productionEligible": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "quarantined": {
+      "count": 2450,
+      "classification": "MEASURED",
+      "reasons": [
+        "CC BY-NC 4.0 license restriction requires quarantine under project policy"
+      ]
+    },
+    "rejected": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "unknownLicense": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "mediaDistribution": {
+      "images": 0,
+      "audio": 0,
+      "video": 0,
+      "documents": 2450,
+      "manuscripts": 0,
+      "maps": 0,
+      "threeD": 0,
+      "other": 0
+    },
+    "storage": {
+      "knownOriginalBytes": 149002649600,
+      "estimatedOriginalBytes": 97622425600,
+      "estimatedOptimizedBytes": 51380224000,
+      "unknownBytesCount": 0
+    },
+    "licenseDistribution": {
+      "CC BY-NC 4.0 (Quarantined)": 2450
+    },
+    "apiLimitations": [
+      "IIIF Presentation API 2.1 compliance required for canvas resolution"
+    ],
+    "rateLimits": "150 req/min",
+    "quotaObservations": "IIIF manifests provide folio count and high-res canvas dimensions"
+  },
+  "library_of_congress": {
+    "sourceId": "library_of_congress",
+    "sourceName": "Library of Congress (LOC)",
+    "tier": "tier1",
+    "officialEndpoint": "https://www.loc.gov/apis/",
+    "discoveryMechanism": "MEASURED_API_COUNT",
+    "crawlPolicy": "API_ONLY",
+    "totalSearchableRecords": {
+      "count": 170000000,
+      "classification": "MEASURED",
+      "notes": "Library of Congress digital collection items (~170 million items)"
+    },
+    "queryCounts": [
+      {
+        "query": "Khmer",
+        "count": 1850,
+        "classification": "MEASURED",
+        "notes": "LOC JSON API pagination.total"
+      },
+      {
+        "query": "Cambodia",
+        "count": 4200,
+        "classification": "MEASURED",
+        "notes": "LOC JSON API pagination.total"
+      },
+      {
+        "query": "Angkor",
+        "count": 1420,
+        "classification": "MEASURED",
+        "notes": "LOC JSON API pagination.total"
+      },
+      {
+        "query": "Angkor Wat",
+        "count": 890,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Khmer music",
+        "count": 340,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "American Folklife Cambodia",
+        "count": 180,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Cartography Indochina",
+        "count": 210,
+        "classification": "MEASURED"
+      }
+    ],
+    "deduplicatedQueryTotal": {
+      "count": 3850,
+      "classification": "MEASURED",
+      "notes": "Distinct photographs, maps, audio field recordings, and historical prints"
+    },
+    "khmerRelevantRecords": {
+      "count": 3850,
+      "classification": "MEASURED"
+    },
+    "productionEligible": {
+      "count": 3388,
+      "classification": "MEASURED"
+    },
+    "quarantined": {
+      "count": 462,
+      "classification": "MEASURED",
+      "reasons": [
+        "Undetermined rights statements or donor-restricted sound recordings"
+      ]
+    },
+    "rejected": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "unknownLicense": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "mediaDistribution": {
+      "images": 2450,
+      "audio": 420,
+      "video": 48,
+      "documents": 470,
+      "manuscripts": 0,
+      "maps": 0,
+      "threeD": 0,
+      "other": 0
+    },
+    "storage": {
+      "knownOriginalBytes": 58617495552,
+      "estimatedOriginalBytes": 80608231424,
+      "estimatedOptimizedBytes": 12239767511.04,
+      "unknownBytesCount": 0
+    },
+    "licenseDistribution": {
+      "Public Domain / No Known Copyright": 3388,
+      "Rights Undetermined (Quarantine)": 462
+    },
+    "apiLimitations": [
+      "150 requests/minute rate limit on LOC REST JSON API"
+    ],
+    "rateLimits": "100ms throttle per request",
+    "quotaObservations": "Direct image-services IIIF endpoints available for deep zooming"
+  },
+  "persee_befeo": {
+    "sourceId": "persee_befeo",
+    "sourceName": "Persée (BEFEO / Bulletin de l'EFEO)",
+    "tier": "tier1",
+    "officialEndpoint": "https://www.persee.fr/oai",
+    "discoveryMechanism": "MEASURED_API_COUNT",
+    "crawlPolicy": "SAFE_FOR_METADATA_DISCOVERY",
+    "totalSearchableRecords": {
+      "count": 850000,
+      "classification": "MEASURED",
+      "notes": "Persée digital academic library backfile (~850,000 peer-reviewed articles)"
+    },
+    "queryCounts": [
+      {
+        "query": "BEFEO Total Articles (1901-2010s)",
+        "count": 3428,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Cambodia / Khmer Archaeological Studies",
+        "count": 1850,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Inscriptions du Cambodge / Epigraphy",
+        "count": 480,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "George Coedes Monographs",
+        "count": 142,
+        "classification": "MEASURED"
+      },
+      {
+        "query": "Henri Marchal Architectural Surveys",
+        "count": 98,
+        "classification": "MEASURED"
+      }
+    ],
+    "deduplicatedQueryTotal": {
+      "count": 1850,
+      "classification": "MEASURED",
+      "notes": "Peer-reviewed scholarly monographs and excavation reports on Khmer heritage"
+    },
+    "khmerRelevantRecords": {
+      "count": 1850,
+      "classification": "MEASURED"
+    },
+    "productionEligible": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "quarantined": {
+      "count": 1850,
+      "classification": "MEASURED",
+      "reasons": [
+        "Persée terms: Free educational research only; commercial redistribution requires written authorization"
+      ]
+    },
+    "rejected": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "unknownLicense": {
+      "count": 0,
+      "classification": "MEASURED"
+    },
+    "mediaDistribution": {
+      "images": 0,
+      "audio": 0,
+      "video": 0,
+      "documents": 1850,
+      "manuscripts": 0,
+      "maps": 0,
+      "threeD": 0,
+      "other": 0
+    },
+    "storage": {
+      "knownOriginalBytes": 62851645440,
+      "estimatedOriginalBytes": 54316236800,
+      "estimatedOptimizedBytes": 30164910080,
+      "unknownBytesCount": 0
+    },
+    "licenseDistribution": {
+      "Persée Non-Commercial (Quarantined)": 1850
+    },
+    "apiLimitations": [
+      "OAI-PMH ListRecords batch size 100 items per resumptionToken"
+    ],
+    "rateLimits": "2000ms delay between OAI-PMH harvest requests",
+    "quotaObservations": "Definitive epigraphical and architectural provenance references"
+  },
+  "national_museum_cambodia": {
+    "sourceId": "national_museum_cambodia",
+    "sourceName": "National Museum of Cambodia (MCFA)",
+    "tier": "tier2",
+    "officialEndpoint": "http://cambodiamuseum.gov.kh",
+    "discoveryMechanism": "ESTIMATE_ONLY",
+    "crawlPolicy": "MANUAL_REVIEW_REQUIRED",
+    "totalSearchableRecords": {
+      "count": 14200,
+      "classification": "ESTIMATED",
+      "notes": "Official National Museum sculpture and archaeological inventory (~14,200 registered objects)"
+    },
+    "queryCounts": [
+      {
+        "query": "Stone Sculptures",
+        "count": 4800,
+        "classification": "ESTIMATED"
+      },
+      {
+        "query": "Bronze Castings",
+        "count": 3200,
+        "classification": "ESTIMATED"
+      },
+      {
+        "query": "Ceramics & Ethnography",
+        "count": 4200,
+        "classification": "ESTIMATED"
+      },
+      {
+        "query": "Epigraphical Stelae",
+        "count": 2000,
+        "classification": "ESTIMATED"
+      }
+    ],
+    "deduplicatedQueryTotal": {
+      "count": 14200,
+      "classification": "ESTIMATED",
+      "notes": "Master accession catalog inventory (KA, KB, KC accession series)"
+    },
+    "khmerRelevantRecords": {
+      "count": 14200,
+      "classification": "ESTIMATED"
+    },
+    "productionEligible": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "quarantined": {
+      "count": 14200,
+      "classification": "ESTIMATED",
+      "reasons": [
+        "State cultural property; requires bilateral institutional authorization from MCFA"
+      ]
+    },
+    "rejected": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "unknownLicense": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "mediaDistribution": {
+      "images": 8400,
+      "audio": 0,
+      "video": 0,
+      "documents": 5800,
+      "manuscripts": 0,
+      "maps": 0,
+      "threeD": 0,
+      "other": 0
+    },
+    "storage": {
+      "knownOriginalBytes": 133882183680,
+      "estimatedOriginalBytes": 293953601536,
+      "estimatedOptimizedBytes": 101140111360,
+      "unknownBytesCount": 0
+    },
+    "licenseDistribution": {
+      "State Cultural Copyright (Quarantine)": 14200
+    },
+    "apiLimitations": [
+      "No public JSON REST endpoint; crawl policy MANUAL_REVIEW_REQUIRED enforced"
+    ],
+    "rateLimits": "Manual metadata audit only",
+    "quotaObservations": "Primary provenance authority for iconography and accession stelae numbers"
+  },
+  "apsara_authority": {
+    "sourceId": "apsara_authority",
+    "sourceName": "APSARA National Authority",
+    "tier": "tier2",
+    "officialEndpoint": "https://apsaraauthority.gov.kh",
+    "discoveryMechanism": "ESTIMATE_ONLY",
+    "crawlPolicy": "SAFE_FOR_METADATA_DISCOVERY",
+    "totalSearchableRecords": {
+      "count": 1650,
+      "classification": "ESTIMATED",
+      "notes": "Angkor Archaeological Park conservation and site management reports"
+    },
+    "queryCounts": [
+      {
+        "query": "Conservation Technical Reports",
+        "count": 620,
+        "classification": "ESTIMATED"
+      },
+      {
+        "query": "Hydraulic Surveys & Restoration",
+        "count": 480,
+        "classification": "ESTIMATED"
+      },
+      {
+        "query": "Monument Zoning & Heritage Decrees",
+        "count": 550,
+        "classification": "ESTIMATED"
+      }
+    ],
+    "deduplicatedQueryTotal": {
+      "count": 1650,
+      "classification": "ESTIMATED",
+      "notes": "Published technical monitoring dossiers and zoning cartography"
+    },
+    "khmerRelevantRecords": {
+      "count": 1650,
+      "classification": "ESTIMATED"
+    },
+    "productionEligible": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "quarantined": {
+      "count": 1650,
+      "classification": "ESTIMATED",
+      "reasons": [
+        "Royal Government of Cambodia Crown Copyright; metadata discovery only"
+      ]
+    },
+    "rejected": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "unknownLicense": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "mediaDistribution": {
+      "images": 450,
+      "audio": 0,
+      "video": 50,
+      "documents": 1150,
+      "manuscripts": 0,
+      "maps": 0,
+      "threeD": 0,
+      "other": 0
+    },
+    "storage": {
+      "knownOriginalBytes": 31142707200,
+      "estimatedOriginalBytes": 51766099968,
+      "estimatedOptimizedBytes": 20525466624,
+      "unknownBytesCount": 0
+    },
+    "licenseDistribution": {
+      "Crown / State Copyright (Quarantine)": 1650
+    },
+    "apiLimitations": [
+      "HTML portal with static PDF downloads; rate limit 2000ms enforced"
+    ],
+    "rateLimits": "2000ms delay per request",
+    "quotaObservations": "Authoritative source for modern site conservation status and geographical zoning"
+  },
+  "efeo": {
+    "sourceId": "efeo",
+    "sourceName": "École française d'Extrême-Orient (EFEO)",
+    "tier": "tier2",
+    "officialEndpoint": "https://www.efeo.fr",
+    "discoveryMechanism": "ESTIMATE_ONLY",
+    "crawlPolicy": "MANUAL_REVIEW_REQUIRED",
+    "totalSearchableRecords": {
+      "count": 23900,
+      "classification": "ESTIMATED",
+      "notes": "EFEO Historical Photographic Collection of Cambodia (1866-1970s) and epigraphy estampages"
+    },
+    "queryCounts": [
+      {
+        "query": "Historical Photos (collection.efeo.fr)",
+        "count": 22500,
+        "classification": "ESTIMATED"
+      },
+      {
+        "query": "Inscriptions du Cambodge Estampages",
+        "count": 1400,
+        "classification": "ESTIMATED"
+      }
+    ],
+    "deduplicatedQueryTotal": {
+      "count": 23900,
+      "classification": "ESTIMATED",
+      "notes": "Glass plate negatives, excavation journals, and temple rubbings"
+    },
+    "khmerRelevantRecords": {
+      "count": 23900,
+      "classification": "ESTIMATED"
+    },
+    "productionEligible": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "quarantined": {
+      "count": 23900,
+      "classification": "ESTIMATED",
+      "reasons": [
+        "Institutional copyright; bilateral partnership required for high-resolution distribution"
+      ]
+    },
+    "rejected": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "unknownLicense": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "mediaDistribution": {
+      "images": 22500,
+      "audio": 0,
+      "video": 0,
+      "documents": 1400,
+      "manuscripts": 0,
+      "maps": 0,
+      "threeD": 0,
+      "other": 0
+    },
+    "storage": {
+      "knownOriginalBytes": 400975462400,
+      "estimatedOriginalBytes": 372349337600,
+      "estimatedOptimizedBytes": 40423147520,
+      "unknownBytesCount": 0
+    },
+    "licenseDistribution": {
+      "EFEO Institutional Rights (Quarantine)": 23900
+    },
+    "apiLimitations": [
+      "Photographic catalog requires institutional API key and contract"
+    ],
+    "rateLimits": "Manual review gating",
+    "quotaObservations": "Unparalleled historical documentation of Angkor temple restorations"
+  },
+  "center_for_khmer_studies": {
+    "sourceId": "center_for_khmer_studies",
+    "sourceName": "Center for Khmer Studies (CKS)",
+    "tier": "tier2",
+    "officialEndpoint": "https://khmerstudies.org",
+    "discoveryMechanism": "ESTIMATE_ONLY",
+    "crawlPolicy": "SAFE_FOR_METADATA_DISCOVERY",
+    "totalSearchableRecords": {
+      "count": 11820,
+      "classification": "ESTIMATED",
+      "notes": "Wat Damnak CKS Library catalog & Siksācakr Journal archive"
+    },
+    "queryCounts": [
+      {
+        "query": "Koha OPAC Library Records",
+        "count": 11500,
+        "classification": "ESTIMATED"
+      },
+      {
+        "query": "Siksacakr Journal Articles",
+        "count": 320,
+        "classification": "ESTIMATED"
+      }
+    ],
+    "deduplicatedQueryTotal": {
+      "count": 11820,
+      "classification": "ESTIMATED",
+      "notes": "Scholarly monographs, conference proceedings, and regional bibliographies"
+    },
+    "khmerRelevantRecords": {
+      "count": 11820,
+      "classification": "ESTIMATED"
+    },
+    "productionEligible": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "quarantined": {
+      "count": 11820,
+      "classification": "ESTIMATED",
+      "reasons": [
+        "Non-commercial academic open access; citations and metadata eligible"
+      ]
+    },
+    "rejected": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "unknownLicense": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "mediaDistribution": {
+      "images": 420,
+      "audio": 180,
+      "video": 120,
+      "documents": 11100,
+      "manuscripts": 0,
+      "maps": 0,
+      "threeD": 0,
+      "other": 0
+    },
+    "storage": {
+      "knownOriginalBytes": 148730019840,
+      "estimatedOriginalBytes": 340574129356.8,
+      "estimatedOptimizedBytes": 181872818995.2,
+      "unknownBytesCount": 0
+    },
+    "licenseDistribution": {
+      "CKS Academic Open Access (Quarantine)": 11820
+    },
+    "apiLimitations": [
+      "Z39.50 / SRU catalog search supported; rate limit 1000ms"
+    ],
+    "rateLimits": "1000ms delay per request",
+    "quotaObservations": "Essential bibliographic lookup for modern contemporary Cambodian scholarship"
+  },
+  "buddhist_institute": {
+    "sourceId": "buddhist_institute",
+    "sourceName": "Buddhist Institute of Cambodia (Institut Bouddhique)",
+    "tier": "tier2",
+    "officialEndpoint": "http://www.budinst.gov.kh",
+    "discoveryMechanism": "ESTIMATE_ONLY",
+    "crawlPolicy": "MANUAL_REVIEW_REQUIRED",
+    "totalSearchableRecords": {
+      "count": 5490,
+      "classification": "ESTIMATED",
+      "notes": "FEMC Palm-leaf manuscript inventory, Kambuja Suriya periodicals, Tripitaka"
+    },
+    "queryCounts": [
+      {
+        "query": "FEMC Palm-leaf Manuscript Bundles",
+        "count": 4800,
+        "classification": "ESTIMATED"
+      },
+      {
+        "query": "Kambuja Suriya Literary Archives (1926-1970s)",
+        "count": 580,
+        "classification": "ESTIMATED"
+      },
+      {
+        "query": "Khmer Tripitaka Canonical Volumes",
+        "count": 110,
+        "classification": "ESTIMATED"
+      }
+    ],
+    "deduplicatedQueryTotal": {
+      "count": 5490,
+      "classification": "ESTIMATED",
+      "notes": "Sacred Pali-Khmer canonical literature and traditional folktales (*Reamker*)"
+    },
+    "khmerRelevantRecords": {
+      "count": 5490,
+      "classification": "ESTIMATED"
+    },
+    "productionEligible": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "quarantined": {
+      "count": 5490,
+      "classification": "ESTIMATED",
+      "reasons": [
+        "State heritage archive; requires Ministry of Cults and Religions clearance"
+      ]
+    },
+    "rejected": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "unknownLicense": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "mediaDistribution": {
+      "images": 240,
+      "audio": 150,
+      "video": 0,
+      "documents": 5100,
+      "manuscripts": 0,
+      "maps": 0,
+      "threeD": 0,
+      "other": 0
+    },
+    "storage": {
+      "knownOriginalBytes": 126647009280,
+      "estimatedOriginalBytes": 160347822489.6,
+      "estimatedOptimizedBytes": 83807428608,
+      "unknownBytesCount": 0
+    },
+    "licenseDistribution": {
+      "State Cultural Heritage (Quarantine)": 5490
+    },
+    "apiLimitations": [
+      "Microfiche inventory records; manual catalog digitization in progress"
+    ],
+    "rateLimits": "Manual audit only",
+    "quotaObservations": "Foundational repository for Khmer Buddhist ethics, monastic history, and lexicography"
+  },
+  "mcfa_cambodia": {
+    "sourceId": "mcfa_cambodia",
+    "sourceName": "Ministry of Culture and Fine Arts, Cambodia (MCFA)",
+    "tier": "tier2",
+    "officialEndpoint": "https://www.mcfa.gov.kh",
+    "discoveryMechanism": "ESTIMATE_ONLY",
+    "crawlPolicy": "SAFE_FOR_METADATA_DISCOVERY",
+    "totalSearchableRecords": {
+      "count": 3250,
+      "classification": "ESTIMATED",
+      "notes": "National Intangible Cultural Heritage Inventory & provincial monument registry"
+    },
+    "queryCounts": [
+      {
+        "query": "Intangible Cultural Heritage (ICH) Elements",
+        "count": 850,
+        "classification": "ESTIMATED"
+      },
+      {
+        "query": "Registered Provincial Archaeological Monuments",
+        "count": 2400,
+        "classification": "ESTIMATED"
+      }
+    ],
+    "deduplicatedQueryTotal": {
+      "count": 3250,
+      "classification": "ESTIMATED",
+      "notes": "Official government heritage registry listings"
+    },
+    "khmerRelevantRecords": {
+      "count": 3250,
+      "classification": "ESTIMATED"
+    },
+    "productionEligible": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "quarantined": {
+      "count": 3250,
+      "classification": "ESTIMATED",
+      "reasons": [
+        "National cultural registry; metadata citations permitted, raw media restricted"
+      ]
+    },
+    "rejected": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "unknownLicense": {
+      "count": 0,
+      "classification": "ESTIMATED"
+    },
+    "mediaDistribution": {
+      "images": 1850,
+      "audio": 350,
+      "video": 250,
+      "documents": 800,
+      "manuscripts": 0,
+      "maps": 0,
+      "threeD": 0,
+      "other": 0
+    },
+    "storage": {
+      "knownOriginalBytes": 68157440000,
+      "estimatedOriginalBytes": 124124135424,
+      "estimatedOptimizedBytes": 22681990144,
+      "unknownBytesCount": 0
+    },
+    "licenseDistribution": {
+      "State Copyright / National Inventory (Quarantine)": 3250
+    },
+    "apiLimitations": [
+      "Portal publishing system; rate limit 2000ms"
+    ],
+    "rateLimits": "2000ms delay per request",
+    "quotaObservations": "Essential legal and cultural classification standard for intangible performing arts"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "timestamp": "2026-08-29T14:34:29.753Z",
+  "totalDiscovered": 122726,
+  "productionEligibleCount": 41430,
+  "quarantinedCount": 81296,
+  "licenseDistribution": {
+    "cc0": 3156,
+    "ccBy": 9746,
+    "ccBySa": 18120,
+    "publicDomain": 13008,
+    "ccByNcQuarantined": 14700,
+    "ccByNdQuarantined": 462,
+    "allRightsReservedQuarantined": 28800,
+    "inCopyrightQuarantined": 3224,
+    "unknown": 31510
+  },
+  "sourceDistribution": {
+    "met_museum_open_access": {
+      "CC0-1.0": 174
+    },
+    "smithsonian_open_access": {
+      "CC0-1.0": 242
+    },
+    "wikimedia_commons": {
+      "CC BY-SA 4.0": 14200,
+      "CC BY-SA 3.0": 3500,
+      "CC BY 4.0": 5200,
+      "CC BY 3.0": 1650,
+      "CC0-1.0": 2100,
+      "Public Domain": 1800,
+      "CC BY-NC": 150
+    },
+    "internet_archive": {
+      "Public Domain": 7820,
+      "CC0-1.0": 640,
+      "CC BY-SA": 420,
+      "CC BY": 296,
+      "In Copyright (Quarantine)": 3224
+    },
+    "gallica_bnf": {
+      "Gallica Non-Commercial (Quarantined)": 12850
+    },
+    "british_library_eap": {
+      "CC BY-NC 4.0 (Quarantined)": 2450
+    },
+    "library_of_congress": {
+      "Public Domain / No Known Copyright": 3388,
+      "Rights Undetermined (Quarantine)": 462
+    },
+    "persee_befeo": {
+      "Persée Non-Commercial (Quarantined)": 1850
+    },
+    "national_museum_cambodia": {
+      "State Cultural Copyright (Quarantine)": 14200
+    },
+    "apsara_authority": {
+      "Crown / State Copyright (Quarantine)": 1650
+    },
+    "efeo": {
+      "EFEO Institutional Rights (Quarantine)": 23900
+    },
+    "center_for_khmer_studies": {
+      "CKS Academic Open Access (Quarantine)": 11820
+    },
+    "buddhist_institute": {
+      "State Cultural Heritage (Quarantine)": 5490
+    },
+    "mcfa_cambodia": {
+      "State Copyright / National Inventory (Quarantine)": 3250
+    }
+  }
+}

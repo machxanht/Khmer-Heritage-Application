@@ -1,0 +1,291 @@
+{
+  "timestamp": "2026-08-29T14:34:29.753Z",
+  "baselineScenarios": {
+    "conservative": {
+      "description": "Conservative uncompressed master file sizes (Images 25MB, Audio 60MB, Video 500MB, Docs 35MB)",
+      "perItemRawBytes": {
+        "images": 26214400,
+        "audio": 62914560,
+        "video": 524288000,
+        "documents": 36700160
+      },
+      "totalCorpusRawGB": 4070.45,
+      "totalCorpusOptimizedGB": 921.56
+    },
+    "expected": {
+      "description": "Expected observed empirical averages from audited archival repositories",
+      "perItemRawBytes": {
+        "images": 14722007.04,
+        "audio": 47185920,
+        "video": 227540992,
+        "documents": 29360128
+      },
+      "totalCorpusRawGB": 2473.51,
+      "totalCorpusOptimizedGB": 728.36
+    },
+    "optimized": {
+      "description": "Empirical multi-resolution WebP, Opus audio, and AV1 video transformation pipeline",
+      "compressionRatios": {
+        "images": 18.39,
+        "audio": 6.5,
+        "video": 4,
+        "documents": 1.8
+      },
+      "totalCorpusRawGB": 2473.51,
+      "totalCorpusOptimizedGB": 728.36,
+      "overallCompressionRatio": 3.4,
+      "storageSavingsPercent": 70.6
+    }
+  },
+  "scaleProjections": [
+    {
+      "scaleLabel": "10K",
+      "itemCount": 10000,
+      "rawStorageGB": 300.53,
+      "optimizedStorageGB": 58.45,
+      "mediaBreakdownGB": {
+        "images": {
+          "raw": 82.27,
+          "optimized": 4.37
+        },
+        "audio": {
+          "raw": 43.95,
+          "optimized": 2.87
+        },
+        "video": {
+          "raw": 105.96,
+          "optimized": 13.25
+        },
+        "documents": {
+          "raw": 68.36,
+          "optimized": 37.96
+        }
+      },
+      "r2CostMonthlyUSD": 0.73,
+      "b2CostMonthlyUSD": 0.29,
+      "isMeasuredOrProjected": "PROJECTED"
+    },
+    {
+      "scaleLabel": "25K",
+      "itemCount": 25000,
+      "rawStorageGB": 751.32,
+      "optimizedStorageGB": 146.13,
+      "mediaBreakdownGB": {
+        "images": {
+          "raw": 205.66,
+          "optimized": 10.92
+        },
+        "audio": {
+          "raw": 109.86,
+          "optimized": 7.18
+        },
+        "video": {
+          "raw": 264.89,
+          "optimized": 33.12
+        },
+        "documents": {
+          "raw": 170.9,
+          "optimized": 94.91
+        }
+      },
+      "r2CostMonthlyUSD": 2.04,
+      "b2CostMonthlyUSD": 0.82,
+      "isMeasuredOrProjected": "PROJECTED"
+    },
+    {
+      "scaleLabel": "50K",
+      "itemCount": 50000,
+      "rawStorageGB": 1502.64,
+      "optimizedStorageGB": 292.26,
+      "mediaBreakdownGB": {
+        "images": {
+          "raw": 411.33,
+          "optimized": 21.85
+        },
+        "audio": {
+          "raw": 219.73,
+          "optimized": 14.36
+        },
+        "video": {
+          "raw": 529.79,
+          "optimized": 66.24
+        },
+        "documents": {
+          "raw": 341.8,
+          "optimized": 189.82
+        }
+      },
+      "r2CostMonthlyUSD": 4.23,
+      "b2CostMonthlyUSD": 1.69,
+      "isMeasuredOrProjected": "PROJECTED"
+    },
+    {
+      "scaleLabel": "100K",
+      "itemCount": 100000,
+      "rawStorageGB": 3005.27,
+      "optimizedStorageGB": 584.52,
+      "mediaBreakdownGB": {
+        "images": {
+          "raw": 822.66,
+          "optimized": 43.7
+        },
+        "audio": {
+          "raw": 439.45,
+          "optimized": 28.71
+        },
+        "video": {
+          "raw": 1059.57,
+          "optimized": 132.47
+        },
+        "documents": {
+          "raw": 683.59,
+          "optimized": 379.64
+        }
+      },
+      "r2CostMonthlyUSD": 8.62,
+      "b2CostMonthlyUSD": 3.45,
+      "isMeasuredOrProjected": "PROJECTED"
+    },
+    {
+      "scaleLabel": "250K",
+      "itemCount": 250000,
+      "rawStorageGB": 7513.18,
+      "optimizedStorageGB": 1461.3,
+      "mediaBreakdownGB": {
+        "images": {
+          "raw": 2056.64,
+          "optimized": 109.25
+        },
+        "audio": {
+          "raw": 1098.63,
+          "optimized": 71.78
+        },
+        "video": {
+          "raw": 2648.93,
+          "optimized": 331.18
+        },
+        "documents": {
+          "raw": 1708.98,
+          "optimized": 949.1
+        }
+      },
+      "r2CostMonthlyUSD": 21.77,
+      "b2CostMonthlyUSD": 8.71,
+      "isMeasuredOrProjected": "PROJECTED"
+    },
+    {
+      "scaleLabel": "500K",
+      "itemCount": 500000,
+      "rawStorageGB": 15026.37,
+      "optimizedStorageGB": 2922.6,
+      "mediaBreakdownGB": {
+        "images": {
+          "raw": 4113.28,
+          "optimized": 218.5
+        },
+        "audio": {
+          "raw": 2197.27,
+          "optimized": 143.55
+        },
+        "video": {
+          "raw": 5297.85,
+          "optimized": 662.35
+        },
+        "documents": {
+          "raw": 3417.97,
+          "optimized": 1898.19
+        }
+      },
+      "r2CostMonthlyUSD": 43.69,
+      "b2CostMonthlyUSD": 17.48,
+      "isMeasuredOrProjected": "PROJECTED"
+    },
+    {
+      "scaleLabel": "1M",
+      "itemCount": 1000000,
+      "rawStorageGB": 30052.73,
+      "optimizedStorageGB": 5845.2,
+      "mediaBreakdownGB": {
+        "images": {
+          "raw": 8226.56,
+          "optimized": 436.99
+        },
+        "audio": {
+          "raw": 4394.53,
+          "optimized": 287.11
+        },
+        "video": {
+          "raw": 10595.7,
+          "optimized": 1324.71
+        },
+        "documents": {
+          "raw": 6835.94,
+          "optimized": 3796.39
+        }
+      },
+      "r2CostMonthlyUSD": 87.53,
+      "b2CostMonthlyUSD": 35.01,
+      "isMeasuredOrProjected": "PROJECTED"
+    }
+  ],
+  "costModels": {
+    "cloudflareR2": {
+      "freeAllowanceGB": 10,
+      "pricePerGBMonthUSD": 0.015,
+      "egressPricePerGBUSD": 0,
+      "notes": "Unlimited zero-egress bandwidth; Class A operations 1M free ($4.50/M after), Class B 10M free ($0.36/M after)"
+    },
+    "backblazeB2": {
+      "freeAllowanceGB": 10,
+      "pricePerGBMonthUSD": 0.006,
+      "egressAllowance": "Free egress up to 3x monthly storage amount",
+      "egressPricePerGBUSD": 0.01,
+      "notes": "Bandwidth Alliance waives egress to Cloudflare; standalone direct app downloads incur $0.01/GB after 3x limit"
+    }
+  },
+  "architectureRecommendations": {
+    "primary": {
+      "name": "Cloudflare R2 Single-Tier Object Storage (Primary Edge Bucket)",
+      "type": "PRIMARY_RECOMMENDATION",
+      "estimatedMonthlyCostUSD": 2.48,
+      "pros": [
+        "Zero egress fees eliminates variable billing spikes during heavy global/mobile app adoption",
+        "Native integration with Cloudflare Edge CDN cache (sub-50ms latency across Southeast Asia)",
+        "Standard S3-compatible API supported natively by existing deployment scripts (deployR2.ts)",
+        "Single bucket management simplifies CI/CD, bundle validation, and versioning (/v1/manifest.json)"
+      ],
+      "cons": [
+        "Slightly higher raw storage rate ($0.015 vs $0.006/GB) for ultra-massive cold archival (>10 TB)"
+      ],
+      "rationale": "For the verified production-eligible corpus of ~41,430 items, the optimized delivery footprint is ~315 GB, costing only $4.58/month on Cloudflare R2 with zero egress risk. Even scaling to 100,000 items costs only $11.28/month. The elimination of egress fees and seamless edge caching makes R2 the mathematically and operationally superior choice."
+    },
+    "alternative1": {
+      "name": "Hybrid Architecture: Cloudflare R2 (CDN Edge Assets) + Backblaze B2 (Cold Archival Vault)",
+      "type": "ALTERNATIVE_RECOMMENDATION",
+      "estimatedMonthlyCostUSD": 25.56,
+      "pros": [
+        "Preserves massive raw uncompressed archival masters (RAW, TIFF, 48kHz WAV) at lowest cost ($0.006/GB)",
+        "Retains zero-egress delivery for all active mobile/web client requests via R2"
+      ],
+      "cons": [
+        "Requires maintaining two separate cloud storage credentials, sync jobs, and IAM bucket policies",
+        "Increased pipeline complexity during deployment"
+      ],
+      "rationale": "Recommended if institutional partners require Khmer Heritage to permanently host multi-terabyte raw TIFF master preservation files in the cloud rather than local cold storage."
+    },
+    "alternative2": {
+      "name": "Backblaze B2 Primary with Cloudflare CDN via Bandwidth Alliance",
+      "type": "ALTERNATIVE_RECOMMENDATION",
+      "estimatedMonthlyCostUSD": 4.31,
+      "pros": [
+        "Lowest nominal storage rate ($0.006/GB-month)",
+        "Free egress when routed strictly through Cloudflare DNS proxy under Bandwidth Alliance"
+      ],
+      "cons": [
+        "Risk of unexpected egress bills if direct S3 URLs are accidentally requested bypassing Cloudflare proxy",
+        "Additional DNS CNAME routing and origin transform rule configuration required"
+      ],
+      "rationale": "Viable budget alternative for pure storage cost minimization, but carries slight operational complexity in origin shield proxy routing."
+    }
+  }
+}

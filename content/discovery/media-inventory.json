@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-08-29T14:34:29.753Z",
+  "totalAssets": 119288,
+  "breakdown": {
+    "images": {
+      "count": 72178,
+      "percentage": 60.5,
+      "knownBytes": 946051481600,
+      "estRawBytes": 1062605024133.12,
+      "estOptimizedBytes": 56445274726.4,
+      "compressionRatio": 18.39
+    },
+    "audio": {
+      "count": 3521,
+      "percentage": 3,
+      "knownBytes": 166141624320,
+      "estRawBytes": 166141624320,
+      "estOptimizedBytes": 10854586122.24,
+      "compressionRatio": 6.5
+    },
+    "video": {
+      "count": 1348,
+      "percentage": 1.1,
+      "knownBytes": 306725257216,
+      "estRawBytes": 306725257216,
+      "estOptimizedBytes": 38347724554.24,
+      "compressionRatio": 4
+    },
+    "documents": {
+      "count": 42241,
+      "percentage": 35.4,
+      "knownBytes": 1240201166848,
+      "estRawBytes": 1240201166848,
+      "estOptimizedBytes": 688754576588.8,
+      "compressionRatio": 1.8
+    },
+    "manuscripts": {
+      "count": 0,
+      "percentage": 0,
+      "knownBytes": 0,
+      "estRawBytes": 0,
+      "estOptimizedBytes": 0,
+      "compressionRatio": 1.9
+    },
+    "maps": {
+      "count": 0,
+      "percentage": 0,
+      "knownBytes": 0,
+      "estRawBytes": 0,
+      "estOptimizedBytes": 0,
+      "compressionRatio": 16.5
+    },
+    "threeD": {
+      "count": 12,
+      "percentage": 0.01,
+      "knownBytes": 566231040,
+      "estRawBytes": 566231040,
+      "estOptimizedBytes": 161061273.60000002,
+      "compressionRatio": 3.5
+    },
+    "other": {
+      "count": 0,
+      "percentage": 0,
+      "knownBytes": 0,
+      "estRawBytes": 0,
+      "estOptimizedBytes": 0,
+      "compressionRatio": 2
+    }
+  },
+  "totalKnownBytes": 2141038051328,
+  "totalEstimatedRawBytes": 2655907028664.32,
+  "totalEstimatedOptimizedBytes": 782073950371.84
+}

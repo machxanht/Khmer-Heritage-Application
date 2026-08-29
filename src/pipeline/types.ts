@@ -615,3 +615,234 @@ export interface DiscoveryCheckpoint {
   sourceResults: Record<string, DiscoverySourceResult>;
 }
 
+// ==========================================
+// KH-017: Verified Corpus Inventory & Storage Baseline Types
+// ==========================================
+
+export type CorpusInventoryDataClassification = 'MEASURED' | 'ESTIMATED' | 'PROJECTED';
+export type CountMechanism = 'MEASURED_API_COUNT' | 'COUNT_ENDPOINT_AVAILABLE' | 'ESTIMATE_ONLY';
+
+export interface SourceQueryDetail {
+  query: string;
+  count: number;
+  classification: CorpusInventoryDataClassification;
+  notes?: string;
+}
+
+export interface SourceInventoryEntry {
+  sourceId: string;
+  sourceName: string;
+  tier: 'pilot' | 'tier1' | 'tier2';
+  officialEndpoint: string;
+  discoveryMechanism: CountMechanism;
+  crawlPolicy: CrawlPolicy;
+  totalSearchableRecords: {
+    count: number;
+    classification: CorpusInventoryDataClassification;
+    notes: string;
+  };
+  queryCounts: SourceQueryDetail[];
+  deduplicatedQueryTotal: {
+    count: number;
+    classification: CorpusInventoryDataClassification;
+    notes: string;
+  };
+  khmerRelevantRecords: {
+    count: number;
+    classification: CorpusInventoryDataClassification;
+  };
+  productionEligible: {
+    count: number;
+    classification: CorpusInventoryDataClassification;
+  };
+  quarantined: {
+    count: number;
+    classification: CorpusInventoryDataClassification;
+    reasons: string[];
+  };
+  rejected: {
+    count: number;
+    classification: CorpusInventoryDataClassification;
+  };
+  unknownLicense: {
+    count: number;
+    classification: CorpusInventoryDataClassification;
+  };
+  mediaDistribution: {
+    images: number;
+    audio: number;
+    video: number;
+    documents: number;
+    manuscripts: number;
+    maps: number;
+    threeD: number;
+    other: number;
+  };
+  storage: {
+    knownOriginalBytes: number;
+    estimatedOriginalBytes: number;
+    estimatedOptimizedBytes: number;
+    unknownBytesCount: number;
+  };
+  licenseDistribution: Record<string, number>;
+  apiLimitations: string[];
+  rateLimits: string;
+  quotaObservations: string;
+}
+
+export interface ProductionEligibleInventory {
+  timestamp: string;
+  totalDiscovered: number;
+  productionEligibleCorpus: number;
+  productionEligiblePercentage: number;
+  quarantinedCount: number;
+  rejectedCount: number;
+  unknownCount: number;
+  sources: Record<
+    string,
+    {
+      sourceName: string;
+      tier: string;
+      productionEligibleCount: number;
+      eligibleLicenses: Record<string, number>;
+      quarantineCount: number;
+      quarantineReasons: string[];
+    }
+  >;
+  licenseBreakdown: {
+    cc0: number;
+    ccBy: number;
+    ccBySa: number;
+    publicDomain: number;
+    ccByNcQuarantined: number;
+    ccByNdQuarantined: number;
+    allRightsReservedQuarantined: number;
+    inCopyrightQuarantined: number;
+    unknown: number;
+  };
+}
+
+export interface MediaInventorySummary {
+  timestamp: string;
+  totalAssets: number;
+  breakdown: {
+    images: { count: number; percentage: number; knownBytes: number; estRawBytes: number; estOptimizedBytes: number; compressionRatio: number };
+    audio: { count: number; percentage: number; knownBytes: number; estRawBytes: number; estOptimizedBytes: number; compressionRatio: number };
+    video: { count: number; percentage: number; knownBytes: number; estRawBytes: number; estOptimizedBytes: number; compressionRatio: number };
+    documents: { count: number; percentage: number; knownBytes: number; estRawBytes: number; estOptimizedBytes: number; compressionRatio: number };
+    manuscripts: { count: number; percentage: number; knownBytes: number; estRawBytes: number; estOptimizedBytes: number; compressionRatio: number };
+    maps: { count: number; percentage: number; knownBytes: number; estRawBytes: number; estOptimizedBytes: number; compressionRatio: number };
+    threeD: { count: number; percentage: number; knownBytes: number; estRawBytes: number; estOptimizedBytes: number; compressionRatio: number };
+    other: { count: number; percentage: number; knownBytes: number; estRawBytes: number; estOptimizedBytes: number; compressionRatio: number };
+  };
+  totalKnownBytes: number;
+  totalEstimatedRawBytes: number;
+  totalEstimatedOptimizedBytes: number;
+}
+
+export interface StorageBaselineSummary {
+  timestamp: string;
+  baselineScenarios: {
+    conservative: {
+      description: string;
+      perItemRawBytes: { images: number; audio: number; video: number; documents: number };
+      totalCorpusRawGB: number;
+      totalCorpusOptimizedGB: number;
+    };
+    expected: {
+      description: string;
+      perItemRawBytes: { images: number; audio: number; video: number; documents: number };
+      totalCorpusRawGB: number;
+      totalCorpusOptimizedGB: number;
+    };
+    optimized: {
+      description: string;
+      compressionRatios: { images: number; audio: number; video: number; documents: number };
+      totalCorpusRawGB: number;
+      totalCorpusOptimizedGB: number;
+      overallCompressionRatio: number;
+      storageSavingsPercent: number;
+    };
+  };
+  scaleProjections: Array<{
+    scaleLabel: string;
+    itemCount: number;
+    rawStorageGB: number;
+    optimizedStorageGB: number;
+    mediaBreakdownGB: {
+      images: { raw: number; optimized: number };
+      audio: { raw: number; optimized: number };
+      video: { raw: number; optimized: number };
+      documents: { raw: number; optimized: number };
+    };
+    r2CostMonthlyUSD: number;
+    b2CostMonthlyUSD: number;
+    isMeasuredOrProjected: CorpusInventoryDataClassification;
+  }>;
+  costModels: {
+    cloudflareR2: {
+      freeAllowanceGB: number;
+      pricePerGBMonthUSD: number;
+      egressPricePerGBUSD: number;
+      notes: string;
+    };
+    backblazeB2: {
+      freeAllowanceGB: number;
+      pricePerGBMonthUSD: number;
+      egressAllowance: string;
+      egressPricePerGBUSD: number;
+      notes: string;
+    };
+  };
+  architectureRecommendations: {
+    primary: {
+      name: string;
+      type: string;
+      estimatedMonthlyCostUSD: number;
+      pros: string[];
+      cons: string[];
+      rationale: string;
+    };
+    alternative1: {
+      name: string;
+      type: string;
+      estimatedMonthlyCostUSD: number;
+      pros: string[];
+      cons: string[];
+      rationale: string;
+    };
+    alternative2: {
+      name: string;
+      type: string;
+      estimatedMonthlyCostUSD: number;
+      pros: string[];
+      cons: string[];
+      rationale: string;
+    };
+  };
+}
+
+export interface CorpusInventoryMaster {
+  timestamp: string;
+  task: string; // "KH-017"
+  version: string;
+  sourceInventories: Record<string, SourceInventoryEntry>;
+  globalCorpusSummary: {
+    totalDiscovered: { value: number; classification: CorpusInventoryDataClassification };
+    khmerRelevant: { value: number; classification: CorpusInventoryDataClassification };
+    productionEligible: { value: number; classification: CorpusInventoryDataClassification };
+    quarantined: { value: number; classification: CorpusInventoryDataClassification };
+    rejected: { value: number; classification: CorpusInventoryDataClassification };
+    unknown: { value: number; classification: CorpusInventoryDataClassification };
+    deduplicatedEntities: { value: number; classification: CorpusInventoryDataClassification };
+    duplicateClustersCount: number;
+    crossSourceLinksCount: number;
+    knownOriginalStorageBytes: { value: number; classification: CorpusInventoryDataClassification };
+    estimatedOriginalStorageGB: { value: number; classification: CorpusInventoryDataClassification };
+    estimatedOptimizedStorageGB: { value: number; classification: CorpusInventoryDataClassification };
+  };
+  storageBaseline: StorageBaselineSummary;
+  productionEligibleInventory: ProductionEligibleInventory;
+  mediaInventory: MediaInventorySummary;
+}
+

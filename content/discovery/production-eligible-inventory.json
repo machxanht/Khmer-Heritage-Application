@@ -1,0 +1,179 @@
+{
+  "timestamp": "2026-08-29T14:34:29.753Z",
+  "totalDiscovered": 122726,
+  "productionEligibleCorpus": 41430,
+  "productionEligiblePercentage": 33.76,
+  "quarantinedCount": 81296,
+  "rejectedCount": 0,
+  "unknownCount": 0,
+  "sources": {
+    "met_museum_open_access": {
+      "sourceName": "The Metropolitan Museum of Art Open Access",
+      "tier": "pilot",
+      "productionEligibleCount": 174,
+      "eligibleLicenses": {
+        "CC0-1.0": 174
+      },
+      "quarantineCount": 0,
+      "quarantineReasons": []
+    },
+    "smithsonian_open_access": {
+      "sourceName": "Smithsonian National Museum of Asian Art (Freer & Sackler)",
+      "tier": "pilot",
+      "productionEligibleCount": 242,
+      "eligibleLicenses": {
+        "CC0-1.0": 242
+      },
+      "quarantineCount": 0,
+      "quarantineReasons": []
+    },
+    "wikimedia_commons": {
+      "sourceName": "Wikimedia Commons",
+      "tier": "pilot",
+      "productionEligibleCount": 28450,
+      "eligibleLicenses": {
+        "CC BY-SA 4.0": 14200,
+        "CC BY-SA 3.0": 3500,
+        "CC BY 4.0": 5200,
+        "CC BY 3.0": 1650,
+        "CC0-1.0": 2100,
+        "Public Domain": 1800,
+        "CC BY-NC": 150
+      },
+      "quarantineCount": 150,
+      "quarantineReasons": [
+        "Edge case files tagged with Non-Commercial or incomplete author metadata"
+      ]
+    },
+    "internet_archive": {
+      "sourceName": "Internet Archive (archive.org)",
+      "tier": "tier1",
+      "productionEligibleCount": 9176,
+      "eligibleLicenses": {
+        "Public Domain": 7820,
+        "CC0-1.0": 640,
+        "CC BY-SA": 420,
+        "CC BY": 296
+      },
+      "quarantineCount": 3224,
+      "quarantineReasons": [
+        "In-copyright items restricted to 14-day controlled digital lending (CDL)"
+      ]
+    },
+    "gallica_bnf": {
+      "sourceName": "Bibliothèque nationale de France (BnF / Gallica)",
+      "tier": "tier1",
+      "productionEligibleCount": 0,
+      "eligibleLicenses": {},
+      "quarantineCount": 12850,
+      "quarantineReasons": [
+        "BnF terms require separate license fee for commercial app redistribution (Non-commercial open)"
+      ]
+    },
+    "british_library_eap": {
+      "sourceName": "British Library (Endangered Archives Programme)",
+      "tier": "tier1",
+      "productionEligibleCount": 0,
+      "eligibleLicenses": {
+        "CC BY-NC 4.0 (Quarantined)": 2450
+      },
+      "quarantineCount": 2450,
+      "quarantineReasons": [
+        "CC BY-NC 4.0 license restriction requires quarantine under project policy"
+      ]
+    },
+    "library_of_congress": {
+      "sourceName": "Library of Congress (LOC)",
+      "tier": "tier1",
+      "productionEligibleCount": 3388,
+      "eligibleLicenses": {
+        "Public Domain / No Known Copyright": 3388
+      },
+      "quarantineCount": 462,
+      "quarantineReasons": [
+        "Undetermined rights statements or donor-restricted sound recordings"
+      ]
+    },
+    "persee_befeo": {
+      "sourceName": "Persée (BEFEO / Bulletin de l'EFEO)",
+      "tier": "tier1",
+      "productionEligibleCount": 0,
+      "eligibleLicenses": {},
+      "quarantineCount": 1850,
+      "quarantineReasons": [
+        "Persée terms: Free educational research only; commercial redistribution requires written authorization"
+      ]
+    },
+    "national_museum_cambodia": {
+      "sourceName": "National Museum of Cambodia (MCFA)",
+      "tier": "tier2",
+      "productionEligibleCount": 0,
+      "eligibleLicenses": {},
+      "quarantineCount": 14200,
+      "quarantineReasons": [
+        "State cultural property; requires bilateral institutional authorization from MCFA"
+      ]
+    },
+    "apsara_authority": {
+      "sourceName": "APSARA National Authority",
+      "tier": "tier2",
+      "productionEligibleCount": 0,
+      "eligibleLicenses": {},
+      "quarantineCount": 1650,
+      "quarantineReasons": [
+        "Royal Government of Cambodia Crown Copyright; metadata discovery only"
+      ]
+    },
+    "efeo": {
+      "sourceName": "École française d'Extrême-Orient (EFEO)",
+      "tier": "tier2",
+      "productionEligibleCount": 0,
+      "eligibleLicenses": {},
+      "quarantineCount": 23900,
+      "quarantineReasons": [
+        "Institutional copyright; bilateral partnership required for high-resolution distribution"
+      ]
+    },
+    "center_for_khmer_studies": {
+      "sourceName": "Center for Khmer Studies (CKS)",
+      "tier": "tier2",
+      "productionEligibleCount": 0,
+      "eligibleLicenses": {},
+      "quarantineCount": 11820,
+      "quarantineReasons": [
+        "Non-commercial academic open access; citations and metadata eligible"
+      ]
+    },
+    "buddhist_institute": {
+      "sourceName": "Buddhist Institute of Cambodia (Institut Bouddhique)",
+      "tier": "tier2",
+      "productionEligibleCount": 0,
+      "eligibleLicenses": {},
+      "quarantineCount": 5490,
+      "quarantineReasons": [
+        "State heritage archive; requires Ministry of Cults and Religions clearance"
+      ]
+    },
+    "mcfa_cambodia": {
+      "sourceName": "Ministry of Culture and Fine Arts, Cambodia (MCFA)",
+      "tier": "tier2",
+      "productionEligibleCount": 0,
+      "eligibleLicenses": {},
+      "quarantineCount": 3250,
+      "quarantineReasons": [
+        "National cultural registry; metadata citations permitted, raw media restricted"
+      ]
+    }
+  },
+  "licenseBreakdown": {
+    "cc0": 3156,
+    "ccBy": 9746,
+    "ccBySa": 18120,
+    "publicDomain": 13008,
+    "ccByNcQuarantined": 14700,
+    "ccByNdQuarantined": 462,
+    "allRightsReservedQuarantined": 28800,
+    "inCopyrightQuarantined": 3224,
+    "unknown": 31510
+  }
+}

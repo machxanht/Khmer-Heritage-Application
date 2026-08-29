@@ -15,6 +15,7 @@
     "content:estimate": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/sourceEstimator.ts",
     "content:pilot": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/ingestionPilot.ts",
     "content:discover": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/discoveryCrawler.ts",
+    "content:inventory": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/corpusInventory.ts",
     "content:deploy": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/deployR2.ts",
     "content:deploy:dry": "tsx --import ./src/pipeline/registerLoader.mjs src/pipeline/deployR2.ts --dry-run",
     "lint": "tsc --noEmit"

@@ -19,6 +19,7 @@ import { runDeployR2Tests } from './__tests__/deployR2.test.ts';
 import { runSourceRegistryTestSuite } from './__tests__/sourceRegistry.test.ts';
 import { runIngestionPilotTests } from './__tests__/ingestionPilot.test.ts';
 import { runDiscoveryCrawlerTests } from './__tests__/discoveryCrawler.test.ts';
+import { runCorpusInventoryTests } from './__tests__/corpusInventory.test.ts';
 
 export async function runAllPipelineAudits(): Promise<boolean> {
   const overallStart = performance.now();
@@ -198,12 +199,29 @@ export async function runAllPipelineAudits(): Promise<boolean> {
     return false;
   }
 
+  // STAGE 11: Verified Corpus Inventory & Storage Baseline (KH-017)
+  console.log('▶ STAGE 11: VERIFIED CORPUS INVENTORY, 14-SOURCE AUDIT & STORAGE BASELINE...');
+  const inventoryReport = await runCorpusInventoryTests();
+  inventoryReport.results.forEach((r, idx) => {
+    const symbol = r.passed ? '✓ PASS' : '✗ FAIL';
+    console.log(`  [${symbol}] Test ${String(idx + 1).padStart(2, '0')}: ${r.test}`);
+  });
+  console.log(`  • Result: ${inventoryReport.passed}/${inventoryReport.total} inventory tests passed in ${inventoryReport.durationMs} ms.\n`);
+
+  if (inventoryReport.failed > 0) {
+    console.error(`❌ STAGE 11 FAILED: ${inventoryReport.failed} inventory tests failed!`);
+    inventoryReport.results
+      .filter((r) => !r.passed)
+      .forEach((r) => console.error(`    - ${r.test}: ${r.message}`));
+    return false;
+  }
+
   const overallEnd = performance.now();
   const overallMs = +(overallEnd - overallStart).toFixed(2);
 
   console.log('╔═══════════════════════════════════════════════════════════════════════════╗');
-  console.log(`║ ALL 10 AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                  ║`);
-  console.log('║ STATUS: CORPUS, BUNDLE, R2, OFFLINE CACHE, SIGV4, CATALOG, PILOT & DISCOVERY║');
+  console.log(`║ ALL 11 AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                  ║`);
+  console.log('║ STATUS: CORPUS, BUNDLE, R2, CACHE, SIGV4, CATALOG, PILOT, CRAWLER, INVENTORY ║');
   console.log('╚═══════════════════════════════════════════════════════════════════════════╝\n');
 
   return true;

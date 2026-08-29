@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-08-29T14:34:29.753Z",
+  "rawSourceRecords": 122726,
+  "productionEligibleRecords": 41430,
+  "uniqueCanonicalEntities": 34815,
+  "duplicateClustersCount": 3314,
+  "crossSourceLinksCount": 6629,
+  "deduplicationRatio": 1.19,
+  "methodology": "Unicode NFD normalization with token overlap and accession code matching"
+}

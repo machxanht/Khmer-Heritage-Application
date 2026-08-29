@@ -194,6 +194,23 @@
   - All 10 pipeline stages passed (135/135 tests) in 452 ms. 0 lint errors and clean production build.
   - Paused after discovery completion with full storage models ready for PM ingestion approval.
 
+## Task KH-017: Verified Corpus Inventory & Storage Baseline
+- **Date**: 2026-08-29
+- **Assigned By**: ChatGPT / PM
+- **Implemented By**: Studio AI (Developer)
+- **Status**: SUCCESS
+- **Summary**:
+  - Implemented comprehensive verified corpus inventory (`src/pipeline/corpusInventory.ts`) auditing 122,726 items across all 14 sources with multi-query deduplication.
+  - Formulated fail-closed licensing gate: 41,430 items (~33.8%) verified Production-Eligible (Met Museum, Smithsonian Asian Art, Wikimedia Commons, Internet Archive Open, Library of Congress); 81,296 items (~66.2%) Quarantined (BnF Gallica, British Library EAP, Persée BEFEO, EFEO, NMC, APSARA, CKS, Buddhist Institute, MCFA).
+  - Calculated 3-tier storage baseline: Conservative (4,070.45 GB raw / 921.56 GB opt), Expected (2,473.51 GB raw / 728.36 GB opt), and Optimized (3.40x compression, 70.6% storage reduction).
+  - Modeled Cloudflare R2 and Backblaze B2 economics across 7 scale tiers (10K to 1M items), confirming Cloudflare R2 single-tier storage as primary architecture ($2.48/month for current production corpus; $11.28/mo for 100K items; $124.97/mo for 1M items) with guaranteed zero-egress predictability.
+  - Generated 6 canonical inventory artifacts in `content/discovery/` (`source-inventory.json`, `production-eligible-inventory.json`, `media-inventory.json`, `license-inventory.json`, `deduplication-inventory.json`, `storage-baseline.json`).
+  - Implemented 80 automated unit and integration tests in `src/pipeline/__tests__/corpusInventory.test.ts` integrated as Stage 11 into `src/pipeline/testRunner.ts`.
+  - Passed all 11 pipeline stages (215/215 tests passed) in 475 ms. 0 TypeScript compiler warnings (`npm run lint`), verified production build.
+  - Published comprehensive progress and completion reports in `docs/AI_BRIDGE_PROGRESS_017.md` and `docs/AI_BRIDGE_REPORT_017.md`.
+
+
+
 
 
 
