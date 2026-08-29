@@ -1,40 +1,40 @@
 {
-  "timestamp": "2026-08-29T10:18:07.256Z",
+  "timestamp": "2026-08-29T10:30:59.582Z",
   "averages": {
-    "originalBytesPerItem": 12430845,
-    "optimizedBytesPerItem": 712585,
-    "compressionRatio": 17.49
+    "originalBytesPerItem": 15664118,
+    "optimizedBytesPerItem": 715108,
+    "compressionRatio": 21.95
   },
   "projections": {
     "scale1kGB": {
-      "original": 11.58,
-      "optimized": 0.66,
-      "savingsPct": 94.3,
+      "original": 14.59,
+      "optimized": 0.67,
+      "savingsPct": 95.4,
       "estMonthlyR2USD": 0
     },
     "scale5kGB": {
-      "original": 57.89,
-      "optimized": 3.32,
-      "savingsPct": 94.3,
+      "original": 72.94,
+      "optimized": 3.33,
+      "savingsPct": 95.4,
       "estMonthlyR2USD": 0
     },
     "scale10kGB": {
-      "original": 115.77,
-      "optimized": 6.64,
-      "savingsPct": 94.3,
+      "original": 145.88,
+      "optimized": 6.66,
+      "savingsPct": 95.4,
       "estMonthlyR2USD": 0
     },
     "scale50kGB": {
-      "original": 578.86,
-      "optimized": 33.18,
-      "savingsPct": 94.3,
+      "original": 729.42,
+      "optimized": 33.3,
+      "savingsPct": 95.4,
       "estMonthlyR2USD": 0.35
     }
   },
   "theoreticalComparison": {
     "kh014AModeledAvgOptimizedMB": 0.535,
-    "pilotMeasuredAvgOptimizedMB": 0.68,
-    "deltaPercent": 27.1,
+    "pilotMeasuredAvgOptimizedMB": 0.682,
+    "deltaPercent": 27.5,
     "assessment": "ACCEPTABLE_VARIANCE: Pilot measurements validate significant >90% storage savings."
   }
 }

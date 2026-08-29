@@ -404,3 +404,159 @@ export interface PilotCheckpoint {
   sourceResults: Record<string, IngestionPilotSourceResult>;
 }
 
+// --------------------------------------------------------------------------
+// KH-015: Controlled Corpus Metadata Discovery Types
+// --------------------------------------------------------------------------
+
+export type LicenseClassification = 'ACCEPTABLE' | 'QUARANTINE' | 'REJECTED' | 'UNKNOWN';
+export type DiscoveredMediaType = 'images' | 'audio' | 'video' | 'documents' | 'other';
+
+export interface DiscoveredMediaAsset {
+  url: string;
+  mimeType: string;
+  mediaType: DiscoveredMediaType;
+  width?: number;
+  height?: number;
+  durationSeconds?: number;
+  originalSizeBytes?: number;
+  isSizeKnown: boolean;
+  sizeEstimationMethod?: string;
+  estimatedOriginalBytes: number;
+  estimatedOptimizedBytes: number;
+}
+
+export interface DiscoveredRecord {
+  sourceId: string;
+  sourceName: string;
+  sourceItemId: string;
+  title: string;
+  creator?: string;
+  date?: string;
+  description?: string;
+  categories: string[];
+  culture?: string;
+  medium?: string;
+  dimensions?: string;
+  classification?: string;
+  originalUrl: string;
+  relevanceScore: number;
+  relevanceKeywords: string[];
+  isKhmerRelevant: boolean;
+  rawLicense: string;
+  licenseUrl?: string;
+  licenseClassification: LicenseClassification;
+  licenseTier?: LicenseTier | 'unsupported_quarantine' | 'unknown';
+  isCommercialAllowed: boolean;
+  isPublicDomain: boolean;
+  quarantineOrRejectionReason?: string;
+  attribution: string;
+  media: DiscoveredMediaAsset[];
+  hasMedia: boolean;
+  discoveredAt: string;
+}
+
+export interface DiscoveryPaginationInfo {
+  totalPagesChecked: number;
+  totalRecordsExamined: number;
+  cursorOrOffset?: string | number;
+  hasMore: boolean;
+}
+
+export interface DiscoverySourceResult {
+  sourceId: string;
+  sourceName: string;
+  apiUrl?: string;
+  paginationInfo: DiscoveryPaginationInfo;
+  recordsExamined: number;
+  khmerRelevantRecords: number;
+  recordsAccepted: number;
+  recordsRejected: number;
+  recordsQuarantined: number;
+  recordsUnknownLicense: number;
+  itemsWithMedia: number;
+  itemsWithoutMedia: number;
+  mediaTypeCounts: {
+    images: number;
+    audio: number;
+    video: number;
+    documents: number;
+    other: number;
+  };
+  knownMediaSizeBytes: number;
+  estimatedMediaSizeBytes: number;
+  estimatedOptimizedMediaSizeBytes: number;
+  licenseDistribution: Record<string, number>;
+  rejectionReasons: Record<string, number>;
+  records: DiscoveredRecord[];
+}
+
+export interface ScaleProjectionTier {
+  scaleCount: number;
+  label: string;
+  estimatedOriginalGB: number;
+  estimatedOptimizedGB: number;
+  savingsPercent: number;
+  estMonthlyR2USD: number;
+  estMonthlyB2USD: number;
+}
+
+export interface StorageTierComparison {
+  thresholdGB: number;
+  label: string;
+  fitsOptimizedAtScale: string;
+  monthlyCostR2USD: number;
+  monthlyCostB2USD: number;
+  recommendationNotes: string;
+}
+
+export interface CorpusDiscoverySummary {
+  timestamp: string;
+  discoveryVersion: string;
+  sources: Record<string, DiscoverySourceResult>;
+  globalTotals: {
+    recordsExamined: number;
+    khmerRelevantRecords: number;
+    recordsAccepted: number;
+    recordsRejected: number;
+    recordsQuarantined: number;
+    recordsUnknownLicense: number;
+    itemsWithMedia: number;
+    itemsWithoutMedia: number;
+    mediaCounts: {
+      images: number;
+      audio: number;
+      video: number;
+      documents: number;
+      other: number;
+    };
+    knownOriginalBytes: number;
+    estimatedOriginalBytes: number;
+    estimatedOptimizedBytes: number;
+    overallCompressionRatio: number;
+    averageOptimizedBytesPerAcceptedItem: number;
+  };
+  scaleProjections: Record<string, ScaleProjectionTier>;
+  sourceSpecificProjections: Record<string, Record<string, ScaleProjectionTier>>;
+  storageArchitectureAnalysis: {
+    tierComparisons: StorageTierComparison[];
+    recommendation: 'R2_CURRENT_BUCKET' | 'R2_SEPARATE_BUCKET' | 'R2_B2_HYBRID' | 'B2_ARCHIVE';
+    r2FreeTierAssessment: string;
+    detailedRationale: string;
+  };
+  quotaAndRuntimeObservations: {
+    apiLatenciesMs: Record<string, number>;
+    rateLimitsEncountered: boolean;
+    rateLimitObservations: string[];
+    memoryUsageMB: number;
+    executionTimeMs: number;
+  };
+  knownLimitations: string[];
+}
+
+export interface DiscoveryCheckpoint {
+  timestamp: string;
+  completedSources: string[];
+  sourceCursors: Record<string, string | number>;
+  sourceResults: Record<string, DiscoverySourceResult>;
+}
+

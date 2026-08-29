@@ -160,6 +160,24 @@
   - Passed 100% of pipeline tests across all 9 stages (71/71 assertions passed), 0 lint errors, and verified production build.
   - Paused execution at the pilot stage as required, awaiting PM review before any full-scale ingestion.
 
+## Task KH-015: Controlled Corpus Metadata Discovery
+- **Date**: 2026-08-29
+- **Assigned By**: ChatGPT / PM
+- **Implemented By**: Studio AI (Developer)
+- **Status**: SUCCESS
+- **Summary**:
+  - Implemented metadata-first discovery crawl across the three approved open sources: The Metropolitan Museum of Art Open Access, Smithsonian Open Access (Freer-Sackler Collection), and Wikimedia Commons.
+  - Created shared discovery utilities (`src/pipeline/discoveryCommon.ts`) with license classification, media detection, empirical sizing models, and scale projection algorithms.
+  - Implemented source-specific discovery adapters (`metDiscoveryAdapter.ts`, `smithsonianDiscoveryAdapter.ts`, `wikimediaDiscoveryAdapter.ts`) with cursor pagination and relevance filtering.
+  - Built discovery orchestrator (`src/pipeline/discoveryCrawler.ts`) with checkpointing (`.discovery-checkpoint.json`) and added npm script `npm run content:discover`.
+  - Discovered 190 candidate records, identifying 61 Khmer relevant records, 60 accepted under commercial open licenses (31 CC-BY-SA, 16 CC-BY, 13 CC0), and 1 quarantined.
+  - Measured an 18.26x compression ratio (94.5% storage reduction) with an average optimized footprint of ~570.6 KB per accepted record.
+  - Calculated multi-scale projections (1K to 100K) demonstrating that 10,000 items fit within Cloudflare R2's 10 GB Free Tier ($0.00/mo), and 100,000 items cost only $0.65/mo on R2.
+  - Exported 6 structured discovery artifacts into `content/discovery/`.
+  - Created 41-test discovery test suite (`src/pipeline/__tests__/discoveryCrawler.test.ts`) integrated as Stage 10 into `src/pipeline/testRunner.ts`.
+  - All 10 pipeline stages passed 100% (112/112 tests), 0 lint errors, and successful applet compilation.
+  - Maintained strict operational boundaries: paused after metadata discovery without initiating unapproved large-scale media downloading.
+
 
 
 

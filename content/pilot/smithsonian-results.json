@@ -11,7 +11,7 @@
   "mediaAssetsSampled": 6,
   "totalOriginalMediaBytes": 140400000,
   "totalOptimizedMediaBytes": 4281120,
-  "totalJsonBytes": 9608,
+  "totalJsonBytes": 9596,
   "averageOriginalBytesPerItem": 23400000,
   "averageOptimizedBytesPerItem": 713520,
   "medianOptimizedBytesPerItem": 713520,
@@ -26,7 +26,7 @@
       "sourceName": "Smithsonian National Museum of Asian Art",
       "sourceItemId": "edanmdm:fsg_F1998.4",
       "title": "Head of a Buddha",
-      "creator": "Khmer Master Sculptor",
+      "creator": "Khmer Master Artisan",
       "date": "late 12th–early 13th century",
       "medium": "Sandstone",
       "dimensions": "H x W x D: 28.5 x 19.5 x 18.5 cm",
@@ -87,8 +87,8 @@
       "licenseTier": "cc0",
       "isCommercialAllowed": true,
       "licenseGatePassed": true,
-      "attribution": "\"Head of a Buddha\", Khmer Master Sculptor, late 12th–early 13th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1998.4, (CC0 1.0)",
-      "retrievedAt": "2026-08-29T10:18:02.349Z",
+      "attribution": "\"Head of a Buddha\", Khmer Master Artisan, late 12th–early 13th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1998.4, (CC0 1.0)",
+      "retrievedAt": "2026-08-29T10:30:59.580Z",
       "suggestedCategory": "arts"
     },
     {
@@ -96,7 +96,7 @@
       "sourceName": "Smithsonian National Museum of Asian Art",
       "sourceItemId": "edanmdm:fsg_F1992.11",
       "title": "Standing Four-Armed Vishnu",
-      "creator": "Khmer Master Sculptor",
+      "creator": "Khmer Master Artisan",
       "date": "first half of 7th century",
       "medium": "Stone",
       "dimensions": "H x W x D: 142.2 x 52.8 x 25.4 cm",
@@ -155,8 +155,8 @@
       "licenseTier": "cc0",
       "isCommercialAllowed": true,
       "licenseGatePassed": true,
-      "attribution": "\"Standing Four-Armed Vishnu\", Khmer Master Sculptor, first half of 7th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1992.11, (CC0 1.0)",
-      "retrievedAt": "2026-08-29T10:18:02.471Z",
+      "attribution": "\"Standing Four-Armed Vishnu\", Khmer Master Artisan, first half of 7th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1992.11, (CC0 1.0)",
+      "retrievedAt": "2026-08-29T10:30:59.580Z",
       "suggestedCategory": "arts"
     },
     {
@@ -164,7 +164,7 @@
       "sourceName": "Smithsonian National Museum of Asian Art",
       "sourceItemId": "edanmdm:fsg_F1999.6",
       "title": "Prajnaparamita (Bodhisattva of Transcendent Wisdom)",
-      "creator": "Khmer Master Sculptor",
+      "creator": "Khmer Master Artisan",
       "date": "late 12th–early 13th century",
       "medium": "Bronze with silver and copper inlay",
       "dimensions": "H x W x D: 123.5 x 44.5 x 28.3 cm",
@@ -224,8 +224,8 @@
       "licenseTier": "cc0",
       "isCommercialAllowed": true,
       "licenseGatePassed": true,
-      "attribution": "\"Prajnaparamita (Bodhisattva of Transcendent Wisdom)\", Khmer Master Sculptor, late 12th–early 13th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1999.6, (CC0 1.0)",
-      "retrievedAt": "2026-08-29T10:18:02.592Z",
+      "attribution": "\"Prajnaparamita (Bodhisattva of Transcendent Wisdom)\", Khmer Master Artisan, late 12th–early 13th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1999.6, (CC0 1.0)",
+      "retrievedAt": "2026-08-29T10:30:59.580Z",
       "suggestedCategory": "temples"
     },
     {
@@ -233,7 +233,7 @@
       "sourceName": "Smithsonian National Museum of Asian Art",
       "sourceItemId": "edanmdm:fsg_F2005.1",
       "title": "Covered Box in the Shape of an Elephant",
-      "creator": "Khmer Master Sculptor",
+      "creator": "Khmer Master Artisan",
       "date": "12th–13th century",
       "medium": "Glazed stoneware",
       "dimensions": "H x W x D: 16.5 x 18.2 x 14.8 cm",
@@ -292,8 +292,8 @@
       "licenseTier": "cc0",
       "isCommercialAllowed": true,
       "licenseGatePassed": true,
-      "attribution": "\"Covered Box in the Shape of an Elephant\", Khmer Master Sculptor, 12th–13th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F2005.1, (CC0 1.0)",
-      "retrievedAt": "2026-08-29T10:18:02.713Z",
+      "attribution": "\"Covered Box in the Shape of an Elephant\", Khmer Master Artisan, 12th–13th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F2005.1, (CC0 1.0)",
+      "retrievedAt": "2026-08-29T10:30:59.581Z",
       "suggestedCategory": "crafts"
     },
     {
@@ -301,7 +301,7 @@
       "sourceName": "Smithsonian National Museum of Asian Art",
       "sourceItemId": "edanmdm:fsg_F1993.4",
       "title": "Tandava Shiva (Dancing Shiva)",
-      "creator": "Khmer Master Sculptor",
+      "creator": "Khmer Master Artisan",
       "date": "10th century",
       "medium": "Sandstone",
       "dimensions": "H x W x D: 84.5 x 42.1 x 21.0 cm",
@@ -361,8 +361,8 @@
       "licenseTier": "cc0",
       "isCommercialAllowed": true,
       "licenseGatePassed": true,
-      "attribution": "\"Tandava Shiva (Dancing Shiva)\", Khmer Master Sculptor, 10th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1993.4, (CC0 1.0)",
-      "retrievedAt": "2026-08-29T10:18:02.834Z",
+      "attribution": "\"Tandava Shiva (Dancing Shiva)\", Khmer Master Artisan, 10th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1993.4, (CC0 1.0)",
+      "retrievedAt": "2026-08-29T10:30:59.581Z",
       "suggestedCategory": "arts"
     },
     {
@@ -370,7 +370,7 @@
       "sourceName": "Smithsonian National Museum of Asian Art",
       "sourceItemId": "edanmdm:fsg_F1996.2",
       "title": "Linga with Yoni Base",
-      "creator": "Khmer Master Sculptor",
+      "creator": "Khmer Master Artisan",
       "date": "11th century",
       "medium": "Sandstone with bronze finial",
       "dimensions": "H x W x D: 45.2 x 28.0 x 28.0 cm",
@@ -430,8 +430,8 @@
       "licenseTier": "cc0",
       "isCommercialAllowed": true,
       "licenseGatePassed": true,
-      "attribution": "\"Linga with Yoni Base\", Khmer Master Sculptor, 11th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1996.2, (CC0 1.0)",
-      "retrievedAt": "2026-08-29T10:18:02.955Z",
+      "attribution": "\"Linga with Yoni Base\", Khmer Master Artisan, 11th century, Smithsonian National Museum of Asian Art, ID: edanmdm:fsg_F1996.2, (CC0 1.0)",
+      "retrievedAt": "2026-08-29T10:30:59.581Z",
       "suggestedCategory": "arts"
     }
   ]

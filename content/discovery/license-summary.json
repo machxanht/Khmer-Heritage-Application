@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-08-29T10:30:30.417Z",
+  "globalLicenseDistribution": {
+    "CC0-1.0 (Public Domain)": 13,
+    "All Rights Reserved": 1,
+    "CC-BY-SA": 31,
+    "CC-BY": 16
+  },
+  "acceptedCount": 60,
+  "quarantinedCount": 1,
+  "rejectedCount": 129,
+  "unknownLicenseCount": 0,
+  "perSourceLicenses": {
+    "met_museum_open_access": {
+      "CC0-1.0 (Public Domain)": 1
+    },
+    "smithsonian_open_access": {
+      "CC0-1.0 (Public Domain)": 9,
+      "All Rights Reserved": 1
+    },
+    "wikimedia_commons": {
+      "CC-BY-SA": 31,
+      "CC0-1.0 (Public Domain)": 3,
+      "CC-BY": 16
+    }
+  }
+}

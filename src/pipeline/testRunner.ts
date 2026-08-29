@@ -18,6 +18,7 @@ import { runOfflineCacheTests } from '../services/providers/__tests__/offlineCac
 import { runDeployR2Tests } from './__tests__/deployR2.test.ts';
 import { runSourceRegistryTestSuite } from './__tests__/sourceRegistry.test.ts';
 import { runIngestionPilotTests } from './__tests__/ingestionPilot.test.ts';
+import { runDiscoveryCrawlerTests } from './__tests__/discoveryCrawler.test.ts';
 
 export async function runAllPipelineAudits(): Promise<boolean> {
   const overallStart = performance.now();
@@ -180,12 +181,29 @@ export async function runAllPipelineAudits(): Promise<boolean> {
     return false;
   }
 
+  // STAGE 10: Controlled Corpus Metadata Discovery & Scale Projections (KH-015)
+  console.log('▶ STAGE 10: DISCOVERY CRAWLER, LICENSE GATES & SCALE PROJECTIONS...');
+  const discoveryReport = await runDiscoveryCrawlerTests();
+  discoveryReport.results.forEach((r, idx) => {
+    const symbol = r.passed ? '✓ PASS' : '✗ FAIL';
+    console.log(`  [${symbol}] Test ${String(idx + 1).padStart(2, '0')}: ${r.test}`);
+  });
+  console.log(`  • Result: ${discoveryReport.passed}/${discoveryReport.passed + discoveryReport.failed} discovery tests passed.\n`);
+
+  if (discoveryReport.failed > 0) {
+    console.error(`❌ STAGE 10 FAILED: ${discoveryReport.failed} discovery tests failed!`);
+    discoveryReport.results
+      .filter((r) => !r.passed)
+      .forEach((r) => console.error(`    - ${r.test}: ${r.message}`));
+    return false;
+  }
+
   const overallEnd = performance.now();
   const overallMs = +(overallEnd - overallStart).toFixed(2);
 
   console.log('╔═══════════════════════════════════════════════════════════════════════════╗');
-  console.log(`║ ALL 9 AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                   ║`);
-  console.log('║ STATUS: CORPUS, BUNDLE, R2, OFFLINE CACHE, SIGV4, CATALOG & PILOT VERIFIED║');
+  console.log(`║ ALL 10 AUDIT STAGES PASSED IN ${overallMs.toString().padEnd(6)} ms                                  ║`);
+  console.log('║ STATUS: CORPUS, BUNDLE, R2, OFFLINE CACHE, SIGV4, CATALOG, PILOT & DISCOVERY║');
   console.log('╚═══════════════════════════════════════════════════════════════════════════╝\n');
 
   return true;

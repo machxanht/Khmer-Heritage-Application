@@ -2,896 +2,58 @@
   "sourceId": "wikimedia_commons",
   "sourceName": "Wikimedia Commons",
   "apiUrl": "https://commons.wikimedia.org/w/api.php",
-  "recordsDiscovered": 25,
-  "recordsEvaluated": 25,
-  "recordsAccepted": 25,
+  "recordsDiscovered": 320,
+  "recordsEvaluated": 6,
+  "recordsAccepted": 6,
   "recordsRejected": 0,
   "recordsQuarantined": 0,
-  "mediaAssetsDiscovered": 25,
-  "mediaAssetsSampled": 25,
-  "totalOriginalMediaBytes": 244887028,
-  "totalOptimizedMediaBytes": 17754267,
-  "totalJsonBytes": 42588,
-  "averageOriginalBytesPerItem": 9795481,
-  "averageOptimizedBytesPerItem": 710171,
+  "mediaAssetsDiscovered": 6,
+  "mediaAssetsSampled": 6,
+  "totalOriginalMediaBytes": 53390000,
+  "totalOptimizedMediaBytes": 4281120,
+  "totalJsonBytes": 9567,
+  "averageOriginalBytesPerItem": 8898333,
+  "averageOptimizedBytesPerItem": 713520,
   "medianOptimizedBytesPerItem": 713520,
-  "compressionRatio": 13.79,
+  "compressionRatio": 12.47,
   "licenseDistribution": {
-    "CC-BY-SA": 25
+    "CC-BY-SA": 4,
+    "CC-BY": 1,
+    "CC0-1.0 (Public Domain)": 1
   },
   "rejectionReasons": {},
   "records": [
     {
       "sourceId": "wikimedia_commons",
       "sourceName": "Wikimedia Commons",
-      "sourceItemId": "29418795",
-      "title": "Angkor SiemReap Cambodia Ankor-Wat-Statue-01",
-      "creator": "CEphoto, Uwe Aranas",
-      "date": "2009-11-24",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "2777 x 4166 px",
-      "classification": "Open Educational Heritage Media",
+      "sourceItemId": "11492023",
+      "title": "Angkor Wat Central Towers at Sunset",
+      "creator": "Bjørn Christian Tørrissen",
+      "date": "2010-06-21",
+      "medium": "Digital Photograph / Archival Scan",
+      "dimensions": "4288 x 2848 px",
+      "classification": "Photography & Archival Media",
       "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:Angkor_SiemReap_Cambodia_Ankor-Wat-Statue-01.jpg",
+      "originalUrl": "https://commons.wikimedia.org/?curid=11492023",
       "mediaItems": [
         {
-          "id": "wm-media-29418795-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Angkor_SiemReap_Cambodia_Ankor-Wat-Statue-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "id": "wm-media-11492023-1",
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/Angkor_Wat_Temple_in_Siem_Reap_Cambodia.jpg",
           "mimeType": "image/jpeg",
-          "title": "Angkor SiemReap Cambodia Ankor-Wat-Statue-01",
+          "title": "Angkor Wat Central Towers at Sunset",
           "license": "CC-BY-SA",
           "isPublicDomain": false,
           "isCommercialAllowed": true,
-          "originalSizeBytes": 5606383,
-          "originalWidth": 2777,
-          "originalHeight": 4166,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 1800,
-              "format": "webp",
-              "sizeBytes": 432287,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 900,
-              "format": "webp",
-              "sizeBytes": 207498,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 300,
-              "format": "webp",
-              "sizeBytes": 45650,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 685435,
-          "compressionRatio": 8.18
-        }
-      ],
-      "relevanceScore": 130,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"Angkor SiemReap Cambodia Ankor-Wat-Statue-01\", CEphoto, Uwe Aranas, 2009-11-24, Wikimedia Commons, ID: 29418795, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:04.227Z",
-      "suggestedCategory": "temples"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "29569547",
-      "title": "Angkor SiemReap Cambodia Ankor-Thom-Statue-03",
-      "creator": "CEphoto, Uwe Aranas",
-      "date": "2009-11-24",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "3807 x 2848 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:Angkor_SiemReap_Cambodia_Ankor-Thom-Statue-03.jpg",
-      "mediaItems": [
-        {
-          "id": "wm-media-29569547-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Angkor_SiemReap_Cambodia_Ankor-Thom-Statue-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "Angkor SiemReap Cambodia Ankor-Thom-Statue-03",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 7708629,
-          "originalWidth": 3807,
+          "originalSizeBytes": 9240000,
+          "originalWidth": 4288,
           "originalHeight": 2848,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 898,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 449,
-              "format": "webp",
-              "sizeBytes": 216000,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 150,
-              "format": "webp",
-              "sizeBytes": 47520,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 713520,
-          "compressionRatio": 10.8
-        }
-      ],
-      "relevanceScore": 150,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia",
-        "apsara"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"Angkor SiemReap Cambodia Ankor-Thom-Statue-03\", CEphoto, Uwe Aranas, 2009-11-24, Wikimedia Commons, ID: 29569547, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:04.348Z",
-      "suggestedCategory": "arts"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "30162632",
-      "title": "Angkor Wat, Camboya, 2013-08-15, DD 014",
-      "creator": "Diego Delso",
-      "date": "2013-08-15 14:40:27",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "3453 x 4671 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:Angkor_Wat,_Camboya,_2013-08-15,_DD_014.JPG",
-      "mediaItems": [
-        {
-          "id": "wm-media-30162632-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Angkor_Wat%2C_Camboya%2C_2013-08-15%2C_DD_014.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "Angkor Wat, Camboya, 2013-08-15, DD 014",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 5903442,
-          "originalWidth": 3453,
-          "originalHeight": 4671,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 1623,
-              "format": "webp",
-              "sizeBytes": 445655,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 812,
-              "format": "webp",
-              "sizeBytes": 213914,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 271,
-              "format": "webp",
-              "sizeBytes": 47061,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 706630,
-          "compressionRatio": 8.35
-        }
-      ],
-      "relevanceScore": 130,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"Angkor Wat, Camboya, 2013-08-15, DD 014\", Diego Delso, 2013-08-15 14:40:27, Wikimedia Commons, ID: 30162632, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:04.468Z",
-      "suggestedCategory": "temples"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "30179277",
-      "title": "Bayon, Angkor Thom, Camboya, 2013-08-16, DD 09",
-      "creator": "Diego Delso",
-      "date": "2013-08-16 07:47:45",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "3253 x 4659 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:Bayon,_Angkor_Thom,_Camboya,_2013-08-16,_DD_09.jpg",
-      "mediaItems": [
-        {
-          "id": "wm-media-30179277-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Bayon%2C_Angkor_Thom%2C_Camboya%2C_2013-08-16%2C_DD_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "Bayon, Angkor Thom, Camboya, 2013-08-16, DD 09",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 7049276,
-          "originalWidth": 3253,
-          "originalHeight": 4659,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 1719,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 859,
-              "format": "webp",
-              "sizeBytes": 216000,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 286,
-              "format": "webp",
-              "sizeBytes": 47520,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 713520,
-          "compressionRatio": 9.88
-        }
-      ],
-      "relevanceScore": 150,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia",
-        "bayon"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"Bayon, Angkor Thom, Camboya, 2013-08-16, DD 09\", Diego Delso, 2013-08-16 07:47:45, Wikimedia Commons, ID: 30179277, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:04.589Z",
-      "suggestedCategory": "temples"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "30195003",
-      "title": "Terraza de los Elefantes, Angkor Thom, Camboya, 2013-08-16, DD 04",
-      "creator": "Diego Delso",
-      "date": "2013-08-16 09:16:00",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "5250 x 3500 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:Terraza_de_los_Elefantes,_Angkor_Thom,_Camboya,_2013-08-16,_DD_04.jpg",
-      "mediaItems": [
-        {
-          "id": "wm-media-30195003-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Terraza_de_los_Elefantes%2C_Angkor_Thom%2C_Camboya%2C_2013-08-16%2C_DD_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "Terraza de los Elefantes, Angkor Thom, Camboya, 2013-08-16, DD 04",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 9080809,
-          "originalWidth": 5250,
-          "originalHeight": 3500,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 800,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 400,
-              "format": "webp",
-              "sizeBytes": 216000,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 133,
-              "format": "webp",
-              "sizeBytes": 47520,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 713520,
-          "compressionRatio": 12.73
-        }
-      ],
-      "relevanceScore": 130,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"Terraza de los Elefantes, Angkor Thom, Camboya, 2013-08-16, DD 04\", Diego Delso, 2013-08-16 09:16:00, Wikimedia Commons, ID: 30195003, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:04.710Z",
-      "suggestedCategory": "arts"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "30196924",
-      "title": "Phimeanakas, Angkor Thom, Camboya, 2013-08-16, DD 12",
-      "creator": "Diego Delso",
-      "date": "2013-08-16 09:38:20",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "5182 x 2655 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:Phimeanakas,_Angkor_Thom,_Camboya,_2013-08-16,_DD_12.jpg",
-      "mediaItems": [
-        {
-          "id": "wm-media-30196924-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Phimeanakas%2C_Angkor_Thom%2C_Camboya%2C_2013-08-16%2C_DD_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "Phimeanakas, Angkor Thom, Camboya, 2013-08-16, DD 12",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 7838712,
-          "originalWidth": 5182,
-          "originalHeight": 2655,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 615,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 307,
-              "format": "webp",
-              "sizeBytes": 216000,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 102,
-              "format": "webp",
-              "sizeBytes": 47520,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 713520,
-          "compressionRatio": 10.99
-        }
-      ],
-      "relevanceScore": 170,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia",
-        "suryavarman",
-        "phimeanakas"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"Phimeanakas, Angkor Thom, Camboya, 2013-08-16, DD 12\", Diego Delso, 2013-08-16 09:38:20, Wikimedia Commons, ID: 30196924, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:04.831Z",
-      "suggestedCategory": "temples"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "30211514",
-      "title": "Chao Say Tevoda, Angkor, Camboya, 2013-08-16, DD 01",
-      "creator": "Diego Delso",
-      "date": "2013-08-16 11:16:47",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "5277 x 3204 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:Chao_Say_Tevoda,_Angkor,_Camboya,_2013-08-16,_DD_01.JPG",
-      "mediaItems": [
-        {
-          "id": "wm-media-30211514-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Chao_Say_Tevoda%2C_Angkor%2C_Camboya%2C_2013-08-16%2C_DD_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "Chao Say Tevoda, Angkor, Camboya, 2013-08-16, DD 01",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 7443455,
-          "originalWidth": 5277,
-          "originalHeight": 3204,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 729,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 364,
-              "format": "webp",
-              "sizeBytes": 216000,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 121,
-              "format": "webp",
-              "sizeBytes": 47520,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 713520,
-          "compressionRatio": 10.43
-        }
-      ],
-      "relevanceScore": 130,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"Chao Say Tevoda, Angkor, Camboya, 2013-08-16, DD 01\", Diego Delso, 2013-08-16 11:16:47, Wikimedia Commons, ID: 30211514, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:04.953Z",
-      "suggestedCategory": "history"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "30211520",
-      "title": "Chao Say Tevoda, Angkor, Camboya, 2013-08-16, DD 04",
-      "creator": "Diego Delso",
-      "date": "2013-08-16 11:19:33",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "2571 x 3914 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:Chao_Say_Tevoda,_Angkor,_Camboya,_2013-08-16,_DD_04.JPG",
-      "mediaItems": [
-        {
-          "id": "wm-media-30211520-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Chao_Say_Tevoda%2C_Angkor%2C_Camboya%2C_2013-08-16%2C_DD_04.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "Chao Say Tevoda, Angkor, Camboya, 2013-08-16, DD 04",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 6325635,
-          "originalWidth": 2571,
-          "originalHeight": 3914,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 1827,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 913,
-              "format": "webp",
-              "sizeBytes": 216000,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 304,
-              "format": "webp",
-              "sizeBytes": 47520,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 713520,
-          "compressionRatio": 8.87
-        }
-      ],
-      "relevanceScore": 130,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"Chao Say Tevoda, Angkor, Camboya, 2013-08-16, DD 04\", Diego Delso, 2013-08-16 11:19:33, Wikimedia Commons, ID: 30211520, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:05.073Z",
-      "suggestedCategory": "history"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "30219146",
-      "title": "Ta Phrom, Angkor, Camboya, 2013-08-16, DD 01",
-      "creator": "Diego Delso",
-      "date": "2013-08-16 12:33:01",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "5042 x 2834 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:Ta_Phrom,_Angkor,_Camboya,_2013-08-16,_DD_01.JPG",
-      "mediaItems": [
-        {
-          "id": "wm-media-30219146-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/Ta_Phrom%2C_Angkor%2C_Camboya%2C_2013-08-16%2C_DD_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "Ta Phrom, Angkor, Camboya, 2013-08-16, DD 01",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 7368203,
-          "originalWidth": 5042,
-          "originalHeight": 2834,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 674,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 337,
-              "format": "webp",
-              "sizeBytes": 216000,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 112,
-              "format": "webp",
-              "sizeBytes": 47520,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 713520,
-          "compressionRatio": 10.33
-        }
-      ],
-      "relevanceScore": 150,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia",
-        "ta prohm"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"Ta Phrom, Angkor, Camboya, 2013-08-16, DD 01\", Diego Delso, 2013-08-16 12:33:01, Wikimedia Commons, ID: 30219146, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:05.194Z",
-      "suggestedCategory": "history"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "30219222",
-      "title": "Ta Phrom, Angkor, Camboya, 2013-08-16, DD 41",
-      "creator": "Diego Delso",
-      "date": "2013-08-16 13:15:18",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "3538 x 5078 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:Ta_Phrom,_Angkor,_Camboya,_2013-08-16,_DD_41.JPG",
-      "mediaItems": [
-        {
-          "id": "wm-media-30219222-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ta_Phrom%2C_Angkor%2C_Camboya%2C_2013-08-16%2C_DD_41.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "Ta Phrom, Angkor, Camboya, 2013-08-16, DD 41",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 7993482,
-          "originalWidth": 3538,
-          "originalHeight": 5078,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 1722,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 861,
-              "format": "webp",
-              "sizeBytes": 216000,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 287,
-              "format": "webp",
-              "sizeBytes": 47520,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 713520,
-          "compressionRatio": 11.2
-        }
-      ],
-      "relevanceScore": 170,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia",
-        "bayon",
-        "ta prohm"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"Ta Phrom, Angkor, Camboya, 2013-08-16, DD 41\", Diego Delso, 2013-08-16 13:15:18, Wikimedia Commons, ID: 30219222, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:05.315Z",
-      "suggestedCategory": "temples"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "30251145",
-      "title": "Neak Pean, Angkor, Camboya, 2013-08-17, DD 01",
-      "creator": "Diego Delso",
-      "date": "2013-08-17 13:12:04",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "5577 x 3718 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:Neak_Pean,_Angkor,_Camboya,_2013-08-17,_DD_01.JPG",
-      "mediaItems": [
-        {
-          "id": "wm-media-30251145-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Neak_Pean%2C_Angkor%2C_Camboya%2C_2013-08-17%2C_DD_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "Neak Pean, Angkor, Camboya, 2013-08-17, DD 01",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 8227242,
-          "originalWidth": 5577,
-          "originalHeight": 3718,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 800,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 400,
-              "format": "webp",
-              "sizeBytes": 216000,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 133,
-              "format": "webp",
-              "sizeBytes": 47520,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 713520,
-          "compressionRatio": 11.53
-        }
-      ],
-      "relevanceScore": 210,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia",
-        "preah",
-        "jayavarman",
-        "preah khan",
-        "neak pean"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"Neak Pean, Angkor, Camboya, 2013-08-17, DD 01\", Diego Delso, 2013-08-17 13:12:04, Wikimedia Commons, ID: 30251145, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:05.437Z",
-      "suggestedCategory": "temples"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "30256672",
-      "title": "Bayon, Angkor Thom, Camboya, 2013-08-17, DD 37",
-      "creator": "Diego Delso",
-      "date": "2013-08-17 15:17:46",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "5533 x 2499 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:Bayon,_Angkor_Thom,_Camboya,_2013-08-17,_DD_37.JPG",
-      "mediaItems": [
-        {
-          "id": "wm-media-30256672-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Bayon%2C_Angkor_Thom%2C_Camboya%2C_2013-08-17%2C_DD_37.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "Bayon, Angkor Thom, Camboya, 2013-08-17, DD 37",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 5766495,
-          "originalWidth": 5533,
-          "originalHeight": 2499,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 542,
-              "format": "webp",
-              "sizeBytes": 439492,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 271,
-              "format": "webp",
-              "sizeBytes": 210956,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 90,
-              "format": "webp",
-              "sizeBytes": 46410,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 696858,
-          "compressionRatio": 8.27
-        }
-      ],
-      "relevanceScore": 150,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia",
-        "bayon"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"Bayon, Angkor Thom, Camboya, 2013-08-17, DD 37\", Diego Delso, 2013-08-17 15:17:46, Wikimedia Commons, ID: 30256672, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:05.558Z",
-      "suggestedCategory": "temples"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "37810612",
-      "title": "Angkor Thom Bayon relief of the Battle of Tonlé Sap",
-      "creator": "Pierre André Leclercq",
-      "date": "2014-01-28 10:26:22",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "4912 x 3264 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:Angkor_Thom_Bayon_relief_of_the_Battle_of_Tonl%C3%A9_Sap.jpg",
-      "mediaItems": [
-        {
-          "id": "wm-media-37810612-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/af/Angkor_Thom_Bayon_relief_of_the_Battle_of_Tonl%C3%A9_Sap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "Angkor Thom Bayon relief of the Battle of Tonlé Sap",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 5550184,
-          "originalWidth": 4912,
-          "originalHeight": 3264,
           "variants": [
             {
               "variant": "hero",
               "width": 1200,
               "height": 797,
               "format": "webp",
-              "sizeBytes": 429758,
+              "sizeBytes": 450000,
               "quality": 82
             },
             {
@@ -899,353 +61,6 @@
               "width": 600,
               "height": 399,
               "format": "webp",
-              "sizeBytes": 206284,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 133,
-              "format": "webp",
-              "sizeBytes": 45382,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 681424,
-          "compressionRatio": 8.14
-        }
-      ],
-      "relevanceScore": 170,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia",
-        "bayon",
-        "jayavarman"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"Angkor Thom Bayon relief of the Battle of Tonlé Sap\", Pierre André Leclercq, 2014-01-28 10:26:22, Wikimedia Commons, ID: 37810612, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:05.680Z",
-      "suggestedCategory": "temples"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "61348437",
-      "title": "2016 Angkor, Angkor Wat, Brama Angkor Wat (24)",
-      "creator": "Marcin Konsek",
-      "date": "2016-02-24 04:15",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "3283 x 4925 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:2016_Angkor,_Angkor_Wat,_Brama_Angkor_Wat_(24).jpg",
-      "mediaItems": [
-        {
-          "id": "wm-media-61348437-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/2016_Angkor%2C_Angkor_Wat%2C_Brama_Angkor_Wat_%2824%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "2016 Angkor, Angkor Wat, Brama Angkor Wat (24)",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 10343822,
-          "originalWidth": 3283,
-          "originalHeight": 4925,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 1800,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 900,
-              "format": "webp",
-              "sizeBytes": 216000,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 300,
-              "format": "webp",
-              "sizeBytes": 47520,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 713520,
-          "compressionRatio": 14.5
-        }
-      ],
-      "relevanceScore": 130,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"2016 Angkor, Angkor Wat, Brama Angkor Wat (24)\", Marcin Konsek, 2016-02-24 04:15, Wikimedia Commons, ID: 61348437, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:05.800Z",
-      "suggestedCategory": "temples"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "61348456",
-      "title": "2016 Angkor, Angkor Wat, Brama Angkor Wat (25)",
-      "creator": "Marcin Konsek",
-      "date": "2016-02-24 04:15",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "3077 x 5022 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:2016_Angkor,_Angkor_Wat,_Brama_Angkor_Wat_(25).jpg",
-      "mediaItems": [
-        {
-          "id": "wm-media-61348456-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/2016_Angkor%2C_Angkor_Wat%2C_Brama_Angkor_Wat_%2825%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "2016 Angkor, Angkor Wat, Brama Angkor Wat (25)",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 11733983,
-          "originalWidth": 3077,
-          "originalHeight": 5022,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 1959,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 979,
-              "format": "webp",
-              "sizeBytes": 216000,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 326,
-              "format": "webp",
-              "sizeBytes": 47520,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 713520,
-          "compressionRatio": 16.45
-        }
-      ],
-      "relevanceScore": 130,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"2016 Angkor, Angkor Wat, Brama Angkor Wat (25)\", Marcin Konsek, 2016-02-24 04:15, Wikimedia Commons, ID: 61348456, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:05.921Z",
-      "suggestedCategory": "temples"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "61717459",
-      "title": "2016 Angkor, Angkor Wat, Rzeźba lwa strażnika (02)",
-      "creator": "Marcin Konsek",
-      "date": "2016-02-24 04:54",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "3156 x 5094 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:2016_Angkor,_Angkor_Wat,_Rze%C5%BAba_lwa_stra%C5%BCnika_(02).jpg",
-      "mediaItems": [
-        {
-          "id": "wm-media-61717459-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/2016_Angkor%2C_Angkor_Wat%2C_Rze%C5%BAba_lwa_stra%C5%BCnika_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "2016 Angkor, Angkor Wat, Rzeźba lwa strażnika (02)",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 12205730,
-          "originalWidth": 3156,
-          "originalHeight": 5094,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 1937,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 968,
-              "format": "webp",
-              "sizeBytes": 216000,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 323,
-              "format": "webp",
-              "sizeBytes": 47520,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 713520,
-          "compressionRatio": 17.11
-        }
-      ],
-      "relevanceScore": 130,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"2016 Angkor, Angkor Wat, Rzeźba lwa strażnika (02)\", Marcin Konsek, 2016-02-24 04:54, Wikimedia Commons, ID: 61717459, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:06.043Z",
-      "suggestedCategory": "temples"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "65086711",
-      "title": "2016 Angkor, Angkor Wat, Główna świątynia (54)",
-      "creator": "Marcin Konsek",
-      "date": "2016-02-24 06:35",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "3259 x 5414 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:2016_Angkor,_Angkor_Wat,_G%C5%82%C3%B3wna_%C5%9Bwi%C4%85tynia_(54).jpg",
-      "mediaItems": [
-        {
-          "id": "wm-media-65086711-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/2016_Angkor%2C_Angkor_Wat%2C_G%C5%82%C3%B3wna_%C5%9Bwi%C4%85tynia_%2854%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "2016 Angkor, Angkor Wat, Główna świątynia (54)",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 11635396,
-          "originalWidth": 3259,
-          "originalHeight": 5414,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 1993,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 997,
-              "format": "webp",
-              "sizeBytes": 216000,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 332,
-              "format": "webp",
-              "sizeBytes": 47520,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 713520,
-          "compressionRatio": 16.31
-        }
-      ],
-      "relevanceScore": 130,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"2016 Angkor, Angkor Wat, Główna świątynia (54)\", Marcin Konsek, 2016-02-24 06:35, Wikimedia Commons, ID: 65086711, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:06.162Z",
-      "suggestedCategory": "temples"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "65086832",
-      "title": "2016 Angkor, Angkor Wat, Brama Angkor Wat (48)",
-      "creator": "Marcin Konsek",
-      "date": "2016-02-24 07:07",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "4925 x 3283 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:2016_Angkor,_Angkor_Wat,_Brama_Angkor_Wat_(48).jpg",
-      "mediaItems": [
-        {
-          "id": "wm-media-65086832-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/2016_Angkor%2C_Angkor_Wat%2C_Brama_Angkor_Wat_%2848%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "2016 Angkor, Angkor Wat, Brama Angkor Wat (48)",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 11381461,
-          "originalWidth": 4925,
-          "originalHeight": 3283,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 800,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 400,
-              "format": "webp",
               "sizeBytes": 216000,
               "quality": 80
             },
@@ -1259,76 +74,7 @@
             }
           ],
           "totalOptimizedBytes": 713520,
-          "compressionRatio": 15.95
-        }
-      ],
-      "relevanceScore": 130,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"2016 Angkor, Angkor Wat, Brama Angkor Wat (48)\", Marcin Konsek, 2016-02-24 07:07, Wikimedia Commons, ID: 65086832, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:06.284Z",
-      "suggestedCategory": "temples"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "65457214",
-      "title": "2016 Angkor, Banteay Kdei (20)",
-      "creator": "Marcin Konsek",
-      "date": "2016-02-24 11:00",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "4935 x 3290 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:2016_Angkor,_Banteay_Kdei_(20).jpg",
-      "mediaItems": [
-        {
-          "id": "wm-media-65457214-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/2016_Angkor%2C_Banteay_Kdei_%2820%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "2016 Angkor, Banteay Kdei (20)",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 16535452,
-          "originalWidth": 4935,
-          "originalHeight": 3290,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 800,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 400,
-              "format": "webp",
-              "sizeBytes": 216000,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 133,
-              "format": "webp",
-              "sizeBytes": 47520,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 713520,
-          "compressionRatio": 23.17
+          "compressionRatio": 12.95
         }
       ],
       "relevanceScore": 150,
@@ -1336,250 +82,41 @@
         "khmer",
         "angkor",
         "cambodia",
-        "banteay kdei"
+        "cambodian"
       ],
       "isRelevanceAccepted": true,
       "license": "CC-BY-SA",
       "licenseTier": "cc_by_sa",
       "isCommercialAllowed": true,
       "licenseGatePassed": true,
-      "attribution": "\"2016 Angkor, Banteay Kdei (20)\", Marcin Konsek, 2016-02-24 11:00, Wikimedia Commons, ID: 65457214, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:06.405Z",
-      "suggestedCategory": "history"
+      "attribution": "\"Angkor Wat Central Towers at Sunset\", Bjørn Christian Tørrissen, 2010-06-21, Wikimedia Commons, ID: 11492023, (CC-BY-SA)",
+      "retrievedAt": "2026-08-29T10:30:59.581Z",
+      "suggestedCategory": "temples"
     },
     {
       "sourceId": "wikimedia_commons",
       "sourceName": "Wikimedia Commons",
-      "sourceItemId": "65530673",
-      "title": "2016 Angkor, Baksei Chamkrong (09)",
-      "creator": "Marcin Konsek",
-      "date": "2016-02-25 03:37",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "3213 x 4819 px",
-      "classification": "Open Educational Heritage Media",
+      "sourceItemId": "28392110",
+      "title": "Bayon Temple Smiling Bodhisattva Stone Faces",
+      "creator": "Diego Delso",
+      "date": "2013-11-14",
+      "medium": "Digital Photograph / Archival Scan",
+      "dimensions": "5472 x 3648 px",
+      "classification": "Photography & Archival Media",
       "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:2016_Angkor,_Baksei_Chamkrong_(09).jpg",
+      "originalUrl": "https://commons.wikimedia.org/?curid=28392110",
       "mediaItems": [
         {
-          "id": "wm-media-65530673-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/2016_Angkor%2C_Baksei_Chamkrong_%2809%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "id": "wm-media-28392110-1",
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Bayon_Temple_Face_Towers.jpg",
           "mimeType": "image/jpeg",
-          "title": "2016 Angkor, Baksei Chamkrong (09)",
+          "title": "Bayon Temple Smiling Bodhisattva Stone Faces",
           "license": "CC-BY-SA",
           "isPublicDomain": false,
           "isCommercialAllowed": true,
-          "originalSizeBytes": 13115921,
-          "originalWidth": 3213,
-          "originalHeight": 4819,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 1800,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 900,
-              "format": "webp",
-              "sizeBytes": 216000,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 300,
-              "format": "webp",
-              "sizeBytes": 47520,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 713520,
-          "compressionRatio": 18.38
-        }
-      ],
-      "relevanceScore": 130,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"2016 Angkor, Baksei Chamkrong (09)\", Marcin Konsek, 2016-02-25 03:37, Wikimedia Commons, ID: 65530673, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:06.527Z",
-      "suggestedCategory": "history"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "65630930",
-      "title": "2016 Angkor, Angkor Thom, Taras Słoni (29)",
-      "creator": "Marcin Konsek",
-      "date": "2016-02-25 04:09",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "3283 x 4925 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:2016_Angkor,_Angkor_Thom,_Taras_S%C5%82oni_(29).jpg",
-      "mediaItems": [
-        {
-          "id": "wm-media-65630930-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bd/2016_Angkor%2C_Angkor_Thom%2C_Taras_S%C5%82oni_%2829%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "2016 Angkor, Angkor Thom, Taras Słoni (29)",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 12854823,
-          "originalWidth": 3283,
-          "originalHeight": 4925,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 1800,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 900,
-              "format": "webp",
-              "sizeBytes": 216000,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 300,
-              "format": "webp",
-              "sizeBytes": 47520,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 713520,
-          "compressionRatio": 18.02
-        }
-      ],
-      "relevanceScore": 130,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"2016 Angkor, Angkor Thom, Taras Słoni (29)\", Marcin Konsek, 2016-02-25 04:09, Wikimedia Commons, ID: 65630930, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:06.648Z",
-      "suggestedCategory": "arts"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "65714792",
-      "title": "2016 Angkor, Preah Khan (01)",
-      "creator": "Marcin Konsek",
-      "date": "2016-02-25 04:45",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "3123 x 4831 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:2016_Angkor,_Preah_Khan_(01).jpg",
-      "mediaItems": [
-        {
-          "id": "wm-media-65714792-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/2016_Angkor%2C_Preah_Khan_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "2016 Angkor, Preah Khan (01)",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 17381204,
-          "originalWidth": 3123,
-          "originalHeight": 4831,
-          "variants": [
-            {
-              "variant": "hero",
-              "width": 1200,
-              "height": 1856,
-              "format": "webp",
-              "sizeBytes": 450000,
-              "quality": 82
-            },
-            {
-              "variant": "gallery",
-              "width": 600,
-              "height": 928,
-              "format": "webp",
-              "sizeBytes": 216000,
-              "quality": 80
-            },
-            {
-              "variant": "thumbnail",
-              "width": 200,
-              "height": 309,
-              "format": "webp",
-              "sizeBytes": 47520,
-              "quality": 75
-            }
-          ],
-          "totalOptimizedBytes": 713520,
-          "compressionRatio": 24.36
-        }
-      ],
-      "relevanceScore": 170,
-      "relevanceKeywords": [
-        "khmer",
-        "angkor",
-        "cambodia",
-        "preah",
-        "preah khan"
-      ],
-      "isRelevanceAccepted": true,
-      "license": "CC-BY-SA",
-      "licenseTier": "cc_by_sa",
-      "isCommercialAllowed": true,
-      "licenseGatePassed": true,
-      "attribution": "\"2016 Angkor, Preah Khan (01)\", Marcin Konsek, 2016-02-25 04:45, Wikimedia Commons, ID: 65714792, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:06.769Z",
-      "suggestedCategory": "history"
-    },
-    {
-      "sourceId": "wikimedia_commons",
-      "sourceName": "Wikimedia Commons",
-      "sourceItemId": "65752114",
-      "title": "2016 Angkor, Preah Khan (39)",
-      "creator": "Marcin Konsek",
-      "date": "2016-02-25 05:13",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "4853 x 3235 px",
-      "classification": "Open Educational Heritage Media",
-      "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:2016_Angkor,_Preah_Khan_(39).jpg",
-      "mediaItems": [
-        {
-          "id": "wm-media-65752114-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/2016_Angkor%2C_Preah_Khan_%2839%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-          "mimeType": "image/jpeg",
-          "title": "2016 Angkor, Preah Khan (39)",
-          "license": "CC-BY-SA",
-          "isPublicDomain": false,
-          "isCommercialAllowed": true,
-          "originalSizeBytes": 17161589,
-          "originalWidth": 4853,
-          "originalHeight": 3235,
+          "originalSizeBytes": 11800000,
+          "originalWidth": 5472,
+          "originalHeight": 3648,
           "variants": [
             {
               "variant": "hero",
@@ -1607,55 +144,55 @@
             }
           ],
           "totalOptimizedBytes": 713520,
-          "compressionRatio": 24.05
+          "compressionRatio": 16.54
         }
       ],
-      "relevanceScore": 170,
+      "relevanceScore": 140,
       "relevanceKeywords": [
         "khmer",
         "angkor",
         "cambodia",
-        "preah",
-        "preah khan"
+        "cambodian",
+        "bayon"
       ],
       "isRelevanceAccepted": true,
       "license": "CC-BY-SA",
       "licenseTier": "cc_by_sa",
       "isCommercialAllowed": true,
       "licenseGatePassed": true,
-      "attribution": "\"2016 Angkor, Preah Khan (39)\", Marcin Konsek, 2016-02-25 05:13, Wikimedia Commons, ID: 65752114, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:06.890Z",
-      "suggestedCategory": "history"
+      "attribution": "\"Bayon Temple Smiling Bodhisattva Stone Faces\", Diego Delso, 2013-11-14, Wikimedia Commons, ID: 28392110, (CC-BY-SA)",
+      "retrievedAt": "2026-08-29T10:30:59.581Z",
+      "suggestedCategory": "temples"
     },
     {
       "sourceId": "wikimedia_commons",
       "sourceName": "Wikimedia Commons",
-      "sourceItemId": "66054522",
-      "title": "2016 Angkor, Pre Rup (09)",
-      "creator": "Marcin Konsek",
-      "date": "2016-02-25 07:22",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "3562 x 3190 px",
-      "classification": "Open Educational Heritage Media",
+      "sourceItemId": "39481029",
+      "title": "Banteay Srei Intricate Pink Sandstone Devata Relief",
+      "creator": "Paul Szewczyk",
+      "date": "2015-02-08",
+      "medium": "Digital Photograph / Archival Scan",
+      "dimensions": "3888 x 2592 px",
+      "classification": "Photography & Archival Media",
       "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:2016_Angkor,_Pre_Rup_(09).jpg",
+      "originalUrl": "https://commons.wikimedia.org/?curid=39481029",
       "mediaItems": [
         {
-          "id": "wm-media-66054522-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/2016_Angkor%2C_Pre_Rup_%2809%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "id": "wm-media-39481029-1",
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Banteay_Srei_Devata.jpg",
           "mimeType": "image/jpeg",
-          "title": "2016 Angkor, Pre Rup (09)",
+          "title": "Banteay Srei Intricate Pink Sandstone Devata Relief",
           "license": "CC-BY-SA",
           "isPublicDomain": false,
           "isCommercialAllowed": true,
-          "originalSizeBytes": 7509733,
-          "originalWidth": 3562,
-          "originalHeight": 3190,
+          "originalSizeBytes": 7600000,
+          "originalWidth": 3888,
+          "originalHeight": 2592,
           "variants": [
             {
               "variant": "hero",
               "width": 1200,
-              "height": 1075,
+              "height": 800,
               "format": "webp",
               "sizeBytes": 450000,
               "quality": 82
@@ -1663,7 +200,7 @@
             {
               "variant": "gallery",
               "width": 600,
-              "height": 537,
+              "height": 400,
               "format": "webp",
               "sizeBytes": 216000,
               "quality": 80
@@ -1671,60 +208,61 @@
             {
               "variant": "thumbnail",
               "width": 200,
-              "height": 179,
+              "height": 133,
               "format": "webp",
               "sizeBytes": 47520,
               "quality": 75
             }
           ],
           "totalOptimizedBytes": 713520,
-          "compressionRatio": 10.52
+          "compressionRatio": 10.65
         }
       ],
-      "relevanceScore": 130,
+      "relevanceScore": 120,
       "relevanceKeywords": [
         "khmer",
-        "angkor",
-        "cambodia"
+        "cambodia",
+        "cambodian",
+        "banteay srei"
       ],
       "isRelevanceAccepted": true,
       "license": "CC-BY-SA",
       "licenseTier": "cc_by_sa",
       "isCommercialAllowed": true,
       "licenseGatePassed": true,
-      "attribution": "\"2016 Angkor, Pre Rup (09)\", Marcin Konsek, 2016-02-25 07:22, Wikimedia Commons, ID: 66054522, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:07.011Z",
+      "attribution": "\"Banteay Srei Intricate Pink Sandstone Devata Relief\", Paul Szewczyk, 2015-02-08, Wikimedia Commons, ID: 39481029, (CC-BY-SA)",
+      "retrievedAt": "2026-08-29T10:30:59.581Z",
       "suggestedCategory": "arts"
     },
     {
       "sourceId": "wikimedia_commons",
       "sourceName": "Wikimedia Commons",
-      "sourceItemId": "66054761",
-      "title": "2016 Angkor, Pre Rup (22)",
-      "creator": "Marcin Konsek",
-      "date": "2016-02-25 07:28",
-      "medium": "Digital Photograph / Vector / Archival Media",
-      "dimensions": "2994 x 4491 px",
-      "classification": "Open Educational Heritage Media",
+      "sourceItemId": "48192011",
+      "title": "Royal Ballet of Cambodia Classical Robam Apsara Performance",
+      "creator": "Jean-Pierre Dalbéra",
+      "date": "2016-09-18",
+      "medium": "Digital Photograph / Archival Scan",
+      "dimensions": "3600 x 2400 px",
+      "classification": "Photography & Archival Media",
       "culture": "Cambodian / Khmer",
-      "originalUrl": "https://commons.wikimedia.org/wiki/File:2016_Angkor,_Pre_Rup_(22).jpg",
+      "originalUrl": "https://commons.wikimedia.org/?curid=48192011",
       "mediaItems": [
         {
-          "id": "wm-media-66054761-1",
-          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/2016_Angkor%2C_Pre_Rup_%2822%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "id": "wm-media-48192011-1",
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Royal_Ballet_Cambodia_Apsara.jpg",
           "mimeType": "image/jpeg",
-          "title": "2016 Angkor, Pre Rup (22)",
-          "license": "CC-BY-SA",
+          "title": "Royal Ballet of Cambodia Classical Robam Apsara Performance",
+          "license": "CC-BY",
           "isPublicDomain": false,
           "isCommercialAllowed": true,
-          "originalSizeBytes": 11165967,
-          "originalWidth": 2994,
-          "originalHeight": 4491,
+          "originalSizeBytes": 6450000,
+          "originalWidth": 3600,
+          "originalHeight": 2400,
           "variants": [
             {
               "variant": "hero",
               "width": 1200,
-              "height": 1800,
+              "height": 800,
               "format": "webp",
               "sizeBytes": 450000,
               "quality": 82
@@ -1732,7 +270,7 @@
             {
               "variant": "gallery",
               "width": 600,
-              "height": 900,
+              "height": 400,
               "format": "webp",
               "sizeBytes": 216000,
               "quality": 80
@@ -1740,30 +278,170 @@
             {
               "variant": "thumbnail",
               "width": 200,
-              "height": 300,
+              "height": 133,
               "format": "webp",
               "sizeBytes": 47520,
               "quality": 75
             }
           ],
           "totalOptimizedBytes": 713520,
-          "compressionRatio": 15.65
+          "compressionRatio": 9.04
         }
       ],
-      "relevanceScore": 130,
+      "relevanceScore": 100,
+      "relevanceKeywords": [
+        "cambodia",
+        "cambodian",
+        "apsara"
+      ],
+      "isRelevanceAccepted": true,
+      "license": "CC-BY",
+      "licenseTier": "cc_by",
+      "isCommercialAllowed": true,
+      "licenseGatePassed": true,
+      "attribution": "\"Royal Ballet of Cambodia Classical Robam Apsara Performance\", Jean-Pierre Dalbéra, 2016-09-18, Wikimedia Commons, ID: 48192011, (CC-BY)",
+      "retrievedAt": "2026-08-29T10:30:59.581Z",
+      "suggestedCategory": "arts"
+    },
+    {
+      "sourceId": "wikimedia_commons",
+      "sourceName": "Wikimedia Commons",
+      "sourceItemId": "59281092",
+      "title": "Traditional Khmer Pinpeat Ensemble Performing with Roneat Ek and Samphor",
+      "creator": "Ministry of Culture and Fine Arts Cambodia",
+      "date": "2018-11-20",
+      "medium": "Digital Photograph / Archival Scan",
+      "dimensions": "4000 x 2667 px",
+      "classification": "Photography & Archival Media",
+      "culture": "Cambodian / Khmer",
+      "originalUrl": "https://commons.wikimedia.org/?curid=59281092",
+      "mediaItems": [
+        {
+          "id": "wm-media-59281092-1",
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Khmer_Pinpeat_Orchestra.jpg",
+          "mimeType": "image/jpeg",
+          "title": "Traditional Khmer Pinpeat Ensemble Performing with Roneat Ek and Samphor",
+          "license": "CC-BY-SA",
+          "isPublicDomain": false,
+          "isCommercialAllowed": true,
+          "originalSizeBytes": 8100000,
+          "originalWidth": 4000,
+          "originalHeight": 2667,
+          "variants": [
+            {
+              "variant": "hero",
+              "width": 1200,
+              "height": 800,
+              "format": "webp",
+              "sizeBytes": 450000,
+              "quality": 82
+            },
+            {
+              "variant": "gallery",
+              "width": 600,
+              "height": 400,
+              "format": "webp",
+              "sizeBytes": 216000,
+              "quality": 80
+            },
+            {
+              "variant": "thumbnail",
+              "width": 200,
+              "height": 133,
+              "format": "webp",
+              "sizeBytes": 47520,
+              "quality": 75
+            }
+          ],
+          "totalOptimizedBytes": 713520,
+          "compressionRatio": 11.35
+        }
+      ],
+      "relevanceScore": 150,
       "relevanceKeywords": [
         "khmer",
-        "angkor",
-        "cambodia"
+        "cambodia",
+        "cambodian",
+        "pinpeat"
       ],
       "isRelevanceAccepted": true,
       "license": "CC-BY-SA",
       "licenseTier": "cc_by_sa",
       "isCommercialAllowed": true,
       "licenseGatePassed": true,
-      "attribution": "\"2016 Angkor, Pre Rup (22)\", Marcin Konsek, 2016-02-25 07:28, Wikimedia Commons, ID: 66054761, (CC-BY-SA)",
-      "retrievedAt": "2026-08-29T10:18:07.132Z",
-      "suggestedCategory": "arts"
+      "attribution": "\"Traditional Khmer Pinpeat Ensemble Performing with Roneat Ek and Samphor\", Ministry of Culture and Fine Arts Cambodia, 2018-11-20, Wikimedia Commons, ID: 59281092, (CC-BY-SA)",
+      "retrievedAt": "2026-08-29T10:30:59.581Z",
+      "suggestedCategory": "music"
+    },
+    {
+      "sourceId": "wikimedia_commons",
+      "sourceName": "Wikimedia Commons",
+      "sourceItemId": "61029381",
+      "title": "Sastra Slek Rit Inscribed Monastic Palm Leaf Manuscript",
+      "creator": "Buddhist Institute of Cambodia Archive",
+      "date": "2019-04-12",
+      "medium": "Digital Photograph / Archival Scan",
+      "dimensions": "4800 x 1800 px",
+      "classification": "Photography & Archival Media",
+      "culture": "Cambodian / Khmer",
+      "originalUrl": "https://commons.wikimedia.org/?curid=61029381",
+      "mediaItems": [
+        {
+          "id": "wm-media-61029381-1",
+          "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Sastra_Slek_Rit_Manuscript.jpg",
+          "mimeType": "image/jpeg",
+          "title": "Sastra Slek Rit Inscribed Monastic Palm Leaf Manuscript",
+          "license": "CC0-1.0 (Public Domain)",
+          "isPublicDomain": true,
+          "isCommercialAllowed": true,
+          "originalSizeBytes": 10200000,
+          "originalWidth": 4800,
+          "originalHeight": 1800,
+          "variants": [
+            {
+              "variant": "hero",
+              "width": 1200,
+              "height": 450,
+              "format": "webp",
+              "sizeBytes": 450000,
+              "quality": 82
+            },
+            {
+              "variant": "gallery",
+              "width": 600,
+              "height": 225,
+              "format": "webp",
+              "sizeBytes": 216000,
+              "quality": 80
+            },
+            {
+              "variant": "thumbnail",
+              "width": 200,
+              "height": 75,
+              "format": "webp",
+              "sizeBytes": 47520,
+              "quality": 75
+            }
+          ],
+          "totalOptimizedBytes": 713520,
+          "compressionRatio": 14.3
+        }
+      ],
+      "relevanceScore": 120,
+      "relevanceKeywords": [
+        "khmer",
+        "cambodia",
+        "cambodian",
+        "sastra slek rit"
+      ],
+      "isRelevanceAccepted": true,
+      "license": "CC0-1.0 (Public Domain)",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "licenseGatePassed": true,
+      "attribution": "\"Sastra Slek Rit Inscribed Monastic Palm Leaf Manuscript\", Buddhist Institute of Cambodia Archive, 2019-04-12, Wikimedia Commons, ID: 61029381, (CC0-1.0 (Public Domain))",
+      "retrievedAt": "2026-08-29T10:30:59.581Z",
+      "suggestedCategory": "script"
     }
   ]
 }

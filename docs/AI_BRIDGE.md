@@ -3,52 +3,63 @@
 ---
 
 ### [SECTION A: CURRENT TASK FROM CHATGPT / PM]
-**Task ID**: KH-014B  
-**Title**: Controlled Content Ingestion Pilot (Met Museum, Smithsonian, Wikimedia Commons)  
+**Task ID**: KH-015  
+**Title**: Controlled Corpus Metadata Discovery (Met Museum, Smithsonian, Wikimedia Commons)  
 **Assigned To**: Studio AI (Developer / Implementation Agent)  
 **Date**: 2026-08-29  
 
 **Task Description**:
-- Implement and execute a strictly controlled ingestion pilot using verified, API-accessible open sources with commercial licensing compatibility (The Metropolitan Museum of Art Open Access, Smithsonian Open Access, Wikimedia Commons).
-- Strictly adhere to sample size boundaries (25–50 sample items per source).
-- Enforce fail-closed license verification (reject/quarantine NC, ND, and unverified licenses).
-- Build multi-resolution image optimization (Hero 1200px, Gallery 600px, Thumbnail 200px) with Sharp.
-- Synthesize provenance and attribution metadata automatically.
-- Save checkpointing (`.pilot-checkpoint.json`) and export result files in `content/pilot/`.
-- Build automated test suite (`src/pipeline/__tests__/ingestionPilot.test.ts`) integrated as Stage 9 into `src/pipeline/testRunner.ts`.
-- Run full verification audits (`npm run content:pilot`, `npm run content:test`, `npm run content:validate`, `npm run lint`, `npm run build`).
-- Maintain bridge documentation in `docs/AI_BRIDGE_PROGRESS_014B.md`, `docs/AI_BRIDGE_REPORT_014B.md`, `docs/AI_BRIDGE.md`, and `docs/AI_BRIDGE_HISTORY.md`.
+- Perform a metadata-first discovery crawl across the three approved, commercially compatible content sources:
+  1. The Metropolitan Museum of Art Open Access (`met_museum_open_access`)
+  2. Smithsonian Open Access / Freer-Sackler Collection (`smithsonian_open_access`)
+  3. Wikimedia Commons (`wikimedia_commons`)
+- Collect metadata only (no full media binary downloads during discovery).
+- Apply fail-closed license gating (quarantine NC, ND, and All Rights Reserved).
+- Implement pagination, rate-limiting, and resumable execution checkpointing (`.discovery-checkpoint.json`).
+- Calculate multi-scale storage projections (1K, 5K, 10K, 25K, 50K, 100K) and storage tier architecture analysis (10GB to 1TB).
+- Export 6 discovery JSON files in `content/discovery/`.
+- Build automated test suite (`src/pipeline/__tests__/discoveryCrawler.test.ts`) integrated as Stage 10 into `src/pipeline/testRunner.ts`.
+- Maintain bridge documentation in `docs/AI_BRIDGE_PROGRESS_015.md`, `docs/AI_BRIDGE_REPORT_015.md`, `docs/AI_BRIDGE.md`, and `docs/AI_BRIDGE_HISTORY.md`.
 
 ---
 
 ### [SECTION B: COMPLETION REPORT FROM STUDIO AI]
-**Task ID**: KH-014B  
+**Task ID**: KH-015  
 **Status**: SUCCESS (100% Verified)  
 **Date**: 2026-08-29  
 
 **Summary of Deliverables**:
-1. **Source Adapters Implemented**:
-   - `src/pipeline/adapters/metMuseumAdapter.ts`: Met Open Access API queries, public domain verification, CC0 filtering.
-   - `src/pipeline/adapters/smithsonianAdapter.ts`: Smithsonian Open Access API queries for Freer-Sackler Khmer collection, CC0 verification.
-   - `src/pipeline/adapters/wikimediaAdapter.ts`: MediaWiki Action API queries, extmetadata extraction, CC-BY-SA / CC-BY / CC0 verification.
-2. **Reusable Pilot Engine & License Gate**:
-   - Implemented `src/pipeline/pilotCommon.ts` with term-weighted relevance filtering (`evaluateKhmerRelevance`), fail-closed license gating (`evaluateItemLicense`), machine-generated attribution (`buildProvenanceAttribution`), and rate-limited HTTP client (`fetchWithRetryAndTimeout`).
-3. **Responsive Media Optimizer**:
-   - Implemented `src/pipeline/mediaOptimizer.ts` for multi-resolution WebP/AVIF generation (Hero 1200px, Gallery 600px, Thumbnail 200px) using Sharp.
-4. **Pilot Runner & Storage Projections**:
-   - Implemented `src/pipeline/ingestionPilot.ts` and added npm script `npm run content:pilot`.
-   - Exported 5 pilot artifact files in `content/pilot/`: `met-results.json`, `smithsonian-results.json`, `wikimedia-results.json`, `storage-estimate.json`, and `pilot-summary.json`.
-   - Measured real-world compression of **17.49x** (94.3% storage savings) and verified low operating costs (<$0.35/mo for 50,000 records on Cloudflare R2).
-5. **Automated Test Suite (Stage 9)**:
-   - Built unit test suite `src/pipeline/__tests__/ingestionPilot.test.ts` (14 tests) and integrated as Stage 9 into `src/pipeline/testRunner.ts`.
-   - **All 9 stages passed (71/71 tests)** in 412 ms.
+1. **Discovery Architecture & Schemas**:
+   - Extended `src/pipeline/types.ts` with `DiscoveredRecord`, `DiscoverySourceResult`, `CorpusDiscoverySummary`, `ScaleProjectionTier`, `StorageTierAnalysis`, and `DiscoveryCheckpoint`.
+   - Created `src/pipeline/discoveryCommon.ts` for license classification, media detection, empirical sizing models, and scale projections.
+2. **Discovery Adapters**:
+   - `src/pipeline/adapters/metDiscoveryAdapter.ts`: Met Museum collection discovery, cursor pagination, and CC0 validation.
+   - `src/pipeline/adapters/smithsonianDiscoveryAdapter.ts`: Freer-Sackler Khmer sculpture discovery and high-res master dimension modeling.
+   - `src/pipeline/adapters/wikimediaDiscoveryAdapter.ts`: MediaWiki search generator, `imageinfo` exact byte sizes, and CC-BY/CC-BY-SA parsing.
+3. **Orchestrator & CLI Tool**:
+   - Implemented `src/pipeline/discoveryCrawler.ts` with checkpointing (`.discovery-checkpoint.json`) and added npm script `npm run content:discover`.
+   - Exported 6 discovery artifacts in `content/discovery/`:
+     - `met-discovery.json`
+     - `smithsonian-discovery.json`
+     - `wikimedia-discovery.json`
+     - `corpus-estimate.json`
+     - `license-summary.json`
+     - `discovery-summary.json`
+4. **Key Discovery Metrics**:
+   - 190 records examined, 61 Khmer relevant, 60 accepted under commercial open licenses (31 CC-BY-SA, 16 CC-BY, 13 CC0), 1 quarantined.
+   - Average optimized footprint: ~570.6 KB per accepted record (18.26x compression, 94.5% storage savings).
+   - Scale Projections: 10K items require 5.31 GB ($0.00/mo within R2 Free Tier); 100K items require 53.14 GB ($0.65/mo on R2).
+   - Storage Recommendation: `R2_CURRENT_BUCKET` (Cloudflare R2 with zero egress bandwidth charges).
+5. **Automated Test Suite (Stage 10)**:
+   - Built test suite `src/pipeline/__tests__/discoveryCrawler.test.ts` (41 tests) and integrated into `src/pipeline/testRunner.ts`.
+   - **All 10 pipeline stages passed (112/112 tests)** in 430 ms.
 6. **Unified Verification**:
-   - `npm run content:pilot`: Passed.
-   - `npm run content:test`: 100% PASS across all 9 stages (71/71 assertions passed).
+   - `npm run content:discover`: Passed.
+   - `npm run content:test`: 100% PASS across all 10 stages (112/112 assertions passed).
    - `npm run content:validate`: 100% PASS with 0 errors, 0 warnings.
-   - `npm run lint`: 0 TypeScript errors.
+   - `npm run lint`: 0 TypeScript errors (`tsc --noEmit`).
    - `npm run build`: Succeeded.
 7. **Handoff & Pause Confirmation**:
-   - As mandated, full corpus crawling is NOT started. The pilot is complete and awaiting PM review.
+   - Full corpus media downloading remains stopped. All discovery metadata and storage projections are ready for PM authorization.
 
 

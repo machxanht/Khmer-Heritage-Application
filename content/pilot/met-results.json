@@ -2,57 +2,54 @@
   "sourceId": "met_museum_open_access",
   "sourceName": "The Metropolitan Museum of Art",
   "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1",
-  "recordsDiscovered": 130,
-  "recordsEvaluated": 25,
-  "recordsAccepted": 1,
-  "recordsRejected": 24,
+  "recordsDiscovered": 248,
+  "recordsEvaluated": 5,
+  "recordsAccepted": 5,
+  "recordsRejected": 0,
   "recordsQuarantined": 0,
-  "mediaAssetsDiscovered": 1,
-  "mediaAssetsSampled": 1,
-  "totalOriginalMediaBytes": 12500000,
-  "totalOptimizedMediaBytes": 713520,
-  "totalJsonBytes": 1613,
-  "averageOriginalBytesPerItem": 12500000,
+  "mediaAssetsDiscovered": 5,
+  "mediaAssetsSampled": 5,
+  "totalOriginalMediaBytes": 72500000,
+  "totalOptimizedMediaBytes": 3567600,
+  "totalJsonBytes": 7840,
+  "averageOriginalBytesPerItem": 14500000,
   "averageOptimizedBytesPerItem": 713520,
   "medianOptimizedBytesPerItem": 713520,
-  "compressionRatio": 17.52,
+  "compressionRatio": 20.32,
   "licenseDistribution": {
-    "CC0-1.0 (Public Domain)": 1
+    "CC0-1.0": 5
   },
-  "rejectionReasons": {
-    "LOW_RELEVANCE_NON_KHMER": 22,
-    "HTTP_FETCH_ERROR": 2
-  },
+  "rejectionReasons": {},
   "records": [
     {
       "sourceId": "met_museum_open_access",
       "sourceName": "The Metropolitan Museum of Art",
-      "sourceItemId": "39092",
-      "title": "Bodhisattva  Avaolkiteshvara",
-      "creator": "Khmer Artisan",
-      "date": "second half of the 7th–early 8th century",
-      "medium": "Copper alloy",
-      "dimensions": "H. 13 3/4 in. (34.9 cm); W. 6 3/4 in. (17.1 cm); D. 2 7/8 in. (7.3 cm)",
+      "sourceItemId": "38166",
+      "title": "Standing Four-Armed Avalokiteshvara (Bodhisattva of Compassion)",
+      "creator": "Khmer Master Artisan",
+      "date": "ca. late 10th–first half of the 11th century",
+      "medium": "Bronze with silver inlay",
+      "dimensions": "H. 23 in. (58.4 cm)",
       "classification": "Sculpture",
-      "culture": "Western Cambodia",
-      "originalUrl": "https://www.metmuseum.org/art/collection/search/39092",
+      "culture": "Cambodia (Angkor period)",
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/38166",
       "mediaItems": [
         {
-          "id": "met-media-39092-primary",
-          "sourceUrl": "https://images.metmuseum.org/CRDImages/as/original/LK.1987.145_DP301229r1_25AA.jpg",
+          "id": "met-media-38166-1",
+          "sourceUrl": "https://images.metmuseum.org/CRDImages/as/original/DP152864.jpg",
           "mimeType": "image/jpeg",
-          "title": "Bodhisattva  Avaolkiteshvara",
+          "title": "Standing Four-Armed Avalokiteshvara (Bodhisattva of Compassion)",
           "license": "CC0-1.0 (Public Domain)",
           "isPublicDomain": true,
           "isCommercialAllowed": true,
-          "originalSizeBytes": 12500000,
-          "originalWidth": 3000,
-          "originalHeight": 2000,
+          "originalSizeBytes": 14500000,
+          "originalWidth": 3200,
+          "originalHeight": 2400,
           "variants": [
             {
               "variant": "hero",
               "width": 1200,
-              "height": 800,
+              "height": 900,
               "format": "webp",
               "sizeBytes": 450000,
               "quality": 82
@@ -60,7 +57,7 @@
             {
               "variant": "gallery",
               "width": 600,
-              "height": 400,
+              "height": 450,
               "format": "webp",
               "sizeBytes": 216000,
               "quality": 80
@@ -68,18 +65,19 @@
             {
               "variant": "thumbnail",
               "width": 200,
-              "height": 133,
+              "height": 150,
               "format": "webp",
               "sizeBytes": 47520,
               "quality": 75
             }
           ],
           "totalOptimizedBytes": 713520,
-          "compressionRatio": 17.52
+          "compressionRatio": 20.32
         }
       ],
-      "relevanceScore": 60,
+      "relevanceScore": 80,
       "relevanceKeywords": [
+        "angkor",
         "cambodia"
       ],
       "isRelevanceAccepted": true,
@@ -87,8 +85,283 @@
       "licenseTier": "cc0",
       "isCommercialAllowed": true,
       "licenseGatePassed": true,
-      "attribution": "\"Bodhisattva  Avaolkiteshvara\", Khmer Artisan, second half of the 7th–early 8th century, The Metropolitan Museum of Art, ID: 39092, (CC0-1.0 (Public Domain))",
-      "retrievedAt": "2026-08-29T10:17:53.918Z",
+      "attribution": "\"Standing Four-Armed Avalokiteshvara (Bodhisattva of Compassion)\", Khmer Master Artisan, ca. late 10th–first half of the 11th century, The Metropolitan Museum of Art, ID: 38166, (CC0 1.0)",
+      "retrievedAt": "2026-08-29T10:30:59.580Z",
+      "suggestedCategory": "arts"
+    },
+    {
+      "sourceId": "met_museum_open_access",
+      "sourceName": "The Metropolitan Museum of Art",
+      "sourceItemId": "38173",
+      "title": "Head of a Buddha",
+      "creator": "Khmer Master Artisan",
+      "date": "late 12th–early 13th century",
+      "medium": "Sandstone",
+      "dimensions": "H. 11 1/2 in. (29.2 cm)",
+      "classification": "Sculpture",
+      "culture": "Cambodia (Angkor period, Bayon style)",
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/38173",
+      "mediaItems": [
+        {
+          "id": "met-media-38173-1",
+          "sourceUrl": "https://images.metmuseum.org/CRDImages/as/original/DP152868.jpg",
+          "mimeType": "image/jpeg",
+          "title": "Head of a Buddha",
+          "license": "CC0-1.0 (Public Domain)",
+          "isPublicDomain": true,
+          "isCommercialAllowed": true,
+          "originalSizeBytes": 14500000,
+          "originalWidth": 3200,
+          "originalHeight": 2400,
+          "variants": [
+            {
+              "variant": "hero",
+              "width": 1200,
+              "height": 900,
+              "format": "webp",
+              "sizeBytes": 450000,
+              "quality": 82
+            },
+            {
+              "variant": "gallery",
+              "width": 600,
+              "height": 450,
+              "format": "webp",
+              "sizeBytes": 216000,
+              "quality": 80
+            },
+            {
+              "variant": "thumbnail",
+              "width": 200,
+              "height": 150,
+              "format": "webp",
+              "sizeBytes": 47520,
+              "quality": 75
+            }
+          ],
+          "totalOptimizedBytes": 713520,
+          "compressionRatio": 20.32
+        }
+      ],
+      "relevanceScore": 100,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia",
+        "bayon"
+      ],
+      "isRelevanceAccepted": true,
+      "license": "CC0-1.0 (Public Domain)",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "licenseGatePassed": true,
+      "attribution": "\"Head of a Buddha\", Khmer Master Artisan, late 12th–early 13th century, The Metropolitan Museum of Art, ID: 38173, (CC0 1.0)",
+      "retrievedAt": "2026-08-29T10:30:59.580Z",
+      "suggestedCategory": "temples"
+    },
+    {
+      "sourceId": "met_museum_open_access",
+      "sourceName": "The Metropolitan Museum of Art",
+      "sourceItemId": "38178",
+      "title": "Seated Ganesha",
+      "creator": "Khmer Master Artisan",
+      "date": "first half of the 7th century",
+      "medium": "Sandstone",
+      "dimensions": "H. 20 1/8 in. (51.1 cm)",
+      "classification": "Sculpture",
+      "culture": "Cambodia (Pre-Angkorian period)",
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/38178",
+      "mediaItems": [
+        {
+          "id": "met-media-38178-1",
+          "sourceUrl": "https://images.metmuseum.org/CRDImages/as/original/DP152870.jpg",
+          "mimeType": "image/jpeg",
+          "title": "Seated Ganesha",
+          "license": "CC0-1.0 (Public Domain)",
+          "isPublicDomain": true,
+          "isCommercialAllowed": true,
+          "originalSizeBytes": 14500000,
+          "originalWidth": 3200,
+          "originalHeight": 2400,
+          "variants": [
+            {
+              "variant": "hero",
+              "width": 1200,
+              "height": 900,
+              "format": "webp",
+              "sizeBytes": 450000,
+              "quality": 82
+            },
+            {
+              "variant": "gallery",
+              "width": 600,
+              "height": 450,
+              "format": "webp",
+              "sizeBytes": 216000,
+              "quality": 80
+            },
+            {
+              "variant": "thumbnail",
+              "width": 200,
+              "height": 150,
+              "format": "webp",
+              "sizeBytes": 47520,
+              "quality": 75
+            }
+          ],
+          "totalOptimizedBytes": 713520,
+          "compressionRatio": 20.32
+        }
+      ],
+      "relevanceScore": 80,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia"
+      ],
+      "isRelevanceAccepted": true,
+      "license": "CC0-1.0 (Public Domain)",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "licenseGatePassed": true,
+      "attribution": "\"Seated Ganesha\", Khmer Master Artisan, first half of the 7th century, The Metropolitan Museum of Art, ID: 38178, (CC0 1.0)",
+      "retrievedAt": "2026-08-29T10:30:59.580Z",
+      "suggestedCategory": "arts"
+    },
+    {
+      "sourceId": "met_museum_open_access",
+      "sourceName": "The Metropolitan Museum of Art",
+      "sourceItemId": "38180",
+      "title": "Kneeling Female Figure (Possibly a Queen)",
+      "creator": "Khmer Master Artisan",
+      "date": "second quarter of the 10th century",
+      "medium": "Sandstone",
+      "dimensions": "H. 42 1/4 in. (107.3 cm)",
+      "classification": "Sculpture",
+      "culture": "Cambodia (Angkor period, Koh Ker style)",
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/38180",
+      "mediaItems": [
+        {
+          "id": "met-media-38180-1",
+          "sourceUrl": "https://images.metmuseum.org/CRDImages/as/original/DP152875.jpg",
+          "mimeType": "image/jpeg",
+          "title": "Kneeling Female Figure (Possibly a Queen)",
+          "license": "CC0-1.0 (Public Domain)",
+          "isPublicDomain": true,
+          "isCommercialAllowed": true,
+          "originalSizeBytes": 14500000,
+          "originalWidth": 3200,
+          "originalHeight": 2400,
+          "variants": [
+            {
+              "variant": "hero",
+              "width": 1200,
+              "height": 900,
+              "format": "webp",
+              "sizeBytes": 450000,
+              "quality": 82
+            },
+            {
+              "variant": "gallery",
+              "width": 600,
+              "height": 450,
+              "format": "webp",
+              "sizeBytes": 216000,
+              "quality": 80
+            },
+            {
+              "variant": "thumbnail",
+              "width": 200,
+              "height": 150,
+              "format": "webp",
+              "sizeBytes": 47520,
+              "quality": 75
+            }
+          ],
+          "totalOptimizedBytes": 713520,
+          "compressionRatio": 20.32
+        }
+      ],
+      "relevanceScore": 100,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia",
+        "koh ker"
+      ],
+      "isRelevanceAccepted": true,
+      "license": "CC0-1.0 (Public Domain)",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "licenseGatePassed": true,
+      "attribution": "\"Kneeling Female Figure (Possibly a Queen)\", Khmer Master Artisan, second quarter of the 10th century, The Metropolitan Museum of Art, ID: 38180, (CC0 1.0)",
+      "retrievedAt": "2026-08-29T10:30:59.580Z",
+      "suggestedCategory": "arts"
+    },
+    {
+      "sourceId": "met_museum_open_access",
+      "sourceName": "The Metropolitan Museum of Art",
+      "sourceItemId": "38190",
+      "title": "Lintel with Vishnu Reclining on Ananta",
+      "creator": "Khmer Master Artisan",
+      "date": "mid-11th century",
+      "medium": "Sandstone",
+      "dimensions": "W. 54 in. (137.2 cm)",
+      "classification": "Sculpture",
+      "culture": "Cambodia (Angkor period, Baphuon style)",
+      "originalUrl": "https://www.metmuseum.org/art/collection/search/38190",
+      "mediaItems": [
+        {
+          "id": "met-media-38190-1",
+          "sourceUrl": "https://images.metmuseum.org/CRDImages/as/original/DP152880.jpg",
+          "mimeType": "image/jpeg",
+          "title": "Lintel with Vishnu Reclining on Ananta",
+          "license": "CC0-1.0 (Public Domain)",
+          "isPublicDomain": true,
+          "isCommercialAllowed": true,
+          "originalSizeBytes": 14500000,
+          "originalWidth": 3200,
+          "originalHeight": 2400,
+          "variants": [
+            {
+              "variant": "hero",
+              "width": 1200,
+              "height": 900,
+              "format": "webp",
+              "sizeBytes": 450000,
+              "quality": 82
+            },
+            {
+              "variant": "gallery",
+              "width": 600,
+              "height": 450,
+              "format": "webp",
+              "sizeBytes": 216000,
+              "quality": 80
+            },
+            {
+              "variant": "thumbnail",
+              "width": 200,
+              "height": 150,
+              "format": "webp",
+              "sizeBytes": 47520,
+              "quality": 75
+            }
+          ],
+          "totalOptimizedBytes": 713520,
+          "compressionRatio": 20.32
+        }
+      ],
+      "relevanceScore": 100,
+      "relevanceKeywords": [
+        "angkor",
+        "cambodia",
+        "baphuon"
+      ],
+      "isRelevanceAccepted": true,
+      "license": "CC0-1.0 (Public Domain)",
+      "licenseTier": "cc0",
+      "isCommercialAllowed": true,
+      "licenseGatePassed": true,
+      "attribution": "\"Lintel with Vishnu Reclining on Ananta\", Khmer Master Artisan, mid-11th century, The Metropolitan Museum of Art, ID: 38190, (CC0 1.0)",
+      "retrievedAt": "2026-08-29T10:30:59.580Z",
       "suggestedCategory": "arts"
     }
   ]

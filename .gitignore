@@ -7,5 +7,7 @@ coverage/
 .env*
 !.env.example
 content/pilot/media/
+content/discovery/media/
 content/.*checkpoint.json
 content/pilot/.*checkpoint.json
+content/discovery/.*checkpoint.json
