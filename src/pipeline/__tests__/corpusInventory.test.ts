@@ -194,7 +194,61 @@ export async function runCorpusInventoryTests(): Promise<InventoryTestSuiteRepor
     assert('Alternative 1 is Hybrid R2 + B2 Cold Archival', archRecs.alternative1.name.includes('Hybrid'));
     assert('Alternative 2 is B2 Primary with Cloudflare CDN', archRecs.alternative2.name.includes('Backblaze B2'));
 
-    // 10. Checkpoint & Artifact Generation Verification
+    // 10. KH-017A: Automated Consistency & Reconciliation Invariants
+    // A. Source Inventory Sum Invariants
+    let computedProdSum = 0;
+    let computedQuarSum = 0;
+    let computedDiscoveredSum = 0;
+    for (const s of Object.values(VERIFIED_SOURCE_INVENTORIES)) {
+      computedDiscoveredSum += s.deduplicatedQueryTotal.count;
+      computedProdSum += s.productionEligible.count;
+      computedQuarSum += s.quarantined.count;
+    }
+    assert(
+      'Sum of source production eligible matches master summary',
+      computedProdSum === master.globalCorpusSummary.productionEligible.value,
+      `Computed: ${computedProdSum}, Master: ${master.globalCorpusSummary.productionEligible.value}`
+    );
+    assert(
+      'Sum of source quarantined matches master summary',
+      computedQuarSum === master.globalCorpusSummary.quarantined.value,
+      `Computed: ${computedQuarSum}, Master: ${master.globalCorpusSummary.quarantined.value}`
+    );
+    assert(
+      'Sum of source discovered matches master summary',
+      computedDiscoveredSum === master.globalCorpusSummary.totalDiscovered.value,
+      `Computed: ${computedDiscoveredSum}, Master: ${master.globalCorpusSummary.totalDiscovered.value}`
+    );
+    assert(
+      'Total discovered equals production eligible + quarantined (fail-closed integrity)',
+      master.globalCorpusSummary.totalDiscovered.value === master.globalCorpusSummary.productionEligible.value + master.globalCorpusSummary.quarantined.value,
+      `Total: ${master.globalCorpusSummary.totalDiscovered.value}, Prod+Quar: ${master.globalCorpusSummary.productionEligible.value + master.globalCorpusSummary.quarantined.value}`
+    );
+
+    // B. Scale Projection Calculator Consistency
+    for (const proj of storageBaseline.scaleProjections) {
+      const expectedR2 = calculateR2MonthlyCost(proj.optimizedStorageGB);
+      const expectedB2 = calculateB2MonthlyCost(proj.optimizedStorageGB);
+      assert(
+        `Scale tier ${proj.scaleLabel} R2 cost matches canonical formula`,
+        proj.r2CostMonthlyUSD === expectedR2,
+        `Tier: ${proj.scaleLabel}, Stored: ${proj.r2CostMonthlyUSD}, Formula: ${expectedR2}`
+      );
+      assert(
+        `Scale tier ${proj.scaleLabel} B2 cost matches canonical formula`,
+        proj.b2CostMonthlyUSD === expectedB2,
+        `Tier: ${proj.scaleLabel}, Stored: ${proj.b2CostMonthlyUSD}, Formula: ${expectedB2}`
+      );
+    }
+
+    // C. Deduplication Classification & Separation
+    assert(
+      'Canonical entity deduplication ratio is mathematically derived',
+      master.globalCorpusSummary.deduplicatedEntities.value === Math.round(master.globalCorpusSummary.productionEligible.value / 1.19),
+      `Entities: ${master.globalCorpusSummary.deduplicatedEntities.value}`
+    );
+
+    // 11. Checkpoint & Artifact Generation Verification
     const testOutputDir = path.join(process.cwd(), 'content', 'discovery');
     const exportedFiles = exportCorpusInventoryArtifacts(master, testOutputDir);
     assert('Export generated exactly 6 inventory artifacts', exportedFiles.length === 6);

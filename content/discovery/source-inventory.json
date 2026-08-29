@@ -373,9 +373,9 @@
       "other": 0
     },
     "storage": {
-      "knownOriginalBytes": 335879864320,
-      "estimatedOriginalBytes": 421049401344,
-      "estimatedOptimizedBytes": 22248719360,
+      "knownOriginalBytes": 432877338624,
+      "estimatedOriginalBytes": 536999677132.8,
+      "estimatedOptimizedBytes": 42198082232.32,
       "unknownBytesCount": 0
     },
     "licenseDistribution": {

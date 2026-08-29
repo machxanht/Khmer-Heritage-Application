@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-29T14:34:29.753Z",
+  "timestamp": "2026-08-29T15:05:56.718Z",
   "totalAssets": 119288,
   "breakdown": {
     "images": {
@@ -67,7 +67,7 @@
       "compressionRatio": 2
     }
   },
-  "totalKnownBytes": 2141038051328,
-  "totalEstimatedRawBytes": 2655907028664.32,
-  "totalEstimatedOptimizedBytes": 782073950371.84
+  "totalKnownBytes": 2238035525632,
+  "totalEstimatedRawBytes": 2771857304453.12,
+  "totalEstimatedOptimizedBytes": 802023313244.16
 }

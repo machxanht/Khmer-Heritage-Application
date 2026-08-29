@@ -254,9 +254,17 @@ export const VERIFIED_SOURCE_INVENTORIES: Record<string, SourceInventoryEntry> =
       other: 0,
     },
     storage: {
-      knownOriginalBytes: 28600 * 11.2 * 1024 * 1024,
-      estimatedOriginalBytes: 28600 * 14.04 * 1024 * 1024,
-      estimatedOptimizedBytes: 28450 * 763.7 * 1024,
+      knownOriginalBytes: 27170 * 11.2 * 1024 * 1024 + 572 * 40 * 1024 * 1024 + 428 * 180 * 1024 * 1024 + 430 * 20 * 1024 * 1024,
+      estimatedOriginalBytes:
+        27170 * 14.04 * 1024 * 1024 +
+        572 * 45.0 * 1024 * 1024 +
+        428 * 217.0 * 1024 * 1024 +
+        430 * 28.0 * 1024 * 1024,
+      estimatedOptimizedBytes:
+        27170 * 763.7 * 1024 +
+        572 * 2.94 * 1024 * 1024 +
+        428 * 27.13 * 1024 * 1024 +
+        430 * 15.55 * 1024 * 1024,
       unknownBytesCount: 0,
     },
     licenseDistribution: {
@@ -960,6 +968,49 @@ export function calculateB2MonthlyCost(storageGB: number): number {
 }
 
 /**
+ * Canonical Scale Projection Calculator
+ * Models scale tiers using empirical multi-format composition:
+ * 60% Images, 25% Documents, 10% Audio, 5% Video
+ */
+export function calculateScaleProjection(itemCount: number, label: string) {
+  const imgCount = itemCount * 0.6;
+  const docCount = itemCount * 0.25;
+  const audCount = itemCount * 0.1;
+  const vidCount = itemCount * 0.05;
+
+  const imgRawGB = (imgCount * STORAGE_UNIT_METRICS.expected.imagesRaw) / (1024 * 1024 * 1024);
+  const imgOptGB = (imgCount * STORAGE_UNIT_METRICS.expected.imagesOptimized) / (1024 * 1024 * 1024);
+
+  const docRawGB = (docCount * STORAGE_UNIT_METRICS.expected.documentsRaw) / (1024 * 1024 * 1024);
+  const docOptGB = (docCount * STORAGE_UNIT_METRICS.expected.documentsOptimized) / (1024 * 1024 * 1024);
+
+  const audRawGB = (audCount * STORAGE_UNIT_METRICS.expected.audioRaw) / (1024 * 1024 * 1024);
+  const audOptGB = (audCount * STORAGE_UNIT_METRICS.expected.audioOptimized) / (1024 * 1024 * 1024);
+
+  const vidRawGB = (vidCount * STORAGE_UNIT_METRICS.expected.videoRaw) / (1024 * 1024 * 1024);
+  const vidOptGB = (vidCount * STORAGE_UNIT_METRICS.expected.videoOptimized) / (1024 * 1024 * 1024);
+
+  const totalRawGB = imgRawGB + docRawGB + audRawGB + vidRawGB;
+  const totalOptGB = imgOptGB + docOptGB + audOptGB + vidOptGB;
+
+  return {
+    scaleLabel: label,
+    itemCount,
+    rawStorageGB: parseFloat(totalRawGB.toFixed(2)),
+    optimizedStorageGB: parseFloat(totalOptGB.toFixed(2)),
+    mediaBreakdownGB: {
+      images: { raw: parseFloat(imgRawGB.toFixed(2)), optimized: parseFloat(imgOptGB.toFixed(2)) },
+      audio: { raw: parseFloat(audRawGB.toFixed(2)), optimized: parseFloat(audOptGB.toFixed(2)) },
+      video: { raw: parseFloat(vidRawGB.toFixed(2)), optimized: parseFloat(vidOptGB.toFixed(2)) },
+      documents: { raw: parseFloat(docRawGB.toFixed(2)), optimized: parseFloat(docOptGB.toFixed(2)) },
+    },
+    r2CostMonthlyUSD: calculateR2MonthlyCost(totalOptGB),
+    b2CostMonthlyUSD: calculateB2MonthlyCost(totalOptGB),
+    isMeasuredOrProjected: 'PROJECTED' as CorpusInventoryDataClassification,
+  };
+}
+
+/**
  * Compiles the verified master corpus inventory across all 14 sources
  */
 export function compileCorpusInventory(): CorpusInventoryMaster {
@@ -1057,55 +1108,46 @@ export function compileCorpusInventory(): CorpusInventoryMaster {
   // Composition modeled from empirical verified distribution:
   // 60% Images, 25% Documents, 10% Audio, 5% Video
   const scaleTiers = [
-    { label: '10K', count: 10000, classification: 'PROJECTED' as CorpusInventoryDataClassification },
-    { label: '25K', count: 25000, classification: 'PROJECTED' as CorpusInventoryDataClassification },
-    { label: '50K', count: 50000, classification: 'PROJECTED' as CorpusInventoryDataClassification },
-    { label: '100K', count: 100000, classification: 'PROJECTED' as CorpusInventoryDataClassification },
-    { label: '250K', count: 250000, classification: 'PROJECTED' as CorpusInventoryDataClassification },
-    { label: '500K', count: 500000, classification: 'PROJECTED' as CorpusInventoryDataClassification },
-    { label: '1M', count: 1000000, classification: 'PROJECTED' as CorpusInventoryDataClassification },
+    { label: '10K', count: 10000 },
+    { label: '25K', count: 25000 },
+    { label: '50K', count: 50000 },
+    { label: '100K', count: 100000 },
+    { label: '250K', count: 250000 },
+    { label: '500K', count: 500000 },
+    { label: '1M', count: 1000000 },
   ];
 
-  const scaleProjections = scaleTiers.map((tier) => {
-    const imgCount = tier.count * 0.6;
-    const docCount = tier.count * 0.25;
-    const audCount = tier.count * 0.1;
-    const vidCount = tier.count * 0.05;
-
-    const imgRawGB = (imgCount * STORAGE_UNIT_METRICS.expected.imagesRaw) / (1024 * 1024 * 1024);
-    const imgOptGB = (imgCount * STORAGE_UNIT_METRICS.expected.imagesOptimized) / (1024 * 1024 * 1024);
-
-    const docRawGB = (docCount * STORAGE_UNIT_METRICS.expected.documentsRaw) / (1024 * 1024 * 1024);
-    const docOptGB = (docCount * STORAGE_UNIT_METRICS.expected.documentsOptimized) / (1024 * 1024 * 1024);
-
-    const audRawGB = (audCount * STORAGE_UNIT_METRICS.expected.audioRaw) / (1024 * 1024 * 1024);
-    const audOptGB = (audCount * STORAGE_UNIT_METRICS.expected.audioOptimized) / (1024 * 1024 * 1024);
-
-    const vidRawGB = (vidCount * STORAGE_UNIT_METRICS.expected.videoRaw) / (1024 * 1024 * 1024);
-    const vidOptGB = (vidCount * STORAGE_UNIT_METRICS.expected.videoOptimized) / (1024 * 1024 * 1024);
-
-    const totalRawGB = imgRawGB + docRawGB + audRawGB + vidRawGB;
-    const totalOptGB = imgOptGB + docOptGB + audOptGB + vidOptGB;
-
-    return {
-      scaleLabel: tier.label,
-      itemCount: tier.count,
-      rawStorageGB: parseFloat(totalRawGB.toFixed(2)),
-      optimizedStorageGB: parseFloat(totalOptGB.toFixed(2)),
-      mediaBreakdownGB: {
-        images: { raw: parseFloat(imgRawGB.toFixed(2)), optimized: parseFloat(imgOptGB.toFixed(2)) },
-        audio: { raw: parseFloat(audRawGB.toFixed(2)), optimized: parseFloat(audOptGB.toFixed(2)) },
-        video: { raw: parseFloat(vidRawGB.toFixed(2)), optimized: parseFloat(vidOptGB.toFixed(2)) },
-        documents: { raw: parseFloat(docRawGB.toFixed(2)), optimized: parseFloat(docOptGB.toFixed(2)) },
-      },
-      r2CostMonthlyUSD: calculateR2MonthlyCost(totalOptGB),
-      b2CostMonthlyUSD: calculateB2MonthlyCost(totalOptGB),
-      isMeasuredOrProjected: tier.classification,
-    };
-  });
+  const scaleProjections = scaleTiers.map((tier) => calculateScaleProjection(tier.count, tier.label));
 
   const totalRawGBVal = parseFloat((totalEstRawBytes / (1024 * 1024 * 1024)).toFixed(2));
   const totalOptGBVal = parseFloat((totalEstOptimizedBytes / (1024 * 1024 * 1024)).toFixed(2));
+
+  // Production-eligible media assets and delivery storage
+  // Computed from verified open-access sources (Met, Smithsonian, Wikimedia, IA, LOC)
+  const prodImages = 248 + 410 + 27027 + 620 + 2450; // 30,755
+  const prodAudio = 0 + 4 + 569 + 1800 + 420; // 2,793
+  const prodVideo = 0 + 2 + 426 + 450 + 48; // 926
+  const prodDocs = 0 + 0 + 428 + 6306 + 470; // 7,204
+  const prod3D = 12;
+
+  const prodRawBytes =
+    prodImages * STORAGE_UNIT_METRICS.expected.imagesRaw +
+    prodAudio * STORAGE_UNIT_METRICS.expected.audioRaw +
+    prodVideo * STORAGE_UNIT_METRICS.expected.videoRaw +
+    prodDocs * STORAGE_UNIT_METRICS.expected.documentsRaw +
+    prod3D * (45.0 * 1024 * 1024);
+  const prodRawGBVal = parseFloat((prodRawBytes / (1024 * 1024 * 1024)).toFixed(2));
+
+  const prodOptBytes =
+    prodImages * STORAGE_UNIT_METRICS.expected.imagesOptimized +
+    prodAudio * STORAGE_UNIT_METRICS.expected.audioOptimized +
+    prodVideo * STORAGE_UNIT_METRICS.expected.videoOptimized +
+    prodDocs * STORAGE_UNIT_METRICS.expected.documentsOptimized +
+    prod3D * (12.8 * 1024 * 1024);
+  const prodOptGBVal = parseFloat((prodOptBytes / (1024 * 1024 * 1024)).toFixed(2));
+
+  const prodR2Cost = calculateR2MonthlyCost(prodOptGBVal);
+  const prodB2Cost = calculateB2MonthlyCost(prodOptGBVal);
 
   const storageBaseline: StorageBaselineSummary = {
     timestamp: new Date().toISOString(),
@@ -1182,10 +1224,7 @@ export function compileCorpusInventory(): CorpusInventoryMaster {
       primary: {
         name: 'Cloudflare R2 Single-Tier Object Storage (Primary Edge Bucket)',
         type: 'PRIMARY_RECOMMENDATION',
-        estimatedMonthlyCostUSD: calculateR2MonthlyCost(
-          (productionEligible * (STORAGE_UNIT_METRICS.expected.imagesOptimized * 0.6 + STORAGE_UNIT_METRICS.expected.documentsOptimized * 0.25)) /
-            (1024 * 1024 * 1024)
-        ),
+        estimatedMonthlyCostUSD: prodR2Cost,
         pros: [
           'Zero egress fees eliminates variable billing spikes during heavy global/mobile app adoption',
           'Native integration with Cloudflare Edge CDN cache (sub-50ms latency across Southeast Asia)',
@@ -1195,16 +1234,15 @@ export function compileCorpusInventory(): CorpusInventoryMaster {
         cons: [
           'Slightly higher raw storage rate ($0.015 vs $0.006/GB) for ultra-massive cold archival (>10 TB)',
         ],
-        rationale:
-          'For the verified production-eligible corpus of ~41,430 items, the optimized delivery footprint is ~315 GB, costing only $4.58/month on Cloudflare R2 with zero egress risk. Even scaling to 100,000 items costs only $11.28/month. The elimination of egress fees and seamless edge caching makes R2 the mathematically and operationally superior choice.',
+        rationale: `For the verified production-eligible corpus of ${productionEligible.toLocaleString()} items (${(prodImages + prodAudio + prodVideo + prodDocs + prod3D).toLocaleString()} media assets), the optimized delivery footprint is ${prodOptGBVal.toFixed(2)} GB, costing only $${prodR2Cost.toFixed(2)}/month on Cloudflare R2 with zero egress risk. Even scaling to 100,000 items costs only $${calculateScaleProjection(100000, '100K').r2CostMonthlyUSD.toFixed(2)}/month, and 1,000,000 items costs $${calculateScaleProjection(1000000, '1M').r2CostMonthlyUSD.toFixed(2)}/month. The elimination of egress fees and seamless edge caching makes R2 the mathematically and operationally superior choice.`,
       },
       alternative1: {
         name: 'Hybrid Architecture: Cloudflare R2 (CDN Edge Assets) + Backblaze B2 (Cold Archival Vault)',
         type: 'ALTERNATIVE_RECOMMENDATION',
         estimatedMonthlyCostUSD: parseFloat(
           (
-            calculateR2MonthlyCost(totalOptGBVal) +
-            calculateB2MonthlyCost(totalRawGBVal)
+            calculateR2MonthlyCost(prodOptGBVal) +
+            calculateB2MonthlyCost(prodRawGBVal)
           ).toFixed(2)
         ),
         pros: [
@@ -1221,7 +1259,7 @@ export function compileCorpusInventory(): CorpusInventoryMaster {
       alternative2: {
         name: 'Backblaze B2 Primary with Cloudflare CDN via Bandwidth Alliance',
         type: 'ALTERNATIVE_RECOMMENDATION',
-        estimatedMonthlyCostUSD: calculateB2MonthlyCost(totalOptGBVal),
+        estimatedMonthlyCostUSD: prodB2Cost,
         pros: [
           'Lowest nominal storage rate ($0.006/GB-month)',
           'Free egress when routed strictly through Cloudflare DNS proxy under Bandwidth Alliance',

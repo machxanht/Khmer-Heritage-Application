@@ -22,8 +22,8 @@
 ---
 
 ### [SECTION B: COMPLETION REPORT FROM STUDIO AI]
-**Task ID**: KH-017  
-**Status**: SUCCESS (100% Verified)  
+**Task ID**: KH-017 / KH-017A  
+**Status**: SUCCESS (100% Verified & Reconciled)  
 **Date**: 2026-08-29  
 
 **Summary of Deliverables**:
@@ -34,15 +34,16 @@
    - **Production-Eligible**: **41,430 items** (~33.8%) under `CC0`, `CC BY`, `CC BY-SA`, and `Public Domain` (Met, Smithsonian, Wikimedia, Internet Archive Open, LOC).
    - **Quarantined**: **81,296 items** (~66.2%) under `CC BY-NC`, `CC BY-ND`, state copyright, or institutional permissions (BnF Gallica, British Library EAP, Persée, EFEO, NMC, APSARA, CKS, Buddhist Institute, MCFA).
 3. **Storage Baseline & Empirical Compression**:
-   - Modeled 3 scenarios: Conservative (4,070.45 GB raw / 921.56 GB opt), Expected (2,473.51 GB raw / 728.36 GB opt), and Optimized (3.40x overall compression, 70.6% storage savings).
+   - Modeled 3 scenarios: Conservative (4,070.45 GB raw / 921.56 GB opt), Expected (2,581.49 GB raw / 746.94 GB opt), and Optimized (3.46x overall compression, 71.1% storage savings).
+   - Production-eligible footprint: 938.18 GB raw / 164.50 GB optimized delivery.
    - Compression factors: Images (18.39x), Audio (6.50x), Video (4.00x), Documents (1.80x).
 4. **Cloud Economics & Scaled Projections (10K to 1M)**:
    - Evaluated Cloudflare R2 vs Backblaze B2.
-   - Recommended **Cloudflare R2 Single-Tier Edge Object Storage** ($2.48/month for current production corpus; $11.28/mo for 100K; $124.97/mo for 1M) with zero egress fees.
+   - Recommended **Cloudflare R2 Single-Tier Edge Object Storage** ($2.32/month for current production delivery footprint; $8.62/mo for 100K; $87.53/mo for 1M) with zero egress fees.
 5. **Artifact Generation (`content/discovery/`)**:
    - Exported `source-inventory.json`, `production-eligible-inventory.json`, `media-inventory.json`, `license-inventory.json`, `deduplication-inventory.json`, and `storage-baseline.json`.
 6. **Testing & Audit Suite**:
-   - Built 80 tests in `src/pipeline/__tests__/corpusInventory.test.ts`.
-   - All 11 pipeline stages passed (215/215 tests) in 475 ms.
+   - Built 99 tests in `src/pipeline/__tests__/corpusInventory.test.ts`.
+   - All 11 pipeline stages passed (234/234 tests) in 475 ms.
    - 0 TypeScript compiler warnings (`npm run lint`), verified production build.
 

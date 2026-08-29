@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-29T14:34:29.753Z",
+  "timestamp": "2026-08-29T15:05:56.717Z",
   "baselineScenarios": {
     "conservative": {
       "description": "Conservative uncompressed master file sizes (Images 25MB, Audio 60MB, Video 500MB, Docs 35MB)",
@@ -20,8 +20,8 @@
         "video": 227540992,
         "documents": 29360128
       },
-      "totalCorpusRawGB": 2473.51,
-      "totalCorpusOptimizedGB": 728.36
+      "totalCorpusRawGB": 2581.49,
+      "totalCorpusOptimizedGB": 746.94
     },
     "optimized": {
       "description": "Empirical multi-resolution WebP, Opus audio, and AV1 video transformation pipeline",
@@ -31,10 +31,10 @@
         "video": 4,
         "documents": 1.8
       },
-      "totalCorpusRawGB": 2473.51,
-      "totalCorpusOptimizedGB": 728.36,
-      "overallCompressionRatio": 3.4,
-      "storageSavingsPercent": 70.6
+      "totalCorpusRawGB": 2581.49,
+      "totalCorpusOptimizedGB": 746.94,
+      "overallCompressionRatio": 3.46,
+      "storageSavingsPercent": 71.1
     }
   },
   "scaleProjections": [
@@ -247,7 +247,7 @@
     "primary": {
       "name": "Cloudflare R2 Single-Tier Object Storage (Primary Edge Bucket)",
       "type": "PRIMARY_RECOMMENDATION",
-      "estimatedMonthlyCostUSD": 2.48,
+      "estimatedMonthlyCostUSD": 2.32,
       "pros": [
         "Zero egress fees eliminates variable billing spikes during heavy global/mobile app adoption",
         "Native integration with Cloudflare Edge CDN cache (sub-50ms latency across Southeast Asia)",
@@ -257,12 +257,12 @@
       "cons": [
         "Slightly higher raw storage rate ($0.015 vs $0.006/GB) for ultra-massive cold archival (>10 TB)"
       ],
-      "rationale": "For the verified production-eligible corpus of ~41,430 items, the optimized delivery footprint is ~315 GB, costing only $4.58/month on Cloudflare R2 with zero egress risk. Even scaling to 100,000 items costs only $11.28/month. The elimination of egress fees and seamless edge caching makes R2 the mathematically and operationally superior choice."
+      "rationale": "For the verified production-eligible corpus of 41,430 items (41,690 media assets), the optimized delivery footprint is 164.50 GB, costing only $2.32/month on Cloudflare R2 with zero egress risk. Even scaling to 100,000 items costs only $8.62/month, and 1,000,000 items costs $87.53/month. The elimination of egress fees and seamless edge caching makes R2 the mathematically and operationally superior choice."
     },
     "alternative1": {
       "name": "Hybrid Architecture: Cloudflare R2 (CDN Edge Assets) + Backblaze B2 (Cold Archival Vault)",
       "type": "ALTERNATIVE_RECOMMENDATION",
-      "estimatedMonthlyCostUSD": 25.56,
+      "estimatedMonthlyCostUSD": 7.89,
       "pros": [
         "Preserves massive raw uncompressed archival masters (RAW, TIFF, 48kHz WAV) at lowest cost ($0.006/GB)",
         "Retains zero-egress delivery for all active mobile/web client requests via R2"
@@ -276,7 +276,7 @@
     "alternative2": {
       "name": "Backblaze B2 Primary with Cloudflare CDN via Bandwidth Alliance",
       "type": "ALTERNATIVE_RECOMMENDATION",
-      "estimatedMonthlyCostUSD": 4.31,
+      "estimatedMonthlyCostUSD": 0.93,
       "pros": [
         "Lowest nominal storage rate ($0.006/GB-month)",
         "Free egress when routed strictly through Cloudflare DNS proxy under Bandwidth Alliance"

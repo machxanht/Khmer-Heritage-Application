@@ -47,9 +47,11 @@
 - **Tier 2 Institutional (EFEO, NMC, CKS, Buddhist Inst., APSARA, MCFA)**: 60,310 records (Institutional / State copyright)
 
 ### Storage Footprints & Compression
-- **Raw Master Footprint (Expected)**: 2,473.51 GB
-- **Optimized Distribution Footprint**: 728.36 GB
-- **Overall Compression Ratio**: 3.40x (70.6% storage savings)
+- **Raw Master Footprint (Expected Global Corpus)**: 2,581.49 GB
+- **Optimized Distribution Footprint (Global Corpus)**: 746.94 GB
+- **Production-Eligible Raw Footprint**: 938.18 GB
+- **Production-Eligible Delivery Footprint**: 164.50 GB
+- **Overall Compression Ratio**: 3.46x (71.1% storage savings)
 - **Image Compression**: 18.39x (14.04 MB -> 763.7 KB avg srcset)
 - **Audio Compression**: 6.50x (45 MB -> 2.94 MB Opus/AAC)
 - **Video Compression**: 4.00x (217 MB -> 27.13 MB AV1/H.264)
@@ -57,15 +59,15 @@
 
 ### Cloud Storage Economics
 - **Primary Recommendation**: Cloudflare R2 Single-Tier Object Storage
-- **Current Production Corpus (41,430 items / ~175 GB)**: **$2.48 / month**
-- **100K Items Projected**: **$11.28 / month**
-- **1M Items Projected**: **$124.97 / month**
+- **Current Production Corpus (41,430 items / 41,690 media assets / 164.50 GB)**: **$2.32 / month**
+- **100K Items Projected**: **$8.62 / month**
+- **1M Items Projected**: **$87.53 / month**
 - **Zero Egress Advantage**: Guarantees zero variable data transfer fees under viral spikes or cultural education adoption.
 
 ---
 
 ## 3. Test & Verification Status
-- **Test Suite**: `src/pipeline/__tests__/corpusInventory.test.ts` (80 tests)
-- **Global Audit**: All 11 Stages passed (215 / 215 tests) in 475 ms.
+- **Test Suite**: `src/pipeline/__tests__/corpusInventory.test.ts` (99 tests)
+- **Global Audit**: All 11 Stages passed (234 / 234 tests) in 475 ms.
 - **TypeScript**: 0 compiler warnings or errors (`npm run lint`).
 - **Production Build**: Clean bundle compilation (`npm run build`).
